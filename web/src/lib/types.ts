@@ -64,6 +64,8 @@ export interface Quest {
 	races?: string[];
 	classes?: string[];
 	zone?: ZoneRef;
+	/** UiMapId of the quest's zone (WoW map API); missing for categories */
+	uiMapId?: number;
 	type?: string;
 	suggestedPlayers?: number;
 	timeLimit?: number;

@@ -47,5 +47,9 @@
         "96638": { "_name": "The Adventurer (leaves the island)", "preQuestSingle": [92472] }
       }
     }
-  ]
+  ],
+  "areaUiMaps": {
+    "_comment": "AreaTable id -> UiMapId for quest zones the automatic resolution misses (see build.py area_ui_map)",
+    "1417": 220
+  }
 }

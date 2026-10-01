@@ -88,6 +88,13 @@ make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
 
 Die Feldnamen entsprechen den JSON-Daten der Webseite (siehe `web/src/lib/types.ts`).
 
+**`zone` und `uiMapId` bei Quests:** `zone` ist die AreaTable-ID (wie in QuestieDB/VMangos, negativ für
+Kategorien wie Klassen oder Berufe). `uiMapId` ist die Karte dieser Zone für die WoW-Karten-API
+(`C_Map`), z. B. Nordhaintal (`zone = 9`) → Wald von Elwynn (`uiMapId = 1429`). Sie wird bestimmt aus
+der QuestieDB-Zuordnung, sonst über die übergeordnete Zone (QuestieDB, VMangos), eigene Einträge in
+`etl/corrections/<flavor>.json` (`areaUiMaps`) oder den Standort der Questgeber. Kategorien und Zonen
+ohne eigene Karte (Blackrockberg, Forever-„Crafting“) haben keine `uiMapId`.
+
 ## Aufbau
 
 ```

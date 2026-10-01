@@ -1,0 +1,10 @@
+{
+  "_comment": [
+    "Project-side corrections for the Classic Era flavor, applied by etl/build.py (same format as forever.json)."
+  ],
+  "groups": [],
+  "areaUiMaps": {
+    "_comment": "AreaTable id -> UiMapId for quest zones the automatic resolution misses (see build.py area_ui_map)",
+    "1417": 220
+  }
+}

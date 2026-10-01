@@ -36,7 +36,7 @@ export function textVarFor(varName: string): string {
 /** Top-level fields of each record type, in display order (see types.ts). */
 export const FIELDS: Record<ExportType, string[]> = {
 	quest: [
-		'name', 'level', 'reqLevel', 'maxLevel', 'side', 'races', 'classes', 'zone', 'type',
+		'name', 'level', 'reqLevel', 'maxLevel', 'side', 'races', 'classes', 'zone', 'uiMapId', 'type',
 		'suggestedPlayers', 'timeLimit', 'repeatable', 'objectivesText', 'details', 'progress',
 		'completion', 'endText', 'starters', 'enders', 'objectives', 'providedItem', 'requiredItems',
 		'chain', 'requirements', 'rewards', 'spawns', 'questline', 'sources'

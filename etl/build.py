@@ -100,10 +100,15 @@ class Flavor:
         Uses QuestieDB's field names; keys starting with "_" are documentation only.
         """
         path = ROOT / "etl" / "corrections" / f"{self.site_id}.json"
+        self.area_ui_map_overrides = {}
         if not path.exists():
             return
+        corrections = json.loads(path.read_text(encoding="utf-8"))
+        self.area_ui_map_overrides = {
+            int(k): v for k, v in corrections.get("areaUiMaps", {}).items() if not k.startswith("_")
+        }
         applied = 0
-        for group in json.loads(path.read_text(encoding="utf-8"))["groups"]:
+        for group in corrections.get("groups", []):
             for quest_id, fields in group["quests"].items():
                 quest = self.quests.get(int(quest_id))
                 if quest is None:
@@ -129,6 +134,59 @@ class Flavor:
             print("  client cache texts: " + ", ".join(f"{loc} {len(q)}" for loc, q in out.items()),
                   file=sys.stderr)
         return out
+
+    # ------------------------------------------------------------------ uiMap of a quest zone
+
+    CONTINENT_UI_MAPS = {946, 947, 1414, 1415}
+
+    def area_ui_map(self, area_id):
+        """UiMapId for a quest's zone (AreaTable id), or None.
+
+        1. QuestieDB's area -> uiMap table   2. own override (corrections "areaUiMaps")
+        3. parent zone (QuestieDB sub-zone table, VMangos area_template.zone_id)
+        4. where the zone's quest givers stand, if one non-continent map clearly dominates
+        """
+        if not hasattr(self, "_area_ui_maps"):
+            self._area_ui_maps = {}
+        if area_id in self._area_ui_maps:
+            return self._area_ui_maps[area_id]
+        self._area_ui_maps[area_id] = None  # guards against parent cycles
+        result = None
+        zone = self.zones.get(area_id) or {}
+        if zone.get("uiMapId"):
+            result = zone["uiMapId"]
+        elif area_id in self.area_ui_map_overrides:
+            result = self.area_ui_map_overrides[area_id]
+        else:
+            vm_area = self.vm.areas.get(area_id) or {}
+            for parent in (zone.get("parent"), vm_area.get("zone_id")):
+                if parent and parent != area_id:
+                    result = self.area_ui_map(parent)
+                    if result:
+                        break
+            if not result:
+                result = self._ui_map_from_givers(area_id)
+        self._area_ui_maps[area_id] = result
+        return result
+
+    def _ui_map_from_givers(self, area_id):
+        votes = defaultdict(int)
+        for q in self.quests.values():
+            if q.get("zoneOrSort") != area_id:
+                continue
+            starters = q.get("startedBy") or []
+            for kind, ids in zip(("npc", "object"), starters[:2]):
+                source = self.npcs if kind == "npc" else self.objects
+                for entity_id in ids or []:
+                    for spawn_area in (source.get(entity_id) or {}).get("spawns") or {}:
+                        ui_map = (self.zones.get(int(spawn_area)) or {}).get("uiMapId")
+                        if ui_map and ui_map not in self.CONTINENT_UI_MAPS:
+                            votes[ui_map] += 1
+        total = sum(votes.values())
+        if total < 2:
+            return None
+        best = max(votes, key=votes.get)
+        return best if votes[best] * 3 >= total * 2 else None
 
     # ------------------------------------------------------------------ indexes
 
@@ -441,6 +499,7 @@ class Flavor:
             "races": C.bitmask_names(races, C.RACES) if races and not is_full_side(races) else None,
             "classes": C.bitmask_names(q.get("requiredClasses") or 0, C.CLASSES) or None,
             "zone": self.zone_ref(q.get("zoneOrSort")),
+            "uiMapId": self.area_ui_map(q["zoneOrSort"]) if (q.get("zoneOrSort") or 0) > 0 else None,
             "objectivesText": q.get("objectivesText"),
             "starters": givers("startedBy"),
             "enders": givers("finishedBy"),
