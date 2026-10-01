@@ -11,6 +11,7 @@ spawns). VMangos fills in what QuestieDB lacks: quest texts, rewards, item stats
 
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -878,9 +879,10 @@ def is_full_side(races):
 
 def git_rev(path):
     try:
-        return subprocess.check_output(["git", "-C", str(path), "log", "-1", "--format=%h %cs"], text=True).strip()
+        return subprocess.check_output(["git", "-C", str(path), "log", "-1", "--format=%h %cs"], text=True,
+                                       stderr=subprocess.DEVNULL).strip()
     except (OSError, subprocess.CalledProcessError):
-        return None
+        return os.environ.get("QUESTIE_REV") or None  # e.g. Docker builds without .git
 
 
 def main():

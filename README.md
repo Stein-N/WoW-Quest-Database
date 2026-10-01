@@ -120,7 +120,31 @@ versorgen Liste, Suche und Zonenseiten.
 
 `web/build/` ist eine rein statische Seite und braucht keine Server-Konfiguration. Die URLs
 nutzen Hash-Routing (`/#/classic/quest/2`). Den Inhalt von `web/build/` in ein beliebiges
-Webroot kopieren (nginx, Apache, Caddy …).
+Webroot kopieren (nginx, Apache, Caddy …), oder das Docker-Image verwenden.
+
+### Docker (Homeserver)
+
+Das `Dockerfile` baut alles im Container: QuestieDB-Export (Lua 5.1), Download des aktuellen
+VMangos-Snapshots, Zusammenführen der Daten und die Webseite. Ausgeliefert wird nur die fertige
+Seite über nginx (`docker/nginx.conf`, mit gzip und Caching). Es läuft auf x86-64 und ARM64.
+
+```sh
+git submodule update --init          # QuestieDB muss ausgecheckt sein
+make docker                          # baut das Image "wow-quest-database"
+docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped wow-quest-database
+```
+
+Oder mit Docker Compose (`docker-compose.yml`, Port 8080):
+
+```sh
+QUESTIE_REV="$(git -C vendor/QuestieDB log -1 --format='%h %cs')" docker compose up -d --build
+```
+
+`QUESTIE_REV` ist optional und wird nur als Datenstand auf der Startseite angezeigt.
+
+**Daten aktualisieren:** `git submodule update --remote vendor/QuestieDB`, dann neu bauen.
+Den VMangos-Snapshot cached Docker. Einen neueren Snapshot holt
+`docker build --no-cache -t wow-quest-database .`.
 
 ## Lizenz
 

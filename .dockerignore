@@ -1,0 +1,10 @@
+# everything generated is rebuilt inside the image
+.git
+**/node_modules
+web/build
+web/.svelte-kit
+web/static/data
+build
+vendor/vmangos
+__pycache__
+**/*.pyc

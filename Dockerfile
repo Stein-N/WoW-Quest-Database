@@ -1,0 +1,51 @@
+# WoW Quest Database — static site served by nginx.
+#
+#   git submodule update --init          # QuestieDB must be checked out
+#   make docker                          # or: docker build -t wow-quest-database .
+#   docker run -d -p 8080:80 --restart unless-stopped wow-quest-database
+#
+# The data is built inside the image: QuestieDB (from vendor/QuestieDB) is exported with
+# Lua 5.1, the latest VMangos world DB snapshot is downloaded, both are merged. Map images
+# come from web/static/maps in the repository.
+
+# ---------------------------------------------------------------- 1. data
+FROM python:3.12-slim AS data
+
+# lua5.1 from Debian instead of QuestieDB's bundled x86-64 binary, so ARM hosts work too
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends lua5.1 make ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /src
+
+# VMangos snapshot first: this layer stays cached until the fetch script changes.
+# Use `docker build --no-cache-filter vmangos` (or --no-cache) to pull a newer snapshot.
+COPY etl/fetch_vmangos.py etl/fetch_vmangos.py
+RUN python3 etl/fetch_vmangos.py vendor/vmangos
+
+COPY Makefile QuestRewards.lua ./
+COPY etl etl
+COPY vendor/QuestieDB vendor/QuestieDB
+RUN test -f vendor/QuestieDB/src/config.lua \
+ || { echo "vendor/QuestieDB is empty - run 'git submodule update --init' before building"; exit 1; }
+
+# shown on the site as the QuestieDB version (the submodule's .git is not in the build context)
+ARG QUESTIE_REV=""
+ENV QUESTIE_REV=${QUESTIE_REV}
+RUN make questie LUA=lua5.1 && make site-data
+
+# ---------------------------------------------------------------- 2. site
+FROM node:24-alpine AS site
+WORKDIR /src/web
+COPY web/package.json web/package-lock.json ./
+RUN npm ci
+COPY web ./
+COPY --from=data /src/web/static/data ./static/data
+RUN npm run build
+
+# ---------------------------------------------------------------- 3. serve
+FROM nginx:1.27-alpine
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=site /src/web/build /usr/share/nginx/html
+EXPOSE 80
+HEALTHCHECK --interval=60s --timeout=5s CMD wget -qO /dev/null http://127.0.0.1/ || exit 1

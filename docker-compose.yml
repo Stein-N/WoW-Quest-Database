@@ -1,0 +1,15 @@
+# Home server deployment:
+#   git submodule update --init
+#   QUESTIE_REV="$(git -C vendor/QuestieDB log -1 --format='%h %cs')" docker compose up -d --build
+# Site: http://<server>:8080
+services:
+  wow-quest-database:
+    build:
+      context: .
+      args:
+        QUESTIE_REV: ${QUESTIE_REV:-}
+    image: wow-quest-database:latest
+    container_name: wow-quest-database
+    ports:
+      - "8080:80"
+    restart: unless-stopped
