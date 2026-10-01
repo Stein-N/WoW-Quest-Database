@@ -248,6 +248,8 @@ jobs:
           VERSION: ${{ steps.version.outputs.next }}
           IMAGE: ${{ steps.version.outputs.image }}
         run: |
+          # app icon for ZimaOS/CasaOS, embedded so it needs no public URL (the repository is private)
+          icon="data:image/png;base64,$(base64 -w0 docker/icon.png)"
           cat > dist/docker-compose.yml <<EOF
           # WoW Quest Database ${VERSION}
           #
@@ -258,6 +260,7 @@ jobs:
           # read:packages:  echo <TOKEN> | docker login ghcr.io -u <github-user> --password-stdin
           # Alternatively load the image file from this release first (no login needed):
           #   gunzip -c ${IMAGE_NAME}-${VERSION}-amd64.tar.gz | docker load
+          name: wow-quest-database
           services:
             wow-quest-database:
               image: ${IMAGE}:${VERSION}
@@ -265,6 +268,26 @@ jobs:
               ports:
                 - "8080:80"
               restart: unless-stopped
+
+          # App metadata for ZimaOS / CasaOS (title, icon, web UI port)
+          x-casaos:
+            architectures:
+              - amd64
+              - arm64
+            main: wow-quest-database
+            author: Stein-N
+            category: Utilities
+            title:
+              en_US: WoW Quest Database
+            tagline:
+              en_US: Quests, NPCs, objects and items for WoW Classic Era and WoW Forever
+            description:
+              en_US: Quest database for WoW Classic Era and WoW Forever with maps, questlines and Lua export.
+            icon: ${icon}
+            index: /
+            port_map: "8080"
+            scheme: http
+            version: "${VERSION}"
           EOF
           docker compose -f dist/docker-compose.yml config --quiet
           cat dist/docker-compose.yml

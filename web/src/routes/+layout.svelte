@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import { page } from '$app/state';
 	import { LOCALES, settings } from '$lib/settings.svelte';
 	import { FLAVOR_LABELS } from '$lib/format';
@@ -29,13 +28,14 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	<title>WoW Quest Database</title>
 </svelte:head>
 
 <header>
 	<div class="bar">
-		<a class="brand" href="#/{flavor}">Quest Database</a>
+		<a class="brand" href="#/{flavor}"><img src="logo.png" alt="" width="28" height="28" />Quest Database</a>
 		<nav>
 			<a href="#/{flavor}/quests">Quests</a>
 			<a href="#/{flavor}/questlines">Questlines</a>
@@ -86,6 +86,9 @@
 		gap: 0.5rem 1rem;
 	}
 	.brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
 		font-weight: 700;
 		color: var(--accent);
 		font-size: 1.05rem;
