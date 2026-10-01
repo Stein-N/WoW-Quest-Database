@@ -1,5 +1,8 @@
 """Exports the merged site data (QuestieDB + VMangos) as Lua tables, e.g. for an addon.
 
+The website's Export page does the same in the browser (web/src/lib/lua-export.ts); keep
+both producing identical output.
+
     python3 etl/export_lua.py --flavor forever --type quest --fields name,level,rewards
     python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE -o npcs.lua
     python3 etl/export_lua.py --flavor forever --type questline --style return

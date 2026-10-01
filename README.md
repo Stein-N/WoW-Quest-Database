@@ -22,7 +22,9 @@ make update    # neueste QuestieDB- und VMangos-Daten holen und neu bauen
 
 `etl/export_lua.py` schreibt die zusammengeführten Daten (QuestieDB + VMangos) als Lua-Tabellen,
 standardmäßig im Addon-Format wie `QuestRewards.lua` (`local _, addon = ...` / `addon.<name> = {...}`).
-Voraussetzung ist `make data`.
+Voraussetzung ist `make data`. Dieselbe Funktion gibt es auf der Webseite unter **Export**: Optionen
+wählen, *Generate Lua*, herunterladen oder kopieren. Die Logik steckt in `web/src/lib/lua-export.ts`
+und erzeugt dieselbe Ausgabe wie das Skript.
 
 ```sh
 # alle Forever-Quests

@@ -40,6 +40,7 @@
 			<a href="#/{flavor}/quests">Quests</a>
 			<a href="#/{flavor}/questlines">Questlines</a>
 			<a href="#/{flavor}/zones">Zones</a>
+			<a href="#/{flavor}/export">Export</a>
 		</nav>
 		<form class="search" onsubmit={search} role="search">
 			<input type="search" placeholder="Search quests, NPCs, items, objects…" bind:value={query} />

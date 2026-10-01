@@ -76,3 +76,9 @@ export interface ZoneGiver extends Ref {
 export function getZoneGivers(flavor: string, areaId: number): Promise<{ givers?: ZoneGiver[] }> {
 	return loadOptional(`${flavor}/zone/${areaId}.json`);
 }
+
+/** One shard of entity records (or of their translations when a locale is given). */
+export function getShard<T>(flavor: string, kind: Kind, bucket: number, locale?: string): Promise<Record<string, T>> {
+	const dir = locale && locale !== 'enUS' ? `${flavor}/l10n/${locale}/${kind}` : `${flavor}/${kind}`;
+	return loadOptional<Record<string, T>>(`${dir}/${bucket}.json`);
+}
