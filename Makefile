@@ -14,7 +14,7 @@ VMANGOS  := vendor/vmangos
 SQLITE   := $(VMANGOS)/sqlite-dump/mangos.sqlite
 WOW_DIR  ?= $(HOME)/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft
 
-.PHONY: data submodule questie vmangos site-data dev build maps lua docker questcache clean update
+.PHONY: data submodule questie vmangos site-data dev build maps lua docker questcache wowhead clean update
 
 data: submodule questie vmangos site-data
 
@@ -66,6 +66,10 @@ FLAVOR ?= forever
 CACHE  ?= $(WOW_DIR)/_classic_beta_/Cache/WDB
 questcache:
 	python3 etl/import_questcache.py --flavor $(FLAVOR) "$(CACHE)"
+
+# Missing quest texts from wowhead.com, one quest every 15 s -> etl/corrections/wowhead/<flavor>/
+wowhead:
+	FLAVOR=$(FLAVOR) scripts/wowhead-texts.sh $(QUESTS)
 
 # Lua export of the merged data, see etl/export_lua.py --help
 lua:

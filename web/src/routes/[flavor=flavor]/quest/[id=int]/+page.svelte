@@ -246,7 +246,7 @@
 					{#if q.requirements?.money}<dt>Costs</dt><dd><Money copper={q.requirements.money} /></dd>{/if}
 					<dt>ID</dt><dd>{q.id}</dd>
 					{#if q.uiMapId}<dt>UiMapId</dt><dd>{q.uiMapId}</dd>{/if}
-					<dt>Sources</dt><dd>{q.sources.map((s) => (({ questie: 'QuestieDB', vmangos: 'VMangos', cache: 'WoW client cache' }) as Record<string, string>)[s] ?? s).join(', ')}</dd>
+					<dt>Sources</dt><dd>{q.sources.map((s) => (({ questie: 'QuestieDB', vmangos: 'VMangos', cache: 'WoW client cache', wowhead: 'Wowhead' }) as Record<string, string>)[s] ?? s).join(', ')}</dd>
 				</dl>
 			</section>
 

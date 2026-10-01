@@ -121,19 +121,34 @@ class Flavor:
                 applied += 1
         print(f"  applied {applied} quest corrections from {path.name}", file=sys.stderr)
 
-    def _load_cache_texts(self):
-        """etl/corrections/questcache/<flavor>/<locale>.json -> {locale: {quest id: texts}}.
+    # extra quest text sources, in order of preference; they only fill gaps QuestieDB and VMangos leave
+    TEXT_SOURCES = (("questcache", "cache"), ("wowhead", "wowhead"))
+    EXTRA_TEXT_FIELDS = ("name", "objectivesText", "details", "progress", "completion", "endText")
 
-        Quest texts read from WoW client caches (etl/import_questcache.py); they only fill
-        gaps that QuestieDB and VMangos leave.
+    def _load_cache_texts(self):
+        """{locale: {quest id: {field: text, "_sources": [...]}}} from etl/corrections/<source>/<flavor>/.
+
+        questcache: texts read from WoW client caches (etl/import_questcache.py)
+        wowhead:    texts fetched from wowhead.com (scripts/wowhead-texts.sh)
         """
         out = {}
-        for path in sorted((ROOT / "etl" / "corrections" / "questcache" / self.site_id).glob("*.json")):
-            quests = json.loads(path.read_text(encoding="utf-8"))["quests"]
-            out[path.stem] = {int(k): v for k, v in quests.items()}
-        if out:
-            print("  client cache texts: " + ", ".join(f"{loc} {len(q)}" for loc, q in out.items()),
-                  file=sys.stderr)
+        for folder, label in self.TEXT_SOURCES:
+            counts = {}
+            for path in sorted((ROOT / "etl" / "corrections" / folder / self.site_id).glob("*.json")):
+                quests = json.loads(path.read_text(encoding="utf-8"))["quests"]
+                locale = out.setdefault(path.stem, {})
+                for qid, texts in quests.items():
+                    entry = locale.setdefault(int(qid), {"_sources": []})
+                    used = False
+                    for field in self.EXTRA_TEXT_FIELDS:
+                        if texts.get(field) and not entry.get(field):
+                            entry[field] = texts[field]
+                            used = True
+                    if used:
+                        entry["_sources"].append(label)
+                counts[path.stem] = len(quests)
+            if counts:
+                print(f"  {folder} texts: " + ", ".join(f"{loc} {n}" for loc, n in counts.items()), file=sys.stderr)
         return out
 
     # ------------------------------------------------------------------ uiMap of a quest zone
@@ -521,12 +536,12 @@ class Flavor:
         cached = self.cache_texts.get("enUS", {}).get(qid)
         if cached:
             used = False
-            for field in ("name", "objectivesText", "details", "endText"):
+            for field in self.EXTRA_TEXT_FIELDS:
                 if not r.get(field) and cached.get(field):
                     r[field] = cached[field]
                     used = True
             if used:
-                r["_fromCache"] = True
+                r["_textSources"] = cached["_sources"]
         if (q.get("specialFlags") or 0) & 1:
             r["repeatable"] = True
         r["objectives"] = self._objective_entries(qid, q, vmq, spawns)
@@ -596,7 +611,7 @@ class Flavor:
         line = self.questline_of.get(qid)
         if line is not None:
             r["questline"] = {"id": line["id"], "size": len(line["quests"])}
-        r["sources"] = ["questie"] + (["vmangos"] if vmq is not None else []) + (["cache"] if r.pop("_fromCache", False) else [])
+        r["sources"] = ["questie"] + (["vmangos"] if vmq is not None else []) + r.pop("_textSources", [])
         return {k: v for k, v in r.items() if v is not None}
 
     def _previous_in_chain(self, qid):
@@ -989,7 +1004,7 @@ class Flavor:
                             if v:
                                 entry["objectivesText"] = [v]
                         cached = self.cache_texts.get(locale, {}).get(entity_id, {})
-                        for field in ("objectivesText", "details", "endText"):
+                        for field in ("objectivesText", "details", "progress", "completion", "endText"):
                             if field not in entry and cached.get(field):
                                 entry[field] = cached[field]
                     elif kind == "npc":

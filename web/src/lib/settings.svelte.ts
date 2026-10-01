@@ -6,6 +6,7 @@ export const LOCALES: Record<string, string> = {
 	frFR: 'Français',
 	esES: 'Español (EU)',
 	esMX: 'Español (AL)',
+	itIT: 'Italiano',
 	ptBR: 'Português',
 	ruRU: 'Русский',
 	koKR: '한국어',
