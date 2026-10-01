@@ -1,6 +1,8 @@
 {
  "_comment": "Player character names found in Wowhead texts; replaced with $N by etl/wowhead_texts.py.",
  "names": [
-  "Мэйнард"
+  "Душелов",
+  "Мэйнард",
+  "Шаманко"
  ]
 }

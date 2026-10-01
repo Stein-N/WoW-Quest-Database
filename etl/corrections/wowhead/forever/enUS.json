@@ -6,6 +6,12 @@
    "details": "Farming is thirsty work, and I'm always looking for refreshing spring water.$B$BIf you have any, then I'm willing to make a trade.$BRefreshing Spring Water (1)",
    "completion": "Thanks, $N! And come back if you want to trade again.",
    "fetched": "2026-10-01"
+  },
+  "247": {
+   "name": "The Hunt Completed",
+   "completion": "$N, you have slain all three beasts that comprise the Ashenvale Hunt. You have brought me adequate proof of their demise; there is no question of your strength and tenacity. The blood of a hunter streaks through your veins, and you should be commended!$B$BPlease, accept this bauble as a sign of congratulations on your mighty deeds done in Ashenvale for the Horde today. May your ancestors watch over you!",
+   "fetched": "2026-10-01",
+   "v": 2
   }
  }
 }

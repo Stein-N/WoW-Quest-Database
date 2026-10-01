@@ -6,6 +6,12 @@
    "details": "El trabajo en la granja es agotador, por eso intento siempre tener una buena reserva de agua de manantial que ayude a soportarlo.$B$BSi tienes algo de agua, podríamos hacer un intercambio.$BAgua de manantial refrescante (1)",
    "completion": "¡Gracias, $N! Y vuelve si quieres hacer otro intercambio.",
    "fetched": "2026-10-01"
+  },
+  "247": {
+   "name": "El fin de la Caza",
+   "completion": "$N, has dado muerte a las tres bestias que comprenden la caza de Vallefresno. Me has traído prueba suficiente de su derrota; no cabe la menor duda acerca de tu fuerza y tenacidad. Por tus venas corre la sangre de un cazador ¡y mereces los más elevados elogios!$B$BTe ruego aceptes este adorno como muestra de reconocimiento a tus descomunales esfuerzos realizados en Vallefresno para la Horda hoy. ¡Que tus ancestros estén contigo!",
+   "fetched": "2026-10-01",
+   "v": 2
   }
  }
 }

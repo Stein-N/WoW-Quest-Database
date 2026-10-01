@@ -122,14 +122,6 @@
    "completion": "Obrigado, $N! E volte mais vezes se quiser negociar de novo!",
    "fetched": "2026-10-01"
   },
-  "17": {
-   "name": "Busca pelos reagentes de Uldaman",
-   "objectivesText": [
-    "Leve 12 Campânulas de Fungo Magenta para Ghak Toquecura em Thelsamar."
-   ],
-   "details": "Ouvi falar de uma planta recém-descoberta chamada de campânula de fungo magenta. Elas crescem em aglomerados, no fundo do sítio de escavação de Uldaman — pode haver delas em outro lugar, mas é lá que eu tenho certeza de que você vai encontrá-las. Eu quero estudar seu uso potencial em alquimia, e é aí que você entra.$B$BEncontre os aglomerados de campânula de fungo magenta e me traga uma dúzia. Mas esteja ciente de que os aglomerados podem espalhar esporos venenosos se forem chacoalhados.$B$BFaça isso para mim, e vou preparar uma leva de um dos meus famosos elixires restauradores para você!",
-   "fetched": "2026-10-01"
-  },
   "18": {
    "name": "Irmandade dos Ladrões",
    "objectivesText": [
@@ -217,22 +209,6 @@
    "completion": "Saudações, jovem $C. Chegou a hora de aprender a usar a sua forma aquática. É a forma que permite que você se movimente de forma livre embaixo d'água, por tempo indeterminado. Você verá que esse aspecto é uma bênção muito útil... mas para dominá-lo, você tem que merecer.$B$BVocê terá que superar duas provações. A primeira testa sua habilidade de trabalhar sob pressão debaixo d'água. A segunda testa sua determinação para compreender os aspectos da própria forma.$B$BPrepare-se, pois a hora da provação chegou.",
    "fetched": "2026-10-01"
   },
-  "27": {
-   "name": "Uma lição a aprender",
-   "objectivesText": [
-    "Fale com Dendrite Stellardor no vilarejo de Refúgio Noturno, na Clareira da Lua."
-   ],
-   "details": "$N, tenho acompanhado seu progresso com grande alegria. Você está mesmo se tornando <um/uma> protet<or/ora> e tanto da natureza.$B$BAgora chegou a sua hora de aprender mais sobre um dos muitos aspectos animais nos quais, pela graça de Cenarius, nós podemos nos transformar – o aspecto que concede o comando e a maestria da água. Para isso, você precisa viajar para a cidade de Refúgio Noturno, que fica na Clareira da Lua, e falar com Dendrite Stellardor no Círculo Cenariano. Ele lhe informará dos seus próximos passos.",
-   "fetched": "2026-10-01"
-  },
-  "28": {
-   "name": "A prova do lago",
-   "objectivesText": [
-    "Encontre um Adorno de Altar no Lago Eluna'ara e leve-o para o Santuário de Remulos, na parte noroeste da Clareira da Lua. Use o Adorno de Altar lá dentro.$B$BVocê terá que falar com Tajarri, lá no santuário mesmo, para concluir a prova."
-   ],
-   "details": "Na sua primeira prova, você mergulhará nas profundezas do Lago Eluna'ara, atrás de um Adorno de Altar. Ele se desmancha bem rápido, então trate de levá-lo correndo para o Santuário de Remulos. Use o adorno dentro do santuário, depois fale com Tajarri lá mesmo. Ela é uma das guardiãs mais respeitadas pela Clareira da Lua.$B$BVocê não terá muito tempo para concluir a tarefa e talvez esteja competindo pelos adornos com outros druidas. Destreza física e mental serão essenciais para triunfar.$B$BBoa sorte, $N.",
-   "fetched": "2026-10-01"
-  },
   "29": {
    "name": "A prova do lago",
    "objectivesText": [
@@ -241,22 +217,6 @@
    "details": "Na sua primeira prova, você mergulhará nas profundezas do Lago Eluna'ara, atrás de um Adorno de Altar. Ele se desmancha bem rápido, então trate de levá-lo correndo para o Santuário de Remulos. Use o adorno dentro do santuário, depois fale com Tajarri lá mesmo. Ela é uma das guardiãs mais respeitadas pela Clareira da Lua.$B$BVocê não terá muito tempo para concluir a tarefa e talvez esteja competindo pelos adornos com outros druidas. Destreza física e mental serão essenciais para triunfar.$B$BBoa sorte, $N.",
    "progress": "Para passar na prova do lago, você tem que usar o Adorno de Altar dentro dos limites do santuário. Enquanto não fizer isso, não poderá concluir a prova e correrá o risco de fracassar nela.",
    "completion": "Muito bem, pelo visto mais um druida passou na prova do lago! Muito bem, minha jovem... muito bem.$B$BComo eu já disse, meu nome é Tajarri. É meu dever e grande privilégio servir como guardiã da Clareira da Lua e deste santuário, mais precisamente. O Guardião Remulos orienta o Círculo Cenariano na preservação da natureza e do equilíbrio, o santuário serve para lhe prestar tributo. Usar o adorno aqui dentro é uma forma de reconhecer a importância deste lugar para o Círculo.",
-   "fetched": "2026-10-01"
-  },
-  "30": {
-   "name": "Missão do leão marinho",
-   "objectivesText": [
-    "Encontre o Meio-pingente da Agilidade Aquática e o Meio-pingente da Resistência Aquática. Fale com os residentes da Clareira da Lua para obter pistas de onde esse itens podem estar.$B$BForme o Pingente do Leão Marinho a partir das duas metades. Você precisa estar perto do Santuário de Remulos para fazer isso.$B$BLeve o pingente reunido ao Dendrite Stellardor na vila de Refúgio Noturno, que fica na Clareira da Lua."
-   ],
-   "details": "Para a segunda prova, você vai precisar das duas metades que formam o Pingente do Leão Marinho. Uma delas extrai poder do aspecto da agilidade do leão marinho, que desliza pela água. A outra extrai poder do aspecto da inacreditável resistência do leão marinho. Os druidas se valem igualmente das duas características para encarnar o aspecto de sua forma aquática.$B$BFale com os moradores da Clareira da Lua para saber onde as partes podem estar, e traga ambas para cá, onde podemos reuni-las. Quando o pingente estiver formado, leve para Dendrite Stellardor.",
-   "fetched": "2026-10-01"
-  },
-  "31": {
-   "name": "Forma aquática",
-   "objectivesText": [
-    "Volte ao Penhasco do Trovão e mostre a Turak Runa Totem o Pingente do Leão Marinho."
-   ],
-   "details": "Você completou as lições necessárias que todos os jovens druidas aprendem antes poderem adotar um aspecto aquático. Vá reencontrar seu treinador, Turak Runa Totem, no Penhasco do Trovão. Mostre-lhe o seu pingente e prove que você está <pronto/pronta> para aprender o que ele tem para lhe ensinar. Ele completará seu treinamento, permitindo que você entre em harmonia com a água.$B$BAdeus, jovem <druida/druidesa>. Nos encontraremos novamente.",
    "fetched": "2026-10-01"
   },
   "32": {
@@ -374,38 +334,6 @@
    "completion": "Obrigado pelo pó, pelo pó, $N. Aqui está seu dinheiro, dinheiro, e... aqui, uma lembrança dos meus associados, associados. Talvez você ache útil, útil.",
    "fetched": "2026-10-01"
   },
-  "48": {
-   "name": "Doce âmbar",
-   "objectivesText": [
-    "Leve Água da Fonte Abençoada para Canabraba Cervaforte."
-   ],
-   "details": "Na terra ao sul, onde as vinhas se esgueiram e se retorcem$BFica um poço oculto onde águas profundas correm$BPuras como da Luz a Filha sagrada$BTraga-me agora a Água da Fonte Abençoada.",
-   "fetched": "2026-10-01"
-  },
-  "49": {
-   "name": "Doce âmbar",
-   "objectivesText": [
-    "Canabraba Cervaforte quer um Saco de Cevada, um Saco de Centeio e um Saco de Milho."
-   ],
-   "details": "Âmbar é a cor do meu amor mais profundo$BEla gesta o sabor mais incrível do mundo$BPara que eu faça nascer a cerveja amada$BQuero sacos de centeio, milho e cevada.",
-   "fetched": "2026-10-01"
-  },
-  "50": {
-   "name": "Doce âmbar",
-   "objectivesText": [
-    "Canabraba Cervaforte quer Veraprata."
-   ],
-   "details": "Mexe, mexe o doce mosto$BPra brassar ao nosso gosto$BDe metal forte será o destilador$BMas só a Veraprata agrega valor.",
-   "fetched": "2026-10-01"
-  },
-  "51": {
-   "name": "Doce âmbar",
-   "objectivesText": [
-    "Leve um Galho de Plátano para Canabraba Cervaforte."
-   ],
-   "details": "Como o solo recém-arado à espera da semente$BÉ nosso líquido destilado, resta a filtragem somente.$BAgora precisamos de uma bela pilha de carvão.$BTrazer um galho de plátano é a sua nova missão.",
-   "fetched": "2026-10-01"
-  },
   "52": {
    "name": "Proteja a fronteira",
    "objectivesText": [
@@ -413,14 +341,6 @@
    ],
    "details": "Saudações, $N. Os animais selvagens ficam mais agressivos à medida que nos afastamos de Vila d'Ouro. A Madeireira Vale do Leste está sofrendo com os ataques constantes de lobos e ursos!$B$BUma ajuda aqui seria bem-vinda.",
    "completion": "Muito obrigado pela ajuda, $N. Tem alguma coisa na floresta deixando esses bichos afoitos...$B$BO que quer que seja, espero que continue por lá.",
-   "fetched": "2026-10-01"
-  },
-  "53": {
-   "name": "Doce âmbar",
-   "objectivesText": [
-    "Leve uma braçada de Carvalho Calcinado para Canabraba Cervaforte."
-   ],
-   "details": "Maná cristalino feito choro de menino$BO tempo anda, vai ficando cor de âmbar$BGuardado num barril calcinado de carvalho$BQuem bebe desse mel fica louco pra caramba.",
    "fetched": "2026-10-01"
   },
   "54": {
@@ -507,14 +427,6 @@
    ],
    "details": "A mina de Vila Norte não é a única com problemas! Tenho relatórios aqui dizendo que a Mina Vailafundo, em Elwynn, também se tornou um antro de kobolds.$B$BExplore a mina, confirme esses relatórios e volte a falar comigo. A mina fica ao sul de Vila d'Ouro, entre as fazendas Campedra e Madruga.",
    "completion": "Essas são más notícias. Daqui a pouco vão ser dragões... Vamos ter que aumentar a patrulha perto da mina. Obrigado, $N. E espere um pouco aí... Acho que tenho outra tarefa pra você.",
-   "fetched": "2026-10-01"
-  },
-  "63": {
-   "name": "Clamor da água",
-   "objectivesText": [
-    "Derrote a Manifestação da Água Corrompida e deposite as Braçadeiras da Manifestação Corrompida junto com as Gotas Restantes da Mais Pura Água no Braseiro da Fonteterna, que fica na Floresta de Pinhaprata."
-   ],
-   "details": "No litoral de Pinhaprata, a oeste do Sepulcro, você vai encontrar um altar que foi maculado pela peste. Os espíritos de lá não falam mais com o nosso povo, por isso cabe a você derrotar a manifestação e purificar a lagoa.$B$BPegue as braçadeiras dos elementais e as últimas gotas da poção de Salma e deposite no braseiro. O ritual deve bastar para evocar um espírito puro com que você possa se comunicar.$B$BTraga uma prova de que a tarefa foi cumprida e eu lhe recompensarei com o seu totem.",
    "fetched": "2026-10-01"
   },
   "64": {
@@ -819,14 +731,6 @@
    "completion": "Há um montinho de terra aqui, feito às pressas, como se alguém estivesse escondendo alguma coisa... e estivesse sem tempo.",
    "fetched": "2026-10-01"
   },
-  "96": {
-   "name": "Clamor da água",
-   "objectivesText": [
-    "Leve o Estilhaço de Água para Islen Vidente da Água nos Sertões."
-   ],
-   "details": "Pega estilhaço. Pega estilhaço e dá vida.$B$BDá vida e compreende. Compreende água é vida, corrupção extingue vida.$B$BVocê protege e dá vida com poder da água.",
-   "fetched": "2026-10-01"
-  },
   "97": {
    "name": "A lenda de Galvão",
    "objectivesText": [
@@ -854,14 +758,6 @@
    "details": "Quanto mais aprendo sobre a magia de Arugal, maior o meu desprezo por aquele tolo desafortunado. Estou prestes a terminar minha pesquisa sobre o suposto remédio dele.$B$BMeu conhecimento estará completo quando descobrir qual é o encantamento que está causando um comportamento anômalo no Vilarejo Lenhardente. Durante o dia, os camponeses parecem ser humanos. Mas, assim que o sol se põe, os aldeões se transformam em Worgens Lunafúria.$B$BPreciso extrair energia das grilhas encantadas que Arugal usou neles. Traga-me seis Grilhas de Lenhardente encantadas, $N.",
    "progress": "Já conseguiu as Grilhas de Lenhardente, $N?",
    "completion": "Sua persistência é impressionante. Com o conhecimento que você me ajudou a reunir, Arugal cairá e a magia irresponsável dele vai se dissipar. Meus sinceros cumprimentos, $N.",
-   "fetched": "2026-10-01"
-  },
-  "100": {
-   "name": "O clamor da Água",
-   "objectivesText": [
-    "Fale com a Manifestação Menor da Água na Floresta de Pinhaprata."
-   ],
-   "details": "Ao encerrar o encantamento, um clarão ilumina a cena. Não se ouve mais o barulho das gotas d'água caindo nas chamas, e a destruição dos espíritos corrompidos à sua volta domina todos os seus sentidos.",
    "fetched": "2026-10-01"
   },
   "101": {
@@ -1527,22 +1423,6 @@
    "completion": "Se esses problemas que tivemos são indício do que tem acontecido em outros cantos da nossa terra, pelas barbas do Magni, vem coisa feia aí! Tomara que o rei e o senado estejam fazendo alguma coisa de verdade pra mitigar a ameaça desses troggs xucros.",
    "fetched": "2026-10-01"
   },
-  "171": {
-   "name": "[A Warden of the Alliance]",
-   "objectivesText": [
-    "[Return your ward to the Stormwind orphanage by handing in the Human Orphan Whistle to Orphan Matron Nightingale in the Cathedral District.]"
-   ],
-   "details": "[You have been so very kind to me, $N. I never dreamed that I'd have so much fun during Children's Week. Thank you. I don't wanna be sad about what's happened to me and all - my folks always told me to rise above anything bad that happens. You know, when I grow up I wanna be a hero... just like you.$B$BI'm sad to say this, but it's time for me to go home. Let's go back and I'll tell the matron what an awesome person you are!]",
-   "fetched": "2026-10-01"
-  },
-  "172": {
-   "name": "A Semana das Crianças",
-   "objectivesText": [
-    "Use o Apito de Órfão Orc para conversar com a criança de quem você vai cuidar durante a Semana da Criança."
-   ],
-   "details": "Você está <disposto/disposta> a nos ajudar aqui no orfanato? <Abençoado/Abençoada> seja, <amigo/amiga>. Sua ajuda durante a Semana das Crianças será inestimável.$B$BPegue esse apito. Você só poderá usá-lo por um curto período de tempo – durante a Semana das Crianças apenas. Usando o apito, você poderá interagir com a criança de quem você tomará conta. Use o apito novamente para dispensar a criança.$B$BPor favor, $N, use o apito e chame sua protegida. Tenho certeza de que ela está ansiosa para conhecer você.",
-   "fetched": "2026-10-01"
-  },
   "173": {
    "name": "Worgens na floresta",
    "objectivesText": [
@@ -1802,14 +1682,6 @@
    "completion": "É uma descoberta alarmante, para dizer o mínimo!",
    "fetched": "2026-10-01"
   },
-  "200": {
-   "name": "Contador Herodes",
-   "objectivesText": [
-    "Encontre os Registros do Contador Herodes."
-   ],
-   "details": "Se Kurzen conhece o segredo de Turgo, temos um espião entre nós. Precisamos descobrir como o segredo vazou!$B$BO contato de Turgo no acampamento de Kurzen era o Contador Herodes. Ele é responsável pela logística e sabe tudo sobre a administração do Complexo do Kurzen. Se você pegar as anotações ou registros do Herodes, talvez a gente consiga saber como o Turgo foi descoberto.$B$BQuando ainda estávamos com Kurzen, o escritório do Contador ficava no andar superior da casa de dois andares do acampamento. Os registros ainda devem estar lá.",
-   "fetched": "2026-10-01"
-  },
   "201": {
    "name": "Investigue o acampamento",
    "objectivesText": [
@@ -1817,14 +1689,6 @@
    ],
    "details": "Recebi relatos de que um grupo de caçadores montou acampamento rio acima, depois do campo de mineração da Empreendimentos S.A. no Lago Nazferiti. Geralmente eu não estou nem aí pra isso, mas ouvi dizer que Rosarães Guima é um dos caçadores. Ele tem muito bem relacionado, se é que você me entende, e o seguro morreu de velho.$B$BPor que você não dá uma olhada no acampamento, $N, e descobre o que estão pretendendo?",
    "completion": "Hum, então a informação que eu tinha estava correta, como sempre. Interessante. Bem, não acho que eles sejam uma ameaça à nossa operação, mas talvez estejam precisando de alguns de nossos excelentes produtos manufaturados. Hum...",
-   "fetched": "2026-10-01"
-  },
-  "202": {
-   "name": "Coronel Kurzen",
-   "objectivesText": [
-    "Mate 6 Elites de Kurzen, 4 Subchefes de Kurzen e traga a Cabeça do Kurzen para o Tenente Doren no Acampamento dos Rebeldes."
-   ],
-   "details": "Você já demonstrou seu valor diversas vezes, e parece ser tão engenhos<o/a> quanto o próprio Kurzen. Você pode ser a salvação do nosso grupo de rebeldes... se conseguir enfrentar Kurzen e vencer!$B$BEle comanda o exército de dentro do Arsenal. Você precisa entrar na caverna, abrir caminho entre os defensores e então encarar Kurzen e seus líderes.$B$BAdeus, $N. Você leva minha esperança e o destino de meus homens com você.",
    "fetched": "2026-10-01"
   },
   "203": {
@@ -1854,14 +1718,6 @@
    "details": "Enquanto estudo as lendas que você adquiriu, reúna implementos de magia trolesa maligna para mim. Entre no território dos trolls Rachacrânio, a segunda tribo em direção ao sul distante, e compre fetiches Rachacrânio dos mandingueiros e místicos.",
    "progress": "Você está com os fetiches, $N? Talvez eles guardem o segredo para a degradação de Kurzen... Preciso saber!",
    "completion": "Agradeço. Vou estudar esses fetiches e ver se explicam por que Kurzen se rendeu ao mal.",
-   "fetched": "2026-10-01"
-  },
-  "206": {
-   "name": "Mai'Zoth",
-   "objectivesText": [
-    "Leve o Olho da Mente para o Irmão Nimetz no Acampamento dos Rebeldes."
-   ],
-   "details": "Kurzen pode estar morto, mas... aquilo que o levou para o mal ainda vive! Com meus estudos, descobri o seguinte: um ogro-mago, Mai'Zoth, mora em uma gruta dentro das montanhas orientais da Selva do Espinhaço. Dizem que ele usa magia controladora de mentes e tenho certeza de que ele corrompeu Kurzen.$B$BSe Mai'Zoth continuar vivo, a maldade dele pode influenciar outros e talvez até levar ao surgimento de outro Kurzen.$B$BMate-o e me traga o Olho da Mente, o artefato que ele usa para corromper os outros.",
    "fetched": "2026-10-01"
   },
   "207": {
@@ -1990,14 +1846,6 @@
    "completion": "Você prestou um grande serviço ao Reino, $C. Obrigado por auxiliar o Cabo Keeshan em sua fuga daqueles temíveis orcs Rocha Negra. Você receberá uma recompensa por seus atos heroicos de hoje.",
    "fetched": "2026-10-01"
   },
-  "220": {
-   "name": "O clamor da Água",
-   "objectivesText": [
-    "Leve a Ampola da Mais Pura Água para Islen Vidente da Água nos Sertões."
-   ],
-   "details": "Islen terá mais uma tarefa para você antes de recompensá-<lo/la> com seu próximo totem. A ampola de água que eu lhe dei é necessário para qualquer que seja a tarefa.$B$BAgora vá e encontre-a. Tornaremos a nos ver algum dia.",
-   "fetched": "2026-10-01"
-  },
   "221": {
    "name": "Worgens na floresta",
    "objectivesText": [
@@ -2005,6 +1853,384 @@
    ],
    "details": "Você deve ter notado alguns worgens maiores vagando por aí com os tece-sombras na floresta, não? Pelo que podemos dizer, esses Corretrevas compõem a maior parte dos números de worgens.$B$BNas minhas caminhadas, também notei que eles invadiram o Horto Pútrido a sudoeste da cidade. Esses worgens são um pouco mais durões que os últimos que você enfrentou.$B$BFique alerta.",
    "completion": "Você se saiu bem contra os Corretrevas, $N. Mas parece que a quantidade deles não diminui nunca. Toda vez que fazemos algum progresso, mais deles surgem para completar suas fileiras.$B$BQue tipo de poder maligno os atrai para cá? Por que eles vieram perturbar nossas malfadadas terras...?$B$BEu vou depositar a minha fé no Mestre Carevino. Sem dúvida, ele vai desvendar esse mistério.",
+   "fetched": "2026-10-01"
+  },
+  "222": {
+   "name": "Worgens na floresta",
+   "objectivesText": [
+    "Mate 8 Presas Torpes Nocturnos e 8 Maculados Nocturnos para Petrônio na Vila Sombria."
+   ],
+   "details": "Suas façanhas anteriores me convenceram de que você está <pronto/pronta> para lidar com os mais fortes worgens a infestar o bosque.$B$BDos worgens que se estabeleceram aqui, os Presa Torpe e os Maculados são os mais perigosos. Eles ocuparam a mina e algumas cavernas ao sul.$B$BDá para ver de longe as luzes das fogueiras deles...",
+   "completion": "$N, para ser honesto, eu não achava que você chegaria até aqui, mas você é, sem dúvida, um $C com quem se pode contar. Na verdade, se você quiser se juntar oficialmente à luta do Mestre Carevino, eu escreverei uma carta de recomendação com prazer.",
+   "fetched": "2026-10-01"
+  },
+  "223": {
+   "name": "Worgens na floresta",
+   "objectivesText": [
+    "Entregue o bilhete do Petrônio para João Carevino."
+   ],
+   "details": "Aqui está, $N. Leve esta carta para o Mestre Carevino.$B$B<Ele rapidamente pega um pedaço de pergaminho desbotado e lhe entrega.>$B$BMais algumas pessoas como você, e em breve superaremos a Vigília Noturna em número! Quem sabe então não conseguiríamos alcançar o objetivo que os poucos que somos hoje tanto almejam?",
+   "progress": "Sim, o que foi? Seja rápido tenho assuntos mais urgentes a tratar.",
+   "completion": "Desculpe-me pela recepção fria, $N, mas, como você pode ver, sou um homem muito ocupado. Pelo jeito você causou boa impressão no Petrônio – eu garanto que isso não é fácil – e ele escreveu uma carta de recomendação para você.$B$BHá muitos sujeitinhos desagradáveis por aí, $N, por isso a ajuda de todos os que se mostram capazes é muito útil. Nós combatemos demônios, mortos-vivos e qualquer um que os ajude. Fique atento, tome cuidado e desconfie de todos que não apoiam nossa causa.$B$BGlória na Luz.",
+   "fetched": "2026-10-01"
+  },
+  "224": {
+   "name": "Em defesa das terras do Rei",
+   "objectivesText": [
+    "O Montanhista Sapatorro, da torre de guarda sul, quer que você mate 10 Troggs Lascapedra e 10 Batedores Lascapedra."
+   ],
+   "details": "Temos que proteger o Loch, $N! Com tantas tropas lutando bravamente em frentes longínquas, nós ficamos sobrecarregados com a defesa de casa. Tem troggs surgindo de cada fenda na rocha! Essa infestação é a maior ameaça a Altaforja hoje. Aqueles mutantes nojentos têm que ser destruídos.$B$BPrecisamos da sua ajuda, <bravo aventureiro/brava aventureira>, para dar fim a esse perigo. Mate 10 troggs Lascapedra e 10 batedores Lascapedra volte aqui.",
+   "completion": "Muito bem, $N! Você demonstrou coragem fenomenal em campo. Com inciativas como a sua, venceremos a guerra contra os troggs. Você serviu ao rei Magni com excelência.$B$BSe você se acha adequado para esse tipo de aventura, sugiro que você fale com o Montanhista Cascalhaça. O Capitão o designou para patrulha difícil, e eu tenho certeza de que ele pode precisar da sua ajuda. Fale com Cascalhaça dentro da torre.",
+   "fetched": "2026-10-01"
+  },
+  "225": {
+   "name": "A velha lápide",
+   "objectivesText": [
+    "Fale com Sirra Von'Indi na Vila Sombria."
+   ],
+   "details": "Na lápide antiga lê-se apenas:$B$BMORGAN LADIMORE$B$B<Ao olhar mais de perto, você repara que a terra sobre o túmulo foi remexida há pouco tempo. Na verdade, parece que uma boa porção de terra foi deslocada...>",
+   "completion": "Morgan Ladimore?$B$BAh, sim, claro. Homem de triste e longa história. Eu o conhecia... Bem, eu o conheci antes de ele sair para a guerra, mas essa foi a última vez que o vi. Era nobre e bondoso, mas foi vítima de um destino terrível.$B$BEspere, devo ter algo aqui que conte a história melhor do que minha memória...",
+   "fetched": "2026-10-01"
+  },
+  "226": {
+   "name": "Lobos nos nossos calcanhares",
+   "objectivesText": [
+    "Mate 12 Lobos Hediondos Famintos e 8 Lobos Hediondos Raivosos e fale novamente com Lars no Acampamento do Noel, na fronteira oeste da Floresta do Crepúsculo."
+   ],
+   "details": "Noel e eu temos dias perigosos pela frente, com o Necromante a leste e tudo o mais. E, aqui sozinhos como estamos, temos que caçar nossa própria comida. Parece que, toda vez que estou voltando para o acampamento trazendo carne, lobos famintos ou raivosos saem da floresta querendo uma mordida. Nem preciso dizer que viver aqui é um trabalho perigoso!$B$BMas se você puder nos livrar de alguns desses lobos, vai facilitar a nossa vida. Eles costumam rondar o norte e o leste daqui, perto do rio.",
+   "completion": "Ah, que bom. Você deu uma reduzida na alcateia. Sem aqueles lobos mordendo os nossos calcanhares, podemos nos concentrar em cuidar do Morbídio Vil.$B$BAceite alguns desses sacos de chamas. Eles são feitos na cidade, e muitos foram doados para ajudar a causa de Noel.",
+   "fetched": "2026-10-01"
+  },
+  "227": {
+   "name": "Morgan Ladimore",
+   "objectivesText": [
+    "Fale com a Comandante Aldora Ebanez na Vila Sombria."
+   ],
+   "details": "<Ele olha as prateleiras e encontra um livro com capa de couro.>$B$BCaso você queira saber mais, é melhor perguntar à Aldora. É ela que tem lidado com o... problema... ultimamente.",
+   "completion": "Morgan Ladimore? Nunca ouvi falar...$B$BAh, você quis dizer Mor'Ladim! Acho que você ainda não conhece a história.$B$BBem, vou lhe contar a versão reduzida. Um morto-vivo errante chamado Mor'Ladim vem vagando pela Floresta do Crepúsculo. Pelo que sabemos, trata-se do cadáver vivente de Morgan Ladimore, esse que você mencionou. Ele vem causando todo tipo de problemas, desde atacar patrulheiros até assassinar inocentes.$B$B<Aldora olha para você de cima a baixo.>$B$BVocê me parece bom o bastante. Talvez consiga fazer Mor'Ladim descansar.",
+   "fetched": "2026-10-01"
+  },
+  "228": {
+   "name": "Mor'Ladim",
+   "objectivesText": [
+    "Mate Mor'Ladim e entregue a caveira dele para a Comandante Aldora Ebanez na Vila Sombria."
+   ],
+   "details": "Pelo que os batedores me disseram, Mor'Ladim vaga pela Floresta do Crepúsculo, seguindo um estranho e sinuoso caminho pelo cemitério. Nós o enterramos logo acima da casa do outeiro, você sabe onde fica?$B$BNão posso te ajudar muito além disso, mas lhe desejo boa sorte.",
+   "progress": "Eu entendo que você esteja tendo dificuldade com o Mor'Ladim, $N. Perdemos alguns dos nossos mais fortes vigias para ele.",
+   "completion": "Você o matou? Isso é um grande feito, $N! Em nome da Vigília Noturna e do povo de Vila Sombria, eu lhe agradeço.$B$BAh... Só tem um probleminha...",
+   "fetched": "2026-10-01"
+  },
+  "229": {
+   "name": "A filha sobrevivente",
+   "objectivesText": [
+    "Fale com a Vigia Sarah Ladimore na Vila Sombria."
+   ],
+   "details": "Eu devia ter mencionado isso antes...$B$BComo é que vou explicar...$B$BEmbora Morgan acreditasse que toda a família dele estava morta, na verdade, a filha Sarah Ladimore agora é uma Vigia. Ela sempre foi muito perturbada pelas... circunstâncias... da morte do pai. Talvez você possa dar a notícia a ela.",
+   "completion": "Pois não? Meu pai...$B$B<O olhar de Sarah se entristece.>$B$BQuem me dera... que eu pudesse ter feito algo por ele... Ah, se eu tivesse conversado com ele antes de...",
+   "fetched": "2026-10-01"
+  },
+  "230": {
+   "name": "Acampamento do Noel",
+   "objectivesText": [
+    "Leve o Livro da Fazenda de Noel para Noel."
+   ],
+   "details": "Cavando o monte, você encontra um pequeno livro sujo de terra.$B$BO livro não tem título, mas... contém informações que o Noel gostaria de saber.",
+   "progress": "Você achou o quê?! Por favor, deixe-me ver isso...",
+   "completion": "<Noel lê as páginas do livro e, então, fecha-o com um estrondo.>$B$BAquela figura sombria que eu vi foi testemunha da morte da minha família! Eu queria fazer algumas perguntas àquele homem... se eu soubesse ele era!",
+   "fetched": "2026-10-01"
+  },
+  "231": {
+   "name": "Amor de filha",
+   "objectivesText": [
+    "Leve o anel de Sarah Ladimore até o túmulo de Morgan Ladimore."
+   ],
+   "details": "Pegue isto e bote no túmulo de meu pai. Quem sabe... de alguma forma, assim ele saberá que eu estou bem e que ninguém o responsabiliza pelo que aconteceu.$B$B<Lágrimas escorrem do rosto de Sarah enquanto ela retira um anel da mão direita e o entrega a você.>$B$BE... Obrigada, $N.",
+   "progress": "Deixe-me em paz...",
+   "completion": "<Uma voz fantasmagórica ecoa no vento...>$B$BIsto é o...? Sarah? Como é possível ela ainda estar viva? Tirei um peso dos ombros...$B$B$N. Por favor, pegue Arqué, a minha espada. Como minha alma por fim vai descansar, não preciso mais dela. Arqué foi forjada para fazer o bem e, embora eu não tenha honrado sua natureza, talvez você possa usá-la para espalhar a Luz.$B$BLis, meu amor...",
+   "fetched": "2026-10-01"
+  },
+  "232": {
+   "name": "Tarefa para a Boticária Zilda",
+   "objectivesText": [
+    "Leve a ordem de compra para Alessandro Luca na Cidade Baixa."
+   ],
+   "details": "A Real Sociedade de Boticários precisa da sua ajuda. Ouça atentamente, e nós <dois/duas> podemos lucrar com o meu plano.$B$BO boticário Daniel na sala ao lado pode ficar... sentido... mas sua pesquisa tem potencial para dar frutos se for conduzida por um pesquisador inteligente. Felizmente, eu sou esse pesquisador. Eu quero que você leve este pedido de compra para Alessandro Luca, o proprietário da Miudezas da Lua Azul; ele vai lhe dar um kit de teste. Assim que recebê-lo, traga-o para mim, e eu vou detalhar a sua tarefa.",
+   "progress": "Sim, como posso ajudar? Você está aqui a negócios em nome da Real Sociedade de Boticários ou só veio para alegrar meu dia?",
+   "completion": "Ah, a Zilda precisa de um kit, é? É uma lástima que a Zilda nunca me agracie com sua doce presença.$B$BEnfim, eu vou providenciar um kit para você.",
+   "fetched": "2026-10-01"
+  },
+  "233": {
+   "name": "Correio de Vale Cristálgida",
+   "objectivesText": [
+    "Entregue a Pilha de Cartas para Talin Olhobom."
+   ],
+   "details": "Hum, será que você poderia me fazer um favor, <rapaz/moça>? Eu recebi uma pilha de cartas hoje, mas não tenho tempo para encaminhá-las.$B$BElas são todas endereçadas a Talin Olhobom. Você pode encontrá-lo a oeste, na estrada. Ele montou acampamento ao lado do lago congelado.$B$BO que me diz?",
+   "progress": "Sim? Trouxe alguma coisa para mim?",
+   "completion": "Obrigado, eu estou esperando por essas cartas há um tempão...$B$BInfelizmente, essas elas não são todas para mim. Esta é endereçada a Grolin Barbabranca. Ele não está muito longe daqui, caso você queira entregá-la para ele.",
+   "fetched": "2026-10-01"
+  },
+  "234": {
+   "name": "Correio de Vale Cristálgida",
+   "objectivesText": [
+    "Entregue a Carta para Grolin Barbabranca."
+   ],
+   "details": "Se me lembro corretamente, o acampamento do Grolin fica seguindo a estrada para sudeste. Sem dúvida, ele vai estar ansioso para receber a carta dele.",
+   "progress": "Posso ajudar de alguma forma?",
+   "completion": "Ah, excelente. Faz algum tempo que não recebo notícias de Altaforja.",
+   "fetched": "2026-10-01"
+  },
+  "235": {
+   "name": "A caçada do Vale Gris",
+   "objectivesText": [
+    "Fale com Senani Coração Trovejante no Posto Machadada, que fica no Vale Gris."
+   ],
+   "details": "Atenção, jovens aventureiros! Os ermos selvagens do Vale Gris esperam por vocês!$B$BA Horda estabeleceu uma forte presença nas terras ao norte dos Sertões. Nossos dois postos avançados, o Posto Machadada e o Posto da Praia de Zoram, pelejam pela glória da Horda! Os que desejarem se pôr à prova deverão seguir para um desses postos para obter orientações. E atenção: Senani Coração Trovejante, no Posto Machadada, ao norte dos Sertões, procura aventureiros dispostos a tomar parte numa grande caçada no Vale Gris!",
+   "completion": "Bem-vindo à nova fronteira, $N. O Vale Gris é uma terra de oportunidades, em que um jovem $C como você poderá encontrar inúmeras chances de provar seu valor. Dê uma volta pelo posto e não esqueça de visitar a Praia de Zoram, pois lá existe um outro posto da Horda.$B$BDeduzo pela sua presença que deseja aprender mais sobre a caçada. Escute com atenção, e eu lhe direi o que você precisa saber.",
+   "fetched": "2026-10-01"
+  },
+  "237": {
+   "name": "Em defesa das terras do Rei",
+   "objectivesText": [
+    "O Montanhista Cascalhaça, da torre de guarda sul, quer que você mate 10 Batecrânios Lascapedra e 10 Videntes Lascapedra e fale novamente com ele."
+   ],
+   "details": "O Montanhista Sapatorro foi só elogios em relação a você, $R. Por esse motivo, eu vou lhe confiar uma missão da maior importância. Precisamos manter a pressão sobre as forças invasoras de troggs até que os nossos irmãos anões retornem do front da Aliança.$B$BVá para as colinas ao sul e mate 10 Batecrânios Lascapedra e 10 Videntes Lascapedra. Seus ataques vão nos dar algum tempo. Reporte-se quando sua missão estiver concluída.",
+   "completion": "Você cumpriu bem sua missão, $R. O próprio rei ficaria orgulhoso.$B$BMas os reforços prometidos nunca vieram. Aparentemente, o front da Aliança é um mar rubro do sangue de nossos irmãos caídos. A notícia das baixas deixa um gosto amargo na nossa boca. Mas não devemos deixar que a morte deles seja em vão. Precisamos nos unir nesses tempos sombrios e resgatar a glória da Aliança.$B$BFale com o Montanhista Batemuro para ser redesignado. Precisamos de você mais do que nunca.",
+   "fetched": "2026-10-01"
+  },
+  "238": {
+   "name": "Tarefa para a Boticária Zilda",
+   "objectivesText": [
+    "Leve o Kit de Amostra de Campo para Boticária Zilda na Cidade Baixa."
+   ],
+   "details": "O kit está pronto, $N. Não há dúvida de que a Boticária Zilda vai querer isso o mais rápido possível. Leve para ela sem demora, e avise a ela que vou pendurar esse kit na conta da Sociedade. Além disso, por favor, transmita a ela minhas mais calorosas saudações.$B$BBem, não fique aí <parado/parada>. Essa é a vida de um simples mensageiro, não é?",
+   "progress": "Sim, eu acho o Luca perturbador, assim como você acha. Não importa — entregue-me o kit de amostra de campo. Preciso fazer alguns ajustes para pesquisar os materiais básicos adequados.$B$BVocê trouxe o kit, não é?",
+   "completion": "Ótimo. É uma satisfação trabalhar com alguém que tem orgulho em não desperdiçar meu tempo.$B$BDepois que eu fizer alguns ajustes neste kit, você poderá ir a campo. Você vai usar isto para colher dados vitais para a tarefa atual.$B$BSó preciso de um instante para terminar as modificações. Enquanto você espera, talvez devesse pensar no que gostaria de levar para o deserto.$B$BSim, eu disse deserto.",
+   "fetched": "2026-10-01"
+  },
+  "239": {
+   "name": "Ribeira d'Oeste precisa de ajuda!",
+   "objectivesText": [
+    "Vá até a Guarnição da Ribeira d'Oeste e fale com o Delegado Ranieri."
+   ],
+   "details": "A Guarnição na nossa fronteira ocidental informa que tem havido aumento da atividade de gnolls e ladrões. Eles estão requisitando mais soldados de Ventobravo... mas não temos ninguém para enviar!$B$BSe você puder ajudar, viria em boa hora. Fale com o Delegado Ranieri, na Guarnição da Ribeira d'Oeste, e veja o que ele quer.$B$BA Guarnição fica seguindo a estrada, na direção oeste. É só atravessar a ponte que passa pelo córrego. A Guarnição fica logo à direita.",
+   "completion": "O delegado Durão enviou você, não é? Bom, você não é do exército, mas se Durão o enviou, está bom pra mim!$B$BNossa situação é... estressante, para dizer o mínimo. Espero que você possa nos ajudar.",
+   "fetched": "2026-10-01"
+  },
+  "240": {
+   "name": "Fale novamente com Medrisco",
+   "objectivesText": [
+    "Fale novamente com Medrisco levando Bolinhos de Caranguejo Crepuscular."
+   ],
+   "details": "Aqui está: bolinhos de caranguejo crepuscular à la Goroba!",
+   "progress": "$N, você chegou! Cadê a minha comida?!",
+   "completion": "Ah-rá! Obrigado, $N. Você acertou em cheio!$B$BAceite isto como pagamento, por favor!",
+   "fetched": "2026-10-01"
+  },
+  "243": {
+   "name": "Trabalho de campo",
+   "objectivesText": [
+    "Fale com o Engenheiro-chefe Silvadágua em Geringontzan sobre obter uma fonte de energia para o kit de testes."
+   ],
+   "details": "Você vai para o deserto de Tanaris testar a consistência tecidual dos basiliscos, dos escorpídeos e da hiena nativos de lá. Obtenha amostras de tecido e use-as com o kit de teste a reboque; uma parte das amostras vai falhar, conte com isso. Preciso de oito amostras aceitáveis de cada tipo de criatura.$B$BAlém disso, os goblins de Geringontzan têm uma fonte de energia que deve ser usada com esse tipo de kit modificado. Fale com o Engenheiro-chefe Silvadágua e arranje uma para o kit.$B$BSó me procure de novo quando tiver concluído tudo.",
+   "completion": "Ah, nossas fontes de energia modelo 4711-KTC! Nós costumamos usá-las para alimentar os poços d'água, mas, GRAÇAS AOS NÔMADES TORPES, temos fontes de energia de sobra no momento.$B$BClaro que eu posso lhe dar uma fonte de energia para seja lá qual for a experiência científica nefasta que você acha que está escondendo de mim. Mas não vai ser grátis, morto-vivoNão existe almoço grátis em Geringontzan.",
+   "fetched": "2026-10-01"
+  },
+  "244": {
+   "name": "Invasão de gnolls",
+   "objectivesText": [
+    "Fale com o Subdelegado David."
+   ],
+   "details": "Salve, $C. Estou encarregado de patrulhar este trecho da estrada. Embora a estrada esteja segura por ora, eu vi acampamentos de gnolls ao norte e a leste daqui.$B$BA Vila Plácida deve ser avisada sobre as forças dos gnolls que estão se reunindo! Reporte-se ao Subdelegado David na Vila Plácida e conte a ele sobre os gnolls. Faça isso, e tenho certeza de que Feldon lhe oferecerá o salário de um batedor.$B$BFeldon costuma inspecionar a área ao sul da ponte para a Vila Plácida.",
+   "completion": "Tem gnolls de Cristarrubra tão perto assim de Elwynn?! Eles podem estar prontos para avançar sobre nossa terra. Em breve, o povo da Vila Plácida pode não ser os únicos humanos sob cerco!$B$BAqui está o seu pagamento, embora você nos traga notícias terríveis. E não tinha pior hora para isso acontecer, pois estamos mal equipados para lidar com esse problema.",
+   "fetched": "2026-10-01"
+  },
+  "245": {
+   "name": "Ameaças de oito patas",
+   "objectivesText": [
+    "Mate 15 Veneracnas Pigmeias, e depois apresente-se novamente ao Vigia Gouveia na Floresta do Crepúsculo."
+   ],
+   "details": "Salve, $C. Talvez você tenha visto aquelas aranhas que tomaram conta da fronteira ocidental. Essas ameaças de oito patas são demais para nós, e o Comandante não tem homens suficientes para atuar tão longe de Vila Sombria.$B$BDetesto lhe pedir isso, mas você me parece capaz de lidar com elas. Não posso lhe prometer nada de grande valor, mas posso recompensá-l<o/a> se puder ajudar a erradicar esses pragas imundas.$B$BAh, um conselho: procure evitar o veneno delas, se puder.",
+   "completion": "Ah! Você voltou. E não muito acabado, ao que parece. Bem, $N, a Vigília Noturna é grata pelo seu trabalho, e lhe prometi uma recompensa, então aqui está.",
+   "fetched": "2026-10-01"
+  },
+  "246": {
+   "name": "Avaliando a ameaça",
+   "objectivesText": [
+    "Mate 10 Mestiços de Cristarrubra e 6 Caçadores Ilegais de Cristarrubra, e então apresente-se novamente ao Subdelegado David em Vila Plácida."
+   ],
+   "details": "Não temos homens sobrando, mas é preciso fazer algo com relação aos gnolls que você relatou.$B$BVasculhe o sul de Cristarrubra à procura de gnolls. Persiga-os, mate aqueles que puder e volte para me informar quantos são e a ameaça que representam. Você vai encontrar esses gnolls acampados ao longo da estrada sul de Cristarrubra.$B$BFaça isso pelo Exército de Ventobravo, $N, e você será recompensad<o/a>.",
+   "completion": "<O Subdelegado David ouve seu relatório...>$B$BHá uma força considerável de gnolls acampados por lá, e, pelo que você me diz, são bem durões. Não deve ter sido fácil obter essas informações.$B$BMaravilha, $N. Agradecemos sua ajuda.$B$BFale com o Oficial Marris e o Magistrado Salomão, em Vila Plácida, se ainda não fez isso. Nossa situação está cada vez mais desesperadora — esses dois precisarão de você, tenho certeza.",
+   "fetched": "2026-10-01"
+  },
+  "247": {
+   "name": "Caçada do Vale Gris terminada",
+   "completion": "$N, você abateu as três feras da Caçada do Vale Gris e trouxe para mim as provas de seu feito. Portanto, sua força e sua tenacidade são inquestionáveis. O sangue dos caçadores corre nas suas veias, e você merece todos os elogios!$B$BPor favor, aceite este adorno como um símbolo de reconhecimento dos seus impressionantes feitos no Vale Gris em nome da Horda. Que seus antepassados o protejam!",
+   "fetched": "2026-10-01",
+   "v": 2
+  },
+  "248": {
+   "name": "Vendo além",
+   "objectivesText": [
+    "Suba ao topo da torre de vigia intacta ao lado da Bastilha Mirante de Pedra.$B$BEncontre um recipiente adequado para colocar o Glifo de Azora."
+   ],
+   "details": "Tenho observado a Torre de Ilgalar, e percebo que Morganth está em conflito com os orcs na Bastilha Mirante de Pedra. Não sei o motivo por trás dessa disputa, mas você pode me ajudar a desvendar o mistério.$B$BPegue outro Glifo de Azora, então vá para o topo da torre de vigia intacta ao lado da Bastilha.$B$BEncontre um objeto adequado em que colocar o Glifo. Um baú ou um jarro — algum lugar onde o glifo não seja notado — servirá ao meu propósito.",
+   "progress": "Esta jarra já conteve um líquido malcheiroso, mas agora está vazia e esquecida em cima de dois barris.",
+   "completion": "É um recipiente adequado para o Glifo de Azora, permitindo que Teócrito mergulhe nas mentes dentro da Bastilha Mirante de Pedra.",
+   "fetched": "2026-10-01"
+  },
+  "249": {
+   "name": "Morganth",
+   "objectivesText": [
+    "Derrote Morgan.$B$BLeve o Pingente das Sombras dele para Teócrito na Torre de Azora, na Floresta de Elwynn."
+   ],
+   "details": "Após muito observar, descobri os planos de Morganth.$B$BEle procura pela Foice de Eluna... e pode tê-la encontrado! Se for verdade, então as Montanhas Cristarrubra e o reino de Ventobravo logo sentirão seu poder sombrio.$B$BNão estou preparado para me opor a Morganth, mas receio que seja preciso combatê-lo agora. Então você deve entrar na Torre de Ilgalar e enfrentar Morganth.$B$BDerrote-o e me traga seu Pingente das Sombras. Faça isso, e o reino terá uma grande dívida com você.",
+   "progress": "Depressa, $N, antes que meu receio de que Morganth possa expandir seu poder se concretize!",
+   "completion": "Você se saiu bem, $N. Ao derrotar o bruxo Morganth, Ventobravo foi salvo de um grave perigo.$B$BOfereço-lhe humildemente esta recompensa. E lhe desejaria paz, se os tempos fossem pacíficos.$B$BEm vez disso, desejo-lhe sorte em suas provações e vitória nos conflitos que estão por vir.",
+   "fetched": "2026-10-01"
+  },
+  "250": {
+   "name": "Uma ameaça sombria à espreita",
+   "objectivesText": [
+    "Investigue a área próxima à rampa leste do Dique e dê ao Engenheiro-chefe Vedaçude uma pista que possa indicar o que os Anões Ferro Negro estão tramando."
+   ],
+   "details": "Ainda bem que tem gente que se preocupa com a situação do Dique. Primeiro destroem a Ponte Thandol, agora a pilhagem de Dun Modr! O Dique é o próximo alvo dos Ferro Negro, isso é mais certo que geada no pastiçal quando inverna. A maior parte do destacamento de segurança daqui foi mandado pro Front da Aliança, incluindo meu melhor inspetor.$B$BÉ por isso que eu preciso de ti, $N. Eu avistei uns Sapadores Ferro Negro cheirando não sei o que perto da rampa leste do Dique. Vai lá campear e traz alguma pista.",
+   "completion": "O barril de aparência suspeita contém um pó com cheiro estranho.",
+   "fetched": "2026-10-01"
+  },
+  "251": {
+   "name": "Tradução da carta de Abercrombie",
+   "objectivesText": [
+    "Leve a Carta para Malaquias até Sirra Von'Indi."
+   ],
+   "details": "Leve a mensagem que você me entregou para Sirra Von'Indi. Ele é bastante versado em idiomas e artes antigas — se alguém aqui pode traduzir essa mensagem, é ele.",
+   "progress": "Uma mensagem de Abercrombie, o eremita, hein? Não o conheço, mas se mora no cemitério, sei que o cérebro dele deve estar podre!",
+   "completion": "<Sirra começa a traduzir a carta...>",
+   "fetched": "2026-10-01"
+  },
+  "252": {
+   "name": "Tradução para Malaquias",
+   "objectivesText": [
+    "Leve a Carta Traduzida para Lorde Malaquias Ebanez."
+   ],
+   "details": "Minha nossa! Se o que está escrito na carta for verdade, então Abercrombie fez algo... inconcebível.$B$BMelhor você levar a carta traduzida de volta para Malaquias.$B$BE depressa, pois temo que uma desgraça já assome em direção à nossa cidade...",
+   "progress": "Ah, a carta está traduzida? Por favor, deixe-me vê-la...",
+   "completion": "<Malaquias lê a carta... e seu rosto fica pálido. Ele então olha para você...>$B$BEmbora a ajuda que você deu a Abercrombie possa ter sido motivada pela gentileza, suas ações condenaram nossa cidade.$B$B<Malaquias se perde em pensamentos...>",
+   "fetched": "2026-10-01"
+  },
+  "253": {
+   "name": "A noiva do Embalsamador",
+   "objectivesText": [
+    "Encontre o túmulo de Elisa. Retire dela o Coração do Embalsamador, então fale novamente com Malaquias Ebanez."
+   ],
+   "details": "O Embalsamador é um nome presente em uma das histórias que contamos aos nossos filhos. Era um gentil alquimista, que enlouqueceu com a morte da esposa, Elisa. Para recuperá-la, ele usou magia negra para colocar o próprio coração no seio da esposa morta.$B$BCom isso, Elisa reviveu... mas foi amaldiçoada com uma fome por carne humana, forçando o Embalsamador a mantê-la enterrada.$B$BO poder dele reside no coração. Encontre o túmulo da esposa, recupere o coração e traga-o para mim enquanto ainda bate. Faça isso e o poder dele será destruído.",
+   "progress": "Você já encontrou o túmulo de Elisa? Está com o coração do Embalsamador?",
+   "completion": "Você conseguiu! A magia no coração dele será prova contra o mal do Embalsamador, e uma poderosa égide sobre a cidade de Vila Sombria.$B$BVocê fez algo maravilhoso por nosso povo, $N. Seu nome permanecerá em nossos anais para sempre.",
+   "fetched": "2026-10-01"
+  },
+  "255": {
+   "name": "Mercenários",
+   "objectivesText": [
+    "O Magistrado Grã-narina de Thelsamar contratou você para matar 4 Ogros Mo'grosh, 4 Brutamontes Mo'grosh e 4 Impositores Mo'grosh."
+   ],
+   "details": "Pra tu vê, dois meses só para ouvir de Altaforja que receberemos um punhado de soldados para a nossa defesa, e mais dois meses até eles chegarem! Não bastasse nossa cidade estar desprotegida, a escavação e a represa — a represa, tchê! — também estão abertas a ataques.$B$BBah, não tenho escolha, ao que parece. Vou precisar contratar ajuda.$B$BE tu? Parece bem aprumad<o/a>, $C. Um grupo de ogros montou acampamento a nordeste do lago. Talvez tu possa arrebanhar alguns outros para ajudar a pelear e eliminar a ameaça à nossa cidade?",
+   "completion": "Bah, isso é bom como faca achada! Eu e o povo de Thelsamar apreciamos muito seus esforços. Melhor ainda, tchê, se pudermos resolver a pendenga do ogro, poderemos nos concentrar naqueles troggs de Luz Queimante.",
+   "fetched": "2026-10-01"
+  },
+  "256": {
+   "name": "PROCURA-SE: Chok'sul",
+   "objectivesText": [
+    "Mate Chok'sul e entregue a cabeça para o Magistrado Grã-narina, em Thelsamar."
+   ],
+   "details": "Por ordem do Magistrado de Thelsamar:$B$BChok'sul, o ogro que supostamente liderou os ataques contra Thelsamar, o Dique Lapidado e o sítio arqueológico, foi condenado à morte.$B$BSerá oferecida uma recompensa financeira a quem entregar uma prova da morte do facínora ao Magistrado.$B$BChok'sul foi visto pela última vez no acampamento dos ogros, que fica a nordeste de Loch Modan.",
+   "progress": "Pois não, posso ajudar?",
+   "completion": "Eca! Que coisa é essa? E por que você traria isso...$B$BCacilda! Será? Que a Luz queime meus fundilhos! Essa é a cabeça daquele ogro sanguinário? Que baita troféu, hein? Tome aqui sua recompensa. Você tem a minha gratidão e a do povo de Thelsamar.",
+   "fetched": "2026-10-01"
+  },
+  "258": {
+   "name": "Desafio de caçador",
+   "objectivesText": [
+    "Mate 5 Javalis Montanheses Anciãos e fale novamente com Dário, o Novato, no Pavilhão dos Andarilhos, dentro de 12 minutos."
+   ],
+   "details": "$Nath, é isso? Vejo que está explodindo de orgulho por ter completado o primeiro teste, não é mesmo? Como lhe disse antes, não foi nada demais.$B$BVocê deveria experimentar caçar javali. Confie em mim, isso aqui não se parece em nada com a caça ao javali do Vale Cristálgida, então é melhor tomar bastante cuidado. Vou lhe dar apenas doze minutos desta vez.$B$BNão se sinta mal se falhar. Sou capaz de lhe dar minha roupa do corpo se você conseguir!$B$BJá lhe contei a história de como arranjei minha famosa cicatriz? Não? Foi há dois anos...",
+   "completion": "Você parece um pouco acabado. Sem dúvida os javalis lhe deram trabalho, não é? Não se preocupe, não vou sair por aí falando nada, posso imaginar o quanto já deva ser difícil para você sem o disse-me-disse.$B$BAh! Você conseguiu matar os javalis? Eu... bem... quer dizer, não estou nem um pouco surpreso! Qualquer criança teria... aposta?$B$BQue aposta?",
+   "fetched": "2026-10-01"
+  },
+  "261": {
+   "name": "No caminho Escarlate",
+   "objectivesText": [
+    "Destrua 30 Assoladores Mortos-vivos, depois fale novamente com o Irmão Anton no Posto do Nijel."
+   ],
+   "details": "Deixe-me ser franco. Estamos em guerra com o Flagelo. É um mal que corrompe o nosso povo e infecta a nossa terra. Precisamos contê-lo antes que ele nos destrua e mergulhe nosso mundo nas sombras. Nós, da Cruzada Escarlate, juramos lutar de corpo e alma contra o Flagelo.$B$BSe estiver conosco, lance mão da sua coragem e prove a sua lealdade: destrua os assoladores mortos-vivos da Desolação, no Vale dos Ossos, que fica ao sul.$B$BCumpra essa missão e Cruzada acolherá você.",
+   "completion": "Você comprovou a sua determinação, com os cumprimentos da Cruzada Escarlate.$B$BSe você não se esquivar do massacre honrado, talvez seu caminho deva mesmo se juntar ao nosso...",
+   "fetched": "2026-10-01"
+  },
+  "262": {
+   "name": "O vulto sombrio",
+   "objectivesText": [
+    "Leve o livro que encontrou na fazenda de Noel e mostre-o aos cidadãos da Vila Sombria."
+   ],
+   "details": "Preciso saber quem era o vulto que estava se esgueirando nas sombras na noite em que minha família foi assassinada!$B$BPor favor, $N, você já demonstrou sua astúcia. Encontre aquela figura sombria, por favor. Preciso descobrir seus segredos!$B$BNão tenho nenhuma pista que você já não saiba, mas tome... leve o livro que você encontrou na minha fazenda. Talvez alguém na cidade consiga ligar o livro ao dono.",
+   "progress": "Se você tiver algum pertence desse vulto sombrio que procura, então deixe-me ver. Posso tentar intuir algo sobre ele.",
+   "completion": "Hmm... este livro foi manejado recentemente, por alguém que é movido pela vingança. mas estão muito fracas as impressões deixadas nele...pelo menos, as deixadas pelo dono original do livro.$B$BContudo, posso dizer que o dono original não é nativo da Vila Sombria.",
+   "fetched": "2026-10-01"
+  },
+  "263": {
+   "name": "Em defesa das terras do Rei",
+   "objectivesText": [
+    "Montanhista Batemuro na torre de vigia sul quer que você mate 10 Xamãs Lascapedra and 10 Quebraossos Lascapedra."
+   ],
+   "details": "Os Montanhistas me contaram que você é muito competente e <corajoso/corajosa>, $N. <Um/Uma> $R como você seria muito útil por aqui. Os reservistas foram convocados para o front e ficamos desguarnecidos. Mas agora que temos <um/uma> $C <veterano/veterana> conosco, vamos ver o que podemos fazer.$B$BSaia em campo e mate 10 Xamãs Lascapedra e 10 Quebraossos Lascapedra. Vamos ver se você faz jus à sua reputação, <matador/matadora> de troggs.",
+   "completion": "Assim que eu o vi, $N, soube que você deixaria Altaforja orgulhosa. Você prestou um grande serviço ao Rei Magni. Agora que já provou que é um aliado leal ao Reino, pode ir falar com o Capitão para ver se ele tem uma tarefa mais relevante para te dar.$B$BEu o saúdo, $N.",
+   "fetched": "2026-10-01"
+  },
+  "264": {
+   "name": "Até que a morte nos separe",
+   "objectivesText": [
+    "Coloque o Pingente da Clarice no Túmulo de Yuriv em Pinhaprata."
+   ],
+   "details": "Cachorro! Me deixar por causa dessa cruzada maldita. Tudo porque \"a Luz é o que temos de mais importante contra a ameaça que os mortos-vivos representam.\"$B$BE as crianças?! E EU?! Esperei sentada por ele, noite após noite, pacientemente... mas a porcaria do dever sempre veio primeiro!$B$BÉ isso aí, $N, veja bem o que você ganha com a \"justiça\"! Agora ele está morto e aquilo contra o que ele lutou toda a vida é o meu fardo!$B$BLeve esse lixo para a tumba dele lá no Sepulcro. Não quero ter mais nada a ver com isso... nem com ele!",
+   "progress": "O túmulo está frio e, ao olhar, você percebe que ele foi violado. Há lixo espalhado, rachaduras e fendas decoram a imagem entalhada no caixão e as plantas em volta começaram a tomar conta do lugar.$B$BNinguém, e muito menos as vítimas da peste, se importa com as pessoas enterradas neste lugar.",
+   "completion": "Ao colocar o pingente no túmulo, é possível observar que a gema perde o brilho rapidamente.$B$BAntes de partir você olha para o pingente, que jaz sem vida sobre a mão entalhada no topo do caixão. Seus pensamentos são interrompidos por uma forte e gelada brisa que corta o Sepulcro. Por alguns instantes, só se ouve o silêncio.",
+   "fetched": "2026-10-01"
+  },
+  "265": {
+   "name": "A busca sombria continua",
+   "objectivesText": [
+    "Tente encontrar outras pistas sobre o vulto sombrio entre os aldeões."
+   ],
+   "details": "Aqui está o seu livro de volta, $N, e eu lhe desejo sorte na busca. Se você perguntar a outras pessoas na cidade, talvez alguém tenha pistas melhores para te dar.$B$BEnquanto isso, eu tenho mais uma para você: embora o autor deste livro seja um forasteiro em Vila Sombria, o livro em si foi comprado aqui.",
+   "progress": "Às vezes eu vendo volumes em branco para estudiosos e bruxos, ou para qualquer um que queira escrever um diário.$B$BEu me lembro muito bem de cada cliente dos últimos meses...",
+   "completion": "Ah, sim. Vendi este livro coisa de um mês atrás para um sujeito sombrio. Não disse o nome dele, mas estava nervoso e inquieto, sempre olhando por cima do ombro.$B$BEspero que isso ajude...",
+   "fetched": "2026-10-01"
+  },
+  "266": {
+   "name": "Perguntas na estalagem",
+   "objectivesText": [
+    "Procure pistas sobre o vulto sombrio na estalagem"
+   ],
+   "details": "Aqui está o seu livro e boa sorte com a investigação.$B$BAcho que pode ser uma boa ideia perguntar na estalagem. Se a pessoa que você procura passou algum tempo aqui na cidade, talvez alguém na estalagem possa ajudar.",
+   "progress": "O movimento no Corvo Escarlate não anda muito bom, mas ainda recebemos alguns viajantes de passagem.$B$BSe você puder descrever o sujeito que procura, talvez eu me lembre dele.",
+   "completion": "Ah, sim, eu me lembro deste livro. O dono alugou um quarto durante alguns dias e passava as noites no bar, escrevendo.$B$BDeixou a cidade às pressas, resmungando que estava sendo perseguido por... alguma coisa. Da última vez que o vi, ele estava saindo da cidade rumo ao oeste, procurando um lugar para se se esconder.$B$BO primeiro lugar a oeste daqui é o Monte Corvo...",
+   "fetched": "2026-10-01"
+  },
+  "267": {
+   "name": "A ameaça dos troggs",
+   "objectivesText": [
+    "Leve 8 Dentes de Pedra de Trogg para o Capitão Balbúrdia na torre de vigia sul."
+   ],
+   "details": "$C, não sei se você já soube da ameaça trogg que paira sobre as terras enânicas. Os Reservistas de Altaforja foram enviados ao front da Aliança. Com isso, nos restou apenas uma fração das tropas necessárias para manter a segurança destas terras. Meu regimento foi designado para vigiar o Portão e não podemos deixar nossos postos, por causa do perigo de invasão.$B$BMas temos que oferecer alguma resistência a estes malditos troggs que espreitam as montanhas. Ataque-os, se for capaz. E traga 8 Dentes de Pedra de Trogg como prova da façanha.",
+   "progress": "Já conseguiu os 8 Dentes de Pedra de Trogg? Se não, o trabalho ainda não acabou, $N.",
+   "completion": "Estou deveras impressionado, $N. Defendendo nossas terras, você prestou um grande favor à raça enânica. O Rei Magni Barbabronze ficaria orgulhoso!",
+   "fetched": "2026-10-01"
+  },
+  "268": {
+   "name": "Respostas a Noel",
+   "objectivesText": [
+    "Leve o diário completo de Medrisco para Noel."
+   ],
+   "details": "O livro que você encontrou ainda não estava terminado. Tive que deixar na fazenda de Noel quando fugi...$B$BAqui, leve o meu diário completo para Noel, pois nele está descrito tudo o que aconteceu na fazenda dele.$B$BEmbora este diário tenha sido minha única companhia das últimas semanas, eu o entrego de bom grado se isso me livrar de ter que encarar a ira de Noel!",
+   "progress": "Descobriu quem era o Vulto Sombrio?",
+   "completion": "Este diário esclarece muitas coisas e me indica o caminho para enfrentar os cavalgantes negros! Já vi esses cavaleiros na Floresta do Crepúsculo e também já os vi falando com o feiticeiro Morbídio Vil, no Morro dos Esquecidos.",
    "fetched": "2026-10-01"
   }
  }

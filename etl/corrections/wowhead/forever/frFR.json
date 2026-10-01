@@ -6,6 +6,12 @@
    "details": "Cultiver la terre est un travail difficile et qui donne diablement soif, je suis toujours partant pour un peu d'eau claire et fraîche.$B$BSi vous en avez, eh bien ! je ferai bien affaire avec vous.$BEau de source (1)",
    "completion": "Merci, $N ! Et revenez si vous voulez refaire affaire.",
    "fetched": "2026-10-01"
+  },
+  "247": {
+   "name": "La chasse achevée",
+   "completion": "$N, vous avez tué les trois bêtes qui composent la Chasse d'Ashenvale. Vous m'avez apporté les preuves de leur mort ; je ne doute plus de votre force ni de votre ténacité. Le sang d'un chasseur coule dans vos veines, et je vous en félicite !$B$BS'il vous plaît, acceptez ceci pour vous récompenser de la prouesse que vous avez accomplie pour la Horde, à Ashenvale. Que vos ancêtres vous protègent !",
+   "fetched": "2026-10-01",
+   "v": 2
   }
  }
 }

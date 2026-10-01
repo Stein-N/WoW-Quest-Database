@@ -27,6 +27,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEXT_FIELDS = ("name", "objectivesText", "details", "progress", "completion", "endText")
+# stored with every entry; entries read by an older parser are fetched again
+# (v2: sections are recognised by their heading - v1 took a "Completion" or "Rewards" section
+# for the description when a quest has none)
+PARSER_VERSION = 2
+
 # no Italian: WoW Classic has no Italian client, Wowhead's /it/ pages show the English text
 SITE_LOCALES = ["enUS", "deDE", "esES", "esMX", "frFR", "ptBR", "ruRU", "koKR", "zhCN", "zhTW"]
 # texts that count as "present" for a language; without them the language is fetched
@@ -39,6 +44,19 @@ PLACEHOLDERS = {
     "R": ("race", "volk", "rasse", "raza", "razza", "raça", "раса", "종족", "种族", "種族"),
 }
 
+
+# section headings on Wowhead quest pages in every language (zhCN/zhTW pages show no progress
+# or completion text at all)
+SECTION_HEADINGS = {
+    **dict.fromkeys(("description", "beschreibung", "descripción", "descrição", "описание", "서술", "描述"),
+                    "details"),
+    **dict.fromkeys(("progress", "fortschritt", "progreso", "progrès", "progresso", "прогресс", "진행 상황"),
+                    "progress"),
+    **dict.fromkeys(("completion", "vervollständigung", "terminación", "achèvement", "completo", "завершено",
+                     "완료"), "completion"),
+}
+
+RU_CLASSES = ("Воин", "Паладин", "Охотник", "Разбойник", "Жрец", "Шаман", "Маг", "Чернокнижник", "Друид")
 
 NAMES_PATH = ROOT / "etl" / "corrections" / "wowhead" / "player-names.json"
 
@@ -116,7 +134,10 @@ def plan(flavor, quest_ids=None, all_langs=False, refresh=False):
         else:
             wanted = [loc for loc in SITE_LOCALES
                       if not all(texts[loc].get(key, {}).get(f) for f in REQUIRED)]
-        wanted = [loc for loc in wanted if key not in stored.get(loc, {})]
+        # already fetched by the current parser? (older entries are fetched again)
+        current = lambda loc: stored.get(loc, {}).get(key, {}).get("v", 1) >= PARSER_VERSION
+        stale = [loc for loc in SITE_LOCALES if key in stored.get(loc, {}) and not current(loc)]
+        wanted = [loc for loc in SITE_LOCALES if (loc in wanted or loc in stale) and not current(loc)]
         if wanted:
             out.append((qid, wanted))
     return out
@@ -137,6 +158,8 @@ def clean(fragment):
                 return f"${code}"
         return m.group(0)
     text = re.sub(r"<([^<>]{1,20})>", placeholder, text)
+    # Russian grammar codes keep the class: |3-6($C); Wowhead shows the uploader's class instead
+    text = re.sub(r"\|3-(\d)\((" + "|".join(RU_CLASSES) + r")\)", r"|3-\1($C)", text)
     lines = [" ".join(line.split()) for line in text.split("\n")]
     text = "\n".join(lines).strip()
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -169,16 +192,19 @@ def parse(page):
     if m_obj:
         out["objectivesText"] = clean(m_obj.group(1))
 
-    # description: the first h2 section that is not progress/completion/rewards
+    # sections are only told apart by their (localized) heading; a quest without description
+    # starts with "Completion", and the rewards section must never be taken for a text
     for h in re.finditer(r'<h2[^>]*class="[^"]*heading-size-3[^"]*"[^>]*>(.*?)</h2>(.*?)(?=<h2\b|<script\b|<div class="pad)',
                          after_title, re.S):
-        if "disclosure" in h.group(1) or 'id="lknlksndgg' in h.group(2):
-            continue
-        out["details"] = clean(h.group(2))
-        break
+        field = SECTION_HEADINGS.get(re.sub(r"<[^>]+>", "", h.group(1)).strip().lower())
+        if field == "details" and not out["details"]:
+            out["details"] = clean(h.group(2))
+        elif field in ("progress", "completion") and not out[field] and 'id="lknlksndgg' not in h.group(2):
+            out[field] = clean(h.group(2))  # shown directly instead of as a collapsed block
 
-    for field, key in (("progress", "progress"), ("completion", "completion")):
-        m2 = re.search(rf'<div[^>]*id="lknlksndgg-{key}"[^>]*>(.*?)</div>', page, re.S)
+    # progress and completion are usually collapsed blocks with fixed ids
+    for field in ("progress", "completion"):
+        m2 = re.search(rf'<div[^>]*id="lknlksndgg-{field}"[^>]*>(.*?)</div>', page, re.S)
         if m2:
             out[field] = clean(m2.group(1))
     out["objectivesText"] = [out["objectivesText"]] if out["objectivesText"] else None
@@ -284,7 +310,8 @@ def main():
             print(json.dumps({args.locale: entry}, ensure_ascii=False, indent=1))
             return
         store = load_store(args.flavor, args.locale)
-        store["quests"][str(args.quest)] = {**entry, "fetched": datetime.now(timezone.utc).date().isoformat()}
+        store["quests"][str(args.quest)] = {**entry, "fetched": datetime.now(timezone.utc).date().isoformat(),
+                                            "v": PARSER_VERSION}
         save_store(args.flavor, args.locale, store)
         fields = ", ".join(k for k in TEXT_FIELDS if k in entry) or "nothing"
         print(f"{args.locale} {args.quest}: {fields}")

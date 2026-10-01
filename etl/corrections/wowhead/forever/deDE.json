@@ -6,6 +6,12 @@
    "details": "Es macht durstig, das Land zu bestellen, und ich bin immer auf der Suche nach erfrischendem Quellwasser.$B$BWenn Ihr welches habt, dann mache ich einen Tauschhandel mit Euch.$BErfrischendes Quellwasser (1)",
    "completion": "Danke, $N! Und kommt jederzeit wieder, wenn Ihr noch einen Handel machen wollt.",
    "fetched": "2026-10-01"
+  },
+  "247": {
+   "name": "Die Jagd ist abgeschlossen",
+   "completion": "$N, Ihr habt alle drei Tiere erschlagen, um die es bei der Jagd in Ashenvale geht. Ihr habt mir angemessene Beweise von ihrem Tod gebracht; es gibt keinen Zweifel an Eurer Kraft und Eurer Hartnäckigkeit. Das Blut eines Jägers fließt durch Eure Adern, und Ihr solltet dafür belohnt werden!$B$BBitte, nehmt dieses Schmuckstück als Zeichen unserer Anerkennung ob Eurer mächtigen Taten, die Ihr heute für die Horde in Ashenvale vollbracht habt. Mögen Eure Vorfahren über Euch wachen.",
+   "fetched": "2026-10-01",
+   "v": 2
   }
  }
 }
