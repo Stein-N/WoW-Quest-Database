@@ -4,7 +4,7 @@
 	import { site } from '$lib/context.svelte';
 	import { getQuestIndex } from '$lib/data';
 	import { FLAVOR_LABELS } from '$lib/format';
-	import { exportLua, FIELDS, parseIds, TEXT_FIELDS, textVarFor, type ExportFile, type ExportType } from '$lib/lua-export';
+	import { exportLua, FIELD_DOCS, FIELDS, parseIds, TEXT_FIELDS, textVarFor, type ExportFile, type ExportType } from '$lib/lua-export';
 	import { LOCALES, settings } from '$lib/settings.svelte';
 	import { createZip } from '$lib/zip';
 	import { param, syncUrl, urlParams } from '$lib/url-state';
@@ -165,12 +165,47 @@
 	const preview = $derived(
 		shown ? shown.text.split('\n').slice(0, 40).map((l) => (l.length > 400 ? `${l.slice(0, 400)} …` : l)).join('\n') : ''
 	);
+	// one floating tooltip for the field explanations, kept inside the viewport
+	let tip = $state<{ text: string; x: number; y: number; below: boolean } | null>(null);
+	function showTip(e: Event, text: string) {
+		const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
+		const below = r.top < 110;
+		tip = { text, x: r.left + r.width / 2, y: below ? r.bottom + 6 : r.top - 6, below };
+	}
+	const hideTip = () => (tip = null);
+
 	const setAll = (sel: Record<string, boolean>, value: boolean) => {
 		for (const k of Object.keys(sel)) sel[k] = value;
 	};
 </script>
 
+{#snippet info(field: string)}
+	{#if FIELD_DOCS[type][field]}
+		<button
+			type="button"
+			class="info"
+			aria-label="About {field}: {FIELD_DOCS[type][field]}"
+			onmouseenter={(e) => showTip(e, FIELD_DOCS[type][field])}
+			onmouseleave={hideTip}
+			onfocus={(e) => showTip(e, FIELD_DOCS[type][field])}
+			onblur={hideTip}
+			onclick={(e) => (tip ? hideTip() : showTip(e, FIELD_DOCS[type][field]))}>ⓘ</button
+		>
+	{/if}
+{/snippet}
+
 <svelte:head><title>Lua export – WoW Quest Database</title></svelte:head>
+<svelte:window onscroll={hideTip} />
+
+{#if tip}
+	<div
+		class="tooltip"
+		role="tooltip"
+		style="--x:{tip.x}px; top:{tip.y}px; transform: translateY({tip.below ? '0' : '-100%'})"
+	>
+		{tip.text}
+	</div>
+{/if}
 
 <h1>Lua export</h1>
 <p class="muted">
@@ -221,7 +256,10 @@
 			</div>
 			<div class="fields">
 				{#each dataFields as f (f)}
-					<label><input type="checkbox" bind:checked={dataSel[f]} /> {f}</label>
+					<div class="field">
+						<label><input type="checkbox" bind:checked={dataSel[f]} /> {f}</label>
+						{@render info(f)}
+					</div>
 				{/each}
 			</div>
 			<div class="row">
@@ -261,7 +299,10 @@
 				</div>
 				<div class="fields">
 					{#each textFields as f (f)}
-						<label><input type="checkbox" bind:checked={textSel[f]} /> {f}</label>
+						<div class="field">
+							<label><input type="checkbox" bind:checked={textSel[f]} /> {f}</label>
+							{@render info(f)}
+						</div>
 					{/each}
 				</div>
 				<label class="row">
@@ -400,6 +441,47 @@
 		opacity: 0.5;
 		cursor: default;
 	}
+	.field {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		min-width: 0;
+	}
+	.field label {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.info {
+		position: relative;
+		background: none;
+		border: none;
+		padding: 0 0.15rem;
+		color: var(--muted);
+		cursor: help;
+		font-size: 0.85rem;
+		line-height: 1;
+	}
+	.info:hover,
+	.info:focus-visible {
+		color: var(--accent);
+	}
+	.tooltip {
+		position: fixed;
+		/* centred on the icon, but never closer than 8px to the viewport edges */
+		left: clamp(8px, calc(var(--x) - 9rem), calc(100vw - 18rem - 8px));
+		width: max-content;
+		max-width: min(18rem, calc(100vw - 16px));
+		padding: 0.45rem 0.6rem;
+		border-radius: 6px;
+		background: var(--text);
+		color: var(--bg);
+		font-size: 0.8rem;
+		line-height: 1.35;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+		pointer-events: none;
+		z-index: 2000;
+	}
 	.pickers {
 		display: flex;
 		gap: 0.8rem;
@@ -410,6 +492,19 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.6rem;
+		/* fieldsets default to min-width: min-content and would widen the page on phones */
+		min-width: 0;
+	}
+	.row > * {
+		min-width: 0;
+	}
+	.row input,
+	.row select {
+		width: 100%;
+	}
+	legend {
+		max-width: 100%;
+		overflow-wrap: anywhere;
 	}
 	legend code {
 		font-size: 0.8em;

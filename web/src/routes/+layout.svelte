@@ -98,7 +98,9 @@
 	}
 	nav {
 		display: flex;
-		gap: 0.8rem;
+		flex-wrap: wrap;
+		gap: 0.2rem 0.8rem;
+		min-width: 0;
 	}
 	nav a {
 		color: var(--text);
