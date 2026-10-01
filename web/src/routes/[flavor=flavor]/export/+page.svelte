@@ -3,7 +3,7 @@
 	import { site } from '$lib/context.svelte';
 	import { getQuestIndex } from '$lib/data';
 	import { FLAVOR_LABELS } from '$lib/format';
-	import { exportLua, FIELDS, parseIds, type ExportResult, type ExportType } from '$lib/lua-export';
+	import { exportLua, FIELDS, parseIds, TEXT_FIELDS, textVarFor, type ExportFile, type ExportType } from '$lib/lua-export';
 	import { LOCALES, settings } from '$lib/settings.svelte';
 
 	const flavor = $derived(page.params.flavor!);
@@ -29,7 +29,8 @@
 	let running = $state(false);
 	let progress = $state<[number, number]>([0, 0]);
 	let error = $state('');
-	let result = $state<ExportResult | null>(null);
+	let files = $state<ExportFile[] | null>(null);
+	let previewIndex = $state(0);
 
 	const fields = $derived(FIELDS[type]);
 	const chosen = $derived(fields.filter((f) => selected[f]));
@@ -49,7 +50,7 @@
 	$effect(() => {
 		void type;
 		selected = {};
-		result = null;
+		files = null;
 	});
 
 	async function zoneOptions(flavor: string) {
@@ -61,10 +62,11 @@
 	async function run() {
 		running = true;
 		error = '';
-		result = null;
+		files = null;
 		progress = [0, 0];
 		try {
-			result = await exportLua(
+			previewIndex = 0;
+			files = await exportLua(
 				{
 					flavor,
 					type,
@@ -85,26 +87,38 @@
 		}
 	}
 
-	function download() {
-		if (!result) return;
-		const url = URL.createObjectURL(new Blob([result.text], { type: 'text/x-lua;charset=utf-8' }));
+	function download(file: ExportFile) {
+		const url = URL.createObjectURL(new Blob([file.text], { type: 'text/x-lua;charset=utf-8' }));
 		const a = document.createElement('a');
 		a.href = url;
-		a.download = result.fileName;
+		a.download = file.fileName;
 		a.click();
 		setTimeout(() => URL.revokeObjectURL(url), 1000);
 	}
 
-	let copied = $state(false);
-	async function copy() {
-		if (!result) return;
-		await navigator.clipboard.writeText(result.text);
-		copied = true;
-		setTimeout(() => (copied = false), 1500);
+	async function downloadAll() {
+		for (const file of files ?? []) {
+			download(file);
+			await new Promise((r) => setTimeout(r, 300)); // browsers drop rapid successive downloads
+		}
 	}
 
-	const preview = $derived(result ? result.text.split('\n').slice(0, 40).map((l) => (l.length > 400 ? `${l.slice(0, 400)} …` : l)).join('\n') : '');
-	const size = $derived(result ? new Blob([result.text]).size : 0);
+	let copied = $state('');
+	async function copy(file: ExportFile) {
+		await navigator.clipboard.writeText(file.text);
+		copied = file.fileName;
+		setTimeout(() => (copied = ''), 1500);
+	}
+
+	const sizeOf = (file: ExportFile) => {
+		const bytes = new Blob([file.text]).size;
+		return bytes > 1024 * 100 ? `${Math.round(bytes / 1024)} KB` : `${(bytes / 1024).toFixed(1)} KB`;
+	};
+	const shown = $derived(files?.[previewIndex] ?? files?.[0]);
+	const preview = $derived(
+		shown ? shown.text.split('\n').slice(0, 40).map((l) => (l.length > 400 ? `${l.slice(0, 400)} …` : l)).join('\n') : ''
+	);
+	const textFields = $derived(TEXT_FIELDS[type]);
 </script>
 
 <svelte:head><title>Lua export – WoW Quest Database</title></svelte:head>
@@ -138,10 +152,14 @@
 			</legend>
 			<div class="fields">
 				{#each fields as f (f)}
-					<label><input type="checkbox" bind:checked={selected[f]} /> {f}</label>
+					<label class:textfield={textFields.includes(f)}><input type="checkbox" bind:checked={selected[f]} /> {f}</label>
 				{/each}
 			</div>
-			<p class="hint muted">Nothing ticked exports every field.</p>
+			<p class="hint muted">
+				Nothing ticked exports every field.
+				{#if textFields.length}<span class="textfield">Italic</span> fields are texts and go to a separate
+					<code>{textVarFor(varName)}.{locale}.lua</code>, keyed by the same IDs.{/if}
+			</p>
 		</fieldset>
 
 		<label class="row">
@@ -203,14 +221,21 @@
 	</form>
 
 	<aside>
-		{#if result}
+		{#if files}
 			<section class="panel">
-				<h3>{result.fileName}</h3>
-				<p class="muted">{result.count.toLocaleString('en')} entries · {(size / 1024).toFixed(size > 1024 * 100 ? 0 : 1)} KB</p>
-				<div class="actions">
-					<button class="primary" onclick={download}>Download</button>
-					<button onclick={copy}>{copied ? 'Copied' : 'Copy'}</button>
-				</div>
+				{#each files as file (file.fileName)}
+					<div class="file">
+						<h3>{file.fileName}</h3>
+						<p class="muted">{file.count.toLocaleString('en')} entries · {sizeOf(file)}</p>
+						<div class="actions">
+							<button onclick={() => download(file)}>Download</button>
+							<button onclick={() => copy(file)}>{copied === file.fileName ? 'Copied' : 'Copy'}</button>
+						</div>
+					</div>
+				{/each}
+				{#if files.length > 1}
+					<div class="actions"><button class="primary" onclick={downloadAll}>Download all</button></div>
+				{/if}
 			</section>
 		{:else}
 			<section class="panel muted">
@@ -221,8 +246,15 @@
 	</aside>
 </div>
 
-{#if result}
+{#if files && shown}
 	<h2>Preview <span class="count">first 40 lines</span></h2>
+	{#if files.length > 1}
+		<div class="actions tabs">
+			{#each files as file, i (file.fileName)}
+				<button class:active={shown === file} onclick={() => (previewIndex = i)}>{file.fileName}</button>
+			{/each}
+		</div>
+	{/if}
 	<pre class="preview">{preview}</pre>
 {/if}
 
@@ -293,6 +325,31 @@
 	button:disabled {
 		opacity: 0.5;
 		cursor: default;
+	}
+	.textfield {
+		font-style: italic;
+	}
+	.file + .file {
+		border-top: 1px solid var(--border);
+		margin-top: 0.75rem;
+		padding-top: 0.75rem;
+	}
+	.file h3 {
+		margin: 0;
+		word-break: break-all;
+	}
+	.file p {
+		margin: 0.2rem 0 0.5rem;
+	}
+	.file + .actions {
+		margin-top: 0.9rem;
+	}
+	.tabs {
+		margin-bottom: 0.5rem;
+	}
+	.tabs button.active {
+		border-color: var(--accent);
+		color: var(--accent);
 	}
 	.err {
 		color: var(--horde);

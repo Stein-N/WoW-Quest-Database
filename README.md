@@ -21,22 +21,46 @@ make update    # neueste QuestieDB- und VMangos-Daten holen und neu bauen
 ## Daten als Lua exportieren
 
 `etl/export_lua.py` schreibt die zusammengeführten Daten (QuestieDB + VMangos) als Lua-Tabellen,
-standardmäßig im Addon-Format wie `QuestRewards.lua` (`local _, addon = ...` / `addon.<name> = {...}`).
-Voraussetzung ist `make data`. Dieselbe Funktion gibt es auf der Webseite unter **Export**: Optionen
-wählen, *Generate Lua*, herunterladen oder kopieren. Die Logik steckt in `web/src/lib/lua-export.ts`
-und erzeugt dieselbe Ausgabe wie das Skript.
+standardmäßig im Addon-Format wie `QuestRewards.lua`. Voraussetzung ist `make data`. Dieselbe
+Funktion gibt es auf der Webseite unter **Export**: Optionen wählen, *Generate Lua*, herunterladen
+oder kopieren. Die Logik steckt in `web/src/lib/lua-export.ts` und erzeugt dieselbe Ausgabe wie das
+Skript.
+
+**Texte stehen immer in einer eigenen Datei**, verknüpft über die ID. Pro Export entstehen deshalb
+zwei Dateien:
+
+```lua
+-- questData.lua                          -- questTexts.deDE.lua
+local _, addon = ...                      local _, addon = ...
+addon.questData = {                       addon.questTexts = addon.questTexts or {}
+    [33] = { level = 2, zone = 9,         addon.questTexts["deDE"] = {
+             rewards = { ... } },             [33] = { name = "Wölfe an der Grenze",
+}                                                      objectivesText = {...}, details = "...", ... },
+                                          }
+```
+
+| Typ | Textfelder (→ `<typ>Texts.<sprache>.lua`) |
+| --- | --- |
+| Quest | `name`, `objectivesText`, `details`, `progress`, `completion`, `endText` |
+| NPC | `name`, `subName` |
+| Objekt | `name` |
+| Item | `name`, `description` |
+
+Mehrere Sprachen lassen sich nebeneinander laden (`addon.questTexts.enUS`, `addon.questTexts.deDE`, …).
+Im Standardmodus (`--refs id`) enthält die Datendatei keine Anzeigetexte: Verweise auf Quests, NPCs,
+Items, Zonen und Fraktionen sind reine IDs.
 
 ```sh
-# alle Forever-Quests
-python3 etl/export_lua.py --flavor forever --type quest -o questData.lua
-# nur bestimmte Felder, z. B. Belohnungen
-python3 etl/export_lua.py --flavor forever --type quest --fields name,rewards --var questRewards -o rewards.lua
-# NPCs einer Zone (Elwynn = 12), deutsch, ohne Quellenangaben
-python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE --exclude sources -o npcs.lua
+# alle Forever-Quests (questData.lua + questTexts.enUS.lua) nach export/
+python3 etl/export_lua.py --flavor forever --type quest -o export/
+# deutsche Texte zusätzlich
+python3 etl/export_lua.py --flavor forever --type quest --fields name,objectivesText,details --locale deDE -o export/
+# NPCs einer Zone (Elwynn = 12) ohne Quellenangaben
+python3 etl/export_lua.py --flavor classic --type npc --zone 12 --exclude sources -o export/
 # Questreihen als `return {...}` für dofile/require
-python3 etl/export_lua.py --flavor classic --type questline --style return -o questlines.lua
+python3 etl/export_lua.py --flavor classic --type questline --style return -o export/
 # über make
-make lua ARGS="--flavor forever --type item --ids 100-200 -o items.lua"
+make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
 ```
 
 | Option | Bedeutung |
@@ -45,10 +69,11 @@ make lua ARGS="--flavor forever --type item --ids 100-200 -o items.lua"
 | `--fields` / `--exclude` | Felder behalten bzw. weglassen (kommagetrennt) |
 | `--ids` | IDs oder Bereiche, z. B. `2,33,100-200` |
 | `--zone` | nur Einträge dieser Zone (Area-ID) |
-| `--locale` | Texte und Namen übersetzt (`deDE`, `frFR`, …) |
+| `--locale` | Sprache der Texte (Standard `enUS`; `deDE`, `frFR`, …) |
 | `--refs` | `id` (Standard): Verweise als reine IDs; `full`: mit Typ und Name |
 | `--style` | `addon` (Standard) oder `return` |
-| `--var` | Tabellenname im Addon-Format (Standard `<type>Data`) |
+| `--var` / `--text-var` | Tabellennamen (Standard `<type>Data` / `<type>Texts`) |
+| `-o` / `--out-dir` | Zielordner (Standard: aktueller Ordner) |
 
 Die Feldnamen entsprechen den JSON-Daten der Webseite (siehe `web/src/lib/types.ts`).
 

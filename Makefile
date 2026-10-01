@@ -4,7 +4,7 @@
 #   make dev       run the website locally (http://localhost:5173)
 #   make build     static site in web/build (any web server)
 #   make maps      extract world maps from the local WoW clients (WOW_DIR=…)
-#   make lua ARGS="--flavor forever --type quest -o quests.lua"   export data as Lua
+#   make lua ARGS="--flavor forever --type quest -o export/"   export data as Lua
 
 QUESTIE  := vendor/QuestieDB
 LUA      := ./tools/lua-binary/linux-x64/lua

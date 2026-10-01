@@ -3,18 +3,19 @@
 The website's Export page does the same in the browser (web/src/lib/lua-export.ts); keep
 both producing identical output.
 
-    python3 etl/export_lua.py --flavor forever --type quest --fields name,level,rewards
-    python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE -o npcs.lua
+    python3 etl/export_lua.py --flavor forever --type quest -o export/
+    python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE -o export/
     python3 etl/export_lua.py --flavor forever --type questline --style return
 
-Reads web/static/data (run `make data` first). Output, by default in the same shape as
-QuestRewards.lua:
+Reads web/static/data (run `make data` first). Texts (names, quest texts, descriptions) always
+go to their own file, linked by the entity ID:
 
-    local _, addon = ...
-
-    addon.questData = {
-        [2] = { name = "Sharptalon's Claw", level = 30, ... },
-    }
+    questData.lua                          questTexts.deDE.lua
+    local _, addon = ...                   local _, addon = ...
+    addon.questData = {                    addon.questTexts = addon.questTexts or {}
+        [2] = { level = 30, ... },         addon.questTexts["deDE"] = {
+    }                                          [2] = { name = "Klaue von Scharfkralle", ... },
+                                           }
 
 Options:
   --type      quest | npc | object | item | questline
@@ -22,13 +23,14 @@ Options:
   --exclude   comma-separated fields to drop (e.g. spawns,sources)
   --ids       comma-separated IDs, or a range like 100-200
   --zone      only entities whose zone (or questline zone) is this area ID
-  --locale    merge translated texts (deDE, frFR, ...) over the English ones
+  --locale    language of the texts and names (default enUS; deDE, frFR, ...)
   --refs      id (default): references to other entities become plain IDs;
               full: keep {t, id, name, ...} tables
   --style     addon (default): `local _, addon = ...` + addon.<var> = {...}
               return: `return {...}` for dofile/require
-  --var       table name for --style addon (default: <type>Data)
-  -o/--out    output file (default: stdout)
+  --var       data table name (default: <type>Data)
+  --text-var  texts table name (default: <type>Texts)
+  -o/--out-dir  directory for <var>.lua and <text-var>.<locale>.lua (default: .)
 """
 
 import argparse
@@ -41,6 +43,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "web" / "static" / "data"
 TYPES = ("quest", "npc", "object", "item", "questline")
+# Texts are always written to their own file (<name>Texts.<locale>.lua), keyed by entity ID.
+TEXT_FIELDS = {
+    "quest": ("name", "objectivesText", "details", "progress", "completion", "endText"),
+    "npc": ("name", "subName"),
+    "object": ("name",),
+    "item": ("name", "description"),
+}
 IDENT = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 LUA_KEYWORDS = {
     "and", "break", "do", "else", "elseif", "end", "false", "for", "function", "goto", "if",
@@ -83,8 +92,17 @@ def localize_refs(value, names, zone_names):
 
 
 def compact_refs(value):
-    """{t, id, name, ...} -> id, keeping extra facts such as chance or count."""
+    """{t, id, name, ...} -> id, keeping extra facts such as chance or count.
+
+    Zone references become their area ID and faction/skill references lose their name, so the
+    data file carries no display text at all.
+    """
     if isinstance(value, dict):
+        keys = set(value)
+        if keys in ({"zone", "name"}, {"sort", "name"}):
+            return value.get("zone", value.get("sort"))
+        if "id" in keys and "name" in keys and "t" not in keys and keys <= {"id", "name", "value"}:
+            return {k: v for k, v in value.items() if k != "name"} if "value" in keys else value["id"]
         if "t" in value and "id" in value:
             extra = {k: v for k, v in value.items() if k not in ("t", "id", "name", "q", "lvl", "missing")}
             if not extra:
@@ -152,21 +170,45 @@ def lua_value(value):
     raise TypeError(f"cannot convert {type(value).__name__}")
 
 
-def render(records, args, meta):
-    header = [
-        f"-- {Path(args.out).name if args.out else args.var + '.lua'}",
+def text_var_for(var):
+    return var[:-4] + "Texts" if var.endswith("Data") else var + "Texts"
+
+
+def header(file_name, description, count, meta):
+    return [
+        f"-- {file_name}",
         "--",
-        f"-- {args.type} data for {meta['flavors'][args.flavor]['label']}, exported from the WoW Quest Database.",
+        f"-- {description}",
         f"-- Sources: QuestieDB {meta.get('questie')}, VMangos {meta.get('vmangos')} (built {meta.get('built')}).",
         f"-- Generated {datetime.now(timezone.utc).isoformat(timespec='seconds')} by: "
         f"etl/export_lua.py {' '.join(sys.argv[1:])}",
-        f"-- {len(records)} entries.",
+        f"-- {count} entries.",
         "",
     ]
+
+
+def render_data(records, args, meta, file_name, texts_file):
+    flavor = meta["flavors"][args.flavor]["label"]
+    lines = header(file_name, f"{args.type} data for {flavor}, exported from the WoW Quest Database.",
+                   len(records), meta)
+    if texts_file:
+        lines[3:3] = [f"-- Texts (names, descriptions, ...) are in {texts_file}, keyed by the same IDs."]
     body = [f"    [{entity_id}] = {lua_value(rec)}," for entity_id, rec in sorted(records.items())]
     if args.style == "return":
-        return "\n".join(header + ["return {"] + body + ["}", ""])
-    return "\n".join(header + ["local _, addon = ...", "", f"addon.{args.var} = {{"] + body + ["}", ""])
+        return "\n".join(lines + ["return {"] + body + ["}", ""])
+    return "\n".join(lines + ["local _, addon = ...", "", f"addon.{args.var} = {{"] + body + ["}", ""])
+
+
+def render_texts(texts, args, meta, file_name, locale):
+    flavor = meta["flavors"][args.flavor]["label"]
+    lines = header(file_name, f"{args.type} texts ({locale}) for {flavor}, keyed by {args.type} ID.",
+                   len(texts), meta)
+    body = [f"    [{entity_id}] = {lua_value(rec)}," for entity_id, rec in sorted(texts.items())]
+    if args.style == "return":
+        return "\n".join(lines + ["return {"] + body + ["}", ""])
+    table = f"addon.{args.text_var}"
+    return "\n".join(lines + ["local _, addon = ...", "", f"{table} = {table} or {{}}",
+                              f"{table}[{lua_string(locale)}] = {{"] + body + ["}", ""])
 
 
 def main():
@@ -177,15 +219,18 @@ def main():
     ap.add_argument("--exclude")
     ap.add_argument("--ids")
     ap.add_argument("--zone", type=int)
-    ap.add_argument("--locale")
+    ap.add_argument("--locale", default="enUS")
     ap.add_argument("--refs", choices=["id", "full"], default="id")
     ap.add_argument("--style", choices=["addon", "return"], default="addon")
     ap.add_argument("--var")
-    ap.add_argument("-o", "--out")
+    ap.add_argument("--text-var")
+    ap.add_argument("-o", "--out-dir", default=".")
     args = ap.parse_args()
     args.var = args.var or f"{args.type}Data"
-    if not IDENT.match(args.var):
-        sys.exit(f"--var must be a Lua identifier: {args.var}")
+    args.text_var = args.text_var or text_var_for(args.var)
+    for name in (args.var, args.text_var):
+        if not IDENT.match(name) or name in LUA_KEYWORDS:
+            sys.exit(f"table names must be Lua identifiers: {name}")
 
     meta = json.loads((DATA / "meta.json").read_text())
     records = load_records(args.flavor, args.type)
@@ -196,9 +241,9 @@ def main():
     if args.zone is not None:
         records = {i: r for i, r in records.items() if zone_of(r) == args.zone}
 
-    if args.locale and args.locale != "enUS":
+    if args.locale != "enUS":
         if args.locale not in meta["locales"]:
-            sys.exit(f"unknown locale {args.locale}; available: {', '.join(meta['locales'])}")
+            sys.exit(f"unknown locale {args.locale}; available: enUS, {', '.join(meta['locales'])}")
         names = json.loads((DATA / args.flavor / "l10n" / args.locale / "search.json").read_text())
         zone_names = json.loads((DATA / args.flavor / "l10n" / args.locale / "zones.json").read_text())
         translated = load_l10n(args.flavor, args.type, args.locale) if args.type != "questline" else {}
@@ -206,17 +251,25 @@ def main():
 
     keep = set(args.fields.split(",")) if args.fields else None
     drop = set(args.exclude.split(",")) if args.exclude else set()
-    out = {}
+    text_fields = TEXT_FIELDS.get(args.type, ())
+    data, texts = {}, {}
     for entity_id, rec in records.items():
         rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
-        out[entity_id] = compact_refs(rec) if args.refs == "id" else rec
+        text = {k: rec.pop(k) for k in text_fields if k in rec}
+        data[entity_id] = compact_refs(rec) if args.refs == "id" else rec
+        if text:
+            texts[entity_id] = text
 
-    text = render(out, args, meta)
-    if args.out:
-        Path(args.out).write_text(text, encoding="utf-8")
-        print(f"wrote {len(out)} entries to {args.out}", file=sys.stderr)
-    else:
-        sys.stdout.write(text)
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    data_file = f"{args.var}.lua"
+    texts_file = f"{args.text_var}.{args.locale}.lua" if texts else None
+    if any(data.values()) or not texts:
+        (out_dir / data_file).write_text(render_data(data, args, meta, data_file, texts_file), encoding="utf-8")
+        print(f"wrote {len(data)} entries to {out_dir / data_file}", file=sys.stderr)
+    if texts:
+        (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, args.locale), encoding="utf-8")
+        print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)
 
 
 if __name__ == "__main__":

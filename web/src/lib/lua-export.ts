@@ -16,6 +16,21 @@ export interface ExportOptions {
 	refs: 'id' | 'full';
 	style: 'addon' | 'return';
 	varName: string;
+	/** texts table name; default derived from varName (questData -> questTexts) */
+	textVarName?: string;
+}
+
+/** Texts are always written to their own file (<name>Texts.<locale>.lua), keyed by entity ID. */
+export const TEXT_FIELDS: Record<ExportType, string[]> = {
+	quest: ['name', 'objectivesText', 'details', 'progress', 'completion', 'endText'],
+	npc: ['name', 'subName'],
+	object: ['name'],
+	item: ['name', 'description'],
+	questline: []
+};
+
+export function textVarFor(varName: string): string {
+	return varName.endsWith('Data') ? `${varName.slice(0, -4)}Texts` : `${varName}Texts`;
 }
 
 /** Top-level fields of each record type, in display order (see types.ts). */
@@ -95,9 +110,19 @@ function localizeRefs(value: Json, names: Record<string, Record<string, string>>
 
 const REF_DETAIL = new Set(['t', 'id', 'name', 'q', 'lvl', 'missing']);
 
+/**
+ * {t, id, name, ...} -> id, keeping extra facts such as chance or count. Zone references become
+ * their area ID and faction/skill references lose their name, so data files carry no display text.
+ */
 function compactRefs(value: Json): Json {
 	if (Array.isArray(value)) return value.map(compactRefs);
 	if (value && typeof value === 'object') {
+		const keys = Object.keys(value);
+		const has = (k: string) => k in value;
+		if (keys.length === 2 && has('name') && (has('zone') || has('sort'))) return (value.zone ?? value.sort) as Json;
+		if (has('id') && has('name') && !has('t') && keys.every((k) => k === 'id' || k === 'name' || k === 'value')) {
+			return has('value') ? { id: value.id, value: value.value } : value.id;
+		}
 		if ('t' in value && 'id' in value) {
 			const extra = Object.entries(value).filter(([k]) => !REF_DETAIL.has(k));
 			if (!extra.length) return value.id;
@@ -145,18 +170,36 @@ export function luaValue(value: Json | undefined): string {
 
 // ------------------------------------------------------------------ export
 
-export interface ExportResult {
+export interface ExportFile {
+	fileName: string;
 	text: string;
 	count: number;
-	fileName: string;
 }
+
+function header(fileName: string, description: string, count: number, meta: Meta, opts: ExportOptions): string[] {
+	return [
+		`-- ${fileName}`,
+		'--',
+		`-- ${description}`,
+		`-- Sources: QuestieDB ${meta.questie}, VMangos ${meta.vmangos} (built ${meta.built}).`,
+		`-- Generated ${new Date().toISOString().slice(0, 19)}Z on the website: type=${opts.type}` +
+			`${opts.fields.length ? ` fields=${opts.fields.join(',')}` : ''}${opts.ids ? ` ids=${opts.ids}` : ''}` +
+			`${opts.zone !== null ? ` zone=${opts.zone}` : ''} locale=${opts.locale} refs=${opts.refs}`,
+		`-- ${count} entries.`,
+		''
+	];
+}
+
+const entries = (map: Map<number, Json>) =>
+	[...map].sort((a, b) => a[0] - b[0]).map(([id, rec]) => `    [${id}] = ${luaValue(rec)},`);
 
 export async function exportLua(
 	opts: ExportOptions,
 	onProgress?: (done: number, total: number) => void
-): Promise<ExportResult> {
-	if (!IDENT.test(opts.varName) || KEYWORDS.has(opts.varName)) {
-		throw new Error(`Table name must be a Lua identifier: ${opts.varName}`);
+): Promise<ExportFile[]> {
+	const textVar = opts.textVarName || textVarFor(opts.varName);
+	for (const name of [opts.varName, textVar]) {
+		if (!IDENT.test(name) || KEYWORDS.has(name)) throw new Error(`Table names must be Lua identifiers: ${name}`);
 	}
 	const meta: Meta = await getMeta();
 	const wantedIds = parseIds(opts.ids);
@@ -205,30 +248,42 @@ export async function exportLua(
 	}
 
 	const keep = opts.fields.length ? new Set(opts.fields) : null;
-	const lines: string[] = [];
-	for (const [id, rec] of [...records].sort((a, b) => a[0] - b[0])) {
-		let out: Json = Object.fromEntries(
-			Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)))
-		);
-		if (opts.refs === 'id') out = compactRefs(out);
-		lines.push(`    [${id}] = ${luaValue(out)},`);
+	const textFields = TEXT_FIELDS[opts.type];
+	const data = new Map<number, Json>();
+	const texts = new Map<number, Json>();
+	for (const [id, rec] of records) {
+		const kept = Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)));
+		const text = kept.filter(([k]) => textFields.includes(k));
+		const rest: Json = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
+		data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
+		if (text.length) {
+			// field order as in TEXT_FIELDS, like the Python tool
+			texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, rec[f]])));
+		}
 	}
 
-	const fileName = `${opts.varName}.lua`;
-	const header = [
-		`-- ${fileName}`,
-		'--',
-		`-- ${opts.type} data for ${meta.flavors[opts.flavor]?.label ?? opts.flavor}, exported from the WoW Quest Database.`,
-		`-- Sources: QuestieDB ${meta.questie}, VMangos ${meta.vmangos} (built ${meta.built}).`,
-		`-- Generated ${new Date().toISOString().slice(0, 19)}Z on the website: type=${opts.type}` +
-			`${opts.fields.length ? ` fields=${opts.fields.join(',')}` : ''}${opts.ids ? ` ids=${opts.ids}` : ''}` +
-			`${opts.zone !== null ? ` zone=${opts.zone}` : ''} locale=${opts.locale} refs=${opts.refs}`,
-		`-- ${lines.length} entries.`,
-		''
-	];
-	const body =
-		opts.style === 'return'
-			? ['return {', ...lines, '}', '']
-			: ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...lines, '}', ''];
-	return { text: [...header, ...body].join('\n'), count: lines.length, fileName };
+	const label = meta.flavors[opts.flavor]?.label ?? opts.flavor;
+	const dataFile = `${opts.varName}.lua`;
+	const textsFile = texts.size ? `${textVar}.${opts.locale}.lua` : null;
+	const files: ExportFile[] = [];
+	const hasData = [...data.values()].some((v) => v && typeof v === 'object' && Object.keys(v).length);
+	if (hasData || !texts.size) {
+		const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
+		if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${textsFile}, keyed by the same IDs.`);
+		const body =
+			opts.style === 'return'
+				? ['return {', ...entries(data), '}', '']
+				: ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];
+		files.push({ fileName: dataFile, text: [...lines, ...body].join('\n'), count: data.size });
+	}
+	if (textsFile) {
+		const lines = header(textsFile, `${opts.type} texts (${opts.locale}) for ${label}, keyed by ${opts.type} ID.`, texts.size, meta, opts);
+		const table = `addon.${textVar}`;
+		const body =
+			opts.style === 'return'
+				? ['return {', ...entries(texts), '}', '']
+				: ['local _, addon = ...', '', `${table} = ${table} or {}`, `${table}[${luaString(opts.locale)}] = {`, ...entries(texts), '}', ''];
+		files.push({ fileName: textsFile, text: [...lines, ...body].join('\n'), count: texts.size });
+	}
+	return files;
 }
