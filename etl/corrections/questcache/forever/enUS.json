@@ -1,0 +1,93 @@
+{
+ "_comment": "Quest texts read from WoW client caches (etl/import_questcache.py). Used by etl/build.py only where QuestieDB and VMangos have no text.",
+ "quests": {
+  "92642": {
+   "name": "Disrupting Logistics",
+   "objectivesText": [
+    "Slay 4 Al'Aketh Healers and 8 Al'Aketh Brawlers in the Gustberry Lowlands."
+   ],
+   "details": "Valennia only sent one person to help repel a full-scale assault... by the winds.$B$BYou don't look like much but I'll take what I can get. We need to inflict as much damage as possible to stop this soon. My people can't hold out much longer.$B$BGo down the hill and disrupt their logistics. Their healers are keeping the attackers coming, if we take them out we might be able to rally and push them back. Any other cultists you kill while you are out there are helpful as well.",
+   "build": 70124
+  },
+  "92645": {
+   "name": "Breaking the Breaker",
+   "objectivesText": [
+    "Slay Commander Belguilos in the Gustberry Lowlands."
+   ],
+   "details": "This attack is going to be hard to repel unless we can take out the cult commander. Belguilos \"the Breaker\" they call her, and she's a veritable terror. She used to be a peacekeeper before the cult got out of control, and even then she was... off. As a cultist I can only imagine how much worse she could be now.$B$BI might just be sending you to your death, but someone needs to take Belguilos out if we are going to survive here. You can find her at the villa at the hill's base. Good luck, $c.",
+   "build": 70124
+  },
+  "93318": {
+   "name": "WANTED: Vulgara the Insatiable",
+   "objectivesText": [
+    "Kill Vulgara the Insatiable in the Shen'dar Highlands and bring her head to Danarii Bellowveil."
+   ],
+   "details": "By order of Constable Aonda of the Peacekeepers, a bounty is hereby placed upon the scourge of the highlands, Vulgara the Insatiable. Last spotted on a hilltop rise just southwest of Shen'dar Village, the winged vuldren terror is highly dangerous and should be approached with caution.$B$BDeliver the beast's head to Danarii Bellowveil to receive your reward.",
+   "build": 70124
+  },
+  "93736": {
+   "name": "Unwelcome Spirits",
+   "objectivesText": [
+    "Gather 10 Wind Hollow Essences from Wind Hollows in the Shadowgale Forest."
+   ],
+   "details": "The paramount concern of the Windshapers is to better understand why the spirits left us, and what we may be able to do to bring them back. One curious fixture of Shadowgale Forest to the north is the presence of a curious form of wind sprite that some call \"hollows\". We know little of them and why they are there, but we do know that they first started to appear after the spirits of the wind left us.$B$BI need you to go there and disperse them. Gather the remains and bring them back here.",
+   "build": 70124
+  },
+  "93740": {
+   "name": "Blood for Blood",
+   "objectivesText": [
+    "Collect 10 Al'Aketh Windstone Charms from the corpses of Al'Aketh cultists in the Gustberry Lowlands."
+   ],
+   "details": "A number of our Windshaper novices were found dead in the Highlands this morning. We can't be certain but there is a strong chance that the Al'Aketh are responsible. Windshapers trade blood for blood, every time.$B$BHead north and kill any Al'Aketh you encounter. Bring me their windstone prayer charms as proof of the deed. We do not forgive and we do not forget.",
+   "build": 70124
+  },
+  "94485": {
+   "name": "Tears of the Lady",
+   "objectivesText": [
+    "Collect 8 Lady's Tear Moss."
+   ],
+   "details": "If we are to save my fellows in the Nightclaw Den, I am going to need some ingredients for a poultice. The first and most important is a spindly moss called Lady's Tear. It typically grows on the base of the trees here in Shadowgale.$B$BThis moss secretes a sticky substance that acts as an antiseptic and is perfect for binding open wounds. I have gathered what little I can reach but I know there is more in this forest.$B$BGo and be swift. We are going to need a lot if the injured I left behind still live.",
+   "build": 70124
+  },
+  "94486": {
+   "name": "Feathers for Binding",
+   "objectivesText": [
+    "Collect 20 feathers from the Shadowgale Shrieklings in Shadowgale Forest."
+   ],
+   "details": "The other ingredient I need for the poultice is feathers from the Shadowgale shrieklings that roam this forest. In their juvenile form, the shrieklings have insulative feathers which would be ideal to put over the moss. These feathers will prevent the antiseptic sap from drying out and will provide at least some protection against the elements.$B$BBe warned, the shrieklings are normally docile but they have been incredibly hostile of late. Their large talons can easily disembowel you if you aren't careful.",
+   "build": 70124
+  },
+  "94487": {
+   "name": "Unwanted and Unworthy",
+   "objectivesText": [
+    "Collect 10 Bloodied Heirlooms from Al'Aketh Footsoldiers and Al'Aketh Stormchasers in the Shadowgale Forest."
+   ],
+   "details": "The Al'aketh Cultists ambushed us with no warning, though their motives remain a mystery to me. I knew these cultists had clouds in-between their ears, but I never imagined they would upset the delicate balance here on Zephras with such brutality. Go, slay as many as you can and take their heirlooms if they wear any.$B$B<Elegael spits.>$B$BThese storm cursed cultists don't deserve to be called shen'dorei. The beasts of the forest can have their bodies. Their ashes don't deserve the winds.",
+   "build": 70124
+  },
+  "94896": {
+   "name": "Aid For The Refugees",
+   "objectivesText": [
+    "Collect 8 Abandoned Belongings from the ruins of Ban'aethal."
+   ],
+   "details": "You look like a capable adventurer. Do you happen to be headed towards Shadowgale Forest? Ban'aethal lies deep in the forest; that's where we're all from.$B$B<Ealaane gestures to the other refugees.>$B$BWe've recently had to evacuate Ban'aethal, as it began to fall into the sky. It was sudden and in the middle of the night. If you are headed that way, would you please look for any belongings left behind? The forest and village are far too dangerous for us to return to now.",
+   "build": 70124
+  },
+  "94897": {
+   "name": "The Fate of a Loved One",
+   "objectivesText": [
+    "Find Resaan in the Ruins of Ban'aethal."
+   ],
+   "details": "If you are traveling to Ban'aethal, I have a selfish request. My love, Resaan... I believe is no longer a part of this world. He had tried to go back to get supplies even though I begged him to stay. It has been over a week already and I fear the worst.$B$BPlease, if you find him bring him home. If he has perished then I beg you to please bring me his heirloom.",
+   "build": 70124
+  },
+  "97245": {
+   "name": "Call of Fire",
+   "objectivesText": [
+    "Find the home of Kuramaa in the Shen'dar Highlands, and defeat the spirit in combat. Bring Kuramaa's Mask to Olariaan Swiftburn in the Gustberry Lowlands when you are victorious."
+   ],
+   "details": "The residents of the Shen'dar Highlands speak of an ancient forest sprite called Kuramaa. They say it lives inside of a twisted stump at the summit of a hill near the highlands Anchor Pylon.$B$BGo to the highlands and find this stump. Rap your fist upon the bark and Kuramaa will appear. Best the spirit in combat, and bring me its wooden mask.$B$BBe warned however, this entity will be exceptionally resistant to much of your magic. Only the touch of flame will lay low the spirit.",
+   "build": 70124
+  }
+ }
+}

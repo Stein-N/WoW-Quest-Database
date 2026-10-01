@@ -88,6 +88,7 @@ class Flavor:
         self.warnings = []
 
         self._apply_corrections()
+        self.cache_texts = self._load_cache_texts()
         self._build_reverse_indexes()
         self.zones = self._build_zones()
 
@@ -113,6 +114,21 @@ class Flavor:
                         quest[field] = value
                 applied += 1
         print(f"  applied {applied} quest corrections from {path.name}", file=sys.stderr)
+
+    def _load_cache_texts(self):
+        """etl/corrections/questcache/<flavor>/<locale>.json -> {locale: {quest id: texts}}.
+
+        Quest texts read from WoW client caches (etl/import_questcache.py); they only fill
+        gaps that QuestieDB and VMangos leave.
+        """
+        out = {}
+        for path in sorted((ROOT / "etl" / "corrections" / "questcache" / self.site_id).glob("*.json")):
+            quests = json.loads(path.read_text(encoding="utf-8"))["quests"]
+            out[path.stem] = {int(k): v for k, v in quests.items()}
+        if out:
+            print("  client cache texts: " + ", ".join(f"{loc} {len(q)}" for loc, q in out.items()),
+                  file=sys.stderr)
+        return out
 
     # ------------------------------------------------------------------ indexes
 
@@ -442,6 +458,15 @@ class Flavor:
                 r["suggestedPlayers"] = vmq["SuggestedPlayers"]
             if vmq["LimitTime"]:
                 r["timeLimit"] = vmq["LimitTime"]
+        cached = self.cache_texts.get("enUS", {}).get(qid)
+        if cached:
+            used = False
+            for field in ("name", "objectivesText", "details", "endText"):
+                if not r.get(field) and cached.get(field):
+                    r[field] = cached[field]
+                    used = True
+            if used:
+                r["_fromCache"] = True
         if (q.get("specialFlags") or 0) & 1:
             r["repeatable"] = True
         r["objectives"] = self._objective_entries(qid, q, vmq, spawns)
@@ -511,7 +536,7 @@ class Flavor:
         line = self.questline_of.get(qid)
         if line is not None:
             r["questline"] = {"id": line["id"], "size": len(line["quests"])}
-        r["sources"] = ["questie"] + (["vmangos"] if vmq is not None else [])
+        r["sources"] = ["questie"] + (["vmangos"] if vmq is not None else []) + (["cache"] if r.pop("_fromCache", False) else [])
         return {k: v for k, v in r.items() if v is not None}
 
     def _previous_in_chain(self, qid):
@@ -801,7 +826,10 @@ class Flavor:
         vm_locale = {"npc": self.vm.creature_locales, "object": self.vm.object_locales,
                      "item": self.vm.item_locales, "quest": self.vm.quest_locales}[kind].get(entity_id)
         column = "Title_loc{n}" if kind == "quest" else "name_loc{n}"
-        return self.vm.localized(vm_locale, column, locale)
+        name = self.vm.localized(vm_locale, column, locale)
+        if not name and kind == "quest":
+            name = self.cache_texts.get(locale, {}).get(entity_id, {}).get("name")
+        return name
 
     def build_l10n(self, base, records):
         for locale in C.LOCALES:
@@ -834,6 +862,10 @@ class Flavor:
                             v = self.vm.localized(vml, "Objectives_loc{n}", locale)
                             if v:
                                 entry["objectivesText"] = [v]
+                        cached = self.cache_texts.get(locale, {}).get(entity_id, {})
+                        for field in ("objectivesText", "details", "endText"):
+                            if field not in entry and cached.get(field):
+                                entry[field] = cached[field]
                     elif kind == "npc":
                         ne = self.l10n.get("Npc", {}).get(str(entity_id), {})
                         sub = ne.get("subName", {}).get(locale) or self.vm.localized(

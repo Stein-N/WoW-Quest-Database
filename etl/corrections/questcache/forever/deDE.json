@@ -1,0 +1,85 @@
+{
+ "_comment": "Quest texts read from WoW client caches (etl/import_questcache.py). Used by etl/build.py only where QuestieDB and VMangos have no text.",
+ "quests": {
+  "92642": {
+   "name": "Störung der Logistik",
+   "objectivesText": [
+    "Tötet 4 Heiler der Al'Aketh und 8 Muskelprotze der Al'Aketh im Böenbeerentiefland."
+   ],
+   "details": "Valennia hat nur eine einzige Person geschickt, um einen Großangriff abzuwehren... bei den Winden.$B$BIhr macht keinen großen Eindruck, aber ich nehme jede Hilfe, die ich kriegen kann. Wir müssen so viel Schaden wie möglich anrichten, um dem Ganzen bald ein Ende zu setzen. Meine Leute halten nicht mehr lange durch.$B$BGeht den Hügel hinunter und stört ihre Logistik. Ihre Heiler sorgen dafür, dass immer neue Angreifer nachrücken. Wenn wir sie ausschalten, können wir uns vielleicht sammeln und sie zurückschlagen. Jeder andere Kultist, den Ihr da draußen erschlagt, ist ebenfalls eine Hilfe.",
+   "build": 70124
+  },
+  "92645": {
+   "name": "Die Brecherin brechen",
+   "objectivesText": [
+    "Tötet Kommandantin Belguilos im Böenbeerentiefland."
+   ],
+   "details": "Es wird schwer, diesen Angriff abzuwehren, solange wir nicht die Kommandantin des Kults ausschalten. Belguilos \"die Brecherin\" nennen sie sie, und sie ist ein regelrechter Alptraum. Sie war früher selbst eine Friedensbewahrerin, bevor der Kult außer Kontrolle geriet, und schon damals war sie... seltsam. Jetzt, da sie eine Kultistin ist, mag ich mir kaum ausmalen, wie viel schlimmer sie geworden ist.$B$BVielleicht schicke ich Euch direkt in Euren Tod, aber jemand muss Belguilos ausschalten, wenn wir hier überleben wollen. Ihr findet sie bei der Villa am Fuße des Hügels. Viel Glück, $c.",
+   "build": 70124
+  },
+  "93736": {
+   "name": "Unerwünschte Geister",
+   "objectivesText": [
+    "Sammelt 10 Windhüllenessenzen von Windhüllen im Schattenwindwald."
+   ],
+   "details": "Den Windformern liegt vor allem daran, besser zu verstehen, warum die Geister uns verlassen haben und was wir vielleicht tun könnten, um sie zurückzuholen. Seltsame Arten von Windgeistern, die manche \"Hüllen\" nennen, befinden sich im Norden des Schattenwindwaldes. Wir wissen nur wenig über sie und warum sie dort sind, aber wir wissen, dass sie erst erschienen sind, als die Geister des Windes uns verlassen haben.$B$BGeht dorthin und vertreibt sie. Die Überreste könnt Ihr einsammeln und hierher zurückbringen.",
+   "build": 70124
+  },
+  "93740": {
+   "name": "Blut für Blut",
+   "objectivesText": [
+    "Sammelt 10 Windsteinamulette der Al'Aketh von toten Kultisten im Böenbeerentiefland."
+   ],
+   "details": "Einige unserer Windformernovizen wurden heute Morgen tot im Hochland gefunden. Wir können es nicht mit Gewissheit sagen, aber es liegt nahe, dass die Al'Aketh dafür verantwortlich sind. Windformer vergelten Blut immer mit Blut.$B$BReist in den Norden und tötet alle Al'Aketh, die Euch begegnen. Bringt mir Ihre Windsteingebetsamulette als Beweis. Wir vergeben und vergessen nicht.",
+   "build": 70124
+  },
+  "94485": {
+   "name": "Die Tränen einer Dame",
+   "objectivesText": [
+    "Sammelt 8 Damentränenmoose."
+   ],
+   "details": "Wenn wir meine Gefährten in der Nachtklauenhöhle retten wollen, werde ich einige Zutaten für einen Umschlag brauchen. Die erste und wichtigste Zutat ist ein spindeldürres Moos, Damenträne genannt. Normalerweise wächst es hier in Schattenwind unter den Bäumen.$B$BDas Moos sondert eine klebrige Substanz ab, die antiseptisch wirkt und sich perfekt für das Verbinden offener Wunden eignet. Ich habe bereits das Wenige gesammelt, was sich in Reichweite befand, aber es gibt noch mehr in diesem Wald.$B$BGeht schnell. Wir werden einiges davon brauchen, falls die Verwundeten noch am Leben sind, die ich zurückgelassen habe.",
+   "build": 70124
+  },
+  "94486": {
+   "name": "Verbindende Federn",
+   "objectivesText": [
+    "Sammelt 20 Federn der Schattenwindkreischlinge im Schattenwindwald."
+   ],
+   "details": "Die andere Zutat, die ich für den Umschlag brauche, sind Federn der Schattenwindkreischlinge, die diesen Wald durchstreifen. Ihre Jungtiere verfügen über isolierende Federn, die sich perfekt über dem Moos platzieren lassen würden. Diese Federn werden den antiseptischen Saft am Austrocknen hindern und zumindest etwas Schutz vor den Elementen bieten.$B$BSeid gewarnt, die Kreischlinge sind normalerweise friedlich, aber in letzter Zeit waren sie extrem feindselig. Ihre großen Klauen können Euch mit Leichtigkeit ausweiden, wenn Ihr nicht acht gebt.",
+   "build": 70124
+  },
+  "94487": {
+   "name": "Ungewollt und unwürdig",
+   "objectivesText": [
+    "Sammelt 10 blutige Erbstücke von Fußsoldaten der Al'Aketh und von Sturmjägern der Al'Aketh im Schattenwindwald."
+   ],
+   "details": "Die Kultisten der Al'Aketh haben uns ohne Vorwarnung überfallen, aber ihre Motive sind mir immer noch ein Rätsel. Ich wusste, dass diese Kultisten nur Luft im Kopf haben, aber ich hätte nie gedacht, dass sie das zarte Gleichgewicht hier auf Zephras mit solcher Brutalität stören würden. Geht, tötet so viele, wie Ihr könnt, und bringt mir ihre Erbstücke, falls sie welche tragen.$B$B<Elegael spuckt aus.>$B$BDiese sturmverdammten Kultisten sind es nicht wert, Shen'dorei genannt zu werden. Die Bestien des Waldes können ihre Leichen haben. Ihre Asche verdient den Wind nicht.",
+   "build": 70124
+  },
+  "94896": {
+   "name": "Hilfe für die Flüchtlinge",
+   "objectivesText": [
+    "Sammelt 8 zurückgelassene Habe."
+   ],
+   "details": "Ihr scheint mir fähig zu sein. Ihr reist nicht zufällig in Richtung des Schattenwindwaldes? Ban'aethal liegt tief in seinem Inneren. Wir alle stammen von dort.$B$B<Ealaane deutet auf die anderen Flüchtlinge.>$B$BVor Kurzem mussten wir Ban'aethal evakuieren, weil es begann, Richtung Himmel zu fallen. Es geschah so plötzlich und mitten in der Nacht. Falls Ihr in diese Richtung reist, könntet Ihr Ausschau nach zurückgelassenen Habseligkeiten halten? Der Wald und das Dorf sind jetzt viel zu gefährlich für uns, um zurückzukehren.",
+   "build": 70124
+  },
+  "94897": {
+   "name": "Das Schicksal eines Geliebten",
+   "objectivesText": [
+    "Findet Resaan in den Ruinen von Ban'aethal."
+   ],
+   "details": "Falls Ihr nach Ban'aethal reist, habe ich eine selbstsüchtige Bitte. Mein Geliebter, Resaan... Ich glaube, er ist nicht länger Teil dieser Welt. Er ist auf der Suche nach Vorräten umgekehrt, obwohl ich ihn angefleht habe, zu bleiben. Nun ist schon mehr als eine Woche vergangen, und ich befürchte das Schlimmste.$B$BBitte, falls Ihr ihn findet, bringt ihn nach Hause. Falls er von uns gegangen ist, bringt mir sein Erbstück.",
+   "build": 70124
+  },
+  "97245": {
+   "name": "Ruf des Feuers",
+   "objectivesText": [
+    "Findet Kuramaas Zuhause im Shen'darhochland und besiegt den Geist im Kampf. Bringt nach dem Sieg Kuramaas Maske zu Olariaan Swiftburn im Böenbeerentiefland."
+   ],
+   "details": "Die Bewohner des Shen'darhochlands erzählen von einem uralten Waldgeist namens Kuramaa. Sie behaupten, er würde in einem knorrigen Baumstumpf auf einem Hügel nahe dem Ankerpylon des Hochlands leben.$B$BBegebt Euch ins Hochland und findet diesen Baumstumpf. Klopft mit Eurer Faust gegen die Rinde, und Kuramaa wird erscheinen. Besiegt den Geist im Kampf und bringt mir seine hölzerne Maske.$B$BDoch nehmt Euch in Acht, dieses Wesen kann dem Großteil Eurer Magie mit Leichtigkeit widerstehen. Nur Flammen können es bezwingen.",
+   "build": 70124
+  }
+ }
+}

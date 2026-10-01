@@ -96,6 +96,7 @@ etl/fetch_vmangos.py     lädt den VMangos-Snapshot (Release db_latest, SQLite)
 etl/build.py             führt beide Quellen zusammen → web/static/data/
 etl/maps.py              liest Weltkarten aus den WoW-Clients (CASC) → web/static/maps/<flavor>/
 etl/casc.py, etl/db2.py   minimaler CASC- und DB2-Reader (wie wow.export, ohne GUI)
+etl/questcache.py        Parser für questcache.wdb (Questtexte aus dem Client-Cache)
 web/                     SvelteKit-App (statisch, Hash-Routing, Leaflet-Karten)
 vendor/QuestieDB         Git-Submodule
 QuestRewards.lua         Item-Belohnungen für Forever (aus VMangos extrahiert)
@@ -106,6 +107,21 @@ QuestRewards.lua         Item-Belohnungen für Forever (aus VMangos extrahiert)
 nennt ihre Quelle. Aktuell: die Questreihe von Zephras Isle (Skyborne-Startgebiet in Forever) nach
 [warcraft.wiki.gg](https://warcraft.wiki.gg/wiki/Zephras_Isle_storyline). Die Einträge lassen sich
 1:1 an QuestieDB (`src/corrections/Forever/foreverQuestFixes.lua`) zurückmelden.
+
+**Questtexte aus dem WoW-Client-Cache:** Für Quests ohne Texte in QuestieDB und VMangos (vor allem
+neue Forever-Quests) liest `etl/import_questcache.py` die Datei `Cache/WDB/<sprache>/questcache.wdb`
+eines WoW-Clients aus. Dort speichert der Client jede Quest, die man im Spiel gesehen hat: Titel, Ziel
+(Mengen wie `$1oa` werden eingesetzt), Beschreibung, Abschlusstext. Die Texte landen in
+`etl/corrections/questcache/<flavor>/<sprache>.json` (versioniert) und füllen beim Build nur Lücken;
+englische Titel werden gegen QuestieDB geprüft.
+
+```sh
+make questcache                                    # lokaler Forever-Client
+make questcache CACHE="/pfad/zu/Cache/WDB"         # z. B. Cache-Ordner eines anderen PCs
+make questcache FLAVOR=classic CACHE="…/_classic_era_/Cache/WDB"
+```
+
+Danach `make site-data` (bzw. committen und den Release-Workflow abwarten).
 
 **Regeln beim Zusammenführen:** QuestieDB hat Vorrang bei allem, was es selbst enthält.
 VMangos ergänzt nur fehlende Felder. Item-Belohnungen für Forever-Quests kommen aus

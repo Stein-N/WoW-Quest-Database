@@ -6,6 +6,7 @@
 #   make maps      extract world maps from the local WoW clients (WOW_DIR=…)
 #   make lua ARGS="--flavor forever --type quest -o export/"   export data as Lua
 #   make docker    build the Docker image (nginx serving the site), see README
+#   make questcache CACHE="…/Cache/WDB"   import quest texts from a WoW client cache (FLAVOR=forever)
 
 QUESTIE  := vendor/QuestieDB
 LUA      := ./tools/lua-binary/linux-x64/lua
@@ -13,7 +14,7 @@ VMANGOS  := vendor/vmangos
 SQLITE   := $(VMANGOS)/sqlite-dump/mangos.sqlite
 WOW_DIR  ?= $(HOME)/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft
 
-.PHONY: data submodule questie vmangos site-data dev build maps lua docker clean update
+.PHONY: data submodule questie vmangos site-data dev build maps lua docker questcache clean update
 
 data: submodule questie vmangos site-data
 
@@ -59,6 +60,12 @@ maps:
 IMAGE ?= wow-quest-database
 docker: submodule
 	docker build -t $(IMAGE) --build-arg QUESTIE_REV="$$(git -C $(QUESTIE) log -1 --format='%h %cs')" .
+
+# Quest texts from WoW client caches -> etl/corrections/questcache/<flavor>/<locale>.json
+FLAVOR ?= forever
+CACHE  ?= $(WOW_DIR)/_classic_beta_/Cache/WDB
+questcache:
+	python3 etl/import_questcache.py --flavor $(FLAVOR) "$(CACHE)"
 
 # Lua export of the merged data, see etl/export_lua.py --help
 lua:

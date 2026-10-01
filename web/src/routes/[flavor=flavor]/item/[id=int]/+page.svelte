@@ -90,7 +90,7 @@
 					{#if it.stack}<dt>Stack</dt><dd>{it.stack}</dd>{/if}
 					{#if it.buyPrice}<dt>Buy price</dt><dd><Money copper={it.buyPrice} /></dd>{/if}
 					<dt>ID</dt><dd>{it.id}</dd>
-					<dt>Sources</dt><dd>{it.sources.map((s) => (s === 'questie' ? 'QuestieDB' : 'VMangos')).join(', ')}</dd>
+					<dt>Sources</dt><dd>{it.sources.map((s) => (({ questie: 'QuestieDB', vmangos: 'VMangos', cache: 'WoW client cache' }) as Record<string, string>)[s] ?? s).join(', ')}</dd>
 				</dl>
 			</section>
 		</aside>
