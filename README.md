@@ -210,7 +210,8 @@ Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle 
 Tage ohne neue Daten erzeugen kein Release; reine Code-Änderungen erscheinen mit dem nächsten Daten-Release. Manuell starten: *Actions → Daily data release → Run workflow*
 (mit `force` auch ohne Änderung).
 
-Die `docker-compose.yml` jedes Releases enthält einen `x-casaos`-Block für **ZimaOS/CasaOS**
+Die `docker-compose.yml` jedes Releases nutzt das Image aus dem Docker-Hub-Repository (falls Docker Hub
+eingerichtet ist, sonst GHCR); die Image-Dateien am Release tragen denselben Namen. Sie enthält außerdem einen `x-casaos`-Block für **ZimaOS/CasaOS**
 (Titel, Beschreibung, Web-UI-Port 8080 und das App-Icon). Das Icon (`docker/icon.png`, aus `logo.png`)
 ist als Data-URL eingebettet, weil das Repository privat ist und es keine öffentliche Bild-URL gibt.
 Alternativ liefert die Seite das Logo selbst unter `http://<server>:8080/logo.png` aus.

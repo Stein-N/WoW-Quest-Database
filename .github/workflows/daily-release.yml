@@ -227,6 +227,19 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Image name for the release files
+        if: steps.version.outputs.changed == 'true'
+        id: release_image
+        env:
+          DOCKERHUB_REPO: ${{ steps.dockerhub.outputs.repo }}
+          GHCR_IMAGE: ${{ steps.version.outputs.image }}
+        run: |
+          # docker-compose.yml and the image files use the Docker Hub repository when it is set up,
+          # otherwise the GitHub container registry
+          if [ -n "$DOCKERHUB_REPO" ]; then image="${DOCKERHUB_REPO#docker.io/}"; else image="$GHCR_IMAGE"; fi
+          echo "Release image: ${image}"
+          echo "image=${image}" >> "$GITHUB_OUTPUT"
+
       - name: Build and push image (amd64 + arm64)
         if: steps.version.outputs.changed == 'true'
         uses: docker/build-push-action@v6
@@ -259,7 +272,7 @@ jobs:
               --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
               --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
               --cache-from type=gha \
-              --tag "${{ steps.version.outputs.image }}:${{ steps.version.outputs.next }}" \
+              --tag "${{ steps.release_image.outputs.image }}:${{ steps.version.outputs.next }}" \
               --output "type=docker,dest=dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
             gzip -9 "dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
           done
@@ -269,7 +282,7 @@ jobs:
         if: steps.version.outputs.changed == 'true'
         env:
           VERSION: ${{ steps.version.outputs.next }}
-          IMAGE: ${{ steps.version.outputs.image }}
+          IMAGE: ${{ steps.release_image.outputs.image }}
         run: |
           # app icon for ZimaOS/CasaOS, embedded so it needs no public URL (the repository is private)
           icon="data:image/png;base64,$(base64 -w0 docker/icon.png)"
@@ -279,8 +292,8 @@ jobs:
           # Start (or update to this version):  docker compose up -d
           # The site is then served on http://<server>:8080 (change the left port to taste).
           #
-          # The image comes from the GitHub container registry; log in once with a token that has
-          # read:packages:  echo <TOKEN> | docker login ghcr.io -u <github-user> --password-stdin
+          # Image: ${IMAGE}:${VERSION}. For a private repository log in once with a token
+          # (docker login) before the first start.
           # Alternatively load the image file from this release first (no login needed):
           #   gunzip -c ${IMAGE_NAME}-${VERSION}-amd64.tar.gz | docker load
           name: wow-quest-database
@@ -321,12 +334,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ steps.version.outputs.next }}
           LAST: ${{ steps.version.outputs.last }}
-          IMAGE: ${{ steps.version.outputs.image }}
-          DOCKERHUB_REPO: ${{ steps.dockerhub.outputs.repo }}
+          IMAGE: ${{ steps.release_image.outputs.image }}
+          GHCR_IMAGE: ${{ steps.version.outputs.image }}
         run: |
-          dockerhub=""
-          if [ -n "$DOCKERHUB_REPO" ]; then
-            dockerhub="Also on Docker Hub (private): \`docker pull ${DOCKERHUB_REPO#docker.io/}:${VERSION}\`"
+          other=""
+          if [ "$IMAGE" != "$GHCR_IMAGE" ]; then
+            other="Also in the GitHub container registry: \`docker pull ${GHCR_IMAGE}:${VERSION}\`"
           fi
           questie=$(python3 -c "import json; q=json.load(open('data-version.json'))['questie']; print(f\"[{q['commit'][:7]}](https://github.com/Questie/QuestieDB/commit/{q['commit']}) ({q['date']}) {q['subject']}\")")
           vmangos=$(python3 -c "import json; v=json.load(open('data-version.json'))['vmangos']; print(f\"{v['snapshot']} ({v['published']})\")")
@@ -347,7 +360,7 @@ jobs:
           docker compose up -d
           \`\`\`
 
-          The image is pulled from the registry (log in once with a token that has \`read:packages\`).
+          The image is pulled from the registry (for a private repository log in once with \`docker login\`).
           Without registry access, load the image file first (\`amd64\` for PCs/servers, \`arm64\` for
           e.g. Raspberry Pi), then run \`docker compose up -d\` as above:
 
@@ -357,7 +370,7 @@ jobs:
 
           Without Compose: \`docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE}:${VERSION}\`
 
-          ${dockerhub}
+          ${other}
           EOF
           } > notes.md
 
