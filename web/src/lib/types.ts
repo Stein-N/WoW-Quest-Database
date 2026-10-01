@@ -194,6 +194,16 @@ export interface Zones {
 	sorts: Record<string, string>;
 }
 
+export interface ChangelogEntry {
+	version: string;
+	date: string;
+	changes: string[];
+	data?: {
+		questie: { commit: string; date: string; subject: string };
+		vmangos: { snapshot: string; published: string };
+	};
+}
+
 export interface Meta {
 	built: string;
 	questie: string | null;

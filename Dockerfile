@@ -29,7 +29,7 @@ ARG VMANGOS_SNAPSHOT=latest
 COPY etl/fetch_vmangos.py etl/fetch_vmangos.py
 RUN echo "VMangos snapshot: ${VMANGOS_SNAPSHOT}" && python3 etl/fetch_vmangos.py vendor/vmangos
 
-COPY Makefile QuestRewards.lua ./
+COPY Makefile QuestRewards.lua CHANGELOG.json ./
 COPY etl etl
 COPY vendor/QuestieDB vendor/QuestieDB
 RUN test -f vendor/QuestieDB/src/config.lua \

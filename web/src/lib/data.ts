@@ -1,7 +1,7 @@
 // Loads the static JSON produced by etl/build.py. Everything lives under ./data relative to
 // index.html; with hash routing the document URL never changes, so relative fetches are safe.
 
-import type { Kind, Ref, Zones, Meta, QuestIndexRow, SearchIndex, L10nEntry, Questline } from './types';
+import type { ChangelogEntry, Kind, Ref, Zones, Meta, QuestIndexRow, SearchIndex, L10nEntry, Questline } from './types';
 
 export const BUCKET = 100;
 const DATA = 'data';
@@ -27,6 +27,8 @@ function loadOptional<T extends object>(path: string): Promise<T> {
 }
 
 export const getMeta = () => load<Meta>('meta.json');
+/** Patch notes, newest first; empty for builds without CHANGELOG.json */
+export const getChangelog = () => load<ChangelogEntry[]>('changelog.json').catch(() => [] as ChangelogEntry[]);
 export const getZones = (flavor: string) => load<Zones>(`${flavor}/zones.json`);
 export const getQuestIndex = (flavor: string) => load<QuestIndexRow[]>(`${flavor}/quests.json`);
 export const getSearchIndex = (flavor: string) => load<SearchIndex>(`${flavor}/search.json`);

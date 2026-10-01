@@ -1,0 +1,54 @@
+{
+  "_comment": "Patch notes shown on the website. Maintained by etl/changelog.py.",
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-01",
+      "changes": [
+        "Attach a ready-to-use docker-compose.yml to each release",
+        "Optionally push release images to Docker Hub"
+      ],
+      "data": {
+        "questie": {
+          "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
+          "date": "2026-09-29",
+          "subject": "[feature] Add Forever base data"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      }
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-10-01",
+      "changes": [
+        "Add quest database pipeline, website and map extraction",
+        "Add per-flavor map art with and without fog of war, drop Pages workflow",
+        "Add questline graphs in the style of BtWQuests",
+        "Add Lua export tool for the merged data",
+        "Add Lua export page to the website",
+        "Always export texts to separate Lua files keyed by ID",
+        "Export quest item rewards in the QuestRewards.lua shape",
+        "Add \"all languages\" option to the Lua export",
+        "Build the Zephras Isle questline from warcraft.wiki.gg",
+        "Keep filter options in the URL",
+        "Add Docker image for self-hosting",
+        "Add daily data release workflow",
+        "Release only when the data changed"
+      ],
+      "data": {
+        "questie": {
+          "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
+          "date": "2026-09-29",
+          "subject": "[feature] Add Forever base data"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      }
+    }
+  ]
+}

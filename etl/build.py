@@ -1032,6 +1032,10 @@ def main():
     write_json(out / "meta.json", meta)
     # uiMapId coverage per quest; the release workflow compares it with the previous release
     write_json(out / "uimap-report.json", uimap_report)
+    # patch notes for the start page (CHANGELOG.json, maintained by etl/changelog.py)
+    changelog = ROOT / "CHANGELOG.json"
+    if changelog.exists():
+        write_json(out / "changelog.json", json.loads(changelog.read_text(encoding="utf-8"))["versions"])
 
 
 if __name__ == "__main__":

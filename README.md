@@ -192,6 +192,11 @@ Blizzard-Kartenbilder enthält (ein fehlendes Repository würde Docker Hub sonst
 öffentlich, anlegen). Passt etwas nicht, wird Docker Hub mit einer Fehlermeldung im Actions-Log
 übersprungen, GHCR und das Release laufen trotzdem.
 
+**Patch Notes:** Vor dem Image-Build schreibt der Workflow den Eintrag der neuen Version nach
+`CHANGELOG.json` (`etl/changelog.py add <version>`: Commits seit dem letzten Release, Datenstand) und
+committet ihn. So zeigt die Startseite jedes Images seine eigenen Patch Notes. Einträge früherer Versionen
+lassen sich mit `python3 etl/changelog.py backfill` aus den Git-Tags neu erzeugen.
+
 Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle (`0.1.1`, `0.1.2`, …).
 Tage ohne neue Daten erzeugen kein Release; reine Code-Änderungen erscheinen mit dem nächsten Daten-Release. Manuell starten: *Actions → Daily data release → Run workflow*
 (mit `force` auch ohne Änderung).
