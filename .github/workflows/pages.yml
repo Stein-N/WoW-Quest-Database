@@ -1,0 +1,64 @@
+# Builds the data and the static site and publishes it to GitHub Pages.
+# Runs on pushes to main, weekly (to pick up new QuestieDB/VMangos data) and on demand.
+#
+# Note: GitHub Pages sites are publicly reachable even when the repository is private.
+# Map images (web/static/maps) are not in the repository and therefore not deployed.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Use latest QuestieDB
+        run: git submodule update --remote vendor/QuestieDB
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Build data
+        run: make data
+
+      - name: Build site
+        run: cd web && npm ci && npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

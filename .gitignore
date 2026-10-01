@@ -1,0 +1,13 @@
+# generated
+/build/
+/web/build/
+/web/static/data/
+/web/.svelte-kit/
+/web/node_modules/
+__pycache__/
+
+# downloaded VMangos snapshot (make vmangos)
+/vendor/vmangos/
+
+# stitched from the WoW client (Blizzard artwork) — see docs/MAPS.md
+/web/static/maps/
