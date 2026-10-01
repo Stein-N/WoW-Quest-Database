@@ -119,19 +119,55 @@ jobs:
             echo "image=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/${IMAGE_NAME}"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Patch notes for the website (CHANGELOG.json)
+      - uses: docker/setup-buildx-action@v3
+        if: steps.version.outputs.changed == 'true'
+
+      - name: Data report (fingerprint and uiMapId coverage, compared with the last release)
+        if: steps.version.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LAST: ${{ steps.version.outputs.last }}
+        run: |
+          # only the report files of the data stage (cached for the image build below)
+          docker buildx build . \
+            --target report \
+            --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
+            --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
+            --cache-from type=gha \
+            --cache-to type=gha,mode=max \
+            --output type=local,dest=report
+          mkdir -p dist previous
+          cp report/uimap-report.json dist/uimap-report.json
+          gzip -9c report/data-digest.json > dist/data-digest.json.gz
+
+          # baseline: the files attached to the previous release (or a committed baseline)
+          if [ -n "$LAST" ]; then
+            gh release download "$LAST" --pattern uimap-report.json --pattern data-digest.json.gz --dir previous \
+              || echo "Previous release ${LAST} has no report files."
+            if [ ! -f previous/data-digest.json.gz ] && [ -f "etl/digests/${LAST}.json.gz" ]; then
+              cp "etl/digests/${LAST}.json.gz" previous/data-digest.json.gz
+            fi
+          fi
+          previous_uimap=""
+          if [ -f previous/uimap-report.json ]; then previous_uimap="previous/uimap-report.json"; fi
+          python3 etl/uimap_report.py dist/uimap-report.json ${previous_uimap:+"$previous_uimap"} > uimap-section.md
+          cat uimap-section.md
+
+      - name: Patch notes (CHANGELOG.json)
         if: steps.version.outputs.changed == 'true'
         run: |
-          # written before the image is built, so the image shows its own notes
-          python3 etl/changelog.py add "${{ steps.version.outputs.next }}"
+          # hand-written notes from "unreleased" plus the data changes in plain words; committed
+          # before the image is built, so the image shows its own notes
+          args=(--digest report/data-digest.json --uimap dist/uimap-report.json)
+          if [ -f previous/data-digest.json.gz ]; then args+=(--previous-digest previous/data-digest.json.gz); fi
+          if [ -f previous/uimap-report.json ]; then args+=(--previous-uimap previous/uimap-report.json); fi
+          python3 etl/changelog.py add "${{ steps.version.outputs.next }}" "${args[@]}"
+          python3 etl/changelog.py render "${{ steps.version.outputs.next }}"
           git add CHANGELOG.json
           if ! git diff --cached --quiet; then
             git commit -m "Release v${{ steps.version.outputs.next }}: patch notes"
             git push origin HEAD:main
           fi
-
-      - uses: docker/setup-buildx-action@v3
-        if: steps.version.outputs.changed == 'true'
 
       - uses: docker/login-action@v3
         if: steps.version.outputs.changed == 'true'
@@ -229,30 +265,6 @@ jobs:
           done
           ls -lh dist
 
-      - name: uiMapId report (coverage and changes since the last release)
-        if: steps.version.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LAST: ${{ steps.version.outputs.last }}
-        run: |
-          # only the report file of the (cached) data stage
-          docker buildx build . \
-            --target report \
-            --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
-            --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
-            --cache-from type=gha \
-            --output type=local,dest=report
-          cp report/uimap-report.json dist/uimap-report.json
-
-          previous=""
-          if [ -n "$LAST" ] && gh release download "$LAST" --pattern uimap-report.json --dir previous-report; then
-            previous="previous-report/uimap-report.json"
-          else
-            echo "No uiMapId report in ${LAST:-the previous release}."
-          fi
-          python3 etl/uimap_report.py dist/uimap-report.json ${previous:+"$previous"} > uimap-section.md
-          cat uimap-section.md
-
       - name: Write docker-compose.yml for the release
         if: steps.version.outputs.changed == 'true'
         env:
@@ -318,24 +330,15 @@ jobs:
           fi
           questie=$(python3 -c "import json; q=json.load(open('data-version.json'))['questie']; print(f\"[{q['commit'][:7]}](https://github.com/Questie/QuestieDB/commit/{q['commit']}) ({q['date']}) {q['subject']}\")")
           vmangos=$(python3 -c "import json; v=json.load(open('data-version.json'))['vmangos']; print(f\"{v['snapshot']} ({v['published']})\")")
-          if [ -n "$LAST" ]; then
-            changes=$(git log --format='- %s' "${LAST}..HEAD" | grep -v '^- Release v' || true)
-          else
-            changes="- First release"
-          fi
-          cat > notes.md <<EOF
-          ## Data
-
-          - QuestieDB: ${questie}
-          - VMangos: ${vmangos}
-
-          ## Changes
-
-          ${changes}
+          {
+          cat <<EOF
+          Data: QuestieDB ${questie} · VMangos ${vmangos}
 
           EOF
-          cat uimap-section.md >> notes.md
-          cat >> notes.md <<EOF
+          # the same patch notes the website shows (website, data, technical details)
+          python3 etl/changelog.py render "${VERSION}"
+          cat uimap-section.md
+          cat <<EOF
           ## Install
 
           With the attached \`docker-compose.yml\` (image \`${IMAGE}:${VERSION}\`, port 8080):
@@ -356,8 +359,9 @@ jobs:
 
           ${dockerhub}
           EOF
+          } > notes.md
 
-          gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml dist/uimap-report.json \
+          gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml dist/uimap-report.json dist/data-digest.json.gz \
             --target "$(git rev-parse HEAD)" \
             --title "v${VERSION}" \
             --notes-file notes.md

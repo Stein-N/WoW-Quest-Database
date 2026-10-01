@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { getChangelog, getMeta } from '$lib/data';
+	import { FLAVOR_LABELS } from '$lib/format';
 </script>
 
 <h1>WoW Quest Database</h1>
@@ -50,12 +51,28 @@
 							({v.data.questie.date}) · VMangos {v.data.vmangos.snapshot} ({v.data.vmangos.published})
 						</p>
 					{/if}
-					{#if v.changes.length}
+					{#if v.website?.length}
+						<h3>Website</h3>
 						<ul>
-							{#each v.changes as change, j (j)}<li>{change}</li>{/each}
+							{#each v.website as note, j (j)}<li>{note}</li>{/each}
 						</ul>
-					{:else}
-						<p class="muted">Data update only.</p>
+					{/if}
+					{#if v.dataNotes?.length || v.dataChanges}
+						<h3>Data</h3>
+						<ul>
+							{#each v.dataNotes ?? [] as note, j (j)}<li>{note}</li>{/each}
+							{#each Object.entries(v.dataChanges ?? {}) as [flavor, lines] (flavor)}
+								<li><strong>{FLAVOR_LABELS[flavor] ?? flavor}:</strong> {lines.join(' ')}</li>
+							{/each}
+						</ul>
+					{/if}
+					{#if v.commits?.length}
+						<details class="tech">
+							<summary class="muted">Technical changes ({v.commits.length})</summary>
+							<ul>
+								{#each v.commits as c, j (j)}<li>{c}</li>{/each}
+							</ul>
+						</details>
 					{/if}
 				</details>
 			{/each}
@@ -91,6 +108,17 @@
 	}
 	.notes li {
 		padding: 0.1rem 0;
+	}
+	.notes h3 {
+		font-size: 0.95rem;
+		margin: 0.7rem 0 0.2rem;
+	}
+	.notes .tech {
+		margin-top: 0.6rem;
+		font-size: 0.88rem;
+	}
+	.notes .tech summary {
+		cursor: pointer;
 	}
 	.card {
 		color: inherit;

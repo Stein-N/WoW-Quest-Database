@@ -29,7 +29,7 @@ ARG VMANGOS_SNAPSHOT=latest
 COPY etl/fetch_vmangos.py etl/fetch_vmangos.py
 RUN echo "VMangos snapshot: ${VMANGOS_SNAPSHOT}" && python3 etl/fetch_vmangos.py vendor/vmangos
 
-COPY Makefile QuestRewards.lua CHANGELOG.json ./
+COPY Makefile QuestRewards.lua ./
 COPY etl etl
 COPY vendor/QuestieDB vendor/QuestieDB
 RUN test -f vendor/QuestieDB/src/config.lua \
@@ -47,13 +47,16 @@ COPY web/package.json web/package-lock.json ./
 RUN npm ci
 COPY web ./
 COPY --from=data /src/web/static/data ./static/data
+# patch notes for the start page (kept out of the data stage so editing them doesn't rebuild data)
+COPY CHANGELOG.json ./static/changelog.json
 RUN npm run build
 
 # ---------------------------------------------------------------- report (CI only)
 # `docker buildx build --target report --output type=local,dest=...` exports just the uiMapId
-# report for the release notes, reusing the cached data stage.
+# report and the data fingerprint for the release notes, reusing the cached data stage.
 FROM scratch AS report
 COPY --from=data /src/web/static/data/uimap-report.json /
+COPY --from=data /src/build/data-digest.json /
 
 # ---------------------------------------------------------------- 3. serve
 FROM nginx:1.27-alpine

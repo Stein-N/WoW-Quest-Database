@@ -1,10 +1,29 @@
 {
-  "_comment": "Patch notes shown on the website. Maintained by etl/changelog.py.",
+  "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
+  "unreleased": {
+    "website": [
+      "New pages for NPCs, items and objects: they list every entry right away, with filters (zone, reaction, rank, services, quality, type, slot, level) and sorting.",
+      "Patch notes on the start page, describing the changes of each version.",
+      "Quest pages show the map ID (uiMapId) of the quest's zone, and the Lua export includes it.",
+      "New logo and favicon; the Docker Compose file of each release carries the app icon for ZimaOS."
+    ],
+    "data": [
+      "Quest texts for new Forever quests on Zephras Isle, read from the game client's quest cache: 11 quests in English, 10 in German.",
+      "Every quest with a zone now has a map ID (uiMapId) for the in-game map API: 3,246 of 3,261 in Classic Era and 3,592 of 3,757 in WoW Forever."
+    ]
+  },
   "versions": [
     {
       "version": "0.1.1",
+      "website": [
+        "Every release now comes with a ready-to-use docker-compose.yml.",
+        "Release images can also be published to a private Docker Hub repository."
+      ],
+      "dataNotes": [
+        "No data changes."
+      ],
       "date": "2026-10-01",
-      "changes": [
+      "commits": [
         "Attach a ready-to-use docker-compose.yml to each release",
         "Optionally push release images to Docker Hub"
       ],
@@ -22,8 +41,23 @@
     },
     {
       "version": "0.1.0",
+      "website": [
+        "First version of the WoW Quest Database for Classic Era and WoW Forever: quests, NPCs, objects and items with detail pages, a quest list with filters and a global search.",
+        "Quest pages show objectives, descriptions, rewards and quest chains, with an interactive map of quest givers, turn-ins and objective locations.",
+        "Map images from the game clients for both versions, fully explored or with fog of war.",
+        "Questlines as a graph in the style of BtWQuests, with faction and class filters and progress tracking in the browser.",
+        "Quest texts and names in ten languages.",
+        "Lua export of all data, on the website and as a command-line tool, with texts in separate files per language.",
+        "Filters are kept in the address, so going back returns to the same view.",
+        "Docker image for self-hosting, released automatically when the data changes."
+      ],
+      "dataNotes": [
+        "Initial data from QuestieDB combined with the VMangos world database: 4,257 quests in Classic Era and 4,989 in WoW Forever, plus NPCs, objects and items.",
+        "The Zephras Isle storyline (Skyborne starting zone in WoW Forever) as a questline, based on warcraft.wiki.gg.",
+        "Item rewards of Forever quests taken from QuestRewards.lua."
+      ],
       "date": "2026-10-01",
-      "changes": [
+      "commits": [
         "Add quest database pipeline, website and map extraction",
         "Add per-flavor map art with and without fog of war, drop Pages workflow",
         "Add questline graphs in the style of BtWQuests",

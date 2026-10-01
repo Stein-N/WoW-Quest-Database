@@ -25,6 +25,7 @@ from vmangos import VMangos
 
 ROOT = Path(__file__).resolve().parent.parent
 BUCKET = 100
+DIGEST_PATH = ROOT / "build" / "data-digest.json"
 MAX_ITEM_SOURCES = 25  # droppers embedded per item objective (map + list)
 MAX_LOOT = 150
 
@@ -796,7 +797,51 @@ class Flavor:
 
         self.build_l10n(base, records)
         self.uimap_report = self._uimap_report(records["quest"])
+        self.digest = self._digest(records)
         return {kind: len(recs) for kind, recs in records.items()}
+
+    # Fields that make up an entity's content for the patch notes; schema-only changes of the
+    # site data (new helper fields, reordering) must not show up as "updated".
+    DIGEST_FIELDS = {
+        "quest": ("name", "level", "reqLevel", "maxLevel", "side", "races", "classes", "zone", "objectivesText",
+                  "details", "progress", "completion", "endText", "starters", "enders", "objectives",
+                  "providedItem", "requiredItems", "chain", "requirements", "rewards"),
+        "npc": ("name", "subName", "minLevel", "maxLevel", "rank", "react", "faction", "roles", "spawns",
+                "starts", "ends", "sells", "loot"),
+        "object": ("name", "spawns", "starts", "ends", "contains"),
+        "item": ("name", "quality", "itemLevel", "reqLevel", "class", "subClass", "slot", "stats", "damage",
+                 "armor", "spells", "droppedBy", "vendors", "rewardFrom", "startsQuest"),
+    }
+
+    @staticmethod
+    def _ids_only(value):
+        """Reference tables -> ids, so renamed referenced entities don't count as changes here."""
+        if isinstance(value, dict):
+            if "t" in value and "id" in value:
+                return [value["t"], value["id"], value.get("count"), value.get("chance")]
+            return {k: Flavor._ids_only(v) for k, v in sorted(value.items())}
+        if isinstance(value, list):
+            return [Flavor._ids_only(v) for v in value]
+        return value
+
+    def _digest(self, records):
+        """Compact fingerprint of the data: per entity name + content hash, plus coverage counts.
+
+        The release workflow compares it with the previous release to describe data changes.
+        """
+        import hashlib
+        out = {"questlines": len(self.questlines), "texts": getattr(self, "l10n_stats", {})}
+        for kind, recs in records.items():
+            fields = self.DIGEST_FIELDS[kind]
+            entries = {}
+            for entity_id, rec in recs.items():
+                content = {f: self._ids_only(rec[f]) for f in fields if rec.get(f) is not None}
+                h = hashlib.sha1(json.dumps(content, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:10]
+                entries[str(entity_id)] = [rec.get("name") or "", h]
+            out[kind] = entries
+        details = sum(1 for r in records["quest"].values() if r.get("details"))
+        out["texts"] = {"enUS": {"names": len(records["quest"]), "details": details}, **out["texts"]}
+        return out
 
     def _uimap_report(self, quests):
         """uiMapId per quest that has a zone (None = unresolved), for the release report."""
@@ -956,6 +1001,12 @@ class Flavor:
                     if entry:
                         out[entity_id] = entry
                 write_shards(base / "l10n" / locale / kind, out)
+                if kind == "quest":
+                    self.l10n_stats = getattr(self, "l10n_stats", {})
+                    self.l10n_stats[locale] = {
+                        "names": sum(1 for e in out.values() if e.get("name")),
+                        "details": sum(1 for e in out.values() if e.get("details")),
+                    }
 
             search = {kind: {str(i): name_of(kind, i) for i in recs if name_of(kind, i)}
                       for kind, recs in records.items()}
@@ -1022,20 +1073,24 @@ def main():
         meta["flavors"] = json.loads(previous.read_text()).get("flavors", {})
     report_path = out / "uimap-report.json"
     uimap_report = json.loads(report_path.read_text()) if report_path.exists() else {}
+    digest = json.loads(DIGEST_PATH.read_text()) if DIGEST_PATH.exists() else {}
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
         flavor = Flavor(site_id, vm, quest_rewards)
         counts = flavor.build(out)
         meta["flavors"][site_id] = {"label": C.FLAVORS[site_id]["label"], "counts": counts}
         uimap_report[site_id] = flavor.uimap_report
+        digest[site_id] = flavor.digest
         print(f"  {counts}", file=sys.stderr)
     write_json(out / "meta.json", meta)
     # uiMapId coverage per quest; the release workflow compares it with the previous release
     write_json(out / "uimap-report.json", uimap_report)
-    # patch notes for the start page (CHANGELOG.json, maintained by etl/changelog.py)
+    # data fingerprint for the patch notes (compared with the previous release); not part of the site
+    write_json(DIGEST_PATH, digest)
+    # patch notes for local builds (the Docker image copies CHANGELOG.json in its site stage)
     changelog = ROOT / "CHANGELOG.json"
     if changelog.exists():
-        write_json(out / "changelog.json", json.loads(changelog.read_text(encoding="utf-8"))["versions"])
+        (out.parent / "changelog.json").write_text(changelog.read_text(encoding="utf-8"), encoding="utf-8")
 
 
 if __name__ == "__main__":

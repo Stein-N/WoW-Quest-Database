@@ -28,7 +28,11 @@ function loadOptional<T extends object>(path: string): Promise<T> {
 
 export const getMeta = () => load<Meta>('meta.json');
 /** Patch notes, newest first; empty for builds without CHANGELOG.json */
-export const getChangelog = () => load<ChangelogEntry[]>('changelog.json').catch(() => [] as ChangelogEntry[]);
+export const getChangelog = (): Promise<ChangelogEntry[]> =>
+	fetch('changelog.json')
+		.then((r) => (r.ok ? r.json() : { versions: [] }))
+		.then((log: { versions?: ChangelogEntry[] }) => log.versions ?? [])
+		.catch(() => []);
 export const getZones = (flavor: string) => load<Zones>(`${flavor}/zones.json`);
 export const getQuestIndex = (flavor: string) => load<QuestIndexRow[]>(`${flavor}/quests.json`);
 export const getSearchIndex = (flavor: string) => load<SearchIndex>(`${flavor}/search.json`);

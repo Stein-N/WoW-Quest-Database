@@ -197,7 +197,14 @@ export interface Zones {
 export interface ChangelogEntry {
 	version: string;
 	date: string;
-	changes: string[];
+	/** notes on the website (hand-written) */
+	website?: string[];
+	/** notes on the data (hand-written) */
+	dataNotes?: string[];
+	/** data changes compared with the previous release, in plain words, per flavor */
+	dataChanges?: Record<string, string[]>;
+	/** commit subjects */
+	commits?: string[];
 	data?: {
 		questie: { commit: string; date: string; subject: string };
 		vmangos: { snapshot: string; published: string };
