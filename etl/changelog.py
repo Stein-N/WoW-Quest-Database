@@ -4,6 +4,8 @@
                                         [--uimap NEW --previous-uimap OLD]
     python3 etl/changelog.py render 0.1.2           # markdown for the GitHub release notes
     python3 etl/changelog.py backfill               # refresh commit lists of released versions
+    python3 etl/changelog.py context [--digest …]   # release context for drafting notes (Claude)
+    python3 etl/changelog.py merge-notes FILE       # add drafted notes (JSON) to "unreleased"
 
 CHANGELOG.json:
     "unreleased": {"website": [...], "data": [...]}   hand-written notes for the next release
@@ -180,6 +182,68 @@ def render(entry):
     return "\n".join(md)
 
 
+# ---------------------------------------------------------------------------- drafting with Claude
+
+def context(args):
+    """Markdown describing everything since the last release, for drafting patch notes."""
+    existing = tags()
+    last = existing[-1] if existing else None
+    rng = f"{last}..HEAD" if last else "HEAD"
+    log = load()
+    out = [f"# Changes since {last or 'the beginning'}", ""]
+    out += ["## Commits (subject and description)", ""]
+    raw = git("log", "--reverse", "--format=%x1e%s%x1f%b", rng)
+    for record in filter(None, raw.split("\x1e")):
+        subject, _, body = record.partition("\x1f")
+        if subject.startswith(SKIP_PREFIXES):
+            continue
+        body = "\n".join(l for l in body.strip().splitlines() if not l.startswith(("Co-Authored-By", "Claude-Session")))
+        out += [f"### {subject}", "", body.strip(), ""]
+    files = git("diff", "--stat=200", rng, "--", ".", ":(exclude)vendor", ":(exclude)CHANGELOG.json") if last else ""
+    if files:
+        out += ["## Changed files", "", "```", files, "```", ""]
+    changes = data_changes(read_json(args.digest), read_json(args.previous_digest),
+                           read_json(args.uimap), read_json(args.previous_uimap))
+    out += ["## Data changes (computed, will be shown automatically)", ""]
+    if changes:
+        for flavor, lines in changes.items():
+            out.append(f"- {FLAVORS.get(flavor, flavor)}: " + " ".join(lines))
+    else:
+        out.append("- (no comparison available)")
+    out += ["", "## Notes already written (keep them, do not repeat them)", ""]
+    for key in ("website", "data"):
+        for note in log["unreleased"].get(key, []):
+            out.append(f"- [{key}] {note}")
+    if not any(log["unreleased"].get(k) for k in ("website", "data")):
+        out.append("- (none)")
+    return "\n".join(out)
+
+
+def merge_notes(path):
+    """Adds drafted notes to "unreleased"; accepts the JSON object anywhere in the text."""
+    text = Path(path).read_text(encoding="utf-8")
+    start, end = text.find("{"), text.rfind("}")
+    if start < 0 or end <= start:
+        sys.exit("no JSON object in the drafted notes")
+    drafted = json.loads(text[start:end + 1])
+    log = load()
+    added = 0
+    for key in ("website", "data"):
+        notes = drafted.get(key, [])
+        if not isinstance(notes, list) or not all(isinstance(n, str) for n in notes):
+            sys.exit(f"'{key}' must be a list of strings")
+        current = log["unreleased"].setdefault(key, [])
+        known = {n.strip().lower() for n in current}
+        for note in notes:
+            note = " ".join(note.split())
+            if note and note.lower() not in known and len(note) <= 400:
+                current.append(note)
+                known.add(note.lower())
+                added += 1
+    save(log)
+    print(f"added {added} drafted notes", file=sys.stderr)
+
+
 # ---------------------------------------------------------------------------- commands
 
 def main():
@@ -194,7 +258,18 @@ def main():
     rend = sub.add_parser("render")
     rend.add_argument("version")
     sub.add_parser("backfill")
+    ctx = sub.add_parser("context")
+    for flag in ("--digest", "--previous-digest", "--uimap", "--previous-uimap"):
+        ctx.add_argument(flag)
+    merge = sub.add_parser("merge-notes")
+    merge.add_argument("file")
     args = ap.parse_args()
+    if args.cmd == "context":
+        print(context(args))
+        return
+    if args.cmd == "merge-notes":
+        merge_notes(args.file)
+        return
     log = load()
 
     if args.cmd == "render":

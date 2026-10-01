@@ -153,6 +153,30 @@ jobs:
           python3 etl/uimap_report.py dist/uimap-report.json ${previous_uimap:+"$previous_uimap"} > uimap-section.md
           cat uimap-section.md
 
+      - name: Draft patch notes with Claude (optional)
+        if: steps.version.outputs.changed == 'true'
+        # never blocks a release: without the secret or on any error the hand-written notes are used
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "CLAUDE_CODE_OAUTH_TOKEN is not set, skipping."
+            exit 0
+          fi
+          npm install -g @anthropic-ai/claude-code >/dev/null
+          args=(--digest report/data-digest.json --uimap dist/uimap-report.json)
+          if [ -f previous/data-digest.json.gz ]; then args+=(--previous-digest previous/data-digest.json.gz); fi
+          if [ -f previous/uimap-report.json ]; then args+=(--previous-uimap previous/uimap-report.json); fi
+          python3 etl/changelog.py context "${args[@]}" > release-context.md
+          # Claude only gets text and answers with JSON: no tools, no file or shell access
+          claude -p "$(cat etl/patch-notes-prompt.md; echo; cat release-context.md)" \
+            --tools "" --no-session-persistence --output-format text < /dev/null > drafted-notes.txt
+          echo "Claude's draft:"
+          cat drafted-notes.txt
+          python3 etl/changelog.py merge-notes drafted-notes.txt
+
       - name: Patch notes (CHANGELOG.json)
         if: steps.version.outputs.changed == 'true'
         run: |

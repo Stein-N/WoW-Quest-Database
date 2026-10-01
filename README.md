@@ -201,6 +201,12 @@ Blizzard-Kartenbilder enthält (ein fehlendes Repository würde Docker Hub sonst
   vergleicht ihn mit dem des vorigen Releases (Release-Anhang `data-digest.json.gz`, für `v0.1.1` einmalig
   `etl/digests/v0.1.1.json.gz`) und beschreibt die Änderungen in Worten, z. B. „12 quests added: …,
   45 quests updated, Quest descriptions: German +10“.
+- **Entwurf durch Claude (optional):** Ist das Secret `CLAUDE_CODE_OAUTH_TOKEN` gesetzt (`claude setup-token`,
+  Claude-Pro-Abo genügt), schreibt Claude Code vor dem Release ergänzende Notes für alles, was noch nicht
+  beschrieben ist. Claude bekommt nur Text (Commits mit Beschreibung, geänderte Dateien, Datenänderungen,
+  vorhandene Notes; Anweisung in `etl/patch-notes-prompt.md`), hat keine Werkzeuge und antwortet mit JSON,
+  das `etl/changelog.py merge-notes` prüft und unter `"unreleased"` ergänzt. Ohne Secret oder bei Fehlern
+  läuft das Release mit den vorhandenen Notes weiter.
 - Vor dem Image-Build ruft der Workflow `etl/changelog.py add <version>` auf: Die unveröffentlichten Notes, die
   Datenänderungen und die Commit-Titel (als „Technical changes“) werden zur neuen Version und committet, damit
   jedes Image seine eigenen Notes zeigt. `etl/changelog.py render <version>` liefert dieselben Notes als Markdown
