@@ -3,11 +3,12 @@
 # Every day at 00:00 Europe/Berlin:
 #   1. pull QuestieDB's master branch into vendor/QuestieDB and record the data version
 #      (QuestieDB commit + latest VMangos snapshot) in data-version.json, commit to main
-#   2. if anything changed since the last release (data or code), build the Docker image
-#      for linux/amd64 and linux/arm64, push it to GHCR and publish a GitHub release
+#   2. only if the data changed since the last release (QuestieDB commit or VMangos snapshot),
+#      build the Docker image for linux/amd64 and linux/arm64, push it to GHCR and publish a
+#      GitHub release (code changes alone do not release; they ship with the next data update)
 #
 # Versions: the first release is 0.1.0, every following one increases the last part
-# (0.1.1, 0.1.2, ...). Runs without changes are skipped; "Run workflow" with force=true
+# (0.1.1, 0.1.2, ...). Runs without new data are skipped; "Run workflow" with force=true
 # releases anyway.
 
 name: Daily data release
@@ -21,7 +22,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: Release even if nothing changed
+        description: Release even if the data did not change
         type: boolean
         default: false
 
@@ -97,7 +98,8 @@ jobs:
           else
             IFS=. read -r major minor patch <<< "${last#v}"
             next="${major}.${minor}.$((patch + 1))"
-            if [ "$(git rev-list --count "${last}..HEAD")" -gt 0 ]; then changed=true; else changed=false; fi
+            # data changed = new QuestieDB commit or VMangos snapshot since the last release
+            if git diff --quiet "${last}" HEAD -- data-version.json vendor/QuestieDB; then changed=false; else changed=true; fi
           fi
           if [ "${{ inputs.force }}" = "true" ]; then changed=true; fi
           echo "Last release: ${last:-none}, next: ${next}, changed: ${changed}"

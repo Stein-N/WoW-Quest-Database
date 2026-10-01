@@ -152,13 +152,13 @@ Der Workflow `.github/workflows/daily-release.yml` läuft jeden Tag um 00:00 Uhr
 
 1. zieht den aktuellen `master` von QuestieDB ins Submodule und schreibt den Datenstand
    (QuestieDB-Commit, VMangos-Snapshot) nach `data-version.json`; Änderungen werden nach `main` committet,
-2. baut bei Änderungen (Daten oder Code seit dem letzten Release) das Image für `linux/amd64` und
+2. baut nur bei neuen Daten (anderer QuestieDB-Commit oder VMangos-Snapshot als im letzten Release) das Image für `linux/amd64` und
    `linux/arm64`, pusht es nach `ghcr.io/stein-n/wow-quest-database:<version>` und `:latest`,
 3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen und den Images als
    Dateien (`wow-quest-database-<version>-<arch>.tar.gz`).
 
 Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle (`0.1.1`, `0.1.2`, …).
-Tage ohne Änderung erzeugen kein Release. Manuell starten: *Actions → Daily data release → Run workflow*
+Tage ohne neue Daten erzeugen kein Release; reine Code-Änderungen erscheinen mit dem nächsten Daten-Release. Manuell starten: *Actions → Daily data release → Run workflow*
 (mit `force` auch ohne Änderung).
 
 Auf dem Homeserver aktualisieren:
