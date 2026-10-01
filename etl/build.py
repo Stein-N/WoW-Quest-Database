@@ -788,7 +788,18 @@ class Flavor:
         write_json(base / "zones.json", {"zones": {str(k): v for k, v in self.zones.items()}, "sorts": sorts})
 
         self.build_l10n(base, records)
+        self.uimap_report = self._uimap_report(records["quest"])
         return {kind: len(recs) for kind, recs in records.items()}
+
+    def _uimap_report(self, quests):
+        """uiMapId per quest that has a zone (None = unresolved), for the release report."""
+        report, zones = {}, {}
+        for qid, rec in sorted(quests.items()):
+            zone = (rec.get("zone") or {}).get("zone")
+            if zone:
+                report[str(qid)] = [zone, rec.get("uiMapId")]
+                zones[str(zone)] = rec["zone"]["name"]
+        return {"quests": report, "zones": zones}
 
     def build_questlines(self):
         """Groups quests connected by prerequisites, follow-ups and breadcrumbs.
@@ -1002,13 +1013,18 @@ def main():
     previous = out / "meta.json"
     if previous.exists():
         meta["flavors"] = json.loads(previous.read_text()).get("flavors", {})
+    report_path = out / "uimap-report.json"
+    uimap_report = json.loads(report_path.read_text()) if report_path.exists() else {}
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
         flavor = Flavor(site_id, vm, quest_rewards)
         counts = flavor.build(out)
         meta["flavors"][site_id] = {"label": C.FLAVORS[site_id]["label"], "counts": counts}
+        uimap_report[site_id] = flavor.uimap_report
         print(f"  {counts}", file=sys.stderr)
     write_json(out / "meta.json", meta)
+    # uiMapId coverage per quest; the release workflow compares it with the previous release
+    write_json(out / "uimap-report.json", uimap_report)
 
 
 if __name__ == "__main__":

@@ -178,7 +178,9 @@ Der Workflow `.github/workflows/daily-release.yml` läuft jeden Tag um 00:00 Uhr
 2. baut nur bei neuen Daten (anderer QuestieDB-Commit, VMangos-Snapshot oder geänderte eigene Korrekturen in
    `etl/corrections/`, z. B. importierte Cache-Texte) das Image für `linux/amd64` und
    `linux/arm64`, pusht es nach `ghcr.io/stein-n/wow-quest-database:<version>` und `:latest`,
-3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen, einer fertigen
+3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen, einem Bericht zu den
+   `uiMapId`s (Abdeckung, seit dem letzten Release neu zugeordnete/geänderte Quests, verbleibende Lücken;
+   Rohdaten als `uimap-report.json` angehängt), einer fertigen
    `docker-compose.yml` (Image auf diese Version festgelegt, Port 8080) und den Images als Dateien
    (`wow-quest-database-<version>-<arch>.tar.gz`).
 

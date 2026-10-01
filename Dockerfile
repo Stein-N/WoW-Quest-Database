@@ -49,6 +49,12 @@ COPY web ./
 COPY --from=data /src/web/static/data ./static/data
 RUN npm run build
 
+# ---------------------------------------------------------------- report (CI only)
+# `docker buildx build --target report --output type=local,dest=...` exports just the uiMapId
+# report for the release notes, reusing the cached data stage.
+FROM scratch AS report
+COPY --from=data /src/web/static/data/uimap-report.json /
+
 # ---------------------------------------------------------------- 3. serve
 FROM nginx:1.27-alpine
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf

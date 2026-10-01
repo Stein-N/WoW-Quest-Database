@@ -218,6 +218,30 @@ jobs:
           done
           ls -lh dist
 
+      - name: uiMapId report (coverage and changes since the last release)
+        if: steps.version.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LAST: ${{ steps.version.outputs.last }}
+        run: |
+          # only the report file of the (cached) data stage
+          docker buildx build . \
+            --target report \
+            --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
+            --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
+            --cache-from type=gha \
+            --output type=local,dest=report
+          cp report/uimap-report.json dist/uimap-report.json
+
+          previous=""
+          if [ -n "$LAST" ] && gh release download "$LAST" --pattern uimap-report.json --dir previous-report; then
+            previous="previous-report/uimap-report.json"
+          else
+            echo "No uiMapId report in ${LAST:-the previous release}."
+          fi
+          python3 etl/uimap_report.py dist/uimap-report.json ${previous:+"$previous"} > uimap-section.md
+          cat uimap-section.md
+
       - name: Write docker-compose.yml for the release
         if: steps.version.outputs.changed == 'true'
         env:
@@ -275,6 +299,9 @@ jobs:
 
           ${changes}
 
+          EOF
+          cat uimap-section.md >> notes.md
+          cat >> notes.md <<EOF
           ## Install
 
           With the attached \`docker-compose.yml\` (image \`${IMAGE}:${VERSION}\`, port 8080):
@@ -296,7 +323,7 @@ jobs:
           ${dockerhub}
           EOF
 
-          gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml \
+          gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml dist/uimap-report.json \
             --target "$(git rev-parse HEAD)" \
             --title "v${VERSION}" \
             --notes-file notes.md
