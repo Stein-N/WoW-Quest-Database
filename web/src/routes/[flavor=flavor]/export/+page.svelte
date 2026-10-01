@@ -5,6 +5,7 @@
 	import { FLAVOR_LABELS } from '$lib/format';
 	import { exportLua, FIELDS, parseIds, TEXT_FIELDS, textVarFor, type ExportFile, type ExportType } from '$lib/lua-export';
 	import { LOCALES, settings } from '$lib/settings.svelte';
+	import { createZip } from '$lib/zip';
 
 	const flavor = $derived(page.params.flavor!);
 
@@ -96,11 +97,15 @@
 		setTimeout(() => URL.revokeObjectURL(url), 1000);
 	}
 
-	async function downloadAll() {
-		for (const file of files ?? []) {
-			download(file);
-			await new Promise((r) => setTimeout(r, 300)); // browsers drop rapid successive downloads
-		}
+	function downloadZip() {
+		if (!files) return;
+		const zip = createZip(files.map((f) => ({ name: f.fileName, text: f.text })));
+		const url = URL.createObjectURL(zip);
+		const a = document.createElement('a');
+		a.href = url;
+		a.download = `${varName}-${flavor}${locale === 'all' ? '-all-languages' : ''}.zip`;
+		a.click();
+		setTimeout(() => URL.revokeObjectURL(url), 1000);
 	}
 
 	let copied = $state('');
@@ -158,7 +163,7 @@
 			<p class="hint muted">
 				Nothing ticked exports every field.
 				{#if textFields.length}<span class="textfield">Italic</span> fields are texts and go to a separate
-					<code>{textVarFor(varName)}.{locale}.lua</code>, keyed by the same IDs.{/if}
+					<code>{textVarFor(varName)}.{locale === 'all' ? '<language>' : locale}.lua</code>, keyed by the same IDs.{/if}
 			</p>
 		</fieldset>
 
@@ -182,6 +187,7 @@
 			<span>Language</span>
 			<select bind:value={locale}>
 				{#each Object.entries(LOCALES) as [code, label] (code)}<option value={code}>{label}</option>{/each}
+				<option value="all">All languages (one texts file each)</option>
 			</select>
 		</label>
 
@@ -234,7 +240,7 @@
 					</div>
 				{/each}
 				{#if files.length > 1}
-					<div class="actions"><button class="primary" onclick={downloadAll}>Download all</button></div>
+					<div class="actions"><button class="primary" onclick={downloadZip}>Download all (.zip)</button></div>
 				{/if}
 			</section>
 		{:else}

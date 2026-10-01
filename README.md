@@ -54,7 +54,8 @@ rewards = { type = "single", items = {2954, 2953, 1282}, fixed = {7344} }  -- ei
 rewards = { type = "all", items = {1017, 2701}, counts = { [1017] = 4 } }   -- Mengen > 1 in counts
 ```
 
-Mehrere Sprachen lassen sich nebeneinander laden (`addon.questTexts.enUS`, `addon.questTexts.deDE`, …).
+Mit `--locale all` (Webseite: *All languages*) entstehen die Datendatei und eine Textdatei je
+Sprache. Die Webseite bietet die Dateien zusätzlich als ZIP an. Mehrere Sprachen lassen sich nebeneinander laden (`addon.questTexts.enUS`, `addon.questTexts.deDE`, …).
 Im Standardmodus (`--refs id`) enthält die Datendatei keine Anzeigetexte: Verweise auf Quests, NPCs,
 Items, Zonen und Fraktionen sind reine IDs.
 
@@ -63,6 +64,8 @@ Items, Zonen und Fraktionen sind reine IDs.
 python3 etl/export_lua.py --flavor forever --type quest -o export/
 # deutsche Texte zusätzlich
 python3 etl/export_lua.py --flavor forever --type quest --fields name,objectivesText,details --locale deDE -o export/
+# Texte in allen 10 Sprachen auf einmal (questData.lua + questTexts.<sprache>.lua je Sprache)
+python3 etl/export_lua.py --flavor forever --type quest --locale all -o export/
 # NPCs einer Zone (Elwynn = 12) ohne Quellenangaben
 python3 etl/export_lua.py --flavor classic --type npc --zone 12 --exclude sources -o export/
 # Questreihen als `return {...}` für dofile/require
@@ -77,7 +80,7 @@ make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
 | `--fields` / `--exclude` | Felder behalten bzw. weglassen (kommagetrennt) |
 | `--ids` | IDs oder Bereiche, z. B. `2,33,100-200` |
 | `--zone` | nur Einträge dieser Zone (Area-ID) |
-| `--locale` | Sprache der Texte (Standard `enUS`; `deDE`, `frFR`, …) |
+| `--locale` | Sprache der Texte (Standard `enUS`; `deDE`, `frFR`, …) oder `all` für eine Textdatei pro Sprache |
 | `--refs` | `id` (Standard): Verweise als reine IDs; `full`: mit Typ und Name |
 | `--style` | `addon` (Standard) oder `return` |
 | `--var` / `--text-var` | Tabellennamen (Standard `<type>Data` / `<type>Texts`) |

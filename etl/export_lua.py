@@ -23,7 +23,8 @@ Options:
   --exclude   comma-separated fields to drop (e.g. spawns,sources)
   --ids       comma-separated IDs, or a range like 100-200
   --zone      only entities whose zone (or questline zone) is this area ID
-  --locale    language of the texts and names (default enUS; deDE, frFR, ...)
+  --locale    language of the texts and names (default enUS; deDE, frFR, ...),
+              or "all" for one texts file per language
   --refs      id (default): references to other entities become plain IDs;
               full: keep {t, id, name, ...} tables
   --style     addon (default): `local _, addon = ...` + addon.<var> = {...}
@@ -269,37 +270,52 @@ def main():
     if args.zone is not None:
         records = {i: r for i, r in records.items() if zone_of(r) == args.zone}
 
-    if args.locale != "enUS":
-        if args.locale not in meta["locales"]:
-            sys.exit(f"unknown locale {args.locale}; available: enUS, {', '.join(meta['locales'])}")
-        names = json.loads((DATA / args.flavor / "l10n" / args.locale / "search.json").read_text())
-        zone_names = json.loads((DATA / args.flavor / "l10n" / args.locale / "zones.json").read_text())
-        translated = load_l10n(args.flavor, args.type, args.locale) if args.type != "questline" else {}
-        records = {i: localize_refs({**r, **translated.get(i, {})}, names, zone_names) for i, r in records.items()}
+    all_locales = ["enUS"] + meta["locales"]
+    if args.locale != "all" and args.locale not in all_locales:
+        sys.exit(f"unknown locale {args.locale}; available: all, {', '.join(all_locales)}")
+    # "all": one data file (English references) plus a texts file for every language
+    locales = all_locales if args.locale == "all" else [args.locale]
 
     keep = set(args.fields.split(",")) if args.fields else None
     drop = set(args.exclude.split(",")) if args.exclude else set()
     text_fields = TEXT_FIELDS.get(args.type, ())
-    data, texts = {}, {}
-    for entity_id, rec in records.items():
-        rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
-        text = {k: rec.pop(k) for k in text_fields if k in rec}
-        if args.type == "quest" and rec.get("rewards"):
-            rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)
-        data[entity_id] = compact_refs(rec) if args.refs == "id" else rec
-        if text:
-            texts[entity_id] = text
+
+    def localized(locale):
+        if locale == "enUS":
+            return records
+        names = json.loads((DATA / args.flavor / "l10n" / locale / "search.json").read_text())
+        zone_names = json.loads((DATA / args.flavor / "l10n" / locale / "zones.json").read_text())
+        translated = load_l10n(args.flavor, args.type, locale) if args.type != "questline" else {}
+        return {i: localize_refs({**r, **translated.get(i, {})}, names, zone_names) for i, r in records.items()}
+
+    def split(recs):
+        data, texts = {}, {}
+        for entity_id, rec in recs.items():
+            rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
+            text = {k: rec.pop(k) for k in text_fields if k in rec}
+            if args.type == "quest" and rec.get("rewards"):
+                rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)
+            data[entity_id] = compact_refs(rec) if args.refs == "id" else rec
+            if text:
+                texts[entity_id] = text
+        return data, texts
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     data_file = f"{args.var}.lua"
-    texts_file = f"{args.text_var}.{args.locale}.lua" if texts else None
-    if any(data.values()) or not texts:
-        (out_dir / data_file).write_text(render_data(data, args, meta, data_file, texts_file), encoding="utf-8")
-        print(f"wrote {len(data)} entries to {out_dir / data_file}", file=sys.stderr)
-    if texts:
-        (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, args.locale), encoding="utf-8")
-        print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)
+    for n, locale in enumerate(locales):
+        data, texts = split(localized(locale))
+        texts_file = f"{args.text_var}.{locale}.lua" if texts else None
+        if n == 0 and (any(data.values()) or not texts):
+            reference = f"{args.text_var}.<locale>.lua (one file per language)" if len(locales) > 1 else texts_file
+            (out_dir / data_file).write_text(
+                render_data(data, args, meta, data_file, reference if texts else None), encoding="utf-8")
+            print(f"wrote {len(data)} entries to {out_dir / data_file}", file=sys.stderr)
+        if texts:
+            (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, locale), encoding="utf-8")
+            print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)
+        elif n == 0:
+            break  # no text fields selected: nothing per language
 
 
 if __name__ == "__main__":

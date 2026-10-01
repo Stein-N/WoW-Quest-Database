@@ -229,88 +229,108 @@ export async function exportLua(
 		if (!IDENT.test(name) || KEYWORDS.has(name)) throw new Error(`Table names must be Lua identifiers: ${name}`);
 	}
 	const meta: Meta = await getMeta();
+	const allLocales = ['enUS', ...meta.locales];
+	if (opts.locale !== 'all' && !allLocales.includes(opts.locale)) throw new Error(`Unknown language ${opts.locale}`);
+	// "all": one data file (English references) plus a texts file for every language
+	const locales = opts.locale === 'all' ? allLocales : [opts.locale];
+	const textFields = TEXT_FIELDS[opts.type];
+	const translatedLocales = textFields.length || opts.refs === 'full' ? locales.filter((l) => l !== 'enUS') : [];
 	const wantedIds = parseIds(opts.ids);
-	const localized = opts.locale !== 'enUS';
 	let records = new Map<number, Rec>();
+	let buckets: number[] = [];
 
+	// a few requests in parallel keeps it quick without flooding the server
+	async function eachBucket(fn: (bucket: number) => Promise<void>) {
+		const queue = [...buckets];
+		const worker = async () => {
+			for (let b = queue.shift(); b !== undefined; b = queue.shift()) await fn(b);
+		};
+		await Promise.all(Array.from({ length: 6 }, worker));
+	}
+
+	let done = 0;
 	if (opts.type === 'questline') {
 		for (const line of await getQuestlines(opts.flavor)) records.set(line.id, line as unknown as Rec);
+		if (wantedIds) records = new Map([...records].filter(([id]) => wantedIds.has(id)));
 		onProgress?.(1, 1);
 	} else {
 		const kind = opts.type;
 		let ids = await allIds(opts.flavor, kind);
 		if (wantedIds) ids = ids.filter((i) => wantedIds.has(i));
-		const buckets = [...new Set(ids.map((i) => Math.floor(i / BUCKET)))].sort((a, b) => a - b);
 		const wanted = new Set(ids);
-		let done = 0;
-		onProgress?.(0, buckets.length);
-		// a few requests in parallel keeps it quick without flooding the server
-		const queue = [...buckets];
-		const worker = async () => {
-			for (let b = queue.shift(); b !== undefined; b = queue.shift()) {
-				const [shard, tr] = await Promise.all([
-					getShard<Rec>(opts.flavor, kind, b),
-					localized ? getShard<Rec>(opts.flavor, kind, b, opts.locale) : Promise.resolve({} as Record<string, Rec>)
-				]);
-				for (const [id, rec] of Object.entries(shard)) {
-					if (wanted.has(Number(id))) records.set(Number(id), { ...rec, ...(tr[id] ?? {}) });
-				}
-				onProgress?.(++done, buckets.length);
-			}
-		};
-		await Promise.all(Array.from({ length: 6 }, worker));
-	}
-
-	if (wantedIds && opts.type === 'questline') {
-		records = new Map([...records].filter(([id]) => wantedIds.has(id)));
+		buckets = [...new Set(ids.map((i) => Math.floor(i / BUCKET)))].sort((a, b) => a - b);
+		const total = buckets.length * (1 + translatedLocales.length);
+		onProgress?.(0, total);
+		await eachBucket(async (b) => {
+			const shard = await getShard<Rec>(opts.flavor, kind, b);
+			for (const [id, rec] of Object.entries(shard)) if (wanted.has(Number(id))) records.set(Number(id), rec);
+			onProgress?.(++done, total);
+		});
 	}
 	if (opts.zone !== null) {
 		records = new Map([...records].filter(([, r]) => zoneOf(r) === opts.zone));
 	}
 
-	if (localized) {
-		const [names, zones] = await Promise.all([getNames(opts.flavor, opts.locale), getZoneNames(opts.flavor, opts.locale)]);
+	async function localized(locale: string): Promise<Map<number, Rec>> {
+		if (locale === 'enUS') return records;
+		const kind = opts.type;
+		const translations: Record<string, Rec> = {};
+		if (kind !== 'questline') {
+			const total = buckets.length * (1 + translatedLocales.length);
+			await eachBucket(async (b) => {
+				Object.assign(translations, await getShard<Rec>(opts.flavor, kind, b, locale));
+				onProgress?.(++done, total);
+			});
+		}
+		const [names, zones] = await Promise.all([getNames(opts.flavor, locale), getZoneNames(opts.flavor, locale)]);
 		const table = (names ?? {}) as unknown as Record<string, Record<string, string>>;
-		for (const [id, rec] of records) records.set(id, localizeRefs(rec, table, zones) as Rec);
+		return new Map(
+			[...records].map(([id, rec]) => [id, localizeRefs({ ...rec, ...(translations[id] ?? {}) }, table, zones) as Rec])
+		);
 	}
 
 	const keep = opts.fields.length ? new Set(opts.fields) : null;
-	const textFields = TEXT_FIELDS[opts.type];
-	const data = new Map<number, Json>();
-	const texts = new Map<number, Json>();
-	for (const [id, rec] of records) {
-		const kept = Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)));
-		const text = kept.filter(([k]) => textFields.includes(k));
-		const rest: Rec = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
-		if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec, opts.refs);
-		data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
-		if (text.length) {
-			// field order as in TEXT_FIELDS, like the Python tool
-			texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, rec[f]])));
+	function split(recs: Map<number, Rec>) {
+		const data = new Map<number, Json>();
+		const texts = new Map<number, Json>();
+		for (const [id, rec] of recs) {
+			const kept = Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)));
+			const text = kept.filter(([k]) => textFields.includes(k));
+			const rest: Rec = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
+			if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec, opts.refs);
+			data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
+			if (text.length) {
+				// field order as in TEXT_FIELDS, like the Python tool
+				texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, rec[f]])));
+			}
 		}
+		return { data, texts };
 	}
 
 	const label = meta.flavors[opts.flavor]?.label ?? opts.flavor;
 	const dataFile = `${opts.varName}.lua`;
-	const textsFile = texts.size ? `${textVar}.${opts.locale}.lua` : null;
 	const files: ExportFile[] = [];
-	const hasData = [...data.values()].some((v) => v && typeof v === 'object' && Object.keys(v).length);
-	if (hasData || !texts.size) {
-		const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
-		if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${textsFile}, keyed by the same IDs.`);
-		const body =
-			opts.style === 'return'
-				? ['return {', ...entries(data), '}', '']
-				: ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];
-		files.push({ fileName: dataFile, text: [...lines, ...body].join('\n'), count: data.size });
-	}
-	if (textsFile) {
-		const lines = header(textsFile, `${opts.type} texts (${opts.locale}) for ${label}, keyed by ${opts.type} ID.`, texts.size, meta, opts);
+	for (const [n, locale] of locales.entries()) {
+		const { data, texts } = split(await localized(locale));
+		const textsFile = texts.size ? `${textVar}.${locale}.lua` : null;
+		const hasData = [...data.values()].some((v) => v && typeof v === 'object' && Object.keys(v).length);
+		if (n === 0 && (hasData || !texts.size)) {
+			const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
+			const reference = locales.length > 1 ? `${textVar}.<locale>.lua (one file per language)` : textsFile;
+			if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${reference}, keyed by the same IDs.`);
+			const body =
+				opts.style === 'return'
+					? ['return {', ...entries(data), '}', '']
+					: ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];
+			files.push({ fileName: dataFile, text: [...lines, ...body].join('\n'), count: data.size });
+		}
+		if (!textsFile) break; // no text fields selected: nothing per language
+		const lines = header(textsFile, `${opts.type} texts (${locale}) for ${label}, keyed by ${opts.type} ID.`, texts.size, meta, opts);
 		const table = `addon.${textVar}`;
 		const body =
 			opts.style === 'return'
 				? ['return {', ...entries(texts), '}', '']
-				: ['local _, addon = ...', '', `${table} = ${table} or {}`, `${table}[${luaString(opts.locale)}] = {`, ...entries(texts), '}', ''];
+				: ['local _, addon = ...', '', `${table} = ${table} or {}`, `${table}[${luaString(locale)}] = {`, ...entries(texts), '}', ''];
 		files.push({ fileName: textsFile, text: [...lines, ...body].join('\n'), count: texts.size });
 	}
 	return files;
