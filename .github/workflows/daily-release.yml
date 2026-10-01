@@ -3,7 +3,8 @@
 # Every day at 00:00 Europe/Berlin:
 #   1. pull QuestieDB's master branch into vendor/QuestieDB and record the data version
 #      (QuestieDB commit + latest VMangos snapshot) in data-version.json, commit to main
-#   2. only if the data changed since the last release (QuestieDB commit or VMangos snapshot),
+#   2. only if the data changed since the last release (QuestieDB commit, VMangos snapshot or
+#      the project's own corrections in etl/corrections),
 #      build the Docker image for linux/amd64 and linux/arm64, push it to GHCR (and Docker Hub,
 #      see below) and publish a GitHub release (code changes alone do not release; they ship
 #      with the next data update)
@@ -105,8 +106,9 @@ jobs:
           else
             IFS=. read -r major minor patch <<< "${last#v}"
             next="${major}.${minor}.$((patch + 1))"
-            # data changed = new QuestieDB commit or VMangos snapshot since the last release
-            if git diff --quiet "${last}" HEAD -- data-version.json vendor/QuestieDB; then changed=false; else changed=true; fi
+            # data changed = new QuestieDB commit, VMangos snapshot or own corrections
+            # (questlines, client-cache texts) since the last release
+            if git diff --quiet "${last}" HEAD -- data-version.json vendor/QuestieDB etl/corrections; then changed=false; else changed=true; fi
           fi
           if [ "${{ inputs.force }}" = "true" ]; then changed=true; fi
           echo "Last release: ${last:-none}, next: ${next}, changed: ${changed}"
