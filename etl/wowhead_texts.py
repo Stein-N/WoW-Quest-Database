@@ -27,7 +27,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TEXT_FIELDS = ("name", "objectivesText", "details", "progress", "completion", "endText")
-SITE_LOCALES = ["enUS", "deDE", "esES", "esMX", "frFR", "itIT", "ptBR", "ruRU", "koKR", "zhCN", "zhTW"]
+# no Italian: WoW Classic has no Italian client, Wowhead's /it/ pages show the English text
+SITE_LOCALES = ["enUS", "deDE", "esES", "esMX", "frFR", "ptBR", "ruRU", "koKR", "zhCN", "zhTW"]
 # texts that count as "present" for a language; without them the language is fetched
 REQUIRED = ("name", "details")
 

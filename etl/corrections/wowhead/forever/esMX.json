@@ -1,0 +1,11 @@
+{
+ "_comment": "Quest texts read from wowhead.com by scripts/wowhead-texts.sh. Used by etl/build.py only where QuestieDB, VMangos and the client cache have no text.",
+ "quests": {
+  "16": {
+   "name": "Dale de beber a Gerard",
+   "details": "El trabajo en la granja es agotador, por eso intento siempre tener una buena reserva de agua de manantial que ayude a soportarlo.$B$BSi tienes algo de agua, podríamos hacer un intercambio.$BAgua de manantial refrescante (1)",
+   "completion": "¡Gracias, $N! Y vuelve si quieres hacer otro intercambio.",
+   "fetched": "2026-10-01"
+  }
+ }
+}

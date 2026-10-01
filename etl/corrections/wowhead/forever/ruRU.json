@@ -1,0 +1,11 @@
+{
+ "_comment": "Quest texts read from wowhead.com by scripts/wowhead-texts.sh. Used by etl/build.py only where QuestieDB, VMangos and the client cache have no text.",
+ "quests": {
+  "16": {
+   "name": "Жажда Джерарда",
+   "details": "Работа фермера тяжела, от нее здорово пересыхает в глотке.$B$BЕсли ты дашь мне родниковой воды, могу предложить кое-что взамен.$BОсвежающая ключевая вода (1)",
+   "completion": "Благодарю, $N! Решишь еще со мной поторговаться – заходи.",
+   "fetched": "2026-10-01"
+  }
+ }
+}

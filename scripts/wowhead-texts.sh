@@ -32,7 +32,7 @@ ROBOTS="${WOWHEAD_ROBOTS:-https://www.wowhead.com/robots.txt}"
 
 # site locale  wowhead path segment ("" = English)
 declare -A SEGMENT=(
-  [enUS]="" [deDE]=de [esES]=es [esMX]=mx [frFR]=fr [itIT]=it
+  [enUS]="" [deDE]=de [esES]=es [esMX]=mx [frFR]=fr
   [ptBR]=pt [ruRU]=ru [koKR]=ko [zhCN]=cn [zhTW]=tw
 )
 

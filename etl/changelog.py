@@ -34,7 +34,7 @@ CHANGELOG = ROOT / "CHANGELOG.json"
 SKIP_PREFIXES = ("Release v", "Initial commit", "Update data:")
 FLAVORS = {"classic": "Classic Era", "forever": "WoW Forever"}
 LOCALES = {"enUS": "English", "deDE": "German", "esES": "Spanish (EU)", "esMX": "Spanish (LA)",
-           "frFR": "French", "itIT": "Italian", "koKR": "Korean", "ptBR": "Portuguese", "ruRU": "Russian",
+           "frFR": "French", "koKR": "Korean", "ptBR": "Portuguese", "ruRU": "Russian",
            "zhCN": "Chinese (simplified)", "zhTW": "Chinese (traditional)"}
 KINDS = {"quest": ("quest", "quests"), "npc": ("NPC", "NPCs"), "object": ("object", "objects"),
          "item": ("item", "items")}

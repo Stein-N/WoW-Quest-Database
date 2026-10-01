@@ -1,0 +1,11 @@
+{
+ "_comment": "Quest texts read from wowhead.com by scripts/wowhead-texts.sh. Used by etl/build.py only where QuestieDB, VMangos and the client cache have no text.",
+ "quests": {
+  "16": {
+   "name": "葛拉德的饮料",
+   "details": "在地里干活让我非常口渴，一直想要喝点清爽的泉水。$B$B如果你有的话，我想和你做个交换。$B清凉的泉水 （1）",
+   "completion": "谢谢，$N！如果你还想再交换的话，就回来找我。",
+   "fetched": "2026-10-01"
+  }
+ }
+}

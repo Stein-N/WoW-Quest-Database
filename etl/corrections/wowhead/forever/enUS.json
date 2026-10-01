@@ -1,0 +1,11 @@
+{
+ "_comment": "Quest texts read from wowhead.com by scripts/wowhead-texts.sh. Used by etl/build.py only where QuestieDB, VMangos and the client cache have no text.",
+ "quests": {
+  "16": {
+   "name": "Give Gerard a Drink",
+   "details": "Farming is thirsty work, and I'm always looking for refreshing spring water.$B$BIf you have any, then I'm willing to make a trade.$BRefreshing Spring Water (1)",
+   "completion": "Thanks, $N! And come back if you want to trade again.",
+   "fetched": "2026-10-01"
+  }
+ }
+}

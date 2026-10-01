@@ -7,7 +7,7 @@ FLAVORS = {
 }
 
 # QuestieDB l10n locales; VMangos `locales_*` loc1..loc8 map onto all but ptBR.
-LOCALES = ["deDE", "esES", "esMX", "frFR", "itIT", "koKR", "ptBR", "ruRU", "zhCN", "zhTW"]
+LOCALES = ["deDE", "esES", "esMX", "frFR", "koKR", "ptBR", "ruRU", "zhCN", "zhTW"]
 VMANGOS_LOCALE_INDEX = {
     "koKR": 1, "frFR": 2, "deDE": 3, "zhCN": 4, "zhTW": 5, "esES": 6, "esMX": 7, "ruRU": 8,
 }

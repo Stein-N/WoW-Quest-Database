@@ -1,0 +1,11 @@
+{
+ "_comment": "Quest texts read from wowhead.com by scripts/wowhead-texts.sh. Used by etl/build.py only where QuestieDB, VMangos and the client cache have no text.",
+ "quests": {
+  "16": {
+   "name": "Procurer de l'eau à Gerard",
+   "details": "Cultiver la terre est un travail difficile et qui donne diablement soif, je suis toujours partant pour un peu d'eau claire et fraîche.$B$BSi vous en avez, eh bien ! je ferai bien affaire avec vous.$BEau de source (1)",
+   "completion": "Merci, $N ! Et revenez si vous voulez refaire affaire.",
+   "fetched": "2026-10-01"
+  }
+ }
+}
