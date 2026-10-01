@@ -8,6 +8,3 @@ __pycache__/
 
 # downloaded VMangos snapshot (make vmangos)
 /vendor/vmangos/
-
-# stitched from the WoW client (Blizzard artwork) — see docs/MAPS.md
-/web/static/maps/

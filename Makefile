@@ -2,15 +2,14 @@
 #
 #   make data      export QuestieDB, fetch VMangos, build web/static/data
 #   make dev       run the website locally (http://localhost:5173)
-#   make build     static site in web/build (GitHub Pages / any web server)
-#   make maps      extract world maps from the local WoW install (WOW_DIR=…)
+#   make build     static site in web/build (any web server)
+#   make maps      extract world maps from the local WoW clients (WOW_DIR=…)
 
 QUESTIE  := vendor/QuestieDB
 LUA      := ./tools/lua-binary/linux-x64/lua
 VMANGOS  := vendor/vmangos
 SQLITE   := $(VMANGOS)/sqlite-dump/mangos.sqlite
 WOW_DIR  ?= $(HOME)/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft
-PRODUCT  ?= wow_classic_beta
 
 .PHONY: data questie vmangos site-data dev build maps clean update
 
@@ -48,7 +47,8 @@ build: web/node_modules
 	cd web && npm run build
 
 maps:
-	python3 etl/maps.py --wow-dir "$(WOW_DIR)" --product $(PRODUCT)
+	python3 etl/maps.py --wow-dir "$(WOW_DIR)" --product wow_classic_era --flavor classic
+	python3 etl/maps.py --wow-dir "$(WOW_DIR)" --product wow_classic_beta --flavor forever
 
 clean:
 	rm -rf build web/build web/static/data

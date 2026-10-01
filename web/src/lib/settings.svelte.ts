@@ -31,6 +31,16 @@ function write(key: string, value: string) {
 
 class Settings {
 	#locale = $state(read('locale', 'enUS'));
+	#mapFog = $state(read('mapFog', '0') === '1');
+
+	/** Show maps unexplored (base art only) instead of fully revealed. */
+	get mapFog() {
+		return this.#mapFog;
+	}
+	set mapFog(value: boolean) {
+		this.#mapFog = value;
+		write('mapFog', value ? '1' : '0');
+	}
 
 	get locale() {
 		return this.#locale;

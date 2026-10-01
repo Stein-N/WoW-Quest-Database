@@ -15,21 +15,25 @@
 		entries: MapEntry[];
 	}
 
-	let indexPromise: Promise<{ maps: number[]; transforms: Record<string, Record<string, [number, number, number, number]>> }> | null =
-		null;
+	const indexes = new Map<string, Promise<{ maps: number[] }>>();
 
-	/** maps/index.json from etl/maps.py; an empty index when no map art was extracted. */
-	function loadMapIndex() {
-		indexPromise ??= fetch('maps/index.json')
-			.then((r) => (r.ok ? r.json() : { maps: [], transforms: {} }))
-			.catch(() => ({ maps: [], transforms: {} }));
-		return indexPromise;
+	/** maps/<flavor>/index.json from etl/maps.py; empty when no map art was extracted. */
+	function loadMapIndex(flavor: string) {
+		let p = indexes.get(flavor);
+		if (!p) {
+			p = fetch(`maps/${flavor}/index.json`)
+				.then((r) => (r.ok ? r.json() : { maps: [] }))
+				.catch(() => ({ maps: [] }));
+			indexes.set(flavor, p);
+		}
+		return p;
 	}
 </script>
 
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { site } from '$lib/context.svelte';
+	import { settings } from '$lib/settings.svelte';
 	import type * as Leaflet from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
 
@@ -58,19 +62,17 @@
 		paths: Path[];
 	}
 
-	interface MapIndex {
-		maps: number[];
-		transforms: Record<string, Record<string, [number, number, number, number]>>;
-	}
-	let mapIndex = $state<MapIndex>({ maps: [], transforms: {} });
-	onMount(() => {
-		loadMapIndex().then((index) => (mapIndex = index));
+	let mapIndex = $state<{ maps: number[] }>({ maps: [] });
+	$effect(() => {
+		const flavor = site.flavor;
+		loadMapIndex(flavor).then((index) => {
+			if (site.flavor === flavor) mapIndex = index;
+		});
 	});
 	const withArt = $derived(new Set(mapIndex.maps));
 
 	const groups = $derived.by(() => {
 		const zones = site.zones?.zones ?? {};
-		const transforms = mapIndex.transforms[site.flavor] ?? {};
 		const byMap = new Map<number, MapGroup>();
 		const group = (uiMapId: number, areaId: number) => {
 			let g = byMap.get(uiMapId);
@@ -79,11 +81,6 @@
 				byMap.set(uiMapId, g);
 			}
 			return g;
-		};
-		// Coordinates of this flavor may use a different frame than the extracted map art.
-		const place = (uiMapId: number, x: number, y: number): [number, number] => {
-			const t = transforms[uiMapId];
-			return t ? [x * t[0] + t[1], y * t[2] + t[3]] : [x, y];
 		};
 		// Instances without map art are shown at their entrance on the outdoor map.
 		const atEntrance = (zone: (typeof zones)[string] | undefined) =>
@@ -98,23 +95,20 @@
 							if (!outer?.uiMapId) continue;
 							const g = group(outer.uiMapId, e.zone);
 							if (!g.markers.some((m) => m.layer === li && m.name === entry.name && m.note)) {
-								const [x, y] = place(outer.uiMapId, e.x, e.y);
 								g.markers.push({
 									layer: li,
 									name: entry.name,
 									href: entry.href,
-									x,
-									y,
+									x: e.x,
+									y: e.y,
 									note: `inside ${zone!.name}`
 								});
 							}
 						}
 					} else if (zone?.uiMapId) {
 						const g = group(zone.uiMapId, Number(area));
-						for (const [px, py] of points) {
-							if (px < 0 || py < 0) continue;
-							const [x, y] = place(zone.uiMapId, px, py);
-							g.markers.push({ layer: li, name: entry.name, href: entry.href, x, y });
+						for (const [x, y] of points) {
+							if (x >= 0 && y >= 0) g.markers.push({ layer: li, name: entry.name, href: entry.href, x, y });
 						}
 					}
 				}
@@ -122,10 +116,7 @@
 					const zone = zones[area];
 					if (!zone?.uiMapId || atEntrance(zone)) continue;
 					const g = group(zone.uiMapId, Number(area));
-					const uiMapId = zone.uiMapId;
-					for (const p of paths) {
-						g.paths.push({ layer: li, points: p.map(([x, y]) => place(uiMapId, x, y)) });
-					}
+					for (const p of paths) g.paths.push({ layer: li, points: p as [number, number][] });
 				}
 			}
 		});
@@ -200,7 +191,8 @@
 			[0, W]
 		];
 		if (withArt.has(g.uiMapId)) {
-			Lx.imageOverlay(`maps/${g.uiMapId}.webp`, bounds, { interactive: false }).addTo(target).bringToBack();
+			const file = `maps/${site.flavor}/${g.uiMapId}${settings.mapFog ? '-fog' : ''}.webp`;
+			Lx.imageOverlay(file, bounds, { interactive: false }).addTo(target).bringToBack();
 		} else {
 			drawGrid(target);
 		}
@@ -275,6 +267,12 @@
 					</label>
 				{/if}
 			{/each}
+			{#if current && withArt.has(current.uiMapId)}
+				<label class="fog">
+					<input type="checkbox" bind:checked={settings.mapFog} />
+					Fog of war
+				</label>
+			{/if}
 		</div>
 	</div>
 {/if}
@@ -320,6 +318,10 @@
 		gap: 0.4rem 1rem;
 		margin-top: 0.4rem;
 		font-size: 0.85rem;
+	}
+	.legend .fog {
+		margin-left: auto;
+		color: var(--muted);
 	}
 	.legend label {
 		display: inline-flex;

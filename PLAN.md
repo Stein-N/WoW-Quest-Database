@@ -245,9 +245,9 @@ Entscheidungen aus 7. umgesetzt:
 | 0 – Machbarkeit | ✅ Classic: 4.250 von 4.257 Quests in VMangos gefunden. Forever: 739 Quests ohne VMangos-Gegenstück |
 | 1 – Datenpipeline | ✅ `make data`: Lua-Export inkl. Corrections → Merge → JSON-Shards (~35 s, ~210 MB) |
 | 2 – MVP-Webseite | ✅ Questliste mit Filtern, Detailseiten für Quest/NPC/Objekt/Item, Zonen, Suche |
-| 3 – Karten | ✅ Leaflet-Karten mit 60 Kartenbildern direkt aus der lokalen Forever-Installation (`make maps`, docs/MAPS.md) |
+| 3 – Karten | ✅ Leaflet-Karten; eigene Kartensätze aus Era- (54) und Forever-Client (60), erkundet und mit Nebel (`make maps`, docs/MAPS.md) |
 | 4 – Ausbau | ✅ Übersetzungen, Questketten, Loot (direkte Einträge), Item-Tooltips. Offen: Patch-Ansicht, Ketten-Graph, Icons |
-| 5 – Betrieb | ✅ GitHub-Pages-Workflow (wöchentlicher Daten-Refresh). Offen: Deployment auf eigenen Server |
+| 5 – Betrieb | GitHub-Pages-Workflow entfernt (privates Repo). Offen: Deployment auf eigenen Server |
 
 Bekannte Lücken:
 
