@@ -249,6 +249,13 @@
 				</dl>
 			</section>
 
+			{#if q.questline}
+				<a class="panel questline-card" href="#/{flavor}/questline/{q.questline.id}/{q.id}">
+					<span class="ql-title">Show questline</span>
+					<span class="muted">{q.questline.size} quests · opens the full chain with this quest highlighted</span>
+				</a>
+			{/if}
+
 			{#if q.chain}
 				{@const c = q.chain}
 				<section class="panel">
@@ -303,6 +310,26 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 		gap: 0.2rem 1rem;
+	}
+	.questline-card {
+		display: block;
+		background: linear-gradient(180deg, #3d3220, #251d12);
+		border-color: #000;
+		color: #f0c53e;
+		font-family: Georgia, serif;
+	}
+	.questline-card:hover {
+		text-decoration: none;
+		box-shadow: 0 0 0 1px #f0c53e inset;
+	}
+	.questline-card .ql-title {
+		display: block;
+		font-size: 1.05rem;
+	}
+	.questline-card .muted {
+		color: #b9a77f;
+		font-family: system-ui, sans-serif;
+		font-size: 0.8rem;
 	}
 	.chain dt {
 		white-space: nowrap;

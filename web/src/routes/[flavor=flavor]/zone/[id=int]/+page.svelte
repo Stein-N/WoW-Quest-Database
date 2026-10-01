@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { getQuestIndex, getZoneGivers } from '$lib/data';
+	import { getQuestIndex, getQuestlines, getZoneGivers } from '$lib/data';
 	import { site } from '$lib/context.svelte';
 	import QuestTable from '$lib/components/QuestTable.svelte';
 	import ZoneMap, { type MapLayer } from '$lib/components/ZoneMap.svelte';
@@ -10,7 +10,7 @@
 	const zone = $derived(site.zones?.zones[id]);
 
 	async function load(flavor: string, id: number) {
-		const [rows, zoneData] = await Promise.all([getQuestIndex(flavor), getZoneGivers(flavor, id)]);
+		const [rows, zoneData, lines] = await Promise.all([getQuestIndex(flavor), getZoneGivers(flavor, id), getQuestlines(flavor)]);
 		const inZone = rows.filter((r) => r[5] === id);
 		const sides = new Map(rows.map((r) => [r[0], r[4]]));
 		const layer = (label: string, color: string, side: string): MapLayer => ({
@@ -28,7 +28,13 @@
 					data: { spawns: g.spawns }
 				}))
 		});
+		const names = new Map(rows.map((r) => [r[0], r[1]]));
+		const zoneLines = lines
+			.filter((l) => l.zone === id && l.quests.length >= 2)
+			.map((l) => ({ ...l, title: site.names?.quest?.[l.root] ?? names.get(l.root) ?? '' }))
+			.sort((a, b) => (a.levels?.[0] ?? 0) - (b.levels?.[0] ?? 0));
 		return {
+			lines: zoneLines,
 			rows: inZone,
 			layers: [layer('Alliance quest givers', '#4f8cff', 'A'), layer('Horde quest givers', '#ff5c4f', 'H'), layer('Neutral quest givers', '#ffd100', 'B')]
 		};
@@ -50,6 +56,33 @@
 			{/key}
 		</section>
 	{/if}
+	{#if data.lines.length}
+		<h2>Questlines <span class="count">{data.lines.length}</span></h2>
+		<ul class="zone-lines">
+			{#each data.lines as l (l.id)}
+				<li>
+					<a href="#/{flavor}/questline/{l.id}">{l.title}</a>
+					<span class="muted">{l.quests.length} quests{#if l.levels} · {l.levels[0]}–{l.levels[1]}{/if}</span>
+				</li>
+			{/each}
+		</ul>
+	{/if}
 	<h2>Quests <span class="count">{data.rows.length}</span></h2>
 	<QuestTable rows={data.rows} showZone={false} />
 {/await}
+
+<style>
+	.zone-lines {
+		columns: 20rem;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.zone-lines li {
+		break-inside: avoid;
+		padding: 0.1rem 0;
+	}
+	.zone-lines .muted {
+		font-size: 0.85rem;
+	}
+</style>

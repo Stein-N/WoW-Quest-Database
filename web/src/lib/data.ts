@@ -1,7 +1,7 @@
 // Loads the static JSON produced by etl/build.py. Everything lives under ./data relative to
 // index.html; with hash routing the document URL never changes, so relative fetches are safe.
 
-import type { Kind, Ref, Zones, Meta, QuestIndexRow, SearchIndex, L10nEntry } from './types';
+import type { Kind, Ref, Zones, Meta, QuestIndexRow, SearchIndex, L10nEntry, Questline } from './types';
 
 export const BUCKET = 100;
 const DATA = 'data';
@@ -30,6 +30,7 @@ export const getMeta = () => load<Meta>('meta.json');
 export const getZones = (flavor: string) => load<Zones>(`${flavor}/zones.json`);
 export const getQuestIndex = (flavor: string) => load<QuestIndexRow[]>(`${flavor}/quests.json`);
 export const getSearchIndex = (flavor: string) => load<SearchIndex>(`${flavor}/search.json`);
+export const getQuestlines = (flavor: string) => load<Questline[]>(`${flavor}/questlines.json`);
 
 export async function getEntity<T>(flavor: string, kind: Kind, id: number): Promise<T | null> {
 	const shard = await loadOptional<Record<string, T>>(

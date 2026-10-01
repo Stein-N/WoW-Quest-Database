@@ -106,6 +106,7 @@ export interface Quest {
 		reputation?: Faction[];
 	};
 	spawns?: Record<string, SpawnData>;
+	questline?: { id: number; size: number };
 	sources: string[];
 }
 
@@ -219,4 +220,17 @@ export interface L10nEntry {
 	completion?: string;
 	endText?: string;
 	description?: string;
+}
+
+export interface Questline {
+	id: number;
+	/** first quest of the line; its (localized) name names the questline */
+	root: number;
+	zone: number;
+	levels: [number, number] | null;
+	side: 'A' | 'H' | 'B';
+	quests: number[];
+	/** [from, to, kind]: 'pre' = from before to, 'breadcrumb' = from leads to to */
+	edges: [number, number, string][];
+	exclusive?: [number, number][];
 }

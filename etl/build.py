@@ -483,6 +483,9 @@ class Flavor:
             r["rewards"] = rewards
         if spawns:
             r["spawns"] = spawns
+        line = self.questline_of.get(qid)
+        if line is not None:
+            r["questline"] = {"id": line["id"], "size": len(line["quests"])}
         r["sources"] = ["questie"] + (["vmangos"] if vmq is not None else [])
         return {k: v for k, v in r.items() if v is not None}
 
@@ -645,6 +648,7 @@ class Flavor:
         base = out / self.site_id
         if base.exists():
             shutil.rmtree(base)
+        self.build_questlines()
         records = {
             "quest": {i: self.build_quest(i) for i in self.quests},
             "npc": {i: self.build_npc(i) for i in self.npcs},
@@ -670,11 +674,82 @@ class Flavor:
             "item": [[i, r["name"], r.get("quality")] for i, r in sorted(records["item"].items())],
         })
         self.build_zone_givers(base, records["quest"])
+        write_json(base / "questlines.json", self.questlines)
         sorts = {str(k): v for k, v in C.QUEST_SORTS.items()}
         write_json(base / "zones.json", {"zones": {str(k): v for k, v in self.zones.items()}, "sorts": sorts})
 
         self.build_l10n(base, records)
         return {kind: len(recs) for kind, recs in records.items()}
+
+    def build_questlines(self):
+        """Groups quests connected by prerequisites, follow-ups and breadcrumbs.
+
+        Each questline is a connected component of that graph (at least two quests) with its
+        directed edges [from, to, kind]: "pre" (from must be done first) or "breadcrumb"
+        (from leads to to). Exclusive alternatives are kept as "exclusive" pairs.
+        """
+        edges = {}
+        neighbours = defaultdict(set)
+
+        def link(a, b, kind):
+            if a == b or a not in self.quests or b not in self.quests:
+                return
+            if (a, b) not in edges or kind == "pre":
+                edges[(a, b)] = kind
+            neighbours[a].add(b)
+            neighbours[b].add(a)
+
+        for qid, q in self.quests.items():
+            for pre in (q.get("preQuestSingle") or []) + (q.get("preQuestGroup") or []):
+                link(pre, qid, "pre")
+            if q.get("nextQuestInChain"):
+                link(qid, q["nextQuestInChain"], "pre")
+            for crumb in q.get("breadcrumbs") or []:
+                link(crumb, qid, "breadcrumb")
+            if q.get("breadcrumbForQuestId"):
+                link(qid, q["breadcrumbForQuestId"], "breadcrumb")
+
+        self.questlines, self.questline_of = [], {}
+        seen = set()
+        for start in sorted(neighbours):
+            if start in seen:
+                continue
+            component, stack = [], [start]
+            seen.add(start)
+            while stack:
+                node = stack.pop()
+                component.append(node)
+                for other in neighbours[node]:
+                    if other not in seen:
+                        seen.add(other)
+                        stack.append(other)
+            members = set(component)
+            line_edges = sorted([a, b, k] for (a, b), k in edges.items() if a in members)
+            has_incoming = {b for _a, b, _k in line_edges}
+            roots = sorted((q for q in members if q not in has_incoming),
+                           key=lambda q: (self.quests[q].get("questLevel") or 0, q))
+            zones = defaultdict(int)
+            for q in members:
+                if self.quests[q].get("zoneOrSort"):
+                    zones[self.quests[q]["zoneOrSort"]] += 1
+            levels = [self.quests[q].get("questLevel") for q in members if self.quests[q].get("questLevel")]
+            sides = {side_of(self.quests[q].get("requiredRaces") or 0) for q in members}
+            exclusive = sorted({tuple(sorted((q, x))) for q in members
+                                for x in self.quests[q].get("exclusiveTo") or [] if x in members})
+            line = {
+                "id": min(members),
+                "root": roots[0] if roots else min(members),
+                "zone": max(zones, key=zones.get) if zones else 0,
+                "levels": [min(levels), max(levels)] if levels else None,
+                "side": sides.pop() if len(sides) == 1 else "B",
+                "quests": sorted(members),
+                "edges": line_edges,
+            }
+            if exclusive:
+                line["exclusive"] = [list(p) for p in exclusive]
+            self.questlines.append(line)
+            for q in members:
+                self.questline_of[q] = line
 
     def build_zone_givers(self, base, quests):
         """zone/<areaId>.json: quest givers standing in that zone, for the zone map."""

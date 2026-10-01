@@ -14,6 +14,7 @@
 		<a class="panel tile" href="#/{flavor}/quests"
 			><strong>{f.counts.quest.toLocaleString('en')}</strong> Quests</a
 		>
+		<a class="panel tile" href="#/{flavor}/questlines"><strong>Questlines</strong> Quest chains as a graph</a>
 		<a class="panel tile" href="#/{flavor}/zones"><strong>Zones</strong> Browse quests by zone</a>
 		<a class="panel tile" href="#/{flavor}/search/"
 			><strong>{f.counts.npc.toLocaleString('en')}</strong> NPCs ·

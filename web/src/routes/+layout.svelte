@@ -38,6 +38,7 @@
 		<a class="brand" href="#/{flavor}">Quest Database</a>
 		<nav>
 			<a href="#/{flavor}/quests">Quests</a>
+			<a href="#/{flavor}/questlines">Questlines</a>
 			<a href="#/{flavor}/zones">Zones</a>
 		</nav>
 		<form class="search" onsubmit={search} role="search">
