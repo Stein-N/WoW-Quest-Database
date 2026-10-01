@@ -149,11 +149,38 @@ jobs:
               --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
               --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
               --cache-from type=gha \
-              --tag "${IMAGE_NAME}:${{ steps.version.outputs.next }}" \
+              --tag "${{ steps.version.outputs.image }}:${{ steps.version.outputs.next }}" \
               --output "type=docker,dest=dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
             gzip -9 "dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
           done
           ls -lh dist
+
+      - name: Write docker-compose.yml for the release
+        if: steps.version.outputs.changed == 'true'
+        env:
+          VERSION: ${{ steps.version.outputs.next }}
+          IMAGE: ${{ steps.version.outputs.image }}
+        run: |
+          cat > dist/docker-compose.yml <<EOF
+          # WoW Quest Database ${VERSION}
+          #
+          # Start (or update to this version):  docker compose up -d
+          # The site is then served on http://<server>:8080 (change the left port to taste).
+          #
+          # The image comes from the GitHub container registry; log in once with a token that has
+          # read:packages:  echo <TOKEN> | docker login ghcr.io -u <github-user> --password-stdin
+          # Alternatively load the image file from this release first (no login needed):
+          #   gunzip -c ${IMAGE_NAME}-${VERSION}-amd64.tar.gz | docker load
+          services:
+            wow-quest-database:
+              image: ${IMAGE}:${VERSION}
+              container_name: wow-quest-database
+              ports:
+                - "8080:80"
+              restart: unless-stopped
+          EOF
+          docker compose -f dist/docker-compose.yml config --quiet
+          cat dist/docker-compose.yml
 
       - name: Publish GitHub release
         if: steps.version.outputs.changed == 'true'
@@ -182,22 +209,24 @@ jobs:
 
           ## Install
 
-          From the registry (log in once with a token that has \`read:packages\`):
+          With the attached \`docker-compose.yml\` (image \`${IMAGE}:${VERSION}\`, port 8080):
 
           \`\`\`sh
-          docker pull ${IMAGE}:${VERSION}
-          docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE}:${VERSION}
+          docker compose up -d
           \`\`\`
 
-          Or from the files below (\`amd64\` for PCs/servers, \`arm64\` for e.g. Raspberry Pi):
+          The image is pulled from the registry (log in once with a token that has \`read:packages\`).
+          Without registry access, load the image file first (\`amd64\` for PCs/servers, \`arm64\` for
+          e.g. Raspberry Pi), then run \`docker compose up -d\` as above:
 
           \`\`\`sh
           gunzip -c ${IMAGE_NAME}-${VERSION}-amd64.tar.gz | docker load
-          docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE_NAME}:${VERSION}
           \`\`\`
+
+          Without Compose: \`docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE}:${VERSION}\`
           EOF
 
-          gh release create "v${VERSION}" dist/*.tar.gz \
+          gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml \
             --target "$(git rev-parse HEAD)" \
             --title "v${VERSION}" \
             --notes-file notes.md

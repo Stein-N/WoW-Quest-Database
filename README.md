@@ -154,14 +154,16 @@ Der Workflow `.github/workflows/daily-release.yml` läuft jeden Tag um 00:00 Uhr
    (QuestieDB-Commit, VMangos-Snapshot) nach `data-version.json`; Änderungen werden nach `main` committet,
 2. baut nur bei neuen Daten (anderer QuestieDB-Commit oder VMangos-Snapshot als im letzten Release) das Image für `linux/amd64` und
    `linux/arm64`, pusht es nach `ghcr.io/stein-n/wow-quest-database:<version>` und `:latest`,
-3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen und den Images als
-   Dateien (`wow-quest-database-<version>-<arch>.tar.gz`).
+3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen, einer fertigen
+   `docker-compose.yml` (Image auf diese Version festgelegt, Port 8080) und den Images als Dateien
+   (`wow-quest-database-<version>-<arch>.tar.gz`).
 
 Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle (`0.1.1`, `0.1.2`, …).
 Tage ohne neue Daten erzeugen kein Release; reine Code-Änderungen erscheinen mit dem nächsten Daten-Release. Manuell starten: *Actions → Daily data release → Run workflow*
 (mit `force` auch ohne Änderung).
 
-Auf dem Homeserver aktualisieren:
+Auf dem Homeserver: `docker-compose.yml` aus dem Release herunterladen und `docker compose up -d`.
+Für ein Update die Datei des neuen Releases nehmen und den Befehl wiederholen. Ohne Compose:
 
 ```sh
 # einmalig: Token mit read:packages (das Repository ist privat)
@@ -171,7 +173,8 @@ docker rm -f wow-quest-database
 docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ghcr.io/stein-n/wow-quest-database:latest
 ```
 
-Oder die Image-Datei aus dem Release laden: `gunzip -c wow-quest-database-0.1.0-amd64.tar.gz | docker load`.
+Ohne Registry-Zugang die Image-Datei aus dem Release laden (`gunzip -c wow-quest-database-0.1.0-amd64.tar.gz | docker load`).
+Sie trägt denselben Namen wie in der Registry, die `docker-compose.yml` des Releases nutzt sie dann direkt.
 
 ## Lizenz
 
