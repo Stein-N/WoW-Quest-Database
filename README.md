@@ -158,6 +158,14 @@ Der Workflow `.github/workflows/daily-release.yml` läuft jeden Tag um 00:00 Uhr
    `docker-compose.yml` (Image auf diese Version festgelegt, Port 8080) und den Images als Dateien
    (`wow-quest-database-<version>-<arch>.tar.gz`).
 
+**Docker Hub (optional):** Unter *Settings → Secrets and variables → Actions* die Secrets
+`DOCKERHUB_USERNAME` und `DOCKERHUB_TOKEN` (Access Token mit Read & Write) anlegen, optional die Variable
+`DOCKERHUB_REPOSITORY` (Standard `<username>/wow-quest-database`). Das Repository vorher auf Docker Hub
+**als privat anlegen**: Der Workflow pusht nur in ein bestehendes privates Repository, weil das Image
+Blizzard-Kartenbilder enthält (ein fehlendes Repository würde Docker Hub sonst beim Push automatisch, oft
+öffentlich, anlegen). Passt etwas nicht, wird Docker Hub mit einer Fehlermeldung im Actions-Log
+übersprungen, GHCR und das Release laufen trotzdem.
+
 Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle (`0.1.1`, `0.1.2`, …).
 Tage ohne neue Daten erzeugen kein Release; reine Code-Änderungen erscheinen mit dem nächsten Daten-Release. Manuell starten: *Actions → Daily data release → Run workflow*
 (mit `force` auch ohne Änderung).

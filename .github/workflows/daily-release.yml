@@ -4,8 +4,15 @@
 #   1. pull QuestieDB's master branch into vendor/QuestieDB and record the data version
 #      (QuestieDB commit + latest VMangos snapshot) in data-version.json, commit to main
 #   2. only if the data changed since the last release (QuestieDB commit or VMangos snapshot),
-#      build the Docker image for linux/amd64 and linux/arm64, push it to GHCR and publish a
-#      GitHub release (code changes alone do not release; they ship with the next data update)
+#      build the Docker image for linux/amd64 and linux/arm64, push it to GHCR (and Docker Hub,
+#      see below) and publish a GitHub release (code changes alone do not release; they ship
+#      with the next data update)
+#
+# Docker Hub (optional): set the repository secrets DOCKERHUB_USERNAME and DOCKERHUB_TOKEN
+# (access token with read/write) and optionally the variable DOCKERHUB_REPOSITORY
+# (default <username>/wow-quest-database). The target repository must already exist and be
+# PRIVATE - the image contains Blizzard map art. Otherwise Docker Hub is skipped with an error
+# annotation (set the variable DOCKERHUB_ALLOW_PUBLIC=true to allow a public repository).
 #
 # Versions: the first release is 0.1.0, every following one increases the last part
 # (0.1.1, 0.1.2, ...). Runs without new data are skipped; "Run workflow" with force=true
@@ -120,6 +127,57 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Docker Hub target (optional, private repositories only)
+        if: steps.version.outputs.changed == 'true'
+        id: dockerhub
+        env:
+          DH_USER: ${{ secrets.DOCKERHUB_USERNAME }}
+          DH_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+          DH_REPO: ${{ vars.DOCKERHUB_REPOSITORY }}
+          DH_ALLOW_PUBLIC: ${{ vars.DOCKERHUB_ALLOW_PUBLIC }}
+        run: |
+          echo "enabled=false" >> "$GITHUB_OUTPUT"
+          if [ -z "$DH_USER" ] || [ -z "$DH_TOKEN" ]; then
+            echo "Docker Hub: secrets not set, skipping."
+            exit 0
+          fi
+          repo="${DH_REPO:-${DH_USER}/${IMAGE_NAME}}"
+          repo="${repo,,}"
+
+          # Docker Hub creates a missing repository on push with the account's default privacy,
+          # which is often public. Only push into an existing private repository.
+          jwt=$(curl -sS -H 'Content-Type: application/json' \
+            -d "$(jq -n --arg u "$DH_USER" --arg p "$DH_TOKEN" '{username: $u, password: $p}')" \
+            https://hub.docker.com/v2/users/login | jq -r '.token // empty')
+          if [ -z "$jwt" ]; then
+            echo "::error::Docker Hub login failed - check DOCKERHUB_USERNAME / DOCKERHUB_TOKEN. Skipping Docker Hub."
+            exit 0
+          fi
+          code=$(curl -sS -o repo.json -w '%{http_code}' -H "Authorization: Bearer ${jwt}" \
+            "https://hub.docker.com/v2/repositories/${repo}/")
+          if [ "$code" = 404 ]; then
+            echo "::error::Docker Hub repository ${repo} does not exist. Create it as a private repository first. Skipping Docker Hub."
+            exit 0
+          elif [ "$code" != 200 ]; then
+            echo "::error::Docker Hub API returned HTTP ${code} for ${repo}. Skipping Docker Hub."
+            exit 0
+          fi
+          if [ "$(jq -r '.is_private' repo.json)" != true ] && [ "$DH_ALLOW_PUBLIC" != true ]; then
+            echo "::error::Docker Hub repository ${repo} is public, but the image contains Blizzard map art. Make it private (or set DOCKERHUB_ALLOW_PUBLIC=true). Skipping Docker Hub."
+            exit 0
+          fi
+          echo "Docker Hub: pushing to ${repo} (private: $(jq -r '.is_private' repo.json))"
+          {
+            echo "enabled=true"
+            echo "repo=docker.io/${repo}"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: docker/login-action@v3
+        if: steps.dockerhub.outputs.enabled == 'true'
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
       - name: Build and push image (amd64 + arm64)
         if: steps.version.outputs.changed == 'true'
         uses: docker/build-push-action@v6
@@ -130,9 +188,12 @@ jobs:
           build-args: |
             QUESTIE_REV=${{ steps.data.outputs.questie_rev }}
             VMANGOS_SNAPSHOT=${{ steps.data.outputs.vmangos }}
+          # empty lines (Docker Hub disabled) are ignored
           tags: |
             ${{ steps.version.outputs.image }}:${{ steps.version.outputs.next }}
             ${{ steps.version.outputs.image }}:latest
+            ${{ steps.dockerhub.outputs.enabled == 'true' && format('{0}:{1}', steps.dockerhub.outputs.repo, steps.version.outputs.next) || '' }}
+            ${{ steps.dockerhub.outputs.enabled == 'true' && format('{0}:latest', steps.dockerhub.outputs.repo) || '' }}
           labels: |
             org.opencontainers.image.version=${{ steps.version.outputs.next }}
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
@@ -189,7 +250,12 @@ jobs:
           VERSION: ${{ steps.version.outputs.next }}
           LAST: ${{ steps.version.outputs.last }}
           IMAGE: ${{ steps.version.outputs.image }}
+          DOCKERHUB_REPO: ${{ steps.dockerhub.outputs.repo }}
         run: |
+          dockerhub=""
+          if [ -n "$DOCKERHUB_REPO" ]; then
+            dockerhub="Also on Docker Hub (private): \`docker pull ${DOCKERHUB_REPO#docker.io/}:${VERSION}\`"
+          fi
           questie=$(python3 -c "import json; q=json.load(open('data-version.json'))['questie']; print(f\"[{q['commit'][:7]}](https://github.com/Questie/QuestieDB/commit/{q['commit']}) ({q['date']}) {q['subject']}\")")
           vmangos=$(python3 -c "import json; v=json.load(open('data-version.json'))['vmangos']; print(f\"{v['snapshot']} ({v['published']})\")")
           if [ -n "$LAST" ]; then
@@ -224,6 +290,8 @@ jobs:
           \`\`\`
 
           Without Compose: \`docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE}:${VERSION}\`
+
+          ${dockerhub}
           EOF
 
           gh release create "v${VERSION}" dist/*.tar.gz dist/docker-compose.yml \
