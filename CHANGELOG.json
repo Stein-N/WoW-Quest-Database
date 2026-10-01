@@ -5,7 +5,8 @@
       "Every field on the Lua export page has an ⓘ explaining what it contains and how it appears in the Lua file.",
       "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen.",
       "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB.",
-      "Italian is now in the language menu; its quest texts come from Wowhead and appear as they are imported."
+      "Italian is now in the language menu; its quest texts come from Wowhead and appear as they are imported.",
+      "The database is also online at data.morthen.net, updated after every data release."
     ],
     "data": [
       "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source."

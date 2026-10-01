@@ -58,6 +58,12 @@ FROM scratch AS report
 COPY --from=data /src/web/static/data/uimap-report.json /
 COPY --from=data /src/build/data-digest.json /
 
+# ---------------------------------------------------------------- pages (CI only)
+# `docker buildx build --target pages --output type=local,dest=...` exports the finished static
+# site for GitHub Pages (.github/workflows/pages.yml), built exactly like the image.
+FROM scratch AS pages
+COPY --from=site /src/web/build /
+
 # ---------------------------------------------------------------- 3. serve
 FROM nginx:1.27-alpine
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
