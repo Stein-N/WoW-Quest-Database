@@ -1,0 +1,11 @@
+{
+  "questie": {
+    "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
+    "date": "2026-09-29",
+    "subject": "[feature] Add Forever base data"
+  },
+  "vmangos": {
+    "snapshot": "db-sqlite-4641790",
+    "published": "2026-09-28"
+  }
+}

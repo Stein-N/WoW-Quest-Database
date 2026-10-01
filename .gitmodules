@@ -1,3 +1,4 @@
 [submodule "vendor/QuestieDB"]
 	path = vendor/QuestieDB
 	url = https://github.com/Questie/QuestieDB
+	branch = master

@@ -146,6 +146,33 @@ QUESTIE_REV="$(git -C vendor/QuestieDB log -1 --format='%h %cs')" docker compose
 Den VMangos-Snapshot cached Docker. Einen neueren Snapshot holt
 `docker build --no-cache -t wow-quest-database .`.
 
+### Tägliche Releases
+
+Der Workflow `.github/workflows/daily-release.yml` läuft jeden Tag um 00:00 Uhr (Europe/Berlin):
+
+1. zieht den aktuellen `master` von QuestieDB ins Submodule und schreibt den Datenstand
+   (QuestieDB-Commit, VMangos-Snapshot) nach `data-version.json`; Änderungen werden nach `main` committet,
+2. baut bei Änderungen (Daten oder Code seit dem letzten Release) das Image für `linux/amd64` und
+   `linux/arm64`, pusht es nach `ghcr.io/stein-n/wow-quest-database:<version>` und `:latest`,
+3. veröffentlicht ein GitHub-Release `v<version>` mit Datenstand, Änderungen und den Images als
+   Dateien (`wow-quest-database-<version>-<arch>.tar.gz`).
+
+Versionen beginnen bei `0.1.0`; jedes weitere Release erhöht die letzte Stelle (`0.1.1`, `0.1.2`, …).
+Tage ohne Änderung erzeugen kein Release. Manuell starten: *Actions → Daily data release → Run workflow*
+(mit `force` auch ohne Änderung).
+
+Auf dem Homeserver aktualisieren:
+
+```sh
+# einmalig: Token mit read:packages (das Repository ist privat)
+echo <TOKEN> | docker login ghcr.io -u Stein-N --password-stdin
+docker pull ghcr.io/stein-n/wow-quest-database:latest
+docker rm -f wow-quest-database
+docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ghcr.io/stein-n/wow-quest-database:latest
+```
+
+Oder die Image-Datei aus dem Release laden: `gunzip -c wow-quest-database-0.1.0-amd64.tar.gz | docker load`.
+
 ## Lizenz
 
 GPL-3.0 (siehe `LICENSE`). QuestieDB steht unter GPL-3.0, VMangos unter GPL-2.0.

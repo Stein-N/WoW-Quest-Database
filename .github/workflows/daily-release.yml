@@ -1,0 +1,201 @@
+# Daily data update and release.
+#
+# Every day at 00:00 Europe/Berlin:
+#   1. pull QuestieDB's master branch into vendor/QuestieDB and record the data version
+#      (QuestieDB commit + latest VMangos snapshot) in data-version.json, commit to main
+#   2. if anything changed since the last release (data or code), build the Docker image
+#      for linux/amd64 and linux/arm64, push it to GHCR and publish a GitHub release
+#
+# Versions: the first release is 0.1.0, every following one increases the last part
+# (0.1.1, 0.1.2, ...). Runs without changes are skipped; "Run workflow" with force=true
+# releases anyway.
+
+name: Daily data release
+
+on:
+  schedule:
+    # GitHub cron is UTC: 22:00 UTC = 00:00 CEST (summer), 23:00 UTC = 00:00 CET (winter).
+    # Both run; the "midnight in Berlin" check below lets exactly one of them continue.
+    - cron: '0 22 * * *'
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Release even if nothing changed
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: daily-release
+  cancel-in-progress: false
+
+env:
+  IMAGE_NAME: wow-quest-database
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Only at midnight in Berlin
+        id: gate
+        run: |
+          hour=$(TZ=Europe/Berlin date +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$hour" != "00" ]; then
+            echo "It is ${hour}:xx in Berlin - the other scheduled run handles today."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          ref: main
+          fetch-depth: 0
+          submodules: true
+
+      - name: Pull QuestieDB master and record data version
+        if: steps.gate.outputs.run == 'true'
+        id: data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git submodule update --remote vendor/QuestieDB
+          python3 etl/data_version.py data-version.json
+
+          questie_short=$(git -C vendor/QuestieDB log -1 --format='%h')
+          questie_date=$(git -C vendor/QuestieDB log -1 --format='%cs')
+          snapshot=$(python3 -c "import json; print(json.load(open('data-version.json'))['vmangos']['snapshot'])")
+          {
+            echo "questie_rev=${questie_short} ${questie_date}"
+            echo "questie_short=${questie_short}"
+            echo "vmangos=${snapshot}"
+          } >> "$GITHUB_OUTPUT"
+
+          git add vendor/QuestieDB data-version.json
+          if git diff --cached --quiet; then
+            echo "Data unchanged."
+          else
+            git commit -m "Update data: QuestieDB ${questie_short} (${questie_date}), VMangos ${snapshot}"
+            git push origin HEAD:main
+          fi
+
+      - name: Next version
+        if: steps.gate.outputs.run == 'true'
+        id: version
+        run: |
+          last=$(git tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1)
+          if [ -z "$last" ]; then
+            next=0.1.0
+            changed=true
+          else
+            IFS=. read -r major minor patch <<< "${last#v}"
+            next="${major}.${minor}.$((patch + 1))"
+            if [ "$(git rev-list --count "${last}..HEAD")" -gt 0 ]; then changed=true; else changed=false; fi
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then changed=true; fi
+          echo "Last release: ${last:-none}, next: ${next}, changed: ${changed}"
+          {
+            echo "last=${last}"
+            echo "next=${next}"
+            echo "changed=${changed}"
+            echo "image=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/${IMAGE_NAME}"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: docker/setup-buildx-action@v3
+        if: steps.version.outputs.changed == 'true'
+
+      - uses: docker/login-action@v3
+        if: steps.version.outputs.changed == 'true'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push image (amd64 + arm64)
+        if: steps.version.outputs.changed == 'true'
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          build-args: |
+            QUESTIE_REV=${{ steps.data.outputs.questie_rev }}
+            VMANGOS_SNAPSHOT=${{ steps.data.outputs.vmangos }}
+          tags: |
+            ${{ steps.version.outputs.image }}:${{ steps.version.outputs.next }}
+            ${{ steps.version.outputs.image }}:latest
+          labels: |
+            org.opencontainers.image.version=${{ steps.version.outputs.next }}
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Export image files for the release
+        if: steps.version.outputs.changed == 'true'
+        run: |
+          mkdir -p dist
+          for arch in amd64 arm64; do
+            docker buildx build . \
+              --platform "linux/${arch}" \
+              --build-arg QUESTIE_REV="${{ steps.data.outputs.questie_rev }}" \
+              --build-arg VMANGOS_SNAPSHOT="${{ steps.data.outputs.vmangos }}" \
+              --cache-from type=gha \
+              --tag "${IMAGE_NAME}:${{ steps.version.outputs.next }}" \
+              --output "type=docker,dest=dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
+            gzip -9 "dist/${IMAGE_NAME}-${{ steps.version.outputs.next }}-${arch}.tar"
+          done
+          ls -lh dist
+
+      - name: Publish GitHub release
+        if: steps.version.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ steps.version.outputs.next }}
+          LAST: ${{ steps.version.outputs.last }}
+          IMAGE: ${{ steps.version.outputs.image }}
+        run: |
+          questie=$(python3 -c "import json; q=json.load(open('data-version.json'))['questie']; print(f\"[{q['commit'][:7]}](https://github.com/Questie/QuestieDB/commit/{q['commit']}) ({q['date']}) {q['subject']}\")")
+          vmangos=$(python3 -c "import json; v=json.load(open('data-version.json'))['vmangos']; print(f\"{v['snapshot']} ({v['published']})\")")
+          if [ -n "$LAST" ]; then
+            changes=$(git log --format='- %s' "${LAST}..HEAD")
+          else
+            changes="- First release"
+          fi
+          cat > notes.md <<EOF
+          ## Data
+
+          - QuestieDB: ${questie}
+          - VMangos: ${vmangos}
+
+          ## Changes
+
+          ${changes}
+
+          ## Install
+
+          From the registry (log in once with a token that has \`read:packages\`):
+
+          \`\`\`sh
+          docker pull ${IMAGE}:${VERSION}
+          docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE}:${VERSION}
+          \`\`\`
+
+          Or from the files below (\`amd64\` for PCs/servers, \`arm64\` for e.g. Raspberry Pi):
+
+          \`\`\`sh
+          gunzip -c ${IMAGE_NAME}-${VERSION}-amd64.tar.gz | docker load
+          docker run -d --name wow-quest-database -p 8080:80 --restart unless-stopped ${IMAGE_NAME}:${VERSION}
+          \`\`\`
+          EOF
+
+          gh release create "v${VERSION}" dist/*.tar.gz \
+            --target "$(git rev-parse HEAD)" \
+            --title "v${VERSION}" \
+            --notes-file notes.md

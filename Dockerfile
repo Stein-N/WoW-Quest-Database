@@ -8,20 +8,26 @@
 # Lua 5.1, the latest VMangos world DB snapshot is downloaded, both are merged. Map images
 # come from web/static/maps in the repository.
 
-# ---------------------------------------------------------------- 1. data
-FROM python:3.12-slim AS data
+# Stages 1 and 2 produce plain files (JSON, HTML, JS), so they always run on the build
+# machine's platform; only the final nginx stage is per target platform. Multi-arch builds
+# (linux/amd64 + linux/arm64) therefore need no emulation.
 
-# lua5.1 from Debian instead of QuestieDB's bundled x86-64 binary, so ARM hosts work too
+# ---------------------------------------------------------------- 1. data
+FROM --platform=$BUILDPLATFORM python:3.12-slim AS data
+
+# lua5.1 from Debian instead of QuestieDB's bundled x86-64 binary, so ARM build hosts work too
 RUN apt-get update \
  && apt-get install -y --no-install-recommends lua5.1 make ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /src
 
-# VMangos snapshot first: this layer stays cached until the fetch script changes.
-# Use `docker build --no-cache-filter vmangos` (or --no-cache) to pull a newer snapshot.
+# VMangos snapshot first: this layer stays cached until the fetch script or VMANGOS_SNAPSHOT
+# changes. Pass the current snapshot name (see data-version.json) to refresh it, or build with
+# --no-cache.
+ARG VMANGOS_SNAPSHOT=latest
 COPY etl/fetch_vmangos.py etl/fetch_vmangos.py
-RUN python3 etl/fetch_vmangos.py vendor/vmangos
+RUN echo "VMangos snapshot: ${VMANGOS_SNAPSHOT}" && python3 etl/fetch_vmangos.py vendor/vmangos
 
 COPY Makefile QuestRewards.lua ./
 COPY etl etl
@@ -35,7 +41,7 @@ ENV QUESTIE_REV=${QUESTIE_REV}
 RUN make questie LUA=lua5.1 && make site-data
 
 # ---------------------------------------------------------------- 2. site
-FROM node:24-alpine AS site
+FROM --platform=$BUILDPLATFORM node:24-alpine AS site
 WORKDIR /src/web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci
