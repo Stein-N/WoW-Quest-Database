@@ -1,13 +1,44 @@
 {
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
-    "website": [
-      "The docker-compose.yml of each release pulls the image from Docker Hub (derskunky/wow-quest-database); the image files attached to the release carry the same name.",
-      "The Lua export page separates data fields from localization fields, each with All/None, so you can export only the data file or only the language files."
-    ],
+    "website": [],
     "data": []
   },
   "versions": [
+    {
+      "version": "0.1.3",
+      "date": "2026-10-01",
+      "data": {
+        "questie": {
+          "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
+          "date": "2026-09-29",
+          "subject": "[feature] Add Forever base data"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      },
+      "website": [
+        "The docker-compose.yml of each release pulls the image from Docker Hub (derskunky/wow-quest-database); the image files attached to the release carry the same name.",
+        "The Lua export page separates data fields from localization fields, each with All/None, so you can export only the data file or only the language files.",
+        "The export page is now grouped into Selection, Data file and Localization files, starts with everything ticked, disables export when nothing is selected, and keeps both field choices in the page link."
+      ],
+      "dataNotes": [],
+      "dataChanges": {
+        "classic": [
+          "No changes to quests, NPCs, objects or items."
+        ],
+        "forever": [
+          "No changes to quests, NPCs, objects or items."
+        ]
+      },
+      "commits": [
+        "Point the release docker-compose.yml at the Docker Hub image",
+        "Let Claude Code draft missing patch notes in the release workflow",
+        "Separate data and localization fields on the export page"
+      ]
+    },
     {
       "version": "0.1.2",
       "date": "2026-10-01",
