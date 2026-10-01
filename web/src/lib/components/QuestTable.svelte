@@ -1,21 +1,46 @@
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import { site } from '$lib/context.svelte';
 	import { CLASS_BITS, fold, SIDE_LABELS } from '$lib/format';
 	import type { QuestIndexRow } from '$lib/types';
+	import { param, syncUrl, urlParams } from '$lib/url-state';
 
 	let { rows, showZone = true, pageSize = 100 }: { rows: QuestIndexRow[]; showZone?: boolean; pageSize?: number } =
 		$props();
 
-	let text = $state('');
-	let side = $state('');
-	let cls = $state(0);
-	let minLevel = $state<number | null>(null);
-	let maxLevel = $state<number | null>(null);
-	let kind = $state('');
-	let zone = $state('');
-	let sortKey = $state<'id' | 'name' | 'level' | 'req' | 'zone'>('level');
-	let sortDir = $state(1);
-	let pageIndex = $state(0);
+	type SortKey = 'id' | 'name' | 'level' | 'req' | 'zone';
+	const SORT_KEYS: SortKey[] = ['id', 'name', 'level', 'req', 'zone'];
+
+	// Initial filters come from the URL (#/…/quests?side=A&min=10&page=2).
+	const p = urlParams();
+	let text = $state(param.str(p, 'q'));
+	let side = $state(param.str(p, 'side'));
+	let cls = $state(param.num(p, 'class', 0)!);
+	let minLevel = $state<number | null>(param.num(p, 'min'));
+	let maxLevel = $state<number | null>(param.num(p, 'max'));
+	let kind = $state(param.str(p, 'type'));
+	let zone = $state(param.str(p, 'zone'));
+	let sortKey = $state<SortKey>(SORT_KEYS.find((k) => k === p.get('sort')) ?? 'level');
+	let sortDir = $state(p.get('dir') === 'desc' ? -1 : 1);
+	let pageIndex = $state(Math.max(0, (param.num(p, 'page', 1) ?? 1) - 1));
+
+	$effect(() => {
+		syncUrl(
+			{
+				q: text.trim(),
+				zone,
+				side,
+				class: cls,
+				type: kind,
+				min: minLevel,
+				max: maxLevel,
+				sort: sortKey,
+				dir: sortDir < 0 ? 'desc' : '',
+				page: pageIndex + 1
+			},
+			{ sort: 'level', class: 0, page: 1 }
+		);
+	});
 
 	const name = (r: QuestIndexRow) => site.names?.quest?.[r[0]] ?? r[1];
 
@@ -64,9 +89,18 @@
 	const pages = $derived(Math.max(1, Math.ceil(filtered.length / pageSize)));
 	const shown = $derived(filtered.slice(pageIndex * pageSize, (pageIndex + 1) * pageSize));
 
+	// Back to page 1 when the filters change (but not on the first run, which may come from the URL).
+	let filterKey = untrack(() => JSON.stringify([text, side, cls, minLevel, maxLevel, kind, zone]));
 	$effect(() => {
-		void filtered;
-		pageIndex = 0;
+		const key = JSON.stringify([text, side, cls, minLevel, maxLevel, kind, zone]);
+		if (key !== filterKey) {
+			filterKey = key;
+			pageIndex = 0;
+		}
+	});
+	// Clamp a page number from the URL that no longer exists.
+	$effect(() => {
+		if (pageIndex > 0 && pageIndex >= pages) pageIndex = pages - 1;
 	});
 
 	function sortBy(key: typeof sortKey) {

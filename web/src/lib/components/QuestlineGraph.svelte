@@ -4,6 +4,7 @@
 	import { CLASS_BITS } from '$lib/format';
 	import { layoutQuestline, NODE_H, NODE_W } from '$lib/questline-layout';
 	import type { QuestIndexRow, Questline } from '$lib/types';
+	import { param, syncUrl, urlParams } from '$lib/url-state';
 
 	let {
 		line,
@@ -13,7 +14,13 @@
 
 	// Show one faction's view by default when the line mixes both.
 	const highlightSide = $derived(highlight ? rows.get(highlight)?.[4] : undefined);
-	let sideChoice = $state<'' | 'A' | 'H' | null>(null);
+	// Explicit choices are kept in the URL (?side=both|A|H&class=<bit>, class=0 = all classes);
+	// without them the faction and class of the highlighted quest are preselected.
+	const p = urlParams();
+	const urlSide = p.get('side');
+	let sideChoice = $state<'' | 'A' | 'H' | null>(
+		urlSide === 'both' ? '' : urlSide === 'A' || urlSide === 'H' ? urlSide : null
+	);
 	const side = $derived(sideChoice ?? (highlightSide === 'A' || highlightSide === 'H' ? highlightSide : ''));
 	const mixed = $derived(line.quests.some((q) => rows.get(q)?.[4] === 'A') && line.quests.some((q) => rows.get(q)?.[4] === 'H'));
 
@@ -24,7 +31,13 @@
 		const match = CLASS_BITS.filter(([bit]) => mask & bit);
 		return match.length === 1 ? match[0][0] : 0;
 	});
-	let classChoice = $state<number | null>(null);
+	let classChoice = $state<number | null>(param.num(p, 'class'));
+	$effect(() => {
+		syncUrl({
+			side: sideChoice === null ? null : sideChoice || 'both',
+			class: classChoice === null ? null : String(classChoice)
+		});
+	});
 	const cls = $derived(classChoice ?? highlightClass);
 
 	const visible = $derived(

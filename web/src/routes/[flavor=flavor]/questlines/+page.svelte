@@ -5,12 +5,17 @@
 	import { fold } from '$lib/format';
 	import { progress } from '$lib/progress.svelte';
 	import type { QuestIndexRow, Questline } from '$lib/types';
+	import { param, syncUrl, urlParams } from '$lib/url-state';
 
 	const flavor = $derived(page.params.flavor!);
 
-	let text = $state('');
-	let side = $state('');
-	let minSize = $state(3);
+	const p = urlParams();
+	let text = $state(param.str(p, 'q'));
+	let side = $state(param.str(p, 'side'));
+	let minSize = $state(param.num(p, 'min', 3)!);
+	$effect(() => {
+		syncUrl({ q: text.trim(), side, min: minSize }, { min: 3 });
+	});
 
 	async function load(flavor: string) {
 		const [lines, index] = await Promise.all([getQuestlines(flavor), getQuestIndex(flavor)]);

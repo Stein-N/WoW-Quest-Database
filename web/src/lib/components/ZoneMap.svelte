@@ -34,6 +34,7 @@
 	import { onMount } from 'svelte';
 	import { site } from '$lib/context.svelte';
 	import { settings } from '$lib/settings.svelte';
+	import { param, syncUrl, urlParams } from '$lib/url-state';
 	import type * as Leaflet from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
 
@@ -127,7 +128,11 @@
 		);
 	});
 
-	let selected = $state<number | null>(null);
+	// The chosen map tab is kept in the URL (?map=<uiMapId>), so coming back shows the same map.
+	let selected = $state<number | null>(param.num(urlParams(), 'map'));
+	$effect(() => {
+		syncUrl({ map: selected });
+	});
 	let hidden = $state<Record<number, boolean>>({});
 	const current = $derived(groups.find((g) => g.uiMapId === selected) ?? groups[0]);
 

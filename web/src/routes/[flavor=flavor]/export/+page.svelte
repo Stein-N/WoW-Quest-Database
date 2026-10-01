@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import { page } from '$app/state';
 	import { site } from '$lib/context.svelte';
 	import { getQuestIndex } from '$lib/data';
@@ -6,6 +7,7 @@
 	import { exportLua, FIELDS, parseIds, TEXT_FIELDS, textVarFor, type ExportFile, type ExportType } from '$lib/lua-export';
 	import { LOCALES, settings } from '$lib/settings.svelte';
 	import { createZip } from '$lib/zip';
+	import { param, syncUrl, urlParams } from '$lib/url-state';
 
 	const flavor = $derived(page.params.flavor!);
 
@@ -17,15 +19,21 @@
 		['questline', 'Questlines']
 	];
 
-	let type = $state<ExportType>('quest');
-	let selected = $state<Record<string, boolean>>({});
-	let ids = $state('');
-	let zone = $state('');
-	let locale = $state(settings.locale);
-	let refs = $state<'id' | 'full'>('id');
-	let style = $state<'addon' | 'return'>('addon');
-	let varName = $state('questData');
-	let varTouched = $state(false);
+	// Options are kept in the URL, e.g. #/forever/export?type=item&fields=name,quality&locale=all
+	const p = urlParams();
+	const urlType = TYPES.find(([id]) => id === p.get('type'))?.[0];
+	let type = $state<ExportType>(urlType ?? 'quest');
+	let selected = $state<Record<string, boolean>>(
+		Object.fromEntries(param.list(p, 'fields').filter((f) => FIELDS[urlType ?? 'quest'].includes(f)).map((f) => [f, true]))
+	);
+	let ids = $state(param.str(p, 'ids'));
+	let zone = $state(param.str(p, 'zone'));
+	const urlLocale = p.get('locale');
+	let locale = $state(urlLocale && (urlLocale === 'all' || urlLocale in LOCALES) ? urlLocale : settings.locale);
+	let refs = $state<'id' | 'full'>(p.get('refs') === 'full' ? 'full' : 'id');
+	let style = $state<'addon' | 'return'>(p.get('style') === 'return' ? 'return' : 'addon');
+	let varName = $state(param.str(p, 'var', `${urlType ?? 'quest'}Data`));
+	let varTouched = $state(p.has('var'));
 
 	let running = $state(false);
 	let progress = $state<[number, number]>([0, 0]);
@@ -48,10 +56,28 @@
 	$effect(() => {
 		if (!varTouched) varName = `${type}Data`;
 	});
+	let lastType = untrack(() => type);
 	$effect(() => {
-		void type;
-		selected = {};
-		files = null;
+		if (type !== lastType) {
+			lastType = type;
+			selected = {};
+			files = null;
+		}
+	});
+	$effect(() => {
+		syncUrl(
+			{
+				type,
+				fields: chosen.join(','),
+				ids: ids.trim(),
+				zone,
+				locale,
+				refs,
+				style,
+				var: varTouched ? varName : null
+			},
+			{ type: 'quest', refs: 'id', style: 'addon' }
+		);
 	});
 
 	async function zoneOptions(flavor: string) {
