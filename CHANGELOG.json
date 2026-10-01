@@ -3,7 +3,8 @@
   "unreleased": {
     "website": [
       "Every field on the Lua export page has an ⓘ explaining what it contains and how it appears in the Lua file.",
-      "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen."
+      "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen.",
+      "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB."
     ],
     "data": []
   },

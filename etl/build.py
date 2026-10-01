@@ -502,8 +502,8 @@ class Flavor:
             "zone": self.zone_ref(q.get("zoneOrSort")),
             "uiMapId": self.area_ui_map(q["zoneOrSort"]) if (q.get("zoneOrSort") or 0) > 0 else None,
             "objectivesText": q.get("objectivesText"),
-            "starters": givers("startedBy"),
-            "enders": givers("finishedBy"),
+            "startedBy": givers("startedBy"),
+            "finishedBy": givers("finishedBy"),
         }
         if q.get("requiredMaxLevel"):
             r["maxLevel"] = q["requiredMaxLevel"]
@@ -804,7 +804,7 @@ class Flavor:
     # site data (new helper fields, reordering) must not show up as "updated".
     DIGEST_FIELDS = {
         "quest": ("name", "level", "reqLevel", "maxLevel", "side", "races", "classes", "zone", "objectivesText",
-                  "details", "progress", "completion", "endText", "starters", "enders", "objectives",
+                  "details", "progress", "completion", "endText", "startedBy", "finishedBy", "objectives",
                   "providedItem", "requiredItems", "chain", "requirements", "rewards"),
         "npc": ("name", "subName", "minLevel", "maxLevel", "rank", "react", "faction", "roles", "spawns",
                 "starts", "ends", "sells", "loot"),
@@ -812,6 +812,9 @@ class Flavor:
         "item": ("name", "quality", "itemLevel", "reqLevel", "class", "subClass", "slot", "stats", "damage",
                  "armor", "spells", "droppedBy", "vendors", "rewardFrom", "startsQuest"),
     }
+
+    # site field -> key it was hashed under before a rename (keeps fingerprints comparable)
+    DIGEST_KEYS = {"startedBy": "starters", "finishedBy": "enders"}
 
     @staticmethod
     def _ids_only(value):
@@ -835,7 +838,8 @@ class Flavor:
             fields = self.DIGEST_FIELDS[kind]
             entries = {}
             for entity_id, rec in recs.items():
-                content = {f: self._ids_only(rec[f]) for f in fields if rec.get(f) is not None}
+                # hashed under stable keys, so renaming a site field doesn't mark everything "updated"
+                content = {self.DIGEST_KEYS.get(f, f): self._ids_only(rec[f]) for f in fields if rec.get(f) is not None}
                 h = hashlib.sha1(json.dumps(content, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:10]
                 entries[str(entity_id)] = [rec.get("name") or "", h]
             out[kind] = entries
@@ -927,7 +931,7 @@ class Flavor:
         """zone/<areaId>.json: quest givers standing in that zone, for the zone map."""
         givers = defaultdict(dict)  # area -> "kind:id" -> entry
         for qid, quest in quests.items():
-            for ref in quest["starters"]:
+            for ref in quest["startedBy"]:
                 if ref["t"] == "item":
                     continue
                 key = f"{ref['t']}:{ref['id']}"

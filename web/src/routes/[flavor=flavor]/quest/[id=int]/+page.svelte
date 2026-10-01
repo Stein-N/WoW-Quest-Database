@@ -65,8 +65,8 @@
 			}
 			out.push(layer);
 		});
-		out.push({ label: 'Quest giver', color: '#ffd100', glyph: '!', entries: entries(q.starters) });
-		out.push({ label: 'Turn in', color: '#ffd100', glyph: '?', entries: entries(q.enders) });
+		out.push({ label: 'Quest giver', color: '#ffd100', glyph: '!', entries: entries(q.startedBy) });
+		out.push({ label: 'Turn in', color: '#ffd100', glyph: '?', entries: entries(q.finishedBy) });
 		return out;
 	});
 
@@ -221,13 +221,13 @@
 					<dt>Side</dt><dd class="side-{q.side}">{SIDE_LABELS[q.side]}</dd>
 					{#if q.races}<dt>Races</dt><dd>{q.races.join(', ')}</dd>{/if}
 					{#if q.classes}<dt>Classes</dt><dd>{q.classes.join(', ')}</dd>{/if}
-					{#if q.starters.length}
+					{#if q.startedBy.length}
 						<dt>Start</dt>
-						<dd>{#each q.starters as s (`${s.t}:${s.id}`)}<div><EntityLink ref={s} /></div>{/each}</dd>
+						<dd>{#each q.startedBy as s (`${s.t}:${s.id}`)}<div><EntityLink ref={s} /></div>{/each}</dd>
 					{/if}
-					{#if q.enders.length}
+					{#if q.finishedBy.length}
 						<dt>End</dt>
-						<dd>{#each q.enders as s (`${s.t}:${s.id}`)}<div><EntityLink ref={s} /></div>{/each}</dd>
+						<dd>{#each q.finishedBy as s (`${s.t}:${s.id}`)}<div><EntityLink ref={s} /></div>{/each}</dd>
 					{/if}
 					{#if q.suggestedPlayers}<dt>Group size</dt><dd>{q.suggestedPlayers}</dd>{/if}
 					{#if q.timeLimit}<dt>Time limit</dt><dd>{duration(q.timeLimit)}</dd>{/if}

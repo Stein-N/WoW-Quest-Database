@@ -75,8 +75,10 @@ export interface Quest {
 	progress?: string;
 	completion?: string;
 	endText?: string;
-	starters: Ref[];
-	enders: Ref[];
+	/** who starts the quest (NPCs, objects, items) — QuestieDB's startedBy */
+	startedBy: Ref[];
+	/** who the quest is turned in to (NPCs, objects) — QuestieDB's finishedBy */
+	finishedBy: Ref[];
 	objectives: Objective[];
 	providedItem?: Ref;
 	requiredItems?: Ref[];

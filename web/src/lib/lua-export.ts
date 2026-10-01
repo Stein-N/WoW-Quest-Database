@@ -38,7 +38,7 @@ export const FIELDS: Record<ExportType, string[]> = {
 	quest: [
 		'name', 'level', 'reqLevel', 'maxLevel', 'side', 'races', 'classes', 'zone', 'uiMapId', 'type',
 		'suggestedPlayers', 'timeLimit', 'repeatable', 'objectivesText', 'details', 'progress',
-		'completion', 'endText', 'starters', 'enders', 'objectives', 'providedItem', 'requiredItems',
+		'completion', 'endText', 'startedBy', 'finishedBy', 'objectives', 'providedItem', 'requiredItems',
 		'chain', 'requirements', 'rewards', 'spawns', 'questline', 'sources'
 	],
 	npc: [
@@ -76,15 +76,15 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		progress: 'Text shown when talking to the quest ender before the objectives are complete.',
 		completion: 'Text shown when turning the quest in.',
 		endText: 'Quest log text once all objectives are done (e.g. "Return to …").',
-		starters: 'Who starts the quest: NPC, object or item IDs (choose "with type & name" to tell them apart).',
-		enders: 'Who the quest is turned in to: NPC or object IDs.',
+		startedBy: 'Who starts the quest (as in QuestieDB): NPC, object or item IDs (choose "with type & name" to tell them apart).',
+		finishedBy: 'Who the quest is turned in to (as in QuestieDB): NPC or object IDs.',
 		objectives: 'Objectives: list of { kind = kill/item/object/reputation/killcredit/spell/event/extra, target, count, text, sources = where items drop }.',
 		providedItem: 'Item ID the quest giver hands out when the quest is accepted (letters, tools …).',
 		requiredItems: 'Item IDs needed for the quest that are not counted objectives.',
 		chain: 'Quest chain: { prev, next, preSingle (one of), preGroup (all of), children, parent, groupWith, exclusive, breadcrumbs, breadcrumbFor } with quest IDs.',
 		requirements: 'Other requirements: { skill = { id, value }, minRep / maxRep = { id (faction), value }, spell, money (copper) }.',
 		rewards: 'Rewards: { type = "all" | "single", items, fixed, counts, xp, money, moneyMaxLevel (copper), spell, reputation = { { id, value } } }.',
-		spawns: 'Map positions of starters, enders and objective targets: { ["npc:123"] = { spawns = { [areaId] = { { x, y } } } } }, x/y in percent of the map.',
+		spawns: 'Map positions of the quest givers, turn-in targets and objective targets: { ["npc:123"] = { spawns = { [areaId] = { { x, y } } } } }, x/y in percent of the map.',
 		questline: 'The questline this quest belongs to: { id, size }.',
 		sources: 'Where the data comes from: "questie", "vmangos", "cache" (game client cache).'
 	},
