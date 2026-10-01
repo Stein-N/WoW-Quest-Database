@@ -72,7 +72,10 @@ def save_store(flavor, locale, store):
     path = store_path(flavor, locale)
     path.parent.mkdir(parents=True, exist_ok=True)
     store["quests"] = dict(sorted(store["quests"].items(), key=lambda kv: int(kv[0])))
-    path.write_text(json.dumps(store, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # write a temporary file and rename it, so Ctrl+C never leaves a half-written file behind
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(store, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    tmp.replace(path)
 
 
 # ---------------------------------------------------------------------------- quest list
