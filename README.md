@@ -46,6 +46,14 @@ addon.questData = {                       addon.questTexts = addon.questTexts or
 | Objekt | `name` |
 | Item | `name`, `description` |
 
+**Item-Belohnungen** haben dieselbe Form wie in `QuestRewards.lua`, direkt unter `rewards`:
+
+```lua
+rewards = { type = "all",    items = {4536}, ... }                         -- alle Items
+rewards = { type = "single", items = {2954, 2953, 1282}, fixed = {7344} }  -- eins wählen + feste Items
+rewards = { type = "all", items = {1017, 2701}, counts = { [1017] = 4 } }   -- Mengen > 1 in counts
+```
+
 Mehrere Sprachen lassen sich nebeneinander laden (`addon.questTexts.enUS`, `addon.questTexts.deDE`, …).
 Im Standardmodus (`--refs id`) enthält die Datendatei keine Anzeigetexte: Verweise auf Quests, NPCs,
 Items, Zonen und Fraktionen sind reine IDs.

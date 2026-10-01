@@ -133,6 +133,33 @@ function compactRefs(value: Json): Json {
 	return value;
 }
 
+/**
+ * rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
+ *   type = "all",    items = {...}                  every item is rewarded
+ *   type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
+ * With ID references, item lists are plain IDs and amounts above one go to counts[itemId].
+ */
+function questRewardsFormat(rewards: Rec, refs: 'id' | 'full'): Rec {
+	const groups = rewards.items as { kind: string; items: Rec[] }[] | undefined;
+	if (!groups?.length) return rewards;
+	const fixed = groups.find((g) => g.kind === 'fixed')?.items ?? [];
+	const choice = groups.find((g) => g.kind === 'choice')?.items ?? [];
+	const out: Rec = choice.length
+		? { type: 'single', items: choice as Json[], fixed: fixed as Json[] }
+		: { type: 'all', items: fixed as Json[] };
+	if (!fixed.length || !choice.length) delete out.fixed;
+	if (refs === 'id') {
+		const counts = Object.fromEntries(
+			[...choice, ...fixed].filter((r) => ((r.count as number) || 1) > 1).map((r) => [String(r.id), r.count])
+		);
+		out.items = (out.items as Rec[]).map((r) => r.id);
+		if (out.fixed) out.fixed = (out.fixed as Rec[]).map((r) => r.id);
+		if (Object.keys(counts).length) out.counts = counts;
+	}
+	const rest = Object.fromEntries(Object.entries(rewards).filter(([k]) => k !== 'items'));
+	return { ...out, ...rest };
+}
+
 // ------------------------------------------------------------------ Lua serialisation
 
 const IDENT = /^[A-Za-z_][A-Za-z0-9_]*$/;
@@ -254,7 +281,8 @@ export async function exportLua(
 	for (const [id, rec] of records) {
 		const kept = Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)));
 		const text = kept.filter(([k]) => textFields.includes(k));
-		const rest: Json = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
+		const rest: Rec = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
+		if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec, opts.refs);
 		data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
 		if (text.length) {
 			// field order as in TEXT_FIELDS, like the Python tool

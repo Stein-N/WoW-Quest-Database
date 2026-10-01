@@ -114,6 +114,34 @@ def compact_refs(value):
     return value
 
 
+def quest_rewards_format(rewards, refs):
+    """rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
+
+        type = "all",    items = {...}                  every item is rewarded
+        type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
+
+    With ID references, item lists are plain IDs and amounts above one go to counts[itemId].
+    """
+    groups = rewards.get("items")
+    if not groups:
+        return rewards
+    fixed = next((g["items"] for g in groups if g["kind"] == "fixed"), [])
+    choice = next((g["items"] for g in groups if g["kind"] == "choice"), [])
+    out = {"type": "single", "items": choice, "fixed": fixed} if choice else {"type": "all", "items": fixed}
+    if not out.get("fixed"):
+        out.pop("fixed", None)
+    if refs == "id":
+        # sorted by item ID, matching the browser export (JS orders integer keys numerically)
+        counts = {str(r["id"]): r["count"] for r in sorted(choice + fixed, key=lambda r: r["id"])
+                  if (r.get("count") or 1) > 1}
+        out["items"] = [r["id"] for r in out["items"]]
+        if "fixed" in out:
+            out["fixed"] = [r["id"] for r in out["fixed"]]
+        if counts:
+            out["counts"] = counts
+    return {**out, **{k: v for k, v in rewards.items() if k != "items"}}
+
+
 def parse_ids(spec):
     ids = set()
     for part in spec.split(","):
@@ -256,6 +284,8 @@ def main():
     for entity_id, rec in records.items():
         rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
         text = {k: rec.pop(k) for k in text_fields if k in rec}
+        if args.type == "quest" and rec.get("rewards"):
+            rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)
         data[entity_id] = compact_refs(rec) if args.refs == "id" else rec
         if text:
             texts[entity_id] = text
