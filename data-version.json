@@ -1,8 +1,8 @@
 {
   "questie": {
-    "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
-    "date": "2026-09-29",
-    "subject": "[feature] Add Forever base data"
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "date": "2026-10-01",
+    "subject": "Merge pull request #54 from Questie/forever-trace-corrections"
   },
   "vmangos": {
     "snapshot": "db-sqlite-4641790",
