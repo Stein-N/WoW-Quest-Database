@@ -19,13 +19,19 @@
 		['questline', 'Questlines']
 	];
 
-	// Options are kept in the URL, e.g. #/forever/export?type=item&fields=name,quality&locale=all
+	// Options are kept in the URL, e.g. #/forever/export?type=item&fields=quality,stats&l10n=none&locale=all
+	// (fields = data fields, l10n = localization fields; missing = all, "none" = none)
 	const p = urlParams();
 	const urlType = TYPES.find(([id]) => id === p.get('type'))?.[0];
 	let type = $state<ExportType>(urlType ?? 'quest');
-	let selected = $state<Record<string, boolean>>(
-		Object.fromEntries(param.list(p, 'fields').filter((f) => FIELDS[urlType ?? 'quest'].includes(f)).map((f) => [f, true]))
-	);
+
+	const dataFieldsOf = (t: ExportType) => FIELDS[t].filter((f) => !TEXT_FIELDS[t].includes(f));
+	const pick = (all: string[], spec: string | null): Record<string, boolean> => {
+		const wanted = spec === null ? all : spec === 'none' ? [] : spec.split(',');
+		return Object.fromEntries(all.map((f) => [f, wanted.includes(f)]));
+	};
+	let dataSel = $state(pick(dataFieldsOf(urlType ?? 'quest'), p.get('fields')));
+	let textSel = $state(pick(TEXT_FIELDS[urlType ?? 'quest'], p.get('l10n')));
 	let ids = $state(param.str(p, 'ids'));
 	let zone = $state(param.str(p, 'zone'));
 	const urlLocale = p.get('locale');
@@ -41,8 +47,16 @@
 	let files = $state<ExportFile[] | null>(null);
 	let previewIndex = $state(0);
 
-	const fields = $derived(FIELDS[type]);
-	const chosen = $derived(fields.filter((f) => selected[f]));
+	const dataFields = $derived(dataFieldsOf(type));
+	const textFields = $derived(TEXT_FIELDS[type]);
+	const dataChosen = $derived(dataFields.filter((f) => dataSel[f]));
+	const textChosen = $derived(textFields.filter((f) => textSel[f]));
+	const allChosen = $derived(dataChosen.length === dataFields.length && textChosen.length === textFields.length);
+	/** fields passed to the export; [] means every field */
+	const chosen = $derived(allChosen ? [] : [...dataChosen, ...textChosen]);
+	const nothingChosen = $derived(!dataChosen.length && !textChosen.length);
+	const urlList = (picked: string[], all: string[]) =>
+		picked.length === all.length ? null : picked.length ? picked.join(',') : 'none';
 	const idError = $derived.by(() => {
 		try {
 			parseIds(ids);
@@ -60,7 +74,8 @@
 	$effect(() => {
 		if (type !== lastType) {
 			lastType = type;
-			selected = {};
+			dataSel = pick(dataFieldsOf(type), null);
+			textSel = pick(TEXT_FIELDS[type], null);
 			files = null;
 		}
 	});
@@ -68,7 +83,8 @@
 		syncUrl(
 			{
 				type,
-				fields: chosen.join(','),
+				fields: urlList(dataChosen, dataFields),
+				l10n: urlList(textChosen, textFields),
 				ids: ids.trim(),
 				zone,
 				locale,
@@ -149,7 +165,9 @@
 	const preview = $derived(
 		shown ? shown.text.split('\n').slice(0, 40).map((l) => (l.length > 400 ? `${l.slice(0, 400)} …` : l)).join('\n') : ''
 	);
-	const textFields = $derived(TEXT_FIELDS[type]);
+	const setAll = (sel: Record<string, boolean>, value: boolean) => {
+		for (const k of Object.keys(sel)) sel[k] = value;
+	};
 </script>
 
 <svelte:head><title>Lua export – WoW Quest Database</title></svelte:head>
@@ -168,37 +186,19 @@
 			run();
 		}}
 	>
-		<label class="row">
-			<span>Data</span>
-			<select bind:value={type}>
-				{#each TYPES as [id, label] (id)}<option value={id}>{label}</option>{/each}
-			</select>
-		</label>
-
 		<fieldset>
-			<legend>
-				Fields
-				<span class="muted">({chosen.length ? `${chosen.length} selected` : 'all'})</span>
-				<button type="button" class="linkish" onclick={() => (selected = {})}>all</button>
-			</legend>
-			<div class="fields">
-				{#each fields as f (f)}
-					<label class:textfield={textFields.includes(f)}><input type="checkbox" bind:checked={selected[f]} /> {f}</label>
-				{/each}
-			</div>
-			<p class="hint muted">
-				Nothing ticked exports every field.
-				{#if textFields.length}<span class="textfield">Italic</span> fields are texts and go to a separate
-					<code>{textVarFor(varName)}.{locale === 'all' ? '<language>' : locale}.lua</code>, keyed by the same IDs.{/if}
-			</p>
-		</fieldset>
-
-		<label class="row">
-			<span>IDs</span>
-			<input type="search" placeholder="all, or e.g. 2,33,100-200" bind:value={ids} />
-		</label>
-		{#if idError}<p class="err">{idError}</p>{/if}
-
+			<legend>Selection</legend>
+			<label class="row">
+				<span>Data</span>
+				<select bind:value={type}>
+					{#each TYPES as [id, label] (id)}<option value={id}>{label}</option>{/each}
+				</select>
+			</label>
+			<label class="row">
+				<span>IDs</span>
+				<input type="search" placeholder="all, or e.g. 2,33,100-200" bind:value={ids} />
+			</label>
+			{#if idError}<p class="err">{idError}</p>{/if}
 			<label class="row">
 				<span>Zone</span>
 				{#await zoneOptions(flavor) then zones}
@@ -208,40 +208,81 @@
 					</select>
 				{/await}
 			</label>
+		</fieldset>
 
-		<label class="row">
-			<span>Language</span>
-			<select bind:value={locale}>
-				{#each Object.entries(LOCALES) as [code, label] (code)}<option value={code}>{label}</option>{/each}
-				<option value="all">All languages (one texts file each)</option>
-			</select>
-		</label>
-
-		<div class="row">
-			<span>References</span>
-			<div class="opts">
-				<label><input type="radio" bind:group={refs} value="id" /> IDs only</label>
-				<label><input type="radio" bind:group={refs} value="full" /> with type &amp; name</label>
+		<fieldset>
+			<legend>
+				Data file <code>{varName}.lua</code>
+				<span class="muted">({dataChosen.length} of {dataFields.length} fields)</span>
+			</legend>
+			<div class="pickers">
+				<button type="button" class="linkish" onclick={() => setAll(dataSel, true)}>All</button>
+				<button type="button" class="linkish" onclick={() => setAll(dataSel, false)}>None</button>
 			</div>
-		</div>
-
-		<div class="row">
-			<span>Format</span>
-			<div class="opts">
-				<label><input type="radio" bind:group={style} value="addon" /> <code>addon.{varName} = {'{…}'}</code></label>
-				<label><input type="radio" bind:group={style} value="return" /> <code>return {'{…}'}</code></label>
+			<div class="fields">
+				{#each dataFields as f (f)}
+					<label><input type="checkbox" bind:checked={dataSel[f]} /> {f}</label>
+				{/each}
 			</div>
-		</div>
+			<div class="row">
+				<span>References</span>
+				<div class="opts">
+					<label><input type="radio" bind:group={refs} value="id" /> IDs only</label>
+					<label><input type="radio" bind:group={refs} value="full" /> with type &amp; name</label>
+				</div>
+			</div>
+			<div class="row">
+				<span>Format</span>
+				<div class="opts">
+					<label><input type="radio" bind:group={style} value="addon" /> <code>addon.{varName} = {'{…}'}</code></label>
+					<label><input type="radio" bind:group={style} value="return" /> <code>return {'{…}'}</code></label>
+				</div>
+			</div>
+			{#if style === 'addon'}
+				<label class="row">
+					<span>Table name</span>
+					<input type="search" bind:value={varName} oninput={() => (varTouched = true)} />
+				</label>
+			{/if}
+			{#if !dataChosen.length && textChosen.length}
+				<p class="hint muted">No data fields selected: only the localization files are exported.</p>
+			{/if}
+		</fieldset>
 
-		{#if style === 'addon'}
-			<label class="row">
-				<span>Table name</span>
-				<input type="search" bind:value={varName} oninput={() => (varTouched = true)} />
-			</label>
+		{#if textFields.length}
+			<fieldset>
+				<legend>
+					Localization files <code>{textVarFor(varName)}.{locale === 'all' ? '<language>' : locale}.lua</code>
+					<span class="muted">({textChosen.length} of {textFields.length} fields)</span>
+				</legend>
+				<div class="pickers">
+					<button type="button" class="linkish" onclick={() => setAll(textSel, true)}>All</button>
+					<button type="button" class="linkish" onclick={() => setAll(textSel, false)}>None</button>
+				</div>
+				<div class="fields">
+					{#each textFields as f (f)}
+						<label><input type="checkbox" bind:checked={textSel[f]} /> {f}</label>
+					{/each}
+				</div>
+				<label class="row">
+					<span>Language</span>
+					<select bind:value={locale} disabled={!textChosen.length}>
+						{#each Object.entries(LOCALES) as [code, label] (code)}<option value={code}>{label}</option>{/each}
+						<option value="all">All languages (one file each)</option>
+					</select>
+				</label>
+				<p class="hint muted">
+					{#if textChosen.length}
+						Texts go to their own file per language, keyed by the same IDs as the data file.
+					{:else}
+						No localization fields selected: no localization files are exported.
+					{/if}
+				</p>
+			</fieldset>
 		{/if}
 
 		<div class="actions">
-			<button class="primary" type="submit" disabled={running || !!idError}>
+			<button class="primary" type="submit" disabled={running || !!idError || nothingChosen}>
 				{running ? 'Exporting…' : 'Generate Lua'}
 			</button>
 			{#if running && progress[1] > 1}
@@ -249,6 +290,7 @@
 				<span class="muted">{progress[0]} / {progress[1]} files</span>
 			{/if}
 		</div>
+		{#if nothingChosen}<p class="err">Select at least one data or localization field.</p>{/if}
 		{#if error}<p class="err">{error}</p>{/if}
 	</form>
 
@@ -358,8 +400,20 @@
 		opacity: 0.5;
 		cursor: default;
 	}
-	.textfield {
-		font-style: italic;
+	.pickers {
+		display: flex;
+		gap: 0.8rem;
+		margin-bottom: 0.3rem;
+		font-size: 0.85rem;
+	}
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+	legend code {
+		font-size: 0.8em;
+		color: var(--muted);
 	}
 	.file + .file {
 		border-top: 1px solid var(--border);

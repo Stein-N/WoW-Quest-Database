@@ -2,7 +2,8 @@
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
     "website": [
-      "The docker-compose.yml of each release pulls the image from Docker Hub (derskunky/wow-quest-database); the image files attached to the release carry the same name."
+      "The docker-compose.yml of each release pulls the image from Docker Hub (derskunky/wow-quest-database); the image files attached to the release carry the same name.",
+      "The Lua export page separates data fields from localization fields, each with All/None, so you can export only the data file or only the language files."
     ],
     "data": []
   },
