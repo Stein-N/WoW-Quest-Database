@@ -154,7 +154,37 @@ export function layoutQuestline({ nodes, edges, rank = (id) => id }: LayoutInput
 			bary.set(k, ns.length ? ns.reduce((s, n) => s + pos.get(n)!, 0) / ns.length : (pos.get(k) ?? 0));
 		}
 		layers[l].sort((a, b) => bary.get(a)! - bary.get(b)! || sortKey(a) - sortKey(b));
+		layers[l] = centreHeavy(layers[l], bary);
 		index(l);
+	};
+	// Siblings with the same parent position: the one continuing the line (most descendants)
+	// goes in the middle, dead-end side quests spread out to both sides.
+	const descendants = new Map<Key, number>();
+	const countDesc = (k: Key): number => {
+		if (!descendants.has(k)) {
+			descendants.set(k, 0); // guard; graph is acyclic here
+			descendants.set(k, down.get(k)!.reduce((s, c) => s + 1 + countDesc(c), 0));
+		}
+		return descendants.get(k)!;
+	};
+	const centreHeavy = (row: Key[], bary: Map<Key, number>): Key[] => {
+		const out: Key[] = [];
+		for (let i = 0; i < row.length; ) {
+			let j = i;
+			while (j < row.length && bary.get(row[j]) === bary.get(row[i])) j++;
+			const run = row.slice(i, j);
+			if (run.length > 2) {
+				const byWeight = [...run].sort((a, b) => countDesc(b) - countDesc(a) || sortKey(a) - sortKey(b));
+				const left: Key[] = [];
+				const right: Key[] = [];
+				byWeight.slice(1).forEach((k, n) => (n % 2 ? left : right).push(k));
+				out.push(...left.reverse(), byWeight[0], ...right);
+			} else {
+				out.push(...run);
+			}
+			i = j;
+		}
+		return out;
 	};
 	for (let l = 1; l < depth; l++) sweep(l, up);
 	for (let iter = 0; iter < 6; iter++) {

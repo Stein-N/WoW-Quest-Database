@@ -53,12 +53,15 @@
 
 	let scroller: HTMLDivElement | undefined = $state();
 	$effect(() => {
-		// Bring the highlighted quest into view.
-		const node = layout.nodes.find((n) => n.id === highlight);
+		// Bring the highlighted quest (or else the start of the line) into view.
+		const node =
+			layout.nodes.find((n) => n.id === highlight) ??
+			layout.nodes.find((n) => n.id === line.root) ??
+			[...layout.nodes].sort((a, b) => a.y - b.y)[0];
 		if (!scroller || !node) return;
 		scroller.scrollTo({
 			left: node.x + NODE_W / 2 - scroller.clientWidth / 2,
-			top: node.y + NODE_H / 2 - scroller.clientHeight / 2
+			top: node.id === highlight ? node.y + NODE_H / 2 - scroller.clientHeight / 2 : 0
 		});
 	});
 </script>

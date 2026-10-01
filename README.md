@@ -101,6 +101,12 @@ vendor/QuestieDB         Git-Submodule
 QuestRewards.lua         Item-Belohnungen für Forever (aus VMangos extrahiert)
 ```
 
+**Eigene Korrekturen:** `etl/corrections/<flavor>.json` ergänzt oder überschreibt QuestieDB-Questfelder
+(gleiche Feldnamen wie QuestieDB, z. B. `preQuestSingle`, `nextQuestInChain`, `exclusiveTo`). Jede Gruppe
+nennt ihre Quelle. Aktuell: die Questreihe von Zephras Isle (Skyborne-Startgebiet in Forever) nach
+[warcraft.wiki.gg](https://warcraft.wiki.gg/wiki/Zephras_Isle_storyline). Die Einträge lassen sich
+1:1 an QuestieDB (`src/corrections/Forever/foreverQuestFixes.lua`) zurückmelden.
+
 **Regeln beim Zusammenführen:** QuestieDB hat Vorrang bei allem, was es selbst enthält.
 VMangos ergänzt nur fehlende Felder. Item-Belohnungen für Forever-Quests kommen aus
 `QuestRewards.lua`, für Classic direkt aus VMangos (inkl. Anzahl).

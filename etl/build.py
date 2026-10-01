@@ -86,8 +86,32 @@ class Flavor:
         self.item_drop_chances = self.support["itemDrops"]
         self.warnings = []
 
+        self._apply_corrections()
         self._build_reverse_indexes()
         self.zones = self._build_zones()
+
+    # ------------------------------------------------------------------ corrections
+
+    def _apply_corrections(self):
+        """etl/corrections/<flavor>.json: project-side quest fixes on top of QuestieDB.
+
+        Uses QuestieDB's field names; keys starting with "_" are documentation only.
+        """
+        path = ROOT / "etl" / "corrections" / f"{self.site_id}.json"
+        if not path.exists():
+            return
+        applied = 0
+        for group in json.loads(path.read_text(encoding="utf-8"))["groups"]:
+            for quest_id, fields in group["quests"].items():
+                quest = self.quests.get(int(quest_id))
+                if quest is None:
+                    print(f"  correction for unknown quest {quest_id} ({group['name']})", file=sys.stderr)
+                    continue
+                for field, value in fields.items():
+                    if not field.startswith("_"):
+                        quest[field] = value
+                applied += 1
+        print(f"  applied {applied} quest corrections from {path.name}", file=sys.stderr)
 
     # ------------------------------------------------------------------ indexes
 
@@ -881,6 +905,10 @@ def main():
         "locales": C.LOCALES,
         "flavors": {},
     }
+    # keep entries of flavors not rebuilt this time (e.g. --flavors forever)
+    previous = out / "meta.json"
+    if previous.exists():
+        meta["flavors"] = json.loads(previous.read_text()).get("flavors", {})
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
         flavor = Flavor(site_id, vm, quest_rewards)

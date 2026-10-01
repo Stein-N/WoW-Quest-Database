@@ -1,0 +1,51 @@
+{
+  "_comment": [
+    "Project-side quest corrections for the Forever flavor, applied by etl/build.py on top of",
+    "QuestieDB (after its own corrections). Field names and shapes are QuestieDB's questKeys,",
+    "so entries can be upstreamed to QuestieDB's src/corrections/Forever/foreverQuestFixes.lua.",
+    "Each group documents its source."
+  ],
+  "groups": [
+    {
+      "name": "Zephras Isle storyline (Skyborne starting zone)",
+      "source": "https://warcraft.wiki.gg/wiki/Zephras_Isle_storyline",
+      "notes": [
+        "Quests indented under a main step are unlocked by that step.",
+        "Reading the Ley Lines (Alliance) and The Gift of Skysight (Horde) are the faction choice: mutually exclusive.",
+        "The wiki lists the shaman chain as Embracing the Elements -> Call of Earth -> Call of Earth; the third Call of Earth (92468, started by the Minor Manifestation of Earth) follows the original Durotar chain 1516 -> 1517 -> 1518."
+      ],
+      "quests": {
+        "92460": { "_name": "Coming of Age", "nextQuestInChain": 92461 },
+        "92461": { "_name": "Harmony in Balance", "preQuestSingle": [92460], "nextQuestInChain": 92464 },
+        "92464": { "_name": "Elemental Unrest", "preQuestSingle": [92461], "nextQuestInChain": 92465 },
+        "92465": { "_name": "Agitators", "preQuestSingle": [92464], "nextQuestInChain": 92469 },
+        "92469": { "_name": "Return to Rorian", "preQuestSingle": [92465], "nextQuestInChain": 92471 },
+        "92471": { "_name": "Aetheen of the Gales", "preQuestSingle": [92469], "nextQuestInChain": 92470 },
+        "92470": { "_name": "Foul Matriarch", "preQuestSingle": [92471], "nextQuestInChain": 92472 },
+        "92472": { "_name": "The Next Step", "preQuestSingle": [92470] },
+
+        "92462": { "_name": "Infestation Investigation", "preQuestSingle": [92461], "nextQuestInChain": 92463 },
+        "92463": { "_name": "The Cirrusfly Queen", "preQuestSingle": [92462] },
+        "92474": { "_name": "Falling With Style", "preQuestSingle": [92461] },
+        "94414": { "_name": "The Anchors of Zephras", "preQuestSingle": [92461] },
+        "93552": { "_name": "Harvesting Windstones", "preQuestSingle": [92461] },
+        "92597": { "_name": "Reading the Ley Lines (Alliance choice)", "preQuestSingle": [92461], "exclusiveTo": [92598] },
+        "92598": { "_name": "The Gift of Skysight (Horde choice)", "preQuestSingle": [92461], "exclusiveTo": [92597] },
+
+        "92485": { "_name": "A Student of Nature (Druid)", "preQuestSingle": [92461] },
+        "92482": { "_name": "The Way of the Hunter (Hunter)", "preQuestSingle": [92461] },
+        "92481": { "_name": "A Student of the Arcane (Mage)", "preQuestSingle": [92461] },
+        "92483": { "_name": "At Home in the Shadows (Rogue)", "preQuestSingle": [92461] },
+        "92484": { "_name": "Embracing the Elements (Shaman)", "preQuestSingle": [92461], "nextQuestInChain": 92466 },
+        "92466": { "_name": "Call of Earth (Shaman 1)", "preQuestSingle": [92484], "nextQuestInChain": 92467 },
+        "92467": { "_name": "Call of Earth (Shaman 2)", "preQuestSingle": [92466], "nextQuestInChain": 92468 },
+        "92468": { "_name": "Call of Earth (Shaman 3)", "preQuestSingle": [92467] },
+        "92532": { "_name": "The Warrior's Path (Warrior)", "preQuestSingle": [92461] },
+
+        "92473": { "_name": "Aggressive Encroachment", "preQuestSingle": [92470] },
+        "92544": { "_name": "Al'Aketh Thugs", "preQuestSingle": [92472] },
+        "96638": { "_name": "The Adventurer (leaves the island)", "preQuestSingle": [92472] }
+      }
+    }
+  ]
+}
