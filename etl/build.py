@@ -300,6 +300,12 @@ class Flavor:
             return row["Title"] if kind == "quest" else row["name"]
         return None
 
+    def display_name(self, kind, entity_id):
+        """Name for a record; QuestieDB has entries without one (e.g. NPCs that only exist as
+        spawn corrections), and the site needs some label for every record."""
+        label = {"npc": "NPC", "object": "Object", "item": "Item", "quest": "Quest"}[kind]
+        return self.name(kind, entity_id) or f"{label} #{entity_id}"
+
     def ref(self, kind, entity_id, **extra):
         source = {"npc": self.npcs, "object": self.objects, "item": self.items, "quest": self.quests}[kind]
         r = {"t": kind, "id": entity_id, "name": self.name(kind, entity_id) or f"#{entity_id}"}
@@ -508,7 +514,7 @@ class Flavor:
         races = q.get("requiredRaces") or 0
         r = {
             "id": qid,
-            "name": q.get("name"),
+            "name": self.display_name("quest", qid),
             "level": q.get("questLevel"),
             "reqLevel": q.get("requiredLevel"),
             "side": side_of(races),
@@ -630,7 +636,7 @@ class Flavor:
         faction = self.vm.faction_for_template(n.get("factionID")) if n.get("factionID") else None
         r = {
             "id": npc_id,
-            "name": n.get("name"),
+            "name": self.display_name("npc", npc_id),
             "subName": n.get("subName"),
             "minLevel": n.get("minLevel"),
             "maxLevel": n.get("maxLevel"),
@@ -663,7 +669,7 @@ class Flavor:
         contains = self._object_contains.get(obj_id, [])
         r = {
             "id": obj_id,
-            "name": o.get("name"),
+            "name": self.display_name("object", obj_id),
             "zone": self.zone_ref(o.get("zoneID")),
             **self.spawn_data("object", obj_id),
             "starts": [self.ref("quest", i) for i in o.get("questStarts") or []] or None,
@@ -678,7 +684,7 @@ class Flavor:
     def build_item(self, item_id):
         it = self.items[item_id]
         vmi = self.vm.items.get(item_id)
-        r = {"id": item_id, "name": it.get("name")}
+        r = {"id": item_id, "name": self.display_name("item", item_id)}
         if vmi is not None:
             class_name, subclasses = C.ITEM_CLASSES.get(vmi["class"], (None, {}))
             r.update({

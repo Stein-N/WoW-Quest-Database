@@ -9,7 +9,8 @@
       "The database is also online at data.morthen.net, updated after every data release."
     ],
     "data": [
-      "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source."
+      "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
+      "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update."
     ]
   },
   "versions": [
