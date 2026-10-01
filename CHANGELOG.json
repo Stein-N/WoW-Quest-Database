@@ -1,18 +1,54 @@
 {
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
-    "website": [
-      "New pages for NPCs, items and objects: they list every entry right away, with filters (zone, reaction, rank, services, quality, type, slot, level) and sorting.",
-      "Patch notes on the start page, describing the changes of each version.",
-      "Quest pages show the map ID (uiMapId) of the quest's zone, and the Lua export includes it.",
-      "New logo and favicon; the Docker Compose file of each release carries the app icon for ZimaOS."
-    ],
-    "data": [
-      "Quest texts for new Forever quests on Zephras Isle, read from the game client's quest cache: 11 quests in English, 10 in German.",
-      "Every quest with a zone now has a map ID (uiMapId) for the in-game map API: 3,246 of 3,261 in Classic Era and 3,592 of 3,757 in WoW Forever."
-    ]
+    "website": [],
+    "data": []
   },
   "versions": [
+    {
+      "version": "0.1.2",
+      "date": "2026-10-01",
+      "data": {
+        "questie": {
+          "commit": "f521c36eb72a57d7f205a61ee212ad0ca9f51ed9",
+          "date": "2026-09-29",
+          "subject": "[feature] Add Forever base data"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      },
+      "website": [
+        "New pages for NPCs, items and objects: they list every entry right away, with filters (zone, reaction, rank, services, quality, type, slot, level) and sorting.",
+        "Patch notes on the start page, describing the changes of each version.",
+        "Quest pages show the map ID (uiMapId) of the quest's zone, and the Lua export includes it.",
+        "New logo and favicon; the Docker Compose file of each release carries the app icon for ZimaOS."
+      ],
+      "dataNotes": [
+        "Quest texts for new Forever quests on Zephras Isle, read from the game client's quest cache: 11 quests in English, 10 in German.",
+        "Every quest with a zone now has a map ID (uiMapId) for the in-game map API: 3,246 of 3,261 in Classic Era and 3,592 of 3,757 in WoW Forever."
+      ],
+      "dataChanges": {
+        "classic": [
+          "No changes to quests, NPCs, objects or items."
+        ],
+        "forever": [
+          "11 quests updated (texts, objectives, rewards or chains), e.g. Blood for Blood, Breaking the Breaker, Disrupting Logistics, Feathers for Binding, Tears of the Lady, Unwanted and Unworthy, Unwelcome Spirits, WANTED: Vulgara the Insatiable.",
+          "Quest descriptions: English +11, German +10."
+        ]
+      },
+      "commits": [
+        "Import quest texts from WoW client caches",
+        "Count own corrections as data changes for releases",
+        "Add uiMapId to quests",
+        "Add a uiMapId report to the release notes",
+        "Use logo.png as app icon for ZimaOS and the site",
+        "Add browsable list pages for NPCs, items and objects",
+        "Add patch notes to the start page",
+        "Write patch notes in plain words for website and data changes"
+      ]
+    },
     {
       "version": "0.1.1",
       "website": [
