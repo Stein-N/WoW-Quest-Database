@@ -16,11 +16,9 @@
 		>
 		<a class="panel tile" href="#/{flavor}/questlines"><strong>Questlines</strong> Quest chains as a graph</a>
 		<a class="panel tile" href="#/{flavor}/zones"><strong>Zones</strong> Browse quests by zone</a>
-		<a class="panel tile" href="#/{flavor}/search/"
-			><strong>{f.counts.npc.toLocaleString('en')}</strong> NPCs ·
-			<strong>{f.counts.item.toLocaleString('en')}</strong> Items ·
-			<strong>{f.counts.object.toLocaleString('en')}</strong> Objects</a
-		>
+		<a class="panel tile" href="#/{flavor}/npcs"><strong>{f.counts.npc.toLocaleString('en')}</strong> NPCs</a>
+		<a class="panel tile" href="#/{flavor}/items"><strong>{f.counts.item.toLocaleString('en')}</strong> Items</a>
+		<a class="panel tile" href="#/{flavor}/objects"><strong>{f.counts.object.toLocaleString('en')}</strong> Objects</a>
 	</div>
 {/await}
 

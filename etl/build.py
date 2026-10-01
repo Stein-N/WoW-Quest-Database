@@ -776,11 +776,18 @@ class Flavor:
                                 zone.get("zone") or zone.get("sort") or 0,
                                 self.quests[qid].get("requiredClasses") or 0, flags])
         write_json(base / "quests.json", quest_index)
+        # Positional rows; the search page reads the leading columns, the list pages all of them.
+        zone_id = lambda r: (r.get("zone") or {}).get("zone") or 0
         write_json(base / "search.json", {
-            "npc": [[i, r["name"], r.get("subName") or "", r.get("minLevel"), r.get("maxLevel"), r.get("react") or ""]
+            # [id, name, subName, minLevel, maxLevel, react, zone, rank, npcFlags]
+            "npc": [[i, r["name"], r.get("subName") or "", r.get("minLevel"), r.get("maxLevel"), r.get("react") or "",
+                     zone_id(r), r.get("rank") or "Normal", self.npcs[i].get("npcFlags") or 0]
                     for i, r in sorted(records["npc"].items())],
-            "object": [[i, r["name"]] for i, r in sorted(records["object"].items())],
-            "item": [[i, r["name"], r.get("quality")] for i, r in sorted(records["item"].items())],
+            # [id, name, zone]
+            "object": [[i, r["name"], zone_id(r)] for i, r in sorted(records["object"].items())],
+            # [id, name, quality, itemLevel, reqLevel, class, subClass, slot]
+            "item": [[i, r["name"], r.get("quality"), r.get("itemLevel"), r.get("reqLevel"), r.get("class") or "",
+                      r.get("subClass") or "", r.get("slot") or ""] for i, r in sorted(records["item"].items())],
         })
         self.build_zone_givers(base, records["quest"])
         write_json(base / "questlines.json", self.questlines)

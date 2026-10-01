@@ -206,11 +206,12 @@ export interface Meta {
 export type QuestIndexRow = [number, string, number | null, number | null, 'A' | 'H' | 'B', number, number, number];
 
 export interface SearchIndex {
-	/** [id, name, subName, minLevel, maxLevel, react] */
-	npc: [number, string, string, number | null, number | null, string][];
-	object: [number, string][];
-	/** [id, name, quality] */
-	item: [number, string, number | null][];
+	/** [id, name, subName, minLevel, maxLevel, react, zone, rank, npcFlags] */
+	npc: [number, string, string, number | null, number | null, string, number, string, number][];
+	/** [id, name, zone] */
+	object: [number, string, number][];
+	/** [id, name, quality, itemLevel, reqLevel, class, subClass, slot] */
+	item: [number, string, number | null, number | null, number | null, string, string, string][];
 }
 
 export interface L10nEntry {

@@ -39,6 +39,9 @@
 		<nav>
 			<a href="#/{flavor}/quests">Quests</a>
 			<a href="#/{flavor}/questlines">Questlines</a>
+			<a href="#/{flavor}/npcs">NPCs</a>
+			<a href="#/{flavor}/items">Items</a>
+			<a href="#/{flavor}/objects">Objects</a>
 			<a href="#/{flavor}/zones">Zones</a>
 			<a href="#/{flavor}/export">Export</a>
 		</nav>
