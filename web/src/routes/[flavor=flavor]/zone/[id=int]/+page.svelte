@@ -4,6 +4,7 @@
 	import { site } from '$lib/context.svelte';
 	import QuestTable from '$lib/components/QuestTable.svelte';
 	import ZoneMap, { type MapLayer } from '$lib/components/ZoneMap.svelte';
+	import InstanceMap from '$lib/components/InstanceMap.svelte';
 
 	const flavor = $derived(page.params.flavor!);
 	const id = $derived(Number(page.params.id));
@@ -44,11 +45,16 @@
 <svelte:head><title>{site.zoneName(id)} – WoW Quest Database</title></svelte:head>
 
 <h1>{site.zoneName(id)}</h1>
-{#if zone?.instance}<p class="muted" style="margin-top:0">Instance{#if zone.parent} in <a href="#/{flavor}/zone/{zone.parent}">{site.zoneName(zone.parent)}</a>{/if}</p>{/if}
+{#if zone?.instance}<p class="muted" style="margin-top:0">Instance{#if zone.parent}{' in '}<a href="#/{flavor}/zone/{zone.parent}">{site.zoneName(zone.parent)}</a>{/if}</p>{/if}
 
 {#await load(flavor, id)}
 	<p class="muted">Loading…</p>
 {:then data}
+	{#if zone?.instance && zone.uiMapId}
+		{#key `${flavor}:${id}`}
+			<InstanceMap uiMapId={zone.uiMapId} />
+		{/key}
+	{/if}
 	{#if data.layers.some((l) => l.entries.length)}
 		<section class="panel">
 			{#key `${flavor}:${id}`}

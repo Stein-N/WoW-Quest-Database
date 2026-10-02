@@ -15,10 +15,16 @@
 		entries: MapEntry[];
 	}
 
-	const indexes = new Map<string, Promise<{ maps: number[] }>>();
+	export interface MapIndex {
+		maps: number[];
+		/** instance uiMapId -> its floors (plain images, no coordinates inside instances) */
+		instances?: Record<string, { uiMapId: number; name: string }[]>;
+	}
+
+	const indexes = new Map<string, Promise<MapIndex>>();
 
 	/** maps/<flavor>/index.json from etl/maps.py; empty when no map art was extracted. */
-	function loadMapIndex(flavor: string) {
+	export function loadMapIndex(flavor: string): Promise<MapIndex> {
 		let p = indexes.get(flavor);
 		if (!p) {
 			p = fetch(`maps/${flavor}/index.json`)
@@ -63,7 +69,7 @@
 		paths: Path[];
 	}
 
-	let mapIndex = $state<{ maps: number[] }>({ maps: [] });
+	let mapIndex = $state<MapIndex>({ maps: [] });
 	$effect(() => {
 		const flavor = site.flavor;
 		loadMapIndex(flavor).then((index) => {
