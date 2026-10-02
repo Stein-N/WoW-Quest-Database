@@ -4,6 +4,8 @@
 	export interface MapEntry {
 		name: string;
 		href?: string;
+		/** entity ID; the IDs on the selected map are reported through `shownIds` */
+		id?: number;
 		data: SpawnData;
 	}
 
@@ -49,11 +51,16 @@
 	let {
 		layers,
 		floors = [],
-		primary
+		primary,
+		shownMap = $bindable(''),
+		shownIds = $bindable([])
 	}: {
 		layers: MapLayer[];
 		floors?: { uiMapId: number; name: string }[];
 		primary?: { uiMapId: number; name: string };
+		/** name of the selected map and the IDs of the entries that appear on it */
+		shownMap?: string;
+		shownIds?: number[];
 	} = $props();
 
 	// World map art is 1002×668; QuestieDB coordinates are percentages of it.
@@ -76,6 +83,7 @@
 		uiMapId: number;
 		name: string;
 		floor?: boolean;
+		ids?: Set<number>;
 		markers: Marker[];
 		paths: Path[];
 	}
@@ -112,6 +120,7 @@
 							const outer = zones[e.zone];
 							if (!outer?.uiMapId) continue;
 							const g = group(outer.uiMapId, e.zone);
+							if (entry.id !== undefined) (g.ids ??= new Set()).add(entry.id);
 							if (!g.markers.some((m) => m.layer === li && m.name === entry.name && m.note)) {
 								g.markers.push({
 									layer: li,
@@ -125,6 +134,7 @@
 						}
 					} else if (zone?.uiMapId) {
 						const g = group(zone.uiMapId, Number(area));
+						if (entry.id !== undefined && points.some(([x, y]) => x >= 0 && y >= 0)) (g.ids ??= new Set()).add(entry.id);
 						for (const [x, y] of points) {
 							if (x >= 0 && y >= 0) g.markers.push({ layer: li, name: entry.name, href: entry.href, x, y });
 						}
@@ -159,6 +169,10 @@
 	});
 	let hidden = $state<Record<number, boolean>>({});
 	const current = $derived(groups.find((g) => g.uiMapId === selected) ?? groups[0]);
+	$effect(() => {
+		shownMap = current?.name ?? '';
+		shownIds = [...(current?.ids ?? [])].sort((a, b) => a - b);
+	});
 
 	let container: HTMLDivElement | undefined = $state();
 	let L: typeof Leaflet | undefined = $state();

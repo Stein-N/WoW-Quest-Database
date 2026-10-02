@@ -7,7 +7,14 @@
 	import DataTable, { type Column } from '$lib/components/DataTable.svelte';
 	import type { SearchIndex } from '$lib/types';
 
-	type Row = SearchIndex['object'][number];
+	type Entry = SearchIndex['object'][number];
+	/** objects sharing a name are one row; `ids` and `zones` cover all of them */
+	interface Row {
+		id: number;
+		name: string;
+		ids: number[];
+		zones: number[];
+	}
 	const flavor = $derived(page.params.flavor!);
 
 	const p = urlParams();
@@ -17,26 +24,55 @@
 		syncUrl({ q: text.trim(), zone });
 	});
 
-	const name = (r: Row) => site.names?.object?.[r[0]] ?? r[1];
+	const name = (r: Row) => site.names?.object?.[r.id] ?? r.name;
+
+	// grouped by the English name, which is the same in every language
+	const grouped = new WeakMap<Entry[], Row[]>();
+	function group(entries: Entry[]): Row[] {
+		let rows = grouped.get(entries);
+		if (!rows) {
+			const byName = new Map<string, Row>();
+			for (const [id, n, z] of entries) {
+				const row = byName.get(n);
+				if (!row) byName.set(n, { id, name: n, ids: [id], zones: z ? [z] : [] });
+				else {
+					row.ids.push(id);
+					if (z && !row.zones.includes(z)) row.zones.push(z);
+				}
+			}
+			rows = [...byName.values()];
+			for (const r of rows) {
+				r.ids.sort((a, b) => a - b);
+				r.id = r.ids[0];
+			}
+			grouped.set(entries, rows);
+		}
+		return rows;
+	}
 
 	function filter(rows: Row[]): Row[] {
 		const needle = fold(text.trim());
 		return rows.filter((r) => {
-			if (needle && !fold(name(r)).includes(needle) && !fold(r[1]).includes(needle) && String(r[0]) !== needle) return false;
-			if (zone && String(r[2]) !== zone) return false;
+			if (needle && !fold(name(r)).includes(needle) && !fold(r.name).includes(needle) && !r.ids.some((i) => String(i) === needle))
+				return false;
+			if (zone && !r.zones.some((z) => String(z) === zone)) return false;
 			return true;
 		});
 	}
 
-	const zonesOf = (rows: Row[]) =>
+	const zoneText = (r: Row) =>
+		r.zones.length === 1 ? site.zoneName(r.zones[0]) : r.zones.length ? `${r.zones.length} zones` : '';
+
+	const zonesOf = (rows: Entry[]) =>
 		[...new Set(rows.map((r) => r[2]).filter(Boolean))]
 			.map((id) => ({ id, name: site.zoneName(id) }))
 			.sort((a, b) => a.name.localeCompare(b.name));
 
 	const columns: Column<Row>[] = [
-		{ key: 'name', label: 'Name', value: (r) => name(r), href: (r) => `#/${flavor}/object/${r[0]}`, cls: () => 'link-object' },
-		{ key: 'zone', label: 'Zone', value: (r) => (r[2] ? site.zoneName(r[2]) : '') },
-		{ key: 'id', label: 'ID', num: true, value: (r) => r[0], cls: () => 'muted' }
+		{ key: 'name', label: 'Name', value: (r) => name(r), href: (r) => `#/${flavor}/object/${r.id}`, cls: () => 'link-object' },
+		{ key: 'zone', label: 'Zone', value: zoneText },
+		{ key: 'count', label: 'Objects', num: true, value: (r) => r.ids.length, cls: () => 'muted' },
+		{ key: 'id', label: 'ID', num: true, value: (r) => r.id, text: (r) => (r.ids.length > 1 ? `${r.id} +${r.ids.length - 1}` : String(r.id)), cls: () => 'muted' }
 	];
 </script>
 
@@ -54,9 +90,9 @@
 		</select>
 	</div>
 	<DataTable
-		rows={filter(index.object)}
+		rows={filter(group(index.object))}
 		{columns}
-		rowKey={(r) => r[0]}
+		rowKey={(r) => r.id}
 		filterKey={JSON.stringify([text, zone])}
 		defaultSort="name"
 		noun="objects"
