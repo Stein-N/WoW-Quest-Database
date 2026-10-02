@@ -5,11 +5,13 @@
       "Every field on the Lua export page has an ⓘ explaining what it contains and how it appears in the Lua file.",
       "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen.",
       "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB.",
-      "The database is also online at data.morthen.net, updated after every data release."
+      "The database is also online at data.morthen.net, updated after every data release.",
+      "Vendor lists show limited stock (e.g. \"limited: 2, restocks every 2 h\"), and entries known only from VMangos carry a VMangos badge with a note that they may be outdated."
     ],
     "data": [
       "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
-      "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update."
+      "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update.",
+      "Vendors now also come from the VMangos server database, adding about 1,600 vendor entries; these may be outdated, especially for WoW Forever."
     ]
   },
   "versions": [

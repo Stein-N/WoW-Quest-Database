@@ -105,7 +105,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		starts: 'Quest IDs this NPC starts.',
 		ends: 'Quest IDs turned in at this NPC.',
 		objectiveOf: 'Quest IDs that require killing or interacting with this NPC.',
-		sells: 'Item IDs this NPC sells.',
+		sells: 'Items this NPC sells (QuestieDB and VMangos): item IDs, or { id, limit, restock (seconds) } for limited stock; vmangos = true marks entries known only from VMangos, which may be outdated.',
 		loot: 'Drops: list of { id, chance (%), min, max } or plain item IDs.',
 		sources: 'Where the data comes from: "questie", "vmangos".'
 	},
@@ -150,7 +150,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		droppedBy: 'NPCs that drop the item: list of { id, chance (%) } or NPC IDs.',
 		objectDrops: 'Object IDs the item can be looted from.',
 		containedIn: 'Item IDs (bags, boxes) that contain this item.',
-		vendors: 'NPC IDs that sell the item.',
+		vendors: 'NPCs that sell the item (QuestieDB and VMangos): NPC IDs, or { id, limit, restock (seconds) } for limited stock; vmangos = true marks entries known only from VMangos, which may be outdated.',
 		rewardFrom: 'Quest IDs that reward the item.',
 		objectiveOf: 'Quest IDs that require the item.',
 		sources: 'Where the data comes from: "questie", "vmangos".'

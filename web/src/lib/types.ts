@@ -15,6 +15,13 @@ export interface Ref {
 	min?: number;
 	max?: number;
 	vendor?: boolean;
+	/** vendor entry known only from VMangos (may be outdated) */
+	vmangos?: boolean;
+	/** limited vendor stock: at most this many, refilled every `restock` seconds */
+	limit?: number;
+	restock?: number;
+	/** offered only under a condition (e.g. reputation) */
+	conditional?: boolean;
 	/** referenced entity is absent from this flavor's data */
 	missing?: boolean;
 }

@@ -31,6 +31,7 @@ class VMangos:
         }
         self.spells = self._max_build("spell_template", "entry")
         self.creature_loot = self._loot("creature_loot_template")
+        self.vendor_items = self._vendors()
 
     def _latest(self, table):
         """Newest row per entry that exists at MAX_PATCH."""
@@ -46,6 +47,26 @@ class VMangos:
         for r in self.db.execute(f"SELECT * FROM {table} ORDER BY {key}, build"):
             rows[r[key]] = r
         return rows
+
+    def _vendors(self):
+        """creature entry -> {item: (maxcount, restock seconds, conditional)}.
+
+        npc_vendor lists a creature's own items, npc_vendor_template shared lists that creatures
+        point at with vendor_id. maxcount > 0 means limited stock refilled every incrtime seconds;
+        a condition_id means the item is only offered under a condition (e.g. reputation).
+        """
+        def rows(table):
+            out = defaultdict(dict)
+            for r in self.db.execute(f"SELECT entry, item, maxcount, incrtime, condition_id FROM {table}"):
+                out[r["entry"]][r["item"]] = (r["maxcount"] or 0, r["incrtime"] or 0, bool(r["condition_id"]))
+            return out
+        own, templates = rows("npc_vendor"), rows("npc_vendor_template")
+        vendors = {}
+        for entry, creature in self.creatures.items():
+            items = {**templates.get(creature["vendor_id"] or 0, {}), **own.get(entry, {})}
+            if items:
+                vendors[entry] = items
+        return vendors
 
     def _by_entry(self, table):
         return {r["entry"]: r for r in self.db.execute(f"SELECT * FROM {table}")}

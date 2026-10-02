@@ -242,10 +242,25 @@ class Flavor:
                 self.npc_loot[npc_id] = loot
                 for item_id, chance, _lo, _hi in loot:
                     self.item_dropped_by[item_id].append((npc_id, chance))
-        self.npc_sells = defaultdict(list)
+        # vendors: QuestieDB plus VMangos' vendor tables. VMangos describes the 1.12 servers, so its
+        # entries are marked (vmangos) and may be outdated, especially for WoW Forever.
+        self.item_vendors = defaultdict(dict)   # item -> {npc: ref extras}
         for item_id, item in self.items.items():
             for npc_id in item.get("vendors") or []:
-                self.npc_sells[npc_id].append(item_id)
+                self.item_vendors[item_id][npc_id] = {}
+        for npc_id, items in self.vm.vendor_items.items():
+            for item_id, (limit, restock, conditional) in items.items():
+                extra = self.item_vendors[item_id].get(npc_id)
+                if extra is None:
+                    extra = self.item_vendors[item_id][npc_id] = {"vmangos": True}
+                if limit:
+                    extra.update(limit=limit, restock=restock or None)
+                if conditional:
+                    extra["conditional"] = True
+        self.npc_sells = defaultdict(dict)       # npc -> {item: ref extras}
+        for item_id, vendors in self.item_vendors.items():
+            for npc_id, extra in vendors.items():
+                self.npc_sells[npc_id][item_id] = extra
 
     def _build_zones(self):
         sup = self.support
@@ -481,8 +496,8 @@ class Flavor:
             sources.append(self.ref("object", obj_id))
         for src_item in item.get("itemDrops") or []:
             sources.append(self.ref("item", src_item))
-        for npc_id in item.get("vendors") or []:
-            sources.append(self.ref("npc", npc_id, vendor=True))
+        for npc_id, extra in self.item_vendors.get(item_id, {}).items():
+            sources.append(self.ref("npc", npc_id, vendor=True, vmangos=extra.get("vmangos")))
         sources = sources[:MAX_ITEM_SOURCES]
         for s in sources:
             if s["t"] in ("npc", "object"):
@@ -651,7 +666,8 @@ class Flavor:
             "starts": [self.ref("quest", i) for i in n.get("questStarts") or []] or None,
             "ends": [self.ref("quest", i) for i in n.get("questEnds") or []] or None,
             "objectiveOf": [self.ref("quest", i) for i in sorted(self.npc_objective_of.get(npc_id, []))] or None,
-            "sells": [self.ref("item", i) for i in sorted(self.npc_sells.get(npc_id, []))] or None,
+            "sells": [self.ref("item", i, **extra)
+                      for i, extra in sorted(self.npc_sells.get(npc_id, {}).items())] or None,
         }
         loot = self.npc_loot.get(npc_id)
         if loot:
@@ -761,7 +777,7 @@ class Flavor:
             "droppedBy": drops or None,
             "objectDrops": [self.ref("object", i) for i in it.get("objectDrops") or []] or None,
             "containedIn": [self.ref("item", i) for i in it.get("itemDrops") or []] or None,
-            "vendors": [self.ref("npc", i) for i in it.get("vendors") or []] or None,
+            "vendors": [self.ref("npc", i, **extra) for i, extra in self.item_vendors.get(item_id, {}).items()] or None,
             "rewardFrom": [self.ref("quest", i) for i in sorted(self.item_reward_of.get(item_id, []))] or None,
             "objectiveOf": [self.ref("quest", i) for i in sorted(self.item_objective_of.get(item_id, []))] or None,
             "sources": ["questie"] + (["vmangos"] if vmi is not None else []),
