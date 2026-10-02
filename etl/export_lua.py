@@ -199,6 +199,13 @@ def lua_value(value):
     raise TypeError(f"cannot convert {type(value).__name__}")
 
 
+def export_text(value):
+    """The player's name placeholder $N becomes ${playerName} in exported texts."""
+    if isinstance(value, list):
+        return [export_text(v) for v in value]
+    return re.sub(r"\$[Nn]", "${playerName}", value) if isinstance(value, str) else value
+
+
 def text_var_for(var):
     return var[:-4] + "Texts" if var.endswith("Data") else var + "Texts"
 
@@ -292,7 +299,7 @@ def main():
         data, texts = {}, {}
         for entity_id, rec in recs.items():
             rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
-            text = {k: rec.pop(k) for k in text_fields if k in rec}
+            text = {k: export_text(rec.pop(k)) for k in text_fields if k in rec}
             if args.type == "quest" and rec.get("rewards"):
                 rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)
             data[entity_id] = compact_refs(rec) if args.refs == "id" else rec

@@ -10,7 +10,8 @@
       "Item pages have a map showing where the item is sold, dropped or looted, with a colour for each kind of source.",
       "Map labels (zone, town and region names) are now in English.",
       "Dungeon and raid pages show the instance map: one row of tabs picks the floor, a second row the outdoor maps with the quest givers.",
-      "Maps can no longer be zoomed out beyond the map itself, zoom in further and in finer steps, and a zone page always shows the zone's own map first."
+      "Maps can no longer be zoomed out beyond the map itself, zoom in further and in finer steps, and a zone page always shows the zone's own map first.",
+      "In the Lua export the player's name placeholder $N is now written as ${playerName}."
     ],
     "data": [
       "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",

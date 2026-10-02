@@ -29,6 +29,12 @@ export const TEXT_FIELDS: Record<ExportType, string[]> = {
 	questline: []
 };
 
+/** The player's name placeholder $N becomes ${playerName} in exported texts. */
+function exportText(value: Json): Json {
+	if (Array.isArray(value)) return value.map(exportText);
+	return typeof value === 'string' ? value.replace(/\$[Nn]/g, '${playerName}') : value;
+}
+
 export function textVarFor(varName: string): string {
 	return varName.endsWith('Data') ? `${varName.slice(0, -4)}Texts` : `${varName}Texts`;
 }
@@ -72,7 +78,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		timeLimit: 'Time limit in seconds.',
 		repeatable: 'true if the quest can be done repeatedly.',
 		objectivesText: 'Short objective text from the quest log, as a list of lines.',
-		details: 'Quest description shown when accepting the quest. $N, $C, $R are name, class, race placeholders, $B a line break.',
+		details: 'Quest description shown when accepting the quest. ${playerName} is the name of the player, $C and $R class and race, $B a line break.',
 		progress: 'Text shown when talking to the quest ender before the objectives are complete.',
 		completion: 'Text shown when turning the quest in.',
 		endText: 'Quest log text once all objectives are done (e.g. "Return to …").',
@@ -412,7 +418,7 @@ export async function exportLua(
 			data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
 			if (text.length) {
 				// field order as in TEXT_FIELDS, like the Python tool
-				texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, rec[f]])));
+				texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, exportText(rec[f])])));
 			}
 		}
 		return { data, texts };
