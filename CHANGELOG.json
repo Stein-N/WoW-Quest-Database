@@ -2,7 +2,8 @@
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
     "website": [
-      "Objects with the same name (e.g. every Campfire or Mailbox) are one entry in the object list; its page shows all of them on the map, and Quick facts lists the object IDs on the selected map."
+      "Objects with the same name (e.g. every Campfire or Mailbox) are one entry in the object list; its page shows all of them on the map, and Quick facts lists the object IDs on the selected map.",
+      "Maps on quest, object, NPC and item pages can be zoomed out to show the whole map again."
     ],
     "data": []
   },

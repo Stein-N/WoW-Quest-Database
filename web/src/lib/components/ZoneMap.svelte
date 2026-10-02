@@ -178,6 +178,7 @@
 	let L: typeof Leaflet | undefined = $state();
 	let map: Leaflet.Map | undefined;
 	let overlay: Leaflet.LayerGroup | undefined;
+	let resizer: ResizeObserver | undefined;
 
 	onMount(() => {
 		let disposed = false;
@@ -199,18 +200,31 @@
 				maxBounds: bounds,
 				maxBoundsViscosity: 1
 			});
-			const fit = () => {
-				const min = map!.getBoundsZoom(bounds);
-				map!.setMinZoom(min);
-				if (map!.getZoom() <= min) map!.fitBounds(bounds);
+			// The container's width settles after the map is created (page layout, side panel)
+			// and changes with it, so the zoom-out limit is recomputed on every resize.
+			// getBoundsZoom clamps to the current minZoom, so lift that limit while measuring;
+			// a section narrower than the map (1002 px) needs a negative zoom.
+			const fitZoom = (m: Leaflet.Map) => {
+				m.options.minZoom = -5;
+				return m.getBoundsZoom(bounds);
 			};
+			const fit = () => {
+				const m = map!;
+				const fullyOut = m.getZoom() <= (m.options.minZoom ?? 0) + 0.01;
+				m.invalidateSize();
+				const min = fitZoom(m);
+				m.setMinZoom(min);
+				if (fullyOut || m.getZoom() <= min) m.fitBounds(bounds);
+			};
+			map.setMinZoom(fitZoom(map));
 			map.fitBounds(bounds);
-			fit();
-			map.on('resize', fit);
+			resizer = new ResizeObserver(fit);
+			resizer.observe(container);
 			overlay = L.layerGroup().addTo(map);
 		});
 		return () => {
 			disposed = true;
+			resizer?.disconnect();
 			map?.remove();
 		};
 	});
