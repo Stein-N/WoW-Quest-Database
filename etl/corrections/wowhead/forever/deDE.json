@@ -614,6 +614,1119 @@
    "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
    "fetched": "2026-10-02",
    "v": 2
+  },
+  "4116": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4117": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, was wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4118": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4119": {
+   "name": "Verderbter Nachtdrache",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, was wie eine Nachtdrachenpflanze aussieht. Die Früchte, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (4)",
+   "completion": "Ihr wendet vier cenarische Pflanzensalben auf die Nachtdrachenpflanze an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4144": {
+   "name": "Blutblütensprösslinge",
+   "progress": "Das ist mein Plan, $N: Zieht los und sammelt ein paar Blutblütensprösslinge - Ihr wisst schon, das sind Pflanzen, die noch nicht ganz ausgetrieben haben, und bringt sie mir. Dann werde ich sehen, was man mit dem Dunst der Atal'ai anfangen kann.$B$BIhr haltet mich vielleicht für rachsüchtig ... Und damit liegt Ihr absolut richtig!$B$BDie Wahrheit ist, ich weiß, wie man hier wegkommt, aber solange Larion nicht zugibt, dass ich Recht habe, rühre ich mich nicht von der Stelle!$B$BUnd nun hinfort mit Euch. Sucht diese Blutblütensprösslinge, dann gönnen wir uns ein bisschen Spaß!$BBlutblütensprössling (3)",
+   "completion": "Dann mal los, $N! Damit werden wir Larions Aufmerksamkeit erringen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4148": {
+   "name": "Blutblütenschrumpfer",
+   "progress": "Damit der Schrumpfer funktioniert, brauchen wir ein Exemplar der Kreaturen, für die er eingestellt werden soll. Geht zum Krater und holt einen Blutblütensprössling. Dann kann ich ihn so einstellen, dass er bei Muigins kleinen Freunden funktioniert...$B$BWenn der Typ nicht so stur wäre, könnten wir alle schon längst auf dem Heimweg sein. Aber jetzt muss ich ihm erst einmal beweisen, dass mir seine Faxen nicht das Geringste ausmachen!$BBlutblütensprössling (1)",
+   "completion": "Sieht aus, als würde es perfekt funktionieren, $N. Und nicht vergessen: Benutzt diesen Schrumpfer, sobald Ihr auf einen dieser Plagegeister stoßt!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4221": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4222": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4295": {
+   "name": "Rocknots Bier",
+   "progress": "Oh, Bier! Was würde ich nicht für etwas Dunkeleisenbier geben! Schnell, ich werde langsam nüchtern! Das weiß ich, weil mir die Nüchternheit die Sinne trübt... und weil es Euch aussehen lässt wie der $R, den ich letzte Woche erschlagen habe!$BDunkeleisenbierbecher (2)",
+   "completion": "Was ist denn das? Ah! Das riecht wie Dunkeleisenbier! Das Trinken verschleiert meine Sicht, aber ich sehe, dass Ihr, werter Herr, ein echter Freund seid!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4343": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4381": {
+   "name": "Kristallflicker",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr grüne und gelbe Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination Euch oder Eure Verbündeten heilen.$BGelber Machtkristall (10)$BGrüner Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4382": {
+   "name": "Kristallkraft",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr grüne und blaue Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination Euren Geist steigern.$BGrüner Machtkristall (10)$BBlauer Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4383": {
+   "name": "Kristallbarriere",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr grüne und rote Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination Euren Schutz vor körperlichem Schaden stärken.$BRoter Machtkristall (10)$BGrüner Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4384": {
+   "name": "Kristallschwächer",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr rote und blaue Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination die Verteidigung eines Gegners schwächen.$BRoter Machtkristall (10)$BBlauer Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4385": {
+   "name": "Kristallsprengladung",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr rote und gelbe Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination eine starke Explosion auslösen, die Euren Feinden Schaden zufügt.$BRoter Machtkristall (10)$BGelber Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4386": {
+   "name": "Kristallspitze",
+   "progress": "Mit Hilfe der Pylon-Tafel könnt Ihr blaue und gelbe Machtkristalle miteinander verbinden.$B$BLaut J.D.s Handbuch könnt Ihr mit dieser Kombination einen Schild erschaffen, der Euren Feinden Schaden zufügt.$BBlauer Machtkristall (10)$BGelber Machtkristall (10)",
+   "completion": "Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$B$BDie daraus entstandene Kombination gehört nun Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4401": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4403": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4443": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4444": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4445": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4446": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4447": {
+   "name": "Verderbter Nachtdrache",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Nachtdrachenpflanze aussieht. Die Früchte, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (4)",
+   "completion": "Ihr wendet vier cenarische Pflanzensalben auf die Nachtdrachenpflanze an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4448": {
+   "name": "Verderbter Nachtdrache",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Nachtdrachenpflanze aussieht. Die Früchte, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (4)",
+   "completion": "Ihr wendet vier cenarische Pflanzensalben auf die Nachtdrachenpflanze an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4461": {
+   "name": "Verderbte Peitscherwurzel",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Peitscherwurzelpflanze aussieht. Die sichtbaren Wurzeln der Pflanze sehen zäh und ledrig aus und ein schleimiger Film tropft von der Pflanze. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (3)",
+   "completion": "Ihr wendet drei cenarische Pflanzensalben auf die Peitscherwurzel an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4462": {
+   "name": "Verderbter Nachtdrache",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Nachtdrachenpflanze aussieht. Die Früchte, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (4)",
+   "completion": "Ihr wendet vier cenarische Pflanzensalben auf die Nachtdrachenpflanze an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4463": {
+   "name": "Buchband des Nachsinnens",
+   "progress": "Übergebt mir die Komponenten, sterbliches Geschöpf.$B$BDes Weiteren benötige ich Bezahlung in Gestalt von dreißig Goldstücken für diese Schöpfung.$BSchwarzer Diamant (1)$BSchwarzes Blut der Gequälten (1)$BMuskelmagen-Kaugummi (1)$BBuchband des Nachsinnens (1)$BBenötigtes Geld: 30 (1)",
+   "completion": "Nehmt den Plunder, Dummkopf. Und verlasst mich, damit ich mich meinen Studien widmen kann!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4464": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4465": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4466": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4467": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4481": {
+   "name": "Buchband der Konstitution",
+   "progress": "Für jedes Ding auf dieser Welt gilt es, einen Preis zu bezahlen. Und der Preis für den speziellen Gegenstand, den Ihr wünscht, beläuft sich auf dreißig Goldstücke.$B$BSelbstverständlich werde ich den Großteil der Komponenten, die Ihr eingesammelt habt, für mich selbst zurückbehalten. Doch sorgt Euch nicht, Ihr sollt Euren Plunder erhalten.$BSchwarzer Diamant (1)$BLungensaft-Cocktail (1)$BBuchband der Konstitution (1)$BNachtdrachenodem (4)$BBenötigtes Geld: 30 (1)",
+   "completion": "Es ist eine Schande für sein Andenken... dass ein sterbliches Geschöpf wie Ihr seine Lebensaufgabe vollendet!$B$BNehmt Euer Gemisch und hebt Euch hinfort!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4482": {
+   "name": "Buchband der Hartnäckigkeit",
+   "progress": "Dreißig Goldstücke, $R. Dreißig Goldstücke und die benötigten Komponenten.$BSchwarzer Diamant (1)$BBuchband der Hartnäckigkeit (1)$BKristallbarriere (4)$BAuge von Kajal (1)$BBenötigtes Geld: 30 (1)",
+   "completion": "Es hat Kariel mehrere Eurer Lebensspannen gekostet, den Buchband fertig zu stellen, den Ihr jetzt in der Hand haltet, $R. Und wozu das alles? Damit sein Jünger in der brennenden Steppe stehen und seine Forschungen missbrauchen kann, um ein unendliches Verlangen nach dem Arkanen zu befriedigen ... Verflucht sei diese elende Sucht.$B$BEuer Mangel an Mitgefühl und Eure unstillbare Gier ekeln mich an. Hinfort mit Euch!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4483": {
+   "name": "Buchband der Widerstandsfähigkeit",
+   "progress": "Wenn es Widerstandsfähigkeit ist, die Ihr wünscht, so benötige ich dreißig Goldstücke.$BSchwarzer Diamant (1)$BKristallspitze (4)$BBrennende Essenz (1)$BBuchband der Widerstandsfähigkeit (1)$BBenötigtes Geld: 30 (1)",
+   "completion": "Auch andere Buchbände sind in dieser Welt verloren gegangen. Verloren an Orten, die zu betreten Ihr nie wagen würdet. Orte, die Euch beten lassen würden, dass es sie nicht gibt.$B$BIch werde die Energien dieser Komponenten in mich aufsaugen. Und Ihr werdet die überschüssigen Rückstände erhalten...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4484": {
+   "name": "Buchband der Gier",
+   "progress": "Vergeudet meine Zeit nicht, $R. Gebt mir das, was ich benötige. Dreißig Goldstücke und die Komponenten.$BSchwarzer Diamant (1)$BBuchband der Gier (1)$BPeitscherwurzelknollen (4)$BKristallkraft (4)$BBenötigtes Geld: 30 (1)",
+   "completion": "Mein Kopf hämmert... Die Energien der unendlichen Weiten, die unser Universum ausmachen... ARGGH!$B$B<Mathredis scheint große Schmerzen zu haben.>$B$BNehmt, was Ihr wünscht, und geht!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4561": {
+   "name": "Test auf Unreinheiten - Un'Goro Krater",
+   "progress": "Ihr nehmt eine Brühschleimerprobe aus dem Un'Goro Krater und gebt etwas davon in die verschiedenen Röhren und Bechergläser auf dem Tisch. Als alles Mögliche zu blubbern und zu zischen anfängt, verändert der Brühschleimer seine Farbe. Dann kommt der Prozess zum Abschluss. Die Flüssigkeiten beruhigen sich wieder und Ihr seht eine kleine Petrischale, die Eure geläuterten Un'Goro-Brühschleimerproben sowie einige andere Rückstände enthält.$BUn'Goro-Brühschleimer-Probe (1)",
+   "completion": "Ihr hebt die Petrischale mit der Brühschleimerprobe hoch. Der einzige Weg, um herauszufinden, ob die Probe rein genug ist, wird sein, die Schale zu öffnen und deren Inhalt selbst zu untersuchen. Im besten Falle findet Ihr eine Probe, die Chemiker Fuelys Ansprüchen genügt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4603": {
+   "name": "Funkelmatastisch",
+   "progress": "Der Funkelmat 5200 ist leer und wartet auf ein schmutzverkrustetes Objekt zum Säubern sowie auf drei Silbermünzen, um loszulegen!$BSchmutzverkrustetes Objekt (1)$BBenötigtes Geld: 3 (1)",
+   "completion": "Der Funkelmat 5200 erwacht hin und her schlingernd zum Leben. Innen wird der hilflose Schmutz, der das eingelegte Objekt verkrustet hat, vom Gnomen-Lösungsmittel der Maschine pulverisiert.$B$BDer Funkelmat 5200 kommt zum Stillstand, angekündigt durch ein vertrautes \"Ding!\". Der Aufnahmebehälter der Maschine springt auf und offenbart eine ordentlich eingewickelte Schachtel.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4604": {
+   "name": "Funkelmatastisch",
+   "progress": "Der Funkelmat 5200 ist leer und wartet auf ein schmutzverkrustetes Objekt zum Säubern sowie auf drei Silbermünzen, um loszulegen!$BSchmutzverkrustetes Objekt (1)$BBenötigtes Geld: 3 (1)",
+   "completion": "Der Funkelmat 5200 erwacht hin und her schlingernd zum Leben. Innen wird der hilflose Schmutz, der das eingelegte Objekt verkrustet hat, vom Gnomen-Lösungsmittel der Maschine pulverisiert.$B$BDer Funkelmat 5200 kommt zum Stillstand, angekündigt durch ein vertrautes \"Ding!\". Der Aufnahmebehälter der Maschine springt auf und offenbart eine ordentlich eingewickelte Schachtel.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4605": {
+   "name": "Der Funkelmat 5200!",
+   "completion": "Der Funkelmat 5200 stoppt so schnell, wie er losgelegt hat. Ein einfaches \"Ding\" ist aus der Maschine zu hören und der Aufnahmebehälter der Maschine springt auf. Im Funkelmat 5200 liegt eine kleine Schachtel, die von einem Schleifchen umschlungen ist. Offensichtlich verpackt die Maschine ein Objekt, nachdem sie die Schmutzverkrustung entfernt hat. Selbst wenn die Maschine nicht funktioniert hat, ist der Gegenstand jetzt immerhin in einer hübschen Schachtel verpackt.$B$BTja, es gibt nur einen Weg herauszufinden, ob sie den Gegenstand gesäubert hat oder nicht...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4606": {
+   "name": "Der Funkelmat 5200!",
+   "completion": "Der Funkelmat 5200 stoppt so schnell, wie er losgelegt hat. Ein einfaches \"Ding\" ist aus der Maschine zu hören und der Aufnahmebehälter der Maschine springt auf. Im Funkelmat 5200 liegt eine kleine Schachtel, die von einem Schleifchen umschlungen ist. Offensichtlich verpackt die Maschine ein Objekt, nachdem sie die Schmutzverkrustung entfernt hat. Selbst wenn die Maschine nicht funktioniert hat, ist der Gegenstand jetzt immerhin in einer hübschen Schachtel verpackt.$B$BTja, es gibt nur einen Weg herauszufinden, ob sie den Gegenstand gesäubert hat oder nicht...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4661": {
+   "name": "Test für Verderbnis - Teufelswald",
+   "progress": "Ihr nehmt eine Brühschlammerprobe aus dem Teufelswald und gebt etwas davon in die verschiedenen Röhren und Bechergläser auf dem Tisch. Als alles Mögliche zu blubbern und zu zischen anfängt, verändert der Schleim seine Farbe. Dann kommt der Prozess zum Abschluss. Die Flüssigkeiten beruhigen sich wieder und Ihr seht eine kleine Petrischale, die Eure veränderten Teufelswaldschleimproben und einige andere Rückstände enthält.$BTeufelswaldschleimprobe (1)",
+   "completion": "Ihr hebt die Petrischale mit der Brühschleimerprobe hoch. Der einzige Weg, um herauszufinden, ob die Probe rein genug ist, wird sein, die Schale zu öffnen und deren Inhalt selbst zu untersuchen. Im besten Falle findet Ihr eine Probe, die Chemiker Fuelys Ansprüchen genügt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4785": {
+   "name": "Feiner Goldfaden",
+   "completion": "Bitte sehr, $N. Und bitte richtet doch Menara Grüße von uns aus.$B$BWir erwarten große Dinge von Euch. Wenn die Legion in die Knie gezwungen ist, wird man bestimmt Euren Namen rufen und Eure Kraft preisen. Ich kann es kaum erwarten!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4801": {
+   "name": "E'ko der Frostsäbler",
+   "progress": "In Winterspring da werdeta gegen große Katzens kämpfen müssen, das sin' de Frostsäblers. Diese Biesties sin' unglaublich schnell un' gerissen. Wenn Ihr auch so schnell wie 'n Frostsäbler sein wollt, dann bringt mir das E'ko, das Ihr von ihnen kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko eines Frostsäblers (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4802": {
+   "name": "E'ko der Winterfelle",
+   "progress": "In Winterspring da werdeta gegen fehlgeleitete Kreaturens kämpfen, das sin' de Winterfellfurbolgse. Weil ihr Anführer das so wollt', ham die unglaubliche Kraft gekriegt. Wenn Ihr auch so stark wie 'n Winterfell sein wollt, dann bringt mir das E'ko, das Ihr von ihnen kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko der Winterfelle (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4803": {
+   "name": "E'ko eines Splitterzahns",
+   "progress": "In Winterspring, da sin' große Bärens mit extrem dicken Bälgens. Diese Splitterzahnbären kriegen davon so viel Schutz, dasse unheimlich viel Zeugs widerstehen könn'. Wenn Ihr gegen Feuer auch so widerstandsfähig sein wollt, dann bringt mir das E'ko, das Ihr von 'nem Splitterzahn kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko eines Splitterzahns (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4804": {
+   "name": "E'ko der Eiswindschimären",
+   "progress": "In Winterspring, da müssta gegen große fliegende Kreaturens kämpfen, das sin' de Eiswindschimären. Diese Biesties könn' Frostmagie wirken. Wenn Ihr gegen Frost auch so widerstandsfähig sein wollt, dann bringt mir das E'ko, das Ihr von 'ner Eiswindschimäre kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko einer Eiswindschimäre (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4805": {
+   "name": "E'ko der Eisdistelyetis",
+   "progress": "In Winterspring, da müssta gegen große Kreaturens kämpfen, das sin' de Eisdistelyetis. Diese Viecher bewegen sich nur langsam, aber se könn' Dank dem dicken Fell 'ne Menge Prügel einstecken. Wenn Ihr auch so gut wie die Angriffen ausweich'n wollt, dann bringt mir das E'ko, das Ihr von ihnen kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko eines Eisdistelyetis (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4806": {
+   "name": "E'ko der Frosthagelriesen",
+   "progress": "In Winterspring habta gegen de großen Eisriesens gekämpft, de Frosthagel. Die verlassen sich auf rohe Gewalt und Kraft. Wenn Ihr auch so stark wie 'n Frosthagelriese sein wollt, dann bringt mir das E'ko, das Ihr von ihnen kriegt.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko der Frosthagelriesen (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4807": {
+   "name": "E'ko der Wildekin",
+   "progress": "In Winterspring, da müssta gegen Kreaturens kämpfen, die ham anscheinend angeborene magische Fertigkeitens. Diese Wildekinses könn' echt starke Magie anwenden. Wenn Ihr Euren Intellekt erweitern wollt, dann bringt mir das E'ko von allen denen Eulenbiesters, die Ihr dort findet.$B$BNich' vergessen: Ihr müsst 'n Behälter von Mau'ari in Eurem Inventar haben, wenn Ihr Euch E'ko schnappen wollt.$BE'ko eines Wildekins (3)",
+   "completion": "Mau'ari kann für $N 'n Juju machen... Benutzt 'n Behälter von Mau'ari, um das Juju auf Euch oder Eure Verbündeten zu wirken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5042": {
+   "name": "Agammagans Kraft",
+   "progress": "Ich benötige 4 Blutsplitter, wenn Ihr Agammagans Kraft wünscht, $R.$B$BEure Feinde werden vor Eurer Kraft erzittern, wenn Ihr über diesen Segen verfügen würdet.$B$BDie größten Krieger der Grimmhauer sind mit solcher Stärke ausgestattet!$BBlutsplitter (4)",
+   "completion": "Wenn nur Quetschzahn frei wäre, um diejenigen zu dezimieren, die ihn betrogen haben! <schnaubt>$B$BIch danke Euch, dass Ihr durch das Sammeln dieser Splitter noch mehr Borstennacken vernichtet habt. Setzt Eure Arbeit bitte weiter fort und ich werde Euch weiterhin helfen. <schnaubt>",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5043": {
+   "name": "Agammagans Beweglichkeit",
+   "progress": "Man sagt, dass die größten Späher meines Stammes in ihrer Genauigkeit unübertroffen seien und kein Schurke <schnaubt> ihrer Schnelligkeit im Kampf standhalten könne.$B$BBringt mir 4 Blutsplitter und ich werde Euch noch flinker machen als jeder lebende Stacheleber.$BBlutsplitter (4)",
+   "completion": "Möge Eure Zielgenauigkeit unfehlbar sein und Eure Waffe Euch nie im Stich lassen, $R.$B$BAgammagans Geist ist mit Euch. Kehrt zu mir zurück, wenn Ihr wünscht. Quetschzahn wird Euch wieder segnen, wenn der große Gott der Eber mich als würdig ansieht.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5044": {
+   "name": "Weisheit von Agammagan",
+   "progress": "Die Schamanen und Geomanten der Stacheleberstämme <schnaubt> nutzen die Kraft von Agammagan im Kampf und bei ihren Ritualen, $R.$B$BWenn auch Ihr die zusätzliche Macht von Agammagans Segen für Eure Zauber wünscht, dann bringt mir 4 Blutsplitter, und Quetschzahn wird Euch helfen.$BBlutsplitter (4)",
+   "completion": "Eure Feinde sollten Euch noch mehr fürchten, $R.$B$BErzählt Quetschzahn Geschichten von Eurer Schlauheit im Kampf, wenn wir uns das nächste Mal treffen - sei es in diesem Leben oder im nächsten.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5045": {
+   "name": "Steigerung des Geistes",
+   "progress": "Krieger aller Art <schnaubt> benötigen einen starken Geist. Er treibt Euch zu größeren Leistungen, wenn alle Hoffnung verloren ist. Das ist den Grimmhauern nicht <schnaubt> unbekannt. Wir sind ein spiritueller Stamm... wir sind stolzer auf unsere Verbindung zu Agammagan als auf unsere Leistungsfähigkeit <schnaubt> im Kampf.$B$BBringt mir 4 Blutsplitter und ich werde Euch für den Kampf segnen. <schnaubt>$BBlutsplitter (4)",
+   "completion": "Unsere größten Krieger und unsere größten <schnaubt> Schamanen würden Eure Willenskraft beneiden, $R.$B$BErledigt noch mehr dieser Borstennacken, wissend, dass sie Euch nicht stoppen können!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5046": {
+   "name": "Klingenhaut",
+   "progress": "Alle, die <schnaubt> in den Kampf eintreten, benötigen Schutz. Ihre Knochen müssen stark sein. Ihre Haut zäh. <schnaubt> Mein Stamm weiß das auch und um den natürlichen Schutz zu verstärken, den wir durch unsere Stacheln und unsere Haut erhalten, <schnaubt> rufen wir Agammagan an, uns vor Schaden zu schützen, bevor wir in den Krieg ziehen.$B$BBringt mir 4 Blutsplitter <schnaubt> und ich werde Euch den gleichen Schutz gewähren.$BBlutsplitter (4)",
+   "completion": "Zieht in den Krieg, $R.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5058": {
+   "name": "Mrs. Dalsons Tagebuch",
+   "completion": "Ein Tagebuch mit vergilbten Seiten liegt aufgeschlagen da, sodass man den letzten Eintrag lesen kann:$B$B\"Ich weiß nicht, was passieren wird, jetzt, wo Harold sich verwandelt hat. Es hat mich meine ganze Kraft gekostet, ihn zu dem einzigen Ort zu schleppen, den ich finden konnte, in dem er sicher eingesperrt ist und nicht herauskommen kann. Den Schlüssel habe ich bei mir und ich kann nur beten, dass es funktionieren wird ...$B$BIch hoffe, ich schaffe es, hier herauszukommen, aber dazu brauche ich Geld. Unsere ganzen Sachen sind alle im Schrank, glaube ich ... und jetzt, wo ich darüber nachdenke - trägt Harold den Schlüssel dazu nicht bei sich?$B$BIch muss darüber schlafen. Im Augenblick bin ich todmüde.\"",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5059": {
+   "name": "Weggeschlossen",
+   "progress": "Der von Splittern gezeichnete Türrahmen des Plumpsklos sieht aus, als ob wiederholt und unablässig versucht worden wäre, die Tür gewaltsam zu öffnen. Sie ist derzeit von außen fest verschlossen.$B$BAls Ihr an der Tür rüttelt, hört Ihr aus dem Inneren ein kehliges Stöhnen! Was auch immer sich im Inneren befindet, es klingt nicht freundlich.$BDalsons Plumpskloschlüssel (1)",
+   "completion": "Mit dem Schlüssel, den Ihr bei dem Skelett der ehemaligen Mrs. Dalson gefunden habt, schließt Ihr die Tür zum Plumpsklo auf. Ein blutdurstiger Ghul, der wer weiß wie lange dort gefangen war, springt aus dem Schuppen.$B$BAls Ihr das markerschütternde Gekreisch des Ghuls hört, mit dem er auf Eure Anwesenheit reagiert, wird Euch klar, dass der einstige Bauer Dalson nicht mehr zu retten ist.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5060": {
+   "name": "Weggeschlossen",
+   "progress": "Vor Euch steht ein sehr stabiler Schrank, sicher verschlossen mit einem eingebauten Schloss. Die Vorderseite des Schranks ist mit tiefen Kratzern und Riefen übersät. Offensichtlich sind das die Zeichen zahlreicher und gewaltsamer fehlgeschlagener Versuche, die Geheimnisse zu enthüllen, die der Schrank derzeit verbirgt.$B$BWenn Ihr diesen Schrank öffnen wollt, müsst Ihr den Schlüssel finden.$BDalsons Schrankschlüssel (1)",
+   "completion": "Der Schlüssel aus den ghulischen Überresten des Bauern Dalson passt perfekt in das Schloss. Die Türen des Schranks schwingen auf und enthüllen verschiedene Gegenstände, die intakt sind und recht wertvoll erscheinen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5122": {
+   "name": "Das Medaillon des Glaubens",
+   "progress": "Die Macht dieser Kapelle gibt mir die Kraft, der Verderbnis in meinem Herzen zu widerstehen. Wenn ich sie verlasse, werde ich zu einem Todesritter. Aber es gibt ein Medaillon, das Medaillon des Glaubens, das mir so viel Kraft geben wird, dass ich trotzdem gehen kann.$B$BBitte, $N, findet das Medaillon für mich. Es wird von Malor dem Eifrigen bewacht, einem wahnsinnigen Mitglied der Scharlachroten Bruderschaft. Er lebt tief in der scharlachroten Bastion im westlichen Stratholme.$BMedaillon des Glaubens (1)",
+   "completion": "Ihr habt das Medaillon bekommen! Jetzt kann ich die Kapelle verlassen und meine Pflicht erfüllen.$B$BDiese Pflicht besteht darin, die Bestie zu töten, die dabei half, mich und so viele meiner Brüder und Schwestern zu verderben: Baron Rivendare!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5125": {
+   "name": "Aurius' Abrechnung",
+   "completion": "$N, ich sterbe... aber meine Seele ist gerettet. Dafür schulde ich Euch mehr, als man mit Worten ausdrücken kann. Bitte, nehmt dies... und kämpft weiter so mutig, $C!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5150": {
+   "name": "Dadanga ist hungrig!",
+   "progress": "Dadanga sieht zu Euch auf, während Ihr auf sie zu geht. Sie scheint auf etwas zu hoffen...$B$BSie hat wahrscheinlich Hunger!$B$BIm Krater muss irgendetwas wachsen, was die perfekte Leckerei für einen riesigen Pflanzenfresser ist. Dadanga ist ein großes Mädchen; was immer Ihr ihr bringt... es muss viel davon sein!$BBlutblütensprössling (15)",
+   "completion": "Als Ihr die Triebe vor sie hinlegt, scheint Dadanga erfreut zu sein.$B$BSie stubst ein kleines, braun eingepacktes Paket in Eure Richtung, quasi als Austausch für den Leckerbissen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5218": {
+   "name": "Der Kessel des Teufelssteinfelds",
+   "progress": "Der Seuchenkessel der Geißel steht vor Euch und speit große Mengen Toxin in die Luft. Eine kleine, unauffällige Zugangsklappe befindet sich in der großen Plattform des Kessels.$B$BDa Ihr den Kessellord bereits besiegt und seinen Schlüssel an Euch genommen habt, könnt Ihr die geeigneten Reagenzien in den Kessel geben, um ein Gegenmittel gegen die Seuche zu schaffen.$BArkanbeschleuniger (1)$BKnöcherner Aufstachler (6)$BRunenstoff (4)",
+   "completion": "Nach Hinzufügen der Reagenzien zu dem Gemisch des Kessels beginnt sich die Farbe und Beschaffenheit der Wolke zu ändern, die er ausspeit. Angehörige der Geißel, die sich irgendwo in der Nähe des Kessels befinden, scheinen zu straucheln, als die neuen Komponenten in die Umgebung gelangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5221": {
+   "name": "Der Kessel von Dalsons Tränenfeld",
+   "progress": "Der Seuchenkessel der Geißel steht vor Euch und speit große Mengen Toxin in die Luft. Eine kleine, unauffällige Zugangsklappe befindet sich in der großen Plattform des Kessels.$B$BDa Ihr den Kessellord bereits besiegt und seinen Schlüssel an Euch genommen habt, könnt Ihr die geeigneten Reagenzien in den Kessel geben, um ein Gegenmittel gegen die Seuche zu schaffen.$BArkanbeschleuniger (1)$BSomatischer Verstärker (5)$BRunenstoff (4)",
+   "completion": "Nach Hinzufügen der Reagenzien zu dem Gemisch des Kessels beginnt sich die Farbe und Beschaffenheit der Wolke zu ändern, die er ausspeit. Angehörige der Geißel, die sich irgendwo in der Nähe des Kessels befinden, scheinen zu straucheln, als die neuen Komponenten in die Umgebung gelangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5224": {
+   "name": "Der Kessel des trostlosen Felds",
+   "progress": "Der Seuchenkessel der Geißel steht vor Euch und speit große Mengen Toxin in die Luft. Eine kleine, unauffällige Zugangsklappe befindet sich in der großen Plattform des Kessels.$B$BDa Ihr den Kessellord bereits besiegt und seinen Schlüssel an Euch genommen habt, könnt Ihr die geeigneten Reagenzien in den Kessel geben, um ein Gegenmittel gegen die Seuche zu schaffen.$BArkanbeschleuniger (1)$BSomatischer Verstärker (5)$BRunenstoff (4)",
+   "completion": "Nach Hinzufügen der Reagenzien zu dem Gemisch des Kessels beginnt sich die Farbe und Beschaffenheit der Wolke zu ändern, die er ausspeit. Angehörige der Geißel, die sich irgendwo in der Nähe des Kessels befinden, scheinen zu straucheln, als die neuen Komponenten in die Umgebung gelangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5227": {
+   "name": "Der Kessel von Gahrrons Trauerfeld",
+   "progress": "Der Seuchenkessel der Geißel steht vor Euch und speit große Mengen Toxin in die Luft. Eine kleine, unauffällige Zugangsklappe befindet sich in der großen Plattform des Kessels.$B$BDa Ihr den Kessellord bereits besiegt und seinen Schlüssel an Euch genommen habt, könnt Ihr die geeigneten Reagenzien in den Kessel geben, um ein Gegenmittel gegen die Seuche zu schaffen.$BArkanbeschleuniger (1)$BEktoplasmaresonator (4)$BRunenstoff (4)",
+   "completion": "Nach Hinzufügen der Reagenzien zu dem Gemisch des Kessels beginnt sich die Farbe und Beschaffenheit der Wolke zu ändern, die er ausspeit. Angehörige der Geißel, die sich irgendwo in der Nähe des Kessels befinden, scheinen zu straucheln, als die neuen Komponenten in die Umgebung gelangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5237": {
+   "name": "Mission erfüllt!",
+   "completion": "$N, Eure erfolgreiche Umarbeitung der Kessel ist ein überwältigender Sieg für uns!$B$BAlle, die sich hier in meinem Umfeld befinden, mögen Folgendes hören: Für Dienste am Königreich Stormwind und der Allianz, die über die gebotenen Pflichten hinausgingen - trotz wenig Erfolg versprechender Chancen und im Angesicht unglaublicher Gefahren, möchte ich $N dies geben und ihn unserer unvergänglichen Dankbarkeit als wahren Helden der Allianz versichern. Danke, sage ich!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5238": {
+   "name": "Mission erfüllt!",
+   "completion": "$N, Eure erfolgreiche Umarbeitung der Kessel ist ein überwältigender Sieg für uns!$B$BAlle, die sich hier in meinem Umfeld befinden, mögen Folgendes hören: Für Dienste an den Verlassenen und an der Horde, die weit über die erwarteten Pflichten hinausgingen - trotz wenig Erfolg versprechender Chancen und im Angesicht unglaublicher Gefahren, möchte ich $N dies geben und ihn unserer unvergänglichen Dankbarkeit als wahren Helden der Horde versichern. Hussah!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5401": {
+   "name": "Anstecknadel der Argentumdämmerung",
+   "completion": "Alle, die für die Argentumdämmerung das Böse bekämpfen, müssen unsere Anstecknadel tragen. Wenn Ihr eine solche tragt, erhaltet Ihr das Recht, Belohnungen in Anspruch zu nehmen, die unsere Rüstmeister anzubieten haben.$B$BWährend Ihr die Nadel tragt, könnt Ihr Euch Geißelsteine von erschlagenen Mitgliedern der Geißel holen; das sind Insignien, die sie manchmal besitzen. Beschafft Euch diese Insignien und bringt sie mir. Für alle, die Ihr abgebt, erhaltet Ihr unsere Marke des Heldentums - die Ehrenmarke der Argentumdämmerung.$B$BErfüllt Euer Schicksal, $C ... stürzt Euch noch heute in den Kampf!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5402": {
+   "name": "Geißelsteine des Dieners",
+   "progress": "Der Geißelstein des Dieners ist die Insignie des Fußvolkes der Geißel. Man findet sie manchmal bei den schwächeren Truppen, die in den Pestländern stationiert sind, obwohl der Begriff 'schwächere' natürlich relativ betrachtet werden muss. Die Geißel sollte, ganz gleich wo sie sich befindet, niemals unterschätzt werden.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zwanzig dieser Insignien - ein Tausch, den ich freudig ausführe, vorausgesetzt, Ihr habt genug Geißelsteine!$BGeißelstein des Dieners (20)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BDie Marken dienen zwei Zwecken. Erstens können sie verwendet werden, um Euren Stand innerhalb der Argentumdämmerung zu fördern; das könnte Euch zu Möglichkeiten und Belohnungen verhelfen, die unseren geehrten und geachteten Verbündeten vorbehalten sind. Zweitens könnt Ihr sie, zusammen mit Münzen, an unsere Rüstmeister weitergeben, als Bezahlung für einige der kostspieligeren Gegenstände der Dämmerung.$B$BWozu Ihr Euch auch entscheidet, wisset, dass Ihr Euch Eure Anstecknadel verdient. Gut gemacht!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5403": {
+   "name": "Geißelsteine des Eindringlings",
+   "progress": "Der Geißelstein des Eindringlings ist die Insignie der Elitetruppen der Geißel. Man findet sie manchmal bei den stärkeren Truppen, die in den Pestländern stationiert sind. Das Erschlagen einer solchen Kreatur ist wahrlich eine Herausforderung, aber eine, die jemand, der sich den Sieg über das Böse auf die Fahne geschrieben hat, mit Freude erfüllen sollte.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zehn dieser Insignien. Bringt sie mir und ich werde sicherstellen, dass Ihr Eure gerechte Belohnung erhaltet.$BGeißelstein des Eindringlings (10)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BJede Ehrenmarke, die an einen würdigen Empfänger vergeben wird, ist ein Zeichen, dass sich das Schicksal gegen die Geißel wendet. Da mehr und mehr Helden die Geißel in ihren eigenen Ländern bekämpfen, wird die Argentumdämmerung sicherlich in erster Reihe stehen, wenn die Zeit kommt, Krieg über das ultimative Böse der Geißel zu bringen. Ich hoffe, dass der Mut, den Ihr gezeigt habt, um Eure Marke zu erlangen, auch dann den Sieg davontragen wird!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5404": {
+   "name": "Geißelsteine des Verderbers",
+   "progress": "Der Geißelstein des Verderbers ist die Insignie der Oberanführer der Geißel. Ein mächtiges Wesen, das eine Autoritätsposition über der Geißel innehat, wird immer einen besitzen. Eine solch bösartige Kreatur zu erschlagen, würde die Sache der Argentumdämmerung und alle guten Sachen sicherlich voranbringen!$B$BIm Namen der Argentumdämmerung werde ich Euch eine Ehrenmarke im Tausch für jeweils eine dieser Insignien geben. Seid vorsichtig, wenn Ihr diese Insignien holt, $N ... mit solch mächtigen Wesen ist nicht zu spaßen.$BGeißelstein des Verderbers (1)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BAuf solche Art eine Ehrenmarke zu erhalten, zeigt, dass Ihr ein wahrer Held der Sache des Guten seid. Wir schätzen alle Bemühungen, die gegen die Geißel aufgebracht werden, aber einen ihrer Anführer auszuschalten, bedeutet wahrlich, ihnen eine vernichtende Niederlage beizubringen!$B$BFür die Dämmerung, mein Bruder.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5405": {
+   "name": "Anstecknadel der Argentumdämmerung",
+   "completion": "Alle, die für die Argentumdämmerung das Böse bekämpfen, müssen unsere Anstecknadel tragen. Wenn Ihr eine solche tragt, erhaltet Ihr das Recht, Belohnungen in Anspruch zu nehmen, die unsere Rüstmeister anzubieten haben.$B$BWährend Ihr die Nadel tragt, könnt Ihr Euch Geißelsteine von erschlagenen Mitgliedern der Geißel holen; das sind Insignien, die sie manchmal besitzen. Beschafft Euch diese Insignien und bringt sie mir. Für alle, die Ihr abgebt, erhaltet Ihr unsere Marke des Heldentums - die Ehrenmarke der Argentumdämmerung.$B$BErfüllt Euer Schicksal, $C ... stürzt Euch noch heute in den Kampf!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5406": {
+   "name": "Geißelsteine des Verderbers",
+   "progress": "Der Geißelstein des Verderbers ist die Insignie der Oberanführer der Geißel. Ein mächtiges Wesen, das eine Autoritätsposition über der Geißel innehat, wird immer einen besitzen. Eine solch bösartige Kreatur zu erschlagen, würde die Sache der Argentumdämmerung und alle guten Sachen sicherlich voranbringen!$B$BIm Namen der Argentumdämmerung werde ich Euch eine Ehrenmarke im Tausch für jeweils eine dieser Insignien geben. Seid vorsichtig, wenn Ihr diese Insignien holt, $N ... mit solch mächtigen Wesen ist nicht zu spaßen.$BGeißelstein des Verderbers (1)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BAuf solche Art eine Ehrenmarke zu erhalten, zeigt, dass Ihr ein wahrer Held der Sache des Guten seid. Wir schätzen alle Bemühungen, die gegen die Geißel aufgebracht werden, aber einen ihrer Anführer auszuschalten, bedeutet wahrlich, ihnen eine vernichtende Niederlage beizubringen!$B$BFür die Dämmerung, mein Bruder.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5407": {
+   "name": "Geißelsteine des Eindringlings",
+   "progress": "Der Geißelstein des Eindringlings ist die Insignie der Elitetruppen der Geißel. Man findet sie manchmal bei den stärkeren Truppen, die in den Pestländern stationiert sind. Das Erschlagen einer solchen Kreatur ist wahrlich eine Herausforderung, aber eine, die jemand, der sich den Sieg über das Böse auf die Fahne geschrieben hat, mit Freude erfüllen sollte.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zehn dieser Insignien. Bringt sie mir und ich werde sicherstellen, dass Ihr Eure gerechte Belohnung erhaltet.$BGeißelstein des Eindringlings (10)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BJede Ehrenmarke, die an einen würdigen Empfänger vergeben wird, ist ein Zeichen, dass sich das Schicksal gegen die Geißel wendet. Da mehr und mehr Helden die Geißel in ihren eigenen Ländern bekämpfen, wird die Argentumdämmerung sicherlich in erster Reihe stehen, wenn die Zeit kommt, Krieg über das ultimative Böse der Geißel zu bringen. Ich hoffe, dass der Mut, den Ihr gezeigt habt, um Eure Marke zu erlangen, auch dann den Sieg davontragen wird!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5408": {
+   "name": "Geißelsteine des Dieners",
+   "progress": "Der Geißelstein des Dieners ist die Insignie des Fußvolkes der Geißel. Man findet sie manchmal bei den schwächeren Truppen, die in den Pestländern stationiert sind, obwohl der Begriff 'schwächere' natürlich relativ betrachtet werden muss. Die Geißel sollte, ganz gleich wo sie sich befindet, niemals unterschätzt werden.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zwanzig dieser Insignien - ein Tausch, den ich freudig ausführe, vorausgesetzt, Ihr habt genug Geißelsteine!$BGeißelstein des Dieners (20)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BDie Marken dienen zwei Zwecken. Erstens können sie verwendet werden, um Euren Stand innerhalb der Argentumdämmerung zu fördern; das könnte Euch zu Möglichkeiten und Belohnungen verhelfen, die unseren geehrten und geachteten Verbündeten vorbehalten sind. Zweitens könnt Ihr sie, zusammen mit Münzen, an unsere Rüstmeister weitergeben, als Bezahlung für einige der kostspieligeren Gegenstände der Dämmerung.$B$BWozu Ihr Euch auch entscheidet, wisset, dass Ihr Euch Eure Anstecknadel verdient. Gut gemacht!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5421": {
+   "name": "Fisch im Eimer",
+   "progress": "Ich werde jeden belohnen, der mein Leben ein bisschen einfacher macht... Ich genieße es, so wenig wie möglich zu tun, Mann!$B$BUnter den Docks hier in Shadowprey habe ich viele Schalentierfallen. Wenn Ihr so freundlich wärt, meine Arbeit zu tun und meine Schalentiere einzusammeln, dann werde ich Euch mit etwas belohnen, das Ihr wollt... Ihr wisst schon, was ich meine, eh? Für jeweils fünf Schalentiere, die Ihr mir bringt, gebe ich Euch einen feinen Blutbauchfisch!$BSchalentier (5)",
+   "completion": "Echt toll, nichts ist besser als getane Arbeit, vor allem, wenn sie jemand anderes getan hat... eh?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5503": {
+   "name": "Anstecknadel der Argentumdämmerung",
+   "completion": "Alle, die für die Argentumdämmerung das Böse bekämpfen, müssen unsere Anstecknadel tragen. Wenn Ihr eine solche tragt, erhaltet Ihr das Recht, Belohnungen in Anspruch zu nehmen, die unsere Rüstmeister anzubieten haben.$B$BWährend Ihr die Nadel tragt, könnt Ihr Euch Geißelsteine von erschlagenen Mitgliedern der Geißel holen; das sind Insignien, die sie manchmal besitzen. Beschafft Euch diese Insignien und bringt sie mir. Für alle, die Ihr abgebt, erhaltet Ihr unsere Marke des Heldentums - die Ehrenmarke der Argentumdämmerung.$B$BErfüllt Euer Schicksal, $C ... stürzt Euch noch heute in den Kampf!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5505": {
+   "name": "Der Schlüssel zur Scholomance",
+   "completion": "Tja, da ist er, $N, der fertige Skelettschlüssel. Ich bin eigentlich absolut sicher, dass dieser Schlüssel Euch Zutritt zur Scholomance verschaffen wird. Es gibt aber nur eine Möglichkeit, um absolut sicher zu sein, dass er wirklich funktioniert. Verschwendet keine Zeit darauf, es auszuprobieren, sage ich.$B$BViel Glück. Möget Ihr auch weiterhin Licht in die Dunkelheit bringen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5508": {
+   "name": "Geißelsteine des Verderbers",
+   "progress": "Der Geißelstein des Verderbers ist die Insignie der Oberanführer der Geißel. Ein mächtiges Wesen, das eine Autoritätsposition über der Geißel innehat, wird immer einen besitzen. Eine solch bösartige Kreatur zu erschlagen, würde die Sache der Argentumdämmerung und alle guten Zwecke sicherlich voranbringen!$B$BIm Namen der Argentumdämmerung werde ich Euch eine Ehrenmarke im Tausch für jeweils eine dieser Insignien geben. Seid vorsichtig, wenn Ihr diese Insignien holt, $N... mit solch mächtigen Wesen ist nicht zu spaßen.$BGeißelstein des Verderbers (1)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BAuf solche Art eine Ehrenmarke zu erhalten, zeigt, dass Ihr ein wahrer Held der Sache des Guten seid. Wir schätzen alle Bemühungen, die gegen die Geißel aufgebracht werden, aber einen ihrer Anführer auszuschalten, bedeutet wahrlich, ihnen eine vernichtende Niederlage beizubringen!$B$BFür die Dämmerung, mein Bruder.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5509": {
+   "name": "Geißelsteine des Eindringlings",
+   "progress": "Der Geißelstein des Eindringlings ist die Insignie der Elitetruppen der Geißel. Man findet sie manchmal bei den stärkeren Truppen, die in den Pestländern stationiert sind. Das Erschlagen einer solchen Kreatur ist wahrlich eine Herausforderung, aber eine, die jemand, der sich den Sieg über das Böse auf die Fahne geschrieben hat, mit Freude erfüllen sollte.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zehn dieser Insignien. Bringt sie mir und ich werde sicherstellen, dass Ihr Eure gerechte Belohnung erhaltet.$BGeißelstein des Eindringlings (10)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BJede Ehrenmarke, die an einen würdigen Empfänger vergeben wird, ist ein Zeichen, dass sich das Schicksal gegen die Geißel wendet. Da mehr und mehr Helden die Geißel in ihren eigenen Ländern bekämpfen, wird die Argentumdämmerung sicherlich in erster Reihe stehen, wenn die Zeit kommt, Krieg über das ultimative Böse der Geißel zu bringen. Ich hoffe, dass der Mut, den Ihr gezeigt habt, um Eure Marke zu erlangen, auch dann den Sieg davontragen wird!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5510": {
+   "name": "Geißelsteine des Dieners",
+   "progress": "Der Geißelstein des Dieners ist die Insignie des Fußvolkes der Geißel. Man findet sie manchmal bei den schwächeren Truppen, die in den Pestländern stationiert sind, obwohl der Begriff 'schwächere' natürlich relativ betrachtet werden muss. Die Geißel sollte, ganz gleich wo sie sich befindet, niemals unterschätzt werden.$B$BDie Argentumdämmerung bietet derzeit eine Ehrenmarke im Tausch für zwanzig dieser Insignien - ein Tausch, den ich freudig ausführe, vorausgesetzt, Ihr habt genug Geißelsteine!$BGeißelstein des Dieners (20)",
+   "completion": "Glückwunsch, $N... ich bin erfreut, Euch mit einer Ehrenmarke der Argentumdämmerung zu belohnen!$B$BDie Marken dienen zwei Zwecken. Erstens können sie verwendet werden, um Euren Stand innerhalb der Argentumdämmerung zu fördern; das könnte Euch zu Möglichkeiten und Belohnungen verhelfen, die unseren geehrten und geachteten Verbündeten vorbehalten sind. Zweitens könnt Ihr sie, zusammen mit Münzen, an unsere Rüstmeister weitergeben, als Bezahlung für einige der kostspieligeren Gegenstände der Dämmerung.$B$BWozu Ihr Euch auch entscheidet, wisset, dass Ihr Euch Eure Anstecknadel verdient. Gut gemacht!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5511": {
+   "name": "Der Schlüssel zur Scholomance",
+   "completion": "Tja, da ist er, $N, der fertige Skelettschlüssel. Ich bin eigentlich absolut sicher, dass dieser Schlüssel Euch Zutritt zur Scholomance verschaffen wird. Es gibt aber nur eine Möglichkeit, um absolut sicher zu sein, dass er wirklich funktioniert. Verschwendet keine Zeit darauf, es auszuprobieren, sage ich.$B$BViel Glück. Mögen Eure Siege Euch auch weiterhin Ruhm und Macht bringen, während Ihr die Scholomance in Schutt und Asche legt!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5519": {
+   "name": "Der Ogeranzug der Gordok",
+   "progress": "Ihr braucht einen weiteren Ogeranzug, richtig? Da ich wohl so schnell nirgendwo hingehe - bringt mir einfach die gleichen Sachen, um die ich Euch zuvor gebeten habe und ich fertige Euch einen weiteren Ogeranzug an.$BRunenstoffballen (4)$BUnverwüstliches Leder (8)$BRunenfaden (2)$BOgergerbemittel (1)",
+   "completion": "Bitte sehr, $N - Zieht dieses Ding an und Ihr habt zehn Minuten Zeit, um zu tun, was immer Ihr wollt. Alles gute!$B$BOh, und falls Ihr einen Schlüssel findet der mich hier herausholen könnte, LASST ES MICH VERDAMMT NOCHMAL WISSEN!!!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5525": {
+   "name": "Befreit Knot!",
+   "progress": "Sie nennen ihn den Gordokfesselschlüssel - Naja, zumindest tun es diese \"Tonnenweise Spaß auf zwei Beinen\"-Oger. Ich denke einer der Oger müsste ihn haben, leider weiß ich nicht genau welcher. Möglicherweise ist die Chance größer, dass einer der Wachen ihn hat...$B$BWas erzähle ich da? - sicher habt Ihr ihn schon, oder? Ist es der da??!$BGordokfesselschlüssel (1)",
+   "completion": "Vielen Dank, dass Ihr mich befreit habt! Ihr seid meine Nummer eins.$B$BIch hab's doch gewusst, dass ich mein Leben nicht als Ogerhappen beende!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5528": {
+   "name": "Der Gordokgeschmackstest",
+   "completion": "Ihr jetzt de' Big Boss hier. Also kriegen freie Kostproben meiner besseren Gebräue! Diese Tränke werden Euch verstärken UND Euch Schädel weghauen! Das ist da' guta Zeug, Chef... Ihr versuchen und dann Kreeg glauben!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5627": {
+   "name": "Sterne von Elune",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5634": {
+   "name": "Verzweifeltes Gebet",
+   "objectivesText": [
+    "Sprecht mit Hohepriester Rohan in Ironforge."
+   ],
+   "details": "Ein Priester hat kürzlich unsere Hallen besucht und Euch gesucht, $R. Er sagte, er hätte den Auftrag, Euch zu finden, und dass Ihr so bald wie möglich zur Halle der Mysterien in Ironforge zurückkehren solltet. Wenn Ihr ankommt, sucht Hohepriester Rohan auf - er wird Euch mehr berichten.$B$BDas Licht sei mit Euch, $N.",
+   "completion": "Ihr habt dem Licht einen großen Dienst erwiesen, indem Ihr ein leuchtendes Beispiel für diejenigen wurdet, die durch dieses gefährliche Land und in die Ferne reisen. Bitte, nehmt diese Lektion als Dank für all das an, was Ihr getan habt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5640": {
+   "name": "Verzweifeltes Gebet",
+   "objectivesText": [
+    "Sprecht mit Hohepriester Rohan in Stormwind."
+   ],
+   "details": "Gepriesen seien Elune und Euer Licht, $N.$B$BZurzeit erlernen viele unseres Ordens Fähigkeiten, die ihren Glauben an Elune widerspiegeln. Wenn ich mich nicht irre, gilt das Gleiche auch für Euren Orden.$B$BWenn Eure Angelegenheiten in Darnassus abgeschlossen sind, solltet Ihr Euren Hohepriester zur weiteren Ausbildung aufsuchen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5641": {
+   "name": "Züchtigung",
+   "completion": "Aus Euch könnte ein großartiger $C werden, $N. Leistet weiter so gute Arbeit!$B$BIhr habt bereits bewiesen, dass Ihr bereit für die Schlacht seid. Vielleicht ist es an der Zeit, Euch ein wenig mehr beizubringen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5652": {
+   "name": "Verhexung der Schwäche",
+   "completion": "Ihr tätet gut daran, diese Lektion zu beachten. Die Verhexung der Schwäche wird Euch im Kampf von großem Nutzen sein. Später werde ich Prüfungen für Euch bereithalten, mit Hilfe derer Ihr Euch weiterentwickeln und Euren Wert für den Stamm beweisen könnt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5658": {
+   "name": "Berührung der Schwäche",
+   "completion": "Ah, junger $C, ich bin froh, dass Ihr hierher zurückgekehrt seid. Ich würde Euch gerne eine Lektion lehren, die Ihr besser nicht vergessen solltet. Seid Ihr bereit?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5672": {
+   "name": "Elunes Anmut",
+   "completion": "Indem Ihr Euch Elune und unserem Volk widmet, habt Ihr einen Status erreicht, den nicht alle von uns erlangen können. Es ist Tradition, dass Euch nun noch größere Fähigkeiten für Eure Hingabe gelehrt werden sollen. Nehmt Ihr an?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5676": {
+   "name": "Arkane Rückkopplung",
+   "completion": "Wir waren gezwungen, einige Magien zu lernen, um uns vor dem zu schützen, was üblicherweise unser stärkster Feind genannt wird: dem Arkanen.$B$BIch würde Euch einen Zauber beibringen, um Euch und Euren Kameraden bei der Verteidigung gegen diejenigen zu helfen, die diese Macht einsetzen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5678": {
+   "name": "Arkane Rückkopplung",
+   "objectivesText": [
+    "Sprecht mit der Hohepriesterin Laurena in Stormwind."
+   ],
+   "details": "Es ist an der Zeit für Euch, nach Stormwind zurückzukehren. Eure Vorgesetzten dort haben Euch zur Ausbildung zurückgerufen. Und obwohl mich das ein wenig verstört, so sind Euer Volk und meines doch Verbündete und ich würde niemals Verrat an diesem Bündnis begehen.$B$BIch möchte Euch gegenüber offen sein ... Mein Argwohn jeglicher arkanen Magie gegenüber, möge sie nun göttlich inspiriert sein oder nicht, ist immer noch stark in mir.$B$BIhr werdet verstehen, wovon ich spreche, wenn Ihr zu Eurer Kathedrale des Lichts zurückkehrt. Sprecht mit der Hohepriesterin Laurena, wenn Ihr dort ankommt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5679": {
+   "name": "Dunkles Opfer",
+   "completion": "Ich würde Euch 'Verschlingende Seuche' beibringen, wenn Ihr Euch bereit dazu fühlt, $N. Dieser Spruch ist nicht gerade von kleiner Macht und wird Euch in den kommenden Schlachten helfen. Übt damit - es wird später Prüfungen dazu geben.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5680": {
+   "name": "Schattenwache",
+   "completion": "Eure Riten werden bald kommen. Fürs Erste lehre ich Euch einen Zauber, der Euch von großem Nutzen sein wird, wenn Ihr mit Euren Feinden kämpft.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5882": {
+   "name": "Salbe durch Jagd",
+   "progress": "Wer ein cenarisches Leuchtfeuer besitzt, kann mit diesem die verderbten Seelensplitter in den besudelten Bestien sehen, die zum Wohl der Allgemeinheit vernichtet werden. Ich schleife Splitter zu einem nutzbaren Reagenz, das für die Herstellung von cenarischer Pflanzensalbe verwendet wird. Wir werden diese Salbe benutzen, um verderbte Pflanzen wieder in gesunde zu verwandeln.$B$BIm Austausch für diese Splitter werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BVerderbter Seelensplitter (6)",
+   "completion": "Sehr gut, hier habt Ihr Eure cenarischen Pflanzensalben. Durchsucht den Teufelswald nach verderbten Pflanzen, $N! Wo auch immer sie sind, benutzt die Salbe, die ich Euch gab, um sie zu läutern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5883": {
+   "name": "Salbe durch Bergbau",
+   "progress": "Wenn Ihr im Besitz eines cenarischen Leuchtfeuers seid, während Ihr im Teufelswald Bergbau betreibt, könnt Ihr das besudelte Vitriol sehen, von dem eine Ader Rohmetall verderbt wird. Ich weiß, wie man dieses Vitriol läutert und zu einem Reagenz verarbeitet, aus dem cenarische Pflanzensalbe hergestellt wird. Diese Salbe verwendet Ihr dann an Pflanzen, die Ihr draußen in der Wildnis findet und die gerettet werden müssen.$B$BWenn Ihr verderbtes Vitriol gesammelt habt, werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BBesudeltes Vitriol (4)",
+   "completion": "Sehr gut, hier habt Ihr etwas cenarische Pflanzensalbe. Wenn Ihr beim Bergbau im Teufelswald noch mehr Vitriol findet, dann hebt es auf jeden Fall für mich auf! Je mehr Ihr davon findet, desto mehr Salbe kann ich herstellen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5884": {
+   "name": "Salbe durch Sammlung",
+   "progress": "Mit einem cenarischen Leuchtfeuer können erfahrene Kräuterkundige die heimtückische Teufelsranke erkennen, ein bösartiges Produkt der Verderbnis des Teufelswalds. Dank meiner Arbeit verfüge ich über das Wissen, die Teufelsranke zu einem Säuberungsreagenz verarbeiten zu können. Dieses verwenden wir für etwas, das wir jetzt cenarische Pflanzensalbe nennen.$B$BWenn Ihr im Teufelswald Kräuter sammelt, dann solltet Ihr, solange Ihr das Leuchtfeuer bei Euch habt, auf Teufelsranken stoßen. Im Austausch gegen das, was Ihr mir bringt, werde ich Euch fertige cenarische Pflanzensalbe geben.$BTeufelsunhold (4)",
+   "completion": "Ausgezeichnete Arbeit, $N, jedes Teilchen hiervon wird, sobald wir es geläutert haben, dabei helfen, den Teufelswald zurückzugewinnen. Hier, nehmt einige Dosen der cenarischen Pflanzensalbe und begebt Euch in den Wald. Wir dürfen nicht damit zögern, das Land der Verderbnis zu entreißen, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5885": {
+   "name": "Salbe durch Kürschnerei",
+   "progress": "Mit einem cenarischen Leuchtfeuer können gut ausgebildete Kürschner die Flecken besudelter Haut auf den im Teufelswald erbeuteten Fellen erkennen. Ich wandle diese scheinbar nutzlosen Flecken in eine dicke Paste um, mit der die cenarische Pflanzensalbe aktiviert wird. Wenn Ihr hier im Teufelswald Eure Beute häutet, dann solltet Ihr unbedingt immer ein Leuchtfeuer bei Euch haben.$B$BSobald Ihr besudelte Flecken gesammelt habt, bringt sie mir. Ich gebe Euch etwas cenarische Pflanzensalbe dafür, die ich bereits hergestellt habe.$BBesudelter Hautfetzen (5)",
+   "completion": "Genau das brauche ich. Hier, nehmt diese Pflanzensalben und verwendet sie, um den Teufelswald der Verderbnis zu entreißen. Wir müssen beharrlich bleiben, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5886": {
+   "name": "Salbe durch Entzauberung",
+   "progress": "Die Macht eines entzauberten magischen Gegenstandes ist in der von ihm geschaffenen Essenz spürbar. Ich habe einen Weg gefunden, um die rohe Essenz, die von Verzauberern verwendet wird, in ein geeignetes Reagenz für die cenarische Pflanzensalbe umzuwandeln. Dazu braucht Ihr kein cenarisches Leuchtfeuer; jeder angemessen entzauberte Gegenstand, der geringe Netheressenzen abgibt, ist dafür geeignet.$B$BIch brauche nur eine einzige geringe Netheressenz; im Austausch dafür werde ich Euch cenarische Pflanzensalben geben. Die Essenz ist hochwirksam - ganz wenig davon genügt, um viel zu erreichen.$BGeringe Netheressenz (1)",
+   "completion": "Hier sind einige cenarische Pflanzensalben - ich brauche nur eine geringe Netheressenz, um sie herzustellen, $N. Die Essenz ist bei weitem der wirksamste Gegenstand, um Schwerter zu Pflugscharen zu machen, wenn man so sagen will. Wenn Ihr mehr Salbe braucht, dann kommt wieder zu mir!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5887": {
+   "name": "Salbe durch Jagd",
+   "progress": "Wer ein cenarisches Leuchtfeuer besitzt, kann mit diesem die verderbten Seelensplitter in den besudelten Bestien sehen, die zum Wohl der Allgemeinheit vernichtet werden. Ich schleife Splitter zu einem nutzbaren Reagenz, das für die Herstellung von cenarischer Pflanzensalbe verwendet wird. Wir werden diese Salbe benutzen, um verderbte Pflanzen wieder in gesunde zu verwandeln.$B$BIm Austausch für diese Splitter werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BVerderbter Seelensplitter (6)",
+   "completion": "Sehr gut, hier habt Ihr Eure cenarischen Pflanzensalben. Durchsucht den Teufelswald nach verderbten Pflanzen, $N! Wo auch immer sie sind, benutzt die Salbe, die ich Euch gab, um sie zu läutern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5888": {
+   "name": "Salbe durch Bergbau",
+   "progress": "Wenn Ihr im Besitz eines cenarischen Leuchtfeuers seid, während Ihr im Teufelswald Bergbau betreibt, könnt Ihr das besudelte Vitriol sehen, von dem eine Ader Rohmetall verderbt wird. Ich weiß, wie man dieses Vitriol läutert und zu einem Reagenz verarbeitet, aus dem cenarische Pflanzensalbe hergestellt wird. Diese Salbe verwendet Ihr dann an Pflanzen, die Ihr draußen in der Wildnis findet und die gerettet werden müssen.$B$BWenn Ihr verderbtes Vitriol gesammelt habt, werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BBesudeltes Vitriol (4)",
+   "completion": "Sehr gut, hier habt Ihr etwas cenarische Pflanzensalbe. Wenn Ihr beim Bergbau im Teufelswald noch mehr Vitriol findet, dann hebt es auf jeden Fall für mich auf! Je mehr Ihr davon findet, desto mehr Salbe kann ich herstellen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5889": {
+   "name": "Salbe durch Sammlung",
+   "progress": "Mit einem cenarischen Leuchtfeuer können erfahrene Kräuterkundige die heimtückische Teufelsranke erkennen, ein bösartiges Produkt der Verderbnis des Teufelswalds. Dank meiner Arbeit verfüge ich über das Wissen, die Teufelsranke zu einem Säuberungsreagenz verarbeiten zu können. Dieses verwenden wir für etwas, das wir jetzt cenarische Pflanzensalbe nennen.$B$BWenn Ihr im Teufelswald Kräuter sammelt, dann solltet Ihr, solange Ihr das Leuchtfeuer bei Euch habt, auf Teufelsranken stoßen. Im Austausch gegen das, was Ihr mir bringt, werde ich Euch fertige cenarische Pflanzensalbe geben.$BTeufelsunhold (4)",
+   "completion": "Ausgezeichnete Arbeit, $N, jedes Teilchen hiervon wird, sobald wir es geläutert haben, dabei helfen, den Teufelswald zurückzugewinnen. Hier, nehmt einige Dosen der cenarischen Pflanzensalbe und begebt Euch in den Wald. Wir dürfen nicht damit zögern, das Land der Verderbnis zu entreißen, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5890": {
+   "name": "Salbe durch Kürschnerei",
+   "progress": "Mit einem cenarischen Leuchtfeuer können gut ausgebildete Kürschner die Flecken besudelter Haut auf den im Teufelswald erbeuteten Fellen erkennen. Ich wandle diese scheinbar nutzlosen Flecken in eine dicke Paste um, mit der die cenarische Pflanzensalbe aktiviert wird. Wenn Ihr hier im Teufelswald Eure Beute häutet, dann solltet Ihr unbedingt immer ein Leuchtfeuer bei Euch haben.$B$BSobald Ihr besudelte Flecken gesammelt habt, bringt sie mir. Ich gebe Euch etwas cenarische Pflanzensalbe dafür, die ich bereits hergestellt habe.$BBesudelter Hautfetzen (5)",
+   "completion": "Genau das brauche ich. Hier, nehmt diese Pflanzensalben und verwendet sie, um den Teufelswald der Verderbnis zu entreißen. Wir müssen beharrlich bleiben, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5891": {
+   "name": "Salbe durch Entzauberung",
+   "progress": "Die Macht eines entzauberten magischen Gegenstandes ist in der von ihm geschaffenen Essenz spürbar. Ich habe einen Weg gefunden, um die rohe Essenz, die von Verzauberern verwendet wird, in ein geeignetes Reagenz für die cenarische Pflanzensalbe umzuwandeln. Dazu braucht Ihr kein cenarisches Leuchtfeuer; jeder angemessen entzauberte Gegenstand, der geringe Netheressenzen abgibt, ist dafür geeignet.$B$BIch brauche nur eine einzige geringe Netheressenz; im Austausch dafür werde ich Euch cenarische Pflanzensalben geben. Die Essenz ist hochwirksam - ganz wenig davon genügt, um viel zu erreichen.$BGeringe Netheressenz (1)",
+   "completion": "Hier sind einige cenarische Pflanzensalben - ich brauche nur eine geringe Netheressenz, um sie herzustellen, $N. Die Essenz ist bei weitem der wirksamste Gegenstand, um Schwerter zu Pflugscharen zu machen, wenn man so sagen will. Wenn Ihr mehr Salbe braucht, dann kommt wieder zu mir!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6383": {
+   "name": "Die Jagd in Ashenvale",
+   "completion": "Es gibt drei legendäre Kreaturen, die die Jagd in Ashenvale bilden. Ihr könnt sie suchen und Euch mit ihrer List und Kraft messen. Dabei werdet Ihr hoffentlich auch etwas über Euch selbst lernen. Die Kreaturen sind: der Bär Ursangus, die Nachtsäblerkatze Schattumbra und der Hippogryph Scharfkralle.$B$BDie Kreaturen der Jagd in Ashenvale sind mächtig; möglicherweise benötigt Ihr Unterstützung, um sie zu bezwingen. Wenn Ihr sie besiegt habt, dann bringt mir Beweise Eurer Tat.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6545": {
+   "name": "Warsongläufer-Update",
+   "progress": "Ihr bringt mir also meine Befehle? Es ist immer wieder schön, einen neuen Rekruten mit Temperament und starkem Willen kennen zu lernen.$B$BIhr solltet besser schnell lernen, wenn Ihr hier am Leben bleiben wollt. Die Gefahr durch die Naga wächst, $N. Ich habe alles beobachtet und mich, seit ich hier in diesem Außenposten eintraf, gegen mehrere Angriffe verteidigen müssen.$B$BWenn Ihr Euch entschließen wollt, uns bei unseren Bemühungen beizustehen, sprecht mit einem der anderen hier im Außenposten.$BWarsongbericht (1)",
+   "completion": "So, mein neuer Bericht wird Kadrak alles erklären. Ihr müsst dies so schnell wie möglich zu ihm zurückbringen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6546": {
+   "name": "Warsongvorhut-Update",
+   "progress": "Auf diesem Weg lauern viele Gefahren, $N. Daran solltet Ihr immer denken, wenn Ihr diese Lande bereist. Die Bedrohung durch die Allianz ist nahe.$B$BWir sehen uns an allen Fronten dem Feind gegenüber. Die Satyrn sind eine ernsthafte und verbreitete Macht im östlichen Ashenvale. Ich habe weiterhin herausgefunden, dass die Naga ein großes Gebiet von Azshara übernommen haben.$B$BEs ist schön zu sehen, dass wir unsere Reihen immer noch aufstocken können ... seid auf das gefasst, was vor Euch liegt, $N.$BWarsongbericht (1)",
+   "completion": "Bringt Kadrak meinen neuen Bericht. Schnellstens, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6547": {
+   "name": "Warsongspäher-Update",
+   "progress": "Haltet die Augen offen, $R. Oftmals verstecken sich Elfen in den Schatten...$B$BWir müssen immer wachsam sein. Wir haben sehr hart daran gearbeitet, dieses Land zu erobern, und die Elfen suchen nur nach einer Gelegenheit, es uns abzunehmen.$B$BIch nehme an, Ihr habt neue Befehle von Kadrak für mich?$BWarsongbericht (1)",
+   "completion": "Berichtet Kadrak, wie erfolgreich wir die Nachtelfen hier aufgehalten haben. Unsere Pläne laufen gut.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6581": {
+   "name": "Warsongsägeblätter",
+   "progress": "Direkt aus Ratchet, die Warsongsägeblätter! Jau, die hab ich hier...$B$BAber womit wollt Ihr das bezahlen? Ihr könnt sie nicht einfach so mitnehmen, wisst Ihr! Meine Zeit ist kostbar!$B$BWas ich wirklich brauche, ist eine gute Schusswaffe, die ich auf meine Reisen mitnehmen kann. Ein Mädchen muss sich doch schließlich verteidigen können, wisst Ihr? Es gibt da eine Schusswaffe, die mir wirklich gefällt, und ich bin mir sicher, dass ein Ingenieur kein Problem hätte, so eine anzufertigen.$B$BWenn Ihr mir also eine dieser tödlichen Donnerbüchsen bringen würdet, gebe ich Euch die Sägeblattlieferung. Abgemacht?$BTödliche Donnerbüchse (1)",
+   "completion": "Das ist perfekt - genau das, was ich wollte! Und hier habt Ihr die Lieferung.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6642": {
+   "name": "Gunst der Bruderschaft, Dunkeleisenerz",
+   "progress": "Dunkeleisen, das in der Tiefe zwar reichlich vorkommt, ist innerhalb der Bruderschaft dennoch ein hoch geschätztes Gut. Für die hochheiligen Waffen und Ausrüstungen von Ragnaros wird bevorzugt Dunkeleisen verwendet.$B$BFür 10 Stück Dunkeleisenerz, die Ihr anbietet, steigt Ihr in der Gunst der Bruderschaft.$BDunkeleisenerz (10)",
+   "completion": "Eure Gabe wurde angenommen. Ihr seid in der Gunst gestiegen. Macht so weiter, dann dürft Ihr Euch bald mit den uralten Handwerken beschäftigen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6643": {
+   "name": "Gunst der Bruderschaft, Feuerkern",
+   "progress": "Wehe denen, die im geschmolzenen Kern das Schicksal herausfordern. Der Tod kommt schnell - die Strafe erfolgt ohne Gnade.$B$BViele Anhänger der Bruderschaft sind auf der Suche nach Feuerkernen gefallen.$B$BBietet einen Feuerkern an, dann steigt Ihr in der Gunst der Bruderschaft.$BFeuerkern (1)",
+   "completion": "Eure Gabe wurde angenommen. Ihr seid in der Gunst gestiegen. Macht so weiter, dann dürft Ihr Euch bald mit den uralten Handwerken beschäftigen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6644": {
+   "name": "Gunst der Bruderschaft, Lavakern",
+   "progress": "Die Thoriumbruderschaft versteht Eure Notlage, $R. Deshalb haben wir Lokthos zu einem Handel ermächtigt.$B$BBietet 4 Lavakerne an, dann steigt Ihr in der Gunst der Bruderschaft.$BLavakern (1)",
+   "completion": "Eure Gabe wurde angenommen. Ihr seid in der Gunst gestiegen. Macht so weiter, dann dürft Ihr Euch bald mit den uralten Handwerken beschäftigen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6645": {
+   "name": "Gunst der Bruderschaft, Kernhäute",
+   "progress": "Für viele der hochheiligen Rezepte ist die Haut von Ragnaros' Lieblingstieren erforderlich.$B$BBietet 4 Kernhäute an, die Ihr den glimmenden Kadavern der Kernhunde des geschmolzenen Kerns abgezogen habt, dann steigt Ihr in der Gunst der Bruderschaft.$BKernleder (2)",
+   "completion": "Eure Gabe wurde angenommen. Ihr seid in der Gunst gestiegen. Macht so weiter, dann dürft Ihr Euch bald mit den uralten Handwerken beschäftigen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6646": {
+   "name": "Gunst der Bruderschaft, Blut des Berges",
+   "progress": "Die Tränen des Feuerlords sind wahrlich ein seltener Fund.$B$BBietet 1 Blut des Berges an, dann steigt Ihr in der Gunst der Bruderschaft.$BBlut des Berges (1)",
+   "completion": "Eure Gabe wurde angenommen. Ihr seid in der Gunst gestiegen. Macht so weiter, dann dürft Ihr Euch bald mit den uralten Handwerken beschäftigen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6701": {
+   "name": "Syndikatsembleme",
+   "progress": "Wir liegen schon seit Jahren mit dem Syndikat im Clinch. Was denen an Fertigkeit mangelt, machen sie durch ihre große Zahl wett. Es ist unmöglich, sie schnell genug zu töten, um auch nur den geringsten Rückgang ihrer Population feststellen zu können!$B$BWir haben herausgefunden, dass die beste Möglichkeit, ihrer großen Zahl Herr zu werden, darin besteht, ihnen die Embleme zu stehlen. Hat man einem das Emblem gestohlen, 'kümmern' sie sich intern um das mit Schande bedeckte Mitglied.$B$BRaubt Ihnen die Taschen aus und bringt die Embleme mir oder einer der anderen Wachen.$B$BBeginnt in Durnholde südlich von hier.$BEmblem des Syndikats (1)",
+   "completion": "He, gute Arbeit! Macht so weiter, dann hören die anderen Schurken vielleicht auf, Euch zu bespucken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6741": {
+   "name": "Mehr Beute!",
+   "progress": "Wenn Ihr gegen den Feind kämpft, sammelt die Stücke seiner Rüstung und bringt sie mir. Ich werde diese Stücke nutzen, um Rüstungen für unsere eigenen Truppen herzustellen!$BRüstungsfetzen (20)",
+   "completion": "Und wieder muss ich euch danken, $N. Ihr macht der Horde alle Ehre...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6781": {
+   "name": "Mehr Rüstungsfetzen",
+   "progress": "Im Alteractal wird ständig gekämpft und der Nachschub, den wir aus Ironforge bekommen, reicht nicht, um unsere erfahrenen Truppen auszustatten.$B$BWenn Ihr Rüstungsfetzen auf dem Schlachtfeld findet, dann helft den Kriegsbemühungen und bringt mir diese Stücke!$BRüstungsfetzen (20)",
+   "completion": "Das sind ein paar recht gute Stücke, $N. Ich kann sie nutzen, um neue Ausrüstung für unsere Truppen herzustellen.$B$BWenn ich genug davon bekomme, dann können vielleicht sogar unsere bewährten Kampfeinheiten in den Kampf eintreten!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6801": {
+   "name": "Lokholar der Eislord",
+   "progress": "Ich komme aus Thunder Bluff, $R. Cairne selbst hat dafür gesorgt, dass ich den Frostwolfklan in diesen schrecklichen Zeiten unterstütze.$B$BDoch lasst uns nicht noch mehr Zeit verschwenden. Ihr müsst unsere Feinde niederstrecken und mir ihr Blut bringen. Wenn Ihr ausreichend Blut gesammelt habt, dann kann das Ritual der Beschwörung beginnen.$B$BDer Sieg ist uns sicher, wenn der Lord der Elementare auf die Stormpike-Armee losgelassen wird.$BBlut eines Stormpike-Soldaten (1)",
+   "completion": "Das Blut unserer Feinde wurde vergossen. Ich werde nun dieses Blut, mit dem restlichen gesammelten Blut vermischen. Sobald unser Opfer abgeschlossen ist, wird der Eislord diesen Hunden von den Stormpikeden ganzen Zorn des Frostwolfklans vor Augen führen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6825": {
+   "name": "Ruf der Lüfte - Guses Luftflotte",
+   "progress": "Wir müssen die neue Flotte von Kriegsreitern vorbereiten, $R! Meine Reiter sind bereit, einen Schlag auf dem zentralen Schlachtfeld zu landen, aber zuerst muss ich ihnen den Mund wässrig machen - sie auf den Angriff vorbereiten.$B$BIch benötige ausreichend Soldatenfleisch der Allianz, um eine Flotte zu ernähren! Hunderte Pfund! Ihr könnt das doch sicherlich übernehmen, nicht wahr? Geht schon!$BFleisch eines Stormpike-Soldaten (1)",
+   "completion": "Die Flotte ernährt sich von ihrem Fleisch. Sie verzehrt den Feind.$B$BDer Flug steht unmittelbar bevor!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6826": {
+   "name": "Ruf der Lüfte - Jeztors Luftflotte",
+   "progress": "Ihr habt hart gearbeitet, $N, aber wir haben gerade erst begonnen!$B$BMeine Kriegsreiter müssen das Fleisch ihrer Ziele schmecken. Damit wird ein chirurgischer Schlag gegen unsere Feinde sichergestellt!$B$BMeine Flotte ist die zweitmächtigste in unserem Luftkommando. Daher wird sie beim mächtigsten unserer Gegner zuschlagen. Und dafür benötigt sie das Fleisch der Lieutenants der Allianz.$B$BSputet Euch!$BFleisch eines Stormpike-Lieutenants (1)",
+   "completion": "Mehr! Mehr! Bringt mehr, denn sie müssen bald bereit sein!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6827": {
+   "name": "Ruf der Lüfte - Mulvericks Luftflotte",
+   "progress": "Ich war tagelang in einem Höllenloch der Zwerge eingesperrt. Und das schreit geradezu nach Rache!$B$BWir müssen alles sorgfältig planen.$B$BZuerst benötigen meine Kriegsreiter Ziele, auf die sie sich konzentrieren können - Ziele von hoher Priorität. Ich muss das Fleisch der Kommandanten der Allianz an sie verfüttern. Leider haben sich diese kleinen Mistkerle tief hinter den feindlichen Linien verschanzt! Diese Arbeit ist wahrlich wie geschaffen für Euch.$BFleisch eines Stormpike-Kommandanten (1)",
+   "completion": "Nicht genug! Solch eine Arbeit würde ich von einem Initianden erwarten, aber von Euch, $N? Kommt schon! LASST KNACKEN! Es wird mehr Fleisch benötigt!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6846": {
+   "name": "Der Angriff soll beginnen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6881": {
+   "name": "Ivus der Waldfürst",
+   "progress": "Der Frostwolfklan wird durch eine Besudelung aus Elementarenergie geschützt. Ihre Schamanen stümpern mit Mächten herum, die uns sicherlich alle vernichten werden, wenn sie nicht im Zaum gehalten werden.$B$BDer Schaden ist zu groß geworden, als dass der Kreis ihn noch kontrollieren kann! Wir müssen Ivus zu Hilfe rufen.$B$BDie Soldaten der Frostwolf tragen Elementarglücksbringer, die Sturmkristalle genannt werden. Wir können diese Glücksbringer nutzen, um Ivus zu beschwören. Zieht los und holt die Kristalle, $N!$BSturmkristall (1)",
+   "completion": "Gut gemacht, $N. Ich werde diese Kristalle dafür benutzen, die bereits angesammelte Magie noch weiter zu verstärken. Wenn sich am Ende genug Kraft gesammelt hat, werde ich die gesammelten Energien bündeln, um den Waldfürsten herbeizurufen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6901": {
+   "name": "Startet den Angriff!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6941": {
+   "name": "Ruf der Lüfte - Vipores Luftflotte",
+   "progress": "Die Eliteeinheiten der Horde, die die Linien bewachen, müssen erledigt werden! Ich vertraue Euch die Aufgabe an, diese Herde von Wilden auszudünnen. Kehrt mit den Medaillen ihrer Offiziere und Legionäre zu mir zurück. Wenn ich das Gefühl habe, dass ausreichend Gesindel erledigt wurde, werde ich den Luftschlag anordnen.$BFrostwolf Medaille des Lieutenants (1)",
+   "completion": "Der Klan wird bald bereit sein. Setzt Eure Bemühungen fort!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6942": {
+   "name": "Ruf der Lüfte - Slidores Luftflotte",
+   "progress": "Meine Greifen sind bereit, an den Frontlinien zuzuschlagen, können den Angriff aber erst vornehmen, wenn die Linien ausgedünnt sind.$B$BDie Krieger der Horde, die mit dem Halten der Frontlinien betraut sind, tragen stolz Verdienstmedaillen an ihrer Brust. Reißt diese Medaillen von ihren verfaulten Körpern und bringt sie mir.$B$BWenn die Frontlinie ausreichend ausgedünnt wurde, werde ich den Luftschlag anordnen! Tod von oben!$BFrostwolf Medaille des Soldaten (1)",
+   "completion": "Immer her damit, Soldat! Die Aerie-Greifen werden im Handumdrehen bereit sein zuzuschlagen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6943": {
+   "name": "Ruf der Lüfte - Ichmans Luftflotte",
+   "progress": "Ihr Mut ist auf einem Tiefpunkt, Soldat. Nach unserem letzten fehlgeschlagenen Luftschlag gegen die Horde wollten sie nicht mehr fliegen! Es liegt an Euch, ihre Moral wieder aufzubauen.$B$BKehrt zum Schlachtfeld zurück und schlagt im Herzen des Befehlsstabs der Horde zu. Erledigt ihre Kommandanten und Wächter. Kehrt mit so vielen ihrer Medaillen zu mir zurück, wie Ihr in Eurem Beutel unterbringen könnt! Ich verspreche Euch, wenn meine Greifen die Beute sehen und das Blut unserer Feinde riechen, werden sie wieder fliegen! Geht jetzt!$BFrostwolf Medaille des Kommandanten (1)",
+   "completion": "Seht Ihr es? Schaut sie Euch an! Sie rappeln sich wieder auf... Bald wird Ichmans Klan erneut im Herzen des Tales zuschlagen! Stormpike wird den Himmel beherrschen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7002": {
+   "name": "Widderledernes Zaumzeug",
+   "progress": "Während einige unserer Soldaten damit beschäftigt sind, Wölfe für den Stallmeister einzufangen, müssen andere für die einfachsten Sachen sorgen, die man beim Reiten braucht. Ich meine Geschirre, klar?$B$BIhr müsst die einheimischen Widder jagen. Genau die Widder, die die Stormpike-Kavallerie als Reittiere benutzt.$B$BTötet sie und bringt mir ihre Häute. Sobald wir genug Häute gesammelt haben, können wir daraus Geschirre für unsere Reiter machen. Die Frostwolfreiter werden wieder reiten!$BAlteracwidderbalg (1)",
+   "completion": "Gut gemacht, Soldat. Ich werde Euch benachrichtigen, sobald wir genug Bälger eingelagert haben.$B$BWeiter so!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7026": {
+   "name": "Widderzaumzeug",
+   "progress": "Die Stormpikegarde kann sich nicht ohne Sättel in die Schlacht stürzen! Wir brauchen Geschirre für unsere Reittiere, schließlich sind wir keine Wilden!$B$BWir könnten zwar einfach die Widder jagen, die in der Nähe unserer Basis herumstreifen, aber das wäre idiotisch. Wenn wir aus ihrem Leder die Geschirre machen, dann haben wir keine Reittiere mehr.$B$BIhr müsst zur Basis des Feindes vorrücken und dort die Frostwölfe töten, die sie als Reittiere benutzen. Bringt mir ihre Häute, damit wir daraus die Geschirre für unsere Kavallerie fertigen können. Geht!$BFrostwolfbalg (1)",
+   "completion": "Gut gemacht, Soldat. Ich werde Euch benachrichtigen, sobald wir genug Bälger eingelagert haben.$B$BWeiter so!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7163": {
+   "name": "Aufstieg und Anerkennung",
+   "progress": "<Kriegsmeister Laggrond salutiert vor Euch.>$B$BJetzt ist eure Zeit gekommen, $N. Ihr habt viel für den Frostwolfklan getan und habt Euch dabei nicht nur als ein Soldat der Frostwolf, sondern auch als Freund bewiesen.$B$BGut gemacht! Zeigt mir Euer Abzeichen!$BAbzeichen der Frostwolf Rang 1 (1)",
+   "completion": "Dieses neue Abzeichen zeigt Euren Rang bei den Frostwolf. Tragt es immer bei Euch$B$BUnd $C... Sterbt mit Ehre.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7164": {
+   "name": "Ehre innerhalb des Klans",
+   "progress": "Es ist gut, Euch wiederzusehen, $C. Ich hatte nicht erwartet, dass Ihr zurückkehren würdet. Ihr habt Euch als tapferer und ehrbarer Soldat der Frostwolf erwiesen.$B$BWieder ist eure Zeit gekommen, $N. Ihr hab einen neuen Rang verdient und damit auch ein neues Abzeichen, das diesen Aufstieg anzeigt.$B$BZeigt mir euer Abzeichen!$BAbzeichen der Frostwolf Rang 2 (1)",
+   "completion": "<Kriegsmeister Laggrond salutiert.>$B$BGeht, $N! Setzt Eure Verteidigung der Frostwolf fort. Dieser Krieg muss gewonnen werden! Für Drek'Thar! Für den Kriegshäuptling!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7165": {
+   "name": "Verdiente Ehrerbietung",
+   "progress": "So viele Gefallene. Blut tränkt die Felder. Aber... Ihr lebt... Ihr habt durchgehalten. Ihr habt unsere Armee zu vielen Siegen geführt. Dafür, Soldat, habt Ihr einen neuen Rang verdient..$B$BZeigt mir euer Abzeichen!$BAbzeichen der Frostwolf Rang 3 (1)",
+   "completion": "<Kriegsmeister Laggrond Brüllt.>$B$BSie haben schon angefangen, Geschichten über Eure Taten zu erzählen, Soldat. Die Stormpikes zittern vor Angst, wenn man euren Namen ausspricht. Weiter so!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7166": {
+   "name": "Legendäre Helden",
+   "progress": "Ihr strahlt Macht und Befehlsgewalt aus, $C. Erhaben in den Augen der Frostwolf - der Feind duckt sich, wenn Euer Name genannt wird.$B$BErhebt Euch, Held der Frostwolf. Erhebt Euch und lasst Euch ehren!$B$BZeigt mir euer Abzeichen!$BAbzeichen der Frostwolf Rang 4 (1)",
+   "completion": "Schon bald wird das ganze Schlachtfeld unter eurem wachsamen Auge liegen. Die Führung über das Tal und seine Truppen wird Euer sein!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7167": {
+   "name": "Das Auge der Führung",
+   "progress": "Drek'Thar singt Euch zu Ehren Heldenweisen und in ganz Kalimdor erzählt man sich von Euren Heldentaten. Der Kriegshäuptling blickt stolz auf Euch herab - Eure unerschütterliche Verteidigung unseres Klans hat ihn tief berührt.$B$BIhr habt Euch das Auge der Führung redlich verdient.$B$BPräsentiert Eure Abzeichen, Kommandant $N.$BAbzeichen der Frostwolf Rang 5 (1)",
+   "completion": "Sammelt die Kraft dieser Auszeichnung. Lasst unsere Feinde Eure Worte hören. Die Macht der Horde ist und bleibt unantastbar!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7168": {
+   "name": "Aufstieg und Anerkennung",
+   "progress": "Die Meisten leben nicht lange genug um sich aus ihrer eigenen Mittelmäßigkeit zu erheben. Ihr habt euch als ein mustergültiger Soldat erwiesen, $C. Die Zeit ist da!$B$BPräsentiert Euer Abzeichen!$BAbzeichen der Stormpike Rang 1 (1)",
+   "completion": "Lasst unsere Feinde sehen, dass ein angesehener Soldat sie besiegt hat! Kämpft für den Ruhm der Stormpike!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7169": {
+   "name": "Ehre innerhalb der Garde",
+   "progress": "Die ganze Basis spricht von Euren Taten auf dem Feld der Ehre! Ihr habt dem Feind schwere Treffer zugefügt und ihre Moral zerschmettert! Dafür habt Ihr einen Ehrenplatz unter den Stormpike verdient$B$BPräsentiert Euer Abzeichen!$BAbzeichen der Stormpike Rang 2 (1)",
+   "completion": "Der König hat von Euren Heldentaten an der Frontlinie gehört, $C. Macht weiter so in Eurer wackeren Verteidigung der Stormpikegarde!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7170": {
+   "name": "Verdiente Ehrerbietung",
+   "progress": "Ich muss es wissen, $N. Wenn Ihr dem Feind direkt ins Auge blickt, seht Ihr dort Furcht? Ducken sie sich in Eurer Gegenwart? Ihnen muss klar sein, dass sie verloren sind!$B$BIhr habt Euch die Ehrerbietung der Garde verdient. Präsentiert Euer Abzeichen!$BAbzeichen der Stormpike Rang 3 (1)",
+   "completion": "Als wir uns zum ersten Mal trafen hätte ich nie geahnt, dass ein werdender Held vor mir steht. Weiter so, Soldat!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7171": {
+   "name": "Legendäre Helden",
+   "progress": "Vor mir steht ein erhabener Held der Allianz.$B$B<Lieutenant Haggerdin salutiert.>$B$BWenige haben solch einen Rang unter den Stormpike verdient. Ich habe gesehen wie der Feind vor Euch fiel. Ich habe ihre Entschlossenheit wanken sehen in Eurer Gegenwart. Wenn Ihr Euch ins Kampfgetümmel stürzt, seid ihr ein leuchtendes Fanal der Hoffnung für unsere Streitkräfte!$B$BPräsentiert Euer Abzeichen!$BAbzeichen der Stormpike Rang 4 (1)",
+   "completion": "Sicherlich werdet Ihr es sein, der das Auge der Führung trägt!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7172": {
+   "name": "Das Auge der Führung",
+   "progress": "Lasst sie Eure Stimme hören, KommandantOverthere! Lasst Sie wissen was Angst bedeutet. Zeigt dem Gegner, über welche Macht die Stormpike in ihren Reihen verfügen!$B$BPräsentiert Euer Abzeichen.$BAbzeichen der Stormpike Rang 5 (1)",
+   "completion": "Ihr seid der Richtige, um unsere Truppen zum Sieg zu führen, Kommandant! Die Soldaten stehen nun unter Eurem Kommando. Sie werden Euren direkten Befehlen Folge leisten. Führt sie an... Vernichtet die Frostwolf.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7221": {
+   "name": "Sprecht mit Ausgrabungsleiter Stonehewer",
+   "objectivesText": [
+    "Sprecht mit Ausgrabungsleiter Stonehewer in der Garnison von Dun Baldar."
+   ],
+   "details": "Ah, $N, Ihr wollt Euch zum Dienst melden, oder? Großartig, die Stormpikes können jeden, der sich freiwillig mustern lässt, gebrauchen!$B$BSprecht mit Ausgrabungsleiter Stonehewer in Dun Baldar. Momentan sucht sie nach Freiwilligen für eine entscheidende Mission im Feindesland. Ihr findet sie unterhalb der Dun Baldar Garnison.$B$BUnd haltet ein Auge offen während Ihr durch Dun Baldar geht. Für einen hart arbeitenden $C gibt es viel zu tun, sofern Ihr nicht davor zurückscheut Euch die Hände schmutzig zu machen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7222": {
+   "name": "Sprecht mit Voggah Deathgrip",
+   "objectivesText": [
+    "Sprecht mit Voggah in Burg Frostwolf."
+   ],
+   "details": "Ah, ein $C! Wir sind alle hoch erfreut Euch hier in Alterac anzutreffen, $N. Zwergische Eindringlinge und ihre Verbündeten sind in unser Tal einmarschiert und wir sind froh über jedes Mitglied der Horde, das uns in dieser gerechten Schlacht zur Seite steht!$B$BSprecht mit Voggah Deathgrip. Er sucht nach Freiwilligen für eine wichtige Mission. Es geht um die Allianzfestung hier im Alteractal!$B$BIhr findet Voggah in Burg Frostwolf.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7341": {
+   "name": "Ein fairer Handel",
+   "progress": "Seid gegrüßt, $R. Ich bin Kolark, Kopfgeldjäger aus Thunder Bluff. Ich habe viele Teile der Welt bereist und so manches erlebt.$B$BAuf meinen Reisen über die südlichen Meere entdeckte ich diese wunderbaren Thoriumpfeile. Zwar besitze ich einen endlosen Vorrat dieser Pfeile, aber dafür keine einzige Patrone mehr. Bah, kein Tauren mit Selbstachtung würde sich je dabei erwischen lassen, wie er einen dieser dürren Bögen benutzt. Die Pfeile sind nutzlos!$B$BIch schlage Euch einen Handel vor: Einen eins zu eins Tausch von Thoriumpatronen gegen meine Thoriumpfeile. Sind wir im Geschäft?$BThoriumpatronen (200)",
+   "completion": "Excellent! Ich bin ein Tauren, der sein Wort hält, $R. Die Pfeile gehören Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7342": {
+   "name": "Pfeile sind was für Memmen",
+   "progress": "Habt Ihr schon einmal so einen verdammten Mist erlebt?! Die letzte Munitionslieferung aus Kharanos ist völlig verbockt worden. Alles was wir jetzt noch an Munition haben, sind diese schwachen, nutzlosen Pfeile! Was zur Hölle soll ich mit 500.000 Thoriumpfeilen anfangen?$B$BIch sag dir was, Kind. Wenn du es schaffst mir Thoriumpatronen zu bringen, gebe ich dir im Austausch dafür Thoriumpfeile. Sind wir im Geschäft?$BThoriumpatronen (200)",
+   "completion": "Abmachung ist Abmachung! Die Pfeile gehören Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7385": {
+   "name": "Eine Gallone Blut",
+   "progress": "Wenn Ihr Euch nützlich machen wollt, spendet mir große Mengen Feindesblut. Ich wäre hocherfreut, Gallonen von Blut entgegen zu nehmen, $N.$BBlut eines Stormpike-Soldaten (5)",
+   "completion": "Das Blut unserer Feinde wurde vergossen. Ich werde nun dieses Blut, mit dem restlichen gesammelten Blut vermischen. Sobald unser Opfer abgeschlossen ist, wird der Eislord erscheinen und diesen Hunden von den Stormpike den ganzen Zorn des Frostwolfklans vor Augen führen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7386": {
+   "name": "Haufenweise Kristalle",
+   "progress": "Es gibt hier Zeiten, in denen Ihr Tage oder sogar Wochen auf den Schlachtfeldern zubringt. Vielleicht könnt Ihr während dieser Zeit nach größeren Gruppen von Frostwolf Sturmkristallen Ausschau halten.$B$BDer Zirkel wäre hocherfreut über derartige Spenden, $N.$BSturmkristall (5)",
+   "completion": "Gut gemacht, $N. Ich werde diese Kristalle dafür benutzen, die bereits angesammelte Magie noch weiter zu verstärken. Wenn sich am Ende genug Kraft gesammelt hat, werde ich die gesammelten Energien bündeln, um den Waldfürsten herbeizurufen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7429": {
+   "name": "Befreit Knot!",
+   "progress": "Sie nennen ihn den Gordokfesselschlüssel - Naja, zumindest tun es diese \"Tonnenweise Spaß auf zwei Beinen\"-Oger. Ich denke einer der Oger müsste ihn haben, leider weiß ich nicht genau welcher. Möglicherweise ist die Chance größer, dass einer der Wachen ihn hat...$B$BWas erzähle ich da? - sicher habt Ihr ihn schon, oder? Ist es der da??!$BGordokfesselschlüssel (1)",
+   "completion": "Vielen Dank, dass Ihr mich befreit habt! Ihr seid meine Nummer eins.$B$BIch hab's doch gewusst, dass ich mein Leben nicht als Ogerhappen beende!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7493": {
+   "name": "Die Reise beginnt erst",
+   "completion": "Ein Drachentöter und erfahrener Lederer? Ihr erstaunt mich immer wieder. Ich fühle mich geehrt.$B$BBitte akzeptiert, was ich Euch jetzt beibringen werde. Wenn Ihr die letzten Überbleibsel des schwarzen Drachenschwarms vernichtet, wird dieses Wissen von unschätzbarem Wert sein.$B$BStellt den Umhang aus den Schuppen der Brutmutter her. Er wird Euch und Eure Verbündeten vor dem feurigen Atem des Lords von Blackrock schützen... Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7497": {
+   "name": "Die Reise beginnt erst",
+   "completion": "Ein Drachentöter und erfahrener Lederer? Ihr erstaunt mich immer wieder. Ich fühle mich geehrt.$B$BBitte akzeptiert, was ich Euch jetzt beibringen werde. Wenn Ihr die letzten Überbleibsel des schwarzen Drachenschwarms vernichtet, wird dieses Wissen von unschätzbarem Wert sein.$B$BStellt den Umhang aus den Schuppen der Brutmutter her. Er wird Euch und Eure Verbündeten vor dem feurigen Atem des Lords von Blackrock schützen... Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7541": {
+   "name": "Dienst an der Horde",
+   "completion": "Unsere Gelehrten werden einige Zeit brauchen, um den Anhänger, den Ihr uns gebracht habt, zu studieren. Allerdings möchte ich Euch für Euren Dienst an der Horde eine kleine Belohnung geben.$B$BDanke, $N. Eure Taten ehren Euch und uns.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7621": {
+   "name": "Eine Warnung",
+   "completion": "$C, Ihr seid dabei eine entscheidene Reihe von Ereignissen zu durchleben, die alle Eure Fähigkeiten auf die Probe stellen sollen.$B$BIch schlage vor, dass Ihr Euch erst einmal anhört, was ich zu erzählen habe.$B$BLasst Euch gewarnt sein, Ihr müsst diese Aufgabe alleine lösen. Es ist ratsam, dass Eure Verbündeten Abstand halten. Die Einmischung anderer wird eine harte Bestrafung zur Folge haben.$B$BDas Schicksal hat Euch, Euch alleine, hierher geführt. Kämpft mit Ehre. Macht Euch das Licht zu Nutze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7633": {
+   "name": "Eine Einführung",
+   "completion": "Euer Eifer und Eure Rechtschaffenheit wurden zur Kenntnis genommen, $C.$B$BWir sind die Uralten, Beschützer dieses einst bedeutenden Waldes. Unsere körperlichen Formen wurden vor 10.000 Jahren zerstört, als Archimonde und die Brennende Legion gegen Hyjal aufmarschierten. Dennoch, unsere Geister blieben unversehrt.$B$BWir haben Aufgaben zu vergeben. Werden diese erfüllt, so werden sie Euch die Geheimnisse der Uralten preisgeben.$B$BWisset, solltet Ihr diese Aufgaben vollenden, so kehrt lediglich zu diesem Felsen zurück und wir werden Euren Ruf erhören.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7652": {
+   "name": "Ein Sonderangebot",
+   "completion": "Okay, Junge, ich habe da ein heißes Angebot für dich.$B$BIch habe hier einige Pläne zur Herstellung von imperialen Plattenrüstungen, die ich gerne loswerden möchte. Das einzige, was ich als Gegenleistung verlange, sind einige Thoriumbarren. Klingt doch gut, oder?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7653": {
+   "name": "Imperialer Plattengürtel",
+   "progress": "Das macht 20 Thoriumbarren für die Pläne des Plattengürtels, Junge.$BThoriumbarren (20)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7654": {
+   "name": "Imperiale Plattenstiefel",
+   "progress": "Thoriumbarren, Junge. Genau 40! Heulst du gleich? Soll ich dich in den Arm nehmen?$B$B<Malyfous lacht lauthals.>$BThoriumbarren (40)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7655": {
+   "name": "Imperiale Plattenarmschienen",
+   "progress": "Du willst die Pläne für die Armschienen? Das ganze kostet dich nur 20 Thoriumbarren.$BThoriumbarren (20)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7656": {
+   "name": "Imperiale Plattenrüstung",
+   "progress": "Junge, für die Pläne der Plattenrüstung krieg' ich 60 Thoriumbarren.$B$BJetzt geht das wieder los. Gleich rennst du wohl wieder zu deinen ach so mächtigen Göttern und jammerst! Stell dich nicht so an, Weichei! Niemand hat behauptet, dass das Leben fair wäre!$BThoriumbarren (60)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7657": {
+   "name": "Imperialer Plattenhelm",
+   "progress": "Gib mir einfach 50 Thoriumbarren und die Pläne für den Helm gehören dir.$BThoriumbarren (50)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7658": {
+   "name": "Imperiale Plattengamaschen",
+   "progress": "Reich mir einfach 60 Thoriumbarren 'rüber und die Pläne für die Gamaschen gehören dir.$B$BJa, ja ich bin dein Ruin. Diese Geschichten muss ich mir jedes mal anhören. Also spar dir den Mist, Weichei.$BThoriumbarren (60)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7659": {
+   "name": "Imperiale Plattenschultern",
+   "progress": "Du willst die Pläne für die Plattenschultern? Das macht 20 Thoriumbarren.$BThoriumbarren (20)",
+   "completion": "Es war mir eine Freude mit dir Geschäfte zu machen!$B$BUnd $N... spar' dir diesen abfälligen Blick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7660": {
+   "name": "Wolfstausch - arktischer Wolf",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7661": {
+   "name": "Wolfstausch - Roter Wolf",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7662": {
+   "name": "Neuer Kodo - Graublauer",
+   "fetched": "2026-10-02",
+   "v": 2
   }
  }
 }

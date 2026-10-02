@@ -629,6 +629,1084 @@
    "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
    "fetched": "2026-10-02",
    "v": 2
+  },
+  "4116": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4117": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4118": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4119": {
+   "name": "Corrupted Night Dragon",
+   "progress": "You have found a sickly, corrupted version of what appears to be a night dragon plant. The fruits that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (4)",
+   "completion": "You apply four Cenarion plant salves to the night dragon. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4144": {
+   "name": "Bloodpetal Sprouts",
+   "progress": "Here's the plan, $N: Go out and collect some bloodpetal sprouts -- you know, the plants that haven't fully sprouted yet, and bring them here. Then I'll see what the Atal'ai haze can do.$B$BYou may think I'm vengeful... Actually, you'd be right about that!$B$BTruth is, I know the way out of here, but until Larion will admit that I'm right, I'm staying right here!$B$BSo off with you, find those bloodpetal sprouts and let's have some fun!$BBloodpetal Sprout (3)",
+   "completion": "Here goes nothing, $N! This will get Larion's attention!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4148": {
+   "name": "Bloodpetal Zapper",
+   "progress": "For the zapper to work, it needs a sample of the target creature. Head out into the crater and collect a Bloodpetal sprout. Then I can calibrate it to work on Muigin's little friends...$B$BIf he weren't so stubborn, we could be on our way home, already... But until then, I'll just have to show him that his little prank doesn't bother me at all!$BBloodpetal Sprout (1)",
+   "completion": "Looks like this is going to work perfectly, $N. Now remember, if you see any of those pests around, don't hesitate to use that zapper!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4221": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4222": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4295": {
+   "name": "Rocknot's Ale",
+   "progress": "Oh, ale! I would kill for some Dark Iron ale!! Quick, I'm getting sober! I know this because sobriety blurs my vision... and it's making you look like the $R I slew last week!$BDark Iron Ale Mug (2)",
+   "completion": "What's this? Ah! It smells like Dark Iron Ale! Drink has blurred my sight, but I can tell that you, sir, are a real friend!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4343": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4381": {
+   "name": "Crystal Restore",
+   "progress": "The Pylon table allows you to combine green power crystals with yellow power crystals.$B$BAccording to J.D.'s manual, this combination can be used to heal yourself or your allies.$BYellow Power Crystal (10)$BGreen Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4382": {
+   "name": "Crystal Force",
+   "progress": "The Pylon table allows you to combine green power crystals with blue power crystals.$B$BAccording to J.D.'s manual, this combination can be used to increase your spirit.$BGreen Power Crystal (10)$BBlue Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4383": {
+   "name": "Crystal Ward",
+   "progress": "The Pylon table allows you to combine green power crystals with red power crystals.$B$BAccording to J.D.'s manual, this combination can be used to strengthen the protection you have against physical damage.$BRed Power Crystal (10)$BGreen Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4384": {
+   "name": "Crystal Yield",
+   "progress": "The Pylon table allows you to combine red power crystals with blue power crystals.$B$BAccording to J.D.'s manual, this combination can be used to weaken an enemy's defenses.$BRed Power Crystal (10)$BBlue Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4385": {
+   "name": "Crystal Charge",
+   "progress": "The Pylon table allows you to combine red power crystals with yellow power crystals.$B$BAccording to J.D.'s manual, this combination can be used to create a large explosion that can inflict damage on your enemies.$BRed Power Crystal (10)$BYellow Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4386": {
+   "name": "Crystal Spire",
+   "progress": "The Pylon table allows you to combine blue power crystals with yellow power crystals.$B$BAccording to J.D.'s manual, this combination can be used to create a shield that does damage to enemies.$BBlue Power Crystal (10)$BYellow Power Crystal (10)",
+   "completion": "Arranging the crystals on the table, you carefully align the colors. As you push the last one into place, a burst of light fuses the crystals together.$B$BThe resulting combination is now yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4401": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4403": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4443": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4444": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4445": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4446": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4447": {
+   "name": "Corrupted Night Dragon",
+   "progress": "You have found a sickly, corrupted version of what appears to be a night dragon plant. The fruits that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (4)",
+   "completion": "You apply four Cenarion plant salves to the night dragon. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4448": {
+   "name": "Corrupted Night Dragon",
+   "progress": "You have found a sickly, corrupted version of what appears to be a night dragon plant. The fruits that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (4)",
+   "completion": "You apply four Cenarion plant salves to the night dragon. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4461": {
+   "name": "Corrupted Whipper Root",
+   "progress": "You have found a sickly, corrupted version of what appears to be a whipper root plant. The visible roots of the plant appear tough and leathery, and a slimy film hangs from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (3)",
+   "completion": "You apply three Cenarion plant salves to the whipper root. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4462": {
+   "name": "Corrupted Night Dragon",
+   "progress": "You have found a sickly, corrupted version of what appears to be a night dragon plant. The fruits that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (4)",
+   "completion": "You apply four Cenarion plant salves to the night dragon. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4463": {
+   "name": "Libram of Rumination",
+   "progress": "Present the components, mortal.$B$BI will also require payment in the form of thirty gold pieces for this creation.$BBlack Diamond (1)$BBlack Blood of the Tormented (1)$BGizzard Gum (1)$BLibram of Rumination (1)$BRequired money: 30 (1)",
+   "completion": "Take your trinket, fool. Leave me to my studies!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4464": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4465": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4466": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4467": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4481": {
+   "name": "Libram of Constitution",
+   "progress": "There is a price to pay for all things in this world. The price for the specific item that you seek is thirty gold pieces.$B$BNaturally, I shall retain the majority of the components which you collected. But worry not, you shall have your trinket.$BBlack Diamond (1)$BLung Juice Cocktail (1)$BLibram of Constitution (1)$BNight Dragon's Breath (4)$BRequired money: 30 (1)",
+   "completion": "It is disgrace to his memory... a mortal, such as yourself, finishing his life's work.$B$BTake your amalgamation and be gone!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4482": {
+   "name": "Libram of Tenacity",
+   "progress": "Thirty gold, $R. Thirty gold and the required components.$BBlack Diamond (1)$BLibram of Tenacity (1)$BCrystal Ward (4)$BEye of Kajal (1)$BRequired money: 30 (1)",
+   "completion": "It took Kariel what would amount to several of your lifetimes to complete the libram that you now hold, $R. All for what? So that his disciple could stand in the Burning Steppes and bastardize his research in order to satiate a never ending arcane craving... Curse this foul addiction.$B$BI am disgusted with your lack of compassion and insatiable greed. Be gone!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4483": {
+   "name": "Libram of Resilience",
+   "progress": "If it is resilience you desire, thirty gold I require.$BBlack Diamond (1)$BCrystal Spire (4)$BBurning Essence (1)$BLibram of Resilience (1)$BRequired money: 30 (1)",
+   "completion": "Other librams are lost in this world. Lost in places you would not dare enter. Places you would pray did not exist.$B$BI will drink in the energies of these components. You shall be given the residual waste...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4484": {
+   "name": "Libram of Voracity",
+   "progress": "Do not waste my time, $R. Give me what I require. Thirty gold and the components.$BBlack Diamond (1)$BLibram of Voracity (1)$BWhipper Root Tuber (4)$BCrystal Force (4)$BRequired money: 30 (1)",
+   "completion": "My head throbs... The energies of the vast expanses that makes up our universe... ARGGH!$B$B<Mathredis looks pained.>$B$BTake what you desire and leave!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4561": {
+   "name": "Testing for Impurities - Un'Goro Crater",
+   "progress": "You take a sample of slime from Un'Goro Crater and place some of it into the various tubes and beakers on the table. As things begin to boil and spurt, the slime changes colors. When the process slows down and the liquids calm, you see a small petri dish with your purified Un'Goro slime samples in it along with some other remnants.$BUn'Goro Slime Sample (1)",
+   "completion": "You pick up the petri dish with the slime sample in it. The only way to discern if the samples is pure enough is to open it and examine the contents yourself. Ideally you'll find a sample that fits Chemist Fuely's criteria.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4603": {
+   "name": "More Sparklematic Action",
+   "progress": "The Sparklematic 5200 is empty, awaiting a grime-encrusted object to clean and three silver coins to start!$BGrime-Encrusted Object (1)$BRequired money: 3 (1)",
+   "completion": "The Sparklematic 5200 comes to life, lurching to and fro. Inside, the helpless grime that has encrusted the object placed within it is being pulverized by the machine's gnomish cleaning agent.$B$BThe Sparklematic 5200 comes to a halt, heralded by a familiar \"ding!\" The item receptacle of the machine spirals open, revealing a neatly wrapped box.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4604": {
+   "name": "More Sparklematic Action",
+   "progress": "The Sparklematic 5200 is empty, awaiting a grime-encrusted object to clean and three silver coins to start!$BGrime-Encrusted Object (1)$BRequired money: 3 (1)",
+   "completion": "The Sparklematic 5200 comes to life, lurching to and fro. Inside, the helpless grime that has encrusted the object placed within it is being pulverized by the machine's gnomish cleaning agent.$B$BThe Sparklematic 5200 comes to a halt, heralded by a familiar \"ding!\" The item receptacle of the machine spirals open, revealing a neatly wrapped box.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4605": {
+   "name": "The Sparklematic 5200!",
+   "completion": "As quickly as it started, the Sparklematic 5200 comes to an abrupt halt. A simple \"ding\" is heard from the machine, and the mouth of the machine spirals upward. Inside the Sparklematic 5200 is a small box wrapped in a little bow. The machine would appear to wrap an object up after eliminating its grime-encrusted status. Even if the machine didn't work, at least the item is now wrapped in a pretty box.$B$BWell, there is one way to find out if it cleaned the item or not...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4606": {
+   "name": "The Sparklematic 5200!",
+   "completion": "As quickly as it started, the Sparklematic 5200 comes to an abrupt halt. A simple \"ding\" is heard from the machine, and the mouth of the machine spirals upward. Inside the Sparklematic 5200 is a small box wrapped in a little bow. The machine would appear to wrap an object up after eliminating its grime-encrusted status. Even if the machine didn't work, at least the item is now wrapped in a pretty box.$B$BWell, there is one way to find out if it cleaned the item or not...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4661": {
+   "name": "Testing for Corruption - Felwood",
+   "progress": "You take a sample of slime from Felwood and place some of it into the various tubes and beakers on the table. As things begin to boil and spurt, the slime changes colors. When the process slows down and the liquids calm, you see a small petri dish with your altered Felwood slime samples in it along with some other remnants.$BFelwood Slime Sample (1)",
+   "completion": "You pick up the petri dish with the slime sample in it. The only way to discern if the samples is pure enough is to open it and examine the contents yourself. Ideally you'll find a sample that fits Chemist Fuely's criteria.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4785": {
+   "name": "Fine Gold Thread",
+   "completion": "Here you go, $N. And please tell Menara we say hello.$B$BWe expect great things of you. Perhaps when the Legion falls to its knees, your name will be spoken aloud and in praise of your power. I can't wait!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4801": {
+   "name": "Frostsaber E'ko",
+   "progress": "In Winterspring, you will fight great cats called frostsabers. These beasts possess incredible speed an' cunning. If you wish ta gain the speed a' da frostsaber, bring me da E'ko you find from dem.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BFrostsaber E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4802": {
+   "name": "Winterfall E'ko",
+   "progress": "In Winterspring, you will fight misguided creatures known as da Winterfall furbolg. Through the wishes of their leader, dey have gained incredible strength. If you wish ta gain the power a' da Winterfall, bring me da E'ko you find from dem.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BWinterfall E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4803": {
+   "name": "Shardtooth E'ko",
+   "progress": "In Winterspring, you will find large bears wit extremely thick hides. These Shardtooth bears gain much protection from what dey can withstand. If you wish ta gain the resistance against fire, bring me da E'ko you find from da Shardtooth.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BShardtooth E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4804": {
+   "name": "Chillwind E'ko",
+   "progress": "In Winterspring, you will fight great flying creatures called da Chillwind. These beasts possess da power ta wield frost magics. If you wish ta gain resistance ta frost, bring me da E'ko you find from da Chillwind.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BChillwind E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4805": {
+   "name": "Ice Thistle E'ko",
+   "progress": "In Winterspring, you will fight great creatures called da ice thistle yeti. These beasts move slowly, but dey are able to evade many blows from da protection their thick fur provides dem. If you wish ta gain da ability to dodge attacks, bring me da E'ko you find from dem.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BIce Thistle E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4806": {
+   "name": "Frostmaul E'ko",
+   "progress": "In Winterspring, you have fought da large ice giants called frostmaul. Sheer power and force is at their disposal. If you wish ta gain da force of da frostmaul, bring me da E'ko you find from dem.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BFrostmaul E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4807": {
+   "name": "Wildkin E'ko",
+   "progress": "In Winterspring, you will fight creatures of might dat seem to possess an innate magic ability. These wildkin can use strong magics. If you wish ta gain an increase in your intellect bring me da E'ko you find from any a' da owlbeasts you find der.$B$BRememba, you must have the Cache of Mau'ari in your inventory if you want ta hunt for E'ko.$BWildkin E'ko (3)",
+   "completion": "Mau'ari can derive da juju for $N... Use da Cache of Mau'ari to cast dis upon yourself or your allies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5042": {
+   "name": "Agamaggan's Strength",
+   "progress": "I will need 4 blood shards if you wish Agamaggan's strength, $R.$B$BYour foes will cower before your strength were you to be given this blessing.$B$BThe Razormane's greatest warriors are infused with such power!$BBlood Shard (4)",
+   "completion": "If only Mangletooth were free to see you decimate those who betrayed him! <snort>$B$BI thank you for destroying more of the Bristleback by gathering these shards. Please, continue to do so, and I will continue to aid you. <snort>",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5043": {
+   "name": "Agamaggan's Agility",
+   "progress": "My tribes greatest scouts are said to be unrivaled in their accuracy, and no rogue <snort> could measure up to their quickness in battle.$B$BBring me 4 blood shards and I will make you even more agile than any quilboar born.$BBlood Shard (4)",
+   "completion": "May your aim be unerring, and the mark of your weapon be true, $R.$B$BAgamaggan's spirit is with you. Return to me if you wish. Mangletooth will bless you again if the great boar god deems me worthy.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5044": {
+   "name": "Wisdom of Agamaggan",
+   "progress": "The shaman and geomancers of the quilboar tribes <snort> call upon the strength of Agamaggan to help them in battle and in their rituals, $R.$B$BIf you too wish the added power of Agamaggan's blessing with your spells, then bring me 4 blood shards and Mangletooth will aid you.$BBlood Shard (4)",
+   "completion": "Your enemies should fear you even more, $R.$B$BTell Mangletooth tales of your cunning in battle when next we meet--be it in this life, or the next.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5045": {
+   "name": "Rising Spirit",
+   "progress": "Warriors of all types <snort> have need of a strong spirit. It drives you to greater feats when all hope has been lost. This is not unknown to the <snort> Razormane. We are a spiritual tribe--we are more proud of our connection to Agamaggan than our prowess <snort> in battle.$B$BBring me 4 blood shards and I will bless your spirit for battle. <snort>$BBlood Shard (4)",
+   "completion": "Our greatest warriors, and our greatest <snort> shamans would envy your will, $R.$B$BDefeat more of the Bristlebacks knowing that they cannot stop you!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5046": {
+   "name": "Razorhide",
+   "progress": "All those who <snort> enter battle have need of protection. Their bones must be strong. Their skin tough. <snort> My tribe knows this as well, and to add to the natural protection our quills and hide give us, <snort> we often call upon Agamaggan to protect us from harm before we go to war.$B$BBring me 4 blood shards <snort> and I will grant you the same protection.$BBlood Shard (4)",
+   "completion": "Go to war, $R.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5058": {
+   "name": "Mrs. Dalson's Diary",
+   "completion": "A diary with yellowing pages lies open to the last entry:$B$B\"I don't know what's going to happen now that Harold's turned. It took everything out of me to drag him into the only place I could find that'd lock him up tight and hold him. I hid the key on me, and I pray it works...$B$BI hope I can get out of here, but I need money to do that. Our stuff's all in the cabinet I think... and now that I think about it, doesn't Harold keep the key on him?$B$BI'll rest on it, I'm dead tired now.\"",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5059": {
+   "name": "Locked Away",
+   "progress": "The door to the outhouse has begun to splinter at the edges of the frame as though it has been repeatedly and incessantly tried to be forced open. It is currently locked up tight from the outside of the outhouse.$B$BAs you rattle the door, you hear a guttural moaning come from inside! Whatever is inside there, it certainly does not sound friendly.$BDalson Outhouse Key (1)",
+   "completion": "Using the key found on the skeleton of the former Mrs. Dalson, you unlock the door to the outhouse. A bloodthirsty ghoul leaps from the outhouse, having been trapped inside for who knows how long.$B$BIt is clear by the bloodcurdling scream of the ghoul at your presence that the former Farmer Dalson is now beyond saving.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5060": {
+   "name": "Locked Away",
+   "progress": "An extremely sturdy cabinet stands before you, securely fastened shut by a built-in lock. The front of the cabinet is deeply scratched and marked. This could be surmised as being from numerous and violent failed attempts to reveal whatever secrets the cabinet currently obfuscates from view.$B$BIf you are going to open this cabinet, you will need to find the key.$BDalson Cabinet Key (1)",
+   "completion": "The key taken from Farmer Dalson's ghoulish remains fits the lock perfectly. The doors of the cabinet swing open, revealing several items that remain intact and appear quite valuable.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5122": {
+   "name": "The Medallion of Faith",
+   "progress": "The power of this chapel gives me the strength to resist the corruption in my heart. If I leave it, I will become a death knight. But there is a medallion, the medallion of faith, that will give me the strength I need to leave.$B$BPlease, $N, retrieve the medallion. It is guarded by Malor the Zealous, a crazed member of the Scarlet Brotherhood who resides deep in the Scarlet Bastion in western Stratholme.$BMedallion of Faith (1)",
+   "completion": "You retrieved the medallion! Now I will be able to leave the chapel and perform my duty.$B$BThat duty is to kill the beast who helped corrupt me and so many of my brothers and sisters, Baron Rivendare!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5125": {
+   "name": "Aurius' Reckoning",
+   "completion": "$N, I am dying... but my soul is saved. For that, I owe you more than words can say. Please, take this... and fight on, brave $C!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5150": {
+   "name": "Dadanga is Hungry!",
+   "progress": "Dadanga looks up at you as you approach her. She seems to be hoping for something...$B$BShe's probably hungry!$B$BThere's got to be something growing in the crater that would be just the perfect snack for a large herbivore. Dadanga's a big girl; whatever you bring her, there would need to be a lot of it!$BBloodpetal Sprout (15)",
+   "completion": "Placing the sprouts in front of her, Dadanga seems pleased.$B$BShe nudges a small brown-wrapped package towards you, in exchange for the treat!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5218": {
+   "name": "Felstone Field Cauldron",
+   "progress": "The Scourge's plague cauldron stands before you, spewing vast amounts of toxins into the air. A small, non-descript access panel lies in the base of the cauldron's vast platform.$B$BHaving already defeated the cauldron lord and acquired its key, you are free to add the appropriate reagents to the cauldron to make a counter agent to the plague.$BArcane Quickener (1)$BOsseous Agitator (6)$BRunecloth (4)",
+   "completion": "Adding the reagents to the cauldron's mix begins to change the color and texture of the cloud it spews forth. Scourge that are even remotely near the cauldron appear to recoil at the introduction of the new components into the environment.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5221": {
+   "name": "Dalson's Tears Cauldron",
+   "progress": "The Scourge's plague cauldron stands before you, spewing vast amounts of toxins into the air. A small, non-descript access panel lies in the base of the cauldron's vast platform.$B$BHaving already defeated the cauldron lord and acquired its key, you are free to add the appropriate reagents to the cauldron to make a counter agent to the plague.$BArcane Quickener (1)$BSomatic Intensifier (5)$BRunecloth (4)",
+   "completion": "Adding the reagents to the cauldron's mix begins to change the color and texture of the cloud it spews forth. Scourge that are even remotely near the cauldron appear to recoil at the introduction of the new components into the environment.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5224": {
+   "name": "Writhing Haunt Cauldron",
+   "progress": "The Scourge's plague cauldron stands before you, spewing vast amounts of toxins into the air. A small, non-descript access panel lies in the base of the cauldron's vast platform.$B$BHaving already defeated the cauldron lord and acquired its key, you are free to add the appropriate reagents to the cauldron to make a counter agent to the plague.$BArcane Quickener (1)$BSomatic Intensifier (5)$BRunecloth (4)",
+   "completion": "Adding the reagents to the cauldron's mix begins to change the color and texture of the cloud it spews forth. Scourge that are even remotely near the cauldron appear to recoil at the introduction of the new components into the environment.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5227": {
+   "name": "Gahrron's Withering Cauldron",
+   "progress": "The Scourge's plague cauldron stands before you, spewing vast amounts of toxins into the air. A small, non-descript access panel lies in the base of the cauldron's vast platform.$B$BHaving already defeated the cauldron lord and acquired its key, you are free to add the appropriate reagents to the cauldron to make a counter agent to the plague.$BArcane Quickener (1)$BEctoplasmic Resonator (4)$BRunecloth (4)",
+   "completion": "Adding the reagents to the cauldron's mix begins to change the color and texture of the cloud it spews forth. Scourge that are even remotely near the cauldron appear to recoil at the introduction of the new components into the environment.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5237": {
+   "name": "Mission Accomplished!",
+   "completion": "$N, your successful re-engineering of the cauldrons is a tremendous victory for us!$B$BLet all within my presence hear: for service to the Kingdom of Stormwind and to the Alliance above and beyond the call of duty - in the face of overwhelming odds and incredible danger, might I add - I give $N this, and I extend upon him our undying gratitude as a true hero of the Alliance. Cheers, I say!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5238": {
+   "name": "Mission Accomplished!",
+   "completion": "$N, your successful re-engineering of the cauldrons is a tremendous victory for us!$B$BLet all within my presence hear: for service to the Forsaken and to the Horde as a whole above and beyond what was expected - in the face of overwhelming odds and incredible danger, might I add - I give $N this, and I extend upon him our undying gratitude as a true hero of the Horde. Huzzah!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5401": {
+   "name": "Argent Dawn Commission",
+   "completion": "All who fight evil on behalf of the Argent Dawn must don our commission. Wearing such will earn your right to claim rewards our quartermasters have to offer.$B$BWhile under commission, you'll be able to acquire Scourgestones from slain Scourge; these are marks of insignia that they sometimes possess. Procure these insignia and bring them to me. For each set you turn in, you will receive our marker of heroism - the Argent Dawn Valor Token.$B$BAchieve your destiny, $C - join the fight today!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5402": {
+   "name": "Minion's Scourgestones",
+   "progress": "A Minion's Scourgestone is the insignia of the Scourge rank and file. These are sometimes found on the weaker of their troops positioned in the Plaguelands, though the term \"weaker\" is certainly to be considered in context. The Scourge, no matter where they are, should never be underestimated.$B$BThe Argent Dawn currently offers a valor token in exchange for twenty of these insignia - an exchange I'm happy to do, provided you have earned enough scourgestones!$BMinion's Scourgestone (20)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BThe tokens serve two purposes. One - they can be used to further your standing within the Argent Dawn; to do so may avail you options and rewards that are reserved for our honored and revered allies. Two - they can be given to our quartermasters, along with coin, as payment for some of the Dawn's more prized items.$B$BWhatever you decide, know that you are earning your commission. Well done!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5403": {
+   "name": "Invader's Scourgestones",
+   "progress": "An Invader's Scourgestone is the insignia of the Scourge's elite troops. These are sometimes found on the stronger of the troops positioned in the Plaguelands. Slaying such a creature is indeed a challenge, but one that should be relished with a commission to vanquish evil.$B$BThe Argent Dawn currently offers a valor token in exchange for ten of these insignia. Bring them to me here, and I will make sure you receive your just reward.$BInvader's Scourgestone (10)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BEach valor token handed out to worthy recipients is a sign of the tide turning against the Scourge. With more and more heroes fighting the Scourge in their own lands, the Argent Dawn will assuredly be at the forefront when the time comes to wage war on the ultimate evil of the Scourge. I hope that the valor you've shown what it took to acquiring your token will carry the day then as well!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5404": {
+   "name": "Corruptor's Scourgestones",
+   "progress": "A Corruptor's Scourgestone is the insignia of the Scourge's overlords. A powerful being that holds a position of authority over the Scourge will always possess one. To slay such a malevolent creature would surely advance the cause of the Argent Dawn, and all good causes!$B$BOn behalf of the Argent Dawn, I will give you a valor token in exchange for just a single one these insignia. Use caution in acquiring one, $N - such powerful beings are not to be trifled with.$BCorruptor's Scourgestone (1)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BTo acquire a valor token in such a manner indicates that you are a true hero in the cause of good. We value all effort brought to bear against the Scourge, but to take down one of their leaders is to truly deliver onto them a crushing defeat!$B$BFor the Dawn, my brother!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5405": {
+   "name": "Argent Dawn Commission",
+   "completion": "All who fight evil on behalf of the Argent Dawn must don our commission. Wearing such will earn your right to claim rewards our quartermasters have to offer.$B$BWhile under commission, you'll be able to acquire Scourgestones from slain Scourge; these are marks of insignia that they sometimes possess. Procure these insignia and bring them to me. For each set you turn in, you will receive our marker of heroism - the Argent Dawn Valor Token.$B$BAchieve your destiny, $C - join the fight today!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5406": {
+   "name": "Corruptor's Scourgestones",
+   "progress": "A Corruptor's Scourgestone is the insignia of the Scourge's overlords. A powerful being that holds a position of authority over the Scourge will always possess one. To slay such a malevolent creature would surely advance the cause of the Argent Dawn, and all good causes!$B$BOn behalf of the Argent Dawn, I will give you a valor token in exchange for just a single one these insignia. Use caution in acquiring one, $N - such powerful beings are not to be trifled with.$BCorruptor's Scourgestone (1)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BTo acquire a valor token in such a manner indicates that you are a true hero in the cause of good. We value all effort brought to bear against the Scourge, but to take down one of their leaders is to truly deliver onto them a crushing defeat!$B$BFor the Dawn, my brother!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5407": {
+   "name": "Invader's Scourgestones",
+   "progress": "An Invader's Scourgestone is the insignia of the Scourge's elite troops. These are sometimes found on the stronger of the troops positioned in the Plaguelands. Slaying such a creature is indeed a challenge, but one that should be relished with a commission to vanquish evil.$B$BThe Argent Dawn currently offers a valor token in exchange for ten of these insignia. Bring them to me here, and I will make sure you receive your just reward.$BInvader's Scourgestone (10)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BEach valor token handed out to worthy recipients is a sign of the tide turning against the Scourge. With more and more heroes fighting the Scourge in their own lands, the Argent Dawn will assuredly be at the forefront when the time comes to wage war on the ultimate evil of the Scourge. I hope that the valor you've shown what it took to acquiring your token will carry the day then as well!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5408": {
+   "name": "Minion's Scourgestones",
+   "progress": "A Minion's Scourgestone is the insignia of the Scourge rank and file. These are sometimes found on the weaker of their troops positioned in the Plaguelands, though the term \"weaker\" is certainly to be considered in context. The Scourge, no matter where they are, should never be underestimated.$B$BThe Argent Dawn currently offers a valor token in exchange for twenty of these insignia - an exchange I'm happy to do, provided you have earned enough scourgestones!$BMinion's Scourgestone (20)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BThe tokens serve two purposes. One - they can be used to further your standing within the Argent Dawn; to do so may avail you options and rewards that are reserved for our honored and revered allies. Two - they can be given to our quartermasters, along with coin, as payment for some of the Dawn's more prized items.$B$BWhatever you decide, know that you are earning your commission. Well done!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5421": {
+   "name": "Fish in a Bucket",
+   "progress": "I'll reward anyone who makes my life a bit easier... I enjoy doing as little as possible, mon!$B$BBelow the docks here in Shadowprey Village, I've many shellfish traps. If you're kind enough to do my work and collect me my shellfish, then I'll reward you with something you want... get my drift mon? For every five shellfish you bring me I will give you a fine Bloodbelly fish!$BShellfish (5)",
+   "completion": "Sweet mon, nothing beats work being done, especially if it's someone else doing the work... eh?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5503": {
+   "name": "Argent Dawn Commission",
+   "completion": "All who fight evil on behalf of the Argent Dawn must don our commission. Wearing such will earn your right to claim rewards our quartermasters have to offer.$B$BWhile under commission, you'll be able to acquire Scourgestones from slain Scourge; these are marks of insignia that they sometimes possess. Procure these insignia and bring them to me. For each set you turn in, you will receive our marker of heroism - the Argent Dawn Valor Token.$B$BAchieve your destiny, $C - join the fight today!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5505": {
+   "name": "The Key to Scholomance",
+   "completion": "Well, here you are $N - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There's only one way to be absolutely sure it works, though. Waste no time in trying it out, I say.$B$BGood luck, mighty hero. May you continue to bring light unto the darkness!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5508": {
+   "name": "Corruptor's Scourgestones",
+   "progress": "A Corruptor's Scourgestone is the insignia of the Scourge's overlords. A powerful being that holds a position of authority over the Scourge will always possess one. To slay such a malevolent creature would surely advance the cause of the Argent Dawn, and all good causes!$B$BOn behalf of the Argent Dawn, I will give you a valor token in exchange for just a single one of these insignia. Use caution in acquiring one, $N - such powerful beings are not to be trifled with.$BCorruptor's Scourgestone (1)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BTo acquire a valor token in such a manner indicates that you are a true hero in the cause of good. We value all effort brought to bear against the Scourge, but to take down one of their leaders is to truly deliver onto them a crushing defeat!$B$BFor the Dawn, my brother!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5509": {
+   "name": "Invader's Scourgestones",
+   "progress": "An Invader's Scourgestone is the insignia of the Scourge's elite troops. These are sometimes found on the stronger of the troops positioned in the Plaguelands. Slaying such a creature is indeed a challenge, but one that should be relished with a commission to vanquish evil.$B$BThe Argent Dawn currently offers a valor token in exchange for ten of these insignia. Bring them to me here, and I will make sure you receive your just reward.$BInvader's Scourgestone (10)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BEach valor token handed out to worthy recipients is a sign of the tide turning against the Scourge. With more and more heroes fighting the Scourge in their own lands, the Argent Dawn will assuredly be at the forefront when the time comes to wage war on the ultimate evil of the Scourge. I hope that the valor you've shown what it took to acquiring your token will carry the day then as well!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5510": {
+   "name": "Minion's Scourgestones",
+   "progress": "A Minion's Scourgestone is the insignia of the Scourge rank and file. These are sometimes found on the weaker of their troops positioned in the Plaguelands, though the term \"weaker\" is certainly to be considered in context. The Scourge, no matter where they are, should never be underestimated.$B$BThe Argent Dawn currently offers a valor token in exchange for twenty of these insignia - an exchange I'm happy to do, provided you have earned enough scourgestones!$BMinion's Scourgestone (20)",
+   "completion": "Congratulations, $N - I am pleased to award you with an Argent Dawn valor token!$B$BThe tokens serve two purposes. One - they can be used to further your standing within the Argent Dawn; to do so may avail you options and rewards that are reserved for our honored and revered allies. Two - they can be given to our quartermasters, along with coin, as payment for some of the Dawn's more prized items.$B$BWhatever you decide, know that you are earning your commission. Well done!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5511": {
+   "name": "The Key to Scholomance",
+   "completion": "Well, here you are $N - the completed Skeleton Key. I am certain as I can be that this key will allow you within the confines of the Scholomance. There's only one way to be absolutely sure it works, though. Waste no time in trying it out, I say.$B$BGood luck, mighty hero. May your victories continue to bring you fame and power as you lay waste to Scholomance!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5519": {
+   "name": "The Gordok Ogre Suit",
+   "progress": "Need another suit, do ya? Well, I'm not going anywhere soon it seems - bring me the same things I asked for from before, and I'll make you another ogre suit.$BBolt of Runecloth (4)$BRugged Leather (8)$BRune Thread (2)$BOgre Tannin (1)",
+   "completion": "Here ya go $N - put this thing on, and you'll have ten minutes to do whatever. Good luck!$B$BOh, and if you happen to find a key to get me out of here, BY ALL MEANS LET ME KNOW!!!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5525": {
+   "name": "Free Knot!",
+   "progress": "It's called the Gordok Shackle Key - well, that's what these \"tons o' fun\" keep calling it. I think any of the ogres might have it, but I'm not sure if any specific ones do. Maybe the guards have a better chance of having one...$B$BWhat am I talking about - you have it already, don't you?! Is that it there??!$BGordok Shackle Key (1)",
+   "completion": "You - ranked number one. Everyone else - ranked number two or lower. Oh, thank you for freeing me!$B$BI knew my life was destined for more than just being an appetizer to some ogre!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5528": {
+   "name": "The Gordok Taste Test",
+   "completion": "You da big boss now, so you get free sample of my better brews! These drinks boost you up AND give you good buzz! These are da good ones, chief... you try and tell Kreeg yourself!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5627": {
+   "name": "Stars of Elune",
+   "completion": "You've proven yourself worthy of Elune's attention, $N. If you feel you're ready, I would very much like to teach you one of her spells unique to our people.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5634": {
+   "name": "Desperate Prayer",
+   "objectivesText": [
+    "Speak to High Priest Rohan in Ironforge."
+   ],
+   "details": "A priest recently visited our halls seeking you out, young $R. He said that he was on a mission to find you and that you should return to the Hall of Mysteries in Ironforge as soon as possible. When you arrive, seek out High Priest Rohan--he will tell you more.$B$BThe Light be with you, $N.",
+   "completion": "You have done the Light a great service by becoming a shining example to those who travel in these dangerous lands and beyond. Please, accept this lesson as a thanks for all you've done.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5641": {
+   "name": "Chastise",
+   "completion": "You've got the makings of a great $C, $N. Keep up the good work!$B$BYou've already shown you're ready for battle. Perhaps it's time we taught ya a little somethin' more.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5652": {
+   "name": "Hex of Weakness",
+   "completion": "You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5658": {
+   "name": "Touch of Weakness",
+   "completion": "Ah, young $C, I am glad you have returned here. I would teach you a lesson you would do well to not forget. Are you prepared?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5672": {
+   "name": "Elune's Grace",
+   "completion": "By devoting yourself to Elune and our people, you have attained a state that not all of us can achieve. It is tradition that you then be taught even greater abilities for your devotion. Do you accept?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5676": {
+   "name": "Arcane Feedback",
+   "completion": "We were forced to learn some magics to protect us from what is commonly called our greatest enemy: the arcane.$B$BI would teach you a spell to help you defend yourself and your companions from those who would wield such power.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5679": {
+   "name": "Dark Sacrifice",
+   "completion": "I would teach you Devouring Plague if you feel you are prepared, $N. A spell of no small power, it will aid you in your coming battles. Practice with it--there will be tests later.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5680": {
+   "name": "Shadowguard",
+   "completion": "Your rites will come soon enough. For now, I teach you a spell that will be of great use to you when you do battle with your enemies.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5882": {
+   "name": "Salve via Hunting",
+   "progress": "Possessing a Cenarion beacon allows one to see a corrupted soul shard on those tainted beasts that are put down for the greater good. I grind shards into a usable reagent that goes into making Cenarion plant salve. We will use that salve to turn corrupted plants into healthy ones again.$B$BIn exchange for these shards, I will give you some Cenarion plant salves I have already prepared.$BCorrupted Soul Shard (6)",
+   "completion": "Very well then, here are your Cenarion plant salves. Scour Felwood for corrupted plants, $N! Wherever they are, use the salve I have given you to purify them.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5883": {
+   "name": "Salve via Mining",
+   "progress": "If you possess a Cenarion beacon while mining in Felwood, you will be able to see tainted vitriol that corrupts a vein of raw metal. I know how to purify that vitriol and turn it into a reagent that goes into making Cenarion plant salve. You will then use that salve on plants you find in the wild that need saving.$B$BIf you have collected any tainted vitriol, I'll give you some Cenarion plant salve I have already prepared.$BTainted Vitriol (4)",
+   "completion": "Very well then, here's some Cenarion plant salve. If you find more vitriol when you mine in Felwood, remember to hold on to it for me! The more of it you find, the more salve I will be able to make.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5884": {
+   "name": "Salve via Gathering",
+   "progress": "A Cenarion beacon allows a seasoned herbalist to spot insidious fel creep - a malfeasant product of Felwood's corruption. My work here has taught me the knowledge of purifying fel creep into a cleansing reagent... used in what we now refer to as Cenarion plant salve.$B$BWhen you gather herbs in Felwood, you should encounter the fel creep so long as you have the beacon. In exchange for what you bring to me, I will give you pre-made Cenarion plant salve.$BFel Creep (4)",
+   "completion": "Excellent work $N - every bit of this, once we purify it, will help us take back Felwood. Here, take some doses of Cenarion plant salve and head into the forest. The reclaiming of the land from the corruption waits for no $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5885": {
+   "name": "Salve via Skinning",
+   "progress": "A Cenarion beacon will allow a well-trained skinner to spot patches of tainted skin from bounty gathered in Felwood. I convert these seemingly useless patches into a thick paste that serves as a quickening agent for Cenarion plant salve. When you skin your kills here in Felwood, be sure to have a beacon on you!$B$BWhen you collect tainted patches, bring them to me and I will give you some Cenarion plant salves that I have already made.$BPatch of Tainted Skin (5)",
+   "completion": "This is exactly what I need. Here - take these plant salves and use them to reclaim Felwood from the corruption. We must persevere, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5886": {
+   "name": "Salve via Disenchanting",
+   "progress": "The power of a disenchanted magical item is felt by the essence it creates. I've devised a way to turn raw essence used by enchanters into a suitable reagent for creating Cenarion plant salve. You don't need a Cenarion beacon for this; any suitably disenchanted item that yields lesser nether essences will work.$B$BI just need a single lesser nether essence; in exchange, I will give you Cenarion plant salves. The essence is extremely potent - a little definitely goes a long way!$BLesser Nether Essence (1)",
+   "completion": "Here are some Cenarion plant salves - I only need one lesser nether essence for this, $N. Essence is by far the most potent item I can make use of to turn swords into plowshares, as it were. If you need more salve, then find me here!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5887": {
+   "name": "Salve via Hunting",
+   "progress": "Possessing a Cenarion beacon allows one to see a corrupted soul shard on those tainted beasts that are put down for the greater good. I grind shards into a usable reagent that goes into making Cenarion plant salve. We will use that salve to turn corrupted plants into healthy ones again.$B$BIn exchange for these shards, I will give you some Cenarion plant salves I have already prepared.$BCorrupted Soul Shard (6)",
+   "completion": "Very well then, here are your Cenarion plant salves. Scour Felwood for corrupted plants, $N! Wherever they are, use the salve I have given you to purify them.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5888": {
+   "name": "Salve via Mining",
+   "progress": "If you possess a Cenarion beacon while mining in Felwood, you will be able to see tainted vitriol that corrupts a vein of raw metal. I know how to purify that vitriol and turn it into a reagent that goes into making Cenarion plant salve. You will then use that salve on plants you find in the wild that need saving.$B$BIf you have collected any tainted vitriol, I'll give you some Cenarion plant salve I have already prepared.$BTainted Vitriol (4)",
+   "completion": "Very well then, here's some Cenarion plant salve. If you find more vitriol when you mine in Felwood, remember to hold on to it for me! The more of it you find, the more salve I will be able to make.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5889": {
+   "name": "Salve via Gathering",
+   "progress": "A Cenarion beacon allows a seasoned herbalist to spot insidious fel creep - a malfeasant product of Felwood's corruption. My work here has taught me the knowledge of purifying fel creep into a cleansing reagent... used in what we now refer to as Cenarion plant salve.$B$BWhen you gather herbs in Felwood, you should encounter the fel creep so long as you have the beacon. In exchange for what you bring to me, I will give you pre-made Cenarion plant salve.$BFel Creep (4)",
+   "completion": "Excellent work $N - every bit of this, once we purify it, will help us take back Felwood. Here, take some doses of Cenarion plant salve and head into the forest. The reclaiming of the land from the corruption waits for no $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5890": {
+   "name": "Salve via Skinning",
+   "progress": "A Cenarion beacon will allow a well-trained skinner to spot patches of tainted skin from bounty gathered in Felwood. I convert these seemingly useless patches into a thick paste that serves as a quickening agent for Cenarion plant salve. When you skin your kills here in Felwood, be sure to have a beacon on you!$B$BWhen you collect tainted patches, bring them to me and I will give you some Cenarion plant salves that I have already made.$BPatch of Tainted Skin (5)",
+   "completion": "This is exactly what I need. Here - take these plant salves and use them to reclaim Felwood from the corruption. We must persevere, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5891": {
+   "name": "Salve via Disenchanting",
+   "progress": "The power of a disenchanted magical item is felt by the essence it creates. I've devised a way to turn raw essence used by enchanters into a suitable reagent for creating Cenarion plant salve. You don't need a Cenarion beacon for this; any suitably disenchanted item that yields lesser nether essences will work.$B$BI just need a single lesser nether essence; in exchange, I will give you Cenarion plant salves. The essence is extremely potent - a little definitely goes a long way!$BLesser Nether Essence (1)",
+   "completion": "Here are some Cenarion plant salves - I only need one lesser nether essence for this, $N. Essence is by far the most potent item I can make use of to turn swords into plowshares, as it were. If you need more salve, then find me here!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6383": {
+   "name": "The Ashenvale Hunt",
+   "completion": "There are three legendary creatures that make up the Ashenvale Hunt; you may seek them and test yourself against their cunning and might. In the process, you will hopefully learn something about yourself. The creatures are: the bear Ursangous, the nightsaber cat Shadumbra, and the hippogryph Sharptalon.$B$BThe creatures of the Ashenvale Hunt are powerful, and you may find that you'll need aid in bringing them down. If you should best them, bring me proof of your deed.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6545": {
+   "name": "Warsong Runner Update",
+   "progress": "So you're here with my orders? Always good to see a new recruit with an exuberant nature and a strong will.$B$BYou'd best learn fast if you expect to keep up here. The threat of the naga grows, $N. I have observed and have taken up defenses against several attacks on this outpost since I arrived here.$B$BBut if you'd like to pitch in with that effort, speak with one of the others here at the outpost.$BWarsong Report (1)",
+   "completion": "Well, my update will explain all of this to Kadrak. You must return this to him as quickly as possible.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6546": {
+   "name": "Warsong Outrider Update",
+   "progress": "Much danger lies along this path, $N. You'd do best to remember this while traveling in these lands. The threat of the alliance is quite near.$B$BWe are faced by enemies on all fronts. The satyr are a formidable and prevalent force in eastern Ashenvale. I have also discovered that the naga have taken over a large area of the land of Azshara.$B$BIt's good to see that we are still bolstering our numbers -- be ready for what lies ahead, $N.$BWarsong Report (1)",
+   "completion": "Take my update to Kadrak. Swiftly, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6547": {
+   "name": "Warsong Scout Update",
+   "progress": "Keep an eye out, $R. The elves are often hiding in the shadows...$B$BWe must always be watching. We have worked very hard to claim this land, and the elves are looking for a chance to take it from us.$B$BI assume you have my next orders from Kadrak?$BWarsong Report (1)",
+   "completion": "Let Kadrak know of the success we have had here holding off the night elves. Our plans are going well.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6581": {
+   "name": "Warsong Saw Blades",
+   "progress": "Direct from Ratchet, the Warsong saw blades! Yep, I have them right here.$B$B..But what sort of payment do you have for me? You can't just take them, you know! My time isn't cheap!$B$BWhat I really need is a good gun to carry with me on my travels. A girl's gotta protect herself, you know? There's a gun I really like that I'm sure an engineer would have no problem making.$B$BSo, if you bring me a deadly blunderbuss, I'll give you the saw blade shipment. Do we have a deal?$BDeadly Blunderbuss (1)",
+   "completion": "This is perfect -- just the thing! Well, here's the shipment.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6642": {
+   "name": "Favor Amongst the Brotherhood, Dark Iron Ore",
+   "progress": "Dark Iron, while plentiful in the Depths, is still a valued commodity amongst the Brotherhood. The sacred arms and armaments of Ragnaros favor Dark Iron.$B$BFor every 10 pieces of Dark Iron Ore you offer, favor amongst the Brotherhood you will gain.$BDark Iron Ore (10)",
+   "completion": "Your offering has been accepted. Favor you have gained. Continue and you shall be allowed access to the ancient trades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6643": {
+   "name": "Favor Amongst the Brotherhood, Fiery Core",
+   "progress": "Woe unto those that tempt fate inside the Molten Core. Death comes swiftly - the punishment dealt without mercy.$B$BMany of the Brotherhood have been lost in their search for Fiery Cores.$B$BOffer 1 Fiery Core and you shall be granted favor amongst the Brotherhood.$BFiery Core (1)",
+   "completion": "Your offering has been accepted. Favor you have gained. Continue and you shall be allowed access to the ancient trades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6644": {
+   "name": "Favor Amongst the Brotherhood, Lava Core",
+   "progress": "The Thorium Brotherhood sympathizes with your plight, $R. This is why Lokthos has been empowered to bargain.$B$BOffer 1 Lava Core and you shall be granted favor amongst the Brotherhood.$BLava Core (1)",
+   "completion": "Your offering has been accepted. Favor you have gained. Continue and you shall be allowed access to the ancient trades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6645": {
+   "name": "Favor Amongst the Brotherhood, Core Leather",
+   "progress": "Many of the sacred recipes require the skin from Ragnaros' chosen pets.$B$BOffer 2 Core Leather, skinned from the smoldering corpses of the Core Hounds of the Molten Core and you shall be granted favor amongst the Brotherhood.$BCore Leather (2)",
+   "completion": "Your offering has been accepted. Favor you have gained. Continue and you shall be allowed access to the ancient trades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6646": {
+   "name": "Favor Amongst the Brotherhood, Blood of the Mountain",
+   "progress": "The tears of the Fire Lord are a rare find indeed.$B$BOffer 1 Blood of the Mountain and you shall be granted favor amongst the Brotherhood.$BBlood of the Mountain (1)",
+   "completion": "Your offering has been accepted. Favor you have gained. Continue and you shall be allowed access to the ancient trades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6701": {
+   "name": "Syndicate Emblems",
+   "progress": "We have been entrenched in a battle with the Syndicate for years. What they lack in skill they make up for in numbers. It's impossible to kill them off fast enough to have any noticeable impact on their population!$B$BWe've found that the best way to deal with their size is to pilfer their emblems. Once an emblem is stolen the shamed member is 'dealt' with internally.$B$BPick their pockets clean and turn the emblems in to me or one of the other guards.$B$BStart at Durnholde, south of here.$BSyndicate Emblem (1)",
+   "completion": "Hey, nice work! Keep this up and the other rogues might stop spitting on you.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6741": {
+   "name": "More Booty!",
+   "progress": "I need more armor scraps, $N! Do you have any?$BArmor Scraps (20)",
+   "completion": "Thanks again, $N. You do the Horde proud...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6781": {
+   "name": "More Armor Scraps",
+   "progress": "$N, we need more armor scraps to supply our troops!$BArmor Scraps (20)",
+   "completion": "These are some good pieces, $N. I can use them to fashion new equipment for our troops.$B$BIf my supply level gets high enough, then maybe our seasoned fighting units will enter the field!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6801": {
+   "name": "Lokholar the Ice Lord",
+   "progress": "I come from Thunder Bluff, $R. Cairne himself has seen to it that I assist the Frostwolf Clan in these dire times.$B$BBut let us not waste any more time. You must strike down our enemies and bring to me their blood. Once enough blood has been gathered, the ritual of summoning may begin.$B$BVictory will be assured when the elemental lord is loosed upon the Stormpike army.$BStormpike Soldier's Blood (1)",
+   "completion": "The blood of our enemies has been shed. I shall mix this blood with the rest that has been gathered. Once the offering is complete, the Ice Lord shall show these Stormpike dogs the full wrath of the Frostwolf Clan!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6825": {
+   "name": "Call of Air - Guse's Fleet",
+   "progress": "We must prepare the new fleet of War Riders, $R! My riders are set to make a strike on the central battlefield; but first, I must wet their appetites - preparing them for the assault.$B$BI need enough Stormpike Soldier Flesh to feed a fleet! Hundreds of pounds! Surely you can handle that, yes? Get going!$BStormpike Soldier's Flesh (1)",
+   "completion": "The fleet feeds on their flesh. It consumes the enemy.$B$BFlight is imminent!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6826": {
+   "name": "Call of Air - Jeztor's Fleet",
+   "progress": "You've worked hard, $N, but we have only just begun!$B$BMy War Riders must taste in the flesh of their targets. This will ensure a surgical strike against our enemies!$B$BMy fleet is the second most powerful in our air command. Thusly, they will strike at the more powerful of our adversaries. For this, then, they need the flesh of the Stormpike Lieutenants.$B$BMake haste, soldier!$BStormpike Lieutenant's Flesh (1)",
+   "completion": "More! More! Bring more for they are soon to be ready!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6827": {
+   "name": "Call of Air - Mulverick's Fleet",
+   "progress": "I was locked up in a dwarven hellhole for days. You better believe I want revenge!$B$BWe must plan carefully.$B$BFirst, my war riders need targets to gun for - high priority targets. I'm going to need to feed them the flesh of Stormpike Commanders. Unfortunately, those little buggers are entrenched deep behind enemy lines! You've definitely got your work cut out for you.$BStormpike Commander's Flesh (1)",
+   "completion": "Not enough! I would expect this level of work from an initiate, but you, $N? Come on, soldier! HUSTLE! More flesh is needed!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6846": {
+   "name": "Begin the Attack!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6881": {
+   "name": "Ivus the Forest Lord",
+   "progress": "The Frostwolf Clan is protected by a taint of elemental energy. Their shaman meddle in powers that will surely destroy us all if left unchecked.$B$BThe damage has grown too great for the Circle to control! Ivus must be called to our aid.$B$BThe Frostwolf soldiers carry elemental charms called storm crystals. We can use the charms to conjure Ivus. Venture forth and claim the crystals, $N!$BStorm Crystal (1)",
+   "completion": "Well done, $N. I will use the power of this charm to augment the magic that has already been gathered. When enough power has been amassed, I shall focus the collected energies and call upon the Forest Lord to aid our cause.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6901": {
+   "name": "Launch the Attack!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6941": {
+   "name": "Call of Air - Vipore's Fleet",
+   "progress": "The elite Frostwolf units that guard the lines must be dealt with, soldier! I'm tasking you with thinning out that herd of savages. Return to me with medals from their lieutenants and legionnaires. When I feel that enough of the riff-raff has been dealt with, I'll deploy the air strike.$BFrostwolf Lieutenant's Medal (1)",
+   "completion": "The flight will be ready soon. Continue your efforts!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6942": {
+   "name": "Call of Air - Slidore's Fleet",
+   "progress": "My gryphons are poised to strike at the front lines but cannot make the attack until the lines are thinned out.$B$BThe Frostwolf warriors charged with holding the front lines wear medals of service proudly upon their chests. Rip those medals off their rotten corpses and bring them back here.$B$BOnce the front line is sufficiently thinned out, I will make the call to air! Death from above!$BFrostwolf Soldier's Medal (1)",
+   "completion": "Keep em coming, soldier! The Aerie gryphons will be ready to strike in no time at all!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6943": {
+   "name": "Call of Air - Ichman's Fleet",
+   "progress": "Their spirits are low, soldier. After our last failed air strike against the Horde, they refuse to fly! It is up to you to bolster their morale.$B$BReturn to the battlefield and strike at the heart of the Frostwolf's command. Take down their commanders and guardians. Return to me with as many of their medals as you can stuff in your pack! I promise you, when my gryphons see the bounty and smell the blood of our enemies, they will fly again! Go now!$BFrostwolf Commander's Medal (1)",
+   "completion": "Can you see it? Look at them, soldier! They're coming around... Soon, Ichman's flight will once again strike at the heart of the valley! Stormpike will rule the skies!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7002": {
+   "name": "Ram Hide Harnesses",
+   "progress": "While some of our soldiers are busy capturing wolves for the stable master, others must provide for the simple necessities that riding requires. I am speaking of riding harnesses, of course.$B$BYou must strike at the indigenous rams of the region. The very same rams that the Stormpike cavalry uses as mounts!$B$BSlay them and return to me with their hides. Once we have gathered enough hides, we will fashion harnesses for the riders. The Frostwolf Wolf Riders will ride once more!$BAlterac Ram Hide (1)",
+   "completion": "Well done, soldier. I will notify you when I have stockpiled enough of the hides.$B$BCarry on!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7026": {
+   "name": "Ram Riding Harnesses",
+   "progress": "The Stormpike Brigade cannot charge into battle bareback! We require harnesses for our mounts, after all, we are not savages.$B$BWhile we could easily slay the rams that roam near our base for the leather required to fashion a harness, doing so would be idiotic. We need those rams for mounts.$B$BYou must strike at our enemy's base, slaying the frostwolves they use as mounts and taking their hides. Return their hides to me so that harnesses may be made for the cavalry. Go!$BFrostwolf Hide (1)",
+   "completion": "Well done, soldier. I will notify you when I have stockpiled enough of the hides.$B$BCarry on!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7163": {
+   "name": "Rise and Be Recognized",
+   "progress": "<Warmaster Laggrond salutes you.>$B$BIt is your time, $N. You have done much for the Frostwolf Clan and in doing so, earned a place as not only a soldier of Frostwolf but also as a friend.$B$BWell done! Present your initiate's insignia.$BFrostwolf Insignia Rank 1 (1)",
+   "completion": "This new insignia reflects your rank amongst the Frostwolf. Keep it on you at all times.$B$BAnd $C... Die with honor!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7164": {
+   "name": "Honored Amongst the Clan",
+   "progress": "It is good to see you again, $C. I had not expected you to return. Alas, you have proven yourself a brave and honorable soldier of the Frostwolf.$B$BYour time has come again, $N. You have earned a new ranking and as such, a new insignia denoting this rise in stature.$B$BPresent your insignia.$BFrostwolf Insignia Rank 2 (1)",
+   "completion": "<Warmaster Laggrond salutes.>$B$BGo, $N! Continue your defense of the Frostwolf. This war must be won! For Drek'Thar! For the Warchief!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7165": {
+   "name": "Earned Reverence",
+   "progress": "So many slain. Blood drenches the fields. Yet... You live... You have persevered. You have led our armies to many victories. For this, then, soldier, you have earned a new rank.$B$BPresent your insignia.$BFrostwolf Insignia Rank 3 (1)",
+   "completion": "<Warmaster Laggrond roars.>$B$BThey have already begun telling tales of your deeds, soldier. The Stormpike shakes in fear when your name is uttered. Carry on!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7166": {
+   "name": "Legendary Heroes",
+   "progress": "Your radiate command and power, $C. Exalted in the eyes of Frostwolf - the enemy cowers at the mention of your name.$B$BRise, Hero of Frostwolf. Rise and be honored!$B$BPresent your insignia.$BFrostwolf Insignia Rank 4 (1)",
+   "completion": "Soon, all on the field of battle will be under your watchful eye. Command of the Valley and its troops will be yours!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7167": {
+   "name": "The Eye of Command",
+   "progress": "Drek'Thar sings your praises. Kalimdor is abuzz with tales of your heroics. The Warchief glows - your stalwart defense of our clan has pleased him greatly.$B$BYou have earned the Eye of Command.$B$BPresent your insignia, Commander $N.$BFrostwolf Insignia Rank 5 (1)",
+   "completion": "Channel the power of the insignia. Let the enemy hear your words. The might of the Horde is unquestionable!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7168": {
+   "name": "Rise and Be Recognized",
+   "progress": "Most do not live long enough to rise above their own mediocrity. You have proven yourself to be an exemplary soldier, $C. The time has come.$B$BPresent your insignia.$BStormpike Insignia Rank 1 (1)",
+   "completion": "Let our enemies see that a soldier of rank has struck them down! Fight for the glory of Stormpike!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7169": {
+   "name": "Honored Amongst the Guard",
+   "progress": "The base buzzes with news of your exploits in the Field of Strife! You have struck mighty blows against our enemy - crushing their morale! For this, you have earned a rank of honor among the Stormpike.$B$BPresent your insignia.$BStormpike Insignia Rank 2 (1)",
+   "completion": "The king has been made aware of your battlefront heroics, $C. Continue in your stalwart defense of the Stormpike Guard!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7170": {
+   "name": "Earned Reverence",
+   "progress": "I must know, $N. When you look directly into the eyes of the enemy, do you see fear? Do they now cower in your presence? They must realize that they are defeated!$B$BYou have earned reverence among the Guard. Present your insignia!$BStormpike Insignia Rank 3 (1)",
+   "completion": "When we first met, I would have never guessed that a hero was in the making. Carry on, soldier!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7171": {
+   "name": "Legendary Heroes",
+   "progress": "Before me stands an exalted hero of the Alliance.$B$B<Lieutenant Haggerdin salutes.>$B$BFew have earned such a rank among the Stormpike. I have watched the enemy fall before you. I have seen their resolve crumble in your presence. When you enter the fray, you become the beacon of hope for our forces!$B$BPresent your insignia.$BStormpike Insignia Rank 4 (1)",
+   "completion": "Surely it will be you who carries the Eye of Command!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7172": {
+   "name": "The Eye of Command",
+   "progress": "Let them hear your voice, Commander $N! Let them know fear. Show them what power the Stormpike holds in their rank!$B$BPresent your insignia.$BStormpike Insignia Rank 5 (1)",
+   "completion": "It is you who must lead our troops to victory, Commander! The soldiers are under your command. They will follow your direct orders. Lead them.... Crush the Frostwolf.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7341": {
+   "name": "A Fair Trade",
+   "progress": "Greetings, $R. I am Kolark, Bounty $C from Thunderbluff. Much of the world I have traveled and much I have seen.$B$BMy journeys across the South Seas led to the discovery of these wonderous thorium headed arrows. Alas, I have an endless supply of the arrows but have exhausted my supply of shells. Bah, no self respecting Tauren would ever be caught dead using a flimsy bow. The arrows are useless!$B$BI will offer a trade: An even exchange of thorium shells for my thorium headed arrows. Deal?$BThorium Shells (200)",
+   "completion": "Excellent! I am a Tauren of my word, $R. The arrows are yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7342": {
+   "name": "Arrows Are For Sissies",
+   "progress": "Can you believe this rubbish?! The last shipment of ammunition from Kharanos was botched! All we have for ammo now are these flimsy, good for nothing arrows! What in the world am I going to do with 500,000 thorium headed arrows?$B$BI'll tell you what, kid. If you can bring me thorium shells, I'll trade you thorium headed arrows - straight up! Deal?$BThorium Shells (200)",
+   "completion": "A done deal if I ever saw one! The arrows are yours.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7385": {
+   "name": "A Gallon of Blood",
+   "progress": "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings, $N.$BStormpike Soldier's Blood (5)",
+   "completion": "The blood of our enemies has been shed. I shall mix this blood with the rest that has been gathered. Once the offering is complete, the Ice Lord shall show these Stormpike dogs the full wrath of the Frostwolf Clan!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7386": {
+   "name": "Crystal Cluster",
+   "progress": "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.$B$BThe Circle accepts such offerings, $N.$BStorm Crystal (5)",
+   "completion": "Well done, $N. I will use the power of these charms to augment the magic that has already been gathered. When enough power has been amassed, I shall focus the collected energies and call upon the Forest Lord to aid our cause.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7429": {
+   "name": "Free Knot!",
+   "progress": "It's called the Gordok Shackle Key - well, that's what these \"tons o' fun\" keep calling it. I think any of the ogres might have it, but I'm not sure if any specific ones do. Maybe the guards have a better chance of having one...$B$BWhat am I talking about - you have it already, don't you?! Is that it there??!$BGordok Shackle Key (1)",
+   "completion": "Oh, thank you for freeing me! You - ranked number one. Everyone else - ranked number two or lower.$B$BI knew my life was destined for more than just being an appetizer to some ogre!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7493": {
+   "name": "The Journey Has Just Begun",
+   "completion": "A dragon slayer and a seasoned leatherworker? You do not cease to astonish, hero. I am humbled.$B$BPlease accept what I am about to teach you. This knowledge will prove to be invaluable if you are to destroy what remains of the Black Dragonflight.$B$BCreate the cloak from the scales of the brood mother. It will protect you and your allies against the incendiary breath of the Lord of Blackrock... Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7497": {
+   "name": "The Journey Has Just Begun",
+   "completion": "A dragon slayer and a seasoned leatherworker? You do not cease to astonish, hero. I am humbled.$B$BPlease accept what I am about to teach you. This knowledge will prove to be invaluable if you are to destroy what remains of the Black Dragonflight.$B$BCreate the cloak from the scales of the brood mother. It will protect you and your allies against the incendiary breath of the Lord of Blackrock... Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7541": {
+   "name": "Service to the Horde",
+   "completion": "It will take time for our scholars to study the pendant you brought us. But for your service to the Horde I would like to offer you a small token.$B$BThank you, $N. Your acts bring honor to you, and to us.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7621": {
+   "name": "A Warning",
+   "completion": "$C, you are about to undergo a rigorous series of events which shall test all of your abilities.$B$BI suggest that you listen to the story that I have to tell.$B$BBe warned, you must complete this task alone. It is recommended that your allies remain at a distance. Interference by outside agents will result in a most severe punishment.$B$BDestiny has led you and you alone here. Battle with honor. Harness the Light.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7633": {
+   "name": "An Introduction",
+   "completion": "Your diligence and integrity has been noted, $C.$B$BWe are Ancients: Protectors of this once great forest. Our physical forms were destroyed 10,000 years ago when Archimonde and the Burning Legion marched upon Hyjal. Our spirits, however, remain intact.$B$BThere are tasks that we can offer. Tasks that if completed will open up the secrets of the Ancients to you.$B$BKnow this, should you complete these tasks, merely return to this rock and we shall answer the calling.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7652": {
+   "name": "A Blue Light Bargain",
+   "completion": "Aright, mister, I got a hot deal for ya.$B$BI'm lookin' to offload some of these here Imperial plate armor recipes and need someone willing to take on the burden. All I want in exchange is some thorium bars. Sound good?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7653": {
+   "name": "Imperial Plate Belt",
+   "progress": "For the belt plans, I'll be needin' 20 thorium bars.$BThorium Bar (20)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7654": {
+   "name": "Imperial Plate Boots",
+   "progress": "For the boot plans, I'll be needin' 40 thorium bars. Yep, 40. Are you gonna cry? Would you like a hanky?$B$B<Derotain laughs.>$BThorium Bar (40)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7655": {
+   "name": "Imperial Plate Bracer",
+   "progress": "For the bracer plans, I'll be needin' 20 thorium bars.$B$BAre you alright, sonny? Yer getting' all red.$BThorium Bar (20)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7656": {
+   "name": "Imperial Plate Chest",
+   "progress": "For the chest piece plans, I'll be needin' 60 thorium bars.$B$BOh boy, there you go again. Are you gonna be runnin' to yer blue Gods, askin' why they have forsaken you?!? Toughen up, Nancy! Nobody ever said life's fair.$BThorium Bar (60)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7657": {
+   "name": "Imperial Plate Helm",
+   "progress": "Just hand over 50 thorium bars and the helm plans are yers.$BThorium Bar (50)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7658": {
+   "name": "Imperial Plate Leggings",
+   "progress": "Just hand over 60 thorium bars and the leg plans are yers.$B$BI know, I'm driving you into bankruptcy! I've heard it all before so you can save your sob story, weakling.$BThorium Bar (60)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7659": {
+   "name": "Imperial Plate Shoulders",
+   "progress": "For the shoulder plans, I'll be needin' 20 thorium bars.$BThorium Bar (20)",
+   "completion": "A pleasure doin' business with ya.$B$BAnd $N, wipe that look of disgust off yer face.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7660": {
+   "name": "Wolf Swapping - Arctic Wolf",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7661": {
+   "name": "Wolf Swapping - Red Wolf",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7662": {
+   "name": "New Kodo - Teal",
+   "fetched": "2026-10-02",
+   "v": 2
   }
  }
 }

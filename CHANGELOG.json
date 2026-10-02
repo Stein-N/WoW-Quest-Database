@@ -15,7 +15,8 @@
     "data": [
       "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
       "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update.",
-      "Vendors now also come from the VMangos server database, adding about 1,600 vendor entries; these may be outdated, especially for WoW Forever."
+      "Vendors now also come from the VMangos server database, adding about 1,600 vendor entries; these may be outdated, especially for WoW Forever.",
+      "About 3,000 more WoW Forever quest texts from Wowhead across all languages; Russian texts no longer contain the race or character name of whoever recorded them."
     ]
   },
   "versions": [

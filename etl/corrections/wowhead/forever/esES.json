@@ -591,6 +591,1009 @@
    "name": "Flor del viento corrupta",
    "fetched": "2026-10-02",
    "v": 2
+  },
+  "4116": {
+   "name": "Melodía corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una melodía. De la planta emana un olor acre y malsano. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas un poco de bálsamo de planta de Cenarion a la melodía. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4117": {
+   "name": "Blancoria corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una blancoria. De la planta cuelga una sustancia viscosa y las raíces visibles parecen endurecidas, como si fueran de cuero. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (3)",
+   "completion": "Aplicas tres bálsamos de planta de Cenarion a la blancoria. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4118": {
+   "name": "Melodía corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una melodía. De la planta emana un olor acre y malsano. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas un poco de bálsamo de planta de Cenarion a la melodía. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4119": {
+   "name": "Dragón nocturno corrupto",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una planta dragón nocturno. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (4)",
+   "completion": "Aplicas cuatro bálsamos de planta de Cenarion a la dragón nocturno. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4144": {
+   "name": "Brote pétalo de sangre",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4148": {
+   "name": "Irradior pétalo de sangre",
+   "progress": "Para poder funcionar, el controlador necesita una muestra de la criatura elegida. Ve al cráter y recoge un brote Pétalo de Sangre. Cuando lo tenga podré calibrar el controlador para que funcione con los amiguitos de Muigin...$B$BSi no fuera tan cabezota ya podríamos estar de camino a casa... ¡Pero hasta entonces tendré que enseñarle que su broma no me molesta del todo!$BBrote pétalo de sangre (1)",
+   "completion": "Parece que va a funcionar sin problemas, $N. Y ahora, recuerda, si ves alguna de esas pestes, ¡no dudes en usar el controlador!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4221": {
+   "name": "Flor del viento corrupta",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4222": {
+   "name": "Flor del viento corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una flor del viento. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas dos bálsamos de planta de Cenarion a la flor del viento. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4295": {
+   "name": "La cerveza de Sinroca",
+   "progress": "¡Oh, cerveza! ¡¡Mataría por algo de cerveza Hierro Negro!! ¡Rápido, que me estoy poniendo sobrio! Lo sé porque la sobriedad me nubla la vista... ¡y eso hace que te parezcas al $R que maté la semana pasada!$BJarra de cerveza tradicional Hierro Negro (2)",
+   "completion": "¿Qué es esto? ¡Ah! ¡Es el aroma de la cerveza Hierro Negro! La bebida me nubla la vista pero puedo decirte algo, señor, ¡tú sí que eres un amigo!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4343": {
+   "name": "Flor del viento corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una flor del viento. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas dos bálsamos de planta Cenarion a la flor del viento. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4381": {
+   "name": "Recuperar el cristal",
+   "progress": "La tabla de la torre te permite combinar cristales de poder verdes y amarillos.$B$BDe acuerdo con el manual de J.D. puedes utilizar esta combinación para curarte a ti o a tus aliados.$BCristal de poder amarillo (10)$BCristal de poder verde (10)",
+   "completion": "Colocas los cristales sobre la tabla y alineas con cuidado los colores. Cuando colocas el último un estallido de luz funde todos los cristales.$B$BLa combinación resultante es tuya.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4382": {
+   "name": "La fuerza del cristal",
+   "progress": "La tabla de la torre te permite combinar cristales de poder verdes y azules.$B$BDe acuerdo con el manual de J.D. puedes utilizar esta combinación para aumentar tu espíritu.$BCristal de poder verde (10)$BCristal de poder azul (10)",
+   "completion": "Colocas los cristales sobre la tabla y alineas con cuidado los colores. Cuando colocas el último un estallido de luz funde todos los cristales.$B$BLa combinación resultante es tuya.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4383": {
+   "name": "Custodia de cristal",
+   "progress": "La tabla de la torre te permite combinar cristales de poder verdes y rojos.$B$BDe acuerdo con el manual de J.D. puedes utilizar esta combinación para reforzar tu protección contra daño físico.$BCristal de poder rojo (10)$BCristal de poder verde (10)",
+   "completion": "Colocas los cristales sobre la tabla y alineas con cuidado los colores. Cuando colocas el último un estallido de luz funde todos los cristales.$B$BLa combinación resultante es tuya.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4384": {
+   "name": "Rendimiento de cristal",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4385": {
+   "name": "Carga de cristal",
+   "progress": "La tabla de la torre te permite combinar cristales de poder rojos y amarillos.$B$BDe acuerdo con el manual de J.D. puedes utilizar esta combinación para crear una gran explosión que puede infligir daño a tus enemigos.$BCristal de poder rojo (10)$BCristal de poder amarillo (10)",
+   "completion": "Colocas los cristales sobre la tabla y alineas con cuidado los colores. Cuando colocas el último un estallido de luz funde todos los cristales.$B$BLa combinación resultante es tuya.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4386": {
+   "name": "Aguja de cristal",
+   "progress": "La tabla de la torre te permite combinar cristales de poder azules y amarillos.$B$BDe acuerdo con el manual de J.D. puedes utilizar esta combinación para crear un escudo que causará daño a tus enemigos.$BCristal de poder azul (10)$BCristal de poder amarillo (10)",
+   "completion": "Colocas los cristales sobre la tabla y alineas con cuidado los colores. Cuando colocas el último un estallido de luz funde todos los cristales.$B$BLa combinación resultante es tuya.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4401": {
+   "name": "Melodía corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una melodía. De la planta emana un olor acre y malsano. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas un poco de bálsamo de planta de Cenarion a la melodía. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4403": {
+   "name": "Flor del viento corrupta",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4443": {
+   "name": "Blancoria corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una blancoria. De la planta cuelga una sustancia viscosa y las raíces visibles parecen endurecidas, como si fueran de cuero. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (3)",
+   "completion": "Aplicas tres bálsamos de planta de Cenarion a la blancoria. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4444": {
+   "name": "Blancoria corrupta",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4445": {
+   "name": "Blancoria corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una blancoria. De la planta cuelga una sustancia viscosa y las raíces visibles parecen endurecidas, como si fueran de cuero. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (3)",
+   "completion": "Aplicas tres bálsamos de planta de Cenarion a la blancoria. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4446": {
+   "name": "Blancoria corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una blancoria. De la planta cuelga una sustancia viscosa y las raíces visibles parecen endurecidas, como si fueran de cuero. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (3)",
+   "completion": "Aplicas tres bálsamos de planta de Cenarion a la blancoria. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4447": {
+   "name": "Dragón nocturno corrupto",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una planta dragón nocturno. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (4)",
+   "completion": "Aplicas cuatro bálsamos de planta de Cenarion a la dragón nocturno. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4448": {
+   "name": "Dragón nocturno corrupto",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4461": {
+   "name": "Blancoria corrupta",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4462": {
+   "name": "Dragón nocturno corrupto",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una planta dragón nocturno. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (4)",
+   "completion": "Aplicas cuatro bálsamos de planta de Cenarion a la dragón nocturno. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4463": {
+   "name": "Tratado de reflexión",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4464": {
+   "name": "Melodía corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una melodía. De la planta emana un olor acre y malsano. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas un poco de bálsamo de planta de Cenarion a la melodía. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4465": {
+   "name": "Melodía corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una melodía. De la planta emana un olor acre y malsano. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas un poco de bálsamo de planta de Cenarion a la melodía. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4466": {
+   "name": "Flor del viento corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una flor del viento. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas dos bálsamos de planta de Cenarion a la flor del viento. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4467": {
+   "name": "Flor del viento corrupta",
+   "progress": "Has encontrado una versión enfermiza y corrupta de lo que parece ser una flor del viento. Los frutos que cuelgan de la planta están podridos y envenenados. Necesita desesperadamente ser atendida para recuperar su estado normal.$BUngüento de planta Cenarion (2)",
+   "completion": "Aplicas dos bálsamos de planta de Cenarion a la flor del viento. Inmediatamente empieza a mudar su forma corrupta y se transforma en una planta rebosante de salud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4481": {
+   "name": "Tratado de constitución",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4482": {
+   "name": "Tratado de tenacidad",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4483": {
+   "name": "Tratado de resistencia",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4484": {
+   "name": "Tratado de voracidad",
+   "progress": "No me hagas perder el tiempo, $R. Dame lo que necesito. 30 piezas de oro y los componentes.$BDiamante negro (1)$BTratado sobre Voracidad (1)$BTubérculo de blancoria (4)$BPotencia de cristal (4)$BDinero necesario: 30 (1)",
+   "completion": "La cabeza me va a estallar... Las energías de la inmensidad que compone nuestro universo... ¡ARGH!$B$B<Mathredis parece sufrir.>$B$B¡Toma lo que desees y márchate!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4561": {
+   "name": "Pruebas de impureza: Cráter de Un'Goro",
+   "progress": "Coges una muestra de babosa del Cráter de Un'Goro y colocas un poco en los diversos tubos y vasos de precipitados que se encuentran sobre la mesa. A medida que todo empieza a hervir, la babosa cambia de color. Cuando el proceso comienza a detenerse y los líquidos dejan de bullir, ves una placa de Petri que contiene tus muestras de babosa de Un'Goro purificadas y algunos restos.$BMuestra de babosa de Un'Goro (1)",
+   "completion": "Coges la placa de Petri, que contiene la muestra de babosa. El único modo de saber si la muestra es lo suficientemente pura es examinando su contenido. Con suerte, podrás encontrar una muestra que le sirva al químico Fuely.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4603": {
+   "name": "El Destellamatic en acción",
+   "progress": "El Destellamatic 5200 parece estar esperando un objeto sucio que limpiar y 3 monedas de plata para activarse.$BObjeto con mugre incrustada (1)$BDinero necesario: 3 (1)",
+   "completion": "El Destellamatic 5200 se pone en marcha con sacudidas. El limpiador gnómico parece estar pulverizando el objeto del interior de la máquina.$B$BLa máquina se para con un \"¡ping!\" y la boca se abre para revelar una cajita muy bien envuelta.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4604": {
+   "name": "El Destellamatic en acción",
+   "progress": "El Destellamatic 5200 parece estar esperando un objeto sucio que limpiar y 3 monedas de plata para activarse.$BObjeto con mugre incrustada (1)$BDinero necesario: 3 (1)",
+   "completion": "El Destellamatic 5200 se pone en marcha con sacudidas. El limpiador gnómico parece estar pulverizando el objeto del interior de la máquina.$B$BLa máquina se para con un \"¡ping!\" y la boca se abre para revelar una cajita muy bien envuelta.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4605": {
+   "name": "¡El Destellamatic 5200!",
+   "completion": "La máquina se para tan bruscamente como había arrancado. Se oye un \"ping\" y se abre la boca de la máquina. Dentro del Destellamatic 5200 hay una cajita con un lazo; parece que envuelve para regalo además de limpiar.$B$BSolo hay una forma de saber si el objeto está bien limpio...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4606": {
+   "name": "¡El Destellamatic 5200!",
+   "completion": "La máquina se para tan bruscamente como había arrancado. Se oye un \"ping\" y se abre la boca de la máquina. Dentro del Destellamatic 5200 hay una cajita con un lazo; parece que envuelve para regalo además de limpiar.$B$BSolo hay una forma de saber si el objeto está bien limpio...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4661": {
+   "name": "Pruebas de Corrupción: Frondavil",
+   "progress": "Coges una muestra de babosa de Frondavil y colocas un poco en los diversos tubos y vasos de precipitados que se encuentran sobre la mesa. A medida que todo empieza a hervir, la babosa cambia de color. Cuando el proceso comienza a detenerse y los líquidos dejan de bullir, ves una placa de Petri que contiene tus muestras de babosa de Frondavil modificadas y algunos restos.$BMuestra de babosa de Frondavil (1)",
+   "completion": "Tomas la placa de Petri, que contiene la muestra de babosa. El único modo de saber si la muestra es lo suficientemente pura es examinando su contenido. Con suerte, podrás encontrar una muestra que le sirva al químico Fuely.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4785": {
+   "name": "Hilo fino de oro",
+   "completion": "Aquí tienes, $N. Y saluda a Menara de nuestra parte.$B$BTenemos grandes esperanzas contigo. Quizás cuando la Legión caiga de rodillas, se pronunciará tu nombre en voz alta y se alabará tu poder. ¡Cómo ansío ese momento!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4801": {
+   "name": "E'ko de Sable de Hielo",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4802": {
+   "name": "E'ko de los Nevada",
+   "progress": "En Cuna del Invierno combatirás con unas criaturas descarriadas conocidas como los furbolgs Nevada. Siguiendo los deseos de su líder se han hecho increíblemente fuertes. Si quieres el poder de los Nevada tráeme el E'ko que encontrarás en ellos.$B$BRecuerda, debes tener el Alijo de Mau'ari en tu inventario si quieres conseguir E'ko.$BE'ko Nevada (3)",
+   "completion": "Mau'ari puede crear el Juju para $N... Utiliza el Alijo de Mau'ari para lanzarlo sobre ti o sobre tus aliados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4803": {
+   "name": "E'ko de los dentoesquirla",
+   "progress": "En Cuna del Invierno encontrarás grandes osos con unas pieles extremadamente duras y gruesas. Los osos dentoesquirla obtienen mucha protección de lo que pueden resistir. Si quieres resistencia al Fuego, tráeme el E'ko que encontrarás en los dentoesquirla.$B$BRecuerda, debes tener el Alijo de Mau'ari en tu inventario para poder obtener E'ko.$BDentoesquirla E'ko (3)",
+   "completion": "Mau'ari puede crear el Juju para $N... Utiliza el Alijo de Mau'ari para lanzarlo sobre ti o sobre tus aliados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4804": {
+   "name": "E'ko de los venfresco",
+   "progress": "En Cuna del Invierno combatirás con unas criaturas voladoras llamadas quimeras. Esas bestias pueden dominar la magia de hielo. Si quieres ganar resistencia a la Escarcha tráeme el E'ko que encontrarás en ellas.$B$BRecuerda, debes tener el Alijo de Mau'ari en tu inventario para poder conseguir E'ko.$BE'ko Orvallo (3)",
+   "completion": "Mau'ari puede crear el Juju para $N... Utiliza el Alijo de Mau'ari para lanzarlo sobre ti o sobre tus aliados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4805": {
+   "name": "E'ko de los Cardo Nevado",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4806": {
+   "name": "E'ko de los Machacahielo",
+   "progress": "En Cuna del Invierno combatirás con unos enormes gigantes de hielo llamados Machacahielo. Suyos son el poder y la fuerza más puros. Si quieres ganar la fuerza del Machacahielo tráeme el E'ko que encontrarás en ellos.$B$BRecuerda, debes tener el Alijo de Mau'ari en tu inventario si quieres conseguir E'ko.$BE'ko Machacahielo (3)",
+   "completion": "Mau'ari puede crear el Juju para $N... Utiliza el Alijo de Mau'ari para lanzarlo sobre ti o sobre tus aliados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4807": {
+   "name": "E'ko de lechúcico",
+   "progress": "En Cuna del Invierno, combatirás con unas criaturas que parecen tener una habilidad mágica innata. Los lechúcicos pueden utilizar magia muy poderosa. Si quieres aumentar tu intelecto tráeme el E'ko que encontrarás en las lechubestias.$B$BRecuerda, debes tener el Alijo de Mau'ari en tu inventario si quieres obtener E'ko.$BE'ko de lechúcico (3)",
+   "completion": "Mau'ari puede crear el Juju para $N... Utiliza el Alijo de Mau'ari para lanzarlo sobre ti o sobre tus aliados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5042": {
+   "name": "La fuerza de Agamaggan",
+   "progress": "Necesitaré 4 esquirlas de sangre si quieres tener la fuerza de Agamaggan, $R.$B$BSi se te concediera esta bendición, tus enemigos se encogerán ante tu fuerza.$B$B¡Los más gloriosos guerreros Crines de Acero están imbuidos de tal poder!$BFragmento de sangre (4)",
+   "completion": "¡Ojalá Quebrantadientes estuviera libre para ver cómo diezmas a los que lo traicionaron! <Gruñe>$B$BTe agradezco que destruyeras a más Erizapúas al reunir estos fragmentos. Te lo ruego, sigue haciéndolo, y yo volveré a ayudarte. <Gruñe>",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5043": {
+   "name": "La agilidad de Agamaggan",
+   "progress": "Se dice que la precisión de los mejores exploradores de mis tribus no tiene parangón y ningún granuja <gruñe> estaría a la altura de su rapidez en el combate.$B$BTráeme 4 esquirlas de sangre y haré que seas aún más ágil que cualquier jabaespín.$BFragmento de sangre (4)",
+   "completion": "Que no falle tu disparo y la marca de tu arma sea verdadera, $R.$B$BEl espíritu de Agamaggan está contigo. Vuelve aquí si quieres. Quebrantadientes volverá a bendecirte si el gran dios jabalí me considera digno.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5044": {
+   "name": "La sabiduría de Agamaggan",
+   "progress": "El chamán y los geománticos de las tribus jabaespín <gruñe> recurren a la fuerza de Agamaggan para que les ayude en la batalla y en sus rituales, $R.$B$BSi quieres el poder adicional de la bendición de Agamaggan con tus hechizos, tráeme 4 esquirlas de sangre y Quebrantadientes te ayudará.$BFragmento de sangre (4)",
+   "completion": "Tus enemigos deberían temerte aún más, $R.$B$BCuéntale a Quebrantadientes los relatos de tu astucia en la batalla la próxima vez que nos veamos, ya sea en esta vida o en la otra.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5045": {
+   "name": "Fortaleza de espíritu",
+   "progress": "Todos los tipos de $C necesitan fortaleza de espíritu. Te empuja a mayores proezas cuando se ha perdido toda esperanza. Es algo a lo que están acostumbrados los Crines de Acero. Somos una tribu espiritual, estamos más orgullosos de nuestra conexión con Agamaggan que de nuestras proezas en la batalla.$B$BTráeme 4 esquirlas de sangre y bendeciré tu espíritu para el combate.$BFragmento de sangre (4)",
+   "completion": "Nuestros más gloriosos guerreros y <gruñe> chamanes envidiarían tu determinación, $R.$B$B¡Derrota a más Erizapúas sabiendo que no pueden detenerte!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5046": {
+   "name": "Cerropiel",
+   "progress": "Todos los que <gruñe> entran en combate necesitan protección. Sus huesos han de ser resistentes. Su piel, curtida <Gruñe> Mi tribu sabe esto muy bien y para reforzar la protección natural de nuestras púas y piel, <gruñe> con frecuencia recurrimos a Agamaggan para que nos proteja de los daños antes de entrar en combate.$B$BTráeme 4 fragmentos ensangrentados <gruñe> y te otorgaré la misma protección.$BFragmento de sangre (4)",
+   "completion": "Ve a la guerra, $R.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5058": {
+   "name": "El diario de la señorita Dalson",
+   "completion": "Un diario con páginas que comienzan a amarillear descansa abierto por la última entrada:$B$B\"No sé lo que va a ocurrir ahora que Harold se ha transformado. Gasté todas mis fuerzas en arrastrarlo hasta el único lugar que pude encontrar y en el que pudiera quedar encerrado. Escondí en mí la llave y ruego porque funcione...$B$BEspero poder salir de aquí, pero necesito dinero para hacerlo. Creo que todas nuestras cosas están en el armario... y ahora que lo pienso, ¿no tiene Harold la llave con él?$B$BDescansaré, estoy terriblemente cansada.\"",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5059": {
+   "name": "Encierro",
+   "progress": "La puerta de la letrina ha comenzado a astillarse en los bordes del marco, como si hubieran intentado forzarla varias veces y con insistencia. En este momento está cerrada desde fuera.$B$B¡Cuando mueves la puerta oyes un gemido gutural en el interior! Sea lo que sea, no parece muy amistoso.$BLlave del excusado de Dalson (1)",
+   "completion": "Con la llave que encontraste en el esqueleto de la que fue la señora Dalson abres la puerta de la letrina. Un necrófago sanguinario salta fuera de la letrina, debe de haber estado ahí atrapado desde hace mucho tiempo.$B$BEl desgarrador grito del necrófago al advertir tu presencia deja claro que el antiguo granjero Dalson ya no puede ser salvado.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5060": {
+   "name": "Encierro",
+   "progress": "Tienes ante ti un armario extremadamente fuerte y robusto, cerrado con un candado. La parte delantera del armario tiene marcas y arañazos muy profundos. Podría pensarse que son el resultado de numerosos y violentos intentos fallidos por desvelar los secretos que encierra el armario.$B$BSi quieres abrirlo tendrás que encontrar la llave.$BLlave del armario de Dalson (1)",
+   "completion": "La llave que has cogido de los restos del necrófago que fue el granjero Dalson encaja a la perfección en el candado. Las puertas del armario se abren y muestran varios objetos que siguen intactos y que parecen bastante valiosos.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5122": {
+   "name": "El medallón de Fe",
+   "progress": "El poder de esta capilla me da la fuerza para resistir la corrupción que habita en mi corazón. Si cedo, me convertiré en un caballero de la muerte. Pero hay un medallón, el medallón de fe, que me dará la fuerza que necesito para partir.$B$BPor favor, $N, recupera el medallón. Está en manos de Malor el Fanático, un miembro demente de la Hermandad Escarlata, que reside en las profundidades del Bastión Escarlata en Stratholme occidental.$BMedallón de Fe (1)",
+   "completion": "¡Has conseguido el medallón! Ahora podré abandonar por fin la capilla y cumplir con mi deber.$B$BEse deber es matar a la bestia que ayudó en mi corrupción y en la de tantos de mis hermanos y hermanas, ¡el Barón Osahendido!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5125": {
+   "name": "La estimación de Aurius",
+   "completion": "$N, me estoy muriendo... pero mi alma está salvada. Por eso, te debo más de lo que jamás podré expresar. Por favor, acepta esto, ¡y sigue luchando... valiente $C!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5150": {
+   "name": "¡Dadanga tiene hambre!",
+   "progress": "Dadanga te observa mientras te acercas a ella. Parece que espera algo...$B$B¡Probablemente esté hambrienta!$B$BSeguro que en el cráter hay algo que le puede servir de aperitivo a una gran herbívora como ella. Ten en cuenta que es una chica muy grande así que, traigas lo que traigas, ¡que sea en abundancia!$BBrote pétalo de sangre (15)",
+   "completion": "Parece que a Dadanga le gustan los brotes que le has traído.$B$BA cambio, te entrega un pequeño paquete.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5218": {
+   "name": "El caldero del Campo de Piedra Mácula",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5221": {
+   "name": "El caldero del Llanto de Dalson",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5224": {
+   "name": "El caldero de El Tormento",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5227": {
+   "name": "El caldero de la Gangrena de Gahrron",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5237": {
+   "name": "¡Misión cumplida!",
+   "completion": "¡$N, tu éxito cambiando la estructura de las calderas es una enorme victoria para nosotros!$B$BQue todos los que están en mi presencia lo oigan: por los servicios prestados al Reino de Ventormenta y a la Alianza muy por encima de lo que le obligaba el sentido del deber y, añado, por haber superado todos los pronósticos y un peligro inenarrable, concedo esto a $N, y le hago llegar nuestra eterna gratitud como un auténtico héroe de la Alianza. ¡Viva $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5238": {
+   "name": "¡Misión cumplida!",
+   "completion": "¡$N, tu éxito cambiando la estructura de las calderas es una enorme victoria para nosotros!$B$BQue todos los que están en mi presencia lo oigan: por los servicios prestados a los Renegados y a toda la Horda muy por encima de lo que era de esperar y, añado, por haber superado todos los pronósticos y un peligro inenarrable, concedo esto a $N, y le hago llegar nuestra eterna gratitud como un auténtico héroe de la Horda. ¡Lancemos nuestros vítores!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5401": {
+   "name": "Comisión del Alba Argenta",
+   "completion": "Todos los que combaten el mal en nombre del Alba Argenta deben vestir nuestra Comisión. Al hacerlo obtendrás el derecho de reclamar recompensas a nuestros intendentes.$B$BMientras estés bajo nuestra comisión podrás adquirir piedras de la Plaga de sus miembros caídos ya que esas piedras son insignias que a veces llevan consigo. Hazte con esas insignias y tráemelas. Por cada juego que traigas recibirás nuestras señales de heroísmo: las muestras de valor del Alba Argenta.$B$BSigue tu destino, $C, ¡únete hoy mismo a la lucha!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5402": {
+   "name": "Piedras de la Plaga del esbirro",
+   "progress": "Una piedra de la Plaga del esbirro es la insignia de las filas de la Plaga. A veces pueden encontrarse en los miembros más débiles de las tropas destacadas en las Tierras de la Peste, aunque la palabra \"débil\" es muy relativa. La Plaga, da igual de quién se trate, nunca debe ser subestimada.$B$BEn este momento el Alba Argenta ofrece una muestra de valor a cambio de veinte de esas insignias... un intercambio que me encantaría hacer, ¡siempre y cuando tengas suficientes piedras de la Plaga!$BPiedra de la Plaga de esbirro (20)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor del Alba Argenta!$B$BLas muestras tienen dos propósitos. En primer lugar, pueden utilizarse para aumentar tu reputación con el Alba Argenta, de ese modo tendrás a tu disposición oportunidades y recompensas reservadas a nuestros aliados honrados y venerados. En segundo lugar, puedes entregarlas a nuestros intendentes, junto con algunas monedas, como pago por algunos de los objetos más valiosos del Alba.$B$BDecidas lo que decidas, te estás ganando tu comisión. ¡Bien hecho!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5403": {
+   "name": "Piedras de la Plaga del invasor",
+   "progress": "Una piedra de la Plaga del invasor es la insignia de las tropas de élite de la Plaga. A veces pueden encontrarse entre los más fuertes de las tropas destacadas en las Tierras de la Peste. Derrotar una criatura así es, sin duda, todo un reto, pero uno del que se disfruta cuando se está comprometido con la aniquilación del mal.$B$BEn este momento, el Alba Argenta ofrece una muestra de valor a cambio de diez de esas insignias. Tráemelas y me aseguraré de que recibas tu recompensa.$BPiedra de la Plaga de un invasor (10)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor del Alba Argenta!$B$BCada muestra de valor entregada a alguien digno de ella es un símbolo de la oleada que se está abriendo contra la Plaga. Cada vez son más los héroes que combaten a la Plaga en nuestras tierras, lo que asegura que el Alba Argenta ocupará un puesto destacado cuando llegue el momento de hacer frente al mal último de la Plaga. ¡Espero que el valor que has demostrado y que te permitió conseguir una de estas muestras también esté presente ese día!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5404": {
+   "name": "Piedras de la Plaga del corruptor",
+   "progress": "Una piedra de la Plaga del corruptor es la insignia de los Señores Supremos de la Plaga. Todo ser poderoso y con autoridad sobre la Plaga posee una de esas piedras. Acabar con una criatura tan malévola sería un gran paso adelante para la causa del Alba Argenta y para todas las causas justas.$B$BEn nombre del Alba Argenta te daré una muestra de valor a cambio de una sola de esas insignias. Ten cuidado al obtenerlas, $N... no hay que andar jugando con criaturas tan poderosas.$BPiedra de la Plaga de un corruptor (1)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor del Alba Argenta!$B$BAdquirir una muestra de valor de esta forma indica que eres un auténtico héroe de la causa del bien. Valoramos todo esfuerzo hecho contra la Plaga, ¡pero acabar con uno de sus líderes es un auténtico avance hacia su derrota!$B$B¡Por el Alba, hermano!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5405": {
+   "name": "Comisión del Alba Argenta",
+   "completion": "Todos los que combaten el mal en nombre de El Alba Argenta deben vestir nuestra Comisión. Al hacerlo obtendrás el derecho de reclamar recompensas a nuestros intendentes.$B$BMientras estés bajo nuestra comisión podrás adquirir piedras de la Plaga de sus miembros caídos ya que esas piedras son insignias que a veces llevan consigo. Hazte con esas insignias y tráemelas. Por cada juego que traigas recibirás nuestras señales de heroísmo: las muestras de valor de El Alba Argenta.$B$BSigue tu destino, $C, ¡únete hoy mismo a la lucha!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5406": {
+   "name": "Piedras de la Plaga del corruptor",
+   "progress": "Una piedra de la Plaga del corruptor es la insignia de los Señores Supremos de la Plaga. Todo ser poderoso y con autoridad sobre la Plaga posee una de esas piedras. Acabar con una criatura tan malévola sería un gran paso adelante para la causa de El Alba Argenta y para todas las causas justas.$B$BEn nombre de El Alba Argenta te daré una muestra de valor a cambio de una sola de esas insignias. Ten cuidado al obtenerlas, $N... no hay que andar jugando con criaturas tan poderosas.$BPiedra de la Plaga de un corruptor (1)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor de El Alba Argenta!$B$BAdquirir una muestra de valor de esta forma indica que eres un auténtico héroe de la causa del bien. Valoramos todo esfuerzo hecho contra la Plaga, ¡pero acabar con uno de sus líderes es un auténtico avance hacia su derrota!$B$B¡Por El Alba, hermano!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5407": {
+   "name": "Piedras de la Plaga del invasor",
+   "progress": "Una piedra de la Plaga del invasor es la insignia de las tropas de élite de la Plaga. A veces pueden encontrarse entre los más fuertes de las tropas destacadas en las Tierras de la Peste. Derrotar una criatura así es, sin duda, todo un reto, pero uno del que se disfruta cuando se está comprometido con la aniquilación del mal.$B$BEn este momento, El Alba Argenta ofrece una muestra de valor a cambio de diez de esas insignias. Tráemelas y me aseguraré de que recibas tu recompensa.$BPiedra de la Plaga de un invasor (10)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor de El Alba Argenta!$B$BCada muestra de valor entregada a alguien digno de ella es un símbolo de la oleada que se está abriendo contra la Plaga. Cada vez son más los héroes que combaten a la Plaga en nuestras tierras, lo que asegura que El Alba Argenta ocupará un puesto destacado cuando llegue el momento de hacer frente al mal último de la Plaga. ¡Espero que el valor que has demostrado y que te permitió conseguir una de estas muestras también esté presente ese día!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5408": {
+   "name": "Piedras de la Plaga del esbirro",
+   "progress": "Una piedra de la Plaga de un esbirro es la insignia de las filas de la Plaga. A veces pueden encontrarse en los miembros más débiles de las tropas destacadas en las Tierras de la Peste, aunque la palabra \"débil\" es muy relativa. La Plaga, da igual de quién se trate, nunca debe ser subestimada.$B$BEn este momento el Alba Argenta ofrece una muestra de valor a cambio de veinte de esas insignias... un intercambio que me encantaría hacer, ¡siempre y cuando tengas suficientes piedras de la Plaga!\"$BPiedra de la Plaga de esbirro (20)",
+   "completion": "Felicidades, $N. ¡Es un placer recompensarte con una muestra de valor del Alba Argenta!$B$BLas muestras tienen dos propósitos. En primer lugar, pueden utilizarse para aumentar tu reputación con el Alba Argenta, de ese modo tendrás a tu disposición oportunidades y recompensas reservadas a nuestros aliados honrados y venerados. En segundo lugar, puedes entregarlas a nuestros intendentes, junto con algunas monedas, como pago por algunos de los objetos más valiosos del Alba.$B$BDecidas lo que decidas, te estás ganando tu comisión. ¡Bien hecho!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5421": {
+   "name": "Pescado en un balde",
+   "progress": "Recompensaré a cualquiera que haga mi vida un poco más fácil... ¡Mi vida se rige por la ley del mínimo esfuerzo, colega!$B$BBajo el embarcadero, aquí en la Aldea Cazasombras, tengo muchas trampas de marisco. Si fueras tan amable... podrías hacer mi trabajo y recoger mi marisco... Y luego yo te doy algo que quieres, ¿pillas el sistema, colega? ¡Por cada 5 mariscos que me traigas, te daré un estupendo panzasangre!$BMarisco (5)",
+   "completion": "Genial. Nada mejor que un trabajo bien hecho... sobre todo si lo hace otro, ¿eh?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5503": {
+   "name": "Comisión del Alba Argenta",
+   "completion": "Todos los que combaten el mal en nombre del Alba Argenta deben portar nuestra Comisión. Cuando la lleves, tendrás derecho a reclamar las recompensas que ofrezcan nuestras Intendencias.$B$BY también podrás adquirir piedras de la Peste de miembros de la Peste caídos. Estas piedras son insignias que poseen algunos de ellos. Hazte con esas insignias y tráemelas. Por cada insignia que me entregues, recibirás nuestro símbolo de heroísmo: la muestra de valor del Alba Argenta.$B$BCumple tu destino, $C, ¡únete hoy al combate!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5505": {
+   "name": "La llave de Scholomance",
+   "completion": "Bien, aquí la tienes $N, la Llave esqueleto. Estoy tan seguro como puedo de que con esta llave podrás adentrarte en los confines de Scholomance. Pero solo hay un modo de asegurarse por completo. No pierdas tiempo intentándolo, te lo aconsejo.$B$BBuena suerte, poderoso héroe. ¡Que sigas llevando la Luz a las tinieblas!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5508": {
+   "name": "Piedras de la Plaga de un corruptor",
+   "progress": "La Piedra de la Plaga de un corruptor es la insignia de los Señores Supremos de la Plaga. Unos seres poderosos que disfrutan de una posición de autoridad en la Plaga. Siempre llevan una. Matar a esas criaturas tan malévolas ayudaría sin duda a la causa del Alba Argenta... ¡y a todas las buenas causas del mundo!$B$BDe parte del Alba Argenta, te daré una muestra de valor a cambio de una sola de estas insignias. Sé prudente cuando quieras hacerte con una, $N, los seres que las poseen son poderosos.$BPiedra de la Plaga de un corruptor (1)",
+   "completion": "Enhorabuena, $N. Me enorgullece recompensarte con una muestra de valor del Alba Argenta.$B$BConseguir una muestra de valor como lo has hecho tú indica que eres un auténtico héroe del Bien. Valoramos todos los esfuerzos que tengan como objetivo acabar con la Plaga, pero acabar con uno de sus líderes... ¡eso sí que les llevará a una derrota aplastante!$B$B¡Por el Alba, hermano!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5509": {
+   "name": "Piedras de la Plaga de un invasor",
+   "progress": "La Piedra de la Plaga de un invasor es la insignia de las tropas de élite de la Plaga. A veces se encuentran en los soldados más fuertes, los que están en las Tierras de la Peste. Matar a uno de ellos es un desafío, pero es uno que se ve compensado por ser una oportunidad para derrotar al mal.$B$BEl Alba Argenta ofrece una muestra de valor a cambio de diez de estas insignias. Tráemelas y yo me aseguraré de que recibas tu justa recompensa.$BPiedra de la Plaga de un invasor (10)",
+   "completion": "Enhorabuena, $N, ¡me enorgullece recompensarte con una muestra de valor del Alba Argenta!$B$BCada muestra de valor entregada a quienes demuestran ser merecedores de ella, inclina un poco más la balanza a nuestro favor. Con el número creciente de héroes que combaten a la Plaga en sus propias tierras, cuando llegue el momento de declarar la guerra al mal definitivo de la Plaga, el Alba Argenta estará sin duda en muy buena posición. ¡Espero que ese día sigas haciendo gala del valor que tuviste que demostrar para adquirir tu muestra!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5510": {
+   "name": "Piedras de la Plaga de un esbirro",
+   "progress": "Una Piedra de la Plaga de un esbirro es la insignia de las tropas de la Plaga. A veces se encuentran en los más débiles de sus filas, las que están en las Tierras de la Peste... aunque el término \"débiles\" debe por supuesto, interpretarse en su contexto. Los miembros de la Plaga, estén donde estén, no deben ser subestimados.$B$BEl Alba Argenta ofrece una muestra de valor a cambio de veinte de esas insignias... Es un intercambio que me encantaría hacer, ¡siempre que tengas suficientes Piedras de la Plaga!$BPiedra de la Plaga de esbirro (20)",
+   "completion": "Enhorabuena, $N, ¡me enorgullece recompensarte con una muestra de valor del Alba Argenta!$B$BLas muestras tienen dos objetivos. Uno: pueden utilizarse para seguir subiendo de nivel de reputación dentro del Alba Argenta. Si llegas a un nivel de honrado o venerado, podrás acceder a opciones y recompensas reservadas solo para aliados de ese nivel de reputación. Dos: pueden utilizarse en nuestras Intendencias –con algunas monedas– para adquirir algunos de los objetos más valorados del Alba.$B$BDecidas lo que decidas, has de saber que te estás ganando tu Comisión. ¡Bien hecho!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5511": {
+   "name": "La llave de Scholomance",
+   "completion": "Bien, aquí estás, $N. Y has completado la llave esqueleto. No tengo dudas de que esta llave te permitirá acceder a los confines de Scholomance. Solo hay una forma de asegurarse por completo de que funcione. Yo diría que no pierdas tiempo en probarla.$B$BBuena suerte, poderoso héroe. ¡Que tus victorias continúen otorgándote fama y poder mientras destruyes Scholomance!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5519": {
+   "name": "El traje de orgo Gordok",
+   "progress": "Necesitas otro traje, ¿verdad? Pues mira, como parece que no voy a ir a ninguna parte, tráeme las cosas que te pedí la vez anterior y te haré otro traje de ogro.$BDescarga de paño rúnico (4)$BCuero basto (8)$BHilo rúnico (2)$BTanino ogro (1)",
+   "completion": "Aquí tienes, $N. Ponte esto y dispondrás de diez minutos para hacer lo que tengas que hacer. ¡Buena suerte!$B$BAh, y si por un casual encuentras una llave para sacarme de aquí, ¡¡¡POR FAVOR, HÁZMELO SABER!!!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5525": {
+   "name": "¡Libera a Knot!",
+   "progress": "Se llama llave de los grilletes de Gordok... bueno, así es como la llaman esos graciosillos. Creo que podría tenerla cualquiera de los ogros, pero no sé cuáles en concreto. Probablemente podrían tenerla los guardias...$B$B¿Pero qué estoy diciendo? ¡Si tú ya la tienes! ¡¿No?! ¡¿¿No es eso que tienes ahí??!$BLlave de los grilletes de Gordok (1)",
+   "completion": "Tú... eres el mejor. Todos los demás no te llegan ni a la rodilla. ¡Gracias por liberarme!$B$B¡Sabía que mi destino no era acabar siendo el aperitivo de algún ogro!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5528": {
+   "name": "La cata de los Gordok",
+   "completion": "Ahora eres el jefe, ¡así consigues muestras gratis de mis mejores bebidas! ¡Te darán un buen subidón y un potente tirón! Son las buenas, jefe. ¡Prueba y dilo a Kreeg!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5627": {
+   "name": "Estrellas de Elune",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5634": {
+   "name": "Oración desesperada",
+   "objectivesText": [
+    "[Speak to High Priest Rohan in Ironforge.]"
+   ],
+   "details": "[A priest recently visited our halls seeking you out, young $R. He said that he was on a mission to find you and that you should return to the Hall of Mysteries in Ironforge as soon as possible. When you arrive, seek out High Priest Rohan--he will tell you more.$B$BThe Light be with you, $N.]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5641": {
+   "name": "Sin miedo",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5652": {
+   "name": "Maleficio de Debilidad",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5658": {
+   "name": "Toque de debilidad",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5672": {
+   "name": "La Gracia de Elune",
+   "completion": "Consagrándote a Elune y a nuestra gente, has alcanzado un estado al que no todos nosotros podemos aspirar. La tradición exige que te sean inculcadas habilidades incluso mayores por tu devoción. ¿Aceptas?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5676": {
+   "name": "La reacción Arcana",
+   "completion": "Nos vimos obligados a aprender algo de magia para protegernos de nuestro mayor enemigo: lo Arcano.$B$BTe enseñaré un hechizo para ayudarte a defenderos a ti y a tus compañeros de aquellos que tienen ese poder.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5678": {
+   "name": "La reacción Arcana",
+   "objectivesText": [
+    "Habla con la suma sacerdotisa Laurena en Ventormenta."
+   ],
+   "details": "Ha llegado el momento de que regreses a Ventormenta, joven. Tus superiores te han llamado para que recibas instrucción. Y, si bien me inquieta, tu raza y la mía son aliadas, y no quiero traicionar eso.$B$BQuiero que sepas la verdad sobre mí. Mi desconfianza de las magias Arcanas, ya sean por inspiración divina o no, sigue siendo fuerte.$B$BEntenderás lo que te digo cuando vuelvas a la Catedral de la Luz. Habla con la suma sacerdotisa Laurena cuando llegues.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5679": {
+   "name": "Peste devoradora",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5680": {
+   "name": "Guardia de las Sombras",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5882": {
+   "name": "Bálsamo por caza",
+   "progress": "Una antorcha Cenarion te permite ver un fragmento de alma corrupto en esas bestias corruptas que deben ser sacrificadas por un bien mayor. Yo pulverizo los fragmentos y los convierto en un componente con el que se crea el bálsamo de planta de Cenarion. Y es lo que utilizaremos para sanar a las plantas corruptas.$B$BA cambio de esos fragmentos, te daré algunos bálsamos de planta de Cenarion que ya tengo preparados.$BFragmento de alma corrupto (6)",
+   "completion": "Muy bien. Aquí están tus bálsamos de planta de Cenarion. ¡Explora Frondavil y busca plantas corruptas, $N! Estén donde estén, utiliza el bálsamo que te he dado para purificarlas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5883": {
+   "name": "Bálsamo por minería",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5884": {
+   "name": "Bálsamo por recolección",
+   "progress": "Una antorcha Cenarion permite a un herborista experimentado detectar cualquier agente máculo insidioso, un criminal producto de la corrupción de Frondavil. Trabajando aquí he aprendido a purificar el agente máculo y convertirlo en un agente purificador... uno que se usa en lo que ahora llamamos bálsamo de planta de Cenarion.$B$BSi llevas la antorcha contigo mientras recoges hierbas en Frondavil, deberías poder ver el agente máculo. A cambio de lo que me traigas, te daré un poco de bálsamo de planta de Cenarion que tengo ya preparado.$BAgente máculo (4)",
+   "completion": "Un trabajo excelente, $N. Cada gotita, una vez purificada, nos ayudará a recuperar Frondavil. Ten, llévate algunas dosis de bálsamo de planta de Cenarion y adéntrate en el bosque. Y date prisa: ¡debemos sanar la tierra cuanto antes, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5885": {
+   "name": "Bálsamo por desuello",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5886": {
+   "name": "Bálsamo por desencantamiento",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5887": {
+   "name": "Bálsamo por caza",
+   "progress": "Una antorcha Cenarion te permite ver un fragmento de alma corrupto en esas bestias corruptas que deben ser sacrificadas por un bien mayor. Yo pulverizo los fragmentos y los convierto en un componente con el que se crea el bálsamo de planta Cenarion. Y es lo que utilizaremos para sanar a las plantas corruptas.$B$BA cambio de esos fragmentos, te daré algunos bálsamos de planta Cenarion que ya tengo preparados.$BFragmento de alma corrupto (6)",
+   "completion": "Muy bien. Aquí están tus bálsamos de planta Cenarion. ¡Explora Frondavil y busca plantas corruptas, $N! Estén donde estén, utiliza el bálsamo que te he dado para purificarlas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5888": {
+   "name": "Bálsamo por minería",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5889": {
+   "name": "Bálsamo por recolección",
+   "progress": "Una antorcha Cenarion permite a un herborista experimentado detectar cualquier agente máculo insidioso, ese criminal producto de la corrupción de Frondavil. Trabajando aquí he aprendido a purificar el agente máculo y convertirlo en un agente purificador... uno que se usa en lo que ahora llamamos bálsamo de planta de Cenarion.$B$BSi llevas la antorcha contigo mientras recoges hierbas en Frondavil, deberías poder ver el agente máculo. A cambio de lo que me traigas, te daré un poco de bálsamo de planta de Cenarion que tengo ya preparado.$BAgente máculo (4)",
+   "completion": "Un trabajo excelente, $N. Cada gotita, una vez purificada, nos ayudará a recuperar Frondavil. Ten, llévate algunas dosis de bálsamo de planta de Cenarion y adéntrate en el bosque. Y date prisa: ¡debemos sanar la tierra cuanto antes, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5890": {
+   "name": "Bálsamo por desuello",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5891": {
+   "name": "Bálsamo por desencanto",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6383": {
+   "name": "La Caza de Vallefresno",
+   "completion": "Tres legendarias criaturas componen la Caza de Vallefresno; puedes buscarlas y ponerte a prueba frente a su astucia y fuerza. En ese proceso, espero que aprendas algo sobre ti mismo. Estas criaturas son: el oso Ursangous, el felino sable de la noche Shadumbra y el hipogrifo Garrafilada.$B$BLas criaturas de la Caza de Vallefresno son poderosas y es posible que necesites ayuda para derrotarlas. Si llegas a hacerlo, tráeme la prueba de tu caza.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6545": {
+   "name": "Novedades del corredor Grito de Guerra",
+   "progress": "¿Has vuelto con mis órdenes? Siempre es bueno ver a nuevos reclutas con una naturaleza desbordante y resueltos.$B$BMás vale que aprendas rápido si esperas seguir a la altura aquí. Aumenta la amenaza de los nagasss, $N. He estado observando y hemos reforzado las defensas frente a varios ataques sobre esta avanzada desde que llegué.$B$BPero si te apetece arrimar el hombro en esta guerra, habla con alguien de la avanzada.$BInforme Grito de Guerra (1)",
+   "completion": "Bueno, mi información hará que Kadrak lo entienda todo. Debes llevarle esto cuanto antes.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6546": {
+   "name": "Novedades del escolta Grito de Guerra",
+   "progress": "El camino está sembrado de peligros, $N. Tenlo bien presente cuando viajes por estas tierras. La amenaza de la Alianza está bastante cerca.$B$BEl enemigo nos rodea por todas partes. Los sátiros son la formidable fuerza predominante al este de Vallefresno. Asimismo, he descubierto que los nagasss se han hecho con una vasta extensión de tierra en Azshara.$B$BEs bueno que seguimos incrementando nuestros efectivos, prepárate para lo que se avecina, $N.$BInforme Grito de Guerra (1)",
+   "completion": "Llévale mi informe a Kadrak. ¡Y apúrate, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6547": {
+   "name": "Novedades del explorador Grito de Guerra",
+   "progress": "Mantén los ojos bien abiertos, $R. Los elfos suelen ocultarse en las sombras...$B$BSiempre debemos estar vigilantes. Hemos trabajado mucho para conseguir esta tierra y los elfos buscan la más mínima oportunidad para arrebatárnosla.$B$BSupongo que tienes mis siguientes órdenes de Kadrak?$BInforme Grito de Guerra (1)",
+   "completion": "Que Kadrak se entere del éxito que hemos tenido en mantener a raya a los elfos de la noche. Nuestro planes van muy bien.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6581": {
+   "name": "Las hojas de sierra Grito de Guerra",
+   "progress": "¡Directamente desde Trinquete, las hojas de sierra de los Grito de Guerra! Sí, las tengo aquí mismo.$B$B¿Pero cómo piensas pagarme? No te las puedes quedar y ya está, ¿sabes? ¡Mi tiempo no es barato!$B$BLo que de verdad necesito es una buena arma para llevar en mis viajes. Una chica tiene que protegerse, ¿sabes? Hay una escopeta que me gusta mucho y que estoy segura que un ingeniero podría hacer sin problema.$B$BAsí que si me traes un trabuco mortífero, te entregaré el cargamento de hojas de sierra. ¿Trato?$BTrabuco mortal (1)",
+   "completion": "Esto es perfecto, ¡como anillo al dedo! Bien, aquí tienes el envío.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6642": {
+   "name": "El favor de la Hermandad, mineral de hierro negro",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6643": {
+   "name": "El favor de la Hermandad, núcleos ardientes",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6644": {
+   "name": "El favor de la Hermandad, núcleo de lava",
+   "progress": "Hermandad del torio, S.A. comprende tu difícil situación, no-muerto. Por eso se ha autorizado a Lokthos a negociar.$B$BOfréceme 1 núcleo de lava y se te concederá el favor de la Hermandad.$BNúcleo de lava (1)",
+   "completion": "Tu ofrenda ha sido aceptada. El favor has obtenido. Sigue así y se te permitirá el acceso a los negocios ancestrales.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6645": {
+   "name": "El favor de la Hermandad, cuero del núcleo",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6646": {
+   "name": "El favor de la Hermandad, gota de sangre de la montaña",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6701": {
+   "name": "Emblemas de la Hermandad",
+   "progress": "Hace años que luchamos contra la Hermandad. Lo que les falta en habilidad lo compensan con cantidad; ¡no llegamos a matar los suficientes para reducir su población!$B$BHemos descubierto que el mejor método es robar sus emblemas. Cuando algún miembro pierde el suyo, digamos que el propio sistema lo elimina.$B$BRóbales los emblemas y dámelos a mí o a uno de los guardias.$B$BEmpieza por Durnholde, al sur de aquí.$BEmblema de la Hermandad (1)",
+   "completion": "¡Buen trabajo! Sigue así y a lo mejor los demás hasta te respetan un poco.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6741": {
+   "name": "¡Más botines!",
+   "progress": "¡Necesito más restos de armadura, $N! ¿Tienes alguno?$BTrocitos de armadura (20)",
+   "completion": "Gracias otra vez, $N. Eres motivo de orgullo para la Horda.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6781": {
+   "name": "Más restos de armadura",
+   "progress": "$N, ¡necesitamos más restos de armadura para los suministros de nuestros soldados!$BTrocitos de armadura (20)",
+   "completion": "Estas piezas son muy buenas, $N. Puedo usarlas para confeccionar nuevos equipos para nuestros soldados.$B$BSi mi nivel de suministro llega a ser suficientemente alto, ¡a lo mejor nuestras avezadas unidades de combate irán al campo de batalla!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6801": {
+   "name": "Lokholar, el Señor del Hielo",
+   "progress": "Vengo de Cima del Trueno, $R. El propio Cairne ha decidido que ayude al clan Lobo Gélido en estos amargos tiempos.$B$BPero no perdamos más el tiempo. Debes atacar a nuestros enemigos y traerme su sangre. Cuando tenga suficiente sangre, podrá empezar el ritual del conjuro.$B$BLa victoria estará garantizada cuando el Señor Elemental quede liberado sobre el ejército de los Pico Tormenta.$BSangre de soldado de Pico Tormenta (1)",
+   "completion": "Se ha derramado sangre enemiga. Mezclaré esta sangre con el resto de elementos que hemos recolectado. Cuando la ofrenda esté completa, el Señor del Hielo enseñará a esos perros Pico Tormenta ¡toda la ira del clan Lobo Gélido!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6825": {
+   "name": "La llamada del aire: flota de Guse",
+   "progress": "Tenemos que preparar la nueva flota de alas de guerra, $R! Mis jinetes están listos para un ataque sobre el campo de batalla central pero primero hay que despertar su apetito… prepararlos para el asalto.$B$BNecesito carne de soldados Pico Tormenta, ¡como para alimentar a una flota! ¡Cientos de kilos! Seguro que puedes encargarte de eso, ¿verdad? ¡Andando!$BCarne de soldado de Pico Tormenta (1)",
+   "completion": "La flota se alimenta de su carne. Consume al enemigo.$B$B¡El vuelo es inminente!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6826": {
+   "name": "La llamada del aire: flota de Jeztor",
+   "progress": "Has trabajado duro, $N, ¡pero es solo el principio!$B$BMis alas de guerra deben probar la misma carne de sus objetivos. ¡Esto garantizará un ataque preciso sobre nuestros enemigos!$B$BMi flota es la segunda más potente de nuestro mando aéreo. Por consiguiente, atacarán a los más poderosos de nuestros adversarios. Para ello, necesitan la carne de los tenientes Pico Tormenta.$B$B¡Apúrate, soldado!$BCarne de teniente de Pico Tormenta (1)",
+   "completion": "¡Más! ¡Más! ¡Tráeme más, que pronto estarán listos!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6827": {
+   "name": "La llamada del aire: flota de Mulverick",
+   "progress": "He pasado días encerrado en un horrible antro de enanos. ¡Vaya si quiero venganza!$B$BDebemos planificarlo minuciosamente.$B$BPrimero mis alas de guerra necesitan objetivos a los que apuntar, objetivos de alta prioridad. Tendré que alimentarlos con carne de los Comandantes Pico Tormenta. Por desgracia, ¡esos malnacidos están atrincherados muy lejos detrás de las líneas enemigas! Ahí tienes un trabajo a tu medida.$BCarne de comandante de Pico Tormenta (1)",
+   "completion": "¡No hay suficiente! Esperaría este nivel de trabajo de un Iniciado ¡¿pero de ti, $N?! ¡Vamos, soldado! ¡DATE PRISA! ¡Hace falta más carne!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6846": {
+   "name": "¡Al ataque!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6881": {
+   "name": "Ivus, el Señor del Bosque",
+   "progress": "El clan Lobo Gélido está protegido por una contaminación de energía elemental. Su chamán anda metido con poderes que seguramente nos aniquilarían si no nos ocupamos de ellos.$B$B¡El daño se ha extendido demasiado para que el Círculo lo controle! Tenemos que invocar a Ivus para que nos ayude.$B$BLos soldados Lobo Gélido llevan talismanes de elemental llamados cristales de tormenta. Podemos usar estos talismanes para conjurar a Ivus. ¡Adéntrate hasta ese lugar y recupera esos cristales, $N!$BCristal de tormenta (1)",
+   "completion": "Muy bien, $N. Usaré el poder de este talismán para aumentar la magia que ya se ha reunido. Cuando hayas acumulado suficiente poder, concentraré las energías reunidas e invocaré al Señor del Bosque para que nos ayude en nuestra causa.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6901": {
+   "name": "Lanzar el ataque",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6941": {
+   "name": "La llamada del aire: la flota de Vipore",
+   "progress": "¡Hay que ocuparse de las unidades de élite de los Lobo Gélido que vigilan las líneas, soldado! Te encargo que diezmes a esa manada de salvajes. Vuelve aquí con las medallas de sus tenientes y legionarios. Cuando me parezca que hemos despachado a suficiente chusma, desplegaré la fuerza aérea.$BMedalla de teniente Lobo Gélido (1)",
+   "completion": "El vuelo no tardará en estar preparado. ¡Sigue trabajando duro!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6942": {
+   "name": "La llamada del aire: la flota de Slidore",
+   "progress": "Mis grifos están listos para atacar a las primeras líneas del frente pero no pueden hacerlo hasta que las líneas se reduzcan algo.$B$BLos guerreros Lobo Gélido, encargados de resistir en las primeras líneas del frente, llevan medallas de servicio que lucen orgullosos en la pechera. Arráncales esas medallas de sus podridos cadáveres y tráemelas.$B$BCuando la primera línea del frente esté suficientemente diezmada, ¡daré la orden de atacar desde el aire! ¡Muerte desde el cielo!$BMedalla de soldado Lobo Gélido (1)",
+   "completion": "¡Sigue así y trae más, soldado! ¡Los grifos Nidal estarán listos para atacar muy pronto!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6943": {
+   "name": "La llamada del aire: la flota de Ichman",
+   "progress": "Los ánimos están decaídos, soldado. Tras el fracaso de nuestro último ataque aéreo contra la Horda, ¡se niegan a volar! De ti depende subirles la moral.$B$BRegresa al campo de batalla y ataca directo al corazón del mando de los Lobo Gélido. Acaba con sus comandantes y guardianes. Vuelve aquí y tráeme sus medallas, ¡todas las que te quepan en la talega! Te lo prometo, cuando mis grifos vean el botín y huelan la sangre de nuestro enemigo, ¡volverán a volar! ¡Ahora vete!$BMedalla de comandante Lobo Gélido (1)",
+   "completion": "¿Lo ves? ¡Fíjate en ellos, soldado! Se acercan... ¡Pronto el Vuelo de Ichman volverá a atacar el corazón del valle! ¡Los Pico Tormenta serán los amos del cielo!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7026": {
+   "name": "Arneses para carneros de montar",
+   "progress": "¡La brigada de los Pico Tormenta no puede cargar a pelo en la batalla! Necesitamos arneses para nuestras monturas, al fin y al cabo, no somos salvajes.$B$BAunque podríamos matar fácilmente a los carneros que deambulan cerca de nuestra base para conseguir el cuero necesario para los arneses, sería de idiotas. Necesitamos a esos carneros como monturas.$B$BTienes que atacar la base enemiga, matar a esos lobogélidos que usan de montura y llevarte sus pieles. Tráeme sus pieles para que se puedan confeccionar arneses para la caballería. ¡Ve!$BPellejo Lobo Gélido (1)",
+   "completion": "Muy bien, soldado. Te lo haré saber en cuanto tenga suficientes pieles acumuladas.$B$B¡Sigue así!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7163": {
+   "name": "Ascender y darse a conocer",
+   "progress": "<El maestro de guerra Laggrond te hace el saludo.>$B$BHa llegado tu hora, $N. Has hecho mucho por el clan Lobo Gélido y con ello, te has ganado un lugar no solo como un soldado Lobo Gélido sino también como amigo.$B$B¡Muy bien! ¡Presenta tu insignia de Iniciado!$BInsignia Lobo Gélido Rango 1 (1)",
+   "completion": "Esta nueva insignia refleja tu rango entre los Lobo Gélido. Llévala siempre contigo.$B$BY $C… Muere con honor.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7164": {
+   "name": "Honrado en el clan",
+   "progress": "¡Cómo me alegra verte de nuevo, $C! No esperaba que regresaras. No obstante, has demostrado ser un valiente y honorable soldado Lobo Gélido.$B$BHa llegado de nuevo tu hora, $N. Te has ganado un nuevo rango y con ello, una nueva insignia que refleje este aumento de importancia.$B$BPresenta tu insignia.$BInsignia Lobo Gélido Rango 2 (1)",
+   "completion": "<El maestro de guerra Laggrond hace el saludo.>$B$B¡Vete, $N! Sigue con tu defensa de los Lobo Gélido. ¡Hay que ganar esta guerra! ¡Por Drek'Thar! ¡Por el Jefe de Guerra!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7165": {
+   "name": "Ganarse una reverencia",
+   "progress": "Tantos muertos. La sangre empapa el campo. Y a pesar de ello… estás viva… Has perseverado. Has conducido a nuestros ejércitos a muchas victorias. Por ello, soldado, te has ganado un nuevo rango.$B$BPresenta tu insignia.$BInsignia Lobo Gélido Rango 3 (1)",
+   "completion": "<El maestro de guerra Laggrond emite un rugido.>$B$BYa empieza a correrse la voz sobre tus hazañas, soldado. Los Pico Tormenta se estremecen de miedo con solo oír tu nombre. ¡Sigue así!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7166": {
+   "name": "Héroes legendarios",
+   "progress": "Irradias mando y poder, $C. Exaltado a los ojos de los Lobo Gélido, el enemigo se encoge ante la simple mención de tu nombre.$B$BEn pie, héroe de los Lobo Gélido. ¡Levántate y recibe los honores!$B$BPresenta tu insignia.$BInsignia Lobo Gélido Rango 4 (1)",
+   "completion": "Pronto, todos los que estén en el campo de batalla estarán bajo tu ojo vigilante. ¡Tendrás al valle y a sus soldados a tus órdenes!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7167": {
+   "name": "El ojo del orden",
+   "progress": "Drek'Thar no tiene más que alabanzas para ti. Por todo Kalimdor se cuentan tus hazañas. El Jefe de Guerra está radiante, tu inquebrantable defensa de nuestro clan le ha complacido sobremanera.$B$BTe has ganado el Ojo del Mando.$B$BPresenta tu insignia, comandante $N.$BInsignia Lobo Gélido Rango 5 (1)",
+   "completion": "Canaliza el poder de la insignia. Deja que los enemigos oigan tus palabras. El poder de la Horda es incuestionable!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7168": {
+   "name": "Ascender y darse a conocer",
+   "progress": "La mayoría no vive lo suficiente para superar su propia mediocridad. Has demostrado ser un soldado ejemplar, $C. Ha llegado la hora.$B$BPresenta tu insignia.$BInsignia de Pico Tormenta Rango 1 (1)",
+   "completion": "¡Que nuestros enemigos sepan que un soldado de rango los ha atacado! ¡Lucha por la gloria de los Pico Tormenta!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7169": {
+   "name": "Honrado en la guardia",
+   "progress": "¡Por toda la base se habla de tus hazañas en la Tierra de Disputa! Le has asestado golpes contundentes a nuestro enemigo, ¡aplastándoles la moral! Por eso, te has ganado un rango de honor entre los Pico Tormenta.$B$BPresenta tu insignia.$BInsignia de Pico Tormenta Rango 2 (1)",
+   "completion": "El Rey está al corriente de tus heroicos actos en el frente, $C. ¡Sigue con tu inquebrantable defensa de la Guardia de Pico Tormenta!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7170": {
+   "name": "Ganarse una reverencia",
+   "progress": "Tengo que saberlo, $N Cuando miras al enemigo directamente a los ojos, ¿ves miedo? ¿Se encogen ahora en tu presencia? ¡Deben de darse cuenta de que están vencidos!$B$BTe has ganado el respeto de la Guardia. ¡Presenta tu insignia!$BInsignia de Pico Tormenta Rango 3 (1)",
+   "completion": "Cuando te conocí, nunca habría pensado que llegarías a ser una heroína. ¡Sigue así, soldado!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7171": {
+   "name": "Héroes legendarios",
+   "progress": "Ante mí veo a un héroe exaltado de la Alianza.$B$B<El teniente Haggerdin hace el saludo.>$B$BSon pocos los que han alcanzado tal rango entre los Pico Tormenta. He visto como el enemigo caía ante ti. He visto cómo su determinación se doblegaba en tu presencia. Cuando saltas a la palestra, ¡te conviertes en la luz de la esperanza para nuestras tropas!$B$BPresenta tu insignia.$BInsignia de Pico Tormenta Rango 4 (1)",
+   "completion": "¡Seguro que serás tú quien lleve el Ojo del Mando!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7172": {
+   "name": "El ojo del orden",
+   "progress": "¡Que oigan tu voz, comandante $N! Que sepan lo que es el miedo. ¡Enséñales el poder del que disponen los Pico Tormenta en sus filas!$B$BPresenta tu insignia.$BInsignia de Pico Tormenta Rango 5 (1)",
+   "completion": "¡Tú eres quien ha de llevar a nuestros soldados a la victoria, Comandante! Los soldados están a tus órdenes. Seguirán directamente lo que les ordenes. Dirígelos… Aplasta a los Lobo Gélido.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7221": {
+   "name": "Habla con la prospectora Tallapiedra",
+   "objectivesText": [
+    "Habla con la prospectora Tallapiedra en la plaza fuerte de Dun Baldar."
+   ],
+   "details": "Ah, $N, ¿traes un informe de tu misión? Fantástico, ¡todos los que logremos reunir serán pocos para los Pico Tormenta!$B$BHabla con la prospectora Tallapiedra de Dun Baldar. Está reclutando para una misión vital en territorio enemigo. Encontrarás a Tallapiedra al final del cuartel de Dun Baldar.$B$BY mantén los ojos bien abiertos al cruzar Dun Baldar. Hay mucho trabajo para un esforzado $C que no tema ensuciarse las manos.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7222": {
+   "name": "Habla con Voggah Presaletal",
+   "objectivesText": [
+    "Habla con Voggah en el Bastión Lobo Gélido."
+   ],
+   "details": "¿Un $C? ¡Bien! Es una alegría verte en Alterac, $N. Unos enanos intrusos y sus aliados han invadido nuestro valle y recibimos con los brazos abiertos a todo el que se una a la Horda¡en legítima masacre!$B$BHabla con Voggah Presaletal. Está buscando agentes para una importante misión en el bastión de la Alianza en el valle de Alterac Valley!$B$BEncuentra a Voggah en el Bastión Lobo Gélido.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7341": {
+   "name": "Un trato justo",
+   "progress": "Saludos, $R. Yo soy Kolark, un $C de tesoros de Cima del Trueno. He viajado mucho por el mundo y he visto también mucho.$B$BMis viajes por los Mares del Sur me permitieron descubrir la existencia de estas flechas con cabeza de torio. Tengo un sinfín de ellas, pero ya no tengo balas. Y bueno, ningún tauren que se precie andaría por ahí con un endeble arco. ¡Las flechas no sirven para nada!$B$BTe voy a ofrecer un trato: si me traes proyectiles de torio te las cambio por mis cabezales de flecha de torio. ¿Hecho?$BProyectiles de torio (200)",
+   "completion": "¡Excelente! Soy un tauren de palabra, $R; aquí tienes las flechas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7342": {
+   "name": "Las flechas no valen para nada",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7429": {
+   "name": "¡Libera a Knot!",
+   "progress": "Se llama llave de los grilletes de Gordok... bueno, así es como la llaman esos graciosillos. Creo que podría tenerla cualquiera de los ogros, pero no sé cuáles en concreto. Probablemente podrían tenerla los guardias...$B$B¿Pero qué estoy diciendo? ¡Si tú ya la tienes! ¡¿No?! ¡¿¿No es eso que tienes ahí??!$BLlave de los grilletes de Gordok (1)",
+   "completion": "¡Gracias por liberarme! Tú... eres el mejor. Todos los demás no te llegan ni a la rodilla.$B$B¡Sabía que mi destino no era acabar siendo el aperitivo de algún ogro!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7493": {
+   "name": "El viaje acaba de empezar",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7497": {
+   "name": "El viaje acaba de empezar",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7541": {
+   "name": "Un servicio para la Horda",
+   "completion": "Nuestros estudiosos tardarán un tiempo en analizar el colgante que nos trajiste. Pero quiero ofrecerte una pequeña recompensa por el trabajo que has hecho para la Horda.$B$BGracias, $N. Tus actos te honran a ti, y también a nosotros.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7621": {
+   "name": "Un aviso",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7633": {
+   "name": "Una presentación",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7652": {
+   "name": "Una ganga azulada",
+   "completion": "Muy bien, señor, te voy a ofrecer un buen trato.$B$BQuiero deshacerme de estos diseños de esta armadura de placas imperiales y necesito a alguien que cargue con ellos. Todo lo que quiero a cambio es algunas barras de torio. ¿Te parece bien?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7653": {
+   "name": "Cinturón imperial de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7654": {
+   "name": "Botas imperiales de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7655": {
+   "name": "Brazales imperiales de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7656": {
+   "name": "Peto imperial de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7657": {
+   "name": "Yelmo imperial de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7658": {
+   "name": "Leotardos imperiales de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7659": {
+   "name": "Hombreras imperiales de placas",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7660": {
+   "name": "Intercambio de lobos: lobo ártico",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7661": {
+   "name": "Intercambio de lobos: lobo rojo",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7662": {
+   "name": "Nuevo kodo: cerceta",
+   "fetched": "2026-10-02",
+   "v": 2
   }
  }
 }

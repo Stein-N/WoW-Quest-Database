@@ -57,6 +57,8 @@ SECTION_HEADINGS = {
 }
 
 RU_CLASSES = ("Воин", "Паладин", "Охотник", "Разбойник", "Жрец", "Шаман", "Маг", "Чернокнижник", "Друид")
+RU_RACES = ("человек", "дворф", "ночной эльф", "гном", "орк", "нежить", "таурен", "тролль",
+            "эльф крови", "дреней", "гоблин", "ворген")
 
 NAMES_PATH = ROOT / "etl" / "corrections" / "wowhead" / "player-names.json"
 
@@ -158,8 +160,7 @@ def clean(fragment):
                 return f"${code}"
         return m.group(0)
     text = re.sub(r"<([^<>]{1,20})>", placeholder, text)
-    # Russian grammar codes keep the class: |3-6($C); Wowhead shows the uploader's class instead
-    text = re.sub(r"\|3-(\d)\((" + "|".join(RU_CLASSES) + r")\)", r"|3-\1($C)", text)
+    text = fix_grammar(text)
     lines = [" ".join(line.split()) for line in text.split("\n")]
     text = "\n".join(lines).strip()
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -240,6 +241,15 @@ def name_candidates(flavor, minimum):
     return {w: sorted(q) for w, q in sorted(found.items(), key=lambda kv: -len(kv[1])) if len(q) >= minimum}
 
 
+def fix_grammar(text):
+    """Russian grammar codes keep the placeholder: |3-6($C), |3-6($R). Wowhead shows the
+    uploader's class or race instead."""
+    if isinstance(text, list):
+        return [fix_grammar(t) for t in text]
+    text = re.sub(r"\|3-(\d)\((" + "|".join(RU_CLASSES) + r")\)", r"|3-\1($C)", text, flags=re.I)
+    return re.sub(r"\|3-(\d)\((" + "|".join(RU_RACES) + r")\)", r"|3-\1($R)", text, flags=re.I)
+
+
 def fix_names(flavor, new_names):
     names = sorted(set(player_names()) | set(new_names))
     NAMES_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -250,7 +260,8 @@ def fix_names(flavor, new_names):
     for locale in SITE_LOCALES:
         store = load_store(flavor, locale)
         for qid, texts in store["quests"].items():
-            fixed = {k: (replace_names(v, names) if k in TEXT_FIELDS else v) for k, v in texts.items()}
+            fixed = {k: (replace_names(fix_grammar(v), names) if k in TEXT_FIELDS and v else v)
+                     for k, v in texts.items()}
             if fixed != texts:
                 store["quests"][qid] = fixed
                 changed += 1
@@ -279,7 +290,7 @@ def main():
     nm = sub.add_parser("names")
     nm.add_argument("--min", type=int, default=2, help="minimum number of texts a name appears in")
     fx = sub.add_parser("fix-names")
-    fx.add_argument("names", nargs="+")
+    fx.add_argument("names", nargs="*")
     args = ap.parse_args()
 
     if args.cmd == "plan":

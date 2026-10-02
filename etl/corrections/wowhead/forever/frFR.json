@@ -633,6 +633,1091 @@
    "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
    "fetched": "2026-10-02",
    "v": 2
+  },
+  "4115": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4116": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4117": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4118": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4119": {
+   "name": "Dragon nocrturne corrompu",
+   "progress": "Vous avez découvert la version malade et souffreteuse d'une plante, le dragon nocturne. Les fruits qui pendent de la plante sont pourris et empoisonnés. La plante a désespérément besoin de soins pour retrouver son état normal.$BBaume végétal cénarien (4)",
+   "completion": "Vous appliquez quatre doses de Baume cénarien sur le dragon nocturne. La plante commence immédiatement à être purifiée de la corruption qui la ronge, et refleurit jusqu'à devenir une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4144": {
+   "name": "Les pousses de Pétales-de-sang",
+   "progress": "Voici ce que nous allons faire, $N. Procurez-vous des pousses de Pétales-de-sang. De jeunes plantes, pas encore parvenues au stade adulte, vous comprenez ? Puis apportez-les ici. Alors je verrai ce dont la brume atal'ai est capable.$B$BVous pourriez penser que c'est le désir de vengeance qui me guide, mais… vous auriez raison…$B$BEn vérité, je connais le chemin pour nous sortir d'ici, mais tant que Larion n'admet pas que j'ai raison, je ne bouge pas !$B$BC'est assez : partez et trouvez des pousses de Pétales-de-sang afin que nous nous amusions un peu !$BPousse de Pétale-de-sang (3)",
+   "completion": "Et voilà, $N ! Cela va occuper Larion !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4148": {
+   "name": "La baguette Pétale-de-sang",
+   "progress": "Pour faire fonctionner la baguette, nous avons besoin d'un spécimen de ses futures victimes. Rendez-vous dans le cratère et rapportez une pousse de Pétale-de-sang. Je pourrai alors régler l’appareil pour qu'il prenne soin des petits camarades de Muigin…$B$BS'il n'était pas si obstiné, nous serions déjà sur le chemin du retour… En attendant, je ne peux que lui montrer que ses gamineries ne me perturbent aucunement…$BPousse de Pétale-de-sang (1)",
+   "completion": "Il semble que cela va fonctionner, $N. À présent, rappelez-vous de ceci : si vous voyez la moindre de ces pestes aux alentours, n'hésitez pas à utiliser cette baguette !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4221": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4222": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4295": {
+   "name": "La bière de Rocknot",
+   "progress": "Oh, de la bière ! Je tuerais pour une bonne bière de Sombrefer, $N ! Vite, je deviens sobre ! Je le sais car la sobriété trouble ma vision… et cela vous fait ressembler à celui que j'ai massacré la semaine dernière !$BChope de bière sombrefer (2)",
+   "completion": "Qu'est-ce que c'est ? Ah ! Ça sent comme de la bière de Sombrefer ! La boisson a troublé ma vision, mais je peux dire que vous, monsieur, êtes un véritable ami.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4343": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4381": {
+   "name": "Cristal de restauration",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les jaunes.$B$BSi on se réfère au manuel de J.D., cette combinaison sert à vous soigner, vous et vos alliés.$BCristal de puissance jaune (10)$BCristal de puissance vert (10)",
+   "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.$B$BLe résultat vous appartient.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4382": {
+   "name": "Cristal de concentration",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les bleus.$B$BSi on se réfère au manuel de J.D., cette combinaison sert à augmenter l'Esprit.$BCristal de puissance vert (10)$BCristal de puissance bleu (10)",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.$B$BLe résultat est à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4383": {
+   "name": "Cristal de protection",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance verts avec les rouges.$B$BSi on se réfère au manuel de J.D., cette combinaison sert à augmenter la protection contre les dégâts physiques.$BCristal de puissance rouge (10)$BCristal de puissance vert (10)",
+   "completion": "Tandis que vous arrangez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense mêle les cristaux entre eux.$B$BLe résultat vous appartient.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4384": {
+   "name": "Cristal de réduction",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les bleus.$B$BSi on se réfère au manuel de J.D., cette combinaison sert à réduire la Défense de l'adversaire.$BCristal de puissance rouge (10)$BCristal de puissance bleu (10)",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.$B$BLe résultat est à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4385": {
+   "name": "Cristal d'explosion",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance rouges avec les jaunes.$B$BSi on se réfère au manuel de J.D., cette combinaison peut être utilisée pour créer une grande explosion qui inflige des dégâts à vos ennemis.$BCristal de puissance rouge (10)$BCristal de puissance jaune (10)",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.$B$BLe résultat est à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4386": {
+   "name": "Cristal de rétribution",
+   "progress": "Le Pilon vous permet de combiner les cristaux de puissance bleus avec les jaunes.$B$BSi on se réfère au manuel de J.D., cette combinaison sert à créer un bouclier qui inflige des dégâts aux ennemis.$BCristal de puissance bleu (10)$BCristal de puissance jaune (10)",
+   "completion": "Tandis que vous disposez les cristaux sur la table, vous alignez précautionneusement les couleurs. Lorsque vous placez le dernier, une explosion de lumière intense assemble les cristaux entre eux.$B$BLe résultat est à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4401": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4403": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4443": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4444": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4445": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4446": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4447": {
+   "name": "Dragon nocturne corrompu",
+   "progress": "Vous avez découvert la version malade et souffreteuse d'une plante, le dragon nocturne. Les fruits qui pendent de la plante sont pourris et empoisonnés. La plante a désespérément besoin de soins pour retrouver son état normal.$BBaume végétal cénarien (4)",
+   "completion": "Vous appliquez quatre doses de Baume végétal cénarien sur le dragon nocturne. La plante commence immédiatement à se débarrasser de sa forme corrompue et refleurit pour devenir une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4448": {
+   "name": "Dragon nocturne corrompu",
+   "progress": "Vous avez découvert la version malade et souffreteuse d'une plante, le dragon nocturne. Les fruits qui pendent de la plante sont pourris et empoisonnés. La plante a désespérément besoin de soins pour retrouver son état normal.$BBaume végétal cénarien (4)",
+   "completion": "Vous appliquez quatre doses de Baume végétal cénarien sur le dragon nocturne. La plante commence immédiatement à se débarrasser de sa forme corrompue et refleurit pour devenir une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4461": {
+   "name": "La navetille corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une navetille Les ramures visibles en sont coriaces et tannées, et un voile visqueux en pend. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (3)",
+   "completion": "Vous appliquez trois doses de baume cénarien sur la navetille. Elle commence immédiatement à se débarrasser de sa forme corrompue, et s'épanouit en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4462": {
+   "name": "Dragon nocturne corrompue",
+   "progress": "Vous avez découvert la version malade et souffreteuse d'une plante, le dragon nocturne. Les fruits qui pendent de la plante sont pourris et empoisonnés. La plante a désespérément besoin de soins pour retrouver son état normal.$BBaume végétal cénarien (4)",
+   "completion": "Vous appliquez quatre doses de Baume végétal cénarien sur le dragon nocturne. La plante commence immédiatement à se débarrasser de sa forme corrompue et refleurit pour devenir une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4463": {
+   "name": "Libram de rumination",
+   "progress": "Présentez les composants, mortel.$B$BJ'exige également trente pièces d'or en paiement de cette création.$BDiamant noir (1)$BSang noir du Tourmenté (1)$BGomme de gésier (1)$BLibram de rumination (1)$BArgent requis : 30 (1)",
+   "completion": "Prenez votre babiole, imbécile. Et laissez-moi poursuivre mes recherches !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4464": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4465": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4466": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4467": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4481": {
+   "name": "Libram de constitution",
+   "progress": "Chaque chose a son prix en ce monde. Le prix de l'article précis que vous cherchez est de trente pièces d'or.$B$BNaturellement, je garderai la majorité des composants que vous avez ramassés. Mais pas d'inquiétude, vous aurez votre bijou.$BDiamant noir (1)$BCocktail de jus de poumon (1)$BLibram de constitution (1)$BSouffle de dragon nocturne (4)$BArgent requis : 30 (1)",
+   "completion": "C'est une insulte à sa mémoire... Un simple mortel comme vous, terminant l'oeuvre de sa vie.$B$BPrenez votre cristal et partez !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4482": {
+   "name": "Libram de ténacité",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4483": {
+   "name": "Libram de résistance",
+   "progress": "Si c'est de la résistance que vous désirez, c'est trente pièces d'or que je demande.$BDiamant noir (1)$BCristal de rétribution (4)$BEssence ardente (1)$BLibram de résistance (1)$BArgent requis : 30 (1)",
+   "completion": "Les autres libram ont été égarés de part le monde, dans des endroits où vous ne souhaiteriez jamais mettre les pieds.$B$BJe vais puiser dans l'énergie de ces composants. Je vous donnerai les restes...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4484": {
+   "name": "Libram de voracité",
+   "progress": "Ne me faites pas perdre mon temps, $N. Donnez-moi ce que je demande. Trente pièces d'or et les composants.$BDiamant noir (1)$BLibram de voracité (1)$BTubercule de navetille (4)$BCristal de concentration (4)$BArgent requis : 30 (1)",
+   "completion": "Ma tête vibre... toutes ces énergies qui façonnent notre univers... ARGH !$B$B<Mathredis a l'air peiné.>$B$BPrenez ce que vous voulez et partez !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4561": {
+   "name": "Test pour impuretés, le Cratère d'Un'Goro",
+   "progress": "Vous prenez un échantillon de gelée du Cratère d'Un'Goro et le placez dans les différents tubes et vases à bec qui sont sur la table. La gelée se met à bouillir et change de couleur. Lorsque la réaction prend fin, vous apercevez dans la petite boîte de Pétri, vos échantillons de Gelée d'Un'Goro purifiés et d'autres restes.$BEchantillon de Limon d'Un'Goro (1)",
+   "completion": "Vous ramassez la boîte de pétri qui contient l'échantillon de Limon. Le seul moyen de s'assurer de la pureté de l'échantillon est de l'ouvrir et de l'examiner vous-même. Idéalement, vous trouverez un échantillon qui remplit les critères énoncés par le Chimiste Fuely.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4603": {
+   "name": "Le Décapeur décape encore",
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer !$BObjet sali (1)$BArgent requis : 3 (1)",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !$B$BLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4604": {
+   "name": "Le Décapeur décape encore",
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer !$BObjet sali (1)$BArgent requis : 3 (1)",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !$B$BLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4605": {
+   "name": "Le Décapeur 5200 !",
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.$B$BBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4606": {
+   "name": "Le Décapeur 5200 !",
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.$B$BBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4661": {
+   "name": "Test de corruption, Gangrebois",
+   "progress": "Vous prenez un échantillon de gelée de Gangrebois et le placez dans les différents tubes et vases à bec qui sont sur la table. La gelée se met à bouillir et change de couleur. Lorsque la réaction prend fin, vous apercevez dans la petite boîte de pétri, vos échantillons de Gelée de Gangrebois altérés et d'autres restes.$BEchantillon de Limon de Gangrebois (1)",
+   "completion": "Vous ramassez la boîte de pétri qui contient l'échantillon de Limon. Le seul moyen de s'assurer de la pureté de l'échantillon est de l'ouvrir et de l'examiner vous-même. Idéalement, vous trouverez un échantillon qui remplit les critères énoncés par le Chimiste Fuely.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4785": {
+   "name": "Fil d'or fin",
+   "completion": "Voilà, $N. Et s'il vous plaît, dites à Menara que nous la saluons.$B$BNous espérons beaucoup de vous. Peut-être que, lorsque la Légion sera à genoux, votre nom et votre puissance seront loués haut et fort. Je suis impatient !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4801": {
+   "name": "L'E'ko des sabres-de-givre",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grands félins appelés \"sabres-de-givre\". Ces bêtes sont incroyablement rapides et vicieuses. Si vous voulez gagner la vitesse des sabres-de-givre, apportez-moi l'Eko que vous trouverez sur eux.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko de sabre-de-givre (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4802": {
+   "name": "L'E'ko des Tombe-hiver",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez des créatures perdues connues sous le nom de furbolgs Tombe-hiver. Sous l'égide de leur maître, ils ont gagné une force incroyable. Si vous voulez acquérir la puissance des Tombe-hiver, apportez-moi l'E'ko que vous leur prendrez.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko des Tombe-hiver (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4803": {
+   "name": "L'E'ko des Crocs acérés",
+   "progress": "Au Berceau-de-l'Hiver, vous trouverez de grands ours à la peau très épaisse. Ces ours aux crocs acérés sont bien protégés et peuvent supporter beaucoup. Si vous souhaitez gagner la résistance au feu, apportez-moi l'E'ko que vous trouverez auprès des Crocs acérés.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko de Croc acéré (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4804": {
+   "name": "L'E'ko de Noroît",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures ailées nommées des Noroît. Ces bêtes peuvent se servir de la magie de glace. Si vous voulez devenir résistant à la glace, apportez-moi l'E'ko que vous leur prendrez.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko de Noroît (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4805": {
+   "name": "L'E'ko des Chardon de Glace",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez de grandes créatures nommées yétis Chardon de glace. Ces bêtes sont lentes mais capables d'éviter de nombreux coups grace à l'épaisseur de leur fourrure. Si vous voulez gagner le pouvoir d'esquiver les attaques, apportez-moi l'E'ko que vous leur prendrez.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko de Chardon de glace (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4806": {
+   "name": "L'E'ko de Cognegivre",
+   "progress": "Au Berceau-de-l'Hiver, vous affronterez des grands géants des glaces, les Cognegivre. Ils sont la force et la puissance incarnées. Si vous voulez vous imprégner de la force des Cognegivre, rapportez-moi les E'kos que vous trouverez sur eux.$B$BSouvenez-vous, le charme de Mau'ari doit être dans votre inventaire pour chasser les E'kos.$BE'ko de Cognegivre (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4807": {
+   "name": "L'E'ko des Indomptables",
+   "progress": "Au Berceau-de-l'Hiver, vous combattrez des créatures qui semblent posséder des pouvoirs magiques innés. Ces Indomptables sont dotés de grands pouvoirs magiques. Si vous voulez voir votre intelligence augmenter, apportez-moi l'E'ko que vous trouverez sur l'un de ces chouettards.$B$BSouvenez-vous, il vous faut la cache de Mau'ari dans votre inventaire si vous voulez chasser l'E'ko.$BE'ko d'Indomptable (3)",
+   "completion": "Mau'ari peut utiliser ce juju pour $N... Utiliser la Cache de Mau'ari pour la lancer sur vous ou l'un de vos alliés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5042": {
+   "name": "La force d’Agammagan",
+   "progress": "J'aurai besoin de quatre Joyaux de sang si vous voulez la force d'Agammagan, $N.$B$BVos ennemis s'enfuiront devant votre pouvoir si vous avez cette bénédiction.$B$BLes plus grands guerriers Tranchecrin sont d'une telle puissance !$BJoyau de sang (4)",
+   "completion": "Si seulement Mangletooth était libre pour vous voir décimer ceux qui l'ont trahi ! <grogne>$B$BMerci d'avoir détruit plus de Dos-hirsute en ramassant ces joyaux. S'il vous plaît, continuez ainsi, et je continuerai à vous aider.<grogne>",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5043": {
+   "name": "L'agilité d'Agammagan",
+   "progress": "Les meilleurs éclaireurs de ma tribu ont la réputation d'être d'une précision sans rivale, et nul ne peut égaler leur rapidité au combat.$B$BApportez-moi 4 Joyaux de sang et je vous rendrai plus agile que n'importe quel huran.$BJoyau de sang (4)",
+   "completion": "Que votre visée soit infaillible et votre arme précise, $N.$B$BL'esprit d'Agammagan est avec vous. Revenez me voir si vous le souhaitez. Mangletooth vous bénira de nouveau si le grand dieu sanglier m'estime digne de confiance.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5044": {
+   "name": "La sagesse d'Agammagan",
+   "progress": "Les chamans et les géomanciens des tribus huranes <grogne> invoquent la force d'Agammagan pour les aider au combat et dans leurs rituels, $N.$B$BSi vous voulez la bénédiction d'un surcroît de pouvoir d'Agammagan dans vos sorts, apportez-moi 4 Joyaux de sang et Mangletooth vous aidera.$BJoyau de sang (4)",
+   "completion": "Vos ennemis devraient redoubler de crainte devant vous, $N.$B$BDites à Mangletooth la ruse dont vous faites preuve dans les combats pour notre prochaine rencontre, dans cette vie ou une autre.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5045": {
+   "name": "L'essor de l'esprit",
+   "progress": "Tous les guerriers, quels qu'ils soient, <grogne> ont besoin d'un esprit fort. Il vous conduit à l'exploit quand tout espoir est perdu. Ceci n'est pas ignoré <grogne> des Tranchecrins. Nous sommes une tribu spirituelle - nous sommes plus fiers de notre lien à Agammagan que de nos prouesses <grogne> au combat.$B$BApportez-moi quatre Joyaux de sang et je bénirai votre esprit de lutte.<grogne>$BJoyau de sang (4)",
+   "completion": "Nos plus braves guerriers et nos plus braves <grogne> chamans envieraient votre volonté, $N.$B$BBattez plus de Dos-hirsute maintenant que nous savons qu'il ne peuvent plus vous stopper !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5046": {
+   "name": "Peau tranchante",
+   "progress": "Tous ceux qui <grogne> se battent ont besoin de protection. Leurs os doivent être solides. Leur peau résistante.<grogne> Ma tribu le sait bien, et pour renforcer les protections naturelles de nos plumes et de nos dards <grogne> nous faisons appel à la protection d'Agammagan avant de partir pour la guerre.$B$BApportez-moi 4 Joyaux de sang <grogne> et je vous obtiendrai cette même protection.$BJoyau de sang (4)",
+   "completion": "Partez à la guerre, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5058": {
+   "name": "Journal de Mme Dalson",
+   "completion": "Un journal aux pages jaunies est ouvert à sa dernière page :$B$B\"Je ne sais pas ce qui va se passer maintenant que Harold a changé. J'ai dû faire de gros efforts pour le mettre dans le seul endroit où je savais qu'il serait enfermé pour de bon. J'ai la clé sur moi, et je prie que ça marche...$B$BJ'espère pouvoir sortir d'ici, mais j'ai besoin d'argent pour ça... Nos affaires sont dans le cabinet, je pense... Et maintenant que j'y pense, Harold en a la clé sur lui ?$B$BJe vais me reposer, je suis morte de fatigue...\"",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5059": {
+   "name": "Enfermé",
+   "progress": "La porte des toilettes a commencé à se briser dans son pourtour comme si on avait essayé encore et encore de la forcer. Actuellement, elle est solidement verrouillée de l'extérieur.$B$BQuand vous secouez la porte, vous entendez un gémissement guttural ! La créature qui est à l'intérieur, quelle qu'elle soit, n'a pas l'air amicale.$BClé des toilettes de Dalson (1)",
+   "completion": "En utilisant la clé trouvée sur le corps de feue Mme Dalson, vous ouvrez la porte des toilettes. Une goule assoiffée de sang en jaillit, enfermée ici on ne sait depuis combien de temps.$B$BLe hurlement à glacer le sang lancé par la goule ne laisse aucun doute, l'ancien fermier Dalson est au-delà de tout espoir de guérison.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5060": {
+   "name": "Enfermé",
+   "progress": "Un meuble très solide est en face de vous, hermétiquement clos par une serrure intégrée. Le devant du meuble est très rayé et abîmé. Cela pourrait venir de nombreuses et violentes tentatives pour percer les secrets que le meuble dissimule.$B$BSi vous voulez ouvrir ce meuble, il vous faudra trouver la clé.$BClé du cabinet de Dalson (1)",
+   "completion": "La clé prise sur le cadavre de la goule du fermier Dalson glisse parfaitement dans la serrure. Les portes de la commode s'ouvrent, révélant plusieurs objets intacts et de grande valeur.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5122": {
+   "name": "Le médaillon de foi",
+   "progress": "Le pouvoir de cette chapelle me donne la force de résister à la corruption qui envahit mon coeur. Si je la quitte, je deviendrai un Chevalier de la mort. Mais il existe un médaillon de la foi qui me donnera la force dont j'ai besoin pour partir.$B$BS'il vous plaît, $N, trouvez le médaillon. Il est gardé par Malor le Zélé, un membre fou de la Croisade écarlate qui réside aux tréfonds du Bastion écarlate à l'ouest de Stratholme.$BMédaillon de foi (1)",
+   "completion": "Vous avez retrouvé le médaillon ! Je vais enfin pouvoir quitter la chapelle et faire mon devoir.$B$BMon devoir est de tuer la bête qui a participé à ma corruption, moi et tant d'autres de mes frères et sœurs, le baron Rivendare !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5125": {
+   "name": "L'estimation d'Aurius",
+   "completion": "$N, je me meurs… mais mon âme est sauve, et pour cela je vous dois plus que les mots peuvent exprimer. Je vous en prie, prenez ceci… et continuez le combat, brave $C !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5150": {
+   "name": "Dadanga a faim !",
+   "progress": "Dadanga vous regarde alors que vous l'approchez. Elle semble espérer quelque chose…$B$BElle a probablement faim !$B$BIl y a certainement quelque chose qui pousse dans le cratère et qui ferait un parfait en-cas pour un herbivore de grande taille. Dadanga est une grande fille : quoi que vous lui apportiez, il faudra que ce soit en grosse quantité !$BPousse de Pétale-de-sang (15)",
+   "completion": "Les pousses posées devant elle, Dadanga semble satisfaite.$B$BElle pousse un petit paquet enveloppé de brun vers vous, en échange du petit cadeau !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5218": {
+   "name": "Le Chaudron du champ de Felstone",
+   "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.$B$BPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.$BCatalyseur des arcanes (1)$BAgitateur osseux (6)$BEtoffe runique (4)",
+   "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5221": {
+   "name": "Chaudron des Larmes de Dalson",
+   "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.$B$BPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.$BCatalyseur des arcanes (1)$BIntensificateur somatique (5)$BEtoffe runique (4)",
+   "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5224": {
+   "name": "Le Chaudron du Repaire putride",
+   "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.$B$BPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.$BCatalyseur des arcanes (1)$BIntensificateur somatique (5)$BEtoffe runique (4)",
+   "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau, même éloignées du chaudron, semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5227": {
+   "name": "Chaudron de la Flétrissure de Gahrron",
+   "progress": "Le chaudron de la peste du Fléau est devant vous, répandant d'énormes masses de toxine dans les airs. À la base de la vaste plate-forme du chaudron se trouve un petit panneau d'accès anodin.$B$BPuisque vous avez déjà vaincu le gardien du chaudron et pris sa clé, vous pouvez ajouter les composants appropriés dans le chaudron pour fabriquer un contre-agent à la peste.$BCatalyseur des arcanes (1)$BRésonateur ectoplasmique (4)$BEtoffe runique (4)",
+   "completion": "L'ajout des composants à la mixture dans le chaudron change peu à peu sa couleur et celle des vapeurs qui s'en échappent. Les créatures du Fléau même éloignées du chaudron semblent reculer au fur et à mesure que les nouveaux composants se répandent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5237": {
+   "name": "Mission accomplie !",
+   "completion": "$N, votre travail couronné de succès sur les chaudrons est une immense victoire pour nous !$B$BQue tout le monde le sache : pour services rendus au Royaume de Stormwind et à l'Alliance et pour avoir fait bien plus que son devoir, face à un danger incroyable et contre tout espoir, je remets ceci à $N en même temps que je l'assure de notre gratitude. Félicitations !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5238": {
+   "name": "Mission accomplie !",
+   "completion": "$N, votre travail couronné de succès sur les chaudrons est une immense victoire pour nous !$B$BQue tout le monde le sache : pour services rendus aux Réprouvés et à la Horde et pour avoir fait bien plus que son devoir, face à un danger incroyable et contre tout espoir, je remets ceci à $N en même temps que je l'assure de notre gratitude. Félicitations !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5401": {
+   "name": "Brevet de l'Aube d'argent",
+   "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.$B$BLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.$B$BAccomplissez votre destin, $C - rejoignez le combat dès aujourd'hui !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5402": {
+   "name": "Pierres du Fléau des serviteurs",
+   "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.$B$BL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureuse d'effectuer si vous avez amassé suffisamment de pierres du Fléau.$BPierre du Fléau des serviteurs (20)",
+   "completion": "Félicitations, $N - Je suis heureuse de vous remettre cette marque de valeur de l'Aube d'argent !$B$BCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.$B$BQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5403": {
+   "name": "Pierres du Fléau des envahisseurs",
+   "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.$B$BL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.$BPierre du Fléau des envahisseurs (10)",
+   "completion": "Félicitations, $N - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !$B$BChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5404": {
+   "name": "Pierres du Fléau des corrupteurs",
+   "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !$B$BAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, $N - on ne plaisante pas avec des êtres d'une telle puissance.$BPierre du Fléau des corrupteurs (1)",
+   "completion": "Félicitations, $N. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !$B$BRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !$B$BPour l'Aube d'argent, mon frère !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5405": {
+   "name": "Brevet de l'Aube d'argent",
+   "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.$B$BLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.$B$BAccomplissez votre destin, $C - rejoignez le combat dès aujourd'hui !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5406": {
+   "name": "Pierres du Fléau des corrupteurs",
+   "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !$B$BAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, $N - on ne plaisante pas avec des êtres d'une telle puissance.$BPierre du Fléau des corrupteurs (1)",
+   "completion": "Félicitations, $N. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !$B$BRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !$B$BPour l'Aube d'argent, mon frère !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5407": {
+   "name": "Pierres du Fléau des envahisseurs",
+   "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.$B$BL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.$BPierre du Fléau des envahisseurs (10)",
+   "completion": "Félicitations, $N - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !$B$BChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5408": {
+   "name": "Pierres du Fléau des serviteurs",
+   "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur les plus faibles de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.$B$BL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.$BPierre du Fléau des serviteurs (20)",
+   "completion": "Félicitations, $N - Je suis heureux de vous remettre cette marque de valeur de l'Aube d'argent !$B$BCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.$B$BQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5421": {
+   "name": "Poisson dans un seau",
+   "progress": "Je récompense ceux qui me facilitent la vie… J'aime en faire le moins possible, mon ami !$B$BSous les quais de Proie-de-l'Ombre, j'ai placé de nombreux casiers à crustacés. Si vous avez la gentillesse de faire mon travail à ma place et de relever les casiers, je vous récompenserai en vous donnant quelque chose que vous voulez... Voyez où je veux en venir, l'ami ? Je vous donnerai un beau Ventre-Rouge pour 5 crustacés rapportés !$BCrustacé (5)",
+   "completion": "Ah… Rien ne vaut le travail bien fait, surtout lorsqu'il est fait par un autre…hein ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5503": {
+   "name": "Brevet de l'Aube d'argent",
+   "completion": "Tous ceux qui combattent le mal au nom de l'Aube d'argent doivent recevoir un brevet et arborer notre insigne. Cela leur donne le droit de demander à nos intendants les récompenses dont ils ont la garde.$B$BLorsque vous aurez votre brevet, vous pourrez récupérer des pierres du Fléau sur les membres du Fléau abattus ; ce sont des insignes qu'ils ont, parfois. Procurez-vous ces insignes et apportez-les-moi. Pour chaque insigne rapporté, vous recevrez notre marque d'héroïsme - la marque de valeur de l'Aube d'argent.$B$BAccomplissez votre destin, $C - rejoignez le combat dès aujourd'hui !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5505": {
+   "name": "La clé de Scholomance",
+   "completion": "Et bien voilà, $N - la Clé squelette terminée. Je suis aussi certain que possible que cette clé vous permettra d'entrer dans les confins de Scholomance. Toutefois il n'y a qu'un moyen de vérifier son efficacité. Ne perdez pas de temps et essayez-la, c'est ce que je dis.$B$BBonne chance, puissant héros. Puissiez-vous continuer à apporter la lumière dans les ténèbres !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5508": {
+   "name": "Pierres du Fléau des corrupteurs",
+   "progress": "Une Pierre du Fléau des Corrupteurs est l'insigne des Seigneurs du Fléau. Tout être puissant occupant une position d'autorité au sein du Fléau en possède une. Détruire l'une de ces créatures malfaisantes ferait sans doute avancer la cause de l'Aube d'argent, et toutes les bonnes causes !$B$BAu nom de l'Aube d'argent, je vous remettrai une marque de valeur en échange de l'un de ces insignes. Soyez prudent dans votre quête, $N - on ne plaisante pas avec des êtres d'une telle puissance.$BPierre du Fléau des corrupteurs (1)",
+   "completion": "Félicitations, $N. Je suis heureux de vous attribuer une marque de valeur de l'Aube d'argent !$B$BRecevoir une marque de valeur de telle manière prouve que vous êtes un véritable héros au service du bien. Nous apprécions tous les efforts fournis dans la lutte contre le Fléau, mais abattre l'un de ses chefs est vraiment leur infliger une terrible défaite !$B$BPour l'Aube d'argent, mon frère !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5509": {
+   "name": "Pierres du Fléau des envahisseurs",
+   "progress": "Une pierre de Fléau des envahisseurs est l'insigne des troupes d'élite du Fléau. On les trouve parfois sur les soldats les plus aguerris stationnés dans les Maleterres. Abattre une telle créature est sans conteste un défi, mais un défi bien agréable pour ceux qui ont accepté notre brevet pour combattre le mal.$B$BL'Aube d'argent offre actuellement une marque de valeur en échange de dix de ces insignes. Apportez-les-moi, et je ferai en sorte que vous receviez votre juste récompense.$BPierre du Fléau des envahisseurs (10)",
+   "completion": "Félicitations, $N - je suis heureux de vous donner une marque de valeur de l'Aube d'argent !$B$BChaque marque de valeur attribuée à un bénéficiaire méritant est un signe que le vent tourne contre le Fléau. Avec un nombre de plus en plus grand de héros combattant le Fléau sur ses propres terres, l'Aube d'argent sera assurément en bonne position quand le temps sera venu de porter l'attaque ultime contre le Fléau. J'espère que la valeur dont vous avez fait preuve pour gagner votre marque fera merveille à nouveau ce jour-là.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5510": {
+   "name": "Pierres du Fléau des serviteurs",
+   "progress": "Une Pierre du Fléau des serviteurs est l'insigne du rang et de la classe du Fléau. Elles se trouvent parfois sur le plus faible de leurs troupes positionnées dans les Maleterres, bien que le terme \"faible\" mérite d'être replacé dans son contexte.Les membres du Fléau, où qu'ils soient, ne devraient jamais être sous-estimés.$B$BL'Aube d'argent offre à présent une marque de valeur pour 20 de ces insignes - un échange que je serai heureux d'effectuer si vous avez amassé suffisamment de pierres du Fléau.$BPierre du Fléau des serviteurs (20)",
+   "completion": "Félicitations, $N - Je suis heureux de vous remettre cette marque de valeur de l'Aube d'argent !$B$BCes marques ont deux usages. Un - elles peuvent être utilisées pour augmenter votre statut au sein de l'Aube d'argent ; elles vous octroient des choix et des récompenses réservés à nos alliés honorés et révérés. Deux - elles peuvent être échangées auprès de nos intendants, avec des pièces, pour obtenir des articles de l'Aube d'argent de grande valeur.$B$BQuoi que vous décidiez, sachez que votre brevet est bien mérité. Bravo !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5511": {
+   "name": "La clé de Scholomance",
+   "completion": "Eh bien voilà, $N - la Clé squelette terminée. Je suis aussi certain que possible que cette clé vous permettra d'entrer dans les confins de Scholomance. Toutefois il n'y a qu'un moyen de vérifier son efficacité. Ne perdez pas de temps et essayez-la, c'est ce que je dis.$B$BBonne chance, puissant héros. Puissent vos victoires continuer de vous apporter gloire et pouvoir alors que vous semez la désolation à Scholomance !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5519": {
+   "name": "La tenue d'ogre gordok",
+   "progress": "Besoin d’une autre tenue, hein ? Bon, je ne vais nulle part, de toute façon. Amenez-moi les mêmes éléments que l’autre fois, et je vous en ferai une autre.$BRouleau d'étoffe runique (4)$BCuir robuste (8)$BFil runique (2)$BTanin ogre (1)",
+   "completion": "Voilà qui est fait, $N. Mettez ce truc, et vous aurez dix minutes pour faire ce que vous voulez. Bonne chance.$B$BOh, si par hasard vous tombez sur la clé qui me permettra de sortir d’ici, N’HESITEZ SURTOUT PAS A ME LE FAIRE SAVOIR !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5525": {
+   "name": "Libérez Knot !",
+   "progress": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…$B$BMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?$BClé des menottes gordok (1)",
+   "completion": "Vous – vous êtes numéro un. Tous les autres sont numéro deux – ou moins. Merci de m’avoir libéré !$B$BJe savais que j’avais autre chose à faire de ma vie que de servir d’apéritif à un ogre !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5528": {
+   "name": "La dégustation gordok",
+   "completion": "V’z’êtes le grand patron maintenant, alors z’avez le droit de goûter mes alcools. Ils rendent fort ET font tourner la tête ! C’est d’la bonne, chef… essayez, vous pourrez l’dire à Kreeg !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5627": {
+   "name": "Etoiles d'Elune",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5634": {
+   "name": "Prière du désespoir",
+   "objectivesText": [
+    "[Speak to High Priest Rohan in Ironforge.]"
+   ],
+   "details": "[A priest recently visited our halls seeking you out, young $R. He said that he was on a mission to find you and that you should return to the Hall of Mysteries in Ironforge as soon as possible. When you arrive, seek out High Priest Rohan--he will tell you more.$B$BThe Light be with you, $N.]",
+   "completion": "Vous avez rendu un grand service à la Lumière en devenant un exemple remarquable pour ceux qui voyagent dans et au-delà de ces contrées dangereuses. S'il vous plaît, veuillez accepter cette leçon en remerciement de tout ce que vous avez fait.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5641": {
+   "name": "Un manque de peur",
+   "completion": "Vous avez tout ce qui fait un grand $C, $N. Continuez à faire du bon travail !$B$BVous avez montré que vous pouviez partir au combat. Peut-être est-t-il temps de vous apprendre un petit quelque chose de plus.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5652": {
+   "name": "Le maléfice de faiblesse",
+   "completion": "Vous feriez bien de tenir compte de cette leçon. Le maléfice de faiblesse vous servira grandement lors de combats. Plus tard, j'aurai d'autres épreuves à vous faire passer qui vous serviront et permettront de prouver votre valeur à la tribu.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5658": {
+   "name": "Toucher de faiblesse",
+   "completion": "Ah jeune $C ! Je suis ravie de vous revoir. Je vais vous enseigner quelque chose que vous n'êtes pas près d'oublier. D'accord ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5672": {
+   "name": "Grâce d'Elune",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5676": {
+   "name": "Retour d'information de l'Arcane",
+   "completion": "Nous avons été obligés d'apprendre un peu de magie pour nous protéger de ce que nous appelons communément notre plus grand ennemi : l'Arcane.$B$BJe vous enseignerai un sort qui vous aidera à vous protéger, vous et vos compagnons, contre ceux qui détiennent ce genre de pouvoir.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5678": {
+   "name": "Retour d'information de l'Arcane",
+   "objectivesText": [
+    "Parler à la grande prêtresse Laurena à Stormwind."
+   ],
+   "details": "Il est temps pour vous de retourner à Stormwind, mon <ami/amie>. Vos supérieurs là-bas vous rappellent pour suivre un entraînement. Et bien que cela me chagrine, votre race et la mienne sont des alliées et je ne peux trahir cela.$B$BJe ne cherche pas à jouer les effarouchés mais ma méfiance à l'égard du maniement des arcanes, qu'elles soient d'inspiration divine ou non, est toujours présente.$B$BVous saurez de quoi je parle lorsque vous reviendrez de la cathédrale de la Lumière. Parlez à la grande prêtresse Laurena lorsque vous y serez.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5679": {
+   "name": "Sombre sacrifice",
+   "completion": "Si vous le désirez, je peux vous apprendre la Peste dévorante, $N. Un sort puissant, utile dans vos prochains combats. Entraînez-vous, vous serez mis à l'épreuve plus tard.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5680": {
+   "name": "Garde des ténèbres",
+   "completion": "Vos rites arriveront bien assez tôt. Pour l'instant je vais vous enseigner un sort qui vous sera très utile pendant les combats.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5882": {
+   "name": "Du baume en chassant",
+   "progress": "Si vous possédez une Balise cénarienne, vous pourrez discerner un fragment d'esprit corrompu sur les bêtes souillées que nous supprimons pour le plus grand bien de tous. Je broie ces fragments jusqu'à obtenir un réactif dont je me sers pour confectionner le Baume végétal cénarien qui permet de rendre santé et vigueur à ces plantes corrompues.$B$BEn échange de ces fragments, je vous donnerai du Baume que j'ai déjà préparé.$BFragment d'âme corrompue (6)",
+   "completion": "Très bien donc, voici du Baume végétal cénarien. Fouillez Gangrebois pour trouver ces plantes corrompues, $N ! Utilisez ce Baume pour purifier toutes celles que vous trouverez.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5883": {
+   "name": "Du baume par la pioche",
+   "progress": "Si vous avez une Balise cénarienne et que vous minez dans Gangrebois, peut-être trouverez-vous du Vitriol contaminé dans un filon de minerai brut. Je sais comment purifier ce vitriol et le transformer en un composant qui sert à faire du Baume végétal cénarien. Vous pourrez ensuite l'utiliser pour libérer les plantes corrompues que vous rencontrerez.$B$BSi vous avez collecté du Vitriol contaminé, je vous l'échange contre du Baume végétal cénarien que j'ai déjà préparé.$BVitriol contaminé (4)",
+   "completion": "Très bien. Voici plusieurs doses de Baume végétal cénarien. Si vous trouvez plus de vitriol en minant dans Gangrebois, gardez-le-moi ! Plus vous en trouvez, plus je peux préparer de baume.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5884": {
+   "name": "Du baume contre une récolte",
+   "progress": "Une Balise cénarienne permet aux herboristes expérimentés de repérer les créatures corrompues de Gangrebois. Mon travail ici m'a appris à les purifier avec un réactif... utilisé dans ce que nous appelons le Baume végétal cénarien.$B$BLorsque vous cueillerez des herbes à Gangrebois, vous devriez remarquer les créatures corrompues si vous avez la Balise cénarienne. En échange je vous donnerai du Baume cénarien que j'ai déjà préparé.$BGangrimpante (4)",
+   "completion": "Excellent travail, $N. Chacune d'elles, une fois purifiée, nous aidera à sauver Gangrebois. Tenez, prenez quelques doses de Baume végétal cénarien et rendez-vous dans la forêt. La reconquête de cette terre est une priorité, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5885": {
+   "name": "Du baume contre des peaux",
+   "progress": "Une balise cénarienne permet à un dépeceur bien entraîné de repérer des morceaux de peau contaminée dans le butin ramassé à Gangrebois. Je transforme ces morceaux apparemment inutiles en pâte épaisse qui sert d'agent accélérateur au baume végétal cénarien. Quand vous dépecez vos prises ici à Gangrebois, assurez-vous d'avoir toujours une balise sur vous !$B$BLorsque vous ramassez des morceaux de peau contaminée, apportez-les-moi et je vous donnerai des doses de baume végétal cénarien que j'ai en réserve.$BMorceau de peau contaminée (5)",
+   "completion": "C'est exactement ce dont j'ai besoin. Tenez, prenez ces deux doses de baume végétal cénarien et utilisez-les pour guérir les plantes de Gangrebois de la corruption. Nous devons persévérer, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5886": {
+   "name": "Du baume contre des désenchantements",
+   "progress": "Le pouvoir d'un objet magique désenchanté est éprouvé par l'essence qu'il crée. J'ai conçu un moyen de transformer l'essence brute utilisée par les enchanteurs en un réactif qui permet de créer du Baume végétal cénarien. Vous n'avez pas besoin de Balise cénarienne dans ce cas. N'importe quel objet désenchanté qui produit des essences inférieures fera parfaitement l'affaire.$B$BJe n'ai besoin que d'une seule essence inférieure. En échange, je vous donnerai du Baume végétal cénarien. L'essence est très puissante. Il en faut peu pour faire beaucoup !$BEssence du néant inférieure (1)",
+   "completion": "Voilà quelques doses de Baume végétal cénarien. Il ne manque plus qu'une Essence du néant inférieure, $N. Cette essence est de loin l’ingrédient le plus puissant que je puisse utiliser pour transformer les épées en socs de charrue. Si vous avez besoin de plus de baume, revenez me voir !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5887": {
+   "name": "Du baume en chassant",
+   "progress": "Si vous possédez une Balise cénarienne, vous pourrez discerner un fragment d'esprit corrompu sur les bêtes souillées que nous supprimons pour le plus grand bien de tous. Je broie ces fragments jusqu'à obtenir un réactif dont je me sers pour confectionner le Baume végétal cénarien qui permet de rendre santé et vigueur à ces plantes corrompues.$B$BEn échange de ces fragments, je vous donnerai du Baume cénarien que j'ai déjà préparé.$BFragment d'âme corrompue (6)",
+   "completion": "Très bien, voici des doses de Baume végétal cénarien. Fouillez Gangrebois à la recherche de toutes les plantes corrompues, $N ! Où qu'elles soient, utilisez le Baume pour les purifier.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5888": {
+   "name": "Du baume par la pioche",
+   "progress": "Si vous avez une Balise cénarienne et que vous minez dans Gangrebois, peut-être trouverez-vous du Vitriol contaminé dans un filon de minerai brut. Je sais comment purifier ce vitriol et le transformer en un composant qui sert à faire du Baume végétal cénarien. Vous pourrez ensuite l'utiliser pour libérer les plantes corrompues que vous rencontrerez.$B$BSi vous avez collecté du Vitriol contaminé, je vous l'échange contre du Baume végétal cénarien que j'ai déjà préparé.$BVitriol contaminé (4)",
+   "completion": "Très bien. Voici plusieurs doses de Baume végétal cénarien. Si vous trouvez plus de vitriol en minant dans Gangrebois, gardez-le-moi ! Plus vous en trouvez, plus je peux préparer de baume.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5889": {
+   "name": "Du baume contre une récolte",
+   "progress": "Une Balise cénarienne permet aux herboristes expérimentés de repérer les créatures corrompues de Gangrebois. Mon travail ici m'a appris à les purifier avec un réactif... utilisé dans ce que nous appelons le Baume végétal cénarien.$B$BLorsque vous cueillerez des herbes à Gangrebois, vous devriez remarquer les créatures corrompues si vous avez la Balise cénarienne. En échange je vous donnerai du Baume cénarien que j'ai déjà préparé.$BGangrimpante (4)",
+   "completion": "Excellent travail, $N. Chacune d'elles, une fois purifiée, nous aidera à sauver Gangrebois. Tenez, prenez quelques doses de Baume végétal cénarien et rendez-vous dans la forêt. La reconquête de cette terre est une priorité, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5890": {
+   "name": "Du baume contre des peaux",
+   "progress": "Une balise cénarienne permet à un dépeceur bien entraîné de repérer des morceaux de peau contaminée dans le butin ramassé à Gangrebois. Je transforme ces morceaux apparemment inutiles en pâte épaisse qui sert d'agent accélérateur au baume végétal cénarien. Quand vous dépecez vos prises ici à Gangrebois, assurez-vous d'avoir toujours une balise sur vous !$B$BLorsque vous ramassez des morceaux de peau contaminée, apportez-les-moi et je vous donnerai des doses de baume végétal cénarien que j'ai en réserve.$BMorceau de peau contaminée (5)",
+   "completion": "C'est exactement ce dont j'ai besoin. Tenez, prenez ces deux doses de baume végétal cénarien et utilisez-les pour guérir les plantes de Gangrebois de la corruption. Nous devons persévérer, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "5891": {
+   "name": "Du baume contre des désenchantements",
+   "progress": "Le pouvoir d'un objet magique désenchanté est éprouvé par l'essence qu'il crée. J'ai conçu un moyen de transformer l'essence brute utilisée par les enchanteurs en un réactif qui permet de créer du Baume végétal cénarien. Vous n'avez pas besoin de Balise cénarienne dans ce cas. N'importe quel objet désenchanté qui produit des essences inférieures fera parfaitement l'affaire.$B$BJe n'ai besoin que d'une seule essence inférieure. En échange, je vous donnerai du Baume végétal cénarien. L'essence est très puissante. Il en faut peu pour faire beaucoup !$BEssence du néant inférieure (1)",
+   "completion": "Voilà quelques doses de baume végétal cénarien. Il ne manque plus qu'une essence du néant inférieure, $N. Cette essence est de loin l’ingrédient le plus puissant que je puisse utiliser pour transformer les épées en socs de charrue. Si vous avez besoin de plus de baume, revenez me voir !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6383": {
+   "name": "La Chasse d'Ashenvale",
+   "completion": "Pour clore la Chasse d’Ashenvale, vous devrez affronter trois créatures légendaires. Vous allez devoir les rechercher et vous mesurer à leur malice et leur force. En accomplissant cela, vous apprendrez des choses sur vous. Ces créatures sont : l'ours Ursangous, le sabre-de-nuit Shadumbra et l'hippogryphe Serres-tranchantes.$B$BLes créatures de la Chasse d'Ashenvale sont puissantes, et vous aurez peut-être besoin d'aide pour les vaincre. Si vous les battez, apportez-en-moi la preuve.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6545": {
+   "name": "Mise à jour du Messager Warsong",
+   "progress": "Donc vous êtes ici avec mes ordres ? C'est toujours un plaisir de voir une nouvelle recrue avec une nature exubérante et qui persévère.$B$BVous devez apprendre vite si vous voulez rester ici. La menace que représentent les nagas grandit, $N. Je me suis occupé de la défense lors de plusieurs attaques contre cet avant-poste depuis que je suis ici.$B$BMais si vous voulez vous y atteler, parlez à quelqu'un d'autre à l'avant-poste.$BRapport du clan Warsong (1)",
+   "completion": "Eh bien, ces mises à jour vont tout expliquer à Kadrak ! Vous devez retourner le voir et lui apporter ceci le plus rapidement possible.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6546": {
+   "name": "Mise à jour du voltigeur Warsong",
+   "progress": "Il y a beaucoup de dangers sur ce chemin, $N. Vous avez intérêt à ne pas l'oublier quand vous traverserez ces terres. La menace que représente l'Alliance est très proche.$B$BNous avons des ennemis sur tous les fronts. Les satyres sont une force redoutable et très répandue dans l'est d'Ashenvale. De plus, j'ai découvert que les nagas ont envahi une grande partie des terres d'Azshara.$B$BIl est réconfortant de voir que nos effectifs augmentent. Il faut se préparer à ce qui nous attend, $N.$BRapport du clan Warsong (1)",
+   "completion": "Apportez mes mises à jour à Kadrak. Rapidement, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6547": {
+   "name": "Mise à jour de l'Eclaireur Warsong",
+   "progress": "Gardez l'oeil ouvert, $N. Les elfes se cachent souvent dans les ombres...$B$BNous devons toujours être à l'affût. Nous avons travaillé dur pour gagner cette terre, et les elfes cherchent à nous la voler.$B$BJ'imagine que vous m'avez apporté mes prochains ordres provenant de Kadrak ?$BRapport du clan Warsong (1)",
+   "completion": "Faisons savoir à Kadrak que nous avons réussi à repousser les elfes de la nuit. Nos plans se déroulent bien.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6581": {
+   "name": "Lames du clan Warsong",
+   "progress": "En provenance directe de Ratchet, des lames du clan Warsong ! Ouais, je les ai ici.$B$BMais qu'avez-vous en contrepartie pour moi ? Vous ne pouvez pas les emporter comme ça, vous savez ! Mon temps coûte cher !$B$BCe dont j'ai besoin, c'est d'une bonne arme à feu pour mes voyages. Une fille doit se protéger savez-vous ? Il y en a une que j'aime particulièrement, et je suis sûre qu'un ingénieur n'aura aucun problème à la fabriquer.$B$BVoilà, si vous m'apportez un Tromblon mortel, je vous donnerai la cargaison de lames. Alors, marché conclu ?$BTromblon mortel (1)",
+   "completion": "C'est parfait, c'est exactement ce que je voulais ! Eh bien, voilà la cargaison.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6642": {
+   "name": "Faveur auprès de la Confrérie, Minerai de sombre fer",
+   "progress": "Le sombre fer, bien qu'il soit répandu dans les Profondeurs, est toujours considéré comme un produit de valeur pour la Confrérie. Les armes sacrées de Ragnaros nécessitent du sombre fer.$B$BPour chaque 10 morceaux de Minerai de sombre fer que vous offrirez, une faveur vous gagnerez.$BMinerai de sombrefer (10)",
+   "completion": "Votre offre a été acceptée. Vous avez obtenu une faveur. Continuez et on vous autorisera l'accès aux commerces anciens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6643": {
+   "name": "Faveur auprès de la Confrérie, Noyau de feu",
+   "progress": "Malheur à ceux qui défient le destin au Cœur du Magma ! La mort frappe rapidement ! Le châtiment est sans pitié.$B$BDe nombreux membres de la Confrérie ont disparu en recherchant des Noyaux de feu.$B$BDonnez 1 Noyau de feu et vous obtiendrez une faveur de la part de la Confrérie.$BNoyau de feu (1)",
+   "completion": "Votre offre a été acceptée. Vous avez obtenu une faveur. Continuez et on vous autorisera l'accès aux commerces anciens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6644": {
+   "name": "Faveur auprès de la Confrérie, Noyau de lave",
+   "progress": "La Confrérie du Thorium comprend vos difficultés, $N. C'est pour cela que Lokthos a reçu les pleins pouvoirs pour négocier.$B$BDonnez 1 Noyau de lave et vous recevrez une faveur de la part de la Confrérie.$BNoyau de lave (1)",
+   "completion": "Votre offre a été acceptée. Vous avez obtenu une faveur. Continuez et on vous autorisera l'accès aux commerces anciens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6645": {
+   "name": "Faveur auprès de la Confrérie, Cuir du Magma",
+   "progress": "Beaucoup de recettes sacrées exigent du cuir des familiers personnels de Ragnaros.$B$BDonnez 2 Cuirs du Magma, provenant du corps des Chiens du Magma, et vous recevrez une faveur de la Confrérie.$BCuir du Magma (2)",
+   "completion": "Votre offre a été acceptée. Vous avez obtenu une faveur. Continuez et on vous autorisera l'accès aux commerces anciens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6646": {
+   "name": "Faveur auprès de la Confrérie, Sang de la montagne",
+   "progress": "Les larmes du Seigneur du feu sont vraiment très rares.$B$BOffrez 1 Sang de la montagne et une faveur vous sera accordée par la Confrérie.$BSang de la montagne (1)",
+   "completion": "Votre offre a été acceptée. Vous avez obtenu une faveur. Continuez et on vous autorisera l'accès aux commerces anciens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6701": {
+   "name": "Emblèmes du Syndicat",
+   "progress": "Nous sommes en guerre avec le Syndicat depuis des années. Ils compensent par leur nombre leur manque de compétences. Nous n'arrivons pas à les tuer assez rapidement pour que cela ait un impact notable sur leur population !$B$BNous avons découvert que le meilleur moyen de gérer leur nombre est de voler leurs Emblèmes. Chaque membre qui la perd est 'puni' en interne.$B$BDétroussez-les et rapportez les Emblèmes à moi ou aux autres Gardes.$B$BCommencez à Durnholde, au sud d'ici.$BEmblème du Syndicat (1)",
+   "completion": "Eh ! beau travail. Continuez et les autres voleurs arrêteront peut-être de vous cracher dessus.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6741": {
+   "name": "Plus de butin !",
+   "progress": "J'ai besoin de plus de Morceaux d'armure, $N ! Vous en avez ?$BMorceaux d'armures (20)",
+   "completion": "Merci encore, $N. La Horde est fière de vous…",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6781": {
+   "name": "Plus de morceaux d'armure !",
+   "progress": "$N, nous avons besoin de davantage de Morceaux d’armure pour équiper nos troupes !$BMorceaux d'armures (20)",
+   "completion": "Ce sont de jolis éléments, $N. Je peux les utiliser pour fabriquer de nouveaux équipements pour nos troupes.$B$BSi mes fournitures atteignent un niveau suffisant, peut-être nos troupes aguerries pourront-elles entrer sur le champ de bataille.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6801": {
+   "name": "Lokholar le Seigneur des Glaces",
+   "progress": "Je viens de Thunder Bluff, $N. Cairne en personne m’a diligenté afin que j’assiste le clan Frostwolf en ces temps difficiles.$B$BMais ne perdons pas plus de temps. Vous devez abattre nos ennemis et me rapporter un peu de leur sang. Une fois que le sang aura été collecté, le rituel d’invocation pourra commencer.$B$BLa victoire sera certaine lorsque le Seigneur élémentaire sera lâché sur l’armée des Stormpike.$BSang de soldat stormpike (1)",
+   "completion": "Le sang de nos ennemis a été versé. Je vais le mélanger avec celui qui a déjà été récolté. Une fois l’offrande complète, le Seigneur de glace montrera à ces chiens de Stormpike ce qu’est la colère du clan Frostwolf !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6825": {
+   "name": "L'appel des airs - l'escadrille de Guse",
+   "progress": "Nous devons préparer la nouvelle flotte des Chevaucheurs de guerre, $N ! Mes Chevaucheurs sont prêts pour combattre au centre du champ de bataille, mais d’abord nous devons les mettre en appétit et les préparer à l’assaut.$B$BIl me faut suffisamment de chair de soldats Stormpike pour nourrir la flotte ! Des centaines de kilos de viande ! Je suis sûr que vous pouvez vous occuper de ça, n’est-ce pas ?$BChair de soldat stormpike (1)",
+   "completion": "La flotte se nourrit de leur chair. Cela consume l'ennemi.$B$BLe vol est imminent !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6826": {
+   "name": "L'appel des airs - l'escadrille de Jeztor",
+   "progress": "Vous avez bien travaillé, $N, mais nous ne faisons que commencer !$B$BMes Chevaucheurs de guerre doivent goûter à la chair de leurs cibles. Cela permettra d’obtenir comme qui dirait une frappe chirurgicale contre nos ennemis !$B$BMa flotte est la seconde plus puissante de toute notre force aérienne. Ce sont eux qui frapperont les plus puissants de nos adversaires. Pour cela, je le répète, il nous faut de la chair des Lieutenants de l'Alliances.$B$BFaites vite !$BChair de lieutenant stormpike (1)",
+   "completion": "Encore ! Encore ! Il en faut plus car ils seront bientôt prêts !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6827": {
+   "name": "L'appel des airs - l'escadrille de Mulverick",
+   "progress": "J’ai subi un emprisonnement inhumain dans ce trou à rats. Vous pouvez me croire quand je vous dis que je n’aspire qu’à la vengeance !$B$BNous devons agir avec prudence, néanmoins.$B$BD’abord, mes Chevaucheurs de guerre ont besoin de cibles, de cibles prioritaires. Je me dois de les nourrir avec la chair des commandants de l'Alliance. Malheureusement, ces petits couards sont retranchés loin derrière leurs lignes. Vous avez du pain sur la planche, on peut le dire !$BChair de commandant stormpike (1)",
+   "completion": "Insuffisant ! Ce genre de travail est correct pour un initié, mais vous, $N ? En avant, soldat, il faut encore de la chair !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6846": {
+   "name": "Que l'attaque commence !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6881": {
+   "name": "Ivus le Seigneur des forêts",
+   "progress": "Le clan Frostwolf est protégé par un poison constitué d'énergie élémentaire. Leurs chamans ont développé des pouvoirs qui nous détruiront jusqu'au dernier, si on laisse les choses suivre leur cours.$B$BLa menace est maintenant trop importante pour le Cercle. Ivus doit être appelé à l'aide.$B$BLes soldats Frostwolf portent des charmes élémentaires, appelés Cristaux de tempête. Nous pouvons utiliser ces charmes pour invoquer Ivus. Partez maintenant et récupérez ces cristaux, $N !$BCristal de tempête (1)",
+   "completion": "Bien joué, $N. Je vais me servir du pouvoir de ce charme pour augmenter la magie qui a déjà été collectée. Lorsque nous aurons assez de puissance, je focaliserai les énergies et j’appellerai le Seigneur des forêts pour aider notre cause.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6901": {
+   "name": "Lancez l'attaque !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6941": {
+   "name": "L'appel des airs - l'escadrille de Vipore",
+   "progress": "Les troupes d'élite de la Horde en faction sur la ligne de front doivent être engagées ! Je vous demande de tailler dans cette bande de sauvages et d'en faire chuter les effectifs. Revenez me voir avec les Médailles de leurs Lieutenants et de leurs Légionnaires. Lorsque un nombre suffisant de cette racaille aura étouffé dans son propre sang, je ferai déployer la force aérienne.$BMédaille de lieutenant frostwolf (1)",
+   "completion": "Le vol sera bientôt prêt. Continuez vos efforts !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6942": {
+   "name": "L'appel des airs - l'escadrille de Slidore",
+   "progress": "Mes gryphons sont en place pour donner l'assaut frontal, mais ils ne peuvent pas le faire tant que les rangs ennemis n'auront pas été réduits préalablement.$B$BLes guerriers de la Horde chargés de tenir la ligne de front portent des Médailles qu'ils arborent fièrement sur leurs poitrines. Arrachez ces Médailles à leurs cadavres et rapportez-les-moi.$B$BUne fois que les effectifs ennemis de la ligne de front auront été suffisamment réduits, je ferai donner la force aérienne !$BMédaille de soldat frostwolf (1)",
+   "completion": "Il faut que ça entre, soldat ! Les gryphons du Nid-de-l'Aigle seront prêts à frapper en un rien de temps !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "6943": {
+   "name": "L'appel des airs - l'escadrille d'Ichman",
+   "progress": "Leur moral est au plus bas. Depuis l'échec cuisant de notre dernière attaque aérienne contre la Horde, ils refusent de voler ! C'est à vous maintenant de remonter leur moral.$B$BRetournez sur le champ de bataille et frappez le coeur du commandement de la Horde. Abattez leurs commandants et leurs gardiens. Revenez me voir quand vous aurez récupéré autant de Médailles que peut en contenir votre sac ! Je vous promets que lorsque mes gryphons verront ce butin et qu'ils sentiront l'odeur de leur sang sur les Médailles, ils seront prêts à reprendre le combat. Partez maintenant !$BMédaille de commandant frostwolf (1)",
+   "completion": "Vous ne voyez pas ? Regardez, soldat ! Ils approchent ! Bientôt, l'escadrille d'Ichman frappera de nouveau au coeur de la vallée ! Les Stormpike régneront dans les cieux !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7026": {
+   "name": "Harnais pour béliers",
+   "progress": "La brigade Stormpike ne peut pas charger à cru ! Il nous faut des harnais pour nos montures. Après tout, nous ne sommes pas des sauvages.$B$BNous pourrions tuer les béliers qui s'aventurent près de notre base pour fabriquer ces harnais, mais ce serait idiot : nous en avons besoin comme montures.$B$BVous devez attaquer la base ennemie, tuer leurs loups de monte et prendre leur peaux. Ramenez-les-moi, et nous en ferons des harnais pour la cavalerie. Allez !$BPeau de loup des glaces (1)",
+   "completion": "Bon travail, soldat. Je vous dirai quand nous aurons assez de ces peaux.$B$BContinuez !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7163": {
+   "name": "Ascension et reconnaissance",
+   "progress": "<Le Maître de guerre Laggrond vous salue.>$B$BVotre heure a sonné, $N. Vous avez rendu service au clan Frostwolf. Ce faisant, vous avez mérité une place parmi nous, non seulement comme soldat, mais aussi comme ami.$B$BBien joué ! Présentez votre insigne d’initié.$BInsigne Frostwolf grade 1 (1)",
+   "completion": "Ce nouvel insigne reflète votre grade parmi les Frostwolf. Gardez-le sur vous en permanence.$B$BEt $C… Tâchez de mourir avec honneur !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7164": {
+   "name": "Honoré au sein du clan",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7165": {
+   "name": "Montée en grade",
+   "progress": "Tant de morts. Un champ saturé de sang. Mais vous êtes en vie. Vous avez persévéré. Vous avez mené nos armées à la victoire. Et pour cela, soldat, vous avez mérité de monter en grade.$B$BPrésentez votre insigne.$BInsigne Frostwolf grade 3 (1)",
+   "completion": "<Le maître de guerre Laggrond rugit.>$B$BIls commencent à raconter vos exploits, soldats. Les Stormpike tremblent de peur lorsqu’ils entendent votre nom. Continuez !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7166": {
+   "name": "Héros de légende",
+   "progress": "Puissance et autorité émanent de vous, $C. Vous êtes exalté aux yeux des Frostwolf – l’ennemi se cache à la seule mention de votre nom.$B$BDebout, Héros des Frostwolf. Debout et soyez honoré !$B$BPrésentez votre insigne.$BInsigne Frostwolf grade 4 (1)",
+   "completion": "Bientôt, tout le champ de bataille sera sous vos yeux vigilants. Vous aurez le commandement de la Vallée et de ses troupes.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7167": {
+   "name": "L'Œil du commandement",
+   "progress": "Drek’Thar chante vos louanges. Kalimdor résonne du bruit de vos exploits. Le chef de guerre sourit – votre héroïque défense de notre clan l’a grandement satisfait.$B$BVous avez mérité l’Œil du Commandement.$B$BPrésentez votre insigne, commandant $N.$BInsigne Frostwolf grade 5 (1)",
+   "completion": "Canalisez le pouvoir de l’insigne. Laissez l’ennemi entendre vos paroles. La puissance de la Horde est incontestable !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7168": {
+   "name": "Ascension et reconnaissance",
+   "progress": "La plupart des gens ne vivent pas assez longtemps pour s’élever au-dessus de leur propre médiocrité. Vous avez montré que vous êtes un soldat exemplaire, $C. L’heure est venue.$B$BPrésentez votre insigne.$BInsigne Stormpike grade 1 (1)",
+   "completion": "Que nos ennemis voient qu’un soldat d’élite les a tués ! Battez-vous ! Battez-vous pour la gloire des Stormpike !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7169": {
+   "name": "Honoré au sein de la Garde",
+   "progress": "Toute la base parle de vos exploits sur le Champ sanglant ! Vous avez porté des coups sévères à l’ennemi – et à son moral ! Pour cela, vous avez mérité de progresser au sein des Stormpike.$B$BPrésentez votre insigne.$BInsigne Stormpike grade 2 (1)",
+   "completion": "Le roi a été informé de vos exploits sur le champ de bataille, $C. Continuez votre vaillante défense de la Garde Stormpike !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7170": {
+   "name": "Montée en grade",
+   "progress": "Je m’interroge, $N. Lorsque vous regardez dans les yeux de l’ennemi, y voyez-vous la peur ? Se cachent-ils plutôt que de vous faire face ? Ils doivent bien se rendre compte qu’ils sont vaincus !$B$BVous avez mérité que la Garde vous traite avec révérence. Présentez votre insigne !$BInsigne Stormpike grade 3 (1)",
+   "completion": "A notre première rencontre, je ne me serais jamais douté que vous étiez un héros en herbe. Continuez, soldat !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7171": {
+   "name": "Héros de légende",
+   "progress": "Devant moi se tient un héros de l’Alliance.$B$B<Le Lieutenant Haggerdin salue.>$B$BRares sont ceux qui ont obtenu un tel grade parmi les Stormpike. J’ai vu l’ennemi tomber devant vous. J’ai vu leur résolution s’effondrer devant votre présence. Lorsque vous entrez dans la mêlée, vous devenez un point de ralliement pour nos forces !$B$BPrésentez votre insigne.$BInsigne Stormpike grade 4 (1)",
+   "completion": "C’est sûrement vous qui porterez l’Oeil du Commandement !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7172": {
+   "name": "L'Œil du commandement",
+   "progress": "Laissez-les entendre votre voix, commandant $N ! Ils connaîtront la peur. Montrez-leur le pouvoir des Stormpike !$B$BPrésentez votre insigne.$BInsigne Stormpike grade 5 (1)",
+   "completion": "C’est vous qui devez mener nos troupes à la victoire, commandant ! Les soldats sont à vos ordres. Ils vous obéiront. Conduisez-les, et écrasez les Frostwolf !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7221": {
+   "name": "Discuter avec la prospectrice Stonehewer",
+   "objectivesText": [
+    "Discutez avec la Prospectrice Stonehewer à la Garnison de Dun Baldar."
+   ],
+   "details": "Ah, $N, <prêt/prête> à prendre votre service ? Très bien, les Stormpike ont besoin de tous les bras disponibles !$B$BDiscutez avec la prospectrice Stonehewer à Dun Baldar. Elle cherche des volontaires pour une mission très importante en territoire ennemi. Vous la trouverez dans les profondeurs de la garnison de Dun Baldar.$B$BEt gardez l’œil ouvert quand vous traverserez Dun Baldar. Il y a beaucoup à faire pour un $C travailleur et qui n’a pas peur de se salir les mains.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7222": {
+   "name": "Discuter avec Voggah Deathgrip",
+   "objectivesText": [
+    "Parlez à Voggah au donjon Frostwolf."
+   ],
+   "details": "Un $C ? Bien ! Nous sommes contents de vous avoir à Alterac, $N. Des nains fouineurs et leurs alliés sont en train d’envahir notre vallée, et nous accueillons au sein de la Horde tous ceux qui veulent se joindre à nous pour la bataille.$B$BParlez à Voggah Deathgrip. Il cherche des agents pour une mission importante au cœur de la forteresse de l’Alliance.$B$BVous le trouverez au donjon Frostwolf.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7341": {
+   "name": "Un marché honnête",
+   "progress": "Bonjour, $R. Je suis Kolark, $C de primes de Thunderbluff. J’ai beaucoup voyagé de par le monde et j’ai beaucoup vu.$B$BAu cours de mes voyages dans les mers du Sud, j’ai découvert ces merveilleuses flèches à pointes de thorium. Hélas, j’ai des flèches à ne plus savoir quoi en faire, mais j’ai épuisé ma provision d’obus. Aucun tauren qui se respecte ne se ferait prendre à se servir d’un arc – trop fragile. Ces flèches ne me servent à rien !$B$BJe vous propose un marché : vous m’apportez des obus en thorium, et je vous donne un nombre égal de flèches à pointes de thorium. Entendu ?$BObus en thorium (200)",
+   "completion": "Excellent ! Je suis un tauren de parole, $R. Les flèches sont à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7342": {
+   "name": "Les flèches, c'est pour les mauviettes",
+   "progress": "Vous y croyez, vous ? Les gars qui ont fait le dernier chargement de munitions de Kharanos ont cochonné le boulot ! Tout ce que nous avons comme munitions, ce sont ces saletés de flèches bonnes à rien ! Qu’est-ce que je suis censé faire avec 500 000 flèches à pointes de thorium, vous pouvez me le dire ?$B$BJe vais vous dire. Si vous pouvez m’amener des obus en thorium, je vous file ces flèches à pointe de thorium, et tout de suite ! Entendu ?$BObus en thorium (200)",
+   "completion": "Marché conclu, et cochon qui s’en dédit ! Les flèches sont à vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7429": {
+   "name": "Libérez Knot !",
+   "progress": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…$B$BMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?$BClé des menottes gordok (1)",
+   "completion": "Oh, merci de m'avoir libéré ! Vous – vous êtes numéro un. Tous les autres sont numéro deux – ou moins. Merci de m’avoir libéré !$B$BJe savais que j’avais autre chose à faire de ma vie que de servir d’apéritif à un ogre !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7493": {
+   "name": "Le voyage commence à peine",
+   "completion": "Tueur de dragons et artisan du cuir expérimenté ? Vous ne cessez pas de m'émerveiller, héros. Je m'incline devant votre supériorité.$B$BJe vous prie d'accepter mon enseignement. Ce savoir pourrait vous rendre de grands services si vous entreprenez de détruire ce qui reste du Vol noir.$B$BServez-vous des écailles de leur mère pou créer une cape. Elle vous protègera, vous et vos alliés, du souffle incendiaire du seigneur de Blackrock… Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7497": {
+   "name": "Le voyage commence à peine",
+   "completion": "Tueur de dragons et artisan du cuir expérimenté ? Vous ne cessez pas de m'émerveiller, héros. Je m'incline devant votre supériorité.$B$BJe vous prie d'accepter mon enseignement. Ce savoir pourrait vous rendre de grands services si vous entreprenez de détruire ce qui reste du Vol noir.$B$BServez-vous des écailles de leur mère pour créer une cape. Elle vous protègera, vous et vos alliés, du souffle incendiaire du seigneur de Blackrock… Nefarian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7541": {
+   "name": "Un service pour la Horde",
+   "completion": "Il faudra du temps pour que nos savants étudient le pendentif que vous nous avez rapporté. J'aimerais vous offrir un petit témoignage de notre reconnaissance, pour le service que vous avez rendu à la Horde.$B$BMerci, $N. Vos actions vous font honneur.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7621": {
+   "name": "Un avertissement",
+   "completion": "$C vous allez subir une série d’épreuves au cours desquelles tous vos talents seront poussés à leurs limites.$B$BÉcoutez attentivement mon histoire.$B$BAttention, vous devrez achever cette tâche seul. Je conseille à vos alliés de rester à distance. Toute intervention extérieure entraînera un châtiment sévère.$B$BLe Destin vous a conduit ici, vous et vous seul. Battez-vous avec honneur. Que la Lumière vous protège !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7633": {
+   "name": "Une rencontre",
+   "completion": "Votre dilligence et votre intégrité ont été notées, $C.$B$BNous sommes les Anciens, les protecteurs de cette forêt qui fut grande, autrefois. Nos formes physiques ont été détruites il y a dix mille ans lorsqu’Archimonde et la Légion ardente ont marché sur le mont Hyjal. Malgré tout, nos esprits demeurent intacts.$B$BNous avons des tâches à vous proposer. Des tâches qui vous donneront accès à nos secrets, si vous les accomplissez.$B$BSi vous y parvenez, revenez à ce rocher et nous répondrons à votre appel.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7652": {
+   "name": "Une affaire en thorium",
+   "completion": "Voilà, messire, j’ai une superbe affaire à vous proposer.$B$BJe veux me débarrasser d’un certain nombre de plans pour des pièces d’armure impériales en plaques. Je cherche quelqu’un qui voudrait les prendre. En échange, tout ce qu’il me faut, ce sont quelques barres de thorium. Cela vous tente ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7653": {
+   "name": "La ceinture impériale en plaques",
+   "progress": "Les plans de la ceinture vont vous coûter 20 barres de thorium.$BBarre de thorium (20)",
+   "completion": "Un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7654": {
+   "name": "Les bottes impériales en plaques",
+   "progress": "Pour le plan des bottes, mon prix est de 40 barres de thorium. Ouais, 40. Vous n’allez pas pleurer, quand même ? Vous voulez un mouchoir ?$B$B<Derotain ricane.>$BBarre de thorium (40)",
+   "completion": "Un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7655": {
+   "name": "Les bracelets impériaux en plaques",
+   "progress": "Pour les plans des bracelets, il me faudra 20 Barres de thorium..$B$BVous vous sentez bien, mon gars? Vous êtes tout rouge.$BBarre de thorium (20)",
+   "completion": "Un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7656": {
+   "name": "La pansière impériale",
+   "progress": "Pour les plans de la pansière, il va me falloir 60 barres de thorium.$B$BOh bon, c’est reparti. Vous allez courir voir vos vieux dieux bleus et leur demander pourquoi ils vous ont rejeté ? Allez, haut les cœurs ! Personne n’a dit que la vie était juste !$BBarre de thorium (60)",
+   "completion": "Toujours un plaisir de faire affaire avec vous.$B$BEt $N, cette expression dégoûtée ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7657": {
+   "name": "Le heaume impérial en plaques",
+   "progress": "Vous n'avez qu'à aligner 50 barres de thorium et les plans du heaume sont à vous.$BBarre de thorium (50)",
+   "completion": "Un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7658": {
+   "name": "Les jambières impériales en plaques",
+   "progress": "Pour les plans des protège-pattes, c’est 60 barres de thorium.$B$BOui, je sais, c’est horrible, je vous ruine et tout et tout. On me l’a déjà faite, alors gardez vos histoires pour vous, d’accord ?$BBarre de thorium (60)",
+   "completion": "Un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7659": {
+   "name": "Les épaulières impériales en plaques",
+   "progress": "Pour le plan des épaulières, ça ira chercher dans les 20 barres de thorium.$BBarre de thorium (20)",
+   "completion": "C'est toujours un plaisir de faire des affaires avec vous.$B$BEt $N, cet air dégoûté ne vous va pas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7660": {
+   "name": "Echange de loup arctique",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7661": {
+   "name": "Echange de loup - Loup rouge",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7662": {
+   "name": "Un nouveau kodo bleu",
+   "fetched": "2026-10-02",
+   "v": 2
   }
  }
 }
