@@ -1,26 +1,83 @@
 {
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
-    "website": [
-      "Every field on the Lua export page has an ⓘ explaining what it contains and how it appears in the Lua file.",
-      "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen.",
-      "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB.",
-      "The database is also online at data.morthen.net, updated after every data release.",
-      "Vendor lists show limited stock (e.g. \"limited: 2, restocks every 2 h\"), and entries known only from VMangos carry a VMangos badge with a note that they may be outdated.",
-      "Item pages have a map showing where the item is sold, dropped or looted, with a colour for each kind of source.",
-      "Map labels (zone, town and region names) are now in English.",
-      "Dungeon and raid pages show the instance map: one row of tabs picks the floor, a second row the outdoor maps with the quest givers.",
-      "Maps can no longer be zoomed out beyond the map itself, zoom in further and in finer steps, and a zone page always shows the zone's own map first.",
-      "In the Lua export the player's name placeholder $N is now written as ${playerName}."
-    ],
-    "data": [
-      "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
-      "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update.",
-      "Vendors now also come from the VMangos server database, adding about 1,600 vendor entries; these may be outdated, especially for WoW Forever.",
-      "About 3,000 more WoW Forever quest texts from Wowhead across all languages; Russian texts no longer contain the race or character name of whoever recorded them."
-    ]
+    "website": [],
+    "data": []
   },
   "versions": [
+    {
+      "version": "0.1.4",
+      "date": "2026-10-02",
+      "data": {
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "date": "2026-10-01",
+          "subject": "Merge pull request #54 from Questie/forever-trace-corrections"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      },
+      "website": [
+        "Every field on the Lua export page has an ⓘ explaining what it contains and how it appears in the Lua file.",
+        "The site no longer scrolls sideways on phones: the menu wraps onto a second line and the export form fits the screen.",
+        "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB.",
+        "The database is also online at data.morthen.net, updated after every data release.",
+        "Vendor lists show limited stock (e.g. \"limited: 2, restocks every 2 h\"), and entries known only from VMangos carry a VMangos badge with a note that they may be outdated.",
+        "Item pages have a map showing where the item is sold, dropped or looted, with a colour for each kind of source.",
+        "Map labels (zone, town and region names) are now in English.",
+        "Dungeon and raid pages show the instance map: one row of tabs picks the floor, a second row the outdoor maps with the quest givers.",
+        "Maps can no longer be zoomed out beyond the map itself, zoom in further and in finer steps, and a zone page always shows the zone's own map first.",
+        "In the Lua export the player's name placeholder $N is now written as ${playerName}."
+      ],
+      "dataNotes": [
+        "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
+        "NPCs, objects and items that have no name in QuestieDB use the VMangos name or are shown as e.g. \"NPC #214954\" instead of breaking the update.",
+        "Vendors now also come from the VMangos server database, adding about 1,600 vendor entries; these may be outdated, especially for WoW Forever.",
+        "About 3,000 more WoW Forever quest texts from Wowhead across all languages; Russian texts no longer contain the race or character name of whoever recorded them."
+      ],
+      "dataChanges": {
+        "classic": [
+          "25 quests updated (texts, objectives, rewards or chains), e.g. A Fair Trade, Arrows Are For Sissies, Components for the Enchanted Gold Bloodrobe, Cyclonian, Gathering the Cure, Gathering the Cure, Gyro... What?, The Touch of Zanzil.",
+          "NPCs: 218 updated.",
+          "objects: 80 updated.",
+          "items: 532 updated."
+        ],
+        "forever": [
+          "175 quests updated (texts, objectives, rewards or chains), e.g. Components for the Enchanted Gold Bloodrobe, Cyclonian, Desperate Prayer, Earth Sapta, Earth Sapta, Fire Sapta, Gyro... What?, The Touch of Zanzil.",
+          "NPCs: 4 added, 945 updated.",
+          "objects: 64 added, 103 updated.",
+          "items: 25 added, 621 updated.",
+          "Quest descriptions: English +1, German +5, Spanish (EU) +4, Spanish (LA) +5, French +5, Korean +189, Portuguese +2,753, Russian +4, Chinese (simplified) +4, Chinese (traditional) +1,425.",
+          "Questlines: 637 (+8)."
+        ]
+      },
+      "commits": [
+        "Explain every export field with a tooltip; fix phone layout",
+        "Rename quest fields starters/enders to startedBy/finishedBy",
+        "Add a Wowhead quest text importer",
+        "Create CNAME",
+        "Publish the site to GitHub Pages under data.morthen.net",
+        "Handle QuestieDB records without a name",
+        "Write Wowhead text files atomically",
+        "Add first Wowhead quest texts; drop Italian",
+        "Fix Wowhead parser taking other sections for the description",
+        "Add Wowhead quest texts from further scraper runs",
+        "Fetch one Wowhead quest every 10 seconds by default",
+        "Add vendor data from VMangos",
+        "Add a source map to item pages",
+        "Re-extract world maps from the English clients",
+        "Extract dungeon and raid maps from the Classic clients",
+        "Point the default WoW directory at the Games drive",
+        "Show dungeon and raid maps on instance pages",
+        "Show instance floors as tabs of the zone map",
+        "Limit map zoom-out to the map and put the zone's own map first",
+        "Split instance floors and world maps into two tab rows",
+        "Add Wowhead quest texts from further scraper runs",
+        "Write $N as ${playerName} in the Lua export"
+      ]
+    },
     {
       "version": "0.1.3",
       "date": "2026-10-01",
