@@ -275,9 +275,10 @@
 
 {#if groups.length}
 	<div class="zonemap">
-		{#if groups.length > 1}
-			<div class="tabs" role="tablist">
-				{#each groups as g (g.uiMapId)}
+		{#snippet tabs(list: MapGroup[], label?: string)}
+			<div class="tabs" role="tablist" aria-label={label}>
+				{#if label}<span class="tablabel">{label}</span>{/if}
+				{#each list as g (g.uiMapId)}
 					<button
 						role="tab"
 						aria-selected={g === current}
@@ -288,6 +289,13 @@
 					</button>
 				{/each}
 			</div>
+		{/snippet}
+		{#if floors.length && groups.length > floors.length}
+			<!-- instance page: its floors and the world maps as two separate choices -->
+			{@render tabs(groups.filter((g) => g.floor), 'Instance')}
+			{@render tabs(groups.filter((g) => !g.floor), 'World')}
+		{:else if groups.length > 1}
+			{@render tabs(groups)}
 		{:else}
 			<h3 class="mapname">{current?.name}</h3>
 		{/if}
@@ -332,6 +340,12 @@
 		flex-wrap: wrap;
 		gap: 0.25rem;
 		margin-bottom: 0.4rem;
+	}
+	.tablabel {
+		align-self: center;
+		min-width: 4.5rem;
+		color: var(--muted);
+		font-size: 0.8rem;
 	}
 	.tabs button {
 		background: var(--panel);
