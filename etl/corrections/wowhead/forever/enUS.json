@@ -3,14 +3,631 @@
  "quests": {
   "16": {
    "name": "Give Gerard a Drink",
-   "details": "Farming is thirsty work, and I'm always looking for refreshing spring water.$B$BIf you have any, then I'm willing to make a trade.$BRefreshing Spring Water (1)",
+   "progress": "Farming is thirsty work, and I'm always looking for refreshing spring water.$B$BIf you have any, then I'm willing to make a trade.$BRefreshing Spring Water (1)",
    "completion": "Thanks, $N! And come back if you want to trade again.",
-   "fetched": "2026-10-01"
+   "fetched": "2026-10-01",
+   "v": 2
   },
   "247": {
    "name": "The Hunt Completed",
    "completion": "$N, you have slain all three beasts that comprise the Ashenvale Hunt. You have brought me adequate proof of their demise; there is no question of your strength and tenacity. The blood of a hunter streaks through your veins, and you should be commended!$B$BPlease, accept this bauble as a sign of congratulations on your mighty deeds done in Ashenvale for the Horde today. May your ancestors watch over you!",
    "fetched": "2026-10-01",
+   "v": 2
+  },
+  "254": {
+   "name": "Digging Through the Dirt",
+   "completion": "You dig through the semi-loose dirt over the grave...and find the remains of a coffin.$B$BWithin the coffin you can feel the vibrating scrapes of clawed fingers and the gnashing of rotted teeth...$B$BWill you open the coffin and retrieve the Embalmer's heart?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "308": {
+   "name": "Distracting Jarven",
+   "progress": "Hmph! There is all this booze down here, but I have strict orders not to touch it. If only I could get a taste of some of our Thunder Ale...that would sharpen my wits, no lying!$BThunder Ale (1)",
+   "completion": "For me? You're a true hero, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "403": {
+   "name": "Guarded Thunderbrew Barrel",
+   "completion": "This barrel of ale is guarded by Jarven Thunderbrew. As long as he's in the basement, no barrels may be disturbed.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "410": {
+   "name": "The Dormant Shade",
+   "progress": "This is an old, beaten, bloody table.$BCandle of Beckoning (1)",
+   "completion": "You place the Candle of Beckoning upon the table and light it...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "431": {
+   "name": "Candles of Beckoning",
+   "completion": "You grab one of the candles and place it in your pack.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "579": {
+   "name": "Stormwind Library",
+   "progress": "King Anduin has placed great importance on learning, and thus has provided funds for making copies of various tomes and writings available to the public. It's very simple. You bring me a library scrip, and I can give you a copy of one of the available books.$BLibrary Scrip (1)",
+   "completion": "Do any of these titles interest you, $N?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "593": {
+   "name": "Filling the Soul Gem",
+   "progress": "Yenniku stands stunned before you, his mind in another place...$BSoul Gem (1)",
+   "completion": "You place the Soul Gem upon his forehead. He shudders as his soul is sucked in, leaving his body, a mindless husk, behind.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "619": {
+   "name": "Enticing Negolash",
+   "progress": "This is an abandoned lifeboat. Printed along its side in scratched, faded paint are the words:$B$B\"Smotts' Revenge\"$BBarbecued Buzzard Wing (10)$BJunglevine Wine (5)",
+   "completion": "You pile food and drink upon the raft...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "779": {
+   "name": "Seal of the Earth",
+   "progress": "The Seal of the Earth lies here, with three recessed alcoves for the Amethyst Runestone, the Opal Runestone, and the Diamond Runestone.$BDiamond Runestone (1)$BOpal Runestone (1)$BAmethyst Runestone (1)",
+   "completion": "As you place the Runestones into the matching recesses, a violent rumbling shakes the earth as the Seal is broken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "795": {
+   "name": "Seal of the Earth",
+   "progress": "The Seal of the Earth lies here, with three recessed alcoves for the Amethyst Runestone, the Opal Runestone, and the Diamond Runestone.$BDiamond Runestone (1)$BOpal Runestone (1)$BAmethyst Runestone (1)",
+   "completion": "As you place the Runestones into the matching recesses, a violent rumbling shakes the earth as the Seal is broken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "889": {
+   "name": "Spirit of the Wind",
+   "progress": "Bring Mangletooth 10 blood shards and I will bless you with great speed. You will run with zhevra and the wind will be jealous of you.$B$BIt will not last long, but it should be enough to help you travel throughout the Barrens.$BBlood Shard (10)",
+   "completion": "Good. Go with Agamaggan's spirit as your guide, $R. Return to me if you desire more of Agamaggan's magics.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "926": {
+   "name": "Flawed Power Stone",
+   "completion": "These stones are infused with magical energy, but purposefully flawed. They are very unstable and once removed from the table they will consume themselves quickly.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "960": {
+   "name": "Onu is Meditating",
+   "completion": "I am meditating on your task, $N. Meditating on reasons why the Twilight's Hammer and naga are here.$B$BWhen you are ready, use the phial of scrying to create a scrying bowl. Then, contact me through the bowl.$B$BIf you have lost your phial of scrying, then here is another.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "961": {
+   "name": "Onu is Meditating",
+   "completion": "The finding of Twilight's Hammer cultists is troubling. I must meditate on their intentions...$B$BWhen you have more information, speak to me through a scrying bowl. If you require a phial of scrying in order to create a bowl, then...here is another.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "972": {
+   "name": "Water Sapta",
+   "completion": "Take the water sapta and find the corrupted pool of water in Silverpine, $N. I have great faith in your abilities.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "996": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "998": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1185": {
+   "name": "Under the Chitin Was...",
+   "completion": "Hey, it's you again! Well, I mean you - as in the you that is $N! Yes - that you!$B$BHey, let me start over!$B$BThat object you found in Silithus - it was in fact a book. It was a journal written in a very ancient dialect of what we now call the Darnassian tongue. It'll take a while, but I'm going to go over it very thoroughly. I thought you should know that what you found was extremely valuable for the Circle.$B$BThe den mother's all excited and everything!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1191": {
+   "name": "Zamek's Distraction",
+   "completion": "Let's go!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1192": {
+   "name": "Indurium Ore",
+   "progress": "I'd like to integrate indurium into different parts of our racers, but I need large amounts of raw indurium to create these parts.$B$BYou can find indurium ore in the Uldaman excavation in the Badlands, across the sea in Khaz Modan.$B$BThe gnomes are getting their own supply of it, so it's important we get our own to keep pace with them.$BIndurium Ore (4)",
+   "completion": "Excellent! I'll get the crew to work right away on the parts we'll need for the next race.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1193": {
+   "name": "A Broken Trap",
+   "progress": "A large, broken trap lies before you. From the looks of it, the ogres have tried to repair the trap but to no avail. A hastily written note lies next to the trap, and strangely enough it details exactly what is needed to repair it: a thorium widget and some frost oil. Were the trap repaired, an ogre passing near it might get trapped, and could be avoided.$B$BClearly, it would seem fortuitous that very few ogres know how to read.$B$BClearly.$BThorium Widget (1)$BFrost Oil (1)",
+   "completion": "The thorium widget slides effortlessly into place, creating a conduit to pour the frost oil down. Once the last drops of oil have been emptied into it, the trap snaps into position.$B$BWoe be to any unwary ogre that should just so happen to wander by!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1267": {
+   "name": "The Missing Diplomat",
+   "objectivesText": [
+    "Speak to Jaina Proudmore in Dustwallow Swamp."
+   ],
+   "completion": "Let me be first to thank you for all you've done, $N. You have been an incredible blessing to my people and the people of Stormwind. I am sorry I couldn't make your acquaintance under better circumstances.$B$BUnderstand also that I cannot overtly thank you for your efforts, but I assure you again, it is appreciated.$B$BWhen you visit Theramore in the future, seek me out and I shall try to keep you apprised of the situation.$B$BThank you again, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1271": {
+   "name": "Feast at the Blue Recluse",
+   "completion": "My nephew said you aided him with his research in Dustwallow, and that you helped his associate out of a tight spot. Well, we Sterns stick together and we don't ignore our friends!$B$BSo wash your hands, $N, because we're about to throw a party in your honor!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1462": {
+   "name": "Earth Sapta",
+   "objectivesText": [
+    "Speak to Seer Ravenfeather for another Earth Sapta."
+   ],
+   "completion": "Take this and remember, it is sacred.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1463": {
+   "name": "Earth Sapta",
+   "objectivesText": [
+    "Speak to Canaga Earthcaller for another Earth Sapta."
+   ],
+   "completion": "I give you one in good faith. You already proved yourself once, but me tinkin' you should be more careful in the future.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1464": {
+   "name": "Fire Sapta",
+   "objectivesText": [
+    "Speak to Telf Joolam for another Fire Sapta."
+   ],
+   "completion": "May fire burn within your heart, $N.$B$BThe elements await you.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1514": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1559": {
+   "name": "Flash Bomb Recipe",
+   "completion": "So you're an engineer, eh? Well, for your help in getting me those pearls, here's the recipe for flash bombs.$B$BGood luck, and try not to blind yourself!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1641": {
+   "name": "The Tome of Divinity",
+   "completion": "Here in Stormwind, I am responsible for putting paladins on the path to greater virtue as they devote themselves to the Light and defend Azeroth from the Scourge and other threats.$B$BThe time has come for you to take your first step towards being truly virtuous. If you accept it, I will give you a Book of Divinity. In studying it, you shall learn some about the Light, and what is expected of you. If you understand it, and are capable, then you will succeed in attaining greater abilities.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1645": {
+   "name": "The Tome of Divinity",
+   "completion": "A pleasure to meet you, $N. I am responsible for putting paladins on the path to greater virtue as they devote themselves to the Light and defend Azeroth from the Scourge and other threats.$B$BThe time has come for you to take your first step towards being truly virtuous. If you accept it, I will give you a Book of Divinity. In studying it, you shall learn some about the Light, and what is expected of you. If you understand it, and are capable, then you will succeed in attaining greater abilities.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1682": {
+   "name": "Grey Iron Weapons",
+   "completion": "Here are some weapons, hot off the anvil and made with the new umbral ore you brought me!$B$BPlease, $N, take your pick!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1693": {
+   "name": "Weapons of Elunite",
+   "completion": "$N, I have crafted these weapons with the elunite you brought to me. Please, take whichever most suits you.$B$BAnd I must thank you. Working with elunite is both an honor and a pleasure.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1706": {
+   "name": "Grimand's Armor",
+   "completion": "I can barely believe it! Furen's technique was a success, and this armor should withstand tremendous levels of stress.$B$BHere you are, $N. And thank you. I wouldn't have believed Furen's discovery if you hadn't gathered the materials I needed to test it myself.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1709": {
+   "name": "Klockmort's Creation",
+   "completion": "Here's your armor, $N. Furen's process worked brilliantly! Perfectly! Marvelously, truly!$B$BYou could run this armor over with a siege engine and it would spring right back into shape!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1711": {
+   "name": "Mathiel's Armor",
+   "completion": "I have finished with your piece of armor, and I am quite pleased. Furen's new techniques meshed perfectly with my own and I am sure this armor will prove to be quite resilient.$B$BThank you, $N. And may this serve you well in future battles.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1714": {
+   "name": "Essence of the Exile",
+   "progress": "The cauldron bubbles. Its vapors beckon...$BThundering Charm (8)$BBurning Charm (8)$BCresting Charm (8)",
+   "completion": "The charms sink slowly into the cauldron's depths...$B$BA large bubble rises to the surface of the liquid and breaks...$B$B...And a churning lump of molten rock is revealed.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1782": {
+   "name": "Furen's Armor",
+   "completion": "Here's your armor, $N. This will stand up to the strongest assaults or my name isn't Furen Longbeard!$B$BAnd I have to thank you. I learned a lot while working with the materials you brought me. I think I'll have another breakthrough one day!$B$BI'm going to send what I learned to other blacksmiths of the Alliance.$B$BI'll tell them you were a big help, and maybe they'll want to return the favor.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1789": {
+   "name": "The Symbol of Life",
+   "completion": "If you fail to help Narm after you've used the Symbol of Life, $N, then return to me and I shall give you another.$B$BIt is important to both my husband and I that you return successful. Please, make haste.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1790": {
+   "name": "The Symbol of Life",
+   "completion": "Make haste, $N, more than one life hangs in the balance if you fail.$B$BIf for some reason you fail to help Gazin and Henze, then return to me and I will give you another Symbol of Life for your travels.$B$BDon't mistake my aid as simple charity, you must prove yourself worthy like any other $C and continual failure may reflect upon you later.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1792": {
+   "name": "Whirlwind Weapon",
+   "completion": "I have the whirlwind heart, and am ready to place it within your vessel of choice.$B$BChoose your weapon, $N, and know that its power is the power of Cyclonian.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1793": {
+   "name": "The Tome of Valor",
+   "completion": "It has been proven that the Light is with you, $N, but as times grow more dangerous, it becomes important to know what strength lies beneath the flesh. When demons, dragons, or any other evil set foot in your lands, your mettle will be tested. Will you be strong enough?$B$BBravery, regardless of the situation, is as much a part of paladinhood as the Light, your armor, and your weapon. Protecting the weak, and not losing faith are two more lessons you must master while you study in the Cathedral of Light.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1794": {
+   "name": "The Tome of Valor",
+   "completion": "It has been proven that the Light is with you, $N, but as times grow more dangerous, it becomes important to know what strength lies beneath the flesh. When demons, dragons, or any other evil set foot in your lands, your mettle will be tested. Will you be strong enough?$B$BBravery, regardless of the situation, is as much a part of paladinhood as the Light, your armor, and your weapon. Protecting the weak, and not losing faith are two more lessons you must master while you study in the Cathedral of Light.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1822": {
+   "name": "Heirloom Weapon",
+   "completion": "I will keep three of the weapons you returned to me, as mementos of my pain and loss. But please, $N, choose your favorite of the heirlooms and keep it for yourself.$B$BMay it serve you greater than it served its cursed, former owners.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1843": {
+   "name": "Brutal Gauntlets",
+   "completion": "Thank you, $N. These gauntlets are my best work. Take them. In wearing them, you bring honor to me and my ancestors.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1845": {
+   "name": "Brutal Helm",
+   "completion": "I give this helm to you.$B$BGreat deeds brought you to me, $N, and Earthmother willing... even greater deeds lie before you.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1847": {
+   "name": "Brutal Legguards",
+   "completion": "Here are your legguards, $N. Let me know how they fit or if you need any modifications. I aim to please! At least I used to.$B$BThese days I don't care much for my craft. But it beats being a mindless minion of the Scourge!$B$BI guess.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1848": {
+   "name": "Brutal Hauberk",
+   "completion": "I am sure you endured much hardship and shed much blood on my task, $N. Here is the product of your toil.$B$BMay you wear it well, and may you one day return here with stories of its service to you.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1878": {
+   "name": "Water Pouch Bounty",
+   "progress": "Back again, $N? If you have five more Wastewander water pouches, then I have a care package with your name on it!$BWastewander Water Pouch (5)",
+   "completion": "Excellent - the more water pouches we are able to reclaim, the further away from disaster we'll all be! Keep 'em coming, and I will be sure to reward you for every five water pouches you bring me.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1941": {
+   "name": "Manaweave Robe",
+   "completion": "Here is your robe. It's one of my best made yet! Wear it with pride, and when people ask... tell them you got it at the Larson Clothiers!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1942": {
+   "name": "Astral Knot Garment",
+   "completion": "Your garment is ready! And that silk you gathered was so nice... you don't mind if I made it a little short so that I'd have some silk left over for me, do you?$B$BI'm only joking. It'll fit you great, and will be perfect for both adventure and formal dining. Enjoy!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1946": {
+   "name": "Nether-lace Garment",
+   "completion": "Here is your nether-lace, $N. It is both comfortable and durable, and holds the magic of the laughing sisters' hair.$B$BEnjoy, and if you find it amenable, please mention so to Deino. She is a $C on whose good side I wish to stay...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1958": {
+   "name": "Celestial Power",
+   "completion": "You should be proud of yourself, $N. Many mages have fallen to the creatures you faced.$B$BThe Celestial Orb is ready. Or if you'd like I can mount it atop a staff. It's up to you. I'd prefer the orb, but who am I to judge?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1962": {
+   "name": "Spellfire Robes",
+   "completion": "Here are your robes, $N. Wear them well.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2361": {
+   "name": "Restoring the Necklace",
+   "completion": "I gladly give you this necklace, mighty $C. You have done me an invaluable service, and for that I thank you. Wear it with pride, and make sure you mention loudly and repeatedly who made it for you!$B$BAlso, if you could toss in the fact that it really isn't cursed, that would be great.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2399": {
+   "name": "The Sprouted Fronds",
+   "completion": "The fronds Denalan planted within his garden have sprouted and grown. They tremble, eager to be picked....",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2523": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2741": {
+   "name": "The Super Egg-O-Matic",
+   "progress": "The Super Egg-O-Matic is the latest of Curgle Cranklehop's inventions. It is quite an impressive piece of machinery.$B$BThe Super Egg-O-Matic sputters wildly as you approach the control panel.$BHippogryph Egg (1)",
+   "completion": "You place the hippogryph egg into the machine. A series of beeps follows along with some strange mechanical sounds.$B$BIt appears that the Eggometer has weighed, measured, and packaged your egg. Now that's speedy service!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2747": {
+   "name": "An Extraordinary Egg",
+   "progress": "I have seen very few eggs retrieved from Feralas in extraordinary condition. These are eggs of the rarest sort...$BExtraordinary Egg (1)",
+   "completion": "Well now, you have one -- amazing!$B$BI hope you always remember the good you have done today.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2748": {
+   "name": "A Fine Egg",
+   "progress": "A fine egg is one that will, in ideal conditions, hatch free of the evil effects of the Gordunni ogres' incantations.$BFine Egg (1)",
+   "completion": "Very good, $N. I will be sending this egg to Darnassus where I hope it will soon hatch!$B$BPlease accept this as a symbol of my gratitude.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2749": {
+   "name": "An Ordinary Egg",
+   "progress": "Ordinary hippogryph eggs hatch about half the time. We do our best to nurture them and with a little luck, they will hatch.$BOrdinary Egg (1)",
+   "completion": "So, you have found an ordinary egg, $N? Please give it to me... And we can only hope for the best.$B$BI don't have much, but please accept this reward. If you ever find yourself in Feralas again, know that I am always here to take the eggs you find there.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2750": {
+   "name": "A Bad Egg",
+   "progress": "These are the eggs that cannot be saved -- they will never hatch.$BBad Egg (1)",
+   "completion": "I am afraid I have bad news for you, $N. This egg is too far gone. I can take it from you so that it may be disposed of properly.$B$BPlease don't be discouraged; we cannot save them all. If you find yourself in Feralas again, please try again. Bring another egg for the Super Egg-O-Matic!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2878": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2881": {
+   "name": "Troll Necklace Bounty",
+   "progress": "You've done it already, but we will continue to accept any troll tribal necklaces you find and are willing to turn in. By turning them in to me, you'll continue to improve your standing amongst the Wildhammers; if you're willing to fight for us, then we'll be willing to fight for you!$B$BI need five troll tribal necklaces for them to count, $N.$BTroll Tribal Necklace (5)",
+   "completion": "Another set of necklaces means that there are fewer trolls in the Hinterlands we have to worry about! You've done it again, $N. Keep up the good work!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2952": {
+   "name": "The Sparklematic 5200!",
+   "completion": "As quickly as it started, the Sparklematic 5200 comes to an abrupt halt. A simple \"ding\" is heard from the machine, and the mouth of the machine spirals upward. Inside the Sparklematic 5200 is a small box wrapped in a little bow. The machine would appear to wrap an object up after eliminating its grime-encrusted status. Even if the machine didn't work, at least the item is now wrapped in a pretty box.$B$BWell, there is one way to find out if it cleaned the item or not...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2953": {
+   "name": "More Sparklematic Action",
+   "progress": "The Sparklematic 5200 is empty, awaiting a grime-encrusted object to clean and three silver coins to start!$BGrime-Encrusted Object (1)$BRequired money: 3 (1)",
+   "completion": "The Sparklematic 5200 comes to life, lurching to and fro. Inside, the helpless grime that has encrusted the object placed within it is being pulverized by the machine's gnomish cleaning agent.$B$BThe Sparklematic 5200 comes to a halt, heralded by a familiar \"ding!\" The item receptacle of the machine spirals open, revealing a neatly wrapped box.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3363": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3421": {
+   "name": "Return Trip",
+   "completion": "I will return you to Sanath's camp now.$B$BDo not mind his bad manners--he is rude to everyone save for the master. Perhaps he shall learn his lesson one day.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3483": {
+   "name": "Signal for Pickup",
+   "completion": "Ah, another flare gun, huh? That I can do.$B$BAnd don't forget, southern tip of Azshara. It's a small little island that's been turned into a landing pad. You can't miss it if you're in the right spot.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3503": {
+   "name": "Meeting with the Master",
+   "completion": "There was a time when I could ask whatever I wished from those who sought out my master. But now, you need only ask and I will send you to him.$B$BIt is upsetting to me, but I do not question his orders. I can only take enjoyment in making fun of the ridiculous clothes you wear or the pathetic look on your face. Even that bores me...$B$BEven this rambling bores me! Do you wish to see my master or not?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3567": {
+   "name": "To the Top",
+   "completion": "Would you like to see the view atop one of the twin colossals? I can send you there, $R.$B$BDo consider how you will get down, though. This is a one way trip only.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3570": {
+   "name": "Seeping Corruption",
+   "completion": "I never dreamed the elixir would take hold that quickly. Thank you, $N. I will get to work on the rest of these samples right away. I'm sure they'll be usable by the Lady Sylvanas and the Forsaken soon enough.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3644": {
+   "name": "Membership Card Renewal",
+   "progress": "In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.$BRequired money: 2 (1)",
+   "completion": "Since you're a practitioner of goblin engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to goblin engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you'll need to bring your dues out of arrears.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3645": {
+   "name": "Membership Card Renewal",
+   "progress": "In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.$BRequired money: 2 (1)",
+   "completion": "Since you're a practitioner of gnome engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to gnome engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you'll need to bring your dues out of arrears.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3647": {
+   "name": "Membership Card Renewal",
+   "progress": "In order to renew your membership card, you will need to pay the renewal fee of two gold pieces.$BRequired money: 2 (1)",
+   "completion": "Since you're a practitioner of gnome engineering and are in good standing, I am able to renew a lapsed membership card for the fee of two gold pieces. Once this fee is paid, you will be reissued a new membership card. This will allow access to gnome engineering schemata from appropriate trainers.$B$BThis card will last for two weeks of activity, at the end of which your membership fees will become due again! If you want to access schemata, you'll need to bring your dues out of arrears.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3721": {
+   "name": "An OOX of Your Own",
+   "completion": "You've recovered three of my OOX homing robots! You've gone above and beyond what you needed to, so I will give you something special for all your help. It is a miniature version of the very same robot that you have come to know and love, the OOX!$B$BI normally wouldn't let anyone have such a potentially lethal device, but you've been a real help. Besides - the combat mechanisms and the homing logic on this one have been disabled.$B$BOther than that, it's an OOX by golly!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3792": {
+   "name": "Morrowgrain to Feathermoon Stronghold",
+   "progress": "Hello again, $N. My research is progressing fairly well, but if you have five more Morrowgrain I'd be happy to take them off your hands. Well... happy is a figurative term in this case; the more I am around them, the more uncomfortable I feel. Still, my research demands I buckle down and get through this.$BMorrowgrain (5)",
+   "completion": "Thanks $N; I'll just store these out of the way for the time being. While I don't command the resources that Staghelm does, I am able to give you a little something for your trouble. Anyway, who knows what will happen if Staghelm keeps getting Morrowgrain after Morrowgrain. There's something fishy going on, mark my words.$B$BRemember that I'm always looking for more Morrowgrain. I'll take them in quantities of five at a time.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3803": {
+   "name": "Morrowgrain to Darnassus",
+   "progress": "The Arch Druid is always looking for additional morrowgrain for the Cenarion Circle's continued research. We take them in increments of ten, and award you with a cache of goods you should find useful. When you have ten, let me know and I will reward you accordingly.$BMorrowgrain (10)",
+   "completion": "Excellent - this morrowgrain will no doubt please the Arch Druid. I must admit though... just being near them makes me feel a little uncomfortable. I can only imagine how difficult it is for the Arch Druid to tolerate them in such large numbers!$B$BThis is for you, $N. The Cenarion Circle thanks you for your continued support.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3804": {
+   "name": "Morrowgrain to Thunder Bluff",
+   "progress": "The Arch Druid is always looking for more morrowgrain for the Cenarion Circle's research project on Un'Goro Crater. We take them in increments of ten, and award you with a cache of goods you should find useful. When you have ten, let me know and I will award you accordingly.$BMorrowgrain (10)",
+   "completion": "Excellent - this morrowgrain will no doubt help when the time comes. We know that the night elves are conducting similar research into these herbs, though it isn't clear to what end they will use them for if they discover anything. The Arch Druid thinks that the need for morrowgrain will remain until we've figured out the mysteries behind this herb.$B$BThis is for you, $N. The Cenarion Circle thanks you for your continued support.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4041": {
+   "name": "The Videre Elixir",
+   "progress": "Bring me an Evoroot, and sure, I can make ya that Videre Elixir.$B$BI know all kinds of things about herbs and alchemy... Why, let me tell you the story about the time I transmuted gold from the cheese I was going to eat for lunch... hey... Where are you going?$BEvoroot (1)",
+   "completion": "So, you pulled a fast one on ol' Miblon, eh?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4083": {
+   "name": "The Spectral Chalice",
+   "progress": "The spectral chalice floats in the air, slowing rising and falling... as if to the beat of a dying heart.$BStar Ruby (2)$BGold Bar (20)$BTruesilver Bar (10)",
+   "completion": "The gems make no sound as they fall into depths of the chalice...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4103": {
+   "name": "Salve via Hunting",
+   "progress": "Possessing a Cenarion beacon allows one to see a corrupted soul shard on those tainted beasts that are put down for the greater good. I grind shards into a usable reagent that goes into making Cenarion plant salve. We will use that salve to turn corrupted plants into healthy ones again.$B$BIn exchange for these shards, I will give you some Cenarion plant salves I have already prepared.$BCorrupted Soul Shard (6)",
+   "completion": "Very well then, here are your Cenarion plant salves. Scour Felwood for corrupted plants, $N! Wherever they are, use the salve I have given you to purify them.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4104": {
+   "name": "Salve via Mining",
+   "progress": "If you possess a Cenarion beacon while mining in Felwood, you will be able to see tainted vitriol that corrupts a vein of raw metal. I know how to purify that vitriol and turn it into a reagent that goes into making Cenarion plant salve. You will then use that salve on plants you find in the wild that need saving.$B$BIf you have collected any tainted vitriol, I'll give you some Cenarion plant salve I have already prepared.$BTainted Vitriol (4)",
+   "completion": "Very well then, here's some Cenarion plant salve. If you find more vitriol when you mine in Felwood, remember to hold on to it for me! The more of it you find, the more salve I will be able to make.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4105": {
+   "name": "Salve via Gathering",
+   "progress": "A Cenarion beacon allows a seasoned herbalist to spot insidious fel creep - a malfeasant product of Felwood's corruption. My work here has taught me the knowledge of purifying fel creep into a cleansing reagent... used in what we now refer to as Cenarion plant salve.$B$BWhen you gather herbs in Felwood, you should encounter the fel creep so long as you have the beacon. In exchange for what you bring to me, I will give you pre-made Cenarion plant salve.$BFel Creep (4)",
+   "completion": "Excellent work $N - every bit of this, once we purify it, will help us take back Felwood. Here, take some doses of Cenarion plant salve and head into the forest. The reclaiming of the land from the corruption waits for no $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4106": {
+   "name": "Salve via Skinning",
+   "progress": "A Cenarion beacon will allow a well-trained skinner to spot patches of tainted skin from bounty gathered in Felwood. I convert these seemingly useless patches into a thick paste that serves as a quickening agent for Cenarion plant salve. When you skin your kills here in Felwood, be sure to have a beacon on you!$B$BWhen you collect tainted patches, bring them to me and I will give you some Cenarion plant salves that I have already made.$BPatch of Tainted Skin (5)",
+   "completion": "This is exactly what I need. Here - take these plant salves and use them to reclaim Felwood from the corruption. We must persevere, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4107": {
+   "name": "Salve via Disenchanting",
+   "progress": "The power of a disenchanted magical item is felt by the essence it creates. I've devised a way to turn raw essence used by enchanters into a suitable reagent for creating Cenarion plant salve. You don't need a Cenarion beacon for this; any suitably disenchanted item that yields lesser nether essences will work.$B$BI just need a single lesser nether essence; in exchange, I will give you Cenarion plant salves. The essence is extremely potent - a little definitely goes a long way!$BLesser Nether Essence (1)",
+   "completion": "Here are some Cenarion plant salves - I only need one lesser nether essence for this, $N. Essence is by far the most potent item I can make use of to turn swords into plowshares, as it were. If you need more salve, then find me here!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4108": {
+   "name": "Salve via Hunting",
+   "progress": "Possessing a Cenarion beacon allows one to see a corrupted soul shard on those tainted beasts that are put down for the greater good. I grind shards into a usable reagent that goes into making Cenarion plant salve. We will use that salve to turn corrupted plants into healthy ones again.$B$BIn exchange for these shards, I will give you some Cenarion plant salves I have already prepared.$BCorrupted Soul Shard (6)",
+   "completion": "Very well then, here are your Cenarion plant salves. Scour Felwood for corrupted plants, $N! Wherever they are, use the salve I have given you to purify them.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4109": {
+   "name": "Salve via Mining",
+   "progress": "If you possess a Cenarion beacon while mining in Felwood, you will be able to see tainted vitriol that corrupts a vein of raw metal. I know how to purify that vitriol and turn it into a reagent that goes into making Cenarion plant salve. You will then use that salve on plants you find in the wild that need saving.$B$BIf you have collected any tainted vitriol, I'll give you some Cenarion plant salve I have already prepared.$BTainted Vitriol (4)",
+   "completion": "Very well then, here's some Cenarion plant salve. If you find more vitriol when you mine in Felwood, remember to hold on to it for me! The more of it you find, the more salve I will be able to make.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4110": {
+   "name": "Salve via Gathering",
+   "progress": "A Cenarion beacon allows a seasoned herbalist to spot insidious fel creep - a malfeasant product of Felwood's corruption. My work here has taught me the knowledge of purifying fel creep into a cleansing reagent... used in what we now refer to as Cenarion plant salve.$B$BWhen you gather herbs in Felwood, you should encounter the fel creep so long as you have the beacon. In exchange for what you bring to me, I will give you pre-made Cenarion plant salve.$BFel Creep (4)",
+   "completion": "Excellent work $N - every bit of this, once we purify it, will help us take back Felwood. Here, take some doses of Cenarion plant salve and head into the forest. The reclaiming of the land from the corruption waits for no $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4111": {
+   "name": "Salve via Skinning",
+   "progress": "A Cenarion beacon will allow a well-trained skinner to spot patches of tainted skin from bounty gathered in Felwood. I convert these seemingly useless patches into a thick paste that serves as a quickening agent for Cenarion plant salve. When you skin your kills here in Felwood, be sure to have a beacon on you!$B$BWhen you collect tainted patches, bring them to me and I will give you some Cenarion plant salves that I have already made.$BPatch of Tainted Skin (5)",
+   "completion": "This is exactly what I need. Here - take these plant salves and use them to reclaim Felwood from the corruption. We must persevere, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4112": {
+   "name": "Salve via Disenchanting",
+   "progress": "The power of a disenchanted magical item is felt by the essence it creates. I've devised a way to turn raw essence used by enchanters into a suitable reagent for creating Cenarion plant salve. You don't need a Cenarion beacon for this; any suitably disenchanted item that yields lesser nether essences will work.$B$BI just need a single lesser nether essence; in exchange, I will give you Cenarion plant salves. The essence is extremely potent - a little definitely goes a long way!$BLesser Nether Essence (1)",
+   "completion": "Here are some Cenarion plant salves - I only need one lesser nether essence for this, $N. Essence is by far the most potent item I can make use of to turn swords into plowshares, as it were. If you need more salve, then find me here!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4113": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4114": {
+   "name": "Corrupted Songflower",
+   "progress": "You have found a sickly, corrupted version of what appears to be a songflower plant. A pungent, unhealthy odor emanates from the plant. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply some Cenarion plant salve to the songflower. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4115": {
+   "name": "Corrupted Windblossom",
+   "progress": "You have found a sickly, corrupted version of what appears to be a windblossom plant. The berries that hang from the plant appear rotten and poisonous. It desperately needs some sort of attention if it is to be turned back to normal.$BCenarion Plant Salve (2)",
+   "completion": "You apply two Cenarion plant salves to the windblossom. It immediately begins to shed its corrupted form, blossoming into a vibrant and healthy plant.",
+   "fetched": "2026-10-02",
    "v": 2
   }
  }

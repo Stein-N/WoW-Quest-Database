@@ -3,14 +3,635 @@
  "quests": {
   "16": {
    "name": "Procurer de l'eau à Gerard",
-   "details": "Cultiver la terre est un travail difficile et qui donne diablement soif, je suis toujours partant pour un peu d'eau claire et fraîche.$B$BSi vous en avez, eh bien ! je ferai bien affaire avec vous.$BEau de source (1)",
+   "progress": "Cultiver la terre est un travail difficile et qui donne diablement soif, je suis toujours partant pour un peu d'eau claire et fraîche.$B$BSi vous en avez, eh bien ! je ferai bien affaire avec vous.$BEau de source (1)",
    "completion": "Merci, $N ! Et revenez si vous voulez refaire affaire.",
-   "fetched": "2026-10-01"
+   "fetched": "2026-10-01",
+   "v": 2
   },
   "247": {
    "name": "La chasse achevée",
    "completion": "$N, vous avez tué les trois bêtes qui composent la Chasse d'Ashenvale. Vous m'avez apporté les preuves de leur mort ; je ne doute plus de votre force ni de votre ténacité. Le sang d'un chasseur coule dans vos veines, et je vous en félicite !$B$BS'il vous plaît, acceptez ceci pour vous récompenser de la prouesse que vous avez accomplie pour la Horde, à Ashenvale. Que vos ancêtres vous protègent !",
    "fetched": "2026-10-01",
+   "v": 2
+  },
+  "254": {
+   "name": "En creusant la terre",
+   "completion": "Vous creusez dans la saleté molle au-dessus de la tombe... et vous trouvez les restes d'un cercueil.$B$BVous sentez le cercueil vibrer sous l'effet de ce qui semble être des griffes qui raclent à l'intérieur, et vous entendez le grincement de dents en décomposition...$B$BAllez-vous ouvrir le cercueil et récupérer le cœur de l'Embaumeur ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "308": {
+   "name": "Distraire Jarven",
+   "progress": "Hum ! Toute cette boisson stockée là, et dire que j'ai l'interdiction formelle d'y toucher ! Si seulement je pouvais goûter un peu de notre Thunder Ale... Ça me donnerait un esprit plus vif, sans mentir !$BThunder Ale (1)",
+   "completion": "Pour moi ? Vous êtes le symbole de l'héroïsme, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "349": {
+   "name": "La fièvre de Strangleronce",
+   "objectivesText": [
+    "temp text 02 - log"
+   ],
+   "details": "temp text 02 - description",
+   "progress": "Sorcier-docteur Unbagwa sait comment être Mokk le Sauvage. Si si !$B$BMoi parler aux esprits pour faire venir lui, moi pouvoir.$B$BMais d'autres bêtes comme gorilles aiment parler aux esprits aussi. Toi protéger Sorcier-docteur Unbagwa et moi le faire venir ici.$B$BSorcier-docteur Unbagwa veut quelque chose d'abord. Toi apporter 10 crocs de gorille et moi commencer parler aux esprits !",
+   "completion": "Sorcier-docteur Unbagwa aimer crocs de gorille ! Pour toi, moi parler aux esprits. Faire venir Mokk le Sauvage.$B$BToi protéger Sorcier-docteur Unbagwa des gorilles ou pas Mokk pour toi !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "403": {
+   "name": "La garde du tonneau de Thunderbrew",
+   "completion": "Ce tonneau de bière est gardé par Jarven Thunderbrew. Tant qu'il est dans les sous-sols, aucun tonneau ne peut être bougé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "410": {
+   "name": "L'Ombre dormante",
+   "progress": "C'est une vieille table ensanglantée.$BBougie de signal (1)",
+   "completion": "Vous placez la Bougie de signal sur l'autel et vous l'allumez…",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "431": {
+   "name": "Bougies de signal",
+   "completion": "Vous vous emparez d'une bougie et la mettez dans votre sac.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "579": {
+   "name": "La Bibliothèque de Stormwind",
+   "progress": "Le Roi Anduin accorde une grand importance à l'éducation, et c'est pourquoi il a débloqué des fonds pour rendre accessible au public des copies de divers ouvrages et écrits. C'est très simple. Vous me donnez un titre de bibliothécaire, et je puis vous fournir la copie de l'un des livres disponibles.$BTitre du Bibliothécaire (1)",
+   "completion": "Êtes-vous intéressé par un titre en particulier, $N ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "593": {
+   "name": "Une âme pour la Gemme",
+   "progress": "Yenniku se tient étourdi devant vous, l'esprit ailleurs…$BGemme d'âme (1)",
+   "completion": "Vous placez la Gemme d'âme sur son front. Il frémit tandis que son âme est aspirée, laissant son corps, telle une enveloppe vide, derrière.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "619": {
+   "name": "Allécher Negolash",
+   "progress": "C'est un canot de survie abandonné. Le long de son flanc, on peut lire des lettres pâles et délavées qui disent :$B$B\"La Revanche de Smott\"$BAile de busard grillée (10)$BVin de Junglevine (5)",
+   "completion": "Vous empilez la nourriture et la boisson dans le rafiot.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "779": {
+   "name": "Sceau de la Terre",
+   "progress": "Le Sceau de la Terre est ici, avec trois alcôves pour la Pierre runique d'améthyste, la Pierre runique d'opale et la Pierre runique de diamant.$BPierre runique de diamant (1)$BPierre runique d'opale (1)$BPierre runique d'améthyste (1)",
+   "completion": "Vous placez les Pierres runiques dans leur alcôves respectives et soudain un violent grondement fait trembler la terre tandis que le Sceau se brise.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "795": {
+   "name": "Sceau de la Terre",
+   "progress": "Le Sceau de la Terre est ici, avec trois alcôves pour la Pierre runique d'améthyste, la Pierre runique d'opale et la Pierre runique de diamant.$BPierre runique de diamant (1)$BPierre runique d'opale (1)$BPierre runique d'améthyste (1)",
+   "completion": "Vous placez les Pierres runiques dans leur alcôves respectives et soudain un violent grondement fait trembler la terre tandis que le Sceau se brise.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "889": {
+   "name": "L'esprit du vent",
+   "progress": "Apportez 10 Joyaux de sang à Mangletooth et je vous doterai d'une vitesse impressionnante. Vous courrez avec les zhévras et le vent vous jalousera.$B$BCela ne durera pas longtemps, mais cela devrait suffire à vous faire traverser les Tarides.$BJoyau de sang (10)",
+   "completion": "Bien. Que l'esprit d'Agammagan vous guide, $N. Revenez me voir si vous désirez davantage de la magie d'Agammagan.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "926": {
+   "name": "Pierre de puissance imparfaite",
+   "completion": "Ces pierres sont imprégnées d'énergie magique, mais d'une énergie affaiblie, volontairement. Elles sont très instables et une fois prises sur la table, elles se consumeront très rapidement.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "960": {
+   "name": "Onu réfléchit",
+   "completion": "Je réfléchis, $N. Je réfléchis aux raisons de la présence du Marteau du crépuscule et des nagas.$B$BLorsque vous serez prêt utilisez la fiole de divination pour créer une coupe de divination.$B$BSi vous avez perdu votre fiole de divination, en voici un autre.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "961": {
+   "name": "Onu réfléchit",
+   "completion": "La découverte de sectateurs du Marteau du crépuscule est inquiétante. Je dois réfléchir à leurs intentions…$B$BLorsque vous aurez plus d'informations, parlez-moi à travers une coupe de divination. Si vous avez besoin d'une nouvelle fiole de divination pour créer une coupe... en voici une.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "972": {
+   "name": "Le sapta d'eau",
+   "completion": "Prenez le sapta d'eau et trouvez l'étendue d'eau corrompue dans la forêt des Pins argentés, $N. J'ai une grande confiance en vos compétences.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "996": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "998": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Il commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1185": {
+   "name": "Sous la chitine...",
+   "completion": "Hé, vous revoilà ! Je veux dire, bonjour $N ! Oui, salut à vous et à personne d’autre !$B$BLaissez-moi vous expliquer !$B$BL’objet que vous avez trouvé à Silithus se trouvait être un livre. C’est un journal écrit dans un très ancien dialecte que nous appelons le darnassien. Cela prendra un bon moment, mais je suis sur le bon chemin pour finir le travail. Je pense que vous savez déjà que ce que vous avez découvert est extrêmement précieux pour le Cercle.$B$BLa Mère de la tanière est très heureuse de cette trouvaille !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1191": {
+   "name": "La diversion de Zamek",
+   "completion": "Allons-y !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1192": {
+   "name": "Minerai d'indurium",
+   "progress": "J'aimerais intégrer de l'Indurium dans les différents composants de mes voitures, mais il me faut une grande quantité de ce minerai pour les fabriquer.$B$BVous trouverez de l'Indurium à Khaz Modan, dans les mines d'Uldaman, dans les Terres ingrates, de l'autre côté de la mer.$B$BLes gnomes ont désormais leur propre source d'approvisionnement. Il est donc vital que nous ayons la nôtre pour rester au même niveau qu'eux.$BMinerai d'Indurium (4)",
+   "completion": "Excellent ! Je vais former l'équipe pour travailler tout de suite sur les composants dont nous avons besoin pour la prochaine course.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1193": {
+   "name": "Un piège cassé",
+   "progress": "Un grand piège cassé se trouve devant vous. On dirait que les ogres ont tenté de le réparer sans succès. Une note hâtivement griffonnée se trouve juste à côté. Curieusement, elle détaille tout ce qui est nécessaire pour le réparer : il faut un rouage en thorium et un peu d’huile glaciale. Si le piège était réparé, un ogre qui passerait à côté pourrait s’y faire prendre, et pourrait être évité.$B$BC’est vraiment une bonne chose que très peu d’ogres sachent lire.$B$BVraiment.$BRouage en thorium (1)$BHuile glaciale (1)",
+   "completion": "Le rouage de thorium se met en place, ce qui crée un conduit par lequel vous versez l’huile glaciale. Les dernières gouttes sont à peines tombées que le piège se met en place.$B$BMalheur au premier ogre imprudent qui passera par là !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1267": {
+   "name": "Un diplomate a disparu",
+   "objectivesText": [
+    "Parler à Jaina Proudmoore au marécage d'Âprefange."
+   ],
+   "completion": "Tout d'abord, permettez-moi de vous remercier pour tout ce que vous avez fait, $N. Vous êtes un don du ciel pour mon peuple et celui de Stormwind. J’aurais préféré faire votre connaissance dans d’autres circonstances.$B$BComprenez également que je ne peux reconnaître officiellement vos mérites, mais sachez que ceux-ci sont grandement appréciés.$B$BLorsque vous reviendrez à Theramore, venez me voir et je vous informerai de la situation.$B$BMerci encore, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1271": {
+   "name": "Fête au Solitaire Bleu",
+   "completion": "Mon neveu m'a dit que vous l'aviez aidé dans ses recherches à Âprefange et que vous aviez sorti son associé d’une situation difficile. Bien, nous les Stern, nous nous serrons les coudes et nous nous souvenons de nos amis !$B$BAlors lavez-vous les mains, $N, parce que nous allons faire la fête en votre honneur !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1462": {
+   "name": "Le sapta de terre",
+   "objectivesText": [
+    "Parler à la Prophétesse Ravenfeather pour obtenir un autre Sapta de terre."
+   ],
+   "completion": "Prenez ceci et n'oubliez pas qu'un sapta est sacré !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1463": {
+   "name": "Le sapta de terre",
+   "objectivesText": [
+    "Parler à Canaga Earthcaller pour obtenir un autre Sapta de terre."
+   ],
+   "completion": "Je vous en donne un de bonne foi. Vous avez déjà prouvé votre valeur une fois, mais je pense que vous devriez être plus soigneux à l’avenir.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1464": {
+   "name": "Le sapta de feu",
+   "objectivesText": [
+    "Parler à Telf Joolam pour obtenir un autre Sapta de feu."
+   ],
+   "completion": "Que le feu brûle dans votre cœur, $N !$B$BLes éléments vous attendent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1514": {
+   "name": "La fleur-de-vent corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-vent. Les baies qui en pendent sont pourries et empoisonnées. La plante a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez deux doses de baume végétal cénarien sur la fleur-de-vent. Elle commence immédiatement à se défaire de sa forme souillée pour s'épanouir en une plante vibrante de santé.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1559": {
+   "name": "La recette de la bombe éclairante",
+   "completion": "Alors vous êtes l'ingénieur, hein ? Bien, en contrepartie de votre aide pour ces perles, voici la recette de la bombe éclairante.$B$BBonne chance et tâchez de ne pas vous aveugler !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1641": {
+   "name": "Le Tome de divinité",
+   "completion": "A Stormwind, je suis chargé de guider les paladins sur le chemin de la vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth contre le Fléau et autres menaces.$B$BLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous l'acceptez, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce qu'on attend de vous. Si vous le comprenez, et en avez l’étoffe, vous réussirez à atteindre de plus hautes compétences.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1645": {
+   "name": "Le Tome de divinité",
+   "completion": "Un plaisir de vous rencontrer, $N. Je suis chargée de guider les paladins sur le chemin d'une plus grande vertu quand ils se consacrent à la Lumière et à la défense d’Azeroth.$B$BLe temps est venu pour vous de faire vos premiers pas vers la véritable vertu. Si vous acceptez cet engagement, je vous donnerai un livre de divinité. En l'étudiant, vous en apprendrez plus sur la Lumière, et sur ce que l'on attend de vous. Si vous le comprenez, et si vous en avez l’étoffe, alors vous réussirez à atteindre de plus hautes compétences.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1682": {
+   "name": "Armes en fer gris",
+   "completion": "Voici quelques armes, tout juste sorties de la forge. Elles sont faites avec le Minerai d'Umbral que vous m'avez apporté !$B$BS'il vous plaît, $N, servez-vous !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1693": {
+   "name": "Armes en Elunite",
+   "completion": "$N, j'ai fabriqué ces armes avec l'Elunite que vous m’avez apportée. Prenez celle qui vous convient.$B$BEt je dois vous remercier. Car travailler l'Elunite est un honneur et un plaisir.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1706": {
+   "name": "L'armure de Grimand",
+   "completion": "Je peux à peine le croire ! La technique de Furen fonctionne, et cette armure peut résister à des coups incroyables.$B$BVoilà pour vous, $N. Et merci. Je n'y aurais pas cru si vous ne m'aviez pas apporté les éléments nécessaires pour le tester moi-même.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1709": {
+   "name": "La création de Klockmort",
+   "completion": "Voilà votre armure, $N. Le procédé de Furen fonctionne à la perfection ! À la perfection ! Merveilleux, vraiment !$B$BVous pourriez rouler sur cette armure avec un engin de siège, elle reprendrait sa forme en un instant !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1711": {
+   "name": "L'armure de Mathiel",
+   "completion": "J'ai fini votre armure, et j'en suis satisfait. Les techniques de Furen cadrent parfaitement avec les miennes et je suis sûr que cette armure est extrêmement résistante.$B$BMerci, $N. Et qu'elle vous serve pour vos combats futurs !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1714": {
+   "name": "Essence d'exil",
+   "progress": "Le chaudron bouillonne. Ces vapeurs attirent...$BCharme de tonnerre (8)$BCharme ardent (8)$BCharme armorié (8)",
+   "completion": "Le charme s'enfonce lentement dans le chaudron...$B$BUne grosse bulle se forme à la surface du liquide et éclate...$B$B... Et un morceau de roche en fusion apparaît.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1782": {
+   "name": "L'armure de Furen",
+   "completion": "Voici votre armure, $N. Elle résistera au plus dur des coups ou je ne m'appelle pas Furen Longbeard !$B$BEt je dois vous remercier. J'ai beaucoup appris en travaillant les matériaux que vous m'avez apportés. Je pense que je ferai une autre découverte capitale un de ces jours !$B$BJe vais transmettre ce que j'ai appris aux autres forgerons de l'Alliance.$B$BJe leur dirai que vous m'avez été d'une grande aide, et peut-être qu'ils vous récompenseront.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1789": {
+   "name": "Le Symbole de vie",
+   "completion": "Si vous n'arrivez pas à aider Narm en utilisant le Symbole de vie, $N, alors revenez me voir et je vous en procurerai un autre.$B$BIl est important pour mon mari et moi que vous y arriviez. S'il vous plaît, hâtez-vous.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1790": {
+   "name": "Le Symbole de vie",
+   "completion": "Hâtez-vous, $N, de nombreuses vies seront en danger si vous échouez.$B$BSi pour une raison quelconque vous n'arrivez pas à aider Gazin et Henze, revenez me voir et je vous donnerai un autre Symbole de vie pour cette entreprise.$B$BNe prenez pas cela pour de la charité : vous devez prouver que vous êtes un $C aussi brave que les autres, et des échecs répétés auraient des répercussions plus tard.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1792": {
+   "name": "Arme Tourbillon",
+   "completion": "J'ai le Cœur de tourbillon, et je suis prêt à le placer dans le réceptacle de votre choix.$B$BChoisissez l'arme, $N, et sachez que ce pouvoir est le pouvoir du Cyclonien.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1793": {
+   "name": "Le Tome de la bravoure",
+   "completion": "Il a été prouvé que la Lumière était avec vous, $N, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?$B$BLa bravoure, quelle que soit la situation, est une part importante de la voie du $C, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1794": {
+   "name": "Le Tome de la bravoure",
+   "completion": "Il a été prouvé que la Lumière était avec vous, $N, mais en ces temps de grands dangers, il est primordial de savoir quelles sont vos forces. Parce que des démons, des dragons et toutes sortes de créatures malfaisantes convoitent nos terres, votre courage sera mis à l'épreuve. Serez-vous assez fort ?$B$BLa bravoure, quelle que soit la situation, est une part importante de la voie du $C, au même titre que la Lumière, votre armure et votre arme. Quand vous étudiez dans la cathédrale de la Lumière, les deux leçons que vous devez apprendre sont : protéger les faibles et ne jamais perdre la foi.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1822": {
+   "name": "Une arme en héritage",
+   "completion": "Je garderai trois de ces armes en souvenir de ce que j'ai perdu et souffert. Je voudrais que vous choisissiez celle que vous préférez pour vous-même, $N.$B$BPuisse-t-elle vous servir à de plus nobles actions que celles de son précédent propriétaire, ce maudit !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1843": {
+   "name": "Gantelets de brutalité",
+   "completion": "Merci, $N. Ces Gantelets sont ma plus belle réussite. Prenez-les. En les portant, vous nous honorerez, moi et mes ancêtres.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1845": {
+   "name": "Camail de brutalité",
+   "completion": "Je vous donne ce casque.$B$BCe sont vos actes héroïques qui vous ont conduit jusqu'à moi, $N, et la volonté de notre Mère la Terre... Des actes encore plus héroïques vous attendent.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1847": {
+   "name": "Jambières de brutalité",
+   "completion": "Voici vos jambières, $N. Dites-moi si cela vous convient ou si vous avez besoin de modifications. J'essaie toujours de satisfaire mon client ! Du moins j'essayais.$B$BEn ce moment, je ne me soucie pas beaucoup de mon métier. Mais ça met hors jeu d'être un stupide pion du Fléau !$B$BJe suppose…",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1848": {
+   "name": "Le haubert de brutalité",
+   "completion": "Je sais que vous avez enduré beaucoup de privations et versé beaucoup de sang à mon service, $N. Voici le fruit de votre dur labeur.$B$BPuissiez-vous bien le porter et revenir ici un jour pour me conter les services qu'il vous aura rendus.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1878": {
+   "name": "Prime de la poche à eau",
+   "progress": "Vous revoici, $N ? Si vous avez cinq outres de Bat-le-désert de plus, alors j'ai un paquet qui porte votre nom !$BOutre de Bat-le-désert (5)",
+   "completion": "Excellent : plus nous récupérons d'outres, moins nous risquons le désastre ! Rapportez-en encore, et je vous récompenserai pour chaque lot de cinq outres que vous rapporterez.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1941": {
+   "name": "La robe de tisse-mana",
+   "completion": "Voici votre robe. C'est l’une des plus belles que j'ai confectionnées ! Portez-la avec fierté. Et si les gens vous interrogent, dites-leur qu'elle sort de l’atelier des couturiers Larson !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1942": {
+   "name": "L'Habit du noeud astral",
+   "completion": "Votre habit est prêt. Cette soie que vous avez apportée était si belle... Ça ne vous fait rien si je l'ai cousu un peu court pour pouvoir en conserver un morceau ?$B$BMais non, je plaisante ! Il vous ira comme un gant, au plus fort de l'aventure comme dans les occasions plus mondaines ! Profitez-en bien !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1946": {
+   "name": "L'Habit du néant",
+   "completion": "Voici votre robe du Néant, $N. À la fois confortable et solide, elle contient la magie des cheveux des sœurs rieuses.$B$BSi elle vous plaît, parlez-en à Deino. C'est un $C d'une telle puissance que je préfère être de son côté !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1958": {
+   "name": "L'Energie céleste",
+   "completion": "Vous pouvez ressentir de la fierté, $N. Bien des mages auraient échoué face aux créatures que vous avez affrontées !$B$BL'Orbe céleste est prêt. Je peux aussi le fixer sur un bâton, c'est à vous de choisir. Moi, je choisirais l'Orbe, mais qui suis-je pour avoir un avis ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1962": {
+   "name": "Robe du feu-sorcier",
+   "completion": "Voici votre robe, $N. Portez-la bien.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2361": {
+   "name": "Réparer le Collier",
+   "completion": "C'est avec joie que je vous donne ce collier, $C. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !$B$BEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2399": {
+   "name": "Les racines ont poussé",
+   "completion": "Les racines que Denalan a plantées dans son jardin ont poussé et grandi. Elles tremblent, désireuses d'être choisies...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2523": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2741": {
+   "name": "Le Super-Oeuf-O-Matic",
+   "progress": "Le Super-Oeuf-O-Matic est la dernière des inventions de Curgle Cranklehop. C'est une machinerie très impressionnante.$B$BLe Super-Oeuf-O-Matic bafouille quelque chose lorsque vous vous approchez du panneau de commande.$BOeuf d'hippogryphe (1)",
+   "completion": "Vous placez l'œuf d'hippogryphe dans la machine. Des signaux sonores s'enchaînent, sur un fond de bruits mécaniques.$B$BEt le Calibre-œuf a pesé, mesuré et empaqueté votre œuf. Ça c'est du service rapide !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2747": {
+   "name": "Un œuf extraordinaire",
+   "progress": "J'ai rarement vu des œufs récupérés en Feralas dans un état satisfaisant. Ces œufs comptent parmi les plus rares…$BOeuf extraordinaire (1)",
+   "completion": "Eh bien maintenant, vous avez un… Stupéfiant !$B$BJ'espère que vous vous souviendrez toute votre vie du bien que vous avez fait aujourd'hui.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2748": {
+   "name": "Un œuf de premier choix",
+   "progress": "Un œuf de premier choix est un œuf qui, dans des conditions idéales, va éclore libre des effets néfastes des incantations des ogres Gordunni.$BBel oeuf (1)",
+   "completion": "Excellent, $N. J'enverrai cet œuf à Darnassus où j'espère qu'il va bientôt éclore !$B$BAcceptez ceci en signe de ma gratitude.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2749": {
+   "name": "Un œuf ordinaire",
+   "progress": "Les œufs ordinaires d'hippogryphes éclosent une fois sur deux. Nous faisons de notre mieux pour les élever et avec une petite chance, ils écloront.$BOeuf ordinaire (1)",
+   "completion": "Donc vous avez trouvé un œuf ordinaire, $N ? Donnez-le-moi s'il vous plaît... Nous allons espérer le meilleur pour lui.$B$BJe n'ai pas grand-chose, mais veuillez accepter cette récompense. Si vous retournez en Feralas, sachez que je serai toujours là pour recueillir les œufs que vous trouverez.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2750": {
+   "name": "Un mauvais œuf",
+   "progress": "Ces œufs-là ne peuvent pas être sauvés : ils n'écloront jamais.$BOeuf pourri (1)",
+   "completion": "J'ai peur d'avoir de mauvaises nouvelles, $N. Cet œuf est à un stade trop avancé. Je peux le prendre pour nous en débarrasser proprement.$B$BMais ne vous découragez pas, nous ne pouvons pas tous les sauver. Si vous retournez en Feralas, retentez votre chance. Apportez un autre œuf pour le Super-Oeuf-O-Matic !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2878": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2881": {
+   "name": "Chasse aux colliers trolls",
+   "progress": "Vous l'avez déjà fait, mais nous continuerons d'accepter tous les Colliers tribaux que vous trouverez. En me les donnant, vous continuerez d'accroître votre prestige parmi les Wildhammer ; si vous désirez vous battre pour nous, nous pourrons nous battre pour vous !$B$BJ'ai besoin de cinq colliers tribaux trolls, $N.$BCollier tribal troll (5)",
+   "completion": "Une autre série de colliers veut dire qu'il y a moins de trolls pour nous inquiéter dans les Hinterlands ! Vous avez bien travaillé, $N. Continuez dans cette voie !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2952": {
+   "name": "Le Décapeur 5200 !",
+   "completion": "D'un coup le Décapeur 5200 s'arrête net. Un petit carillon émet un \"ding\" clair et la trappe de l'appareil s'ouvre. À l'intérieur de la machine vous découvrez une petite boîte garnie d'un noeud. Il semble que la machine emballe les objets après les avoir nettoyés et qu'elle se donne la peine de les empaqueter dans une jolie boîte même quand elle n'a pas fonctionné.$B$BBon, il n'y a qu'un seul moyen de savoir si l'objet à bel et bien été nettoyé ou non...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2953": {
+   "name": "Le Décapeur décape encore",
+   "progress": "Le Décapeur 5200 est vide et attend un objet à nettoyer ainsi que trois pièces d'argent pour démarrer.$BObjet sali (1)$BArgent requis : 3 (1)",
+   "completion": "Le Décapeur 5200 se met en action, vrombissant et crachotant tandis qu'à l'intérieur, sur l'objet, la crasse est pulvérisée par les enzymes de nettoyage spéciales mises au point par les gnomes !$B$BLe Décapeur 5200 s'arrête et émet un \"ding !\" pour indiquer qu'il a terminé son travail. La trappe s'ouvre, dévoilant une petite boîte, ornée d'un joli noeud.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3363": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)$B… (1)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3421": {
+   "name": "Le voyage de retour",
+   "completion": "Je vais vous renvoyer au camp de Sanath à présent.$B$BNe faites pas attention à ses mauvaises manières. Il est brusque envers tout le monde, sauf envers le maître. Peut-être apprendra-t-il la leçon un jour ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3483": {
+   "name": "Signal de la récupération",
+   "completion": "Oh, un autre lance-fusées, hein ? Je peux le faire.$B$BN'oubliez pas, la pointe sud d'Azshara. C'est une toute petite île transformée en piste d'atterrissage. Vous ne pouvez pas la manquer si vous êtes au bon endroit.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3503": {
+   "name": "Réunion avec le Maître",
+   "completion": "Autrefois, je pouvais demander tout ce que je voulais à ceux qui souhaitaient voir mon maître. À présent, vous n'avez qu'à demander et je vous enverrai à lui.$B$BCela me chagrine mais je ne discute pas ses ordres. Le seul plaisir qu'il me reste est de me moquer des vêtements ridicules que vous portez et de votre mine pitoyable. Même cela m'ennuie...$B$BMêmes ces bavardages m'ennuient ! Souhaitez-vous voir mon maître ou non ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3567": {
+   "name": "Au sommet",
+   "completion": "Souhaitez-vous admirer la vue depuis le sommet de l'un des Colosses jumeaux ? Je peux vous y envoyer, $R.$B$BRéfléchissez quand même à la façon de redescendre. C'est un voyage que l'on ne peut faire que dans un seul sens.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3570": {
+   "name": "Corruption Suintante",
+   "completion": "Je n'aurais jamais rêvé que l'élixir puisse prendre forme aussi rapidement. Merci, $N. Je vais travailler sur le reste de ces échantillons tout de suite. Je suis sûr qu'ils seront bientôt utilisables par Dame Sylvanas et les Réprouvés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3644": {
+   "name": "Le renouvellement de la Carte de membre",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.$BArgent requis : 2 (1)",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gobelins depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gobelins chez les Entraîneurs concernés.$B$BLe délai de validité de cette carte sera de deux semaines d'activité, à l'issue desquelles les frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3645": {
+   "name": "Le renouvellement de la Carte de membre",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.$BArgent requis : 2 (1)",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gnomes depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gnomes chez les Entraîneurs concernés.$B$BLa validité de cette carte est de deux semaines, à l'issue desquelles vos frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3647": {
+   "name": "Le renouvellement de la Carte de membre",
+   "progress": "Pour renouveler votre carte de membre, vous devez vous acquitter du prix de renouvellement qui est de deux pièces d'or.$BArgent requis : 2 (1)",
+   "completion": "Puisque vous pratiquez l'Ingénierie des gnomes depuis un certain temps, je peux renouveler votre Carte de membre expirée contre un paiement de deux pièces d'or. Une fois ces frais de renouvellement acquittés, on vous remettra une nouvelle Carte de membre. Cela vous permettra d'obtenir des schémas d'Ingénierie des gnomes chez les Entraîneurs concernés.$B$BLa validité de cette carte est de deux semaines, à l'issue desquelles vos frais d'adhésion devront à nouveau être payés. Si vous voulez accéder aux schémas, vous devrez apporter cette somme, mais pas les arriérés.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3721": {
+   "name": "Un OOX rien que pour vous",
+   "completion": "Vous avez récupéré trois de mes robots guidés OOX ! Vous avez fait bien plus que le nécessaire, aussi vais-je vous donner quelque chose de spécial pour vous remercier. C'est une version miniature du robot qu'à présent vous devez connaître et aimer : l'OOX !$B$BNormalement, je ne laisserais à personne un appareil aux capacités si dangereuses, mais vous m'avez été d'un réel secours. De plus, les mécanismes de combat et le système de guidage ont été mis hors service.$B$BMais il n'en reste pas moins qu'il s'agit bien là d'un OOX, bon sang !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3792": {
+   "name": "De la Fibre d'aurore au bastion de Feathermoon",
+   "progress": "Je vous salue à nouveau, $N. Mes recherches progressent plutôt bien, mais si vous aviez cinq Fibres d'aurore supplémentaires, je serais heureux de vous en débarrasser. Mais “heureux” n'est qu'une figure de style. Plus j'en ai autour de moi, et plus je me sens mal à l'aise. Mes recherches nécessitent cependant que je me hâte et que j'en finisse.$BFibre d'aurore (5)",
+   "completion": "Merci, $N. Je vais juste la mettre de côté pour l'instant. Bien que ce ne soit pas moi le responsable des ressources de Staghelm, je peux vous donner un petit quelque chose pour le dérangement. De toute façon, qui sait ce qu'il va arriver si Staghelm continue à s’approvisionner en Fibre d'aurore. Il y a quelque chose de louche derrière tout ça, croyez-moi.$B$BRappelez-vous que j'accepte toujours de la Fibre d'aurore. Je la prends par brassée de cinq.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3803": {
+   "name": "Des Fibres d'aurore pour Darnassus",
+   "progress": "L'archidruide cherche davantage de Fibres d'aurore pour que le Cercle cénarien puisse poursuivre ses recherches. Nous les prenons par lot de dix. Nous récompenserons votre cueillette par des objets qui pourront être utiles. Lorsque vous en aurez dix, faites-le-moi savoir et je vous récompenserai en conséquence.$BFibre d'aurore (10)",
+   "completion": "Parfait ! Cette Fibre d'aurore satisfera sans aucun doute l'archidruide. Je dois cependant admettre que d’être si proche de cette plante me met un peu mal à l'aise. Je ne peux qu'imaginer à quel point il doit être difficile pour l'archidruide d'en supporter de si grandes quantités !$B$BVoilà pour vous, $N. Le Cercle cénarien vous remercie pour votre aide soutenue.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3804": {
+   "name": "Des Fibres d'aurore pour Thunder Bluff",
+   "progress": "L'archidruide cherche davantage de Fibre d'aurores pour que le Cercle cénarien puisse poursuivre ses recherches sur le cratère d'Un'Goro. Nous récompenserons votre cueillette par des objets qui pourront être utiles. Lorsque vous en aurez dix, faites-le-moi savoir et je vous récompenserai en conséquence.$BFibre d'aurore (10)",
+   "completion": "Parfait ! Cette Fibre d'aurore nous sera d'un grand secours le temps venu. Nous savons que les elfes de la nuit conduisent des recherches similaires avec ces herbes, bien que nous ne sachions pas dans quel but. L'archidruide estime que nous aurons besoin de Fibre d'aurore jusqu'à ce que nous comprenions ses mystères.$B$BVoilà pour vous, $N. Le Cercle cénarien vous remercie pour votre aide soutenue.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4041": {
+   "name": "L'élixir de Videre",
+   "progress": "Apportez-moi de l'Evoroot, et je vous ferai de l'élixir de Videre sans problème.$B$BJe connais toutes sortes de choses à propos des herbes et de l'alchimie… Tenez, par exemple, laissez-moi vous raconter la fois où j'ai transformé le fromage que j'étais sur le point de manger au déjeuner en or... Hé... Où allez-vous ?$BEvoroot (1)",
+   "completion": "Alors, vous en avez mis une au vieux Miblon, hein ?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4083": {
+   "name": "Le Calice spectral",
+   "progress": "Le Calice spectral flotte dans les airs, descendant et remontant tout doucement… au rythme d'un cœur agonisant.$BRubis étoilé (2)$BBarre d'or (20)$BBarre de vrai-argent (10)",
+   "completion": "Les gemmes ne font aucun bruit tandis qu'elles plongent dans les profondeurs du Calice...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4103": {
+   "name": "Du baume en chassant",
+   "progress": "Si vous possédez une Balise cénarienne, vous pourrez discerner un fragment d'esprit corrompu sur les bêtes souillées que nous supprimons pour le plus grand bien de tous. Je broie ces fragments jusqu'à obtenir un réactif dont je me sers pour confectionner le Baume végétal cénarien qui permet de rendre santé et vigueur à ces plantes corrompues.$B$BEn échange de ces fragments, je vous donnerai du Baume cénarien que j'ai déjà préparé.$BFragment d'âme corrompue (6)",
+   "completion": "Très bien donc, voici vos doses de Baume cénarien. Fouillez Gangrebois pour trouver ces plantes corrompues, $N ! Où qu'elles soient, utilisez le Baume que je vous ai donné pour les purifier.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4104": {
+   "name": "Du baume par la pioche",
+   "progress": "Si vous avez une Balise cénarienne et que vous minez dans Gangrebois, peut-être trouverez-vous du Vitriol contaminé dans un filon de minerai brut. Je sais comment purifier ce vitriol et le transformer en un composant qui sert à faire du Baume végétal cénarien. Vous pourrez ensuite l'utiliser pour libérer les plantes corrompues que vous rencontrerez.$B$BSi vous avez collecté du Vitriol contaminé, je vous l'échange contre du Baume végétal cénarien que j'ai déjà préparé.$BVitriol contaminé (4)",
+   "completion": "Très bien. Voici des doses de baume cénarien. Si vous trouvez plus de vitriol en minant dans Gangrebois, gardez-le-moi ! Plus vous en trouvez, plus je peux confectionner de baume.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4105": {
+   "name": "Du baume contre une récolte",
+   "progress": "Grâce à une balise cénarienne, les herboristes expérimentés peuvent distinguer l'insidieuse gangrimpante, un parasite malfaisant produit par la corruption de Gangrebois. Mon travail ici m'a appris à les purifier avec un réactif... utilisé dans ce que nous appelons le baume végétal cénarien.$B$BLorsque vous cueillerez des herbes à Gangrebois, vous devriez remarquer les brins de gangrimpante si vous avez la balise cénarienne. En échange je vous donnerai du baume cénarien que j'ai déjà préparé.$BGangrimpante (4)",
+   "completion": "Excellent travail, $N. Chacune d'elles, une fois purifiée, nous aidera à sauver Gangrebois. Tenez, prenez quelques doses de Baume végétal cénarien et rendez-vous dans la forêt. La reconquête de cette terre est une priorité, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4106": {
+   "name": "Du baume contre des peaux",
+   "progress": "Une balise cénarienne permet à un dépeceur bien entraîné de repérer des morceaux de peau contaminée dans le butin ramassé à Gangrebois. Je transforme ces morceaux apparamment inutiles en pâte épaisse qui sert d'agent accélérateur au baume végétal cénarien. Quand vous dépecez vos prises ici à Gangrebois, assurez-vous d'avoir toujours une balise sur vous !$B$BLorsque vous ramassez des morceaux de peau contaminée, apportez-les-moi et je vous donnerai des doses de baume végétal cénarien que j'ai en réserve.$BMorceau de peau contaminée (5)",
+   "completion": "C'est exactement ce dont j'ai besoin. Tenez, prenez ces deux doses de baume végétal cénarien et servez-vous-en pour guérir les plantes de Gangrebois de la corruption. Nous devons persévérer, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4107": {
+   "name": "Du baume contre des désenchantements",
+   "progress": "Le pouvoir d'un objet magique désenchanté est éprouvé par l'essence qu'il crée. J'ai conçu un moyen de transformer l'essence brute utilisée par les enchanteurs en un réactif qui permet de créer du Baume végétal cénarien. Vous n'avez pas besoin de Balise cénarienne dans ce cas. N'importe quel objet désenchanté qui produit des essences inférieures fera parfaitement l'affaire.$B$BJe n'ai besoin que d'une seule essence inférieure. En échange, je vous donnerai du Baume végétal cénarien. L'essence est très puissante. Il en faut peu pour faire beaucoup !$BEssence du néant inférieure (1)",
+   "completion": "Voilà quelques doses de Baume végétal cénarien ; il ne manque plus qu'une Essence du néant inférieure, $N. Cette essence est de loin l'objet le plus puissant que je puisse utiliser pour transformer les épées en socs de charrue. Si vous avez besoin de plus de baume, revenez me voir !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4108": {
+   "name": "Du baume en chassant",
+   "progress": "Si vous possédez une Balise cénarienne, vous pourrez discerner un fragment d'esprit corrompu sur les bêtes souillées que nous supprimons pour le plus grand bien de tous. Je broie ces fragments jusqu'à obtenir un réactif dont je me sers pour confectionner le Baume végétal cénarien qui permet de rendre santé et vigueur à ces plantes corrompues.$B$BEn échange de ces fragments, je vous donnerai du Baume cénarien que j'ai déjà préparé.$BFragment d'âme corrompue (6)",
+   "completion": "Très bien donc, voici vos doses de Baume cénarien. Fouillez Gangrebois pour trouver ces plantes corrompues, $N ! Où qu'elles soient, utilisez le Baume que je vous ai donné pour les purifier.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4109": {
+   "name": "Du baume par la pioche",
+   "progress": "Si vous avez une Balise cénarienne et que vous minez dans Gangrebois, peut-être trouverez-vous du Vitriol contaminé dans un filon de minerai brut. Je sais comment purifier ce vitriol et le transformer en un composant qui sert à faire du Baume végétal cénarien. Vous pourrez ensuite l'utiliser pour libérer les plantes corrompues que vous rencontrerez.$B$BSi vous avez collecté du Vitriol contaminé, je vous l'échange contre du Baume végétal cénarien que j'ai déjà préparé.$BVitriol contaminé (4)",
+   "completion": "Très bien. Voici quelques doses de Baume cénarien. Si vous trouvez plus de vitriol en minant dans Gangrebois, gardez-le-moi ! Plus vous en trouvez, plus je peux confectionner de baume.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4110": {
+   "name": "Du baume contre une récolte",
+   "progress": "Grâce à une balise cénarienne, les herboristes expérimentés peuvent distinguer l'insidieuse gangrimpante, un parasite malfaisant produit par la corruption de Gangrebois. Mon travail ici m'a appris à les purifier avec un réactif... utilisé dans ce que nous appelons le baume végétal cénarien.$B$BLorsque vous cueillerez des herbes à Gangrebois, vous devriez remarquer les brins de gangrimpante si vous avez la balise cénarienne. En échange je vous donnerai du baume cénarien que j'ai déjà préparé.$BGangrimpante (4)",
+   "completion": "Excellent travail, $N. Chacune d'elles, une fois purifiée, nous aidera à sauver Gangrebois. Tenez, prenez quelques doses de Baume végétal cénarien et rendez-vous dans la forêt. La reconquête de cette terre est une priorité, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4111": {
+   "name": "Du baume contre des peaux",
+   "progress": "Une balise cénarienne permet à un dépeceur bien entraîné de repérer des morceaux de peau contaminée dans le butin ramassé à Gangrebois. Je transforme ces morceaux apparamment inutiles en pâte épaisse qui sert d'agent accélérateur au baume végétal cénarien. Quand vous dépecez vos prises ici à Gangrebois, assurez-vous d'avoir toujours une balise sur vous !$B$BLorsque vous ramassez des morceaux de peau contaminée, apportez-les-moi et je vous donnerai des doses de baume végétal cénarien que j'ai en réserve.$BMorceau de peau contaminée (5)",
+   "completion": "C'est exactement ce dont j'ai besoin. Tenez, prenez ces deux doses de baume végétal cénarien et servez-vous-en pour guérir les plantes de Gangrebois de la corruption. Nous devons persévérer, $N !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4112": {
+   "name": "Du baume contre des désenchantements",
+   "progress": "Le pouvoir d'un objet magique désenchanté est éprouvé par l'essence qu'il crée. J'ai conçu un moyen de transformer l'essence brute utilisée par les enchanteurs en un réactif qui permet de créer du Baume végétal cénarien. Vous n'avez pas besoin de Balise cénarienne dans ce cas. N'importe quel objet désenchanté qui produit des essences inférieures fera parfaitement l'affaire.$B$BJe n'ai besoin que d'une seule essence inférieure. En échange, je vous donnerai du Baume végétal cénarien. L'essence est très puissante. Il en faut peu pour faire beaucoup !$BEssence du néant inférieure (1)",
+   "completion": "Voilà quelques doses de Baume végétal cénarien ; il ne manque plus qu'une Essence du néant inférieure, $N. Cette essence est de loin l'objet le plus puissant que je puisse utiliser pour transformer les épées en socs de charrue. Si vous avez besoin de plus de baume, revenez me voir !",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4113": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4114": {
+   "name": "La fleur-de-chant corrompue",
+   "progress": "Vous avez découvert une version maladive et souffreteuse de ce qui s'avère être une fleur-de-chant. Une odeur âcre et malsaine émane de la plante. Celle-ci a désespérément besoin de soins pour avoir une chance de recouvrer son état normal.$BBaume végétal cénarien (2)",
+   "completion": "Vous appliquez du baume végétal de Cénarius sur la fleur-de-chant. Elle commence immédiatement à abandonner sa forme corrompue pour fleurir comme une plante vivace et radieuse.",
+   "fetched": "2026-10-02",
    "v": 2
   }
  }

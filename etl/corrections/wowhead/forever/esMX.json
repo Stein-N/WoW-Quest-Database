@@ -3,14 +3,534 @@
  "quests": {
   "16": {
    "name": "Dale de beber a Gerard",
-   "details": "El trabajo en la granja es agotador, por eso intento siempre tener una buena reserva de agua de manantial que ayude a soportarlo.$B$BSi tienes algo de agua, podríamos hacer un intercambio.$BAgua de manantial refrescante (1)",
+   "progress": "El trabajo en la granja es agotador, por eso intento siempre tener una buena reserva de agua de manantial que ayude a soportarlo.$B$BSi tienes algo de agua, podríamos hacer un intercambio.$BAgua de manantial refrescante (1)",
    "completion": "¡Gracias, $N! Y vuelve si quieres hacer otro intercambio.",
-   "fetched": "2026-10-01"
+   "fetched": "2026-10-01",
+   "v": 2
   },
   "247": {
    "name": "El fin de la Caza",
    "completion": "$N, has dado muerte a las tres bestias que comprenden la caza de Vallefresno. Me has traído prueba suficiente de su derrota; no cabe la menor duda acerca de tu fuerza y tenacidad. Por tus venas corre la sangre de un cazador ¡y mereces los más elevados elogios!$B$BTe ruego aceptes este adorno como muestra de reconocimiento a tus descomunales esfuerzos realizados en Vallefresno para la Horda hoy. ¡Que tus ancestros estén contigo!",
    "fetched": "2026-10-01",
+   "v": 2
+  },
+  "254": {
+   "name": "Excavar la tierra",
+   "completion": "Excavas entre la tierra suelta que hay sobre la tumba... y encuentras los restos de un féretro.$B$BEn el interior del féretro puedes sentir la vibración de unos dedos arañando y el rechinar de unos dientes podridos...$B$B¿Abrirás el féretro y extraerás el corazón del embalsamador?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "308": {
+   "name": "Distraer a Jarven",
+   "progress": "¡Vaya! Con toda la bebida que hay aquí abajo... ¡Y tengo órdenes estrictas de no tocarla! Si tan solo pudiera probar un poco de nuestra Cerveza del Trueno... ¡agudiza el ingenio, y no es broma!$BCerveza del Trueno (1)",
+   "completion": "¿Es para mí? ¡Eres un héroe, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "403": {
+   "name": "El barril de Cebatruenos custodiado",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "410": {
+   "name": "Sombra durmiente",
+   "progress": "Esta vieja mesa está hecha polvo.$BVela de señalización (1)",
+   "completion": "Colocas la vela de señalización sobre la mesa y la enciendes...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "431": {
+   "name": "Velas de señalización",
+   "completion": "Coges una de las velas y la colocas en tu talega.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "579": {
+   "name": "La biblioteca de Ventormenta",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "593": {
+   "name": "Gema de alma",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "619": {
+   "name": "La tentación de Negolash",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "779": {
+   "name": "El Sello de la Tierra",
+   "progress": "El Sello de la Tierra se encuentra aquí, con tres hornacinas en las que se alojan la piedra rúnica de amatista, la de ópalo y la de diamante.$BPiedra rúnica de diamante (1)$BPiedra rúnica de ópalo (1)$BPiedra rúnica de amatista (1)",
+   "completion": "Al colocar las piedras rúnicas en las muescas correspondientes, un violento estruendo sacude la tierra y se rompe el Sello.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "795": {
+   "name": "El Sello de la Tierra",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "889": {
+   "name": "El espíritu del viento",
+   "progress": "Tráele a Quebrantadientes 10 esquirlas de sangre y te bendeciré con gran velocidad. Correrás con la zhebra y hasta el viento tendrá celos de ti.$B$BNo durará mucho pero debería ser lo suficiente para ayudarte a viajar por Los Baldíos.$BEsquirla de sangre (10)",
+   "completion": "Bien. Que el espíritu de Agamaggan te guíe, $R. Vuelve aquí si deseas dominar aún más magia de Agamaggan.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "926": {
+   "name": "La piedra de energía con imperfecciones",
+   "completion": "Estas piedras están imbuidas de energía mágica pero dañada a propósito. Son muy inestables y una vez las movamos de la mesa, se autoconsumirán rápidamente.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "960": {
+   "name": "[Onu is Meditating]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "961": {
+   "name": "Onus lo está meditando",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "972": {
+   "name": "La sapta de agua",
+   "completion": "Lleva la sapta del agua y encuentra la poza de agua corrupta del Bosque de Argénteos, $N. Tengo mucha fe en tus facultades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "996": {
+   "name": "[Corrupted Windblossom]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "998": {
+   "name": "[Corrupted Windblossom]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1185": {
+   "name": "Debajo de la quitina había...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1191": {
+   "name": "La distracción de Zamek",
+   "completion": "¡Vamos!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1192": {
+   "name": "Mena de indurio",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1193": {
+   "name": "Una trampa rota",
+   "progress": "Tienes ante ti una gran trampa rota. Parece que los ogros han intentado reparar la trampa, pero sin éxito. Al lado de la trampa hay una nota escrita a toda prisa. Lo curioso es que describe exactamente lo que se necesita para reparar la trampa: 1 trasto de torio y un poco de aceite de Escarcha. Si se reparara la trampa, cualquier ogro que pasara por aquí podría caer en ella... uno menos.$B$BEvidentemente, el hecho de que sean pocos los ogros que saben leer, podría parecer un hecho fortuito.$B$BPodría parecerlo...$BTrasto de torio (1)$BAceite de Escarcha (1)",
+   "completion": "El trasto de torio se desliza a su sitio sin esfuerzo, creando un conducto para verter el aceite de Escarcha. Cuando se ha vertido la última gota de aceite, la trampa se coloca en posición.$B$B¡Pobre del ogro despistado que pase por aquí!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1267": {
+   "name": "El diplomático desaparecido",
+   "objectivesText": [
+    "Habla con Jaina Valiente en el Pantano Revolcafango."
+   ],
+   "completion": "Primero, quiero darte las gracias por todo lo que has hecho, $N. Has sido una increíble bendición para todos los míos y para todo el pueblo de Ventormenta. Siento no haber podido conocerte en mejores circunstancias.$B$BEspero que comprendas que no puedo darte las gracias abiertamente, pero te aseguro, que lo aprecio mucho.$B$BCuando vengas a Theramore en el futuro, búscame e intentaré compensarte.$B$BGracias de nuevo, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1271": {
+   "name": "¡Una fiesta en tu honor!",
+   "completion": "Mi sobrino me dijo que le habías ayudado en su investigación en Revolcafango y que sacaste a su socio de un buen apuro. ¡Pues los Stern estamos muy unidos y atendemos a nuestros amigos!$B$BAsí que lávate las manos, $N, ¡porque estamos a punto de montar una fiesta en tu honor!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1462": {
+   "name": "Sapta de tierra",
+   "objectivesText": [
+    "Pide otra sapta de tierra a la vidente Pluma de Cuervo."
+   ],
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1463": {
+   "name": "Sapta de tierra",
+   "objectivesText": [
+    "Pide a Canaga Clamatierras otra sapta de tierra."
+   ],
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1464": {
+   "name": "La sapta de fuego",
+   "objectivesText": [
+    "Habla con Telf Joolam para conseguir otra sapta de fuego."
+   ],
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1514": {
+   "name": "[Corrupted Windblossom]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1559": {
+   "name": "Receta de bomba cegadora",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1641": {
+   "name": "Escrito sobre divinidad",
+   "completion": "Aquí, en Ventormenta, yo me encargo de poner en el camino de la virtud a los paladines que se consagran a la Luz y defienden Azeroth de la Plaga y otras amenazas.$B$BY ha llegado el momento de que tú des tus primeros pasos hacia la virtud verdadera. Si aceptas, te daré un escrito sobre divinidad. Estudiándolo, aprenderás algo sobre la Luz y sobre lo que se espera de ti. Si lo entiendes y tienes capacidad para ello, conseguirás mayores habilidades.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1645": {
+   "name": "Escrito sobre divinidad",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1682": {
+   "name": "Armas de hierro gris",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1693": {
+   "name": "Armas de Elunita",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1706": {
+   "name": "La armadura de Grimand",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1709": {
+   "name": "La creación de Klockmort",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1711": {
+   "name": "[Mathiel's Armor]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1714": {
+   "name": "Esencia del exilio",
+   "progress": "La caldera burbujea. Los vapores se elevan como una señal...$BTalismán del trueno (8)$BTalismán ardiente (8)$BTalismán blasonado (8)",
+   "completion": "Los talismanes se hunden lentamente en la caldera...$B$BUna gran burbuja se eleva hasta la superficie del líquido y estalla...$B$B...Y aparece un grumo de roca de magma.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1782": {
+   "name": "La armadura de Furen",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1789": {
+   "name": "El Símbolo de la Vida",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1790": {
+   "name": "El Símbolo de la Vida",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1792": {
+   "name": "Arma torbellino",
+   "completion": "Tengo el corazón de torbellino y ya puedo colocarlo en el recipiente que elijas.$B$BElige tu arma, $N, y no olvides que su poder será el poder del Ciclonio.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1793": {
+   "name": "Escrito sobre valor",
+   "completion": "Se ha demostrado que la Luz camina a tu lado, $N, pero el peligro nos acecha cada día y es importante saber qué fuerza se esconde en el interior de cada uno. Tu temple se pondrá a prueba cuando demonios, dragones, o cualquier otro ser malvado entre en tus tierras. ¿Serás lo suficientemente fuerte?$B$BEl coraje, sin tener en cuenta en qué situación, es tan necesario para los paladines como la Luz, tu armadura y tu arma. Proteger a los débiles y no perder la fe, son dos lecciones más que tendrás que aprender cuando estudies en la Catedral de la Luz.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1794": {
+   "name": "Escrito sobre valor",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1822": {
+   "name": "Arma reliquia",
+   "completion": "Conservaré tres de las armas que me has devuelto, como recuerdos de mi sufrimiento y de mi pérdida. Pero por favor, $N, elige tu favorita entre las reliquias y quédatela.$B$BQue te sea de más ayuda que a sus antiguos y malditos propietarios.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1843": {
+   "name": "Guanteletes brutales",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1845": {
+   "name": "Yelmo brutal",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1847": {
+   "name": "Musleras brutales",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1848": {
+   "name": "Camisote brutal",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1878": {
+   "name": "Cazador de faltriqueras de agua",
+   "progress": "¿Ya has vuelto, $N? Si tienes cinco faltriqueras más de agua te puedo dar ya mismo tu recompensa.$BFaltriquera de agua de Vagayermos (5)",
+   "completion": "Excelente, ¡cuantas más faltriqueras de agua consigamos, más nos alejaremos del desastre! Consigue tantas como puedas y te daré una recompensa por cada 5 faltriqueras de agua que me traigas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1941": {
+   "name": "Toga Tejemaná",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1942": {
+   "name": "Prendas de nudo astral",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1946": {
+   "name": "Prendas de encaje Abisal",
+   "completion": "Aquí tienes tu encaje Abisal, $N. Es cómodo y duradero y alberga la magia del cabello de la hermana sonriente.$B$BDisfrútalo y si lo encuentras adecuado menciónaselo a Deino, la maga. Me gustaría estar de su lado...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1958": {
+   "name": "Poder celestial",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1962": {
+   "name": "Toga de fuego de hechizo",
+   "completion": "Aquí tienes tu toga, $N. Utilízala bien.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2361": {
+   "name": "Restaurar el collar",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2399": {
+   "name": "Flora en brote",
+   "completion": "Las hojas que Denalan plantó en su jardín han retoñado y crecido. Esperan con impaciencia a que alguien las coja...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2523": {
+   "name": "[Corrupted Songflower]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2741": {
+   "name": "El Superhuevomático",
+   "progress": "El Superhuevomático es uno de los últimos inventos de Curgle Saltamanivela. Se trata de una máquina impresionante.$B$BEl Superhuevomático chisporrotea cuando te acercas al panel de control.$BHuevo de hipogrifo (1)",
+   "completion": "Colocas el huevo de hipogrifo en la máquina. Se oyen una serie de pitidos y de ruidos mecánicos extraños.$B$BParece que el Superhuevomático ha pesado, medido y empaquetado el huevo. ¡Eso sí que es un servicio rápido!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2747": {
+   "name": "Un huevo muy especial",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2748": {
+   "name": "Un huevo de primera",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2749": {
+   "name": "Un huevo normal",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2750": {
+   "name": "Un huevo pasado",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2878": {
+   "name": "[Corrupted Songflower]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2881": {
+   "name": "Los collares de trols",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2952": {
+   "name": "¡El Destellamatic 5200!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2953": {
+   "name": "El Destellamatic en acción",
+   "progress": "El Destellamatic 5200 parece estar esperando un objeto con mugre incrustada que limpiar y 3 monedas de plata para activarse.$BObjeto con mugre incrustada (1)$BDinero necesario: 3 (1)",
+   "completion": "El Destellamatic 5200 se pone en marcha con sacudidas. En su interior, el agente limpiador gnómico está pulverizando la indefensa mugre incrustada en el objeto que hay dentro de la máquina.$B$BEl Destellamatic 5200 se para con un \"¡ding!\" familiar y el receptáculo de objetos se abre para revelar una cajita muy bien envuelta.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3363": {
+   "name": "[Corrupted Songflower]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3421": {
+   "name": "El viaje de vuelta",
+   "completion": "Te haré volver al campamento de Sanath ahora.$B$BNo hagas caso de su mala educación, es así con todos a excepción del maestro. Quizás algún día le den una lección.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3483": {
+   "name": "Una señal para el envío",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3503": {
+   "name": "Encuentro con el maestro",
+   "completion": "Hubo un tiempo en que podía pedirles lo que fuera a los que buscaban a mi maestro. Pero ahora, solo tienes que pedirlo y te haré llegar hasta él.$B$BMe molesta pero no cuestiono sus órdenes. Solo puedo disfrutar de hacer bromas sobre tu ridículo atuendo o esa estúpida mirada que luces. Hasta eso me aburre...$B$B¡Hasta esta divagación me aburre! Bueno, ¿quieres ver a mi maestro o no?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3567": {
+   "name": "A la cima",
+   "completion": "¿Quieres ver la vista desde uno de Los Dos Colosos? Porque puedo mandarte allí arriba, $R.$B$BPero tendrás que pensar tú en cómo harás para bajar. Yo te ofrezco solo el viaje de ida.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3570": {
+   "name": "La filtración de la corrupción",
+   "completion": "Nunca hubiera imaginado que el elixir hiciera efecto tan rápido. Gracias, $N. Ahora me pondré manos a la obra con las demás muestras. Seguro que muy pronto les resultan de utilidad a Lady Sylvanas y a los Renegados.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3644": {
+   "name": "Renovación de la tarjeta de miembro",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3645": {
+   "name": "Renovación de la tarjeta de miembro",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3647": {
+   "name": "Renovación de la tarjeta de miembro",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3721": {
+   "name": "Tu propio OOX",
+   "completion": "¡Has recuperado tres de mis robots mensajeros OOX! Has hecho mucho más de lo que tenías que hacer, así que te daré algo especial por toda tu ayuda. Es una versión miniatura del robot que tan bien conoces, ¡el OOX!$B$BNormalmente, no dejaría que nadie tuviese un dispositivo tan potencialmente letal, pero tú has sido de gran ayuda. Además, el mecanismo de combate y las funciones de búsqueda de este robot están desactivados.$B$BPor todo lo demás, ¡es un OOX auténtico!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3792": {
+   "name": "Mañagrana a Bastión Plumaluna",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3803": {
+   "name": "Mañagrana para Darnassus",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3804": {
+   "name": "Mañagrana para Cima del Trueno",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4041": {
+   "name": "El Elixir de Videre",
+   "progress": "Tráeme una raíz del mal y te haré ese Elixir Videre.$B$BSé mucho sobre hierbas y alquimia... ¡Podría contarte una de historias! Por ejemplo, un día transformé el queso que iba a desayunar en oro... ¡Eh! ¿Adónde vas?$BRaíz del mal (1)",
+   "completion": "Así que se la has jugado al viejo Miblon, ¿eh?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4083": {
+   "name": "El cáliz espectral",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4103": {
+   "name": "Bálsamo por caza",
+   "progress": "Una antorcha Cenarion te permite ver un fragmento de alma corrupto en esas bestias corruptas que deben ser sacrificadas por un bien mayor. Yo pulverizo los fragmentos y los convierto en un componente con el que se crea el bálsamo de planta Cenarion. Y es lo que utilizaremos para sanar a las plantas corruptas.$B$BA cambio de esos fragmentos, te daré algunos bálsamos de planta Cenarion que ya tengo preparados.$BFragmento de alma corrupto (6)",
+   "completion": "Muy bien. Aquí están tus bálsamos de planta Cenarion. ¡Explora Frondavil y busca plantas corruptas, $N! Estén donde estén, utiliza el bálsamo que te he dado para purificarlas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4104": {
+   "name": "Bálsamo por minería",
+   "progress": "Si llevas una antorcha Cenarion mientras trabajas en los yacimientos de Frondavil, podrás ver el vitriolo contaminado que corrompe una veta de metal. Yo sé cómo purificar ese vitriolo y cómo convertirlo en un componente del bálsamo de planta Cenarion. Un bálsamo que podrás utilizar para salvar las plantas que encuentres en el bosque.$B$BSi me traes algo de vitriolo contaminado, te daré un bálsamo de planta Cenarion que tengo preparado.$BVitriolo corrupto (4)",
+   "completion": "Muy bien. Aquí tienes algunos bálsamos de planta Cenarion. Si encuentras más vitriolo cuando extraigas minerales en Frondavil, ¡acuérdate de reservármelo! Cuanto más encuentres, más bálsamo podré preparar.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4105": {
+   "name": "Bálsamo por recolección",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4106": {
+   "name": "Bálsamo por desuello",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4107": {
+   "name": "Bálsamo por desencantamiento",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4108": {
+   "name": "Bálsamo por caza",
+   "progress": "Una antorcha Cenarion te permite ver un fragmento de alma corrupto en esas bestias corruptas que deben ser sacrificadas por un bien mayor. Yo pulverizo los fragmentos y los convierto en un componente con el que se crea el bálsamo de planta Cenarion. Y es lo que utilizaremos para sanar a las plantas corruptas.$B$BA cambio de esos fragmentos, te daré algunos bálsamos de planta Cenarion que ya tengo preparados.$BFragmento de alma corrupto (6)",
+   "completion": "Muy bien. Aquí están tus bálsamos de planta Cenarion. ¡Explora Frondavil y busca plantas corruptas, $N! Estén donde estén, utiliza el bálsamo que te he dado para purificarlas.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4109": {
+   "name": "Bálsamo por minería",
+   "progress": "Si llevas una antorcha Cenarion mientras trabajas en los yacimientos de Frondavil, podrás ver el vitriolo contaminado que corrompe una veta de metal. Yo sé cómo purificar ese vitriolo y cómo convertirlo en un componente del bálsamo de planta Cenarion. Un bálsamo que podrás utilizar para salvar las plantas que encuentres en el bosque.$B$BSi me traes algo de vitriolo contaminado, te daré un bálsamo de planta Cenarion que tengo preparado.$BVitriolo corrupto (4)",
+   "completion": "Muy bien. Aquí tienes algunos bálsamos de planta Cenarion. Si encuentras más vitriolo cuando extraigas minerales en Frondavil, ¡acuérdate de reservármelo! Cuanto más encuentres, más bálsamo podré preparar.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4110": {
+   "name": "Bálsamo por recolección",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4111": {
+   "name": "Bálsamo por desuello",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4112": {
+   "name": "Bálsamo por desencantamiento",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4113": {
+   "name": "[Corrupted Songflower]",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4114": {
+   "name": "[Corrupted Songflower]",
+   "fetched": "2026-10-02",
    "v": 2
   }
  }

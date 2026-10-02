@@ -3,14 +3,616 @@
  "quests": {
   "16": {
    "name": "Etwas zu trinken für Gerard",
-   "details": "Es macht durstig, das Land zu bestellen, und ich bin immer auf der Suche nach erfrischendem Quellwasser.$B$BWenn Ihr welches habt, dann mache ich einen Tauschhandel mit Euch.$BErfrischendes Quellwasser (1)",
+   "progress": "Es macht durstig, das Land zu bestellen, und ich bin immer auf der Suche nach erfrischendem Quellwasser.$B$BWenn Ihr welches habt, dann mache ich einen Tauschhandel mit Euch.$BErfrischendes Quellwasser (1)",
    "completion": "Danke, $N! Und kommt jederzeit wieder, wenn Ihr noch einen Handel machen wollt.",
-   "fetched": "2026-10-01"
+   "fetched": "2026-10-01",
+   "v": 2
   },
   "247": {
    "name": "Die Jagd ist abgeschlossen",
    "completion": "$N, Ihr habt alle drei Tiere erschlagen, um die es bei der Jagd in Ashenvale geht. Ihr habt mir angemessene Beweise von ihrem Tod gebracht; es gibt keinen Zweifel an Eurer Kraft und Eurer Hartnäckigkeit. Das Blut eines Jägers fließt durch Eure Adern, und Ihr solltet dafür belohnt werden!$B$BBitte, nehmt dieses Schmuckstück als Zeichen unserer Anerkennung ob Eurer mächtigen Taten, die Ihr heute für die Horde in Ashenvale vollbracht habt. Mögen Eure Vorfahren über Euch wachen.",
    "fetched": "2026-10-01",
+   "v": 2
+  },
+  "254": {
+   "name": "Graben in der Erde",
+   "completion": "Ihr schaufelt die nicht allzu feste Erde über dem Grab weg... und findet die Überreste eines Sarges.$B$BAus dem Sarg ist das Vibrieren und Kratzen von zu Klauen verformten Fingern zu spüren und das Knirschen verfaulter Zähne zu hören...$B$BWerdet Ihr den Sarg öffnen und das Herz des Einbalsamierers bergen?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "308": {
+   "name": "Jarvens Ablenkung",
+   "progress": "Hmpf! Hier steht so viel Alkohol herum, aber ich habe strikte Befehle, ihn nicht anzurühren. Wenn ich nur einen Schluck unseres Donnerbiers bekommen könnte... das würde meinen Verstand anregen, ehrlich!$BDonnerbier (1)",
+   "completion": "Für mich? Ihr seid ein wahrer Held, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "403": {
+   "name": "Das bewachte Fass mit Donnerbier",
+   "completion": "Dieses Fass Bier wird von Jarven Donnerbräu bewacht. Solange er im Keller ist, kann man sich nicht an den Fässern zu schaffen machen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "410": {
+   "name": "Der Schlummernde Schatten",
+   "progress": "Dies ist ein alter, abgewetzter, blutiger Tisch.$BKerze des Heranlockens (1)",
+   "completion": "Ihr platziert die Kerze des Heranlockens auf dem Tisch und entzündet sie...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "431": {
+   "name": "Kerze des Heranlockens",
+   "completion": "Ihr schnappt Euch eine der Kerzen und verstaut sie in Eurem Rucksack.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "579": {
+   "name": "Bibliothek von Stormwind",
+   "progress": "König Anduin betrachtet Lernen als sehr wichtig und hat daher Geld zur Verfügung gestellt, damit verschiedene Folianten und Schriften kopiert und für die Öffentlichkeit zugänglich gemacht werden können. Es ist ganz einfach. Ihr bringt mir einen Bibliotheksschein, und ich gebe Euch ein Exemplar eines der verfügbaren Bücher.$BBibliotheksschein (1)",
+   "completion": "Interessiert Euch einer dieser Titel, $N?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "593": {
+   "name": "Den Seelenedelstein füllen",
+   "progress": "Yenniku steht betäubt vor Euch, sein Geist an einem anderen Ort...$BSeelenedelstein (1)",
+   "completion": "Ihr legt den Seelenedelstein auf seine Stirn. Er erzittert, als seine Seele eingesaugt und sein Körper als hirnlose Hülle leer hinterlassen wird.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "619": {
+   "name": "Negolash anlocken",
+   "progress": "Dies ist ein verlassenes Rettungsboot. An seiner Seite stehen in zerkratzten, verblassten Buchstaben die Worte:$B$B\"Smotts' Revenge\"$BGegrillter Bussardflügel (10)$BDschungelrankenwein (5)",
+   "completion": "Ihr legt Essen und Getränke hinein...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "779": {
+   "name": "Siegel der Erde",
+   "progress": "Hier liegt das Siegel der Erde, mit drei eingelassenen Nischen für den Amethystrunenstein, den Opalrunenstein und den Diamantrunenstein.$BDiamantrunenstein (1)$BOpalrunenstein (1)$BAmethystrunenstein (1)",
+   "completion": "Als Ihr die Runensteine in die entsprechenden Aussparungen legt, wird die Erde von einem heftigen Beben erschüttert und das Siegel bricht.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "795": {
+   "name": "Siegel der Erde",
+   "progress": "Hier liegt das Siegel der Erde, mit drei eingelassenen Nischen für den Amethystrunenstein, den Opalrunenstein und den Diamantrunenstein.$BDiamantrunenstein (1)$BOpalrunenstein (1)$BAmethystrunenstein (1)",
+   "completion": "Als Ihr die Runensteine in die entsprechenden Aussparungen legt, wird die Erde von einem heftigen Beben erschüttert und das Siegel bricht.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "926": {
+   "name": "Fehlerhafter Kraftstein",
+   "completion": "Diese Steine sind von magischer Energie erfüllt, aber absichtlich fehlerhaft. Sie sind nicht sehr stabil, und sobald sie vom Tisch genommen werden, vernichten sie sich schnell selbst.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "960": {
+   "name": "Onu meditiert",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "961": {
+   "name": "Onu meditiert",
+   "completion": "Die Suche nach den Kultisten der Twilight-Hammer ist mühsam. Ich muss über ihre Absichten meditieren...$B$BSprecht mit mir mittels der Schale, sobald Ihr neue Informationen habt. Solltet Ihr eine Wahrsagephiole benötigen, um eine Schale zu erschaffen... nehmt diese hier.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "972": {
+   "name": "Wassersapta",
+   "completion": "Nehmt das Wassersapta und sucht in Silberwald nach dem verderbten Teich, $N. Ich habe großes Vertrauen in Eure Fähigkeiten.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "996": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "998": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1185": {
+   "name": "Unter dem Chitin war...",
+   "completion": "Ah, Ihr seid es wieder! Ja, Euch meine ich - also Euch, $N! Ja, Euereiner!$B$BHe, ich fang noch mal von vorn an!$B$BDas Objekt, das Ihr in Silithus fandet - war in der Tat ein Buch. Es war ein in einem sehr alten Dialekt verfasstes Tagebuch, wir nennen die Sprache heute Darnassisch. Es wird eine Weile dauern, aber ich werde es sehr sorgfältig studieren. Ich dachte, Ihr solltet wissen, dass Euer Fund für den Zirkel äußerst wertvoll ist.$B$BDie Höhlenmutter ist völlig aus dem Häuschen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1191": {
+   "name": "Zameks Ablenkungsmanöver",
+   "completion": "Auf geht’s!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1192": {
+   "name": "Induriumerz",
+   "progress": "Ich würde gern in verschiedene Teile unserer Rennwagen Indurium integrieren, brauche aber große Mengen Rohindurium, um diese Teile herzustellen.$B$BIhr findet Indurium in der Ausgrabungsstätte Uldaman im Ödland in Khaz Modan, jenseits des Meeres.$B$BDie Gnomen bekommen ihre eigenen Vorräte, wir müssen daher unbedingt selbst welches haben, um mit ihnen Schritt zu halten.$BInduriumerz (4)",
+   "completion": "Exzellent! Ich lasse die Crew sofort an den Teilen arbeiten, die wir für das nächste Rennen brauchen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1193": {
+   "name": "Die beschädigte Falle",
+   "progress": "Vor Euch liegt eine große, beschädigte Falle. Ihrem Aussehen nach zu urteilen, müssen die Oger versucht haben sie zu reparieren, jedoch ohne Erfolg. Eine hastig geschriebene Notiz liegt neben der Falle. Seltsamerweise beschreibt sie ausführlich was benötigt wird, um die Falle zu reparieren: ein Thoriumapparat und etwas Frostöl. Wäre die Falle wieder repariert, könnte ein verbeikommender Oger darin gefangen und so umgangen werden.$B$BEs ist offensichtlich ein glücklicher Zufall, dass nur die wenigsten Oger lesen können.$B$BOffensichtlich.$BThoriumapparat (1)$BFrostöl (1)",
+   "completion": "Die Thoriumvorrichtung lässt sich problemlos einfügen, und der so entstehende Hohlkörper eignet sich perfekt, um das Frostöl nach unten abfließen zu lassen. Nachdem der letzte Tropfen Öl hineingeschüttet wurde, lässt sich die Falle wieder einrasten.$B$BWehe dem unvorsichtigen Oger der hier vorbeikommt!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1267": {
+   "name": "Der vermisste Diplomat",
+   "objectivesText": [
+    "Sprecht mit Jaina Proudmore im Dustwallowsumpf."
+   ],
+   "completion": "Ich möchte der Erste sein, der Euch für all das dankt, was Ihr geleistet habt, $N. Erneut wart Ihr ein unglaublicher Segen für mein Volk und die Bewohner von Stormwind. Es tut mir Leid, dass wir uns nicht unter glücklicheren Umständen kennen gelernt haben.$B$BVersteht bitte auch, dass ich Euch nicht offen für Eure Bemühungen danken kann, aber ich möchte Euch nochmals versichern, dass ich sie wohl zu schätzen weiß.$B$BWenn Ihr in Zukunft einmal nach Theramore kommt, schaut unbedingt bei mir herein, dann werde ich versuchen, Euch über die Lage auf dem Laufenden zu halten.$B$BNochmals danke, $N.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1271": {
+   "name": "Festmahl im Blauen Eremiten",
+   "completion": "Mein Neffe sagte, Ihr habt ihn bei seiner Suche in Dustwallow unterstützt und seinem Assistenten aus der Klemme geholfen. Also wir Sterns halten zusammen und vergessen unsere Freunde nicht!$B$BAlso wascht Eure Hände, $N, denn wir geben Euch zu Ehren eine Party!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1462": {
+   "name": "Erdsapta",
+   "objectivesText": [
+    "Sprecht mit der Seherin Ravenfeather wegen eines weiteren Erdsaptas."
+   ],
+   "completion": "Nehmt dies und vergesst nicht, es ist heilig.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1463": {
+   "name": "Erdsapta",
+   "objectivesText": [
+    "Sprecht mit Canaga Earthcaller wegen eines weiteren Erdsaptas."
+   ],
+   "completion": "Ich gebe Euch voller Vertrauen einen. Ihr habt Euren Wert schon einmal bewiesen, doch ich finde, künftig solltet Ihr vorsichtiger sein.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1464": {
+   "name": "Feuersapta",
+   "objectivesText": [
+    "Sprecht mit Telf Joolam wegen eines weiteren Feuersaptas."
+   ],
+   "completion": "Möge Feuer in Eurem Herzen brennen, $N.$B$BDie Elemente erwarten Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1514": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1559": {
+   "name": "Blitzstrahlbombenanleitung",
+   "completion": "Ihr seid also Ingenieur, hm? Als Dank für Eure Hilfe bei der Beschaffung der Perlen bekommt Ihr eine Anleitung für Blitzstrahlbomben.$B$BViel Glück und versucht, Euch nicht selbst zu blenden!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1641": {
+   "name": "Der Foliant der Offenbarung",
+   "completion": "Hier in Stormwind bin ich dafür verantwortlich, die Paladine auf den Pfad der größten Tugend zu bringen, sobald sie sich dem Weg des Lichts verschreiben und Azeroth vor der Geißel und anderen Bedrohungen verteidigen.$B$BDie Zeit ist gekommen, den ersten Schritt hin zu wahrer Tugend zu tun. Wenn Ihr einverstanden seid, gebe ich Euch das Buch der Offenbarung. Wenn Ihr es studiert, erfahrt Ihr etwas über das Licht und was von Euch erwartet wird. Wenn Ihr es versteht und tüchtig seid, werdet Ihr erfolgreich größere Fähigkeiten erlangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1645": {
+   "name": "Der Foliant der Offenbarung",
+   "completion": "Welche Freude, Euch zu sehen, $N. Ich bringe die Paladine auf den Pfad der Tugend, wenn sie sich dem Weg des Lichts verschreiben und Azeroth vor der Geißel und anderen Bedrohungen beschützen.$B$BDie Zeit ist gekommen, den ersten Schritt hin zu wahrer Tugend zu tun. Wenn Ihr einverstanden seid, gebe ich Euch den Folianten der Offenbarung. Wenn Ihr es studiert, erfahrt Ihr etwas über das Licht und was von Euch erwartet wird. Wenn Ihr es versteht und tüchtig seid, werdet Ihr erfolgreich größere Fähigkeiten erlangen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1682": {
+   "name": "Waffen aus grauem Eisen",
+   "completion": "Hier ein paar Waffen, frisch vom Amboss und aus dem neuen Umbralerz gefertigt, das Ihr mir gebracht habt!$B$BBitte, $N, sucht Euch eine aus!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1693": {
+   "name": "Waffen aus Elunit",
+   "completion": "$N, ich habe mit dem Elunit, das Ihr mir brachtet, diese Waffen hergestellt. Bitte nehmt die, die Euch am angenehmsten ist.$B$BUnd ich muss Euch danken. Es ist eine Ehre und Freude, mit Elunit zu arbeiten.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1706": {
+   "name": "Grimands Rüstung",
+   "completion": "Ich kann es kaum glauben! Furens Technik war ein Erfolg. Seine Rüstung sollte ungeheuren Belastungen standhalten können.$B$BDa habt Ihr sie, $N. Und habt Dank. Ich hätte nicht an Furens Entdeckung geglaubt, wenn Ihr nicht die Materialien gesammelt hättet, die ich für einen Test brauchte.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1709": {
+   "name": "Klockmorts Kreation",
+   "completion": "Hier ist Eure Rüstung, $N. Furens Prozess hat ausgezeichnet funktioniert! Perfekt! Wunderbar, ehrlich!$B$BMan könnte mit einer Belagerungsmaschine über diese Rüstung fahren und sie würde wieder ihre alte Form annehmen!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1711": {
+   "name": "Mathiels Rüstung",
+   "completion": "Ich habe Eure Rüstung vollendet und bin recht zufrieden. Furens neue Techniken passen ausgezeichnet zu meinen. Ich bin sicher, diese Rüstung wird sehr widerstandsfähig sein.$B$BDanke, $N. Möge sie Euch in künftigen Kämpfen nützlich sein.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1714": {
+   "name": "Essenz der Verbannung",
+   "progress": "Der Kessel blubbert. Seine Dämpfe locken...$BDonnernder Glücksbringer (8)$BBrennender Glücksbringer (8)$BSchäumender Glücksbringer (8)",
+   "completion": "Die Glücksbringer sinken langsam in die Tiefen des Kessels...$B$BEine große Luftblase steigt zur Oberfläche der Flüssigkeit und zerplatzt...$B$B... Und ein brodelnder Klumpen geschmolzenen Felsens ist zu sehen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1782": {
+   "name": "Furens Rüstung",
+   "completion": "Hier ist Eure Rüstung, $N. Sie wird dem stärksten Angriff standhalten, oder ich will nicht mehr Furen Longbeard heißen!$B$BUnd ich habe Euch zu danken. Ich habe bei der Arbeit mit dem Material, das Ihr mir brachtet, viel gelernt. Ich glaube, eines Tages werde ich einen weiteren Durchbruch schaffen!$B$BIch werde das, was ich gelernt habe, den anderen Schmieden der Allianz schicken.$B$BIch sage ihnen, was für eine große Hilfe Ihr wart. Vielleicht möchten sie den Gefallen erwidern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1789": {
+   "name": "Das Symbol des Lebens",
+   "completion": "Solltet Ihr es nicht schaffen, Narm zu helfen, nachdem Ihr das Symbol des Lebens benutzt habt, $N, dann kommt zu mir zurück und ich werde Euch ein weiteres geben.$B$BEs ist sowohl für meinen Ehemann als auch für mich wichtig, dass Ihr erfolgreich zurückkehrt. Bitte sputet Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1790": {
+   "name": "Das Symbol des Lebens",
+   "completion": "Sputet Euch, $N, mehr als ein Leben steht auf dem Spiel, wenn Ihr scheitert.$B$BWenn Ihr Gazin und Henze aus irgendeinem Grund nicht helfen könnt, dann kommt zu mir zurück und ich gebe Euch ein weiteres Symbol des Lebens für Eure Reisen.$B$BVersteht meine Unterstützung nicht als reine Wohltätigkeit. Ihr müsst Euch wie jeder andere $C beweisen, und wenn Ihr ständig scheitert, fällt das später auf Euch zurück.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1792": {
+   "name": "Wirbelwaffe",
+   "completion": "Ich habe das Wirbelherz und bin bereit, es in ein Gefäß Eurer Wahl zu legen.$B$BWählt eine Waffe, $N, und wisset, dass ihre Macht die Macht des Cyclonian ist.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1793": {
+   "name": "Der Foliant der Ehre",
+   "completion": "Es steht fest, dass das Licht mit Euch ist, $N, doch da die Zeiten zunehmend gefährlicher werden, ist es wichtig zu wissen, welche Kräfte dem Fleische innewohnen. Wenn Dämonen, Großdrachen oder ein anderes Übel einen Fuß in unser Land setzen, wird Eure Tapferkeit auf die Probe gestellt. Werdet Ihr stark genug sein?$B$BTapferkeit in jedweder Situation gehört ebenso zu einem $C wie das Licht, seine Rüstung und seine Waffe. Die Schwachen beschützen und den Glauben nicht verlieren, sind zwei weitere Lektionen, die Ihr meistern müsst, wenn Ihr in der Kathedrale des Lichts studiert.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1794": {
+   "name": "Der Foliant der Ehre",
+   "completion": "Es steht fest, dass das Licht mit Euch ist, $N, doch da die Zeiten zunehmend gefährlicher werden, ist es wichtig zu wissen, welche Kräfte dem Fleische innewohnen. Wenn Dämonen, Großdrachen oder ein anderes Übel einen Fuß in unser Land setzen, wird Eure Tapferkeit auf die Probe gestellt. Werdet Ihr stark genug sein?$B$BTapferkeit in jedweder Situation gehört ebenso zu einem $C wie das Licht, seine Rüstung und seine Waffe. Die Schwachen beschützen und den Glauben nicht verlieren, sind zwei weitere Lektionen, die Ihr meistern müsst, wenn Ihr in der Kathedrale des Lichts studiert.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1822": {
+   "name": "Erbstückwaffe",
+   "completion": "Ich behalte drei der Waffen, die Ihr mir gebracht habt, als Andenken an meinen Schmerz und Verlust. Aber bitte, $N, wählt Euer Lieblingserbstück und behaltet es für Euch.$B$BMöge es Euch besser dienen als seinen verfluchten vorherigen Besitzern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1843": {
+   "name": "Brutale Stulpen",
+   "completion": "Danke, $N. Diese Stulpen sind meine beste Arbeit. Nehmt sie. Wenn Ihr sie tragt, bringt es mir und meinen Vorfahren Ehre.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1845": {
+   "name": "Brutaler Helm",
+   "completion": "Ich gebe Euch diesen Helm.$B$BGroße Taten brachten Euch zu mir, $N, und wenn es der Erdenmutter gefällt... liegen noch größere vor Euch.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1847": {
+   "name": "Brutale Beinschützer",
+   "completion": "Hier sind Eure Beinschützer, $N. Lasst mich wissen, ob sie passen oder geändert werden müssen. Ich möchte zufriedene Kunden! Zumindest früher wollte ich das.$B$BHeutzutage liegt mir nicht mehr viel an meinem Handwerk. Aber immer noch besser, als eine hirnlose Dienerin der Geißel zu sein!$B$BDenke ich.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1848": {
+   "name": "Brutale Halsberge",
+   "completion": "Ich bin sicher, Ihr habt bei dieser Aufgabe viele Unannehmlichkeiten erduldet und viel Blut vergossen, $N. Hier ist das Produkt Eurer Mühsal.$B$BMöge es Euch gute Dienste leisten und möget Ihr eines Tages wiederkommen und erzählen, wie nützlich sie Euch waren.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1878": {
+   "name": "Wasserbeutelkopfgeld",
+   "progress": "Ihr seid ja schon wieder da, $N! Wenn Ihr noch fünf Wasserbeutel eines Wüstenläufers für mich habt, dann habe ich hier ein kleines Paket, das nur auf Euch wartet!$BWasserbeutel eines Wüstenläufers (5)",
+   "completion": "Hervorragend - je mehr Wasserbeutel wir wiederbeschaffen können, desto weiter sind wir von einer Katastrophe entfernt! Bringt mir mehr und ich werde Euch für jeweils fünf Wasserbeutel belohnen, die Ihr mir bringt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1941": {
+   "name": "Managewirkte Robe",
+   "completion": "Hier ist Eure Robe. Er ist eine meiner besten bisher! Tragt sie voller Stolz, und wenn die Leute Euch fragen... sagt ihnen, Ihr habt sie vom Konfektionsgeschäft Larson.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1942": {
+   "name": "Astralknotengewand",
+   "completion": "Euer Gewand ist fertig! Die Seide, die Ihr mir gebracht hattet, war so hübsch... es stört Euch doch nicht, dass ich es etwas kürzer gemacht habe, damit noch etwas Seide für mich übrig bleibt, oder?$B$BDas war nur ein Witz. Das Gewand wird sitzen wie angegossen und es eignet sich gleichermaßen gut, um damit in Abenteuer zu ziehen oder zu einem Empfang zu gehen. Viel Spaß damit!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1946": {
+   "name": "Netherspitzengewand",
+   "completion": "Hier habt Ihr Euer Gewand aus Netherspitze, $N. Es ist bequem und strapazierfähig und enthält die Magie des Haars der lachenden Schwestern.$B$BViel Spaß damit, und wenn Euch das Gewand zusagt, dann lasst es doch bitte auch Deino wissen. Sie ist eine Magierin, mit der ich es mir nicht verderben möchte ...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1958": {
+   "name": "Himmlische Macht",
+   "completion": "Ihr solltet stolz auf Euch sein, $N. Viele $C fielen den Kreaturen zum Opfer, denen Ihr getrotzt habt.$B$BDie Himmelskugel ist fertig. Wenn Ihr möchtet, kann ich sie oben an einem Stab anbringen. Es liegt bei Euch. Mir persönlich wäre die Kugel allein ja lieber, aber wer bin ich, mir ein Urteil zu erlauben?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "1962": {
+   "name": "Roben des Zauberfeuers",
+   "completion": "Hier sind Eure Roben, $N. Tragt sie mit Bedacht.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2361": {
+   "name": "Restaurierung der Halskette",
+   "completion": "Ich gebe Euch diese Halskette gern, $C. Ihr habt mir einen unschätzbaren Dienst erwiesen und dafür danke ich Euch. Tragt die Kette mit Stolz und vergesst nicht, immer wieder in der gebührenden Lautstärke zu verkünden, wer sie für Euch gemacht hat!$B$BUnd wenn Ihr auch beiläufig erwähnen könntet, dass die Kette nicht verflucht ist, dann wäre das wirklich wunderbar.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2399": {
+   "name": "Die sprießenden Wedel",
+   "completion": "Die Wedel, die Denalan in seinem Garten angepflanzt hat, sind gesprossen und gediehen. Sie zittern leicht, als wollten sie gepflückt werden...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2523": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2741": {
+   "name": "Der Super-Ei-O-Mat",
+   "progress": "Der Super-Ei-O-Mat ist die neueste Erfindung von Curgle Cranklehop. Es ist eine ziemlich beeindruckende Maschine.$B$BDer Super-Ei-O-Mat fängt wild an zu spucken und zu zischen, als Ihr Euch der Steuerkonsole nähert.$BHippogryphen-Ei (1)",
+   "completion": "Ihr legt das Hippogryphen-Ei in die Maschine. Es folgen eine Reihe von Pieptönen sowie ein seltsames Rasseln, Rattern und Klicken.$B$BEs scheint, als hätte das Ei-O-Meter Euer Ei gewogen, vermessen und verpackt. Das ist echt ein zügiger Service!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2747": {
+   "name": "Ein außergewöhnliches Ei",
+   "progress": "Ich habe bisher nur sehr wenige Eier gesehen, die in außergewöhnlich gutem Zustand aus Feralas geholt wurden. Diese Eier sind extrem selten...$BAußergewöhnliches Ei (1)",
+   "completion": "Und Ihr habt eins - erstaunlich!$B$BIch hoffe, Ihr vergesst nie, welch gute Tat Ihr heute vollbracht habt.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2748": {
+   "name": "Ein gutes Ei",
+   "progress": "Ein gutes Ei ist ein Ei, aus dem idealerweise ein Jungtier schlüpft, das frei von den bösen Auswirkungen der Beschwörungen der Oger der Gordunni ist.$BGutes Ei (1)",
+   "completion": "Sehr gut, $N. Ich werde dieses Ei nach Darnassus schicken, wo dann hoffentlich bald ein Küken schlüpfen wird!$B$BBitte nehmt dies zum Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2749": {
+   "name": "Ein gewöhnliches Ei",
+   "progress": "Normalerweise schlüpft etwa aus jedem zweiten Hippogryphen-Ei auch ein Jungtier. Wir hegen und pflegen die Eier nach besten Kräften, und wenn wir Glück haben, dann schlüpft am Ende etwas da raus.$BGewöhnliches Ei (1)",
+   "completion": "Ihr habt also ein gewöhnliches Ei gefunden, $N, hm? Bitte gebt es mir... Jetzt können wir nur das Beste hoffen.$B$BIch habe nicht viel, aber bitte nehmt diese Belohnung an. Falls Ihr je wieder nach Feralas kommen solltet, dann denkt daran, dass ich immer gern bereit bin, Euch die Eier abzunehmen, die Ihr dort findet.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2750": {
+   "name": "Ein schlechtes Ei",
+   "progress": "Diese Eier können nicht gerettet werden - aus ihnen wird niemals etwas schlüpfen.$BSchlechtes Ei (1)",
+   "completion": "Leider habe ich schlechte Neuigkeiten für Euch, $N. Für dieses Ei ist es schon zu spät. Ich kann es Euch abnehmen, damit es richtig entsorgt wird.$B$BLasst Euch bitte nicht entmutigen, wir können eben nicht alle retten. Falls Ihr je nochmals nach Feralas kommen solltet, dann versucht es bitte wieder. Bringt uns ein weiteres Ei für den Super-Ei-O-Mat!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2878": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2881": {
+   "name": "Kopfgeld für Trollhalsketten",
+   "progress": "Ihr habt das zwar bereits erledigt, aber wir nehmen weiterhin alle Troll-Stammeshalsketten an, die Ihr findet und eintauschen wollt. Indem Ihr sie bei mir eintauscht, verbessert Ihr weiter Eure Stellung unter den Wildhammers. Wenn Ihr für uns kämpft, dann kämpfen wir auch für Euch!$B$BIch benötige 5 Troll-Stammeshalsketten, damit ich es gelten lassen kann, $N.$BTroll-Stammeshalskette (5)",
+   "completion": "Ein weiterer Satz Halsketten bedeutet, dass es weniger Trolle im Hinterland gibt, derentwegen man sich Sorgen machen muss! Ihr habt es wieder geschafft, $N. Leistet weiter so gute Arbeit!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2952": {
+   "name": "Der Funkelmat 5200!",
+   "completion": "Der Funkelmat 5200 stoppt so schnell, wie er losgelegt hat. Ein einfaches \"Ding\" ist aus der Maschine zu hören und der Aufnahmebehälter der Maschine springt auf. Im Funkelmat 5200 liegt eine kleine Schachtel, die von einem Schleifchen umschlungen ist. Offensichtlich verpackt die Maschine ein Objekt, nachdem sie die Schmutzverkrustung entfernt hat. Selbst wenn die Maschine nicht funktioniert hat, ist der Gegenstand jetzt immerhin in einer hübschen Schachtel verpackt.$B$BTja, es gibt nur einen Weg herauszufinden, ob sie den Gegenstand gesäubert hat oder nicht...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "2953": {
+   "name": "Mehr Spaß mit dem Funkelmaten",
+   "progress": "Der Funkelmat 5200 ist leer und wartet auf ein schmutzverkrustetes Objekt zum Säubern sowie auf drei Silbermünzen, um loszulegen!$BSchmutzverkrustetes Objekt (1)$BBenötigtes Geld: 3 (1)",
+   "completion": "Der Funkelmat 5200 erwacht hin und her schlingernd zum Leben. Innen wird der hilflose Schmutz, der das eingelegte Objekt verkrustet hat, vom Gnomen-Lösungsmittel der Maschine pulverisiert.$B$BDer Funkelmat 5200 kommt zum Stillstand, angekündigt durch ein vertrautes \"Ding!\". Der Aufnahmebehälter der Maschine springt auf und offenbart eine ordentlich eingewickelte Schachtel.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3421": {
+   "name": "Rückreise",
+   "completion": "Ich werde Euch jetzt zu Sanaths Lager zurückbringen.$B$BMacht Euch nichts aus seinen schlechten Manieren - er ist zu allen unhöflich, außer zum Meister. Vielleicht wird er seine Lektion eines Tages lernen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3483": {
+   "name": "Signal zum Abholen",
+   "completion": "Ah, noch eine Leuchtfeuerwaffe, hm? Die kann ich Euch geben.$B$BUnd vergesst nicht, Südspitze von Azshara. Es ist eine kleine Insel, die in eine Landungsplattform verwandelt wurde. Ihr könnt sie gar nicht verfehlen, wenn Ihr an der richtigen Stelle sucht.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3503": {
+   "name": "Treffen mit dem Meister",
+   "completion": "Es gab Zeiten, in denen ich alles von denen, die meinen Meister aufsuchen wollten, verlangen konnte. Heute ist es anders, Ihr müsst nur nach ihm fragen und ich schicke Euch zu ihm.$B$BEs ist ärgerlich für mich, aber ich stelle seine Befehle nicht in Frage. Ich kann mich lediglich an Eurer lächerlichen Aufmachung oder Eurem jämmerlichen Gesichtsausdruck erfreuen. Selbst das langweilt mich...$B$BSogar dieses Geschwafel langweilt mich! Möchtet Ihr meinen Meister sehen oder nicht?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3567": {
+   "name": "An die Spitze",
+   "completion": "Würdet Ihr den Ausblick von einem der Zwillingskolosse bevorzugen? Ich kann Euch dorthin schicken, $R.$B$BAber überlegt, wie Ihr wieder herunterkommt. Ich kann Euch nur nach oben schicken.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3570": {
+   "name": "Verbreitete Verderbnis",
+   "completion": "Ich hätte mir nie träumen lassen, dass das Elixier so schnell Wirkung zeigen würde. Danke, $N. Ich werde mich sofort an die Untersuchung der restlichen Proben machen. Bestimmt werden sie für Lady Silvanas und die Verlassenen schon bald von Nutzen sein.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3644": {
+   "name": "Mitgliedskarten-Erneuerung",
+   "progress": "Um Eure Mitgliedskarte zu erneuern, müsst Ihr die Erneuerungsgebühr in Höhe von zwei Goldstücken zahlen.$BBenötigtes Geld: 2 (1)",
+   "completion": "Da Ihr praktizierender Goblin-Ingenieur seid und einen guten Ruf habt, kann ich eine abgelaufene Mitgliedskarte gegen die Gebühr von zwei Goldstücken erneuern. Sobald diese Gebühr entrichtet wurde, werdet Ihr eine neue Mitgliedskarte erhalten. Diese wird Euch Zugang zu Goblin-Ingenieurskunst-Bauplänen von geeigneten Lehrern gewähren.$B$BDiese Karte ist gültig für zwei Wochen Aktivität, danach wird Eure Mitgliedsgebühr erneut fällig! Wenn Ihr Zugang zu Bauplänen benötigt, müsst Ihr Euren Beitrag begleichen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3645": {
+   "name": "Mitgliedskarten-Erneuerung",
+   "progress": "Um Eure Mitgliedskarte zu erneuern, müsst Ihr die Erneuerungsgebühr in Höhe von zwei Goldstücken zahlen.$BBenötigtes Geld: 2 (1)",
+   "completion": "Da Ihr praktizierender Gnomen-Ingenieur seid und einen guten Ruf habt, kann ich eine abgelaufene Mitgliedskarte gegen die Gebühr von zwei Goldstücken erneuern. Sobald diese Gebühr entrichtet wurde, werdet Ihr eine neue Mitgliedskarte erhalten. Diese wird Euch Zugang zu Gnomen-Ingenieurskunst-Bauplänen von geeigneten Lehrern gewähren.$B$BDiese Karte ist gültig für zwei Wochen Aktivität, danach wird Eure Mitgliedsgebühr erneut fällig! Wenn Ihr Zugang zu Bauplänen benötigt, müsst Ihr Euren Beitrag begleichen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3647": {
+   "name": "Mitgliedskarten-Erneuerung",
+   "progress": "Um Eure Mitgliedskarte zu erneuern, müsst Ihr die Erneuerungsgebühr in Höhe von zwei Goldstücken zahlen.$BBenötigtes Geld: 2 (1)",
+   "completion": "Da Ihr praktizierender Gnomen-Ingenieur seid und einen guten Ruf habt, kann ich eine abgelaufene Mitgliedskarte gegen die Gebühr von zwei Goldstücken erneuern. Sobald diese Gebühr entrichtet wurde, werdet Ihr eine neue Mitgliedskarte erhalten. Diese wird Euch Zugang zu Gnomen-Ingenieurskunst-Bauplänen von geeigneten Lehrern gewähren.$B$BDiese Karte ist gültig für zwei Wochen Aktivität, danach wird Eure Mitgliedsgebühr erneut fällig! Wenn Ihr Zugang zu Bauplänen benötigt, müsst Ihr Euren Beitrag begleichen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3721": {
+   "name": "Ein eigener OOX",
+   "completion": "Ihr habt drei meiner OOX-Leitroboter gefunden! Ihr habt viel mehr als das getan, worum ich Euch gebeten hatte. Daher will ich Euch etwas Besonderes für Eure Hilfe geben. Dies ist eine Miniaturversion jenes Roboters, den Ihr jetzt kennt und liebt, den OOX!$B$BIch würde normalerweise niemandem solch ein potenziell tödliches Gerät anvertrauen, aber Ihr wart eine wirklich große Hilfe. Außerdem wurden die Kampfmechanismen und die Leitlogik dieses Exemplars deaktiviert.$B$BAber abgesehen davon ist das ein echter OOX!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3792": {
+   "name": "Morgenkorn für die Festung Feathermoon",
+   "progress": "Abermals hallo, $N. Meine Forschung macht gute Fortschritte, aber wenn Ihr fünf weitere Einheiten Morgenkorn habt, würde ich Euch die sehr gern abnehmen. Na ja... 'gern' ist nicht wirklich der richtige Ausdruck dafür; je länger ich mich in seiner Umgebung befinde, desto unwohler fühle ich mich. Aber für meine Forschungen ist es nun mal nötig, dass ich mich zusammenreiße und weiterarbeite.$BMorgenkorn (5)",
+   "completion": "Vielen Dank, $N; ich werde das erst einmal zu meinem Vorrat legen. Und wenn ich auch nicht über die Mittel wie Staghelm verfüge, so bin ich doch in der Lage, Euch etwas für Eure Bemühungen zu geben. Denn schließlich, wer kann schon wissen, was geschehen wird, wenn Staghelm Morgenkorn um Morgenkorn bekommt. Hier geht etwas Merkwürdiges vor sich, denkt an meine Worte.$B$BVergesst nicht, dass ich immer nach weiterem Morgenkorn suche. Ich nehme Euch immer jeweils fünf Einheiten ab.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3803": {
+   "name": "Morgenkorn nach Darnassus",
+   "progress": "Der Erzdruide sucht ständig nach mehr Morgenkorn für die weiteren Forschungsarbeiten des Zirkels des Cenarius. Wir nehmen jeweils zehn Einheiten ab und belohnen Euch mit umfangreichen Dingen, die Ihr nützlich finden werdet. Wenn Ihr zehn Einheiten habt, lasst es mich wissen, und ich werde Euch entsprechend belohnen.$BMorgenkorn (10)",
+   "completion": "Hervorragend - dieses Morgenkorn wird den Erzdruiden zweifellos erfreuen. Ich muss aber zugeben... allein seine Nähe bereitet mir ein unangenehmes Gefühl. Ich kann mir gar nicht vorstellen, wie schwierig es für den Erzdruiden ist, es in so großer Menge zu ertragen!$B$BDas ist für Euch, $N. Der Zirkel des Cenarius dankt Euch für Eure unermüdliche Unterstützung.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "3804": {
+   "name": "Morgenkorn nach Thunder Bluff",
+   "progress": "Der Erzdruide sucht ständig nach mehr Morgenkorn für das Forschungsprojekt des Zirkels des Cenarius über den Un'Goro Krater. Wir nehmen jeweils zehn Einheiten ab und belohnen Euch mit umfangreichen Dingen, die Ihr nützlich finden werdet. Wenn Ihr zehn Einheiten habt, lasst es mich wissen, und ich werde Euch entsprechend belohnen.$BMorgenkorn (10)",
+   "completion": "Hervorragend - dieses Morgenkorn wird zweifellos hilfreich sein, wenn die Zeit kommt. Wir wissen, dass die Nachtelfen ähnliche Forschungen über dieses Kraut durchführen, obwohl es nicht klar ist, wie sie sie nutzen werden, wenn sie etwas herausfinden. Der Erzdruide meint, dass wir so lange Morgenkorn benötigen werden, bis wir das Geheimnis hinter diesem Kraut gelüftet haben.$B$BDas ist für Euch, $N. Der Zirkel des Cenarius dankt Euch für Eure unermüdliche Unterstützung.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4041": {
+   "name": "Das Videre-Elixier",
+   "progress": "Klar, wenn Ihr mir eine Evowurzel bringt, dann kann ich Euch auch das Videre-Elixier machen.$B$BIch weiß alle möglichen Dinge über Kräuter und Alchimie... Ich könnte Euch Geschichten erzählen... zum Beispiel, wie ich mal Gold aus dem Käse gemacht habe, den ich eigentlich zum Mittagessen... he! Wo wollt Ihr hin?$BEvowurzel (1)",
+   "completion": "Soso, Ihr habt also den alten Miblon reingelegt, wie?",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4083": {
+   "name": "Der spektrale Kelch",
+   "progress": "Der spektrale Kelch schwebt in der Luft, leicht ansteigend und dann absinkend, so, als bewege er sich im Takt eines sterbenden Herzens.$BSternrubin (2)$BGoldbarren (20)$BEchtsilberbarren (10)",
+   "completion": "Geräuschlos fallen die Edelsteine in die Tiefen des Kelchs...",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4103": {
+   "name": "Salbe durch Jagd",
+   "progress": "Wer ein cenarisches Leuchtfeuer besitzt, kann mit diesem die verderbten Seelensplitter in den besudelten Bestien sehen, die zum Wohl der Allgemeinheit vernichtet werden. Ich schleife Splitter zu einem nutzbaren Reagenz, das für die Herstellung von cenarischer Pflanzensalbe verwendet wird. Wir werden diese Salbe benutzen, um verderbte Pflanzen wieder in gesunde zu verwandeln.$B$BIm Austausch für diese Splitter werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BVerderbter Seelensplitter (6)",
+   "completion": "Sehr gut, hier habt Ihr Eure cenarischen Pflanzensalben. Durchsucht den Teufelswald nach verderbten Pflanzen, $N! Wo auch immer sie sind, benutzt die Salbe, die ich Euch gab, um sie zu läutern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4104": {
+   "name": "Salbe durch Bergbau",
+   "progress": "Wenn Ihr im Besitz eines cenarischen Leuchtfeuers seid, während Ihr im Teufelswald Bergbau betreibt, könnt Ihr das besudelte Vitriol sehen, von dem eine Ader Rohmetall verderbt wird. Ich weiß, wie man dieses Vitriol läutert und zu einem Reagenz verarbeitet, aus dem cenarische Pflanzensalbe hergestellt wird. Diese Salbe verwendet Ihr dann an Pflanzen, die Ihr draußen in der Wildnis findet und die gerettet werden müssen.$B$BWenn Ihr verderbtes Vitriol gesammelt habt, werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BBesudeltes Vitriol (4)",
+   "completion": "Sehr gut, hier habt Ihr etwas cenarische Pflanzensalbe. Wenn Ihr beim Bergbau im Teufelswald noch mehr Vitriol findet, dann hebt es auf jeden Fall für mich auf! Je mehr Ihr davon findet, desto mehr Salbe kann ich herstellen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4105": {
+   "name": "Salbe durch Sammlung",
+   "progress": "Mit einem cenarischen Leuchtfeuer können erfahrene Kräuterkundige die heimtückische Teufelsranke erkennen, ein bösartiges Produkt der Verderbnis des Teufelswalds. Dank meiner Arbeit verfüge ich über das Wissen, die Teufelsranke zu einem Säuberungsreagenz verarbeiten zu können. Dieses verwenden wir für etwas, das wir jetzt cenarische Pflanzensalbe nennen.$B$BWenn Ihr im Teufelswald Kräuter sammelt, dann solltet Ihr, solange Ihr das Leuchtfeuer bei Euch habt, auf Teufelsranken stoßen. Im Austausch gegen das, was Ihr mir bringt, werde ich Euch fertige cenarische Pflanzensalbe geben.$BTeufelsunhold (4)",
+   "completion": "Ausgezeichnete Arbeit, $N, jedes Teilchen hiervon wird, sobald wir es geläutert haben, dabei helfen, den Teufelswald zurückzugewinnen. Hier, nehmt einige Dosen der cenarischen Pflanzensalbe und begebt Euch in den Wald. Wir dürfen nicht damit zögern, das Land der Verderbnis zu entreißen, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4106": {
+   "name": "Salbe durch Kürschnerei",
+   "progress": "Mit einem cenarischen Leuchtfeuer können gut ausgebildete Kürschner die Flecken besudelter Haut auf den im Teufelswald erbeuteten Fellen erkennen. Ich wandle diese scheinbar nutzlosen Flecken in eine dicke Paste um, mit der die cenarische Pflanzensalbe aktiviert wird. Wenn Ihr hier im Teufelswald Eure Beute häutet, dann solltet Ihr unbedingt immer ein Leuchtfeuer bei Euch haben.$B$BSobald Ihr besudelte Flecken gesammelt habt, bringt sie mir. Ich gebe Euch etwas cenarische Pflanzensalbe dafür, die ich bereits hergestellt habe.$BBesudelter Hautfetzen (5)",
+   "completion": "Genau das brauche ich. Hier, nehmt diese Pflanzensalben und verwendet sie, um den Teufelswald der Verderbnis zu entreißen. Wir müssen beharrlich bleiben, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4107": {
+   "name": "Salbe durch Entzauberung",
+   "progress": "Die Macht eines entzauberten magischen Gegenstandes ist in der von ihm geschaffenen Essenz spürbar. Ich habe einen Weg gefunden, um die rohe Essenz, die von Verzauberern verwendet wird, in ein geeignetes Reagenz für die cenarische Pflanzensalbe umzuwandeln. Dazu braucht Ihr kein cenarisches Leuchtfeuer; jeder angemessen entzauberte Gegenstand, der geringe Netheressenzen abgibt, ist dafür geeignet.$B$BIch brauche nur eine einzige geringe Netheressenz; im Austausch dafür werde ich Euch cenarische Pflanzensalben geben. Die Essenz ist hochwirksam - ganz wenig davon genügt, um viel zu erreichen.$BGeringe Netheressenz (1)",
+   "completion": "Hier sind einige cenarische Pflanzensalben - ich brauche nur eine geringe Netheressenz, um sie herzustellen, $N. Die Essenz ist bei weitem der wirksamste Gegenstand, um Schwerter zu Pflugscharen zu machen, wenn man so sagen will. Wenn Ihr mehr Salbe braucht, dann kommt wieder zu mir!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4108": {
+   "name": "Salbe durch Jagd",
+   "progress": "Wer ein cenarisches Leuchtfeuer besitzt, kann mit diesem die verderbten Seelensplitter in den besudelten Bestien sehen, die zum Wohl der Allgemeinheit vernichtet werden. Ich schleife Splitter zu einem nutzbaren Reagenz, das für die Herstellung von cenarischer Pflanzensalbe verwendet wird. Wir werden diese Salbe benutzen, um verderbte Pflanzen wieder in gesunde zu verwandeln.$B$BIm Austausch für diese Splitter werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BVerderbter Seelensplitter (6)",
+   "completion": "Sehr gut, hier habt Ihr Eure cenarischen Pflanzensalben. Durchsucht den Teufelswald nach verderbten Pflanzen, $N! Wo auch immer sie sind, benutzt die Salbe, die ich Euch gab, um sie zu läutern.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4109": {
+   "name": "Salbe durch Bergbau",
+   "progress": "Wenn Ihr im Besitz eines cenarischen Leuchtfeuers seid, während Ihr im Teufelswald Bergbau betreibt, könnt Ihr das besudelte Vitriol sehen, von dem eine Ader Rohmetall verderbt wird. Ich weiß, wie man dieses Vitriol läutert und zu einem Reagenz verarbeitet, aus dem cenarische Pflanzensalbe hergestellt wird. Diese Salbe verwendet Ihr dann an Pflanzen, die Ihr draußen in der Wildnis findet und die gerettet werden müssen.$B$BWenn Ihr verderbtes Vitriol gesammelt habt, werde ich Euch etwas cenarische Pflanzensalbe geben, die ich bereits vorbereitet habe.$BBesudeltes Vitriol (4)",
+   "completion": "Sehr gut, hier habt Ihr etwas cenarische Pflanzensalbe. Wenn Ihr beim Bergbau im Teufelswald noch mehr Vitriol findet, dann hebt es auf jeden Fall für mich auf! Je mehr Ihr davon findet, desto mehr Salbe kann ich herstellen.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4110": {
+   "name": "Salbe durch Sammlung",
+   "progress": "Mit einem cenarischen Leuchtfeuer können erfahrene Kräuterkundige die heimtückische Teufelsranke erkennen, ein bösartiges Produkt der Verderbnis des Teufelswalds. Dank meiner Arbeit verfüge ich über das Wissen, die Teufelsranke zu einem Läuterungsreagenz verarbeiten zu können. Dieses verwenden wir für etwas, das wir jetzt cenarische Pflanzensalbe nennen.$B$BWenn Ihr im Teufelswald Kräuter sammelt, dann solltet Ihr, solange Ihr das Leuchtfeuer bei Euch habt, auf Teufelsranken stoßen. Im Austausch gegen das, was Ihr mir bringt, werde ich Euch fertige cenarische Pflanzensalbe geben.$BTeufelsunhold (4)",
+   "completion": "Ausgezeichnete Arbeit, $N, jedes Teilchen hiervon wird, sobald wir es geläutert haben, dabei helfen, den Teufelswald zurückzugewinnen. Hier, nehmt einige Dosen der cenarischen Pflanzensalbe und begebt Euch in den Wald. Wir dürfen nicht damit zögern, das Land der Verderbnis zu entreißen, $R!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4111": {
+   "name": "Salbe durch Kürschnerei",
+   "progress": "Mit einem cenarischen Leuchtfeuer können gut ausgebildete Kürschner die Flecken besudelter Haut auf den im Teufelswald erbeuteten Fellen erkennen. Ich wandle diese scheinbar nutzlosen Flecken in eine dicke Paste um, mit der die cenarische Pflanzensalbe aktiviert wird. Wenn Ihr hier im Teufelswald Eure Beute häutet, dann solltet Ihr unbedingt immer ein Leuchtfeuer bei Euch haben.$B$BSobald Ihr besudelte Flecken gesammelt habt, bringt sie mir. Ich gebe Euch einige cenarische Pflanzensalben dafür, die ich bereits hergestellt habe.$BBesudelter Hautfetzen (5)",
+   "completion": "Genau das brauche ich. Hier, nehmt diese Pflanzensalben und verwendet sie, um den Teufelswald der Verderbnis zu entreißen. Wir müssen beharrlich bleiben, $N!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4112": {
+   "name": "Salbe durch Entzauberung",
+   "progress": "Die Macht eines entzauberten magischen Gegenstandes ist in der von ihm geschaffenen Essenz spürbar. Ich habe einen Weg gefunden, um die rohe Essenz, die von Verzauberern verwendet wird, in ein geeignetes Reagenz für die cenarische Pflanzensalbe umzuwandeln. Dazu braucht Ihr kein cenarisches Leuchtfeuer; jeder angemessen entzauberte Gegenstand, der geringe Netheressenzen abgibt, ist dafür geeignet.$B$BIch brauche nur eine einzige geringe Netheressenz; im Austausch dafür werde ich Euch cenarische Pflanzensalben geben. Die Essenz ist hochwirksam - ganz wenig davon genügt, um viel zu erreichen.$BGeringe Netheressenz (1)",
+   "completion": "Hier sind einige cenarische Pflanzensalben - ich brauche nur eine geringe Netheressenz, um sie herzustellen, $N. Die Essenz ist bei weitem der wirksamste Gegenstand, um Schwerter zu Pflugscharen zu machen, wenn man so sagen will. Wenn Ihr mehr Salbe braucht, dann kommt wieder zu mir!",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4113": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, was wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4114": {
+   "name": "Verderbte Liedblume",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, das wie eine Liedblumenpflanze aussieht. Ein stechender, ungesunder Geruch geht von der Pflanze aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet ein wenig cenarische Pflanzensalbe auf die Liedblume an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
+   "v": 2
+  },
+  "4115": {
+   "name": "Verderbte Windblüte",
+   "progress": "Ihr habt eine kränkliche, verderbte Ausgabe von etwas gefunden, was wie eine Windblütenpflanze aussieht. Die Beeren, die von der Pflanze herabhängen, sehen verfault und giftig aus. Es muss sich dringend jemand um die Pflanze kümmern, wenn sie wieder zu ihrem Normalzustand zurückkehren soll.$BCenarische Pflanzensalbe (2)",
+   "completion": "Ihr wendet zwei cenarische Pflanzensalben auf die Windblüte an. Sofort beginnt sie sich zu verwandeln. Sie blüht auf und wird zu einer vor Leben sprühenden und gesunden Pflanze.",
+   "fetched": "2026-10-02",
    "v": 2
   }
  }
