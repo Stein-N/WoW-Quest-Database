@@ -35,8 +35,8 @@ um Blizzard-Artwork. Nach einem erneuten `make maps` die geänderten Dateien com
 
 ## Hinweise
 
-- Die Beschriftungen sind **deutsch**, weil beide Clients mit deutschen Texten installiert
-  sind. Für englische Karten im Battle.net-Launcher die Textsprache auf Englisch stellen und
-  `make maps` erneut ausführen.
+- Die Beschriftungen kommen aus der Textsprache des Clients. Die eingecheckten Karten sind
+  **englisch** (enUS). Vor `make maps` im Battle.net-Launcher die Textsprache auf Englisch
+  lassen, sonst werden die Karten in einer anderen Sprache beschriftet.
 - Dungeons haben im Client keine Kartengrafik. Spawns in Instanzen erscheinen deshalb am
   Instanzeingang auf der Außenkarte.

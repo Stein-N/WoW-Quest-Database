@@ -7,7 +7,8 @@
       "In the Lua export the quest fields starters and enders are now called startedBy and finishedBy, matching QuestieDB.",
       "The database is also online at data.morthen.net, updated after every data release.",
       "Vendor lists show limited stock (e.g. \"limited: 2, restocks every 2 h\"), and entries known only from VMangos carry a VMangos badge with a note that they may be outdated.",
-      "Item pages have a map showing where the item is sold, dropped or looted, with a colour for each kind of source."
+      "Item pages have a map showing where the item is sold, dropped or looted, with a colour for each kind of source.",
+      "Map labels (zone, town and region names) are now in English."
     ],
     "data": [
       "Quest texts that QuestieDB, VMangos and the game cache lack can now be filled in from Wowhead in every language; quests using them list Wowhead as a source.",
