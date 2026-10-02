@@ -12,7 +12,7 @@ QUESTIE  := vendor/QuestieDB
 LUA      := ./tools/lua-binary/linux-x64/lua
 VMANGOS  := vendor/vmangos
 SQLITE   := $(VMANGOS)/sqlite-dump/mangos.sqlite
-WOW_DIR  ?= $(HOME)/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft
+WOW_DIR  ?= /run/media/$(USER)/Games/Battle.Net/drive_c/Program Files (x86)/World of Warcraft
 
 .PHONY: data submodule questie vmangos site-data dev build maps lua docker questcache wowhead clean update
 

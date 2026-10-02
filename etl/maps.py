@@ -22,6 +22,7 @@ are plain images (QuestieDB has no coordinates inside instances), listed separat
 
 import argparse
 import csv
+import getpass
 import io
 import json
 import urllib.request
@@ -33,7 +34,7 @@ from casc import LocalCasc
 from db2 import read_wdc5
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_WOW = Path.home() / "Games/battlenet/drive_c/Program Files (x86)/World of Warcraft"
+DEFAULT_WOW = Path("/run/media") / getpass.getuser() / "Games/Battle.Net/drive_c/Program Files (x86)/World of Warcraft"
 
 # FileDataIDs of the client tables (stable across builds).
 WORLD_MAP_OVERLAY = 1134579       # ID, UiMapArtID, TextureWidth, TextureHeight, OffsetX, OffsetY, ...
