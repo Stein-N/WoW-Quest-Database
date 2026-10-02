@@ -155,6 +155,8 @@ export interface GameObject extends SpawnData {
 export interface Item {
 	id: number;
 	name: string;
+	/** positions of vendors, droppers and objects for the map, keyed "npc:ID" / "object:ID" */
+	spawns?: Record<string, SpawnData>;
 	quality?: number | null;
 	itemLevel?: number;
 	reqLevel?: number;

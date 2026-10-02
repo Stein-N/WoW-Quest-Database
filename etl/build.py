@@ -28,6 +28,7 @@ BUCKET = 100
 DIGEST_PATH = ROOT / "build" / "data-digest.json"
 MAX_ITEM_SOURCES = 25  # droppers embedded per item objective (map + list)
 MAX_LOOT = 150
+MAX_ITEM_MAP_DROPPERS = 25  # droppers / objects with positions on an item page map
 
 
 def bucket_of(entity_id):
@@ -483,6 +484,19 @@ class Flavor:
             objectives.append(o)
         return objectives
 
+    def _item_map(self, item_id, drops, it):
+        """{"spawns": {"npc:ID": spawn data}} for the item page map: every vendor, the droppers
+        with the best chances and the objects it is looted from."""
+        refs = [("npc", v) for v in self.item_vendors.get(item_id, {})]
+        refs += [("npc", d["id"]) for d in drops[:MAX_ITEM_MAP_DROPPERS]]
+        refs += [("object", o) for o in (it.get("objectDrops") or [])[:MAX_ITEM_MAP_DROPPERS]]
+        spawns = {}
+        for kind, entity_id in refs:
+            data = self.spawn_data(kind, entity_id)
+            if data:
+                spawns[f"{kind}:{entity_id}"] = data
+        return {"spawns": spawns} if spawns else {}
+
     def _item_sources(self, item_id, spawns):
         item = self.items.get(item_id) or {}
         chances = self.item_drop_chances.get(str(item_id)) or {}
@@ -773,6 +787,7 @@ class Flavor:
             if npc_id not in seen and len(drops) < MAX_LOOT:
                 drops.append(self.ref("npc", npc_id, chance=chance))
         drops.sort(key=lambda d: -(d.get("chance") or 0))
+        r.update(self._item_map(item_id, drops, it))
         r.update({
             "droppedBy": drops or None,
             "objectDrops": [self.ref("object", i) for i in it.get("objectDrops") or []] or None,

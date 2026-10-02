@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { site } from '$lib/context.svelte';
 	import { useEntity } from '$lib/entity.svelte';
 	import { QUALITY_NAMES } from '$lib/format';
 	import EntityLink from '$lib/components/EntityLink.svelte';
 	import Money from '$lib/components/Money.svelte';
 	import RefList from '$lib/components/RefList.svelte';
-	import type { Item } from '$lib/types';
+	import ZoneMap, { type MapLayer } from '$lib/components/ZoneMap.svelte';
+	import type { Item, Ref } from '$lib/types';
 
 	const flavor = $derived(page.params.flavor!);
 	const id = $derived(Number(page.params.id));
@@ -13,6 +15,31 @@
 	const item = $derived(entity.value);
 	const name = $derived(entity.tr?.name ?? item?.name);
 	const description = $derived(entity.tr?.description ?? item?.description);
+
+	// one colour per kind of source; VMangos-only vendors separately since they may be outdated
+	const layers = $derived.by((): MapLayer[] => {
+		const it = item;
+		if (!it?.spawns) return [];
+		const spawns = it.spawns;
+		const entries = (refs: Ref[] | undefined) =>
+			(refs ?? [])
+				.filter((r) => spawns[`${r.t}:${r.id}`])
+				.map((r) => ({
+					name: site.names?.[r.t]?.[r.id] ?? r.name,
+					href: `#/${flavor}/${r.t}/${r.id}`,
+					data: spawns[`${r.t}:${r.id}`]
+				}));
+		return [
+			{ label: 'Sold by', color: '#3fb950', entries: entries(it.vendors?.filter((r) => !r.vmangos)) },
+			{
+				label: 'Sold by (VMangos, may be outdated)',
+				color: '#a371f7',
+				entries: entries(it.vendors?.filter((r) => r.vmangos))
+			},
+			{ label: 'Dropped by', color: '#e8524a', entries: entries(it.droppedBy) },
+			{ label: 'Contained in object', color: '#4a90e2', entries: entries(it.objectDrops) }
+		].filter((l) => l.entries.length);
+	});
 
 	const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 </script>
@@ -28,6 +55,14 @@
 	<h1 class="q{it.quality ?? 1}">{name}</h1>
 	<div class="grid">
 		<div>
+			{#if layers.length}
+				<section class="panel">
+					<h3>Where to find it</h3>
+					{#key `${flavor}:${id}`}
+						<ZoneMap {layers} />
+					{/key}
+				</section>
+			{/if}
 			<div class="cols">
 				<RefList title="Dropped by" refs={it.droppedBy} showChance limit={25} />
 				<RefList title="Contained in object" refs={it.objectDrops} />
