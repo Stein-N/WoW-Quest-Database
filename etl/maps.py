@@ -12,11 +12,19 @@ The client tables give everything:
 For each map two images are written, cropped to the frame QuestieDB's percent coordinates
 refer to: <uiMapId>.webp with every overlay applied (no fog of war) and <uiMapId>-fog.webp
 with the base art only. index.json lists the available maps.
+
+Dungeons and raids: the Classic clients ship the instance map textures but do not link them
+in their UiMap tables. The links (uiMapId -> floors -> tiles) come from the retail tables on
+wago.tools instead; a floor is written only when the local client has all of its tiles. These
+are plain images (QuestieDB has no coordinates inside instances), listed separately under
+"instances" in index.json: {"<uiMapId of the instance>": [{"uiMapId": .., "name": ..}, ...]}.
 """
 
 import argparse
+import csv
 import io
 import json
+import urllib.request
 from pathlib import Path
 
 from PIL import Image
@@ -34,6 +42,10 @@ UI_MAP_ART_STYLE_LAYER = 1957208  # ..., LayerWidth, LayerHeight, TileWidth, Til
 UI_MAP_ART_TILE = 1957210         # RowIndex, ColIndex, LayerIndex, FileDataID; rel: UiMapArtID
 WORLD_MAP_OVERLAY_TILE = 1957212  # RowIndex, ColIndex, LayerIndex, FileDataID; rel: overlay
 UI_MAP_X_MAP_ART = 1957217        # PhaseID, UiMapArtID; rel: UiMapID
+
+# Retail client tables (CSV) that link instance maps to their floors and tiles.
+WAGO_CSV = "https://wago.tools/db2/{}/csv"
+WAGO_CACHE = ROOT / "build" / "wago"
 
 # Output frame shared by all maps (QuestieDB coordinates are percent of the visible area).
 OUT_W, OUT_H = 1002, 668
@@ -101,6 +113,97 @@ class MapArt:
         return img if img.size == (OUT_W, OUT_H) else img.resize((OUT_W, OUT_H), Image.LANCZOS)
 
 
+def wago_table(name):
+    path = WAGO_CACHE / f"{name}.csv"
+    if not path.exists():
+        WAGO_CACHE.mkdir(parents=True, exist_ok=True)
+        req = urllib.request.Request(WAGO_CSV.format(name), headers={"User-Agent": "WoW-Quest-Database"})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            path.write_bytes(resp.read())
+    with path.open(encoding="utf-8", newline="") as f:
+        return [{k: int(v) if v.lstrip("-").isdigit() else v for k, v in r.items()} for r in csv.DictReader(f)]
+
+
+class InstanceArt(MapArt):
+    """Instance (dungeon/raid) maps: retail table links, textures from the local client."""
+
+    def __init__(self, casc):
+        self.casc = casc
+        self._textures = {}
+        self.art_for_map = {}
+        for r in sorted(wago_table("UiMapXMapArt"), key=lambda r: r["PhaseID"]):
+            self.art_for_map.setdefault(r["UiMapID"], r["UiMapArtID"])
+        self.tiles_for_art = {}
+        for r in wago_table("UiMapArtTile"):
+            if r["LayerIndex"] == 0:
+                self.tiles_for_art.setdefault(r["UiMapArtID"], []).append(
+                    (r["RowIndex"], r["ColIndex"], r["FileDataID"]))
+        self.arts = {r["ID"]: [0, 0, r["UiMapArtStyleID"]] for r in wago_table("UiMapArt")}
+        self.styles = {r["UiMapArtStyleID"]: [0, r["LayerWidth"], r["LayerHeight"]]
+                       for r in wago_table("UiMapArtStyleLayer") if r["LayerIndex"] == 0}
+        self.overlays_for_art = {}
+        self.names = {r["ID"]: r["Name_lang"] for r in wago_table("UiMap")}
+        self.floors = {}  # uiMapId -> [(floor index, uiMapId, floor name)] of its group
+        groups = {}
+        for r in wago_table("UiMapGroupMember"):
+            groups.setdefault(r["UiMapGroupID"], []).append((r["FloorIndex"], r["UiMapID"], r["Name_lang"]))
+        for members in groups.values():
+            for _, ui_map, _ in members:
+                self.floors[ui_map] = sorted(members)
+
+    def available(self, ui_map):
+        """True when the local client has every tile of the map."""
+        tiles = self.tiles_for_art.get(self.art_for_map.get(ui_map), [])
+        try:
+            return bool(tiles) and all(self.texture(fdid) for _, _, fdid in tiles)
+        except Exception:
+            return False
+
+
+def instance_maps(flavor):
+    """uiMapIds of the instances the site has NPCs or objects in (build.py output).
+
+    QuestieDB's dungeon list also holds the later expansions' instances; the spawns limit it
+    to the ones that exist in the flavor."""
+    data = ROOT / "web" / "static" / "data" / flavor
+    if not (data / "zones.json").exists():
+        print(f"  {data / 'zones.json'} missing (make data first), no instance maps")
+        return []
+    zones = json.loads((data / "zones.json").read_text())["zones"]
+    spawned = set()
+    for shard in [*(data / "npc").glob("*.json"), *(data / "object").glob("*.json")]:
+        for entity in json.loads(shard.read_text()).values():
+            if isinstance(entity, dict):
+                spawned.update((entity.get("spawns") or {}).keys())
+    return sorted({z["uiMapId"] for area, z in zones.items()
+                   if z.get("instance") and z.get("uiMapId") and area in spawned})
+
+
+def write_instances(casc, flavor, out, outdoor):
+    art = InstanceArt(casc)
+    instances, missing = {}, []
+    for ui_map in instance_maps(flavor):
+        if ui_map in outdoor:  # battlegrounds have world map art of their own
+            continue
+        floors = art.floors.get(ui_map) or [(0, ui_map, art.names.get(ui_map, ""))]
+        written = []
+        for _, floor_map, name in floors:
+            if not art.available(floor_map):
+                continue
+            explored, _ = art.render(floor_map)
+            explored.save(out / f"{floor_map}.webp", "WEBP", quality=82, method=6)
+            written.append({"uiMapId": floor_map, "name": name or art.names.get(floor_map, "")})
+        if written:
+            instances[str(ui_map)] = written
+        else:
+            missing.append(ui_map)
+    floors = sum(len(f) for f in instances.values())
+    print(f"wrote {len(instances)} instance maps ({floors} floors) to {out}")
+    for ui_map in missing:
+        print(f"  no instance art for {ui_map} {art.names.get(ui_map, '')}")
+    return instances
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--wow-dir", type=Path, default=DEFAULT_WOW)
@@ -126,7 +229,8 @@ def main():
         unexplored.save(out / f"{ui_map}-fog.webp", "WEBP", quality=82, method=6)
         written.append(ui_map)
 
-    index = {"source": f"{args.product} {casc.version}", "maps": written}
+    index = {"source": f"{args.product} {casc.version}", "maps": written,
+             "instances": write_instances(casc, args.flavor, out, set(written))}
     (out / "index.json").write_text(json.dumps(index, indent=1))
     print(f"wrote {len(written)} maps to {out}")
     for ui_map, reason in failed:
