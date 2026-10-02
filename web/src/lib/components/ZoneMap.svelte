@@ -44,7 +44,8 @@
 	import type * as Leaflet from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
 
-	let { layers }: { layers: MapLayer[] } = $props();
+	/** floors: instance maps (plain images, no markers) shown as the first tabs */
+	let { layers, floors = [] }: { layers: MapLayer[]; floors?: { uiMapId: number; name: string }[] } = $props();
 
 	// World map art is 1002×668; QuestieDB coordinates are percentages of it.
 	const W = 1002;
@@ -65,6 +66,7 @@
 	interface MapGroup {
 		uiMapId: number;
 		name: string;
+		floor?: boolean;
 		markers: Marker[];
 		paths: Path[];
 	}
@@ -129,9 +131,13 @@
 		});
 		// Maps showing a glyph (quest giver / turn-in) come first, then by marker count.
 		const glyphs = (g: MapGroup) => g.markers.filter((m) => layers[m.layer].glyph).length;
-		return [...byMap.values()].sort(
-			(a, b) => Number(glyphs(b) > 0) - Number(glyphs(a) > 0) || b.markers.length - a.markers.length
-		);
+		const floorGroups: MapGroup[] = floors.map((f) => ({ ...f, floor: true, markers: [], paths: [] }));
+		return [
+			...floorGroups,
+			...[...byMap.values()].sort(
+				(a, b) => Number(glyphs(b) > 0) - Number(glyphs(a) > 0) || b.markers.length - a.markers.length
+			)
+		];
 	});
 
 	// The chosen map tab is kept in the URL (?map=<uiMapId>), so coming back shows the same map.
@@ -201,7 +207,9 @@
 			[-H, 0],
 			[0, W]
 		];
-		if (withArt.has(g.uiMapId)) {
+		if (g.floor) {
+			Lx.imageOverlay(`maps/${site.flavor}/${g.uiMapId}.webp`, bounds, { interactive: false }).addTo(target).bringToBack();
+		} else if (withArt.has(g.uiMapId)) {
 			const file = `maps/${site.flavor}/${g.uiMapId}${settings.mapFog ? '-fog' : ''}.webp`;
 			Lx.imageOverlay(file, bounds, { interactive: false }).addTo(target).bringToBack();
 		} else {
@@ -256,7 +264,7 @@
 						class:active={g === current}
 						onclick={() => (selected = g.uiMapId)}
 					>
-						{g.name} <span class="count">{g.markers.length}</span>
+						{g.name}{#if !g.floor}{' '}<span class="count">{g.markers.length}</span>{/if}
 					</button>
 				{/each}
 			</div>
@@ -278,7 +286,7 @@
 					</label>
 				{/if}
 			{/each}
-			{#if current && withArt.has(current.uiMapId)}
+			{#if current && !current.floor && withArt.has(current.uiMapId)}
 				<label class="fog">
 					<input type="checkbox" bind:checked={settings.mapFog} />
 					Fog of war

@@ -3,15 +3,21 @@
 	import { getQuestIndex, getQuestlines, getZoneGivers } from '$lib/data';
 	import { site } from '$lib/context.svelte';
 	import QuestTable from '$lib/components/QuestTable.svelte';
-	import ZoneMap, { type MapLayer } from '$lib/components/ZoneMap.svelte';
-	import InstanceMap from '$lib/components/InstanceMap.svelte';
+	import ZoneMap, { loadMapIndex, type MapLayer } from '$lib/components/ZoneMap.svelte';
 
 	const flavor = $derived(page.params.flavor!);
 	const id = $derived(Number(page.params.id));
 	const zone = $derived(site.zones?.zones[id]);
 
 	async function load(flavor: string, id: number) {
-		const [rows, zoneData, lines] = await Promise.all([getQuestIndex(flavor), getZoneGivers(flavor, id), getQuestlines(flavor)]);
+		const [rows, zoneData, lines, mapIndex] = await Promise.all([
+			getQuestIndex(flavor),
+			getZoneGivers(flavor, id),
+			getQuestlines(flavor),
+			loadMapIndex(flavor)
+		]);
+		const z = site.zones?.zones[id];
+		const floors = (z?.instance && z.uiMapId && mapIndex.instances?.[z.uiMapId]) || [];
 		const inZone = rows.filter((r) => r[5] === id);
 		const sides = new Map(rows.map((r) => [r[0], r[4]]));
 		const layer = (label: string, color: string, side: string): MapLayer => ({
@@ -35,6 +41,7 @@
 			.map((l) => ({ ...l, title: site.names?.quest?.[l.root] ?? names.get(l.root) ?? '' }))
 			.sort((a, b) => (a.levels?.[0] ?? 0) - (b.levels?.[0] ?? 0));
 		return {
+			floors,
 			lines: zoneLines,
 			rows: inZone,
 			layers: [layer('Alliance quest givers', '#4f8cff', 'A'), layer('Horde quest givers', '#ff5c4f', 'H'), layer('Neutral quest givers', '#ffd100', 'B')]
@@ -50,15 +57,10 @@
 {#await load(flavor, id)}
 	<p class="muted">Loading…</p>
 {:then data}
-	{#if zone?.instance && zone.uiMapId}
-		{#key `${flavor}:${id}`}
-			<InstanceMap uiMapId={zone.uiMapId} />
-		{/key}
-	{/if}
-	{#if data.layers.some((l) => l.entries.length)}
+	{#if data.floors.length || data.layers.some((l) => l.entries.length)}
 		<section class="panel">
 			{#key `${flavor}:${id}`}
-				<ZoneMap layers={data.layers} />
+				<ZoneMap layers={data.layers} floors={data.floors} />
 			{/key}
 		</section>
 	{/if}
