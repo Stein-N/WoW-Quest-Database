@@ -44,8 +44,17 @@
 	import type * as Leaflet from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
 
-	/** floors: instance maps (plain images, no markers) shown as the first tabs */
-	let { layers, floors = [] }: { layers: MapLayer[]; floors?: { uiMapId: number; name: string }[] } = $props();
+	/** floors: instance maps (plain images, no markers) shown as the first tabs;
+	 *  primary: the page's own world map, next in line and shown even without markers */
+	let {
+		layers,
+		floors = [],
+		primary
+	}: {
+		layers: MapLayer[];
+		floors?: { uiMapId: number; name: string }[];
+		primary?: { uiMapId: number; name: string };
+	} = $props();
 
 	// World map art is 1002×668; QuestieDB coordinates are percentages of it.
 	const W = 1002;
@@ -132,8 +141,11 @@
 		// Maps showing a glyph (quest giver / turn-in) come first, then by marker count.
 		const glyphs = (g: MapGroup) => g.markers.filter((m) => layers[m.layer].glyph).length;
 		const floorGroups: MapGroup[] = floors.map((f) => ({ ...f, floor: true, markers: [], paths: [] }));
+		const own = primary && (byMap.get(primary.uiMapId) ?? (withArt.has(primary.uiMapId) ? { ...primary, markers: [], paths: [] } : undefined));
+		if (own) byMap.delete(own.uiMapId);
 		return [
 			...floorGroups,
+			...(own ? [own] : []),
 			...[...byMap.values()].sort(
 				(a, b) => Number(glyphs(b) > 0) - Number(glyphs(a) > 0) || b.markers.length - a.markers.length
 			)
@@ -158,21 +170,29 @@
 		import('leaflet').then((mod) => {
 			if (disposed || !container) return;
 			L = mod.default ?? mod;
-			map = L.map(container, {
-				crs: L.CRS.Simple,
-				minZoom: -1,
-				maxZoom: 3,
-				zoomSnap: 0.25,
-				attributionControl: false,
-				maxBounds: [
-					[-H - 100, -100],
-					[100, W + 100]
-				]
-			});
-			map.fitBounds([
+			const bounds: Leaflet.LatLngBoundsExpression = [
 				[-H, 0],
 				[0, W]
-			]);
+			];
+			// Zooming out stops where the map fills the section; finer steps, deeper zoom.
+			map = L.map(container, {
+				crs: L.CRS.Simple,
+				maxZoom: 4,
+				zoomSnap: 0,
+				zoomDelta: 0.5,
+				wheelPxPerZoomLevel: 120,
+				attributionControl: false,
+				maxBounds: bounds,
+				maxBoundsViscosity: 1
+			});
+			const fit = () => {
+				const min = map!.getBoundsZoom(bounds);
+				map!.setMinZoom(min);
+				if (map!.getZoom() <= min) map!.fitBounds(bounds);
+			};
+			map.fitBounds(bounds);
+			fit();
+			map.on('resize', fit);
 			overlay = L.layerGroup().addTo(map);
 		});
 		return () => {
@@ -264,7 +284,7 @@
 						class:active={g === current}
 						onclick={() => (selected = g.uiMapId)}
 					>
-						{g.name}{#if !g.floor}{' '}<span class="count">{g.markers.length}</span>{/if}
+						{g.name}{#if g.markers.length}{' '}<span class="count">{g.markers.length}</span>{/if}
 					</button>
 				{/each}
 			</div>

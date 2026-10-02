@@ -18,6 +18,11 @@
 		]);
 		const z = site.zones?.zones[id];
 		const floors = (z?.instance && z.uiMapId && mapIndex.instances?.[z.uiMapId]) || [];
+		// The zone's own world map comes first (after an instance's floors: its parent zone).
+		const worldZone = z?.instance ? z.parent : id;
+		const worldMap = worldZone ? site.zones?.zones[worldZone]?.uiMapId : undefined;
+		const primary =
+			worldZone && worldMap && mapIndex.maps.includes(worldMap) ? { uiMapId: worldMap, name: site.zoneName(worldZone) } : undefined;
 		const inZone = rows.filter((r) => r[5] === id);
 		const sides = new Map(rows.map((r) => [r[0], r[4]]));
 		const layer = (label: string, color: string, side: string): MapLayer => ({
@@ -42,6 +47,7 @@
 			.sort((a, b) => (a.levels?.[0] ?? 0) - (b.levels?.[0] ?? 0));
 		return {
 			floors,
+			primary,
 			lines: zoneLines,
 			rows: inZone,
 			layers: [layer('Alliance quest givers', '#4f8cff', 'A'), layer('Horde quest givers', '#ff5c4f', 'H'), layer('Neutral quest givers', '#ffd100', 'B')]
@@ -57,10 +63,10 @@
 {#await load(flavor, id)}
 	<p class="muted">Loading…</p>
 {:then data}
-	{#if data.floors.length || data.layers.some((l) => l.entries.length)}
+	{#if data.floors.length || data.primary || data.layers.some((l) => l.entries.length)}
 		<section class="panel">
 			{#key `${flavor}:${id}`}
-				<ZoneMap layers={data.layers} floors={data.floors} />
+				<ZoneMap layers={data.layers} floors={data.floors} primary={data.primary} />
 			{/key}
 		</section>
 	{/if}
