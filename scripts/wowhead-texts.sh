@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Fetches quest texts (name, objectivesText, details, progress, completion, endText) from
-# wowhead.com in all languages, one quest every 15 seconds, and stores them in
+# wowhead.com in all languages, one quest every 10 seconds, and stores them in
 # etl/corrections/wowhead/<flavor>/<locale>.json for etl/build.py.
 #
 #   scripts/wowhead-texts.sh                    # every quest, only the languages that lack texts
@@ -8,7 +8,7 @@
 #   scripts/wowhead-texts.sh --test 33          # fetch English + German once, print, store nothing
 #
 # Options (environment):
-#   DELAY=15        seconds per quest; its language pages are spread evenly over this window
+#   DELAY=10        seconds per quest; its language pages are spread evenly over this window
 #   FLAVOR=forever  data flavor the texts are stored for
 #   ALL_LANGS=1     fetch all languages of a quest, not only those without texts
 #   REFRESH=1       fetch again even if a quest/language was already fetched
@@ -25,7 +25,7 @@ export LC_NUMERIC=C  # "0.5" for sleep, also under a German locale
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HELPER=(python3 "$ROOT/etl/wowhead_texts.py" --flavor "${FLAVOR:-forever}")
-DELAY="${DELAY:-15}"
+DELAY="${DELAY:-10}"
 UA="WoW-Quest-Database-text-import/1.0 (private use; +https://github.com/Stein-N/WoW-Quest-Database)"
 BASE="${WOWHEAD_BASE:-https://www.wowhead.com/forever}"
 ROBOTS="${WOWHEAD_ROBOTS:-https://www.wowhead.com/robots.txt}"

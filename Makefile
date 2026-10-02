@@ -67,7 +67,7 @@ CACHE  ?= $(WOW_DIR)/_classic_beta_/Cache/WDB
 questcache:
 	python3 etl/import_questcache.py --flavor $(FLAVOR) "$(CACHE)"
 
-# Missing quest texts from wowhead.com, one quest every 15 s -> etl/corrections/wowhead/<flavor>/
+# Missing quest texts from wowhead.com, one quest every 10 s -> etl/corrections/wowhead/<flavor>/
 wowhead:
 	FLAVOR=$(FLAVOR) scripts/wowhead-texts.sh $(QUESTS)
 
