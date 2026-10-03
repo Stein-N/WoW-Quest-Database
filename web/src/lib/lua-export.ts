@@ -13,8 +13,6 @@ export interface ExportOptions {
 	ids: string;
 	zone: number | null;
 	locale: string;
-	refs: 'id' | 'full';
-	style: 'addon' | 'return';
 	varName: string;
 	/** texts table name; default derived from varName (questData -> questTexts) */
 	textVarName?: string;
@@ -85,7 +83,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		progress: 'Text shown when talking to the quest ender before the objectives are complete.',
 		completion: 'Text shown when turning the quest in.',
 		endText: 'Quest log text once all objectives are done (e.g. "Return to …").',
-		startedBy: 'Who starts the quest (as in QuestieDB): NPC, object or item IDs (choose "with type & name" to tell them apart).',
+		startedBy: 'Who starts the quest (as in QuestieDB): NPC, object or item IDs.',
 		finishedBy: 'Who the quest is turned in to (as in QuestieDB): NPC or object IDs.',
 		objectives: 'Objectives: list of { kind = kill/item/object/reputation/killcredit/spell/event/extra, target, count, text, sources = where items drop }.',
 		providedItem: 'Item ID the quest giver hands out when the quest is accepted (letters, tools …).',
@@ -106,7 +104,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		maxHealth: 'Health at the highest level.',
 		rank: '"Normal", "Elite", "Rare", "Rare Elite" or "Boss".',
 		react: 'Friendly to: "A" Alliance, "H" Horde, "AH" both; missing = hostile to both.',
-		faction: 'Faction ID (with "with type & name": { id, name }).',
+		faction: 'Faction ID.',
 		roles: 'Services as names, e.g. "Vendor", "Trainer", "Flight Master", "Quest Giver".',
 		zone: 'Main zone (AreaTable ID).',
 		spawns: 'Positions: { [areaId] = { { x, y }, … } }, x/y in percent of the zone map.',
@@ -148,7 +146,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		description: 'Flavor text shown in yellow at the bottom of the tooltip.',
 		classes: 'Classes that can use the item, as names; only set when limited.',
 		races: 'Races that can use the item, as names; only set when limited.',
-		reqSkill: 'Required skill: { id, value } (with "with type & name": also name).',
+		reqSkill: 'Required skill: { id, value }.',
 		reqRep: 'Required reputation: { id (faction), value (standing) }.',
 		stats: 'Stats: list of { stat = "Strength" …, value }.',
 		damage: 'Weapon damage: list of { min, max, school }.',
@@ -257,9 +255,9 @@ function compactRefs(value: Json): Json {
  * rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
  *   type = "all",    items = {...}                  every item is rewarded
  *   type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
- * With ID references, item lists are plain IDs and amounts above one go to counts[itemId].
+ * Item lists are plain IDs; amounts above one go to counts[itemId].
  */
-function questRewardsFormat(rewards: Rec, refs: 'id' | 'full'): Rec {
+function questRewardsFormat(rewards: Rec): Rec {
 	const groups = rewards.items as { kind: string; items: Rec[] }[] | undefined;
 	if (!groups?.length) return rewards;
 	const fixed = groups.find((g) => g.kind === 'fixed')?.items ?? [];
@@ -268,14 +266,12 @@ function questRewardsFormat(rewards: Rec, refs: 'id' | 'full'): Rec {
 		? { type: 'single', items: choice as Json[], fixed: fixed as Json[] }
 		: { type: 'all', items: fixed as Json[] };
 	if (!fixed.length || !choice.length) delete out.fixed;
-	if (refs === 'id') {
-		const counts = Object.fromEntries(
-			[...choice, ...fixed].filter((r) => ((r.count as number) || 1) > 1).map((r) => [String(r.id), r.count])
-		);
-		out.items = (out.items as Rec[]).map((r) => r.id);
-		if (out.fixed) out.fixed = (out.fixed as Rec[]).map((r) => r.id);
-		if (Object.keys(counts).length) out.counts = counts;
-	}
+	const counts = Object.fromEntries(
+		[...choice, ...fixed].filter((r) => ((r.count as number) || 1) > 1).map((r) => [String(r.id), r.count])
+	);
+	out.items = (out.items as Rec[]).map((r) => r.id);
+	if (out.fixed) out.fixed = (out.fixed as Rec[]).map((r) => r.id);
+	if (Object.keys(counts).length) out.counts = counts;
 	const rest = Object.fromEntries(Object.entries(rewards).filter(([k]) => k !== 'items'));
 	return { ...out, ...rest };
 }
@@ -331,7 +327,7 @@ function header(fileName: string, description: string, count: number, meta: Meta
 		`-- Sources: QuestieDB ${meta.questie}, VMangos ${meta.vmangos} (built ${meta.built}).`,
 		`-- Generated ${new Date().toISOString().slice(0, 19)}Z on the website: type=${opts.type}` +
 			`${opts.fields.length ? ` fields=${opts.fields.join(',')}` : ''}${opts.ids ? ` ids=${opts.ids}` : ''}` +
-			`${opts.zone !== null ? ` zone=${opts.zone}` : ''} locale=${opts.locale} refs=${opts.refs}`,
+			`${opts.zone !== null ? ` zone=${opts.zone}` : ''} locale=${opts.locale}`,
 		`-- ${count} entries.`,
 		''
 	];
@@ -354,7 +350,7 @@ export async function exportLua(
 	// "all": one data file (English references) plus a texts file for every language
 	const locales = opts.locale === 'all' ? allLocales : [opts.locale];
 	const textFields = TEXT_FIELDS[opts.type];
-	const translatedLocales = textFields.length || opts.refs === 'full' ? locales.filter((l) => l !== 'enUS') : [];
+	const translatedLocales = textFields.length ? locales.filter((l) => l !== 'enUS') : [];
 	const wantedIds = parseIds(opts.ids);
 	let records = new Map<number, Rec>();
 	let buckets: number[] = [];
@@ -417,8 +413,8 @@ export async function exportLua(
 			const kept = Object.entries(rec).filter(([k]) => k !== 'id' && k !== 'azerothcore' && (!keep || keep.has(k)));
 			const text = kept.filter(([k]) => textFields.includes(k));
 			const rest: Rec = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
-			if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec, opts.refs);
-			data.set(id, opts.refs === 'id' ? compactRefs(rest) : rest);
+			if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec);
+			data.set(id, compactRefs(rest));
 			if (text.length) {
 				// field order as in TEXT_FIELDS, like the Python tool
 				texts.set(id, Object.fromEntries(textFields.filter((f) => text.some(([k]) => k === f)).map((f) => [f, exportText(rec[f])])));
@@ -430,10 +426,10 @@ export async function exportLua(
 	const label = meta.flavors[opts.flavor]?.label ?? opts.flavor;
 	const dataFile = `${opts.varName}.lua`;
 	const files: ExportFile[] = [];
-	// addon style: other languages extend the English table, so English always comes along
+	// other languages extend the English table, so English always comes along
 	const dataLocale = locales[0];
 	const wantsTexts = textFields.some((f) => !keep || keep.has(f));
-	const fileLocales = opts.style === 'addon' && !locales.includes('enUS') && wantsTexts ? ['enUS', ...locales] : locales;
+	const fileLocales = !locales.includes('enUS') && wantsTexts ? ['enUS', ...locales] : locales;
 	let english = new Map<number, Json>();
 	for (const locale of fileLocales) {
 		const split_ = split(await localized(locale));
@@ -445,22 +441,18 @@ export async function exportLua(
 			const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
 			const reference = fileLocales.length > 1 ? `${textVar}.<locale>.lua (one file per language)` : textsFile;
 			if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${reference}, keyed by the same IDs.`);
-			const body =
-				opts.style === 'return'
-					? ['return {', ...entries(data), '}', '']
-					: ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];
+			const body = ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];
 			files.push({ fileName: dataFile, text: [...lines, ...body].join('\n'), count: data.size });
 		}
 		if (!textsFile) break; // no text fields selected: nothing per language
 		if (locale === 'enUS') english = texts;
-		else if (opts.style === 'addon') {
+		else {
 			texts = new Map([...texts].filter(([id, t]) => luaValue(t) !== (english.has(id) ? luaValue(english.get(id)!) : null)));
 		}
 		const lines = header(textsFile, `${opts.type} texts (${locale}) for ${label}, keyed by ${opts.type} ID.`, texts.size, meta, opts);
 		const table = `addon.${textVar}`;
 		let body: string[];
-		if (opts.style === 'return') body = ['return {', ...entries(texts), '}', ''];
-		else if (locale === 'enUS') {
+		if (locale === 'enUS') {
 			lines.splice(3, 0, '-- Load this file before the other languages: it creates the table and is the fallback.');
 			body = ['local _, addon = ...', '', 'local L = {', ...entries(texts), '}', '', `${table} = setmetatable(L, { __index = function(_, key) return key end })`, ''];
 		} else {

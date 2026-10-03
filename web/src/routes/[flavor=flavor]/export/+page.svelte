@@ -36,8 +36,6 @@
 	let zone = $state(param.str(p, 'zone'));
 	const urlLocale = p.get('locale');
 	let locale = $state(urlLocale && (urlLocale === 'all' || urlLocale in LOCALES) ? urlLocale : settings.locale);
-	let refs = $state<'id' | 'full'>(p.get('refs') === 'full' ? 'full' : 'id');
-	let style = $state<'addon' | 'return'>(p.get('style') === 'return' ? 'return' : 'addon');
 	let varName = $state(param.str(p, 'var', `${urlType ?? 'quest'}Data`));
 	let varTouched = $state(p.has('var'));
 
@@ -88,11 +86,9 @@
 				ids: ids.trim(),
 				zone,
 				locale,
-				refs,
-				style,
 				var: varTouched ? varName : null
 			},
-			{ type: 'quest', refs: 'id', style: 'addon' }
+			{ type: 'quest' }
 		);
 	});
 
@@ -117,8 +113,6 @@
 					ids,
 					zone: zone === '' ? null : Number(zone),
 					locale,
-					refs,
-					style,
 					varName
 				},
 				(done, total) => (progress = [done, total])
@@ -262,26 +256,10 @@
 					</div>
 				{/each}
 			</div>
-			<div class="row">
-				<span>References</span>
-				<div class="opts">
-					<label><input type="radio" bind:group={refs} value="id" /> IDs only</label>
-					<label><input type="radio" bind:group={refs} value="full" /> with type &amp; name</label>
-				</div>
-			</div>
-			<div class="row">
-				<span>Format</span>
-				<div class="opts">
-					<label><input type="radio" bind:group={style} value="addon" /> <code>addon.{varName} = {'{…}'}</code></label>
-					<label><input type="radio" bind:group={style} value="return" /> <code>return {'{…}'}</code></label>
-				</div>
-			</div>
-			{#if style === 'addon'}
-				<label class="row">
-					<span>Table name</span>
-					<input type="search" bind:value={varName} oninput={() => (varTouched = true)} />
-				</label>
-			{/if}
+			<label class="row">
+				<span>Table name</span>
+				<input type="search" bind:value={varName} oninput={() => (varTouched = true)} />
+			</label>
 			{#if !dataChosen.length && textChosen.length}
 				<p class="hint muted">No data fields selected: only the localization files are exported.</p>
 			{/if}
@@ -314,8 +292,7 @@
 				</label>
 				<p class="hint muted">
 					{#if textChosen.length}
-						Texts go to their own file per language, keyed by the same IDs as the data file. In
-						the addon format, <code>{textVarFor(varName)}.enUS.lua</code> creates the table and is always included as
+						Texts go to their own file per language, keyed by the same IDs as the data file. <code>{textVarFor(varName)}.enUS.lua</code> creates the table and is always included as
 						the fallback: load it first; other languages only replace the entries they translate and run
 						only in a client of that language (<code>GetLocale()</code>).
 					{:else}
@@ -390,11 +367,6 @@
 	}
 	.row > span {
 		color: var(--muted);
-	}
-	.opts {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.3rem 1rem;
 	}
 	fieldset {
 		border: 1px solid var(--border);

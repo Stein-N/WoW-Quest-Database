@@ -5,7 +5,7 @@ both producing identical output.
 
     python3 etl/export_lua.py --flavor forever --type quest -o export/
     python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE -o export/
-    python3 etl/export_lua.py --flavor forever --type questline --style return
+    python3 etl/export_lua.py --flavor forever --type questline
 
 Reads web/static/data (run `make data` first). Texts (names, quest texts, descriptions) always
 go to their own file per language, linked by the entity ID. English is the base and fallback:
@@ -29,11 +29,7 @@ Options:
   --zone      only entities whose zone (or questline zone) is this area ID
   --locale    language of the texts and names (default enUS; deDE, frFR, ...),
               or "all" for one texts file per language
-  --refs      id (default): references to other entities become plain IDs;
-              full: keep {t, id, name, ...} tables
-  --style     addon (default): `local _, addon = ...` + addon.<var> = {...}
-              return: `return {...}` for dofile/require
-  --var       data table name (default: <type>Data)
+  --var       data table name (default: <type>Data); references to other entities are plain IDs
   --text-var  texts table name (default: <type>Texts)
   -o/--out-dir  directory for <var>.lua and <text-var>.<locale>.lua (default: .)
 """
@@ -119,13 +115,13 @@ def compact_refs(value):
     return value
 
 
-def quest_rewards_format(rewards, refs):
+def quest_rewards_format(rewards):
     """rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
 
         type = "all",    items = {...}                  every item is rewarded
         type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
 
-    With ID references, item lists are plain IDs and amounts above one go to counts[itemId].
+    Item lists are plain IDs; amounts above one go to counts[itemId].
     """
     groups = rewards.get("items")
     if not groups:
@@ -135,15 +131,14 @@ def quest_rewards_format(rewards, refs):
     out = {"type": "single", "items": choice, "fixed": fixed} if choice else {"type": "all", "items": fixed}
     if not out.get("fixed"):
         out.pop("fixed", None)
-    if refs == "id":
-        # sorted by item ID, matching the browser export (JS orders integer keys numerically)
-        counts = {str(r["id"]): r["count"] for r in sorted(choice + fixed, key=lambda r: r["id"])
-                  if (r.get("count") or 1) > 1}
-        out["items"] = [r["id"] for r in out["items"]]
-        if "fixed" in out:
-            out["fixed"] = [r["id"] for r in out["fixed"]]
-        if counts:
-            out["counts"] = counts
+    # sorted by item ID, matching the browser export (JS orders integer keys numerically)
+    counts = {str(r["id"]): r["count"] for r in sorted(choice + fixed, key=lambda r: r["id"])
+              if (r.get("count") or 1) > 1}
+    out["items"] = [r["id"] for r in out["items"]]
+    if "fixed" in out:
+        out["fixed"] = [r["id"] for r in out["fixed"]]
+    if counts:
+        out["counts"] = counts
     return {**out, **{k: v for k, v in rewards.items() if k != "items"}}
 
 
@@ -235,8 +230,6 @@ def render_data(records, args, meta, file_name, texts_file):
     if texts_file:
         lines[3:3] = [f"-- Texts (names, descriptions, ...) are in {texts_file}, keyed by the same IDs."]
     body = [f"    [{entity_id}] = {lua_value(rec)}," for entity_id, rec in sorted(records.items())]
-    if args.style == "return":
-        return "\n".join(lines + ["return {"] + body + ["}", ""])
     return "\n".join(lines + ["local _, addon = ...", "", f"addon.{args.var} = {{"] + body + ["}", ""])
 
 
@@ -245,8 +238,6 @@ def render_texts(texts, args, meta, file_name, locale):
     lines = header(file_name, f"{args.type} texts ({locale}) for {flavor}, keyed by {args.type} ID.",
                    len(texts), meta)
     rows = [(entity_id, lua_value(rec)) for entity_id, rec in sorted(texts.items())]
-    if args.style == "return":
-        return "\n".join(lines + ["return {"] + [f"    [{i}] = {v}," for i, v in rows] + ["}", ""])
     table = f"addon.{args.text_var}"
     if locale == "enUS":
         lines[3:3] = ["-- Load this file before the other languages: it creates the table and is the fallback."]
@@ -267,8 +258,6 @@ def main():
     ap.add_argument("--ids")
     ap.add_argument("--zone", type=int)
     ap.add_argument("--locale", default="enUS")
-    ap.add_argument("--refs", choices=["id", "full"], default="id")
-    ap.add_argument("--style", choices=["addon", "return"], default="addon")
     ap.add_argument("--var")
     ap.add_argument("--text-var")
     ap.add_argument("-o", "--out-dir", default=".")
@@ -312,8 +301,8 @@ def main():
             rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k not in ("id", "azerothcore")}
             text = {k: export_text(rec.pop(k)) for k in text_fields if k in rec}
             if args.type == "quest" and rec.get("rewards"):
-                rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)
-            data[entity_id] = compact_refs(rec) if args.refs == "id" else rec
+                rec["rewards"] = quest_rewards_format(rec["rewards"])
+            data[entity_id] = compact_refs(rec)
             if text:
                 texts[entity_id] = text
         return data, texts
@@ -321,10 +310,10 @@ def main():
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     data_file = f"{args.var}.lua"
-    # addon style: other languages extend the English table, so English always comes along
+    # other languages extend the English table, so English always comes along
     data_locale = locales[0]
     wants_texts = any((keep is None or f in keep) and f not in drop for f in text_fields)
-    if args.style == "addon" and "enUS" not in locales and wants_texts:
+    if "enUS" not in locales and wants_texts:
         locales = ["enUS"] + locales
     english = {}
     for locale in locales:
@@ -339,7 +328,7 @@ def main():
             break  # no text fields selected: nothing per language
         if locale == "enUS":
             english = texts
-        elif args.style == "addon":
+        else:
             texts = {i: t for i, t in texts.items() if t != english.get(i)}
         (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, locale), encoding="utf-8")
         print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)

@@ -20,24 +20,34 @@ make update    # neueste QuestieDB- und VMangos-Daten holen und neu bauen
 
 ## Daten als Lua exportieren
 
-`etl/export_lua.py` schreibt die zusammengeführten Daten (QuestieDB + VMangos) als Lua-Tabellen,
-standardmäßig im Addon-Format wie `QuestRewards.lua`. Voraussetzung ist `make data`. Dieselbe
+`etl/export_lua.py` schreibt die zusammengeführten Daten (QuestieDB + VMangos) als Lua-Tabellen
+im Addon-Format wie `QuestRewards.lua`. Voraussetzung ist `make data`. Dieselbe
 Funktion gibt es auf der Webseite unter **Export**: Optionen wählen, *Generate Lua*, herunterladen
 oder kopieren. Die Logik steckt in `web/src/lib/lua-export.ts` und erzeugt dieselbe Ausgabe wie das
 Skript.
 
-**Texte stehen immer in einer eigenen Datei**, verknüpft über die ID. Pro Export entstehen deshalb
-zwei Dateien:
+**Texte stehen immer in eigenen Dateien pro Sprache**, verknüpft über die ID. Englisch ist die
+Basis und der Fallback: `enUS` legt die Tabelle an, jede andere Sprache ersetzt nur die Einträge, die
+sie übersetzt (vollständig, nicht übersetzte Felder enthalten den englischen Text), und läuft nur im
+Client dieser Sprache. Die `enUS`-Datei wird immer mit exportiert und muss zuerst geladen werden.
 
 ```lua
--- questData.lua                          -- questTexts.deDE.lua
-local _, addon = ...                      local _, addon = ...
-addon.questData = {                       addon.questTexts = addon.questTexts or {}
-    [33] = { level = 2, zone = 9,         addon.questTexts["deDE"] = {
-             rewards = { ... } },             [33] = { name = "Wölfe an der Grenze",
-}                                                      objectivesText = {...}, details = "...", ... },
-                                          }
+-- questData.lua                     -- questTexts.enUS.lua
+local _, addon = ...                 local _, addon = ...
+addon.questData = {                  local L = {
+    [33] = { level = 2, zone = 9,        [33] = { name = "Wolves Across the Border", ... },
+             rewards = { ... } },    }
+}                                    addon.questTexts = setmetatable(L, { __index = function(_, key) return key end })
+
+-- questTexts.deDE.lua
+if GetLocale() ~= "deDE" then return end
+local _, addon = ...
+local L = addon.questTexts
+
+L[33] = { name = "Wölfe an der Grenze", objectivesText = "...", details = "...", ... }
 ```
+
+`objectivesText` ist ein Text mit `$B` als Zeilenumbruch, `$N` wird zu `${playerName}`.
 
 | Typ | Textfelder (→ `<typ>Texts.<sprache>.lua`) |
 | --- | --- |
@@ -55,9 +65,8 @@ rewards = { type = "all", items = {1017, 2701}, counts = { [1017] = 4 } }   -- M
 ```
 
 Mit `--locale all` (Webseite: *All languages*) entstehen die Datendatei und eine Textdatei je
-Sprache. Die Webseite bietet die Dateien zusätzlich als ZIP an. Mehrere Sprachen lassen sich nebeneinander laden (`addon.questTexts.enUS`, `addon.questTexts.deDE`, …).
-Im Standardmodus (`--refs id`) enthält die Datendatei keine Anzeigetexte: Verweise auf Quests, NPCs,
-Items, Zonen und Fraktionen sind reine IDs.
+Sprache. Die Webseite bietet die Dateien zusätzlich als ZIP an. Die Datendatei enthält keine
+Anzeigetexte: Verweise auf Quests, NPCs, Items, Zonen und Fraktionen sind reine IDs.
 
 ```sh
 # alle Forever-Quests (questData.lua + questTexts.enUS.lua) nach export/
@@ -68,8 +77,8 @@ python3 etl/export_lua.py --flavor forever --type quest --fields name,objectives
 python3 etl/export_lua.py --flavor forever --type quest --locale all -o export/
 # NPCs einer Zone (Elwynn = 12) ohne Quellenangaben
 python3 etl/export_lua.py --flavor classic --type npc --zone 12 --exclude sources -o export/
-# Questreihen als `return {...}` für dofile/require
-python3 etl/export_lua.py --flavor classic --type questline --style return -o export/
+# Questreihen
+python3 etl/export_lua.py --flavor classic --type questline -o export/
 # über make
 make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
 ```
@@ -81,8 +90,6 @@ make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
 | `--ids` | IDs oder Bereiche, z. B. `2,33,100-200` |
 | `--zone` | nur Einträge dieser Zone (Area-ID) |
 | `--locale` | Sprache der Texte (Standard `enUS`; `deDE`, `frFR`, …) oder `all` für eine Textdatei pro Sprache |
-| `--refs` | `id` (Standard): Verweise als reine IDs; `full`: mit Typ und Name |
-| `--style` | `addon` (Standard) oder `return` |
 | `--var` / `--text-var` | Tabellennamen (Standard `<type>Data` / `<type>Texts`) |
 | `-o` / `--out-dir` | Zielordner (Standard: aktueller Ordner) |
 
