@@ -29,9 +29,12 @@ export const TEXT_FIELDS: Record<ExportType, string[]> = {
 	questline: []
 };
 
-/** The player's name placeholder $N becomes ${playerName} in exported texts. */
+/**
+ * The player's name placeholder $N becomes ${playerName} in exported texts; objective lines are
+ * joined into one text with $B line breaks, as in the game.
+ */
 function exportText(value: Json): Json {
-	if (Array.isArray(value)) return value.map(exportText);
+	if (Array.isArray(value)) return exportText(value.join('$B'));
 	return typeof value === 'string' ? value.replace(/\$[Nn]/g, '${playerName}') : value;
 }
 
@@ -77,7 +80,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		suggestedPlayers: 'Suggested group size.',
 		timeLimit: 'Time limit in seconds.',
 		repeatable: 'true if the quest can be done repeatedly.',
-		objectivesText: 'Short objective text from the quest log, as a list of lines.',
+		objectivesText: 'Short objective text from the quest log, lines separated by $B.',
 		details: 'Quest description shown when accepting the quest. ${playerName} is the name of the player, $C and $R class and race, $B a line break.',
 		progress: 'Text shown when talking to the quest ender before the objectives are complete.',
 		completion: 'Text shown when turning the quest in.',
@@ -427,13 +430,20 @@ export async function exportLua(
 	const label = meta.flavors[opts.flavor]?.label ?? opts.flavor;
 	const dataFile = `${opts.varName}.lua`;
 	const files: ExportFile[] = [];
-	for (const [n, locale] of locales.entries()) {
-		const { data, texts } = split(await localized(locale));
+	// addon style: other languages extend the English table, so English always comes along
+	const dataLocale = locales[0];
+	const wantsTexts = textFields.some((f) => !keep || keep.has(f));
+	const fileLocales = opts.style === 'addon' && !locales.includes('enUS') && wantsTexts ? ['enUS', ...locales] : locales;
+	let english = new Map<number, Json>();
+	for (const locale of fileLocales) {
+		const split_ = split(await localized(locale));
+		const data = split_.data;
+		let texts = split_.texts;
 		const textsFile = texts.size ? `${textVar}.${locale}.lua` : null;
 		const hasData = [...data.values()].some((v) => v && typeof v === 'object' && Object.keys(v).length);
-		if (n === 0 && (hasData || !texts.size)) {
+		if (locale === dataLocale && (hasData || !texts.size)) {
 			const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
-			const reference = locales.length > 1 ? `${textVar}.<locale>.lua (one file per language)` : textsFile;
+			const reference = fileLocales.length > 1 ? `${textVar}.<locale>.lua (one file per language)` : textsFile;
 			if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${reference}, keyed by the same IDs.`);
 			const body =
 				opts.style === 'return'
@@ -442,12 +452,22 @@ export async function exportLua(
 			files.push({ fileName: dataFile, text: [...lines, ...body].join('\n'), count: data.size });
 		}
 		if (!textsFile) break; // no text fields selected: nothing per language
+		if (locale === 'enUS') english = texts;
+		else if (opts.style === 'addon') {
+			texts = new Map([...texts].filter(([id, t]) => luaValue(t) !== (english.has(id) ? luaValue(english.get(id)!) : null)));
+		}
 		const lines = header(textsFile, `${opts.type} texts (${locale}) for ${label}, keyed by ${opts.type} ID.`, texts.size, meta, opts);
 		const table = `addon.${textVar}`;
-		const body =
-			opts.style === 'return'
-				? ['return {', ...entries(texts), '}', '']
-				: ['local _, addon = ...', '', `${table} = ${table} or {}`, `${table}[${luaString(locale)}] = {`, ...entries(texts), '}', ''];
+		let body: string[];
+		if (opts.style === 'return') body = ['return {', ...entries(texts), '}', ''];
+		else if (locale === 'enUS') {
+			lines.splice(3, 0, '-- Load this file before the other languages: it creates the table and is the fallback.');
+			body = ['local _, addon = ...', '', 'local L = {', ...entries(texts), '}', '', `${table} = setmetatable(L, { __index = function(_, key) return key end })`, ''];
+		} else {
+			lines.splice(3, 0, '-- Only entries that differ from English; load after the enUS file.');
+			const rows = [...texts].sort(([a], [b]) => a - b).map(([id, t]) => `L[${id}] = ${luaValue(t)}`);
+			body = [`if GetLocale() ~= ${luaString(locale)} then return end`, 'local _, addon = ...', `local L = ${table}`, '', ...rows, ''];
+		}
 		files.push({ fileName: textsFile, text: [...lines, ...body].join('\n'), count: texts.size });
 	}
 	return files;

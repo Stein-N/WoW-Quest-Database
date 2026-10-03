@@ -314,7 +314,10 @@
 				</label>
 				<p class="hint muted">
 					{#if textChosen.length}
-						Texts go to their own file per language, keyed by the same IDs as the data file.
+						Texts go to their own file per language, keyed by the same IDs as the data file. In
+						the addon format, <code>{textVarFor(varName)}.enUS.lua</code> creates the table and is always included as
+						the fallback: load it first; other languages only replace the entries they translate and run
+						only in a client of that language (<code>GetLocale()</code>).
 					{:else}
 						No localization fields selected: no localization files are exported.
 					{/if}

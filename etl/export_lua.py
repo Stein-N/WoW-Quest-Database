@@ -8,14 +8,18 @@ both producing identical output.
     python3 etl/export_lua.py --flavor forever --type questline --style return
 
 Reads web/static/data (run `make data` first). Texts (names, quest texts, descriptions) always
-go to their own file, linked by the entity ID:
+go to their own file per language, linked by the entity ID. English is the base and fallback:
 
-    questData.lua                          questTexts.deDE.lua
-    local _, addon = ...                   local _, addon = ...
-    addon.questData = {                    addon.questTexts = addon.questTexts or {}
-        [2] = { level = 30, ... },         addon.questTexts["deDE"] = {
-    }                                          [2] = { name = "Klaue von Scharfkralle", ... },
-                                           }
+    questTexts.enUS.lua                         questTexts.deDE.lua
+    local _, addon = ...                        if GetLocale() ~= "deDE" then return end
+    local L = {                                 local _, addon = ...
+        [2] = { name = "Sharptalon's Claw" },   local L = addon.questTexts
+    }                                           L[2] = { name = "Klaue von Scharfkralle", ... }
+    addon.questTexts = setmetatable(L, ...)
+
+Load enUS first (it creates the table); every other language only replaces the entries it
+translates, and those are complete (untranslated fields hold the English text). A language other
+than English always comes with the enUS file.
 
 Options:
   --type      quest | npc | object | item | questline
@@ -200,9 +204,10 @@ def lua_value(value):
 
 
 def export_text(value):
-    """The player's name placeholder $N becomes ${playerName} in exported texts."""
+    """The player's name placeholder $N becomes ${playerName} in exported texts; objective lines
+    are joined into one text with $B line breaks, as in the game."""
     if isinstance(value, list):
-        return [export_text(v) for v in value]
+        return export_text("$B".join(value))
     return re.sub(r"\$[Nn]", "${playerName}", value) if isinstance(value, str) else value
 
 
@@ -239,12 +244,18 @@ def render_texts(texts, args, meta, file_name, locale):
     flavor = meta["flavors"][args.flavor]["label"]
     lines = header(file_name, f"{args.type} texts ({locale}) for {flavor}, keyed by {args.type} ID.",
                    len(texts), meta)
-    body = [f"    [{entity_id}] = {lua_value(rec)}," for entity_id, rec in sorted(texts.items())]
+    rows = [(entity_id, lua_value(rec)) for entity_id, rec in sorted(texts.items())]
     if args.style == "return":
-        return "\n".join(lines + ["return {"] + body + ["}", ""])
+        return "\n".join(lines + ["return {"] + [f"    [{i}] = {v}," for i, v in rows] + ["}", ""])
     table = f"addon.{args.text_var}"
-    return "\n".join(lines + ["local _, addon = ...", "", f"{table} = {table} or {{}}",
-                              f"{table}[{lua_string(locale)}] = {{"] + body + ["}", ""])
+    if locale == "enUS":
+        lines[3:3] = ["-- Load this file before the other languages: it creates the table and is the fallback."]
+        return "\n".join(lines + ["local _, addon = ...", "", "local L = {"]
+                         + [f"    [{i}] = {v}," for i, v in rows]
+                         + ["}", "", f"{table} = setmetatable(L, {{ __index = function(_, key) return key end }})", ""])
+    lines[3:3] = ["-- Only entries that differ from English; load after the enUS file."]
+    return "\n".join(lines + [f"if GetLocale() ~= {lua_string(locale)} then return end", "local _, addon = ...",
+                              f"local L = {table}", ""] + [f"L[{i}] = {v}" for i, v in rows] + [""])
 
 
 def main():
@@ -310,19 +321,28 @@ def main():
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     data_file = f"{args.var}.lua"
-    for n, locale in enumerate(locales):
+    # addon style: other languages extend the English table, so English always comes along
+    data_locale = locales[0]
+    wants_texts = any((keep is None or f in keep) and f not in drop for f in text_fields)
+    if args.style == "addon" and "enUS" not in locales and wants_texts:
+        locales = ["enUS"] + locales
+    english = {}
+    for locale in locales:
         data, texts = split(localized(locale))
         texts_file = f"{args.text_var}.{locale}.lua" if texts else None
-        if n == 0 and (any(data.values()) or not texts):
+        if locale == data_locale and (any(data.values()) or not texts):
             reference = f"{args.text_var}.<locale>.lua (one file per language)" if len(locales) > 1 else texts_file
             (out_dir / data_file).write_text(
                 render_data(data, args, meta, data_file, reference if texts else None), encoding="utf-8")
             print(f"wrote {len(data)} entries to {out_dir / data_file}", file=sys.stderr)
-        if texts:
-            (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, locale), encoding="utf-8")
-            print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)
-        elif n == 0:
+        if not texts:
             break  # no text fields selected: nothing per language
+        if locale == "enUS":
+            english = texts
+        elif args.style == "addon":
+            texts = {i: t for i, t in texts.items() if t != english.get(i)}
+        (out_dir / texts_file).write_text(render_texts(texts, args, meta, texts_file, locale), encoding="utf-8")
+        print(f"wrote {len(texts)} entries to {out_dir / texts_file}", file=sys.stderr)
 
 
 if __name__ == "__main__":
