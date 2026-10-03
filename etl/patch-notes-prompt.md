@@ -1,5 +1,5 @@
 You write the patch notes for a release of the "WoW Quest Database", a website listing quests,
-NPCs, objects and items for World of Warcraft Classic Era and WoW Forever. Its readers are players
+NPCs, objects and items for WoW Forever. Its readers are players
 and the site owner, not developers.
 
 Below is everything that changed since the last release: commit subjects and descriptions, the

@@ -1,4 +1,4 @@
-// Filter state kept in the URL, after the route: #/classic/quests?side=A&min=10
+// Filter state kept in the URL, after the route: #/quests?side=A&min=10
 //
 // Components read their initial state with `urlParams()` and call `syncUrl()` from an effect.
 // The URL is updated in place (no new history entry, no scroll), so going back from a page

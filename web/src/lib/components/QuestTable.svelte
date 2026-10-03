@@ -162,7 +162,7 @@
 			{#each shown as r (r[0])}
 				<tr>
 					<td>
-						<a class="link-quest" href="#/{site.flavor}/quest/{r[0]}">{name(r)}</a>
+						<a class="link-quest" href="#/quest/{r[0]}">{name(r)}</a>
 						{#if r[7] & 2}<span class="badge">Instance</span>{/if}
 						{#if r[7] & 4}<span class="badge">Group</span>{/if}
 						{#if r[7] & 1}<span class="badge">Repeatable</span>{/if}

@@ -1,24 +1,27 @@
-// Site-wide state for the flavor being browsed: its zone table and, for a non-English
-// content locale, the translated entity and zone names used by every link on the page.
+// Site-wide state: the zone table and, for a non-English content locale, the translated entity
+// and zone names used by every link on the page.
 
 import { getNames, getZoneNames, getZones, type NameTable } from './data';
 import { settings } from './settings.svelte';
 import type { Zones } from './types';
 
+/** The site only covers WoW Forever; data and maps live under data/forever and maps/forever. */
+export const FLAVOR = 'forever';
+
 class Site {
-	flavor = $state('classic');
+	readonly flavor = FLAVOR;
 	zones = $state<Zones | null>(null);
 	names = $state<NameTable | null>(null);
 	zoneNames = $state<Record<string, string>>({});
 
 	#loaded = '';
 
-	/** Loads flavor/locale dependent tables; cheap to call repeatedly. */
-	async ensure(flavor: string) {
+	/** Loads locale dependent tables; cheap to call repeatedly. */
+	async ensure() {
+		const flavor = FLAVOR;
 		const key = `${flavor}|${settings.locale}`;
 		if (key === this.#loaded) return;
 		this.#loaded = key;
-		this.flavor = flavor;
 		const [zones, names, zoneNames] = await Promise.all([
 			getZones(flavor),
 			getNames(flavor, settings.locale),

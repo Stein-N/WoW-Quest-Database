@@ -1,9 +1,11 @@
-# WoW Quest Database
+# WoW Forever Quest Database
 
-Statische Webseite mit allen Quests, NPCs, Objekten und Items für **WoW Classic Era** und
-**WoW Forever**. Die Daten stammen aus [QuestieDB](https://github.com/Questie/QuestieDB)
-(kuratierte Questdaten, Spawns, Übersetzungen) und der Welt-Datenbank von
-[VMangos](https://github.com/vmangos/core) (Questtexte, Belohnungen, Item-Werte, Loot).
+Statische Webseite mit allen Quests, NPCs, Objekten und Items für **WoW Forever**. Die Daten
+stammen aus den Forever-Daten von [QuestieDB](https://github.com/Questie/QuestieDB) (kuratierte
+Questdaten, Spawns, Übersetzungen), ergänzt um die Welt-Datenbank von
+[VMangos](https://github.com/vmangos/core) (Questtexte, Belohnungen, Item-Werte, Loot, Händler),
+den Client-Cache, Wowhead und AzerothCore (Übersetzungen). Bis Oktober 2026 deckte die Seite auch
+Classic Era ab; Daten und Karten dafür wurden entfernt.
 
 ## Schnellstart
 
@@ -70,17 +72,17 @@ Anzeigetexte: Verweise auf Quests, NPCs, Items, Zonen und Fraktionen sind reine 
 
 ```sh
 # alle Forever-Quests (questData.lua + questTexts.enUS.lua) nach export/
-python3 etl/export_lua.py --flavor forever --type quest -o export/
+python3 etl/export_lua.py --type quest -o export/
 # deutsche Texte zusätzlich
-python3 etl/export_lua.py --flavor forever --type quest --fields name,objectivesText,details --locale deDE -o export/
+python3 etl/export_lua.py --type quest --fields name,objectivesText,details --locale deDE -o export/
 # Texte in allen 10 Sprachen auf einmal (questData.lua + questTexts.<sprache>.lua je Sprache)
-python3 etl/export_lua.py --flavor forever --type quest --locale all -o export/
+python3 etl/export_lua.py --type quest --locale all -o export/
 # NPCs einer Zone (Elwynn = 12) ohne Quellenangaben
-python3 etl/export_lua.py --flavor classic --type npc --zone 12 --exclude sources -o export/
+python3 etl/export_lua.py --type npc --zone 12 --exclude sources -o export/
 # Questreihen
-python3 etl/export_lua.py --flavor classic --type questline -o export/
+python3 etl/export_lua.py --type questline -o export/
 # über make
-make lua ARGS="--flavor forever --type item --ids 100-200 -o export/"
+make lua ARGS="--type item --ids 100-200 -o export/"
 ```
 
 | Option | Bedeutung |
@@ -132,24 +134,24 @@ englische Titel werden gegen QuestieDB geprüft.
 ```sh
 make questcache                                    # lokaler Forever-Client
 make questcache CACHE="/pfad/zu/Cache/WDB"         # z. B. Cache-Ordner eines anderen PCs
-make questcache FLAVOR=classic CACHE="…/_classic_era_/Cache/WDB"
 ```
 
 Danach `make site-data` (bzw. committen und den Release-Workflow abwarten).
 
 **Regeln beim Zusammenführen:** QuestieDB hat Vorrang bei allem, was es selbst enthält.
 VMangos ergänzt nur fehlende Felder. Item-Belohnungen für Forever-Quests kommen aus
-`QuestRewards.lua`, für Classic direkt aus VMangos (inkl. Anzahl).
+`QuestRewards.lua`, sonst direkt aus VMangos (inkl. Anzahl).
 
-**Datenformat für die Webseite:** Pro Flavor und Entitätstyp gibt es Shards zu je 100 IDs
-(`data/classic/quest/0.json` enthält die Quests 0–99). Übersetzungen liegen unter
+**Datenformat für die Webseite:** Pro Entitätstyp gibt es Shards zu je 100 IDs
+(`data/forever/quest/0.json` enthält die Quests 0–99). Übersetzungen liegen unter
 `data/<flavor>/l10n/<locale>/`. Indexdateien (`quests.json`, `search.json`, `zones.json`)
 versorgen Liste, Suche und Zonenseiten.
 
 ## Hosting
 
 `web/build/` ist eine rein statische Seite und braucht keine Server-Konfiguration. Die URLs
-nutzen Hash-Routing (`/#/classic/quest/2`). Den Inhalt von `web/build/` in ein beliebiges
+nutzen Hash-Routing (`/#/quest/2`; alte Links wie `/#/forever/quest/2` oder `/#/classic/quest/2`
+werden umgeleitet). Den Inhalt von `web/build/` in ein beliebiges
 Webroot kopieren (nginx, Apache, Caddy …), oder das Docker-Image verwenden.
 
 ### Docker (Homeserver)

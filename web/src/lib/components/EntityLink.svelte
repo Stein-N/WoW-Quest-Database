@@ -10,6 +10,6 @@
 </script>
 
 {#if ref.missing}<span class="muted" title="Not in this game version's data">{name}</span
-	>{:else}<a class={cls} href="#/{site.flavor}/{ref.t}/{ref.id}">{name}</a>{/if}{#if showLevel && ref.lvl}{' '}<span
+	>{:else}<a class={cls} href="#/{ref.t}/{ref.id}">{name}</a>{/if}{#if showLevel && ref.lvl}{' '}<span
 		class="muted">[{ref.lvl}]</span
 	>{/if}

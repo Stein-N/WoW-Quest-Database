@@ -282,7 +282,7 @@ def fix_names(flavor, new_names):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--flavor", default="forever", choices=["classic", "forever"])
+    ap.add_argument("--flavor", default="forever", choices=["forever"])
     sub = ap.add_subparsers(dest="cmd", required=True)
     pl = sub.add_parser("plan")
     pl.add_argument("quests", type=int, nargs="*")

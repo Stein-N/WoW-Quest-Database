@@ -1,27 +1,25 @@
 <script lang="ts">
+	import { FLAVOR } from '$lib/context.svelte';
 	import { getChangelog, getMeta } from '$lib/data';
 	import { FLAVOR_LABELS } from '$lib/format';
 </script>
 
-<h1>WoW Quest Database</h1>
+<h1>WoW Forever Quest Database</h1>
 <p class="muted">
-	Quests, NPCs, objects and items for Classic Era and WoW Forever, built from QuestieDB and the
-	VMangos world database.
+	Quests, NPCs, objects and items for WoW Forever, built from QuestieDB's Forever data. Texts,
+	rewards, vendors and loot are completed from VMangos (Classic 1.12), the game's cache, Wowhead and
+	AzerothCore where QuestieDB has none; quests new to Forever may lack them.
 </p>
 
 {#await getMeta() then meta}
+	{@const f = meta.flavors[FLAVOR]}
 	<div class="cols" style="margin-top:1rem">
-		{#each Object.entries(meta.flavors) as [id, f] (id)}
-			<a class="panel card" href="#/{id}">
-				<h2>{f.label}</h2>
-				<dl class="facts">
-					<dt>Quests</dt><dd>{f.counts.quest.toLocaleString('en')}</dd>
-					<dt>NPCs</dt><dd>{f.counts.npc.toLocaleString('en')}</dd>
-					<dt>Objects</dt><dd>{f.counts.object.toLocaleString('en')}</dd>
-					<dt>Items</dt><dd>{f.counts.item.toLocaleString('en')}</dd>
-				</dl>
-			</a>
-		{/each}
+		<a class="panel tile" href="#/quests"><strong>{f.counts.quest.toLocaleString('en')}</strong> Quests</a>
+		<a class="panel tile" href="#/questlines"><strong>Questlines</strong> Quest chains as a graph</a>
+		<a class="panel tile" href="#/zones"><strong>Zones</strong> Browse quests by zone</a>
+		<a class="panel tile" href="#/npcs"><strong>{f.counts.npc.toLocaleString('en')}</strong> NPCs</a>
+		<a class="panel tile" href="#/items"><strong>{f.counts.item.toLocaleString('en')}</strong> Items</a>
+		<a class="panel tile" href="#/objects"><strong>{f.counts.object.toLocaleString('en')}</strong> Objects</a>
 	</div>
 	<p class="muted" style="font-size:0.85rem">
 		Data: QuestieDB {meta.questie ?? 'unknown'} · VMangos {meta.vmangos ?? 'unknown'} · built
@@ -120,16 +118,16 @@
 	.notes .tech summary {
 		cursor: pointer;
 	}
-	.card {
+	.tile {
 		color: inherit;
-		text-decoration: none;
 		display: block;
 	}
-	.card:hover {
+	.tile:hover {
 		border-color: var(--accent);
+		text-decoration: none;
 	}
-	.card h2 {
-		margin-top: 0;
+	.tile strong {
 		color: var(--accent);
+		font-size: 1.2rem;
 	}
 </style>

@@ -4,7 +4,7 @@
 #   make dev       run the website locally (http://localhost:5173)
 #   make build     static site in web/build (any web server)
 #   make maps      extract world maps from the local WoW clients (WOW_DIR=…)
-#   make lua ARGS="--flavor forever --type quest -o export/"   export data as Lua
+#   make lua ARGS="--type quest -o export/"   export data as Lua
 #   make docker    build the Docker image (nginx serving the site), see README
 #   make questcache CACHE="…/Cache/WDB"   import quest texts from a WoW client cache (FLAVOR=forever)
 
@@ -24,8 +24,7 @@ submodule:
 
 # LUA can be overridden with any Lua 5.1 interpreter (the Docker build uses lua5.1)
 questie:
-	mkdir -p build/questie/classic build/questie/forever
-	cd $(QUESTIE) && $(LUA) ../../etl/questie_export.lua Vanilla ../../build/questie/classic
+	mkdir -p build/questie/forever
 	cd $(QUESTIE) && $(LUA) ../../etl/questie_export.lua Forever ../../build/questie/forever
 
 vmangos: $(SQLITE)
@@ -60,7 +59,6 @@ build: web/node_modules
 	cd web && npm run build
 
 maps:
-	python3 etl/maps.py --wow-dir "$(WOW_DIR)" --product wow_classic_era --flavor classic
 	python3 etl/maps.py --wow-dir "$(WOW_DIR)" --product wow_classic_beta --flavor forever
 
 # Docker image serving the site with nginx; the data is built inside the image.

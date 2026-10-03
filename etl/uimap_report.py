@@ -11,7 +11,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-LABELS = {"classic": "Classic Era", "forever": "WoW Forever"}
+LABELS = {"classic": "Classic Era", "forever": "WoW Forever"}  # classic: older reports
 MAX_IDS = 12  # quest ids listed per line before "…"
 
 

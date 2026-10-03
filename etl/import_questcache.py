@@ -19,7 +19,7 @@ from pathlib import Path
 from questcache import quest_texts
 
 ROOT = Path(__file__).resolve().parent.parent
-FLAVOR_DATA = {"classic": "classic", "forever": "forever"}
+FLAVOR_DATA = {"forever": "forever"}
 
 
 def known_names(flavor):
@@ -39,7 +39,7 @@ def cache_files(paths):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--flavor", required=True, choices=sorted(FLAVOR_DATA))
+    ap.add_argument("--flavor", default="forever", choices=sorted(FLAVOR_DATA))
     ap.add_argument("paths", nargs="+")
     args = ap.parse_args()
 

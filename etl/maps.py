@@ -1,6 +1,5 @@
 """Extracts the world map images from a local WoW installation into web/static/maps/<flavor>/.
 
-    python3 etl/maps.py --product wow_classic_era  --flavor classic
     python3 etl/maps.py --product wow_classic_beta --flavor forever
 
 Reads the game's CASC storage directly, as wow.export does, so no manual export is needed.

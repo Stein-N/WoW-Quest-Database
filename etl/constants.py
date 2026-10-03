@@ -2,7 +2,6 @@
 
 FLAVORS = {
     # site id -> QuestieDB flavor name / export dir
-    "classic": {"questie": "Vanilla", "label": "Classic Era"},
     "forever": {"questie": "Forever", "label": "WoW Forever"},
 }
 

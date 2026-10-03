@@ -340,9 +340,9 @@ jobs:
             title:
               en_US: WoW Quest Database
             tagline:
-              en_US: Quests, NPCs, objects and items for WoW Classic Era and WoW Forever
+              en_US: Quests, NPCs, objects and items for WoW Forever
             description:
-              en_US: Quest database for WoW Classic Era and WoW Forever with maps, questlines and Lua export.
+              en_US: Quest database for WoW Forever with maps, questlines and Lua export.
             icon: ${icon}
             index: /
             port_map: "8080"

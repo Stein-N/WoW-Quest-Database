@@ -135,7 +135,7 @@
 				class:done
 				style="left:{n.x}px;top:{n.y}px;width:{NODE_W}px;height:{NODE_H}px"
 			>
-				<a href="#/{site.flavor}/quest/{n.id}" title="{name(n.id)}{row?.[2] ? ` (level ${row[2]})` : ''}">
+				<a href="#/quest/{n.id}" title="{name(n.id)}{row?.[2] ? ` (level ${row[2]})` : ''}">
 					<span class="title">{name(n.id)}</span>
 					<span class="meta">
 						{#if row?.[2]}<span class="lvl">{row[2]}</span>{/if}

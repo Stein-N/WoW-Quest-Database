@@ -1,6 +1,6 @@
 """Merges the QuestieDB export and the VMangos world DB into static JSON for the website.
 
-    python3 etl/build.py [--out web/static/data] [--flavors classic,forever]
+    python3 etl/build.py [--out web/static/data]
 
 Expects `build/questie/<flavor>/` from questie_export.lua (see Makefile) and the VMangos
 SQLite snapshot in vendor/vmangos/sqlite-dump/mangos.sqlite.
@@ -1164,10 +1164,14 @@ def main():
     # keep entries of flavors not rebuilt this time (e.g. --flavors forever)
     previous = out / "meta.json"
     if previous.exists():
-        meta["flavors"] = json.loads(previous.read_text()).get("flavors", {})
+        meta["flavors"] = {k: v for k, v in json.loads(previous.read_text()).get("flavors", {}).items()
+                           if k in C.FLAVORS}
     report_path = out / "uimap-report.json"
     uimap_report = json.loads(report_path.read_text()) if report_path.exists() else {}
     digest = json.loads(DIGEST_PATH.read_text()) if DIGEST_PATH.exists() else {}
+    # only flavors the site still has (it covered Classic Era too until 2026-10)
+    uimap_report = {k: v for k, v in uimap_report.items() if k in C.FLAVORS}
+    digest = {k: v for k, v in digest.items() if k in C.FLAVORS}
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
         flavor = Flavor(site_id, vm, quest_rewards, azerothcore)

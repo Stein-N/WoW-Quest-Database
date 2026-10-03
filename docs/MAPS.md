@@ -12,7 +12,6 @@ Reader (`etl/casc.py`, `etl/db2.py`).
 
 | Flavor | Client | Karten |
 | --- | --- | --- |
-| `classic` | `wow_classic_era` (`_classic_era_`) | 54 |
 | `forever` | `wow_classic_beta` (`_classic_beta_`) | 60 (inkl. neuer Forever-Zonen) |
 
 So entsteht jede Karte:

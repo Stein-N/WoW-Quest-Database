@@ -7,10 +7,12 @@
       "Pages note when a translated text comes from AzerothCore (Wrath of the Lich King), since it may differ from Classic.",
       "Lua exports of texts follow a locale-file layout with English as fallback: the enUS file creates the table, other languages only replace the entries they translate, and objectives are one text with $B line breaks.",
       "The Lua export page no longer offers the References and Format options: exports always use plain IDs and the addon format.",
-      "In the Lua export, startedBy is grouped by kind, e.g. { npc = {196}, item = {1307} }, so quest starters of different kinds can be told apart."
+      "In the Lua export, startedBy is grouped by kind, e.g. { npc = {196}, item = {1307} }, so quest starters of different kinds can be told apart.",
+      "The site now covers WoW Forever only: the Classic Era version and the version switch are gone, and addresses are shorter (e.g. #/quest/2); old links still work."
     ],
     "data": [
-      "Missing translations are now filled in from AzerothCore as a last resort, for example about 3,800 quest completion texts in Latin American Spanish and many NPC and object names."
+      "Missing translations are now filled in from AzerothCore as a last resort, for example about 3,800 quest completion texts in Latin American Spanish and many NPC and object names.",
+      "Classic Era data and maps are no longer built or published."
     ]
   },
   "versions": [

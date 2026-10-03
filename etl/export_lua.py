@@ -3,9 +3,9 @@
 The website's Export page does the same in the browser (web/src/lib/lua-export.ts); keep
 both producing identical output.
 
-    python3 etl/export_lua.py --flavor forever --type quest -o export/
-    python3 etl/export_lua.py --flavor classic --type npc --zone 12 --locale deDE -o export/
-    python3 etl/export_lua.py --flavor forever --type questline
+    python3 etl/export_lua.py --type quest -o export/
+    python3 etl/export_lua.py --type npc --zone 12 --locale deDE -o export/
+    python3 etl/export_lua.py --type questline
 
 Reads web/static/data (run `make data` first). Texts (names, quest texts, descriptions) always
 go to their own file per language, linked by the entity ID. English is the base and fallback:
@@ -258,7 +258,7 @@ def render_texts(texts, args, meta, file_name, locale):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--flavor", required=True, choices=["classic", "forever"])
+    ap.add_argument("--flavor", default="forever", choices=["forever"], help=argparse.SUPPRESS)
     ap.add_argument("--type", required=True, choices=TYPES)
     ap.add_argument("--fields")
     ap.add_argument("--exclude")
