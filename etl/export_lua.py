@@ -143,12 +143,10 @@ def quest_rewards_format(rewards):
 
 
 def by_kind(refs, kinds):
-    """References -> QuestieDB's positional shape, e.g. startedBy = { {npcs}, {objects}, {items} }:
-    one ID list per kind, nil for kinds without entries, trailing nils left out."""
-    out = [[r["id"] for r in refs if r.get("t") == kind] or None for kind in kinds]
-    while out and out[-1] is None:
-        out.pop()
-    return out
+    """References -> one ID list per kind, e.g. startedBy = { npc = {196}, item = {1307} };
+    kinds without entries are left out."""
+    out = {kind: [r["id"] for r in refs if r.get("t") == kind] for kind in kinds}
+    return {kind: ids for kind, ids in out.items() if ids}
 
 
 def parse_ids(spec):

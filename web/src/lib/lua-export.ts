@@ -83,7 +83,7 @@ export const FIELD_DOCS: Record<ExportType, Record<string, string>> = {
 		progress: 'Text shown when talking to the quest ender before the objectives are complete.',
 		completion: 'Text shown when turning the quest in.',
 		endText: 'Quest log text once all objectives are done (e.g. "Return to …").',
-		startedBy: 'Who starts the quest, as in QuestieDB: { {NPC IDs}, {object IDs}, {item IDs} }, nil for an empty group, e.g. { {196} } or { nil, nil, {1307} }.',
+		startedBy: 'Who starts the quest, grouped by kind: { npc = {...}, object = {...}, item = {...} }; kinds without starters are left out, e.g. { npc = {196} } or { item = {1307} }.',
 		finishedBy: 'Who the quest is turned in to (as in QuestieDB): NPC or object IDs.',
 		objectives: 'Objectives: list of { kind = kill/item/object/reputation/killcredit/spell/event/extra, target, count, text, sources = where items drop }.',
 		providedItem: 'Item ID the quest giver hands out when the quest is accepted (letters, tools …).',
@@ -258,15 +258,15 @@ function compactRefs(value: Json): Json {
  * Item lists are plain IDs; amounts above one go to counts[itemId].
  */
 /**
- * References -> QuestieDB's positional shape, e.g. startedBy = { {npcs}, {objects}, {items} }:
- * one ID list per kind, nil for kinds without entries, trailing nils left out.
+ * References -> one ID list per kind, e.g. startedBy = { npc = {196}, item = {1307} }; kinds
+ * without entries are left out.
  */
-function byKind(refs: Rec[], kinds: string[]): Json[] {
-	const out: Json[] = kinds.map((kind) => {
+function byKind(refs: Rec[], kinds: string[]): Rec {
+	const out: Rec = {};
+	for (const kind of kinds) {
 		const ids = refs.filter((r) => r.t === kind).map((r) => r.id as number);
-		return ids.length ? ids : null;
-	});
-	while (out.length && out[out.length - 1] === null) out.pop();
+		if (ids.length) out[kind] = ids;
+	}
 	return out;
 }
 
