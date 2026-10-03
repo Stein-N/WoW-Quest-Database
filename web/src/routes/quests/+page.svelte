@@ -4,7 +4,7 @@
 	import QuestTable from '$lib/components/QuestTable.svelte';
 </script>
 
-<svelte:head><title>Quests – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Quests – Forever Database</title></svelte:head>
 
 <h1>Quests</h1>
 {#await getQuestIndex(FLAVOR)}

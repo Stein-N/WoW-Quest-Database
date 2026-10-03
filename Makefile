@@ -1,4 +1,4 @@
-# WoW Quest Database — data pipeline and website.
+# Forever Database — data pipeline and website.
 #
 #   make data      export QuestieDB, fetch VMangos and AzerothCore translations, build web/static/data
 #   make dev       run the website locally (http://localhost:5173)

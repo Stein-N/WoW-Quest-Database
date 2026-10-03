@@ -311,7 +311,7 @@ jobs:
           # app icon for ZimaOS/CasaOS, embedded so it needs no public URL (the repository is private)
           icon="data:image/png;base64,$(base64 -w0 docker/icon.png)"
           cat > dist/docker-compose.yml <<EOF
-          # WoW Quest Database ${VERSION}
+          # Forever Database ${VERSION}
           #
           # Start (or update to this version):  docker compose up -d
           # The site is then served on http://<server>:8080 (change the left port to taste).
@@ -338,7 +338,7 @@ jobs:
             author: Stein-N
             category: Utilities
             title:
-              en_US: WoW Quest Database
+              en_US: Forever Database
             tagline:
               en_US: Quests, NPCs, objects and items for WoW Forever
             description:

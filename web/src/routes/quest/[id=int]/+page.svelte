@@ -75,7 +75,7 @@
 	const objectivesText = $derived(tr?.objectivesText ?? quest?.objectivesText);
 </script>
 
-<svelte:head><title>{name ?? 'Quest'} – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{name ?? 'Quest'} – Forever Database</title></svelte:head>
 
 {#if quest === undefined}
 	<p class="muted">Loading…</p>

@@ -232,7 +232,7 @@ def header(file_name, description, count, meta):
 
 def render_data(records, args, meta, file_name, texts_file):
     flavor = meta["flavors"][args.flavor]["label"]
-    lines = header(file_name, f"{args.type} data for {flavor}, exported from the WoW Quest Database.",
+    lines = header(file_name, f"{args.type} data for {flavor}, exported from the Forever Database.",
                    len(records), meta)
     if texts_file:
         lines[3:3] = [f"-- Texts (names, descriptions, ...) are in {texts_file}, keyed by the same IDs."]

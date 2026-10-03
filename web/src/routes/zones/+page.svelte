@@ -21,7 +21,7 @@
 	}
 </script>
 
-<svelte:head><title>Zones – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Zones – Forever Database</title></svelte:head>
 
 <h1>Zones</h1>
 {#await getQuestIndex(flavor) then rows}

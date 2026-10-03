@@ -1,4 +1,4 @@
-# WoW Quest Database — static site served by nginx.
+# Forever Database — static site served by nginx.
 #
 #   git submodule update --init          # QuestieDB must be checked out
 #   make docker                          # or: docker build -t wow-quest-database .

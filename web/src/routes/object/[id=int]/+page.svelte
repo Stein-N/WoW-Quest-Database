@@ -44,7 +44,7 @@
 	let shownIds = $state<number[]>([]);
 </script>
 
-<svelte:head><title>{name ?? 'Object'} – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{name ?? 'Object'} – Forever Database</title></svelte:head>
 
 {#if obj === undefined}
 	<p class="muted">Loading…</p>

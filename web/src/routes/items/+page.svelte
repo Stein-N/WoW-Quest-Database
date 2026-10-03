@@ -57,7 +57,7 @@
 	];
 </script>
 
-<svelte:head><title>Items – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Items – Forever Database</title></svelte:head>
 
 <h1>Items</h1>
 {#await getSearchIndex(flavor)}

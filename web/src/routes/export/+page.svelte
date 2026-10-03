@@ -187,7 +187,7 @@
 	{/if}
 {/snippet}
 
-<svelte:head><title>Lua export – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Lua export – Forever Database</title></svelte:head>
 <svelte:window onscroll={hideTip} />
 
 {#if tip}

@@ -28,7 +28,7 @@
 	);
 </script>
 
-<svelte:head><title>{title} – Questline – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{title} – Questline – Forever Database</title></svelte:head>
 
 {#if data === undefined}
 	<p class="muted">Loading…</p>

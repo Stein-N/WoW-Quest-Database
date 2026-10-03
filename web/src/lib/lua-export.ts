@@ -452,7 +452,7 @@ export async function exportLua(
 		const textsFile = texts.size ? `${textVar}.${locale}.lua` : null;
 		const hasData = [...data.values()].some((v) => v && typeof v === 'object' && Object.keys(v).length);
 		if (locale === dataLocale && (hasData || !texts.size)) {
-			const lines = header(dataFile, `${opts.type} data for ${label}, exported from the WoW Quest Database.`, data.size, meta, opts);
+			const lines = header(dataFile, `${opts.type} data for ${label}, exported from the Forever Database.`, data.size, meta, opts);
 			const reference = fileLocales.length > 1 ? `${textVar}.<locale>.lua (one file per language)` : textsFile;
 			if (textsFile) lines.splice(3, 0, `-- Texts (names, descriptions, ...) are in ${reference}, keyed by the same IDs.`);
 			const body = ['local _, addon = ...', '', `addon.${opts.varName} = {`, ...entries(data), '}', ''];

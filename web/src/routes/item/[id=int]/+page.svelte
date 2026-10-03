@@ -45,7 +45,7 @@
 	const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 </script>
 
-<svelte:head><title>{name ?? 'Item'} – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{name ?? 'Item'} – Forever Database</title></svelte:head>
 
 {#if item === undefined}
 	<p class="muted">Loading…</p>

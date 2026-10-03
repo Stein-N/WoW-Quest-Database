@@ -1,4 +1,4 @@
-# WoW Forever Quest Database
+# Forever Database
 
 Statische Webseite mit allen Quests, NPCs, Objekten und Items für **WoW Forever**. Die Daten
 stammen aus den Forever-Daten von [QuestieDB](https://github.com/Questie/QuestieDB) (kuratierte

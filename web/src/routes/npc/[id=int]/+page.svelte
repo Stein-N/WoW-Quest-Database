@@ -18,7 +18,7 @@
 	const REACT: Record<string, string> = { A: 'Alliance', H: 'Horde', AH: 'Friendly to both' };
 </script>
 
-<svelte:head><title>{name ?? 'NPC'} – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{name ?? 'NPC'} – Forever Database</title></svelte:head>
 
 {#if npc === undefined}
 	<p class="muted">Loading…</p>

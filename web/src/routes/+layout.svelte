@@ -34,12 +34,12 @@
 <svelte:head>
 	<link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-	<title>WoW Forever Quest Database</title>
+	<title>Forever Database</title>
 </svelte:head>
 
 <header>
 	<div class="bar">
-		<a class="brand" href="#/"><img src="logo.png" alt="" width="28" height="28" />Quest Database</a>
+		<a class="brand" href="#/"><img src="logo.png" alt="" width="28" height="28" />Forever Database</a>
 		<nav>
 			<a href="#/quests">Quests</a>
 			<a href="#/questlines">Questlines</a>

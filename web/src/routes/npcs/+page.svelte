@@ -70,7 +70,7 @@
 	];
 </script>
 
-<svelte:head><title>NPCs – WoW Quest Database</title></svelte:head>
+<svelte:head><title>NPCs – Forever Database</title></svelte:head>
 
 <h1>NPCs</h1>
 {#await getSearchIndex(flavor)}

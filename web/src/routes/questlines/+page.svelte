@@ -42,7 +42,7 @@
 	}
 </script>
 
-<svelte:head><title>Questlines – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Questlines – Forever Database</title></svelte:head>
 
 <h1>Questlines</h1>
 

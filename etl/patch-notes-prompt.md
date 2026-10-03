@@ -1,4 +1,4 @@
-You write the patch notes for a release of the "WoW Quest Database", a website listing quests,
+You write the patch notes for a release of the "Forever Database", a website listing quests,
 NPCs, objects and items for WoW Forever. Its readers are players
 and the site owner, not developers.
 

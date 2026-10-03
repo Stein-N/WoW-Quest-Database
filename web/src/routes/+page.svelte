@@ -4,7 +4,7 @@
 	import { FLAVOR_LABELS } from '$lib/format';
 </script>
 
-<h1>WoW Forever Quest Database</h1>
+<h1>Forever Database</h1>
 <p class="muted">
 	Quests, NPCs, objects and items for WoW Forever, built from QuestieDB's Forever data. Texts,
 	rewards, vendors and loot are completed from VMangos (Classic 1.12), the game's cache, Wowhead and

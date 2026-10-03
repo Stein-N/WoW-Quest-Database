@@ -55,7 +55,7 @@
 	}
 </script>
 
-<svelte:head><title>{site.zoneName(id)} – WoW Quest Database</title></svelte:head>
+<svelte:head><title>{site.zoneName(id)} – Forever Database</title></svelte:head>
 
 <h1>{site.zoneName(id)}</h1>
 {#if zone?.instance}<p class="muted" style="margin-top:0">Instance{#if zone.parent}{' in '}<a href="#/zone/{zone.parent}">{site.zoneName(zone.parent)}</a>{/if}</p>{/if}

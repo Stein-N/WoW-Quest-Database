@@ -71,7 +71,7 @@
 	const results = $derived(q.length >= 2 || /^\d+$/.test(q) ? run(flavor, q) : null);
 </script>
 
-<svelte:head><title>Search – WoW Quest Database</title></svelte:head>
+<svelte:head><title>Search – Forever Database</title></svelte:head>
 
 <h1>Search{q ? `: ${q}` : ''}</h1>
 
