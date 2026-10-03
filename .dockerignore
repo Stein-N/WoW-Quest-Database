@@ -6,5 +6,6 @@ web/.svelte-kit
 web/static/data
 build
 vendor/vmangos
+vendor/azerothcore
 __pycache__
 **/*.pyc

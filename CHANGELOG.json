@@ -3,9 +3,12 @@
   "unreleased": {
     "website": [
       "Objects with the same name (e.g. every Campfire or Mailbox) are one entry in the object list; its page shows all of them on the map, and Quick facts lists the object IDs on the selected map.",
-      "Maps on quest, object, NPC and item pages can be zoomed out to show the whole map again."
+      "Maps on quest, object, NPC and item pages can be zoomed out to show the whole map again.",
+      "Pages note when a translated text comes from AzerothCore (Wrath of the Lich King), since it may differ from Classic."
     ],
-    "data": []
+    "data": [
+      "Missing translations are now filled in from AzerothCore as a last resort, for example about 3,800 quest completion texts in Latin American Spanish and many NPC and object names."
+    ]
   },
   "versions": [
     {

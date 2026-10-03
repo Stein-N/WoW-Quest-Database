@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { useEntity } from '$lib/entity.svelte';
+	import TranslationNote from '$lib/components/TranslationNote.svelte';
 	import { site } from '$lib/context.svelte';
 	import { questText, duration, chance, SIDE_LABELS } from '$lib/format';
 	import EntityLink from '$lib/components/EntityLink.svelte';
@@ -84,6 +85,7 @@
 {:else}
 	{@const q = quest}
 	<h1>{name}</h1>
+	<TranslationNote tr={tr} />
 	<p class="subtitle">
 		{#if q.level}<span class="badge">Level {q.level}</span>{/if}
 		{#if q.type}<span class="badge">{q.type}</span>{/if}

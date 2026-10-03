@@ -411,7 +411,7 @@ export async function exportLua(
 		const data = new Map<number, Json>();
 		const texts = new Map<number, Json>();
 		for (const [id, rec] of recs) {
-			const kept = Object.entries(rec).filter(([k]) => k !== 'id' && (!keep || keep.has(k)));
+			const kept = Object.entries(rec).filter(([k]) => k !== 'id' && k !== 'azerothcore' && (!keep || keep.has(k)));
 			const text = kept.filter(([k]) => textFields.includes(k));
 			const rest: Rec = Object.fromEntries(kept.filter(([k]) => !textFields.includes(k)));
 			if (opts.type === 'quest' && rest.rewards) rest.rewards = questRewardsFormat(rest.rewards as Rec, opts.refs);

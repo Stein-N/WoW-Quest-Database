@@ -9,4 +9,5 @@ __pycache__/
 
 # downloaded VMangos snapshot (make vmangos)
 /vendor/vmangos/
+/vendor/azerothcore/
 *.json.tmp

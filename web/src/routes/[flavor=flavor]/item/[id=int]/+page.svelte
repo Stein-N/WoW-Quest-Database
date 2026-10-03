@@ -2,6 +2,7 @@
 	import { page } from '$app/state';
 	import { site } from '$lib/context.svelte';
 	import { useEntity } from '$lib/entity.svelte';
+	import TranslationNote from '$lib/components/TranslationNote.svelte';
 	import { QUALITY_NAMES } from '$lib/format';
 	import EntityLink from '$lib/components/EntityLink.svelte';
 	import Money from '$lib/components/Money.svelte';
@@ -53,6 +54,7 @@
 {:else}
 	{@const it = item}
 	<h1 class="q{it.quality ?? 1}">{name}</h1>
+	<TranslationNote tr={entity.tr} />
 	<div class="grid">
 		<div>
 			{#if layers.length}

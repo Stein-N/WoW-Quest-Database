@@ -2,6 +2,7 @@
 	import { page } from '$app/state';
 	import { site } from '$lib/context.svelte';
 	import { useEntity } from '$lib/entity.svelte';
+	import TranslationNote from '$lib/components/TranslationNote.svelte';
 	import { levelRange } from '$lib/format';
 	import RefList from '$lib/components/RefList.svelte';
 	import ZoneMap from '$lib/components/ZoneMap.svelte';
@@ -26,6 +27,7 @@
 {:else}
 	<h1>{name}</h1>
 	{#if subName}<p class="muted" style="margin-top:0">&lt;{subName}&gt;</p>{/if}
+	<TranslationNote tr={entity.tr} />
 
 	<div class="grid">
 		<div>

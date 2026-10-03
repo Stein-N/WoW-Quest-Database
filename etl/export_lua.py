@@ -298,7 +298,7 @@ def main():
     def split(recs):
         data, texts = {}, {}
         for entity_id, rec in recs.items():
-            rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k != "id"}
+            rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k not in ("id", "azerothcore")}
             text = {k: export_text(rec.pop(k)) for k in text_fields if k in rec}
             if args.type == "quest" and rec.get("rewards"):
                 rec["rewards"] = quest_rewards_format(rec["rewards"], args.refs)

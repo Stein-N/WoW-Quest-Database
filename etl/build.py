@@ -10,6 +10,7 @@ spawns). VMangos fills in what QuestieDB lacks: quest texts, rewards, item stats
 """
 
 import argparse
+import gzip
 import json
 import os
 import re
@@ -72,9 +73,12 @@ def load_quest_rewards_lua(path):
 
 
 class Flavor:
-    def __init__(self, site_id, vm, quest_rewards_lua):
+    def __init__(self, site_id, vm, quest_rewards_lua, azerothcore=None):
         self.site_id = site_id
         self.vm = vm
+        # kind -> locale -> id -> {field: text}; last fallback for translations (WotLK texts)
+        self.ac = azerothcore or {}
+        self.ac_names = set()  # (kind, id, locale) whose name came from AzerothCore
         src = ROOT / "build" / "questie" / site_id
         load = lambda name: json.loads((src / name).read_text(encoding="utf-8"))
         self.quests = {int(k): v for k, v in load("Quest.json").items()}
@@ -1007,7 +1011,26 @@ class Flavor:
         name = self.vm.localized(vm_locale, column, locale)
         if not name and kind == "quest":
             name = self.cache_texts.get(locale, {}).get(entity_id, {}).get("name")
+        if not name:
+            name = self.ac_text(kind, entity_id, locale).get("name")
+            if name:
+                self.ac_names.add((kind, entity_id, locale))
         return name
+
+    def ac_text(self, kind, entity_id, locale):
+        return self.ac.get(kind, {}).get(locale, {}).get(str(entity_id), {})
+
+    def fill_from_azerothcore(self, entry, kind, entity_id, locale, fields, rec):
+        """Fills missing translated fields from AzerothCore and notes which ones. Only fields the
+        English record has: a translation must not add WotLK text the Classic data does not show."""
+        ac = self.ac_text(kind, entity_id, locale)
+        used = ["name"] if (kind, entity_id, locale) in self.ac_names and entry.get("name") else []
+        for field in fields:
+            if field not in entry and ac.get(field) and rec.get(field):
+                entry[field] = [ac[field]] if field == "objectivesText" else ac[field]
+                used.append(field)
+        if used:
+            entry["azerothcore"] = used
 
     def build_l10n(self, base, records):
         for locale in C.LOCALES:
@@ -1044,16 +1067,23 @@ class Flavor:
                         for field in ("objectivesText", "details", "progress", "completion", "endText"):
                             if field not in entry and cached.get(field):
                                 entry[field] = cached[field]
+                        self.fill_from_azerothcore(entry, kind, entity_id, locale,
+                                                   ("objectivesText", "details", "progress", "completion", "endText"),
+                                                   rec)
                     elif kind == "npc":
                         ne = self.l10n.get("Npc", {}).get(str(entity_id), {})
                         sub = ne.get("subName", {}).get(locale) or self.vm.localized(
                             self.vm.creature_locales.get(entity_id), "subname_loc{n}", locale)
                         if sub:
                             entry["subName"] = sub
+                        self.fill_from_azerothcore(entry, kind, entity_id, locale, ("subName",), rec)
                     elif kind == "item":
                         desc = self.vm.localized(self.vm.item_locales.get(entity_id), "description_loc{n}", locale)
                         if desc:
                             entry["description"] = desc
+                        self.fill_from_azerothcore(entry, kind, entity_id, locale, ("description",), rec)
+                    elif kind == "object":
+                        self.fill_from_azerothcore(entry, kind, entity_id, locale, (), rec)
                     if entry:
                         out[entity_id] = entry
                 write_shards(base / "l10n" / locale / kind, out)
@@ -1112,6 +1142,13 @@ def main():
 
     print("loading VMangos …", file=sys.stderr)
     vm = VMangos(args.vmangos)
+    ac_dir = ROOT / "vendor" / "azerothcore"
+    azerothcore = None
+    if (ac_dir / "locales.json.gz").exists():
+        print("loading AzerothCore translations …", file=sys.stderr)
+        azerothcore = json.loads(gzip.open(ac_dir / "locales.json.gz", "rt", encoding="utf-8").read())
+    else:
+        print("  no AzerothCore translations (make azerothcore)", file=sys.stderr)
     rewards_path = Path(args.rewards)
     quest_rewards = load_quest_rewards_lua(rewards_path) if rewards_path.exists() else None
 
@@ -1120,6 +1157,7 @@ def main():
         "questie": git_rev(ROOT / "vendor" / "QuestieDB"),
         "vmangos": (ROOT / "vendor" / "vmangos" / "VERSION").read_text().strip()
         if (ROOT / "vendor" / "vmangos" / "VERSION").exists() else None,
+        "azerothcore": (ac_dir / "VERSION").read_text().strip() if (ac_dir / "VERSION").exists() else None,
         "locales": C.LOCALES,
         "flavors": {},
     }
@@ -1132,7 +1170,7 @@ def main():
     digest = json.loads(DIGEST_PATH.read_text()) if DIGEST_PATH.exists() else {}
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
-        flavor = Flavor(site_id, vm, quest_rewards)
+        flavor = Flavor(site_id, vm, quest_rewards, azerothcore)
         counts = flavor.build(out)
         meta["flavors"][site_id] = {"label": C.FLAVORS[site_id]["label"], "counts": counts}
         uimap_report[site_id] = flavor.uimap_report

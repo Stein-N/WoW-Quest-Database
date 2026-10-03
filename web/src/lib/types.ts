@@ -251,6 +251,8 @@ export interface L10nEntry {
 	completion?: string;
 	endText?: string;
 	description?: string;
+	/** fields taken from AzerothCore (WotLK 3.3.5), which may differ from Classic */
+	azerothcore?: string[];
 }
 
 export interface Questline {

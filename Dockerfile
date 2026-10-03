@@ -29,6 +29,10 @@ ARG VMANGOS_SNAPSHOT=latest
 COPY etl/fetch_vmangos.py etl/fetch_vmangos.py
 RUN echo "VMangos snapshot: ${VMANGOS_SNAPSHOT}" && python3 etl/fetch_vmangos.py vendor/vmangos
 
+# AzerothCore translations (pinned commit): cached until the fetch script changes
+COPY etl/fetch_azerothcore.py etl/fetch_azerothcore.py
+RUN python3 etl/fetch_azerothcore.py vendor/azerothcore
+
 COPY Makefile QuestRewards.lua ./
 COPY etl etl
 COPY vendor/QuestieDB vendor/QuestieDB

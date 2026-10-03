@@ -1,6 +1,6 @@
 # WoW Quest Database — data pipeline and website.
 #
-#   make data      export QuestieDB, fetch VMangos, build web/static/data
+#   make data      export QuestieDB, fetch VMangos and AzerothCore translations, build web/static/data
 #   make dev       run the website locally (http://localhost:5173)
 #   make build     static site in web/build (any web server)
 #   make maps      extract world maps from the local WoW clients (WOW_DIR=…)
@@ -12,11 +12,12 @@ QUESTIE  := vendor/QuestieDB
 LUA      := ./tools/lua-binary/linux-x64/lua
 VMANGOS  := vendor/vmangos
 SQLITE   := $(VMANGOS)/sqlite-dump/mangos.sqlite
+ACORE    := vendor/azerothcore
 WOW_DIR  ?= /run/media/$(USER)/Games/Battle.Net/drive_c/Program Files (x86)/World of Warcraft
 
-.PHONY: data submodule questie vmangos site-data dev build maps lua docker questcache wowhead clean update
+.PHONY: data submodule questie vmangos azerothcore site-data dev build maps lua docker questcache wowhead clean update
 
-data: submodule questie vmangos site-data
+data: submodule questie vmangos azerothcore site-data
 
 submodule:
 	git submodule update --init $(QUESTIE)
@@ -33,6 +34,12 @@ vmangos: $(SQLITE)
 $(SQLITE):
 	mkdir -p $(VMANGOS)
 	python3 etl/fetch_vmangos.py $(VMANGOS)
+
+# AzerothCore locale tables (pinned commit in etl/fetch_azerothcore.py), last translation fallback
+azerothcore: $(ACORE)/locales.json.gz
+
+$(ACORE)/locales.json.gz: etl/fetch_azerothcore.py
+	python3 etl/fetch_azerothcore.py $(ACORE)
 
 site-data:
 	python3 etl/build.py

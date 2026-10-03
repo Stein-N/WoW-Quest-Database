@@ -3,6 +3,7 @@
 	import { site } from '$lib/context.svelte';
 	import { getEntity, getSearchIndex } from '$lib/data';
 	import { useEntity } from '$lib/entity.svelte';
+	import TranslationNote from '$lib/components/TranslationNote.svelte';
 	import RefList from '$lib/components/RefList.svelte';
 	import ZoneMap from '$lib/components/ZoneMap.svelte';
 	import type { GameObject, Ref } from '$lib/types';
@@ -51,6 +52,7 @@
 	<h1>Object {id} not found</h1>
 {:else}
 	<h1>{name}</h1>
+	<TranslationNote tr={entity.tr} />
 	<div class="grid">
 		<div>
 			{#if spawned.length}
