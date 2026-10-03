@@ -23,6 +23,8 @@ class VMangos:
         self.creature_locales = self._by_entry("locales_creature")
         self.object_locales = self._by_entry("locales_gameobject")
         self.areas = {r["entry"]: dict(r) for r in self.db.execute("SELECT * FROM area_template")}
+        # map id -> map_type (0 world, 1 dungeon, 2 raid, 3 battleground)
+        self.map_types = {r["entry"]: r["map_type"] for r in self._max_patch_rows("map_template")}
         self.area_locales = {r["Entry"]: r for r in self.db.execute("SELECT * FROM locales_area")}
         self.factions = self._max_build("faction", "id")
         self.faction_locales = self._by_entry("locales_faction")
@@ -41,6 +43,12 @@ class VMangos:
         ):
             rows[r["entry"]] = r
         return rows
+
+    def _max_patch_rows(self, table):
+        rows = {}
+        for r in self.db.execute(f"SELECT * FROM {table} WHERE patch <= ? ORDER BY entry, patch", (MAX_PATCH,)):
+            rows[r["entry"]] = r
+        return rows.values()
 
     def _max_build(self, table, key):
         rows = {}

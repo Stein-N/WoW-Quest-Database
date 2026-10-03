@@ -13,11 +13,14 @@
 		const all = [...counts.entries()].map(([id, n]) => ({ id, n, name: site.zoneName(id) }));
 		const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
 		const zones = site.zones?.zones ?? {};
+		const kind = (id: number) => zones[id]?.instanceType;
 		return [
-			{ title: 'Zones', items: all.filter((z) => z.id > 0 && !zones[z.id]?.instance).sort(byName) },
-			{ title: 'Dungeons & Raids', items: all.filter((z) => z.id > 0 && zones[z.id]?.instance).sort(byName) },
+			{ title: 'Zones', items: all.filter((z) => z.id > 0 && !kind(z.id)).sort(byName) },
+			{ title: 'Dungeons', items: all.filter((z) => z.id > 0 && kind(z.id) === 'dungeon').sort(byName) },
+			{ title: 'Raids', items: all.filter((z) => z.id > 0 && kind(z.id) === 'raid').sort(byName) },
+			{ title: 'Battlegrounds', items: all.filter((z) => z.id > 0 && kind(z.id) === 'battleground').sort(byName) },
 			{ title: 'Categories', items: all.filter((z) => z.id < 0).sort(byName) }
-		];
+		].filter((g) => g.items.length);
 	}
 </script>
 

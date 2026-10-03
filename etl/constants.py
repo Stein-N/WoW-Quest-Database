@@ -112,3 +112,31 @@ NPC_FLAGS = {
 
 def bitmask_names(mask, table):
     return [name for bit, name in table.items() if mask & bit]
+
+
+# Instance kind for the zone list where VMangos' map_template cannot tell it: the area sits on a
+# continent map there (Blackrock Mountain, Onyxia's Lair, ...) or the instance is not in 1.12.
+# None = not an instance list entry (shown with the zones).
+INSTANCE_TYPES = {
+    # Classic, area on a continent map in VMangos
+    1583: "dungeon", 1584: "dungeon", 1477: "dungeon", 2159: "raid",
+    2917: None, 2918: None,  # Hall of Legends, Champions' Hall
+    # Season of Discovery / Forever additions
+    15475: "dungeon", 15828: "dungeon", 16074: "dungeon", 15531: "raid", 16236: "raid",
+    # later expansions (QuestieDB lists them; no Forever quests so far)
+    3457: "raid", 3923: "raid", 3836: "raid", 3607: "raid", 3845: "raid", 3606: "raid", 3959: "raid",
+    3805: "raid", 4075: "raid", 4273: "raid", 4812: "raid", 4722: "raid", 4493: "raid", 4500: "raid",
+    4603: "raid", 4987: "raid", 5600: "raid", 5094: "raid", 5334: "raid", 5638: "raid", 5723: "raid",
+    5892: "raid", 6125: "raid", 6297: "raid", 6067: "raid", 6622: "raid", 6738: "raid",
+}
+MAP_TYPE_NAMES = {1: "dungeon", 2: "raid", 3: "battleground"}
+
+# Quest zones that are the outdoor area of an instance: QuestieDB files these instances' quests
+# under them, so the zone list shows them with the instances.
+QUEST_ZONE_INSTANCES = {
+    133: "dungeon",   # Gnomeregan
+    978: "dungeon",   # Zul'Farrak
+    1417: "dungeon",  # Sunken Temple
+    1517: "dungeon",  # Uldaman
+    1717: "dungeon",  # Razorfen Kraul
+}

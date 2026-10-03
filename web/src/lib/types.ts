@@ -197,6 +197,8 @@ export interface Zone {
 	uiMapId?: number;
 	parent?: number;
 	instance?: boolean;
+	/** kind of instance for the zone list (also on the outdoor quest zone of some instances, e.g. Gnomeregan); absent for e.g. Deeprun Tram */
+	instanceType?: 'dungeon' | 'raid' | 'battleground';
 	entrances?: { zone: number; x: number; y: number }[];
 }
 

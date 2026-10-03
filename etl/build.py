@@ -285,11 +285,25 @@ class Flavor:
             if key in dungeons:
                 d = dungeons[key]
                 zone["instance"] = True
+                kind = self.instance_type(area_id, area)
+                if kind:
+                    zone["instanceType"] = kind
                 zone["parent"] = d[2]
                 if len(d) > 3 and d[3]:
                     zone["entrances"] = [{"zone": e[0], "x": e[1], "y": e[2]} for e in d[3]]
+            if area_id in C.QUEST_ZONE_INSTANCES and not zone.get("instance"):
+                zone["instanceType"] = C.QUEST_ZONE_INSTANCES[area_id]
             zones[area_id] = zone
         return zones
+
+    def instance_type(self, area_id, area):
+        """"dungeon", "raid", "battleground" or None (e.g. Deeprun Tram) for an instance zone."""
+        if area_id in C.INSTANCE_TYPES:
+            return C.INSTANCE_TYPES[area_id]
+        map_type = self.vm.map_types.get(area["map_id"]) if area else None
+        if map_type is not None:
+            return C.MAP_TYPE_NAMES.get(map_type)
+        return "dungeon"
 
     # ------------------------------------------------------------------ names & refs
 
