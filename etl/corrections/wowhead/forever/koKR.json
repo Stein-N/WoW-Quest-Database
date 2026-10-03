@@ -50,7 +50,6 @@
    "v": 2
   },
   "171": {
-   "name": "[A Warden of the Alliance]",
    "objectivesText": [
     "[Return your ward to the Stormwind orphanage by handing in the Human Orphan Whistle to Orphan Matron Nightingale in the Cathedral District.]"
    ],
@@ -243,7 +242,6 @@
    "v": 2
   },
   "910": {
-   "name": "[Down at the Docks]",
    "objectivesText": [
     "[Take your ward to the docks of Ratchet in the Barrens.]"
    ],
@@ -252,7 +250,6 @@
    "v": 2
   },
   "915": {
-   "name": "[You Scream, I Scream...]",
    "objectivesText": [
     "[Get some Strawberry Ice Cream for your ward. The lad seems to prefer Tigule and Foror's brand ice cream.]"
    ],
@@ -602,7 +599,6 @@
    "v": 2
   },
   "1558": {
-   "name": "[The Stonewrought Dam]",
    "objectivesText": [
     "[Take the orphan to the Stonewrought Dam in Loch Modan. You should take him to the middle of the dam so he can see out over the giant waterfall.]"
    ],
@@ -685,7 +681,6 @@
    "v": 2
   },
   "1687": {
-   "name": "[Spooky Lighthouse]",
    "objectivesText": [
     "[Take the orphan to see the lighthouse off the coast of Westfall.$B]"
    ],
@@ -2055,7 +2050,6 @@
    "v": 2
   },
   "4822": {
-   "name": "[You Scream, I Scream...]",
    "objectivesText": [
     "[Get some Strawberry Ice Cream for your ward. The lad seems to prefer Tigule and Foror's brand ice cream.]"
    ],
@@ -2372,7 +2366,6 @@
    "v": 2
   },
   "5502": {
-   "name": "[A Warden of the Horde]",
    "objectivesText": [
     "[Return your ward to the Orgrimmar orphanage by handing in the Orcish Orphan Whistle to Orphan Matron Battlewail in the Valley of Honor.]"
    ],

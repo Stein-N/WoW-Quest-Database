@@ -72,6 +72,8 @@ def replace_names(value, names):
         return value
     if isinstance(value, list):
         return [replace_names(v, names) for v in value]
+    if not isinstance(value, str):
+        return value  # e.g. notFound = true
     pattern = r"(?<!\w)(?:" + "|".join(map(re.escape, sorted(names, key=len, reverse=True))) + r")(?!\w)"
     return re.sub(pattern, "$N", value)
 
@@ -136,6 +138,9 @@ def plan(flavor, quest_ids=None, all_langs=False, refresh=False):
         else:
             wanted = [loc for loc in SITE_LOCALES
                       if not all(texts[loc].get(key, {}).get(f) for f in REQUIRED)]
+        # a quest Wowhead does not have is missing in every language: skip it entirely
+        if any(stored.get(loc, {}).get(key, {}).get("notFound") for loc in SITE_LOCALES):
+            continue
         # already fetched by the current parser? (older entries are fetched again)
         current = lambda loc: stored.get(loc, {}).get(key, {}).get("v", 1) >= PARSER_VERSION
         stale = [loc for loc in SITE_LOCALES if key in stored.get(loc, {}) and not current(loc)]
@@ -186,6 +191,9 @@ def parse(page):
     if not m:
         return None
     out["name"] = clean(m.group(1))
+    # untranslated names are shown as "[English name]"
+    if out["name"] and out["name"].startswith("[") and out["name"].endswith("]"):
+        out["name"] = None
     after_title = page[m.end():]
 
     # objectives text: the text right after the title, before the first table/heading/script
@@ -285,6 +293,8 @@ def main():
     p.add_argument("quest", type=int)
     p.add_argument("file")
     p.add_argument("--dry-run", action="store_true")
+    nf = sub.add_parser("not-found", help="mark a quest as missing on Wowhead in every language")
+    nf.add_argument("quest", type=int)
     b = sub.add_parser("block-check")
     b.add_argument("file")
     nm = sub.add_parser("names")
@@ -304,6 +314,13 @@ def main():
             print("\nConfirm real player names with: python3 etl/wowhead_texts.py fix-names NAME ...")
     elif args.cmd == "fix-names":
         fix_names(args.flavor, args.names)
+    elif args.cmd == "not-found":
+        today = datetime.now(timezone.utc).date().isoformat()
+        for locale in SITE_LOCALES:
+            store = load_store(args.flavor, locale)
+            if str(args.quest) not in store["quests"]:  # never overwrite texts already fetched
+                store["quests"][str(args.quest)] = {"notFound": True, "fetched": today, "v": PARSER_VERSION}
+                save_store(args.flavor, locale, store)
     elif args.cmd == "block-check":
         reason = block_reason(Path(args.file).read_text(encoding="utf-8", errors="replace"))
         if reason:
@@ -313,8 +330,9 @@ def main():
         page = Path(args.file).read_text(encoding="utf-8", errors="replace")
         texts = parse(page)
         if texts is None:
-            print(f"{args.locale} {args.quest}: no quest title found (quest not on Wowhead?)", file=sys.stderr)
-            texts = {"notFound": True}
+            # a page without quest title; stored as empty so it is not fetched again
+            print(f"{args.locale} {args.quest}: no quest title found", file=sys.stderr)
+            texts = {}
         names = player_names()
         entry = {k: replace_names(v, names) for k, v in texts.items() if v}
         if args.dry_run:

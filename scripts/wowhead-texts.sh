@@ -113,13 +113,14 @@ for line in "${plan[@]}"; do
           stop "$reason ($url)"
         fi
         echo -n "[$n/$total] "
-        "${HELPER[@]}" parse "$locale" "$quest" "$TMP/page.html" 2>/dev/null || true
+        "${HELPER[@]}" parse "$locale" "$quest" "$TMP/page.html" || true
         ;;
       404)
-        # remembered as notFound, so the page is not requested again
-        echo "[$n/$total] $locale $quest: not on Wowhead"
-        echo "<html></html>" > "$TMP/page.html"
-        "${HELPER[@]}" parse "$locale" "$quest" "$TMP/page.html" >/dev/null 2>&1 || true
+        # the quest is missing in every language: mark it and skip the remaining pages; later
+        # runs skip it as well (REFRESH=1 checks again)
+        echo "[$n/$total] $quest: not on Wowhead, skipped from now on"
+        "${HELPER[@]}" not-found "$quest"
+        break
         ;;
       403|429|503) stop "HTTP $status for $url" ;;
       *) echo "[$n/$total] $locale $quest: HTTP $status, skipped (retried next run)" ;;

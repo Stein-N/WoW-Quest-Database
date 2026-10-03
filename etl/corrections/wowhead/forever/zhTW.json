@@ -430,7 +430,6 @@
    "v": 2
   },
   "171": {
-   "name": "[A Warden of the Alliance]",
    "objectivesText": [
     "[Return your ward to the Stormwind orphanage by handing in the Human Orphan Whistle to Orphan Matron Nightingale in the Cathedral District.]"
    ],
@@ -1729,7 +1728,6 @@
    "v": 2
   },
   "558": {
-   "name": "[Jaina's Autograph]",
    "objectivesText": [
     "[Travel to Theramore to see about getting Lady Jaina Proudmoore's autograph for your ward.]"
    ],
@@ -3028,7 +3026,6 @@
    "v": 2
   },
   "915": {
-   "name": "[You Scream, I Scream...]",
    "objectivesText": [
     "[Get some Strawberry Ice Cream for your ward. The lad seems to prefer Tigule and Foror's brand ice cream.]"
    ],
@@ -3046,7 +3043,6 @@
    "v": 2
   },
   "925": {
-   "name": "[Cairne's Hoofprint]",
    "objectivesText": [
     "[Travel to Thunder Bluff to see about getting Cairne Bloodhoof's hoofprint for your ward.]"
    ],
@@ -3183,7 +3179,6 @@
    "v": 2
   },
   "960": {
-   "name": "[Onu is Meditating]",
    "fetched": "2026-10-02",
    "v": 2
   },
@@ -10685,7 +10680,6 @@
    "v": 2
   },
   "4822": {
-   "name": "[You Scream, I Scream...]",
    "objectivesText": [
     "[Get some Strawberry Ice Cream for your ward. The lad seems to prefer Tigule and Foror's brand ice cream.]"
    ],
@@ -11779,7 +11773,6 @@
    "v": 2
   },
   "5502": {
-   "name": "[A Warden of the Horde]",
    "objectivesText": [
     "[Return your ward to the Orgrimmar orphanage by handing in the Orcish Orphan Whistle to Orphan Matron Battlewail in the Valley of Honor.]"
    ],
@@ -13888,7 +13881,6 @@
    "v": 2
   },
   "6984": {
-   "name": "[A Smokywood Pastures' Thank You!]",
    "objectivesText": [
     "[Speak with Great-father Winter in Orgrimmar.]"
    ],
@@ -14007,7 +13999,6 @@
    "v": 2
   },
   "7045": {
-   "name": "[A Smokywood Pastures' Thank You!]",
    "objectivesText": [
     "[Speak with Greatfather Winter in Ironforge.]"
    ],
