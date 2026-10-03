@@ -142,6 +142,15 @@ def quest_rewards_format(rewards):
     return {**out, **{k: v for k, v in rewards.items() if k != "items"}}
 
 
+def by_kind(refs, kinds):
+    """References -> QuestieDB's positional shape, e.g. startedBy = { {npcs}, {objects}, {items} }:
+    one ID list per kind, nil for kinds without entries, trailing nils left out."""
+    out = [[r["id"] for r in refs if r.get("t") == kind] or None for kind in kinds]
+    while out and out[-1] is None:
+        out.pop()
+    return out
+
+
 def parse_ids(spec):
     ids = set()
     for part in spec.split(","):
@@ -300,6 +309,8 @@ def main():
         for entity_id, rec in recs.items():
             rec = {k: v for k, v in rec.items() if (keep is None or k in keep) and k not in drop and k not in ("id", "azerothcore")}
             text = {k: export_text(rec.pop(k)) for k in text_fields if k in rec}
+            if args.type == "quest" and rec.get("startedBy"):
+                rec["startedBy"] = by_kind(rec["startedBy"], ("npc", "object", "item"))
             if args.type == "quest" and rec.get("rewards"):
                 rec["rewards"] = quest_rewards_format(rec["rewards"])
             data[entity_id] = compact_refs(rec)
