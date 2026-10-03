@@ -58,22 +58,8 @@ def prettify_symbol(symbol):
     )
 
 
-def load_quest_rewards_lua(path):
-    """Parses the hand-extracted QuestRewards.lua (Forever item rewards)."""
-    rewards = {}
-    pattern = re.compile(
-        r"\[(\d+)\]\s*=\s*\{\s*type\s*=\s*\"(\w+)\",\s*items\s*=\s*\{([\d,\s]*)\}"
-        r"(?:,\s*fixed\s*=\s*\{([\d,\s]*)\})?"
-    )
-    for m in pattern.finditer(path.read_text(encoding="utf-8")):
-        ids = [int(x) for x in m.group(3).replace(" ", "").split(",") if x]
-        fixed = [int(x) for x in (m.group(4) or "").replace(" ", "").split(",") if x]
-        rewards[int(m.group(1))] = {"type": m.group(2), "items": ids, "fixed": fixed}
-    return rewards
-
-
 class Flavor:
-    def __init__(self, site_id, vm, quest_rewards_lua, azerothcore=None):
+    def __init__(self, site_id, vm, azerothcore=None):
         self.site_id = site_id
         self.vm = vm
         # kind -> locale -> id -> {field: text}; last fallback for translations (WotLK texts)
@@ -88,7 +74,6 @@ class Flavor:
         self.l10n = load("l10n.json")
         self.support = load("support.json")
         self.questie_meta = load("meta.json")
-        self.quest_rewards_lua = quest_rewards_lua if site_id == "forever" else None
         self.quest_xp = self.support["questXP"]
         self.item_drop_chances = self.support["itemDrops"]
         self.warnings = []
@@ -382,14 +367,6 @@ class Flavor:
                 if vmq[f"RewChoiceItemId{n}"]:
                     choice.append(vmq[f"RewChoiceItemId{n}"])
                     counts[vmq[f"RewChoiceItemId{n}"]] = vmq[f"RewChoiceItemCount{n}"]
-        if self.quest_rewards_lua is not None:
-            entry = self.quest_rewards_lua.get(qid)
-            if entry is None:
-                fixed, choice = [], []
-            elif entry["type"] == "single":
-                choice, fixed = entry["items"], entry["fixed"]
-            else:
-                fixed, choice = entry["items"], []
         out = []
         for kind, ids in (("fixed", fixed), ("choice", choice)):
             if ids:
@@ -1136,7 +1113,6 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "web" / "static" / "data"))
     ap.add_argument("--flavors", default=",".join(C.FLAVORS))
     ap.add_argument("--vmangos", default=str(ROOT / "vendor" / "vmangos" / "sqlite-dump" / "mangos.sqlite"))
-    ap.add_argument("--rewards", default=str(ROOT / "QuestRewards.lua"))
     args = ap.parse_args()
     out = Path(args.out)
 
@@ -1149,8 +1125,6 @@ def main():
         azerothcore = json.loads(gzip.open(ac_dir / "locales.json.gz", "rt", encoding="utf-8").read())
     else:
         print("  no AzerothCore translations (make azerothcore)", file=sys.stderr)
-    rewards_path = Path(args.rewards)
-    quest_rewards = load_quest_rewards_lua(rewards_path) if rewards_path.exists() else None
 
     meta = {
         "built": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -1174,7 +1148,7 @@ def main():
     digest = {k: v for k, v in digest.items() if k in C.FLAVORS}
     for site_id in args.flavors.split(","):
         print(f"building {site_id} …", file=sys.stderr)
-        flavor = Flavor(site_id, vm, quest_rewards, azerothcore)
+        flavor = Flavor(site_id, vm, azerothcore)
         counts = flavor.build(out)
         meta["flavors"][site_id] = {"label": C.FLAVORS[site_id]["label"], "counts": counts}
         uimap_report[site_id] = flavor.uimap_report

@@ -252,7 +252,7 @@ function compactRefs(value: Json): Json {
 }
 
 /**
- * rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
+ * rewards.items groups -> type/items/fixed, merged into rewards:
  *   type = "all",    items = {...}                  every item is rewarded
  *   type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
  * Item lists are plain IDs; amounts above one go to counts[itemId].

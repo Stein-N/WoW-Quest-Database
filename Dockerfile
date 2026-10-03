@@ -33,7 +33,7 @@ RUN echo "VMangos snapshot: ${VMANGOS_SNAPSHOT}" && python3 etl/fetch_vmangos.py
 COPY etl/fetch_azerothcore.py etl/fetch_azerothcore.py
 RUN python3 etl/fetch_azerothcore.py vendor/azerothcore
 
-COPY Makefile QuestRewards.lua ./
+COPY Makefile ./
 COPY etl etl
 COPY vendor/QuestieDB vendor/QuestieDB
 RUN test -f vendor/QuestieDB/src/config.lua \

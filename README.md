@@ -23,7 +23,7 @@ make update    # neueste QuestieDB- und VMangos-Daten holen und neu bauen
 ## Daten als Lua exportieren
 
 `etl/export_lua.py` schreibt die zusammengeführten Daten (QuestieDB + VMangos) als Lua-Tabellen
-im Addon-Format wie `QuestRewards.lua`. Voraussetzung ist `make data`. Dieselbe
+im Addon-Format. Voraussetzung ist `make data`. Dieselbe
 Funktion gibt es auf der Webseite unter **Export**: Optionen wählen, *Generate Lua*, herunterladen
 oder kopieren. Die Logik steckt in `web/src/lib/lua-export.ts` und erzeugt dieselbe Ausgabe wie das
 Skript.
@@ -58,7 +58,7 @@ L[33] = { name = "Wölfe an der Grenze", objectivesText = "...", details = "..."
 | Objekt | `name` |
 | Item | `name`, `description` |
 
-**Item-Belohnungen** haben dieselbe Form wie in `QuestRewards.lua`, direkt unter `rewards`:
+**Item-Belohnungen** stehen direkt unter `rewards`, mit `type` für die Art der Belohnung:
 
 ```lua
 rewards = { type = "all",    items = {4536}, ... }                         -- alle Items
@@ -115,7 +115,6 @@ etl/casc.py, etl/db2.py   minimaler CASC- und DB2-Reader (wie wow.export, ohne G
 etl/questcache.py        Parser für questcache.wdb (Questtexte aus dem Client-Cache)
 web/                     SvelteKit-App (statisch, Hash-Routing, Leaflet-Karten)
 vendor/QuestieDB         Git-Submodule
-QuestRewards.lua         Item-Belohnungen für Forever (aus VMangos extrahiert)
 ```
 
 **Eigene Korrekturen:** `etl/corrections/<flavor>.json` ergänzt oder überschreibt QuestieDB-Questfelder
@@ -139,8 +138,7 @@ make questcache CACHE="/pfad/zu/Cache/WDB"         # z. B. Cache-Ordner eines an
 Danach `make site-data` (bzw. committen und den Release-Workflow abwarten).
 
 **Regeln beim Zusammenführen:** QuestieDB hat Vorrang bei allem, was es selbst enthält.
-VMangos ergänzt nur fehlende Felder. Item-Belohnungen für Forever-Quests kommen aus
-`QuestRewards.lua`, sonst direkt aus VMangos (inkl. Anzahl).
+VMangos ergänzt nur fehlende Felder; Item-Belohnungen (inkl. Anzahl) kommen aus VMangos.
 
 **Datenformat für die Webseite:** Pro Entitätstyp gibt es Shards zu je 100 IDs
 (`data/forever/quest/0.json` enthält die Quests 0–99). Übersetzungen liegen unter

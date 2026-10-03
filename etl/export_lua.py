@@ -116,7 +116,7 @@ def compact_refs(value):
 
 
 def quest_rewards_format(rewards):
-    """rewards.items groups -> the QuestRewards.lua shape, merged into rewards:
+    """rewards.items groups -> type/items/fixed, merged into rewards:
 
         type = "all",    items = {...}                  every item is rewarded
         type = "single", items = {...}, fixed = {...}   choose one of items, plus all fixed ones
