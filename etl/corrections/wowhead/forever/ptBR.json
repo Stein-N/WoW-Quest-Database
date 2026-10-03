@@ -15835,6 +15835,11 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "2358": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "2359": {
    "name": "Torre do Filipe",
    "objectivesText": [
@@ -28766,6 +28771,36 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "7361": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7362": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7363": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7364": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7365": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7366": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "7367": {
    "name": "Anulando a ameaça",
    "objectivesText": [
@@ -28782,6 +28817,16 @@
    ],
    "details": "Sei tudo sobre minas terrestres. Afinal, sou eu quem instala as minas nas linhas de frente.$B$BSe você quer limpar os campos minados dos Lançatroz, só precisa matar o especialista em explosivos deles. Aquele anão covarde sem dúvida está escondido na primeira torre no Campo de Disputa. Elimine-o e as minas terrestres não retornarão após serem desativadas.$B$BSe você matá-lo, volte aqui e me avise. Boas ações devem ser recompensadas.",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7381": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7382": {
+   "notFound": true,
+   "fetched": "2026-10-03",
    "v": 2
   },
   "7383": {
@@ -28805,6 +28850,56 @@
   "7386": {
    "name": "Drusa de Cristal",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7401": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7402": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7421": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7422": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7423": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7424": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7425": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7426": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7427": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7428": {
+   "notFound": true,
+   "fetched": "2026-10-03",
    "v": 2
   },
   "7429": {
@@ -29530,6 +29625,479 @@
   "7662": {
    "name": "Kodo novo – azul",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7663": {
+   "name": "Kodo novo – verde",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7664": {
+   "name": "Substituição de raptor marfim",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7665": {
+   "name": "Substituição de raptor vermelho",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7666": {
+   "name": "De volta ao Grande Ossário",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7667": {
+   "name": "Ajuda material",
+   "objectivesText": [
+    "Se você tiver interesse em ajudar Sagorne Monta Crista, no Vale da Sabedoria de Orgrimmar, leve para ele um Diamante Azerotiano e um Diamante Preto Límpido."
+   ],
+   "details": "$N, estou com um problema urgente em mãos e espero poder contar com a sua ajuda... tanto material quanto espiritual. Permita-me explicar.$B$BNas profundezas de Scolomântia, em Lordaeron, existe uma câmara chamada Grande Ossário. Eu preciso completar um dispositivo que pode trespassar as sombras daquele aposento horrível. Para terminar o que eu comecei, preciso de dois diamantes: um azerotiano e um preto límpido. Estes não são itens comuns, eu sei — é que eu não tenho esses recursos.$B$BVocê poderia conseguir um de cada para mim?",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7668": {
+   "name": "A ameaça de Noctilatrus",
+   "objectivesText": [
+    "Use o Cristal Divinatório no coração do porão do Grande Ossário, em Scolomântia. Isso invocará espíritos que você precisará enfrentar. A derrota dos espíritos evocará o Cavaleiro da Morte Noctilatrus. Derrote-o.$B$BLeve a Cabeça de Noctilatrus para Sagorne Monta Crista, no Vale da Sabedoria, em Orgrimmar."
+   ],
+   "details": "O Cavaleiro da Morte Noctilatrus é o senhor do Grande Ossário em Scolomântia. Ele é capaz de perverter o reino espiritual para os próprios fins e, por isso, precisa ser detido — é aí que entra o cristal que você ajudou a fazer.$B$BUse o Cristal Divinatório no coração do Grande Ossário para invocar os lacaios espirituais de Noctilatrus. Derrote os espíritos, e o cavaleiro da morte se mostrará. Traga-me a cabeça dele, $N. Somente o fim dele pode reparar o dano causado ao reino espiritual.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7669": {
+   "name": "De volta ao Grande Ossário",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7670": {
+   "name": "Lorde Grayson Quebrassombra",
+   "objectivesText": [
+    "Fale com o Lorde Grayson Quebrassombra no Distrito da Catedral de Ventobravo."
+   ],
+   "details": "Chegou a hora, $N, de lhe ensinar o que será necessário para que você possa adquirir uma coisa que, sem dúvida, você espera há algum tempo: seu corcel.$B$BFale com Lorde Grayson Quebrassombra no Distrito da Catedral de Ventobravo. É ele quem <o/a> instruirá não só sobre a destreza da montaria mais leal de um paladino, mas também sobre as tarefas que você deverá cumprir para obter o seu próprio corcel.$B$BDesejo-lhe sorte nesta provação. Pela Luz, nobre <irmão/irmã>!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7671": {
+   "name": "A substituição dos sabres-de-gelo",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7672": {
+   "name": "A substituição do sabre-da-noite",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7673": {
+   "name": "Escambo de carneiro do gelo",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7674": {
+   "name": "Escambo de carneiro preto",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7675": {
+   "name": "Super feirão de mecanostruzes azuis-gelo",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7676": {
+   "name": "Super feirão de mecanostruzes brancos",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7677": {
+   "name": "Trocando o garanhão branco",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7678": {
+   "name": "Trocando o alazão",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7701": {
+   "name": "PROCURA-SE: Feitor Maltorius",
+   "objectivesText": [
+    "Nas profundezas do Fosso de Lava do Caldeirão, na Garganta Abrasadora, você encontrará o anão traidor dos Ferro Negro chamado Feitor Maltorius.$B$BMate o Feitor Maltorius, arranque a cabeça dele e leve-a para o Capitão-vigia Lolo Longalcance na Garganta Abrasadora para receber sua recompensa."
+   ],
+   "details": "Por ordem de Sua Eminência — o Feitor Mão-de-graxa —, o agente rebelde da Irmandade do Tório e recém-contratado comandante dos Ferro Negro no Fosso de Lava do Caldeirão, aquele que responde por Feitor Maltorius, deve ser morto, e a cabeça do infeliz deve ser apresentada como prova da execução.$B$BAquele que der cabo desta caçada deverá procurar o Capitão-vigia Lolo Longalcance para receber a recompensa.",
+   "progress": "Num tá veno que eu tô ocupado? Que *hic* que tu quer? *hic*",
+   "completion": "Eu nunga ajei que veria eza gara feia de novo! *hic*$B$BEle até que fica maiz bonito zem o rezto do corpo.$B$BTó a zua regompenza *hic*, morto-vivo.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7703": {
+   "name": "Negócios pendentes",
+   "objectivesText": [
+    "Encontre as Manoplas do Poder de Gordok e devolva-as para o Capitão Kebrapaw no Gládio Cruel.$B$BDe acordo com Kebrapaw, a \"história de ancião\" diz que Tortheldrin — um elfo \"medonho\" que se diz príncipe — roubou as manoplas de um dos reis Gordok."
+   ],
+   "details": "Agora que tu é o <rei/rainha>, quem sabe tu pega de volta daquele elfo medonho, que se diz príncipe, um artefato muito valioso! Desde que o elfo medonho, Tortheldrin, roubou ele do primeiro rei Gordok!$B$BO artefato é chamado de Manoplas do Poder de Gordok. A lenda conta que só o verdadeiro rei de Gordok vai dar conta de pegar de volta. A lenda também diz que o elfo medonho ainda anda por aí. Então você vai lá, pega elas e fica com manoplas poderosas para sempre! Arr, eu te mostro!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7704": {
+   "name": "Olha o tamanho disso!",
+   "objectivesText": [
+    "Leve o Travesseiro da Camareira Alma Fada para Evonice Fumarenta, na Garganta Abrasadora."
+   ],
+   "details": "Ora, ora, ora... Mas que surpresa. A camareira tinha um enorme travesseiro ornado, e ele agora é seu. É certo que Evonice Fumarenta vai querer botar as mãozinhas imundas neste item. Leve-o para ela e veja se você consegue algo de útil pelo seu esforço.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7721": {
+   "name": "Bota dez aí, chefia!",
+   "objectivesText": [
+    "Colete 10 Âmagos dos Elementais de Água dos Elementais do Mar e dos Borrifos do Mar ao longo da Costa Esquecida de Feralas, e leve-os para Zorbin Cegasvista, próximo às docas."
+   ],
+   "details": "Se eu for contra meu bom-senso e tentar montar uma oficina de engenharia na Costa Esquecida, vou ter que lidar com esses elementais pentelhos. Malditos sejam os poderes elementais!$B$BPara minha sorte — e sua também, <meu caro/minha cara> agente da discórdia —, os elementais são uma fonte ideal de poder puro para o aperfeiçoamento do meu Ultra-encolhedor. Mostre pra eles o que é bom pra tosse! Ah, e não se esqueça de pegar os âmagos dos elementais de água pra mim!",
+   "progress": "Ao invés de te encher o saco com os detalhes técnicos da utilidade dos âmagos dos elementais, vou te provocar pra completar esta importante tarefa oferecendo valiosas moedas e prêmios. E aí, cara, já acabou?",
+   "completion": "Chocrível! Os âmagos vão me dar um bom tempo para trabalhar. Acrescente a isso a vantagem de agora ter menos elementais ao longo da costa, e eu não vou mais chorar até dormir pensando ter aberto uma loja no, possivelmente, pior lugar imaginável!$B$BValeu, $N, por seu esforço em me ajudar. Mesmo me deixando mal de grana, deixa eu te mostrar minha gratidão com uma coisa que você vai entender e apreciar... pilhagem!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7722": {
+   "name": "Segue o fluxo",
+   "objectivesText": [
+    "Em algum lugar do Fosso de Lava do Caldeirão você encontra as Instruções Secretas: Fluxo Ígneo que o Feitor Maltorius roubou. Encontre as instruções e devolva-as ao Mestre Ferreiro Queimatar na Garganta Abrasadora."
+   ],
+   "details": "Quando o maldito Maltorius deixou o nosso clã, ele levou algo mais valioso que um cristal arcano imaculado: nossa receita de fluxo ígneo! Aposto qualquer coisa que a receita era parte do acordo de promoção dele entre os Ferro Negro.$B$BEu quero os nossos planos secretos de volta, $N. Tenho certeza de que eles estão em algum lugar perto do Maltorius, nas profundezas do Fosso de Lava.",
+   "progress": "Achou os planos?",
+   "completion": "Espero que tu tenha feito ele sufocar com os próprios dentes, $N. Ragnaros sabe o quanto ele merecia isso.$B$BAgora, vamos cuidar do que interessa.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7723": {
+   "name": "Malditos dedos gordos",
+   "objectivesText": [
+    "Hansel Mão-pesada quer que você mate 20 Golens de Guerra Pesados.$B$BOs Golens de Guerra Pesados perambulam pelas áreas em torno do Caldeirão, na Garganta Abrasadora. Quando tiver matado a quantidade necessária, fale novamente com Hansel na Garganta Abrasadora."
+   ],
+   "details": "Infelizmente, não consigo mais lutar como antes por causa deste problema de dedos gordos. Veja só, o clima daqui, combinado com a falta de pressão atmosférica, faz os meus dedos incharem. Eles estão como chouriços de Thelsamar gigantes, estão sim...$B$BTu vai ter que fazer as minhas tarefas.$B$BA primeira da minha lista: esmurrar esses golens de guerra pesados feito bicheira em bezerro desmamado. Vai na fé.",
+   "completion": "Tu é um bom rapaz, é sim. Tenho um presentinho para te retribuir.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7724": {
+   "name": "Toco cru pegando fogo",
+   "objectivesText": [
+    "Hansel Mão-pesada quer que você mate 20 Grandes Aranhas de Lava na Garganta Abrasadora. Você pode encontrá-las nos platôs e poços de lava do local.$B$BDepois de matar as Grandes Aranhas de Lava, fale novamente com Hansel Mão-pesada na Garganta Abrasadora."
+   ],
+   "details": "Barbaridade, tchê! Toda vez que Hansel quer dar uma bodeada e refletir sobre a vida, as autoridades dão outro trabalho pra ele.$B$BEu tenho que pensar: \"Bora trabalhar! Tás entendendo o que eu tô dizendo? Bora. Trabalhar.\"$B$BMas então, essas grandes aranhas de lava aqui tão causando um baita d'um entrevero. O Mão-de-graxa disse que elas soltam fogo pela... hã, bom, enfim, deve ter piá por perto.$B$BAcho melhor a gente matar elas — e quando digo \"a gente\", quero dizer \"você\".",
+   "completion": "<Hansel espirra.>$B$BAcho que tô ficando resfriado. Porcaria de clima frio!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7725": {
+   "name": "Querida, encolhi mais gigantes",
+   "objectivesText": [
+    "Use o Ultra-encolhedor de Zorbin para deixar qualquer tipo de gigante de Feralas com um tamanho mais compacto e manejável. Colete 10 Resíduos de Miniaturização encontrados nos gigantes encolhidos e leve para Zorbin Cegasvista, que fica nas docas da Costa Esquecida, em Feralas."
+   ],
+   "details": "Sei que você já me arrumou um pouco de resíduo antes, mas, se quiser repetir a revigorante e divertida atividade, eu é que não vou recusar mais material de estudo.$B$BNão tô podendo te oferecer uma recompensa tão boa quanto a da última vez, mas posso fazer os elogios ao seu bom serviço chegarem aos ouvidos de todos os meus amigos goblins.$B$BE pode acreditar, com umas orelhas grandes daquelas, sua fama vai longe.",
+   "progress": "Ah, os frutos da pesquisa e do uso do doce resíduo... Bem, é modo de falar, não sei o gosto do resíduo. Não é como se eu ficasse provando os meus objetos de estudo.$B$BSó um pouquinho.",
+   "completion": "Maneiraço, $N! Você conseguiu outra vez, e eu fico muito grato.$B$BAgradecido!$B$BTá aqui o pagamento. Olha, sei que é um pouquinho menos do que você costuma receber, mas pode ficar despreocupado, porque o relato dos seus grandes feitos goblínicos já tá ecoando pelos prestigiados salões do Cartel Bondebico. Se quiser descolar mais um trabalhinho, é vir me procurar!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7726": {
+   "name": "Completa o tanque, chefia!",
+   "objectivesText": [
+    "Colete 6 Âmagos dos Elementais de Água dos Elementais do Mar e dos Borrifos do Mar ao longo da Costa Esquecida de Feralas e leve-os para Zorbin Cegasvista, próximo às docas."
+   ],
+   "details": "Mais trabalho, é? Sua sede de aventura não foi aplacada pela minha missão heroica de coletar gosma de elemental? Acho que, se te pedisse mais do mesmo, eu ainda não conseguiria encher o poço sem fundo dessa sua sanha por novas missões...$B$BTá bom, deixando o melodrama de lado, eu preciso mesmo de mais âmagos de elementais da água. Estou ralando que nem coco pra manter o meu negócio aqui, então a recompensa não vai ser lá das melhores... mas vou dizer pra todo mundo o quanto você me ajudou, pode confiar. Eu sou chegado com o Cartel!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7727": {
+   "name": "Incendossauro? É de comer?",
+   "objectivesText": [
+    "Hansel Mão-pesada quer que você mate 20 Incendossauros.$B$BEles ocupam as poças dentro do Fosso de Lava. O Fosso de Lava fica no Caldeirão da Garganta Abrasadora.$B$BDepois de matar os Incendossauros, fale novamente com Hansel Mão-pesada na Garganta Abrasadora."
+   ],
+   "details": "Joanetes, <piá/guria>. Até meus joanetes têm joanete. Pues assim não tem condição de matar porcaria nenhuma. E é aí que tu entra.$B$BScrange e Queiminação me mandaram matar uns bichos aí, no Fosso de Lava, pra depois eles mandarem uma equipe explorar a área. Parece que tem uns tais de incendossauros causando um problemaço lá. Agora vai-te embora e só me volta aqui quando a população de incendossauro tiver extinta.",
+   "completion": "Ah, meu pobre pé...$B$BJá que tu não tem bucha...",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7728": {
+   "name": "OBJETOS ROUBADOS: Alcaraviz de Ferraria e Luneta do Espia",
+   "objectivesText": [
+    "Encontre e devolva o Alcaraviz de Ferraria e a Luneta do Espia ao Capataz Scrange na Garganta Abrasadora.$B$BA única informação que você tem sobre esses itens é a seguinte: com certeza foram roubados por anões Ferro Negro. O Alcaraviz de Ferraria é uma ferramenta usada por ferreiros e a Luneta do Espia é um aparelho de monitoramento inestimável para vigias."
+   ],
+   "details": "Os itens a seguir foram roubados:$B$B*Um Alcaraviz Ferro Negro.$B$B*Uma Luneta do Espia.$B$BHá uma recompensa para os indivíduos que encontrarem e devolverem os itens afanados.$B$BA Irmandade do Tório tem certeza de que os itens foram roubados pelos invejosos e inescrupulosos anões Ferro Negro que habitam a Garganta Abrasadora.$B$BA luneta em questão era excelente para os vigias, e o alcaraviz era uma ferramenta de ferreiro insubstituível.$B$BSe encontrar os itens perdidos, leve para Scrange.",
+   "progress": "Se você está aqui pela recompensa, vai ter que me devolver os bens roubados.",
+   "completion": "Fantástico! Agora a recompensa pelo seu bom trabalho.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7729": {
+   "name": "TEMOS VAGAS: desbancando a concorrência",
+   "objectivesText": [
+    "Mate 15 Capatazes Ferro Negro e 15 Feitores Ferro Negro. Depois, fale novamente com Capataz Scrange, na Garganta Abrasadora."
+   ],
+   "details": "O Capataz Scrange está procurando homens e mulheres capazes para ajudar a \"desbancar a concorrência\" na Garganta Abrasadora.$B$BSe tiver interesse, vá à Garganta e mate todos os Capatazes Ferro Negro e os Feitores Ferro Negro que encontrar.$B$BFale com o Capataz Scrange quando sua roupa estiver bem encharcada de sangue.$B$BVocê vai saber quando estiver bom de sangue na roupa, não precisa nem perguntar.",
+   "completion": "7,25 quilos! Acho que temos um novo recorde na categoria sangue e tripas no vestuário! Parabéns, $C!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7730": {
+   "name": "Infestação Zukk'ash",
+   "objectivesText": [
+    "Traga 20 Carapaças de Zukk'ash para Hadoken Passo Veloz na Aldeia Mojache, que fica em Feralas."
+   ],
+   "details": "Nossos batedores nos informam que os inimigos ao sul são uma raça de insetos. Francamente, pouco importa se eles têm consciência ou não. Se estão insuflando os gnolls contra nós, então são ameaça ainda mais perigosa que os gnolls.$B$BVá até onde esses insetos Zukk'ash habitam: é um lugar conhecido como Profundeza Atormentada. Mate alguns deles e volte trazendo algumas das carapaças como prova do seu trabalho.",
+   "progress": "Como vai a caçada, $N? Você está aqui para relatar seu sucesso?",
+   "completion": "Muito bem, $C. Embora somente uma invasão em larga escala seja capaz de conter a extensiva presença dos Zukk'ash, você nos deu algum tempo para elaborarmos uma estratégia adequada.$B$BVou cuidar para que essas carapaças sejam analisadas – precisamos aprender tudo sobre eles antes de lidar com o que se tornou, infelizmente, um problema muito maior do que imaginávamos.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7731": {
+   "name": "Cravaçoite",
+   "objectivesText": [
+    "Derrote Cravaçoite na Profundeza Atormentada, leve as glândulas para Hadoken Passo Veloz na Aldeia Mojache, que fica em Feralas."
+   ],
+   "details": "Ao inspecionar a Profundeza Atormentada, um de nossos batedores relatou ter visto um grande inseto – bem maior do que qualquer outro já visto – perambulando pelo terreno. Ele não é apenas maior, mas também parece emanar um tipo de aura que outros insetos não têm. Demos um nome a ele: Cravaçoite.$B$BSeria de grande valia se pudéssemos estudar as entranhas desta fera para descobrirmos a melhor forma de lidar com a nova ameaça. Corte as glândulas secretoras dela e traga-as para mim imediatamente!",
+   "progress": "Você já conseguiu derrotar Cravaçoite?",
+   "completion": "Impressionante, $C... muito impressionante! Se Cravaçoite for mesmo uma das criaturas mais fortes deles, o estudo sobre a fera será valioso. Agora é minha responsabilidade assegurar que nossa defesa dure o suficiente para tirar vantagem disso.$B$BAceite estas generosas moedas como sinal da gratidão de toda a aldeia, $N. Muito bem!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7732": {
+   "name": "O relatório dos Zukk'ash",
+   "objectivesText": [
+    "Entregue o Relatório sobre Zukk'ash da Aldeia Mojache para Zilzibin Tamborleiro. Ele fica no Bazar de Orgrimmar."
+   ],
+   "details": "Você lidou muito bem com os insetos Zukk'ash que ameaçavam a Aldeia Mojache. Mas a aldeia ainda não está a salvo, e tem mais uma coisa que eu gostaria de pedir que você fizesse pela Horda.$B$BIsto é um documento que detalha tudo o que já aprendemos sobre esses tais de Zukk'ash. Quero que você o entregue a Zilzibin Tamborleiro, no Bazar de Orgrimmar. Ele é especialista em criaturas estranhas como essas, e eu espero que nossas informações sejam úteis para ele.",
+   "progress": "Saudações, amigo... parece que você tem assuntos urgentes a tratar. Posso ajudar de alguma forma?",
+   "completion": "Ah, eu estava à espera disso aí. Essas criaturas que você enfrentou... elas são uma ameaça muito antiga que a Horda continua insistindo em ignorar. Hadoken fez bem em me mandar isso aqui — e em me mandar você.$B$BOs Zukk'ash não passam de criaturas chamadas silitídeos. Há quem pense que eles são apenas um aborrecimento menor, mas pode ter certeza de que eles são uma ameaça muito, muito pior do que qualquer coisa que a Aliança possa criar.$B$BVocê poderia me ajudar a combater essa ameaça, se tiver a força e a disposição necessárias.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7733": {
+   "name": "Melhoria de qualidade",
+   "objectivesText": [
+    "Leve 10 Pelegos de Yeti Cortifúria para Pradal McGrubben no Domínio de Plumaluna, em Feralas."
+   ],
+   "details": "Fiquei sabendo de um lugar ainda MELHOR para conseguir pelegos, se é que dá para acreditar! Nas partes mais ao norte de Feralas, nas profundezas da Bastilha Cortifúria, existe outro bando de yetis. Eles são muito mais fortes do que os que você derrotou antes, então se estiver a fim de um desafio ainda maior é melhor tomar muito cuidado com eles!$B$BSe você me arranjar uns dez pelegos, eu te dou uma recompensa e tanto. Primeiro me traz os pelegos e depois terminamos a nossa conversa.",
+   "progress": "Se os pelegos desses yetis cortifúria tiverem uma qualidade semelhante aos Abomináveis, podem acabar se mostrando mais resistentes que tório!$B$BImagina só!",
+   "completion": "Excelente, excelente! Estes pelegos são perfeitos – posso até dizer que eles ficarão muito mais rígidos depois de apropriadamente curados.$B$BAgradeço a ajuda mais uma vez, $N. Por favor, aceite uma de minhas últimas criações.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7734": {
+   "name": "Melhoria de qualidade",
+   "objectivesText": [
+    "Leve 10 Pelegos de Yeti Cortifúria para Jangdor Passo Veloz na Aldeia Mojache, em Feralas."
+   ],
+   "details": "Fiquei sabendo de um lugar ainda MELHOR para conseguir pelegos, se é que dá para acreditar! Nas partes mais ao norte de Feralas, nas profundezas da Bastilha Cortifúria, existe outro bando de yetis. Eles são muito mais fortes do que os que você derrotou antes, então se estiver a fim de um desafio ainda maior é melhor tomar muito cuidado com eles!$B$BSe você me arranjar uns dez pelegos, eu te dou uma recompensa e tanto. Primeiro me traz os pelegos e depois terminamos a nossa conversa.",
+   "progress": "Se os pelegos desses yetis cortifúria tiverem uma qualidade semelhante aos Abomináveis, podem acabar se mostrando mais resistentes que tório!$B$BImagina só!",
+   "completion": "Excelente, excelente! Estes pelegos servirão bem ao meu propósito. Posso garantir que eles ficarão mais resistentes ainda quando forem adequadamente curados.$B$BObrigado novamente por sua ajuda, $N. Por favor, fique com uma de minhas últimas criações.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7735": {
+   "name": "Pelego imaculado de Yeti",
+   "objectivesText": [
+    "Leve o Pelego Imaculado de Yeti para Pradal McGrubben no Domínio de Plumaluna, em Feralas."
+   ],
+   "details": "Você encontrou um pelego imaculado espesso e robusto – melhor ainda do que os dos yetis de Cortifúria.$B$BConsiderando que Pradal McGrubben, do Domínio de Plumaluna, está sempre querendo pelegos de yeti, ele pode se interessar muito por este em particular.",
+   "progress": "O que é isso, $N? Você me trouxe alguma coisa especial?",
+   "completion": "Incrível! Você encontrou o avô de todos os pelegos!$B$BTenho muito interesse em comprá-lo de você, pode acreditar. Normalmente não pago tanto assim por um pelego, mas tenho certeza de que posso fazer algo especial com ele. Obrigado por ter se lembrado de mim, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7736": {
+   "name": "Restaurando suprimentos de fluxo ígneo com Sangue-real",
+   "progress": "Chega de desperdiçar o meu precioso tempo com bobagem, $R. A prioridade agora é reabastecer o nosso suprimento cada vez mais baixo de fluxo ígneo.$B$BVou precisar que você me traga o seguinte:$B$B*Escamas de incendossauro.$B$B*Sangue-real.$B$B*Carvão.$B$BQuanto mais você trouxer, melhor!$B$BMas se quiser conquistar pontos com a Irmandade, tem que ser rápido.$BEscama de Incendossauro (2)$BSangue-real (4)$BCarvão (1)",
+   "completion": "Fluxo ígneo nunca é demais, pirralho. Pode trazer mais... só para quando eu disser chega.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7737": {
+   "name": "Conquistando a confiança",
+   "progress": "Você trabalhou um bocado para subir na hierarquia corporativa da Irmandade, $R. Começamos a ver você com bons olhos. Um feito e tanto!$B$BSe você estiver interessado em mais trabalho e em ser mais respeitado por nós, ouça bem.$B$BPra refinar o nosso fluxo ígneo, é só a gente adicionar um simples resíduo de Ferro Negro à mistura. Esse resíduo de Ferro Negro pode ser encontrado no Abismo Rocha Negra.$B$BQuero que me traga todo o resíduo de Ferro Negro que você encontrar!$BResíduo de Ferro Negro (4)",
+   "completion": "Continue trazendo o resíduo!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7738": {
+   "name": "O pelego perfeito de yeti",
+   "objectivesText": [
+    "Leve o Pelego Perfeito de Yeti para Jangdor Passo Veloz na Aldeia Mojache, que fica em Feralas."
+   ],
+   "details": "Você encontrou o que pode muito bem ser um perfeito pelego de yeti. Você percebe facilmente que ele é bastante grosso e robusto – mais ainda do que os pelegos de yetis que você viu em Cortifúria.$B$BConsiderando-se que Jangdor Passo Veloz, na Aldeia Mojache, está sempre querendo pelegos de yetis, ele pode se interessar muito por este em particular.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7761": {
+   "name": "Comando do Mão Negra",
+   "objectivesText": [
+    "Sem dúvida, um orc excepcionalmente burro. Parece que para acessar o Orbe de Comando é necessário ter a Marca de Drakkisath.$B$BA carta indica que o próprio General Drakkisath a guarda. Talvez você devesse investigar."
+   ],
+   "details": "Imbecil.$B$BNão confio nem um pouco na sua capacidade de impedir que intrusos cheguem ao covil do mestre. Caso você morra, o que eu acho muito provável, este orbe possui um sistema de segurança que impede pessoas não autorizadas de se teleportar para Asa Negra.$B$BSomente aqueles com a Marca de Drakkisath nas mãos podem usar o orbe. Por sorte, Drakkisath não é tão incompetente quanto você, Intendente. Ele mesmo guarda a marca!$B$BChefe Guerreiro Laceral Mão Negra$B$BP.S. Queime esta carta, idiota.",
+   "completion": "Você nem ao menos hesita quando a marca incandescente é impressa na sua mão. Durão, você!$B$BAgora que tem a Marca de Drakkisath, divirta-se invadindo o castelo.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7781": {
+   "name": "O Senhor dos Rocha Negra",
+   "objectivesText": [
+    "Leve a Cabeça de Nefarian para o Grão-lorde Bolvar Fordragon, em Ventobravo."
+   ],
+   "details": "A velha sensação retorna. O pulsar da vitória reverbera em seu ser. Diante de você, jaz inerte a monolítica cabeça de Nefarian, marcada por batalhas. Entregue a cabeça ao seu <Grão-lorde/Grã-senhora>, <campeão/campeã>.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7782": {
+   "name": "O Senhor dos Rocha Negra",
+   "objectivesText": [
+    "Vá até o Vale dos Heróis, em Ventobravo, e fale com o Marechal de Campo Afrasiabi."
+   ],
+   "details": "Vá até o Vale dos Heróis e fale com o Marechal de Campo Afrasiabi.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7783": {
+   "name": "O senhor dos Rocha Negra",
+   "objectivesText": [
+    "Leve a Cabeça de Nefarian para Thrall, em Orgrimmar."
+   ],
+   "details": "A velha sensação retorna. O pulsar da vitória reverbera em seu ser. Diante de você, jaz inerte a monolítica cabeça de Nefarian, marcada por batalhas. Entregue a cabeça ao seu Chefe Guerreiro, <campeão/campeã>.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7784": {
+   "name": "O senhor dos Rocha Negra",
+   "objectivesText": [
+    "Fale com o Lorde Supremo Saurfang em Orgrimmar. Ele espera por você no Vale da Força."
+   ],
+   "details": "Procure o Lorde Supremo Saurfang no Vale da Força.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7785": {
+   "name": "Examine o casulo",
+   "objectivesText": [
+    "Examine o Casulo de Renascimento e entregue-o para o Grão-lorde Dimitriano."
+   ],
+   "details": "Mortal, examine o casulo de renascimento. De lá, o Perseguidor dos Ventos renascerá!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7786": {
+   "name": "Trovejardus, o Perseguidor dos Ventos",
+   "objectivesText": [
+    "Para libertar Trovejardus, o Perseguidor dos Ventos, da prisão, você deve entregar as metades direita e esquerda dos Grilhões do Perseguidor dos Ventos, 10 Barras de Elemêntio e a Essência do Senhor do Fogo para o Grão-lorde Dimitriano, em Silithus."
+   ],
+   "details": "Eu já disse tudo que sabia, $N. É você quem deve encontrar o elemêntio. E é você quem deve destruir a forma corpórea do Senhor do Fogo.$B$BFaça isso e ganhe a bênção de Trovejardus.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7787": {
+   "name": "Erga-se, Tormentária!",
+   "objectivesText": [
+    "Entregue a Lâmina Latente Beijada pelo Vento para o Grão-lorde Dimitriano."
+   ],
+   "details": "Você derrotou o Perseguidor dos Ventos. Pegue esta lâmina latente e force Dimitriano, aquele mentiroso infeliz, a usar os materiais que você entregou para acordar Tormentária.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7788": {
+   "name": "Aniquile os invasores!",
+   "objectivesText": [
+    "Vá à Ravina Brado Guerreiro, derrote a Horda, obtenha uma Marca de Honra da Ravina Brado Guerreiro e a entregue à Sentinela Cantálgures no Bosque Asa de Prata."
+   ],
+   "details": "Há um campo de batalhas e destruição do outro lado deste túnel, jovem $C. A Horda continua cortando as nossas sempre-vivas para abastecer as máquinas de guerra e isso tem contribuído para o extermínio da floresta sagrada.$B$BVá à Ravina Brado Guerreiro e defenda o Castelo Asa de Prata. Contenha as forças invasoras da Horda!$B$BVocê receberá um talismã de mérito por isso. Traga-o a mim, $N, e você será <recompensado/recompensada>.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7789": {
+   "name": "Domine os usurpadores da Asa de Prata",
+   "objectivesText": [
+    "Vá à Ravina Brado Guerreiro, derrote a Aliança, obtenha uma Marca de Honra da Ravina Brado Guerreiro e a entregue ao Capitão Estilhaça-crânio no Campo-base Mor'shan."
+   ],
+   "details": "Os selvagens da floresta do Vale Gris não resistirão ao poder da Horda, $R. Nada que os Asa de Prata digam ou façam poderá abalar a nossa soberania. Kalimdor pertence à Horda. É muita ousadia deles tentar impedir que tomemos o que é nosso de direito!$B$BAcalente o orgulho de impedir as pífias tentativas deles de retardar nosso avanço. Aniquile as Sentinelas da Asa de Prata e obtenha uma marca de honra do Brado Guerreiro. Traga a marca para mim e eu <o/a> recompensarei, $N.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7791": {
+   "name": "Doação de lã",
+   "progress": "Estamos aceitando doações de tecidos de lã. A cidade de Ventobravo lhe será muito grata se você generosamente doar sessenta cortes de lã. Já conseguimos arrecadar alguma coisa, por isso só precisamos que você doe essa quantidade. O que faltar nós conseguiremos com outros doadores por todo o reino que também apoiam nossa campanha.$B$BCaso você tenha sessenta cortes de lã e queira doá-los, eu posso recebê-los agora.$BLã (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7792": {
+   "name": "Uma doação de lã",
+   "progress": "Estamos aceitando doações de tecidos de lã. A cidade de Darnassus lhe será muito grata se você doar sessenta cortes de lã. Já conseguimos arrecadar alguma coisa, por isso só precisamos que você doe sessenta cortes. O que faltar, nós conseguiremos com outros doadores.$B$BCaso você tenha sessenta cortes de lã e queira doá-los, eu posso recebê-los agora.$BLã (60)",
+   "completion": "Que maravilha! Agradecemos a doação generosa, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7793": {
+   "name": "Doação de seda",
+   "progress": "Nosso estoque de seda está em baixa, aliás, como o de quase todos os tecidos. Com a quantidade que temos hoje, precisaríamos receber apenas sessenta peças de você. Com a sua doação e a de outras pessoas, conseguiremos alcançar nossa meta.$B$BLembre-se que um presente generoso como esse certamente aumentará o seu prestígio com a comunidade! Caso você tenha sessenta cortes de seda e queira doá-los, eu posso recebê-los agora.$BSeda (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7794": {
+   "name": "Doação de magitrama",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7795": {
+   "name": "Doação de runatrama",
+   "progress": "$N, você tem sido um grande doador em nossa campanha de arrecadação de tecidos. Mas, mesmo trabalhando duro para reabastecer os estoques, ainda há um tecido em falta: runatrama. Precisamos de runatrama com urgência e esperamos que você possa nos ajudar, como já ajudou no passado!$B$BCaso queira ajudar, traga-me todos os cortes de runatrama que puder doar. Nós pedimos uma doação inicial de sessenta cortes. A partir dessa quantidade, aceitamos outras doações.$BRunatrama (60)",
+   "completion": "Que ótimo! Esse tecido vai ser usado imediatamente, eu garanto a você. Muito obrigada mais uma vez pela ajuda! O que seria de nós sem você?$B$BJá que contribuiu tanto para a nossa campanha, não hesitarei em aceitar todas as doações de runatrama que você fizer no futuro. Só não se esqueça de falar comigo para que eu possa me certificar pessoalmente de que as suas ações recebam o devido reconhecimento!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7796": {
+   "name": "Runatrama nunca é demais",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7798": {
+   "name": "Uma doação de seda",
+   "progress": "Nosso estoque de seda está em baixa, aliás, como o de quase todos os tecidos. Com a quantidade que temos hoje, precisaríamos receber apenas sessenta peças de você. Com a sua doação e a de outras pessoas, conseguiremos alcançar nossa meta.$B$BLembre-se que um presente generoso como esse certamente aumentará o seu prestígio com a comunidade! Caso você tenha sessenta cortes de seda e queira doá-los, eu posso recebê-los agora.$BSeda (60)",
+   "completion": "Que maravilha! Obrigado pela generosa doação, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7799": {
+   "name": "Uma doação de magitrama",
+   "progress": "A nossa magitrama está acabando e você pode nos ajudar a reabastecer o estoque! Avaliando o tamanho da comunidade, precisamos de um total de 60 unidades de magitrama por doador para atingir nossos objetivos. Tal generosidade será devidamente recompensada, garanto-lhe!$B$BCaso tenha as sessenta unidades de magitrama consigo e esteja disposta a doá-las, pode entregá-las a mim quando quiser.$BMagitrama (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7800": {
+   "name": "Uma doação de runatrama",
+   "progress": "$N, você tem sido um grande doador em nossa campanha de arrecadação de tecidos. Mas, mesmo trabalhando duro para reabastecer os estoques, ainda há um tipo de tecido em falta: runatrama. Precisamos de runatrama com urgência e esperamos que você possa nos ajudar, como já ajudou no passado!$B$BCaso queira ajudar, traga-me todos os cortes de runatrama que puder doar. Nós pedimos uma doação inicial de sessenta cortes. A partir dessa quantidade, aceitamos outras doações.$BRunatrama (60)",
+   "completion": "Que ótimo! Esse tecido vai ser usado imediatamente, eu garanto a você. Muito obrigado mais uma vez pela ajuda! O que seria de nós sem você?$B$BJá que contribuiu tanto para a nossa campanha, não hesitarei em aceitar todas as doações de runatrama que você fizer no futuro. Só não se esqueça de falar comigo para que eu possa me certificar pessoalmente de que as suas ações recebam o devido reconhecimento!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7801": {
+   "name": "Runatrama extra",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7802": {
+   "name": "Doação de lã",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7803": {
+   "name": "Doação de seda",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7804": {
+   "name": "Doação de magitrama",
+   "fetched": "2026-10-03",
    "v": 2
   }
  }

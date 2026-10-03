@@ -359,6 +359,11 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "2358": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "2361": {
    "name": "Restoring the Necklace",
    "completion": "I gladly give you this necklace, mighty $C. You have done me an invaluable service, and for that I thank you. Wear it with pride, and make sure you mention loudly and repeatedly who made it for you!$B$BAlso, if you could toss in the fact that it really isn't cursed, that would be great.",
@@ -1587,6 +1592,46 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "7361": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7362": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7363": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7364": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7365": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7366": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7381": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7382": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "7385": {
    "name": "A Gallon of Blood",
    "progress": "You have the option of offering larger quantities of the blood taken from our enemies. I will be glad to accept gallon sized offerings, $N.$BStormpike Soldier's Blood (5)",
@@ -1599,6 +1644,56 @@
    "progress": "There are times which you may be entrenched in battle for days or weeks on end. During those longer periods of activity you may end up collecting large clusters of the Frostwolf's storm crystals.$B$BThe Circle accepts such offerings, $N.$BStorm Crystal (5)",
    "completion": "Well done, $N. I will use the power of these charms to augment the magic that has already been gathered. When enough power has been amassed, I shall focus the collected energies and call upon the Forest Lord to aid our cause.",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7401": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7402": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7421": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7422": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7423": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7424": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7425": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7426": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7427": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7428": {
+   "notFound": true,
+   "fetched": "2026-10-03",
    "v": 2
   },
   "7429": {
@@ -1706,6 +1801,185 @@
   "7662": {
    "name": "New Kodo - Teal",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7663": {
+   "name": "New Kodo - Green",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7664": {
+   "name": "Ivory Raptor Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7665": {
+   "name": "Red Raptor Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7666": {
+   "name": "Again Into the Great Ossuary",
+   "completion": "Are you headed back into the Scholomance, $N? You've already paid such a great price for the use of the Divination Scryer - perhaps you'd like to take another one with you. With it, you'd be able to face the perils of the Great Ossuary once more.$B$BBy all means, have it. You've certainly earned it.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7669": {
+   "name": "Again Into the Great Ossuary",
+   "completion": "Are you headed back into the Scholomance, $N? You've already paid such a great price for the use of the Divination Scryer - perhaps you'd like to take another one with you. With it, you'd be able to face the perils of the Great Ossuary once more.$B$BBy all means, have it. You've certainly earned it.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7671": {
+   "name": "Frostsaber Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7672": {
+   "name": "Nightsaber Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7673": {
+   "name": "Frost Ram Exchange",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7674": {
+   "name": "Black Ram Exchange",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7675": {
+   "name": "Icy Blue Mechanostrider Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7676": {
+   "name": "White Mechanostrider Replacement",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7677": {
+   "name": "White Stallion Exchange",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7678": {
+   "name": "Palomino Exchange",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7736": {
+   "name": "Restoring Fiery Flux Supplies via Kingsblood",
+   "progress": "Let's not waste more of my precious time with jibber jabber, $R. It's time to focus on replenishing our dwindling fiery flux supply.$B$BWhat I'm gonna need from you is the following:$B$B*Incendosaur scales.$B$B*Kingsblood.$B$B*Coal.$B$BI'll take all that you can offer!$B$BAnd you'll do it fast if you wanna get in good with the Brotherhood.$BIncendosaur Scale (2)$BKingsblood (4)$BCoal (1)",
+   "completion": "There's always room for more fiery flux, junior. Keep it comin'... unless I tell you to stop.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7737": {
+   "name": "Gaining Acceptance",
+   "progress": "You've worked your way up through the Brotherhood's corporate hierarchy, $R. We have begun to look favorably upon you. Quite an accomplishment!$B$BIf you're interested in more work and earning more respect amongst us, listen up.$B$BWe can refine the fiery flux by adding a simple Dark Iron residue to the mix. The Dark Iron residue can be found in Blackrock Depths.$B$BBring me all the Dark Iron residue you find!$BDark Iron Residue (4)",
+   "completion": "Keep the residue pouring in!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7791": {
+   "name": "A Donation of Wool",
+   "progress": "We are currently accepting donations for wool cloth. A donation of sixty pieces of wool cloth will net you full recognition by Stormwind for your generous actions. Our stores are such on wool that we would only need sixty pieces from you total; we should be able to acquire enough from others in the realm to support our drive.$B$BIf you have the sixty pieces of wool cloth on you and are ready to donate them, I'm able to take them from you now.$BWool Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7792": {
+   "name": "A Donation of Wool",
+   "progress": "We are currently accepting donations for wool cloth. A donation of sixty pieces of wool cloth will net you full recognition by Darnassus for your generous actions. Our stores are such on wool that we would only need sixty pieces from you total; we should be able to acquire enough from others in the realm to support our drive.$B$BIf you have the sixty pieces of wool cloth on you and are ready to donate them, I'm able to take them from you now.$BWool Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7793": {
+   "name": "A Donation of Silk",
+   "progress": "As with most other fabrics, our stocks of silk are at an all-time low. Our stores are such that we'd only need sixty pieces of silk from you total; we should be able to reach our goal with the support of others.$B$BA benevolent gift such as silk, might I add, would certainly increase your local standing in the community! If you have the sixty pieces of silk cloth on you and are ready to donate them, I'm able to take them from you now.$BSilk Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7794": {
+   "name": "A Donation of Mageweave",
+   "progress": "Mageweave is running low, and we could use your help to replenish our stocks! By counting on the community as a whole, we would only need a donation of 60 pieces of mageweave cloth from you to enable us to reach our goal. Such generosity would not go unnoticed by Stormwind, I assure you!$B$BIf you have the sixty pieces of mageweave cloth on you and are ready to donate them, I'm able to take them from you now.$BMageweave Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7795": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7796": {
+   "name": "Additional Runecloth",
+   "progress": "Greetings once again, $N! Our need for runecloth is constant, and we can always use additional resources if you are willing to part with them. For an additional stack of twenty runecloth, I will make sure that you are recognized for your continuing efforts on behalf of Stormwind.$B$BWhenever you are ready to hand in the stack of runecloth, I'll accept it.$BRunecloth (20)",
+   "completion": "$N - without heroes like you working on behalf of Stormwind, we'd surely suffer. Thank you for your continued efforts!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7798": {
+   "name": "A Donation of Silk",
+   "progress": "As with most other fabrics, our stocks of silk are at an all-time low. Our stores are such that we'd only need sixty pieces of silk from you total; we should be able to reach our goal with the support of others.$B$BA benevolent gift such as silk, might I add, would certainly increase your local standing in the community! If you have the sixty pieces of silk cloth on you and are ready to donate them, I'm able to take them from you now.$BSilk Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7799": {
+   "name": "A Donation of Mageweave",
+   "progress": "Mageweave is running low, and we could use your help to replenish our stocks! By counting on the community as a whole, we would only need a donation of 60 pieces of mageweave cloth from you to enable us to reach our goal. Such generosity would not go unnoticed by Darnassus, I assure you!$B$BIf you have the sixty pieces of mageweave cloth on you and are ready to donate them, I'm able to take them from you now.$BMageweave Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7800": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7801": {
+   "name": "Additional Runecloth",
+   "progress": "Greetings once again, $N! Our need for runecloth is constant, and we can always use additional resources if you are willing to part with them. For an additional stack of twenty runecloth, I will make sure that you are recognized for your continuing efforts on behalf of Darnassus.$B$BWhenever you are ready to hand in the stack of runecloth, I'll accept it.$BRunecloth (20)",
+   "completion": "$N - without heroes like you working on behalf of Darnassus, we'd surely suffer. Thank you for your continued efforts!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7802": {
+   "name": "A Donation of Wool",
+   "progress": "We are currently accepting donations for wool cloth. A donation of sixty pieces of wool cloth will net you full recognition by Ironforge for your generous actions. Our stores are such on wool that we would only need sixty pieces from you total; we should be able to acquire enough from others in the realm to support our drive.$B$BIf you have the sixty pieces of wool cloth on you and are ready to donate them, I'm able to take them from you now.$BWool Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7803": {
+   "name": "A Donation of Silk",
+   "progress": "As with most other fabrics, our stocks of silk are at an all-time low. Our stores are such that we'd only need sixty pieces of silk from you total; we should be able to reach our goal with the support of others.$B$BA benevolent gift such as silk, might I add, would certainly increase your local standing in the community! If you have the sixty pieces of silk cloth on you and are ready to donate them, I'm able to take them from you now.$BSilk Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7804": {
+   "name": "A Donation of Mageweave",
+   "progress": "Mageweave is running low, and we could use your help to replenish our stocks! By counting on the community as a whole, we would only need a donation of 60 pieces of mageweave cloth from you to enable us to reach our goal. Such generosity would not go unnoticed by Ironforge, I assure you!$B$BIf you have the sixty pieces of mageweave cloth on you and are ready to donate them, I'm able to take them from you now.$BMageweave Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7805": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-03",
    "v": 2
   }
  }

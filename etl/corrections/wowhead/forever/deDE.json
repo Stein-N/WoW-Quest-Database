@@ -351,6 +351,11 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "2358": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "2361": {
    "name": "Restaurierung der Halskette",
    "completion": "Ich gebe Euch diese Halskette gern, $C. Ihr habt mir einen unschätzbaren Dienst erwiesen und dafür danke ich Euch. Tragt die Kette mit Stolz und vergesst nicht, immer wieder in der gebührenden Lautstärke zu verkünden, wer sie für Euch gemacht hat!$B$BUnd wenn Ihr auch beiläufig erwähnen könntet, dass die Kette nicht verflucht ist, dann wäre das wirklich wunderbar.",
@@ -1607,6 +1612,46 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "7361": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7362": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7363": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7364": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7365": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7366": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7381": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7382": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "7385": {
    "name": "Eine Gallone Blut",
    "progress": "Wenn Ihr Euch nützlich machen wollt, spendet mir große Mengen Feindesblut. Ich wäre hocherfreut, Gallonen von Blut entgegen zu nehmen, $N.$BBlut eines Stormpike-Soldaten (5)",
@@ -1619,6 +1664,56 @@
    "progress": "Es gibt hier Zeiten, in denen Ihr Tage oder sogar Wochen auf den Schlachtfeldern zubringt. Vielleicht könnt Ihr während dieser Zeit nach größeren Gruppen von Frostwolf Sturmkristallen Ausschau halten.$B$BDer Zirkel wäre hocherfreut über derartige Spenden, $N.$BSturmkristall (5)",
    "completion": "Gut gemacht, $N. Ich werde diese Kristalle dafür benutzen, die bereits angesammelte Magie noch weiter zu verstärken. Wenn sich am Ende genug Kraft gesammelt hat, werde ich die gesammelten Energien bündeln, um den Waldfürsten herbeizurufen.",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7401": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7402": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7421": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7422": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7423": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7424": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7425": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7426": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7427": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7428": {
+   "notFound": true,
+   "fetched": "2026-10-03",
    "v": 2
   },
   "7429": {
@@ -1726,6 +1821,213 @@
   "7662": {
    "name": "Neuer Kodo - Graublauer",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7663": {
+   "name": "Neuer Kodo - Grün",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7664": {
+   "name": "Austausch Eures elfenbeinfarbigen Raptors",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7665": {
+   "name": "Austausch Eures roten Raptors",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7666": {
+   "name": "Erneut im großen Ossuarium",
+   "completion": "Wart Ihr schon zurück in Scholomance, $N? Ihr habt bereits teuer für die Verwendung des Orakels der Anrufung bezahlt - vielleicht möchtet Ihr ja noch ein weiteres mit Euch nehmen. Ihr wäret damit in der Lage, Euch den Gefahren des großen Ossuariums erneut zu stellen.$B$BFür alle Fälle, hier habt Ihr es. Ihr habt es Euch redlich verdient.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7668": {
+   "name": "Die Bedrohung durch Schattensichel",
+   "objectivesText": [
+    "Wendet das Orakel der Anrufung inmitten des Kellergewölbes des großen Ossuariums in Scholomance an. Ihr werdet damit Geister herbeirufen, die es zu bekämpfen gilt. Nach Vernichtung dieser Geister wird der Todesritter Schattensichel auftauchen; besiegt ihn.$B$BBringt Schattensichels Kopf zu Sagorne Creststrider im Tal der Weisheit in Orgrimmar."
+   ],
+   "details": "Der Todesritter Schattensichel herrscht über das große Ossuarium in Scholomance. Er droht die spirituelle Ebene zu seinen eigenen Zwecken zu missbrauchen... Er muss gestoppt werden! Dabei kommt das Orakel der Anrufung, bei dessen Herstellung Ihr behilflich wart, zum Einsatz.$B$BSetzt das Orakel inmitten des Kellergewölbes des großen Ossuariums ein, um Schattensichels Geistergefolge herbeizurufen. Besiegt die Geister und der Todesritter selbst wird erscheinen. $N, bringt mir seinen Kopf! Lediglich seine Niederlage wird den Schaden, den er der spirituellen Ebene zugefügt hat, wieder umkehren können!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7669": {
+   "name": "Erneut im großen Ossuarium",
+   "completion": "Wart Ihr schon zurück in Scholomance, $N? Ihr habt bereits teuer für die Verwendung des Orakels der Anrufung bezahlt - vielleicht möchtet Ihr ja noch ein weiteres mit Euch nehmen. Ihr wäret damit in der Lage, Euch den Gefahren des großen Ossuariums erneut zu stellen.$B$BFür alle Fälle, hier habt Ihr es. Ihr habt es Euch redlich verdient.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7670": {
+   "name": "Lord Grayson Shadowbreaker",
+   "objectivesText": [
+    "Sprecht mit Lord Grayson Shadowbreaker im Kathedralenviertel von Stormwind."
+   ],
+   "details": "$N, der Zeitpunkt ist nun gekommen, an dem Ihr lernen werdet, was Ihr tun müsst, um etwas zu bekommen, auf das Ihr bestimmt schon lange gewartet habt... Euer eigenes Streitross. Sprecht mit Lord Grayson Shadowbreaker, im Kathedralenviertel von Stormwind. Er wird Euch nicht nur in die Geheimnisse des treuesten Begleiters eines Paladins einweihen, sondern er wird Euch auch durch die Prüfungen führen, die Ihr absolvieren werdet, um Euer eigenes Streitross zu erhalten.$B$BIch wünsche Euch viel Glück mit dieser Prüfung. Für das Licht, <nobler Bruder/noble Schwester>!",
+   "completion": "Ich bin froh Euch zu sehen, $N. Ich weiß das Ihr lange auf eine Nachricht gewartet habt, wie Ihr an Euer Streitross gelangt und nun ist die Zeit gekommen.$B$BIhr werdet die verschiedensten Prüfungen absolvieren müssen, doch am allermeisten sollt Ihr Euren Willen beweisen, über all den Hindernissen zu stehen, die Euch in Zukunft erwarten werden. Doch diese Prüfungen sind nicht theoretischer oder theologischer Natur. Ihr werdet Euren zukünftigen Begleiter aus den Fängen des Bösen befreien, das Ihr schon so lange bekämpft.$B$BGebt Acht, Eure Zeit ist nun gekommen!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7671": {
+   "name": "Ersatz für Euren Frostsäbler",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7672": {
+   "name": "Austausch Eures Nachtsäblers",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7673": {
+   "name": "Austausch Eures Frostwidders",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7674": {
+   "name": "Austausch Eures schwarzen Widders",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7675": {
+   "name": "Eisblauer Roboschreiter-Austausch",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7676": {
+   "name": "Ersatz für Euren weißen Roboschreiter",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7677": {
+   "name": "Austausch Eures Schimmels",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7678": {
+   "name": "Austausch Eures Palominos",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7704": {
+   "name": "Schau dir die Größe an!",
+   "objectivesText": [
+    "Bringt das Kissen von Zimmermädchen Kissenquetscher zu Evonice Sootsmoker in der sengenden Schlucht."
+   ],
+   "details": "Ja, ja… wenn das nicht eine Überraschung ist. Das Zimmermädchen besaß ein riesiges verziertes Kissen und nun ist es Eures. Geht zu Evonice Sootsmoker, sie kann es nicht erwarten dieses Kissen zu bekommen und mit ihren fettigen Händen zu begrapschen. Bringt es ihr und schaut ob sie Euch dafür auch irgendwie für die Mühen entlohnt.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7736": {
+   "name": "Nachschub an feurigem Fluxus: Königsblut",
+   "progress": "Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$B$BIch brauche Euch, um mir folgendes zu beschaffen:$B$B*Incendosaurierschuppen.$B$B*Königsblut.$B$B*Kohle.$B$BIch nehme alles was Ihr kriegen könnt!$B$BUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?$BIncendosaurierschuppe (2)$BKönigsblut (4)$BKohle (1)",
+   "completion": "Es ist immer genug Platz für einen weiteren feurigen Fluxus, Junge. Immer her damit... bis ich Euch sage, dass es genug ist.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7737": {
+   "name": "Erlangte Anerkennung",
+   "progress": "Ihr habt Euch erfolgreich in der Hierarchie der Bruderschaft hochgearbeitet, $R. Wir haben begonnen, Euch mit Wohlwollen zu betrachten. Eine respektable Leistung!$B$BWenn Ihr Euch weiteren Respekt und Arbeit verschaffen wollt, hört genau zu.$B$BWir können den feurigen Fluxus noch weiter veredeln, indem wir ihm simple Dunkeleisenrückstände hinzufügen. Diese Rückstände sind hauptsächlich in den Blackrocktiefen zu finden.$B$BBringt mir alle Dunkeleisenrückstände, die Ihr finden könnt!$BDunkeleisenrückstände (4)",
+   "completion": "Je mehr Dunkeleisenrückstände, desto besser!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7791": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Stormwind einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7792": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Darnassus einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7793": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7794": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Stormwind nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7795": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7796": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Stormwind erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für Stormwind einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7798": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7799": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Darnassus nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7800": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7801": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Darnassus erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für Darnassus einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7802": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Ironforge einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7803": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7804": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Ironforge nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7805": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-03",
    "v": 2
   }
  }

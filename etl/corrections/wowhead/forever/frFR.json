@@ -370,6 +370,11 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "2358": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "2361": {
    "name": "Réparer le Collier",
    "completion": "C'est avec joie que je vous donne ce collier, $C. Vous m'avez rendu un service inestimable. Portez-le avec fierté et n'hésitez pas à citer fréquemment et à voix haute le nom du fabriquant !$B$BEt si vous pouviez préciser au passage qu'il n'est pas maudit, ce serait parfait.",
@@ -1612,6 +1617,96 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "7361": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7362": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7363": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7364": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7365": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7366": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7381": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7382": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7401": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7402": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7421": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7422": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7423": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7424": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7425": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7426": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7427": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7428": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "7429": {
    "name": "Libérez Knot !",
    "progress": "C’est la Clé des menottes gordok – en tous cas, c’est comme ça que l’appellent ces patapoufs. Je ne sais pas qui l’a. Ils le peuvent tous, j’imagine. Les gardes, sans doute…$B$BMais qu’est-ce que je raconte ? Vous l’avez déjà, n’est-ce pas ? Vous l’avez sur vous ?$BClé des menottes gordok (1)",
@@ -1717,6 +1812,204 @@
   "7662": {
    "name": "Un nouveau kodo bleu",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7663": {
+   "name": "Un nouveau kodo vert",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7664": {
+   "name": "Remplacement de raptor ivoire",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7665": {
+   "name": "Remplacement de raptor rouge",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7666": {
+   "name": "Retour au Grand ossuaire",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7668": {
+   "name": "La menace de Ravassombre",
+   "objectivesText": [
+    "Servez-vous du Clairvoyant au centre du sous-sol du Grand ossuaire de la Scholomance. Cela attirera des esprits que vous devrez combattre. Les vaincre fera apparaître le Chevalier de la mort Ravassombre. Tuez-le.$B$BRamenez la Tête de Ravassombre à Sagorne Crestrider de la vallée de la Sagesse, à Orgrimmar."
+   ],
+   "details": "Le chevalier de la mort Ravassombre règne sur le Grand ossuaire de la Scholomance. Il se prépare à altérer le monde des esprits pour accomplir ses ténébreuses volontés. Il faut l’arrêter ! Ce sera le rôle du Clairvoyant que vous m’avez aidé à préparer.$B$BUtilisez-le au centre du sous-sol du Grand ossuaire pour appeler les esprits qui servent Ravassombre. Lorsque vous les aurez vaincus, le chevalier de la mort apparaîtra en personne. Ramenez-moi sa tête, $N ! Sa mort est la seule chose qui puisse annuler les ravages qu’il a commis dans le monde des esprits !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7669": {
+   "name": "Retour au Grand ossuaire",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7670": {
+   "name": "Le seigneur Grayson Shadowbreaker",
+   "objectivesText": [
+    "Parler au seigneur Grayson Shadowbreaker dans le Quartier de la cathédrale de Stormwind."
+   ],
+   "details": "$N, le temps est venu d’apprendre ce que vous devrez faire pour vous procurer quelque chose que vous attendez sans doute depuis longtemps… votre destrier !$B$BAllez parler au seigneur Grayson Shadowbreaker, dans le Quartier de la cathédrale, à Stormwind. Il vous apprendra à maîtriser la monture favorite des paladins. Et auparavant, il vous chargera de toutes les tâches que vous devrez accomplir pour vous en procurer un.$B$BJ’espère que votre épreuve se passera bien. Pour la Lumière, noble <frère/sœur> !",
+   "completion": "Je suis content de vous voir, $N. Je sais que vous attendiez depuis longtemps que je vous explique comment vous procurer votre destrier, et le moment est venu.$B$BVous allez traverser de nombreuses épreuves, mais l'essentiel est que vous ayez la volonté de surmonter les obstacles qui vous attendent. Ce n’est pas un exercice – vous avez progressé bien au-delà des simples tests qui ont ponctué votre éducation. Vous devrez arracher votre futur compagnon aux griffes même du mal que vous avez passé votre vie à combattre$B$BÉcoutez bien, car votre heure a sonné !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7671": {
+   "name": "Un nouveau sabre-de-givre",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7672": {
+   "name": "Remplacement de sabre-de-nuit",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7673": {
+   "name": "Echange de bélier de givre",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7674": {
+   "name": "Echange de bélier noir",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7675": {
+   "name": "Remplacement de mécanotrotteur bleu clair",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7676": {
+   "name": "Remplacement de mécanotrotteur blanc",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7677": {
+   "name": "Echange d'étalon blanc",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7678": {
+   "name": "Echange de palomino",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7704": {
+   "name": "Regardez un peu la taille !",
+   "objectivesText": [
+    "Apportez l'Oreiller de la Femme de chambre Pillaclencher à Evonice Sootsmoker dans la Gorge des Vents brûlants."
+   ],
+   "details": "Tiens, tiens, tiens... Quelle surprise. La Femme de chambre avait un oreiller brodé géant et il est maintenant en votre possession. Evonice Sootsmoker va sûrement vouloir mettre ses petites mains poisseuses dessus. Apportez-le-lui et voyez si elle a quelque chose à vous offrir pour votre peine.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7736": {
+   "name": "Réapprovisionnement en flux embrasé (Sang-royal)",
+   "progress": "Assez perdu de temps à bavarder, $R. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.$B$BVoici ce que je veux que vous me rapportiez :$B$B*Ecailles d'incendosaure.$B$B*Sang-royal.$B$B*Charbon.$B$BJe prendrai tout ce que vous me donnerez !$B$BEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.$BEcaille d'Incendosaure (2)$BSang-royal (4)$BCharbon (1)",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça... Jusqu'à ce que je vous dise d'arrêter.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7737": {
+   "name": "Se faire accepter",
+   "progress": "Vous avez monté les barreaux de l'échelle de la Confrérie, $R. Nous commençons à avoir de vous une opinion favorable. Voilà un bel exploit !$B$BSi vous souhaitez gagner davantage encore de notre respect, écoutez bien.$B$BNous pouvons raffiner le flux embrasé en ajoutant simplement un résidu de sombre fer au mélange. On peut trouver les résidus de sombre fer dans les Profondeurs de Blackrock.$B$BApportez-moi tous les résidus de sombre fer que vous trouverez !$BRésidu de sombrefer (4)",
+   "completion": "Continuez à apporter du résidu !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7791": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Stormwind pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7792": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Darnassus pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7793": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7794": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Stormwind !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7795": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7796": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur de Stormwind soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Stormwind. Merci de tous vos efforts !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7798": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7799": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Darnassus !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7800": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7801": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur de Darnassus soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Darnassus. Merci de tous vos efforts !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7802": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Ironforge pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7803": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7804": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Ironforge !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-03",
    "v": 2
   }
  }

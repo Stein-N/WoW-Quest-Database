@@ -313,6 +313,11 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "2358": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "2361": {
    "name": "Restaurar el collar",
    "fetched": "2026-10-02",
@@ -1307,6 +1312,46 @@
    "fetched": "2026-10-02",
    "v": 2
   },
+  "7361": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7362": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7363": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7364": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7365": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7366": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7381": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7382": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
   "7385": {
    "name": "Un galón de sangre",
    "fetched": "2026-10-02",
@@ -1315,6 +1360,56 @@
   "7386": {
    "name": "Recogida de cristal",
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7401": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7402": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7421": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7422": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7423": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7424": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7425": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7426": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7427": {
+   "notFound": true,
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7428": {
+   "notFound": true,
+   "fetched": "2026-10-03",
    "v": 2
   },
   "7429": {
@@ -1398,6 +1493,188 @@
   },
   "7662": {
    "fetched": "2026-10-02",
+   "v": 2
+  },
+  "7663": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7664": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7665": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7666": {
+   "name": "El regreso a El Gran Osario",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7668": {
+   "objectivesText": [
+    "[Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance. Doing so will bring forth spirits you must fight. Defeating these spirits will summon forth Death Knight Darkreaver; defeat him.$B$BBring Darkreaver's Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar.]"
+   ],
+   "details": "[Death Knight Darkreaver lords over the Great Ossuary in the Scholomance. He threatens to twist the spirit realm to do his own bidding, and he must be stopped! This is where the scryer you helped make comes into play.$B$BUse the divination scryer in the heart of the Great Ossuary's basement to call forth Darkreaver's spirit minions. Defeat the spirits and the death knight himself will appear. $N, bring me his head! Only his demise will reverse the damage dome to the spirit realm!]",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7669": {
+   "name": "El regreso a El Gran Osario",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7670": {
+   "name": "Lord Grisillo Quiebrasombras",
+   "objectivesText": [
+    "Habla con Lord Grisillo Quiebrasombras en el Distrito de la Catedral de Ventormenta."
+   ],
+   "details": "$N, voy a explicarte lo que debes hacer para conseguir una montura.$B$BHabla con Lord Grisillo Quiebrasombras en el Distrito de la Catedral de Ventormenta. Te enseñará a cuidar de tu montura y te dirá qué tareas debes completar para conseguir una.$B$BTe deseo lo mejor. ¡Por la Luz, mi noble <hermano/hermana>!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7671": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7672": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7673": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7674": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7675": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7676": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7677": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7678": {
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7704": {
+   "objectivesText": [
+    "[Take Chambermaid Pillaclencher's Pillow to Evonice Sootsmoker in the Searing Gorge.]"
+   ],
+   "details": "[Well, well, well... Isn't this a surprise. The Chambermaid had a gigantic ornate pillow and now it's yours. Evonice Sootsmoker will definitely want to get her grubby little hands all over this item. Take it to her and see if she'll offer you any goodies for your trouble.]",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7736": {
+   "name": "Fabricar flujo ígneo con sangrerregia",
+   "progress": "Mi tiempo es demasiado valioso para perderlo con charlas, no-muerto. Quiero fabricar más flujo ígneo.$B$BPara eso, necesito que me traigas lo siguiente:$B$B*Escamas de incendosaurio.$B$B*Sangrerregia.$B$B*Carbón.$B$B¡Tráeme tanto como puedas!$B$BY tan rápido como puedas, si es que quieres ganarte el favor de la Hermandad.$BEscama de incendosaurio (2)$BSangrerregia (4)$BCarbón (1)",
+   "completion": "Siempre hay sitio para el flujo ígneo. Tú sigue trayendo hasta que yo te diga.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7737": {
+   "name": "Conseguir aceptación",
+   "progress": "Has subido los peldaños de la jerarquía de la Hermandad, no-muerto. Te estás ganando nuestro favor, ¡lo que es todo un logro!$B$BSi quieres más trabajo y lograr aún más respeto, escucha.$B$BPodemos refinar el flujo ígneo añadiendo un poco de residuo de hierro negro a la mezcla.$B$BVe a las Profundidades de Roca Negra y tráeme todo el residuo de hierro negro que encuentres.$BResiduo de hierro negro (4)",
+   "completion": "Sigue vertiendo el residuo.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7791": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos recogiendo donaciones de paño de lana. Una donación de 60 paños de lana te hará ganar el reconocimiento de Ventormenta por tu generosidad. Con nuestros suministros de lana, solo necesitaríamos sesenta piezas por tu parte. Deberíamos poder conseguir más paños en el reino para llegar a un buen número.$B$BSi tienes los 60 paños de lana y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de lana (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7792": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos recogiendo donaciones de paño de lana. Una donación de 60 paños de lana te hará ganar el reconocimiento de Darnassus por tu generosidad. Necesitaríamos tan solo 60 paños, seguro que podemos conseguir el resto de otros para ayudarnos a conseguir nuestro objetivo.$B$BSi tienes los 60 paños de lana y estás dispuesto a donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7793": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como las de los demás tejidos, están en su nivel mínimo. Si tú pudieras donarnos 60 paños de seda y consiguiéramos más de otras gentes, lograríamos cumplir nuestro objetivo.$B$BSi me permites, un regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad... Si tienes los 60 paños de seda y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7794": {
+   "name": "Un donativo de tejido mágico",
+   "progress": "Nos estamos quedando sin tejido mágico, nos vendría bien tu ayuda para reabastecer nuestro almacén. Si contamos a toda la comunidad, solo necesitaríamos que nos donaras 60 paños de tejido mágico para alcanzar nuestro objetivo. ¡Y te aseguro que Ventormenta no podrá menos que notar tu generosidad!$B$BSi tienes los 60 paños de tejido mágico y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de tejido mágico (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7795": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has contribuido generosamente a nuestra campaña de abastecimiento de telas. Nosotros también estamos trabajando duro, pero aún tenemos escasez de paño rúnico. ¡Y lo necesitamos urgentemente! ¡Espero que puedas ayudarnos, tal y como has hecho otras veces!$B$BSi deseas ayudar, tráeme todo el paño rúnico que puedas reunir. Empezaremos por aceptar una única donación de 60 retales y luego ya iremos viendo.$BPaño rúnico (60)",
+   "completion": "Fantástico. Utilizaremos estos retales ahora mismo. ¡Gracias de nuevo por tu ayuda! Estaríamos perdidos sin ti.$B$BCon todas las donaciones que has hecho, puedo asegurarte que, si en el futuro deseas hacer más, las aceptaré gustosamente. Ven a hablar conmigo y me aseguraré personalmente de que tus buenas obras reciban su reconocimiento.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7796": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7798": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como las de los demás tejidos, están en su nivel mínimo. Si tú pudieras donarnos 60 paños de seda y consiguiéramos más de otras gentes, lograríamos cumplir nuestro objetivo.$B$BSi me permites, un regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad... Si tienes los 60 paños de seda y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7799": {
+   "name": "Un donativo de tejido mágico",
+   "progress": "Nos estamos quedando sin tejido mágico, nos vendría bien tu ayuda para reabastecer nuestro almacén. Si contamos a toda la comunidad, solo necesitaríamos que nos donaras 60 paños de tejido mágico para alcanzar nuestro objetivo. ¡Y te aseguro que Darnassus no podrá menos que notar tu generosidad!$B$BSi tienes los 60 paños de tejido mágico y estás dispuesta a donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de tejido mágico (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7800": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has contribuido generosamente a nuestra campaña de abastecimiento de telas. Nosotros también estamos trabajando duro, pero aún tenemos escasez de paño rúnico. ¡Y lo necesitamos urgentemente! ¡Espero que puedas ayudarnos, tal y como has hecho otras veces!$B$BSi deseas ayudar, tráeme todo el paño rúnico que puedas reunir. Empezaremos por aceptar una única donación de 60 retales y luego ya iremos viendo.$BPaño rúnico (60)",
+   "completion": "Fantástico. Utilizaremos estos retales ahora mismo. ¡Gracias de nuevo por tu ayuda! Estaríamos perdidos sin ti.$B$BCon todas las donaciones que has hecho, puedo asegurarte que, si en el futuro deseas hacer más, las aceptaré gustosamente. Ven a hablar conmigo y me aseguraré personalmente de que tus buenas obras reciban su reconocimiento.",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7801": {
+   "name": "Un donativo extra de paño rúnico",
+   "progress": "Saludos, una vez más, $N. Seguimos necesitando paño rúnico y aceptamos cualquier donativo, si es que deseas colaborar. Si me traes un nuevo donativo de 20 paños rúnicos, me aseguraré de que Darnassus reconozca tus esfuerzos.$B$BCuando desees entregarme el donativo de paño rúnico, lo aceptaré.$BPaño rúnico (20)",
+   "completion": "$N, sin heroínas como tú trabajando para Darnassus, sufriríamos mucho. ¡Gracias por tus continuos esfuerzos!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7802": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos haciendo una colecta de paño de lana. Si nos das 60 piezas de paño de lana, ganarás el reconocimiento de Forjaz por tu generosidad. Con 60 piezas por tu parte es suficiente; conseguiremos más por otros medios.$B$BSi tienes las 60 piezas de paño de lana y las quieres donar, puedo cogerlas ahora.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7803": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como las de los demás tejidos, están en su nivel mínimo. Si tú pudieras donarnos 60 paños de seda y consiguiéramos más de otras gentes, lograríamos cumplir nuestro objetivo.$B$BSi me permites, un regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad... Si tienes los 60 paños de seda y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
+   "v": 2
+  },
+  "7804": {
+   "name": "Un donativo de tejido mágico",
+   "progress": "¡Nos estamos quedando sin tejido mágico y tú podrías ayudarnos! Teniendo en cuenta la comunidad en total, necesitaríamos una donación de 60 piezas de tejido mágico. Tanta generosidad no pasaría desapercibida en Forjaz, ¡te lo aseguro!$B$BSi tienes las 60 piezas de tejido mágico y las quieres donar, puedo cogerlas ahora.$BPaño de tejido mágico (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-03",
    "v": 2
   }
  }
