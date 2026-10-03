@@ -1,21 +1,57 @@
 {
   "_comment": "Patch notes for the website and releases. Maintained by etl/changelog.py; add notes for the next release under 'unreleased'.",
   "unreleased": {
-    "website": [
-      "Objects with the same name (e.g. every Campfire or Mailbox) are one entry in the object list; its page shows all of them on the map, and Quick facts lists the object IDs on the selected map.",
-      "Maps on quest, object, NPC and item pages can be zoomed out to show the whole map again.",
-      "Pages note when a translated text comes from AzerothCore (Wrath of the Lich King), since it may differ from Classic.",
-      "Lua exports of texts follow a locale-file layout with English as fallback: the enUS file creates the table, other languages only replace the entries they translate, and objectives are one text with $B line breaks.",
-      "The Lua export page no longer offers the References and Format options: exports always use plain IDs and the addon format.",
-      "In the Lua export, startedBy is grouped by kind, e.g. { npc = {196}, item = {1307} }, so quest starters of different kinds can be told apart.",
-      "The site now covers WoW Forever only: the Classic Era version and the version switch are gone, and addresses are shorter (e.g. #/quest/2); old links still work."
-    ],
-    "data": [
-      "Missing translations are now filled in from AzerothCore as a last resort, for example about 3,800 quest completion texts in Latin American Spanish and many NPC and object names.",
-      "Classic Era data and maps are no longer built or published."
-    ]
+    "website": [],
+    "data": []
   },
   "versions": [
+    {
+      "version": "0.1.5",
+      "date": "2026-10-03",
+      "data": {
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "date": "2026-10-01",
+          "subject": "Merge pull request #54 from Questie/forever-trace-corrections"
+        },
+        "vmangos": {
+          "snapshot": "db-sqlite-4641790",
+          "published": "2026-09-28"
+        }
+      },
+      "website": [
+        "Objects with the same name (e.g. every Campfire or Mailbox) are one entry in the object list; its page shows all of them on the map, and Quick facts lists the object IDs on the selected map.",
+        "Maps on quest, object, NPC and item pages can be zoomed out to show the whole map again.",
+        "Pages note when a translated text comes from AzerothCore (Wrath of the Lich King), since it may differ from Classic.",
+        "Lua exports of texts follow a locale-file layout with English as fallback: the enUS file creates the table, other languages only replace the entries they translate, and objectives are one text with $B line breaks.",
+        "The Lua export page no longer offers the References and Format options: exports always use plain IDs and the addon format.",
+        "In the Lua export, startedBy is grouped by kind, e.g. { npc = {196}, item = {1307} }, so quest starters of different kinds can be told apart.",
+        "The site now covers WoW Forever only: the Classic Era version and the version switch are gone, and addresses are shorter (e.g. #/quest/2); old links still work."
+      ],
+      "dataNotes": [
+        "Missing translations are now filled in from AzerothCore as a last resort, for example about 3,800 quest completion texts in Latin American Spanish and many NPC and object names.",
+        "Classic Era data and maps are no longer built or published.",
+        "Quest texts imported from further Wowhead runs add more translated quests, especially Portuguese and Traditional Chinese, and 16 more Russian player names are replaced with $N.",
+        "Names that Wowhead only shows as the untranslated English name in brackets are no longer stored, so those pages show the regular fallback instead."
+      ],
+      "dataChanges": {
+        "forever": [
+          "Quest descriptions: German +7, Spanish (EU) +7, Spanish (LA) +7, French +7, Korean +4, Portuguese +32, Russian +7, Chinese (simplified) +9, Chinese (traditional) +138."
+        ]
+      },
+      "commits": [
+        "Combine objects with the same name into one entry",
+        "Let narrow maps zoom out to the whole map",
+        "Skip quests Wowhead does not have in later scraper runs",
+        "Use AzerothCore as the last fallback for translations",
+        "Export texts as locale files with English as fallback",
+        "Remove the references and format options from the Lua export",
+        "Export startedBy in QuestieDB's shape",
+        "Export startedBy as named groups",
+        "Add Wowhead quest texts from further scraper runs",
+        "Cover WoW Forever only"
+      ]
+    },
     {
       "version": "0.1.4",
       "date": "2026-10-02",
