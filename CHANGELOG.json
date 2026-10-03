@@ -3,7 +3,8 @@
   "unreleased": {
     "website": [
       "The site is now called Forever Database, since it covers NPCs, items and objects as well as quests.",
-      "The zone list shows dungeons, raids and battlegrounds in separate sections; Gnomeregan, Razorfen Kraul, Sunken Temple, Uldaman and Zul'Farrak now appear with the dungeons."
+      "The zone list shows dungeons, raids and battlegrounds in separate sections; Gnomeregan, Razorfen Kraul, Sunken Temple, Uldaman and Zul'Farrak now appear with the dungeons.",
+      "Quest categories in the zone list are split into classes, professions, events and other categories; the Forever categories Camping and Night Elf now have names."
     ],
     "data": [
       "Quest item rewards now come straight from VMangos; three quests regain their reward: Onu is meditating, The Darkreaver Menace and Again Into the Great Ossuary."

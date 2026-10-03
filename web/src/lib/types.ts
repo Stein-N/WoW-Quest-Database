@@ -205,6 +205,8 @@ export interface Zone {
 export interface Zones {
 	zones: Record<string, Zone>;
 	sorts: Record<string, string>;
+	/** quest category -> group in the zone list */
+	sortGroups?: Record<string, 'class' | 'profession' | 'event' | 'other'>;
 }
 
 export interface ChangelogEntry {

@@ -840,7 +840,8 @@ class Flavor:
         self.build_zone_givers(base, records["quest"])
         write_json(base / "questlines.json", self.questlines)
         sorts = {str(k): v for k, v in C.QUEST_SORTS.items()}
-        write_json(base / "zones.json", {"zones": {str(k): v for k, v in self.zones.items()}, "sorts": sorts})
+        write_json(base / "zones.json", {"zones": {str(k): v for k, v in self.zones.items()}, "sorts": sorts,
+                                         "sortGroups": {str(k): v for k, v in C.QUEST_SORT_GROUPS.items()}})
 
         self.build_l10n(base, records)
         self.uimap_report = self._uimap_report(records["quest"])

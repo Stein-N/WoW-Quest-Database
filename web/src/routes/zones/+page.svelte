@@ -14,12 +14,17 @@
 		const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
 		const zones = site.zones?.zones ?? {};
 		const kind = (id: number) => zones[id]?.instanceType;
+		const group = (id: number) => site.zones?.sortGroups?.[id] ?? 'other';
+		const sorts = all.filter((z) => z.id < 0);
 		return [
 			{ title: 'Zones', items: all.filter((z) => z.id > 0 && !kind(z.id)).sort(byName) },
 			{ title: 'Dungeons', items: all.filter((z) => z.id > 0 && kind(z.id) === 'dungeon').sort(byName) },
 			{ title: 'Raids', items: all.filter((z) => z.id > 0 && kind(z.id) === 'raid').sort(byName) },
 			{ title: 'Battlegrounds', items: all.filter((z) => z.id > 0 && kind(z.id) === 'battleground').sort(byName) },
-			{ title: 'Categories', items: all.filter((z) => z.id < 0).sort(byName) }
+			{ title: 'Classes', items: sorts.filter((z) => group(z.id) === 'class').sort(byName) },
+			{ title: 'Professions', items: sorts.filter((z) => group(z.id) === 'profession').sort(byName) },
+			{ title: 'Events', items: sorts.filter((z) => group(z.id) === 'event').sort(byName) },
+			{ title: 'Other categories', items: sorts.filter((z) => group(z.id) === 'other').sort(byName) }
 		].filter((g) => g.items.length);
 	}
 </script>

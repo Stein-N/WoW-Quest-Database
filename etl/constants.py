@@ -23,18 +23,36 @@ CLASSES = {
     64: "Shaman", 128: "Mage", 256: "Warlock", 1024: "Druid",
 }
 
-# Negative ZoneOrSort values (QuestSort.dbc, Vanilla).
-QUEST_SORTS = {
-    -1: "Epic", -21: "Wailing Caverns (old)", -22: "Seasonal", -23: "Undercity (old)",
-    -24: "Herbalism", -25: "Battlegrounds", -41: "Day of the Dead", -61: "Warlock",
-    -81: "Warrior", -82: "Shaman", -101: "Fishing", -121: "Blacksmithing", -141: "Paladin",
-    -161: "Mage", -162: "Rogue", -181: "Alchemy", -182: "Leatherworking", -201: "Engineering",
-    -221: "Treasure Map", -241: "Tournament", -261: "Hunter", -262: "Priest", -263: "Druid",
-    -264: "Tailoring", -284: "Special", -304: "Cooking", -324: "First Aid", -344: "Legendary",
-    -364: "Darkmoon Faire", -365: "Ahn'Qiraj War", -366: "Lunar Festival", -367: "Reputation",
-    -368: "Invasion", -369: "Midsummer", -370: "Brewfest", -374: "Noblegarden",
-    -375: "Pilgrim's Bounty", -376: "Love is in the Air",
+# Negative ZoneOrSort values: name and group for the zone list (after QuestieDB's sortKeys enum,
+# src/corrections/enum/quests.lua).
+QUEST_SORT_INFO = {
+    # classes
+    -61: ("Warlock", "class"), -81: ("Warrior", "class"), -82: ("Shaman", "class"),
+    -141: ("Paladin", "class"), -161: ("Mage", "class"), -162: ("Rogue", "class"),
+    -261: ("Hunter", "class"), -262: ("Priest", "class"), -263: ("Druid", "class"),
+    -372: ("Death Knight", "class"), -395: ("Monk", "class"),
+    # professions and skills
+    -24: ("Herbalism", "profession"), -101: ("Fishing", "profession"), -121: ("Blacksmithing", "profession"),
+    -181: ("Alchemy", "profession"), -182: ("Leatherworking", "profession"),
+    -201: ("Engineering", "profession"), -264: ("Tailoring", "profession"), -304: ("Cooking", "profession"),
+    -324: ("First Aid", "profession"), -371: ("Inscription", "profession"),
+    -373: ("Jewelcrafting", "profession"), -377: ("Archaeology", "profession"), -398: ("Riding", "profession"),
+    # holidays and world events
+    -21: ("Hallow's End", "event"), -22: ("Seasonal", "event"), -41: ("Day of the Dead", "event"),
+    -364: ("Darkmoon Faire", "event"), -365: ("Ahn'Qiraj War", "event"), -366: ("Lunar Festival", "event"),
+    -368: ("Invasion", "event"), -369: ("Midsummer", "event"), -370: ("Brewfest", "event"),
+    -374: ("Noblegarden", "event"), -375: ("Pilgrim's Bounty", "event"),
+    -376: ("Love is in the Air", "event"), -378: ("Children's Week", "event"),
+    -402: ("Harvest Festival", "event"), -404: ("Winter Veil", "event"),
+    -641: ("Nightmare Incursions", "event"), -644: ("Blackrock Eruption", "event"),
+    # other categories
+    -1: ("Epic", "other"), -23: ("Undercity (old)", "other"), -25: ("Battlegrounds", "other"),
+    -221: ("Treasure Map", "other"), -241: ("Tournament", "other"), -284: ("Special", "other"),
+    -344: ("Legendary", "other"), -367: ("Reputation", "other"), -662: ("Titan Reforged", "other"),
+    -660: ("The High Order", "other"), -666: ("Camping", "other"), -676: ("Night Elf", "other"),
 }
+QUEST_SORTS = {k: name for k, (name, _group) in QUEST_SORT_INFO.items()}
+QUEST_SORT_GROUPS = {k: group for k, (_name, group) in QUEST_SORT_INFO.items()}
 
 # quest_template.Type (QuestInfo.dbc)
 QUEST_TYPES = {
