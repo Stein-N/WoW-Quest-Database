@@ -2011,6 +2011,104 @@
    "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
    "fetched": "2026-10-03",
    "v": 2
+  },
+  "7805": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7806": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Ironforge soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Ironforge. Merci de tous vos efforts !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7807": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tous les exilés de Gnomeregan pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7808": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7809": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue parmi les exilés de Gnomeregan !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7811": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7812": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur des exilés de Gnomeregan soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour nous les gnomes. Merci de tous vos efforts !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7813": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Undercity pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7814": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7817": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Undercity !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prête à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7818": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7819": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Undercity soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour les Réprouvés. Merci pour tous vos efforts !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7820": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Thunder Bluff pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7821": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-04",
+   "v": 2
   }
  }
 }

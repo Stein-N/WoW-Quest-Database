@@ -1883,6 +1883,103 @@
    "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
    "fetched": "2026-10-03",
    "v": 2
+  },
+  "7805": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has hecho unas donaciones magníficas. Pero seguimos estando escasos de paño rúnico. ¡Espero que puedas ayudarnos una vez más!$B$BSi quieres ayudarnos, danos paño rúnico; con 60 piezas será suficiente de momento.$BPaño rúnico (60)",
+   "completion": "Estupendo. ¡Muchísimas gracias por tu ayuda! No sé qué haríamos sin ti.$B$BNaturalmente, si quieres volver a donar paño rúnico, solo tienes que venir a verme. ¡Tus buenas obras tendrán el reconocimiento que merecen!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7806": {
+   "name": "Un donativo extra de paño rúnico",
+   "progress": "¡Saludos, $N! Seguimos necesitando paño rúnico; si quieres seguir ayudándonos, te lo agradeceremos. Una donación de 20 piezas te valdrá la admiración y el respeto de Forjaz.$B$BPuedes darme el paño rúnico cuando quieras.$BPaño rúnico (20)",
+   "completion": "$N, Forjaz estaría perdida sin valientes como tú. ¡Gracias!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7807": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos haciendo una colecta de paño de lana. Si nos das 60 piezas de paño de lana, ganarás el reconocimiento de los Exiliados de Gnomeregan por tu generosidad. Con 60 piezas por tu parte es suficiente; conseguiremos más por otros medios.$B$BSi tienes las 60 piezas de paño de lana y las quieres donar, puedo cogerlas ahora.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7808": {
+   "name": "Un donativo de seda",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7809": {
+   "name": "Un donativo de paño mágico",
+   "progress": "¡Nos estamos quedando sin paño mágico! Si nos donaras 60 piezas de paño mágico, tu generosidad te valdría la admiración de todos los Exiliados de Gnomeregan.$B$BSi tienes las 60 piezas de paño mágico y las quieres donar, puedo cogerlas ahora.$BTela de paño mágico (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7811": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has hecho unas donaciones magníficas. Pero seguimos estando escasos de paño rúnico. ¡Espero que puedas ayudarnos una vez más!$B$BSi quieres ayudarnos, danos paño rúnico; con 60 piezas será suficiente de momento.$BPaño rúnico (60)",
+   "completion": "Estupendo. ¡Muchísimas gracias por tu ayuda! No sé qué haríamos sin ti.$B$BNaturalmente, si quieres volver a donar paño rúnico, solo tienes que venir a verme. ¡Tus buenas obras tendrán el reconocimiento que merecen!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7812": {
+   "name": "Un donativo extra de paño rúnico",
+   "progress": "¡Saludos, $N! Seguimos necesitando paño rúnico; si quieres seguir ayudándonos, te lo agradeceremos. Una donación de 20 piezas te valdrá la admiración y el respeto de los Exiliados de Gnomeregan.$B$BPuedes darme el paño rúnico cuando quieras.$BPaño rúnico (20)",
+   "completion": "$N, los gnomos estaríamos perdidos sin valientes como tú. ¡Gracias!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7813": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos recogiendo donaciones de paño de lana. Una donación de 60 retales de paño de lana te hará ganar el reconocimiento de Entrañas por tu generosidad. Tal y como está nuestro almacén, solo necesitamos que nos entregues 60 retales, pues las otras gentes del reino nos ayudarán a conseguir nuestro objetivo.$B$BSi tienes los 60 retales de paño de lana y estás dispuesta a donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de lana (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7814": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como de los demás tejidos, están casi bajo mínimos. Tal y como está nuestro almacén, solo necesitamos que nos entregues 60 retales de seda pues con la ayuda de los demás lograríamos cumplir nuestro objetivo.$B$BUn regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad… Si tienes los 60 retales de paño de seda y estás dispuesto a donarlos, puedo aceptarlos ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7817": {
+   "name": "Un donativo de paño mágico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7818": {
+   "name": "Un donativo de paño rúnico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7819": {
+   "name": "Un donativo extra de paño rúnico",
+   "progress": "Saludos, una vez más, $N. Seguimos necesitando paño rúnico y aceptamos cualquier donativo, si es que deseas colaborar. Si me traes un nuevo donativo de 20 paños rúnico, me aseguraré de que Entrañas reconozca tus esfuerzos.$B$BCuando desees entregarme el donativo de paño rúnico, lo aceptaré.$BPaño rúnico (20)",
+   "completion": "$N, sin heroínas como tú trabajando para los Renegados, sufriríamos mucho. ¡Gracias por tus continuos esfuerzos!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7820": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos recogiendo donaciones de paño de lana. Una donación de 60 retales de paño de lana te hará ganar el reconocimiento de Cima del Trueno por tu generosidad. Tal y como está nuestro almacén, solo necesitamos que nos entregues 60 retales, pues las otras gentes del reino nos ayudarán a conseguir nuestro objetivo.$B$BSi tienes los 60 retales de paño de lana y estás dispuesto a donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de lana (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7821": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como de los demás tejidos, están casi bajo mínimos. Tal y como está nuestro almacén, solo necesitamos que nos entregues 60 retales de seda pues con la ayuda de los demás lograríamos cumplir nuestro objetivo.$B$BUn regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad… Si tienes los 60 retales de paño de seda y estás dispuesto a donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7822": {
+   "name": "Un donativo de paño mágico",
+   "fetched": "2026-10-04",
+   "v": 2
   }
  }
 }

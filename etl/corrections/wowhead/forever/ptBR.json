@@ -30099,6 +30099,120 @@
    "name": "Doação de magitrama",
    "fetched": "2026-10-03",
    "v": 2
+  },
+  "7805": {
+   "name": "Doação de runatrama",
+   "progress": "$N, você tem sido um grande doador em nossa campanha de arrecadação de tecidos. Mas, mesmo trabalhando duro para reabastecer os estoques, ainda há um tecido em falta: runatrama. Precisamos de runatrama com urgência e esperamos que você possa nos ajudar, como já ajudou no passado!$B$BCaso queira ajudar, traga-me todos os cortes de runatrama que puder doar. Nós pedimos uma doação inicial de sessenta cortes. A partir dessa quantidade, aceitamos outras doações.$BRunatrama (60)",
+   "completion": "Que ótimo! Esse tecido vai ser usado imediatamente, eu garanto a você. Muito obrigada mais uma vez pela ajuda! O que seria de nós sem você?$B$BJá que contribuiu tanto para a nossa campanha, não hesitarei em aceitar todas as doações de runatrama que você fizer no futuro. Só não se esqueça de falar comigo para que eu possa me certificar pessoalmente de que as suas ações recebam o devido reconhecimento!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7806": {
+   "name": "Runatrama nunca é demais",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7807": {
+   "name": "Doação de lã",
+   "progress": "Estamos aceitando doações de tecidos de lã. Os Exilados de Gnomeregan lhe serão muito gratos se você generosamente doar sessenta cortes de lã. Já conseguimos arrecadar alguma coisa, por isso só precisamos que você doe essa quantidade. O que faltar nós conseguiremos com outros doadores por todo o reino que também apoiam nossa campanha.$B$BCaso você tenha sessenta cortes de lã e queira doá-los, eu posso recebê-los agora.$BLã (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7808": {
+   "name": "Doação de seda",
+   "progress": "Nosso estoque de seda está em baixa, aliás, como o de quase todos os tecidos. Com a quantidade que temos hoje, precisaríamos receber apenas sessenta peças de você. Com a sua doação e a de outras pessoas, conseguiremos alcançar nossa meta.$B$BLembre-se que um presente generoso como esse certamente aumentará o seu prestígio com a comunidade! Caso você tenha sessenta cortes de seda e queira doá-los, eu posso recebê-los agora.$BSeda (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7809": {
+   "name": "Doação de magitrama",
+   "progress": "Estamos ficando sem magitrama, mas você pode nos ajudar a reabastecer o estoque! Contando com as doações de toda a comunidade, só precisaríamos receber de você 60 cortes de magitrama para atingir nossa meta. Tamanha generosidade será devidamente reconhecida pelos Exilados de Gnomeregan, isso eu posso garantir!$B$BCaso você tenha sessenta cortes de magitrama e queira doá-los, eu posso recebê-los agora.$BMagitrama (60)",
+   "completion": "Que maravilha! Agradecemos a generosa doação, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7810": {
+   "name": "Mestre da Arena",
+   "objectivesText": [
+    "Fale com João Tampinha Mithril na Arena da Selva do Espinhaço."
+   ],
+   "details": "Um mestre de arena deve precisar fazer mais do que isso... Talvez o pirata que coordena os eventos em Gurubashi saiba!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7811": {
+   "name": "Doação de runatrama",
+   "progress": "$N, você tem sido um grande doador em nossa campanha de arrecadação de tecidos. Mas, mesmo trabalhando duro para reabastecer os estoques, ainda há um tecido em falta: runatrama. Precisamos de runatrama com urgência e esperamos que você possa nos ajudar, como já ajudou no passado!$B$BCaso queira ajudar, traga-me todos os cortes de runatrama que puder doar. Nós pedimos uma doação inicial de sessenta cortes. A partir dessa quantidade, aceitamos outras doações.$BRunatrama (60)",
+   "completion": "Que ótimo! Esse tecido vai ser usado imediatamente, eu garanto a você. Muito obrigada mais uma vez pela ajuda! O que seria de nós sem você?$B$BJá que contribuiu tanto para a nossa campanha, não hesitarei em aceitar todas as doações de runatrama que você fizer no futuro. Só não se esqueça de falar comigo para que eu possa me certificar pessoalmente de que as suas ações recebam o devido reconhecimento!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7812": {
+   "name": "Runatrama nunca é demais",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7813": {
+   "name": "Uma doação de lã",
+   "progress": "Aceitamos doações de lã. A doação de sessenta peças de lã lhe renderá o reconhecimento da Cidade Baixa por seus atos generosos. Nossos estoques de lã estão quase completos; só precisamos de 60 peças suas. Com as doações dos outros moradores do reino conseguiremos suprir nossas necessidades.$B$BCaso você já tenha as sessenta peças e deseje doá-las agora, pode entregá-las a mim quando quiser.$BLã (60)",
+   "completion": "Esplêndido! Agradecemos sua generosa doação, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7814": {
+   "name": "Uma doação de seda",
+   "progress": "Nossos estoques de seda – assim como outros tecidos – estão sempre em baixa. Nossos estoques estão quase completos. Só precisamos de 60 peças de seda suas e, com as outras doações que recebemos, conseguiremos atingir nossa meta.$B$BLembrando que um presente como a seda certamente aumentará o seu prestígio na comunidade! Caso você já tenha as sessenta peças e deseje doá-las agora, pode entregá-las a mim quando quiser.$BSeda (60)",
+   "completion": "Esplêndido! Agradecemos sua generosa doação, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7815": {
+   "name": "Mordeliscas, cara!",
+   "objectivesText": [
+    "Katum, o Pesqueiro, quer que você mate 15 tartarugas Mordeliscas de Água Salgada. Fale novamente com ele na Aldeia Revatusco, que fica nas Terras Agrestes, quando concluir a tarefa."
+   ],
+   "details": "Não deixa os olhões delas te enganarem, cara! Essas mordeliscas de água salgada são um perigo. Não dá pra pescar nem cinco minutos sem aqueles devoradores de peixe tamanho família arrebentarem a linha pra pegar a isca.$B$BFaz um favor pra mim e pro povo da Aldeia Revatusco: mata elas, cara.$B$BMata todas elas!",
+   "completion": "Ah, cara! Não sei como agradecer! Espero que esta vara de pescar seja recompensa suficiente pela tarefa.",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7816": {
+   "name": "Gammerita, cara!",
+   "objectivesText": [
+    "Katum, o Pesqueiro, na Aldeia Revatusco, que fica nas Terras Agrestes, quer que você mate Gammerita e apanhe a Melhor Isca de Katum da carcaça.$B$BKatum mencionou que Gammerita circula pela costa com as outras tartarugas."
+   ],
+   "details": "Falaí! Tem uma tartaruga lá fora que dá de dez nas outras. É a Gammerita, chefona das mordeliscas de água salgada – uma baita duma sangue-frio gatuna e canalha à vera.$B$BCara, ela roubou as minhas iscas mais maneiras. Arrancou diretinho da linha! E desde que rolou isso os peixes não estão nem beliscando.$B$BEncontra essa cascuda pra mim e arranca a minha isca da barrigada dela!",
+   "progress": "Conseguiu pegar a isca?",
+   "completion": "Caraca! Isso é muito maneiro! Com essa isca irada e com menos mordeliscas de bobeira por aí, vai chover peixe na minha horta!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7817": {
+   "name": "Uma doação de magitrama",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7818": {
+   "name": "Uma doação de runatrama",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7819": {
+   "name": "Runatrama extra",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7820": {
+   "name": "Uma doação de lã",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7821": {
+   "name": "Uma doação de seda",
+   "fetched": "2026-10-04",
+   "v": 2
   }
  }
 }

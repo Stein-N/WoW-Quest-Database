@@ -1676,6 +1676,91 @@
    "completion": "¡Estupendo! ¡Gracias por tu generosa donación, $N!",
    "fetched": "2026-10-03",
    "v": 2
+  },
+  "7805": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has contribuido generosamente a nuestra campaña de abastecimiento de telas. Nosotros también estamos trabajando duro, pero aún tenemos escasez de paño rúnico. ¡Y lo necesitamos urgentemente! ¡Espero que puedas ayudarnos, tal y como has hecho otras veces!$B$BSi deseas ayudar, tráeme todo el paño rúnico que puedas reunir. Empezaremos por aceptar una única donación de 60 retales y luego ya iremos viendo.$BPaño rúnico (60)",
+   "completion": "Fantástico. Utilizaremos estos retales ahora mismo. ¡Gracias de nuevo por tu ayuda! Estaríamos perdidos sin ti.$B$BCon todas las donaciones que has hecho, puedo asegurarte que, si en el futuro deseas hacer más, las aceptaré gustosamente. Ven a hablar conmigo y me aseguraré personalmente de que tus buenas obras reciban su reconocimiento.",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7806": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7807": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos haciendo una colecta de paño de lana. Si nos das 60 piezas de paño de lana, ganarás el reconocimiento de los Exiliados de Gnomeregan por tu generosidad. Con 60 piezas por tu parte es suficiente; conseguiremos más por otros medios.$B$BSi tienes las 60 piezas de paño de lana y las quieres donar, puedo cogerlas ahora.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7808": {
+   "name": "Un donativo de seda",
+   "progress": "Nuestras reservas de seda, como las de los demás tejidos, están en su nivel mínimo. Si tú pudieras donarnos 60 paños de seda y consiguiéramos más de otras gentes, lograríamos cumplir nuestro objetivo.$B$BSi me permites, un regalo tan generoso como la seda aumentaría sin duda tu reputación en la comunidad... Si tienes los 60 paños de seda y quieres donarlos, puedo aceptar tu donativo ahora mismo.$BPaño de seda (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7809": {
+   "name": "Un donativo de tejido mágico",
+   "progress": "¡Nos estamos quedando sin tejido mágico! Si nos donaras 60 piezas de tejido mágico, tu generosidad te valdría la admiración de todos los Exiliados de Gnomeregan.$B$BSi tienes las 60 piezas de tejido mágico y las quieres donar, puedo cogerlas ahora.$BPaño de tejido mágico (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7811": {
+   "name": "Un donativo de paño rúnico",
+   "progress": "$N, has contribuido generosamente a nuestra campaña de abastecimiento de telas. Nosotros también estamos trabajando duro, pero aún tenemos escasez de paño rúnico. ¡Y lo necesitamos urgentemente! ¡Espero que puedas ayudarnos, tal y como has hecho otras veces!$B$BSi deseas ayudar, tráeme todo el paño rúnico que puedas reunir. Empezaremos por aceptar una única donación de 60 retales y luego ya iremos viendo.$BPaño rúnico (60)",
+   "completion": "Fantástico. Utilizaremos estos retales ahora mismo. ¡Gracias de nuevo por tu ayuda! Estaríamos perdidos sin ti.$B$BCon todas las donaciones que has hecho, puedo asegurarte que, si en el futuro deseas hacer más, las aceptaré gustosamente. Ven a hablar conmigo y me aseguraré personalmente de que tus buenas obras reciban su reconocimiento.",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7812": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7813": {
+   "name": "Un donativo de lana",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7814": {
+   "name": "Un donativo de seda",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7817": {
+   "name": "Un donativo de tejido mágico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7818": {
+   "name": "Un donativo de paño rúnico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7819": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7820": {
+   "name": "Un donativo de lana",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7821": {
+   "name": "Un donativo de seda",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7822": {
+   "name": "Un donativo de tejido mágico",
+   "fetched": "2026-10-04",
+   "v": 2
   }
  }
 }

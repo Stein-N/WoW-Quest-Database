@@ -2029,6 +2029,104 @@
    "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
    "fetched": "2026-10-03",
    "v": 2
+  },
+  "7806": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Ironforge erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für Ironforge einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7807": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung der Verbannten von Gnomeregan einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7808": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7809": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit bei den Verbannten von Gnomeregan nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7811": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7812": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber der Verbannten von Gnomeregan erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für uns Gnome einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7813": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Undercity einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7814": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7817": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Undercity nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7818": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7819": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Undercity erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für die Verlassenen einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7820": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Thunder Bluff einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7821": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
+  },
+  "7822": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Thunder Bluff nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-04",
+   "v": 2
   }
  }
 }
