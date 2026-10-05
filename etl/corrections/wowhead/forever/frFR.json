@@ -3131,6 +3131,474 @@
    "completion": "Vous faites une fois encore la preuve de votre honneur! Je veillerai à ce que vos exploits soient connus parmi les miens.$B$BSi vous trouvez d’autres perles Tombe-hiver, n’oubliez pas de me les ramener. À chaque fois que vous m’en procurerez une série, je parlerai de vous à la tribu.",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8508": {
+   "name": "La liste des affectations",
+   "progress": "Je suppose que vous voulez que ces papiers soient signés, jeune homme ?$BOrdre de mission préparé (1)",
+   "completion": "Oui, je suppose que de nos jours, cette petite escarmouche peut passer pour une véritable opération de guerre. Rapportez ces papiers au Fort cénarien. Je suis certain qu’ils auront une mission pépère à vous confier.$B$BAllez, au boulot !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8546": {
+   "name": "La Horde a besoin de plus de barres de mithril !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8550": {
+   "name": "La Horde a besoin de plus de pacifique !",
+   "progress": "Bonjour à nouveau, $N. Je suis contente que vous souhaitiez me parler une nouvelle fois de nos besoins incessants en pacifique. L’effort de guerre continue, et avec lui notre production de potions et d’élixirs pour les batailles à venir.$B$BVoulez-vous nous aider encore, $C ? J’ai besoin d’autant de pacifique que la première fois, et si vous pouvez en récolter et me la rapporter ici, je vous en serai très reconnaissante. Bien sûr, si vous l’avez déjà sur vous, je serai plus qu’heureuse de l’accepter.$BPacifique (20)",
+   "completion": "Merci de ces nouveaux efforts, $N. Ces dons généreux vous font honneur, à vous et à vos ancêtres, et ils seront connus de tous ! Je vais préparer ces herbes de manière à ce qu’elles restent fraîches jusqu’à ce que nous en ayons besoin. Une fois de plus, vous avez fait preuve du véritable esprit de la Horde, mariant la lutte pour triompher et le travail en commun pour y parvenir.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8555": {
+   "name": "Le fardeau des Vols draconiques",
+   "completion": "Eranikus, Vaelastrasz, et Azuregos... Vous avez certainement entendu parler de ces dragons, mortel. Ce n’est pas une simple coïncidence si chacun d’eux a joué un grand rôle comme gardien de ce monde.$B$BMalheureusement, et ma propre naïveté en est en partie responsable, ces gardiens ont tous succombé à de terribles tragédies, si terribles qu’elles ont alimenté ma méfiance à l’égard de votre espèce.$B$BCherchez-les… Et préparez-vous au pire, $R.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8565": {
+   "name": "Victoires passées en Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8566": {
+   "name": "Victoires passées en Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8567": {
+   "name": "Victoires passées dans le goulet des Warsong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8568": {
+   "name": "Victoires passées dans le goulet des Warsong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8569": {
+   "name": "Efforts passés dans le goulet des Warsong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8570": {
+   "name": "Efforts passés dans le goulet des Warsong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8576": {
+   "name": "La traduction du grand livre",
+   "completion": "Chaque chose en son temps, $N ! Nous devons d’abord comprendre ce qu’Azuregos a écrit dans ce livre.$B$BVous soutenez qu’il vous a dit de fabriquer une bouée d’arcanite, et que ceci est le schéma qui permet de la faire ? C’est étrange qu’il l’ait écrit en draconique. Ce vieux bouc sait parfaitement que je ne sais pas lire ce charabia.$B$BSi on veut que cela marche, je vais avoir besoin de mes lunettes de divination, d’un poulet de cinq cents livres et du volume II du « Draconique pour les nuls ». Pas forcément dans cet ordre.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8579": {
+   "name": "Champions mortels",
+   "progress": "Nous sentons la présence de nos frères asservis loin dans les profondeurs d’Ahn’Qiraj, mais une armée de dragons ne suffirait pas à les sauver, $R.$B$BSi nous nous rapprochons d’eux, le sort qui les lie nous jetterait également dans les griffes de C’Thun.$B$BLe Dieu très ancien a prévu notre venue. Tout espoir est perdu. Qu'est-ce qu'un simple mortel comme vous pourrait bien y changer ?$BInsigne de seigneur qiraji (1)",
+   "completion": "Je vois que vous n’êtes pas un mortel ordinaire, $N. Vous avez une chance de triompher du Dieu très ancien. Elle est infime, soit, mais pour l’heure, elle est meilleure que les nôtres. Il s’attend à voir arriver des dragons. Il ne vous attend pas.$B$BIl y a mille ans, Nozdormu et Staghelm ont vaincu les Qiraji grâce à une alliance entre les dragons et les peuples mortels. Nous allons passer un pacte similaire. Gagnez la confiance du Vol de bronze et vous gagnerez notre confiance. Alors, nous ferons de vous un véritable champion.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8595": {
+   "name": "Champions mortels",
+   "progress": "Tuer un seigneur qiraji représente un succès notable pour un mortel, $N. Hélas, ils sont nombreux et puissants. Continuez à les vaincre pour prouver votre valeur en tant que champion.$BInsigne de seigneur qiraji (1)",
+   "completion": "Vous continuez à bien nous servir, $N. Notre pacte est maintenu.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8612": {
+   "name": "La Horde a besoin de plus de steaks de loup !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8614": {
+   "name": "La Horde a besoin de plus de jaunes-queues tachetés !",
+   "progress": "Comme vous voyez, y nous faut encore plein de poiscaille. Les gars qui s’battront à Ahn’Qiraj, il va leur falloir beaucoup à manger, alors faut qu’j’aie tous les jaunes-queues tachetés que j’peux. Vous les prenez, vous les cuisez, vous m’les ram’nez, et moi, j’vous dis « merci », pour moi et pour la Horde.$BJaune-queue tacheté (20)",
+   "completion": "Vos plus belles prises, $N ! Du bon, du beau boulot, pour sûr. Et pas d’arêtes, en plus. Merci d’avoir pris la peine de pêcher tous ces jaunes-queues tachetés, ma grande. Si vous en cuisez d’autres, revenez m’voir !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8616": {
+   "name": "La Horde a besoin de plus de pains de saumon !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8619": {
+   "name": "L'Ancien Morndeep",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8635": {
+   "name": "L'Ancien Splitrock",
+   "completion": "Les batailles des âges anciens sont les graines des légendes du présent. Vous vivez en un temps de héros, mon enfant. Puisse votre légende s’enraciner et prospérer !$B$BJe vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8636": {
+   "name": "L'Ancien Rumblerock",
+   "completion": "La substance de la vie est condamnée à mourir et à retourner à la terre, mais la substance de l’esprit est éternelle. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime….",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8642": {
+   "name": "L'Ancien Silvervein",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8643": {
+   "name": "L'Ancien Highpeak",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8644": {
+   "name": "L'Ancien Stonefort",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8645": {
+   "name": "L'Ancien Obsidian",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8646": {
+   "name": "L'Ancien Hammershout",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8647": {
+   "name": "L'Ancien Bellowrage",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8648": {
+   "name": "L'Ancien Darkcore",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8649": {
+   "name": "L'Ancien Stormbrow",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8650": {
+   "name": "L'Ancien Snowcrown",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8651": {
+   "name": "L'Ancien Ironband",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8652": {
+   "name": "L'Ancien Graveborn",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8653": {
+   "name": "L'Ancien Goldwell",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8654": {
+   "name": "L'Ancien Primestone",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8670": {
+   "name": "L'Ancienne Runetotem",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8671": {
+   "name": "L'Ancienne Ragetotem",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8672": {
+   "name": "L'Ancien Stonespire",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8673": {
+   "name": "L'Ancien Bloodhoof",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8674": {
+   "name": "L'Ancien Winterhoof",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8675": {
+   "name": "L'Ancienne Skychaser",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8676": {
+   "name": "L'Ancienne Wildmane",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8677": {
+   "name": "L'Ancienne Darkhorn",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8678": {
+   "name": "L'Ancien Proudhorn",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8679": {
+   "name": "L'Ancien Totem sinistre",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8680": {
+   "name": "L'Ancienne Windtotem",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8681": {
+   "name": "L'Ancien Thunderhorn",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8682": {
+   "name": "L'Ancien Skyseer",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8683": {
+   "name": "L'Ancienne Dawnstrider",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8684": {
+   "name": "L'Ancien Dreamseer",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8685": {
+   "name": "L'Ancienne Mistwalker",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8686": {
+   "name": "L'Ancien High Mountain",
+   "completion": "La vie brûle en vous, jeune $C. J’accepte votre hommage, et je vous offre ce gage de mon estime…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8688": {
+   "name": "L'Ancien Windrun",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8713": {
+   "name": "L'Ancienne Starsong",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8714": {
+   "name": "L'Ancienne Moonstrike",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8715": {
+   "name": "L'Ancien Bladeleaf",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8716": {
+   "name": "L'Ancien Starglade",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8717": {
+   "name": "L'Ancien Moonwarden",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8718": {
+   "name": "L'Ancien Bladeswift",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8719": {
+   "name": "L'Ancienne Bladesing",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8720": {
+   "name": "L'Ancien Skygleam",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8721": {
+   "name": "L'Ancienne Starweave",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8722": {
+   "name": "L'Ancienne Meadowrun",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8723": {
+   "name": "L'Ancien Nightwind",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8724": {
+   "name": "L'Ancienne Morningdew",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8725": {
+   "name": "L'Ancienne Riversong",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8726": {
+   "name": "L'Ancienne Brightspear",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8727": {
+   "name": "L'Ancien Farwhisper",
+   "completion": "Chacune des innombrables étoiles qui brillent dans les cieux renferme la réponse à un mystère terrestre, $N. Puissent les sages – et les chanceux – les contempler et découvrir la vérité.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8732": {
+   "name": "La liste des affectations",
+   "progress": "Une liste d’affectations ? Qu’est-ce que c’est que cette bêtise, $N ?$BOrdre de mission préparé (1)",
+   "completion": "Dans l’ancien temps, je vous aurais marqué le front avec le sang de nos ennemis vaincus pour symboliser vos exploits. Thrall insiste pour que nous accédions aux demandes des druides.$B$BRetournez au Fort cénarien. Ils auront certainement une tâche à vous confier.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8742": {
+   "name": "La puissance de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8743": {
+   "name": "Faites résonner le gong !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8744": {
+   "name": "Un cadeau soigneusement emballé",
+   "completion": "Une petite carte sur ce cadeau dit :$B$BPour $N$B$BPuissiez-vous passer une joyeuse fête de Grand-Hiver !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8745": {
+   "name": "Le trésor de l'Intemporel",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8747": {
+   "name": "La voie du Protecteur",
+   "completion": "Impressionnant, petit. Vous n’avez épargné aucun effort pour gagner les faveurs du Vol de bronze. Votre dévouement a été noté.$B$BLa chevalière du défenseur vous protègera des forces du mal.$B$BMais attention, une fois que vous aurez choisi votre voie, vous ne pourrez plus revenir en arrière, même si vous changez d’avis.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8748": {
+   "name": "La voie du Protecteur",
+   "progress": "Votre persévérance dans la défense des enfants de Kalimdor a été reconnue. Donnez-moi votre chevalière, que j’augmente ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du protecteur !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8749": {
+   "name": "La voie du Protecteur",
+   "progress": "Vous nous faites honneur, $N. Terrassez les ennemis de Kalimdor ! Montrez-leur que l’on ne profane pas impunément la terre des étoiles éternelles !$B$BVous méritez une nouvelle amélioration. Donnez-moi votre chevalière, que j’accroisse ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du protecteur !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8750": {
+   "name": "La voie du Protecteur",
+   "progress": "Une telle dévotion à une cause est une rareté. Vous fait preuve d’une volonté de fer, $N. Vous veillez sur notre monde sans trêve ni répit. Il est temps de vous récompenser.$B$BDonnez-moi votre chevalière, afin que je renforce l’enchantement qu’elle contient.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du protecteur !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8751": {
+   "name": "Le Protecteur de Kalimdor",
+   "progress": "Je n’ai jamais vu une telle ténacité ! À la demande expresse de l’Intemporel, le Vol de bronze vous accorde un nouvel enchantement !$B$BDonnez-moi votre chevalière, que je procède aux ajustements nécessaires.$BChevalière du Vol de bronze (1)",
+   "completion": "Levez-vous, Protecteur de Kalimdor ! Levez-vous et que tous reconnaissent votre valeur !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8752": {
+   "name": "La voie du Conquérant",
+   "completion": "Impressionnant, petit. Vous n’avez épargné aucun effort pour gagner les faveurs du Vol de bronze. Votre dévouement a été noté.$B$BLa chevalière du conquérant rendra vos attaques physiques beaucoup plus meurtrières.$B$BMais attention, une fois que vous aurez choisi votre voie, vous ne pourrez plus revenir en arrière, même si vous changez d’avis.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8753": {
+   "name": "La voie du Conquérant",
+   "progress": "Votre persévérance dans la défense des enfants de Kalimdor a été reconnue. Donnez-moi votre chevalière, que j’augmente ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du conquérant !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8754": {
+   "name": "La voie du Conquérant",
+   "progress": "Vous nous faites honneur, $N. Terrassez les ennemis de Kalimdor ! Montrez-leur que l’on ne profane pas impunément la terre des étoiles éternelles !$B$BVous méritez une nouvelle amélioration. Donnez-moi votre chevalière, que j’accroisse ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du conquérant !",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }

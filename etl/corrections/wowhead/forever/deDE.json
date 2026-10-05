@@ -3392,6 +3392,536 @@
    "completion": "Wieder einmal habt Ihr Eure Ehre bewiesen! Ich werde dafür Sorgen, dass alle Furbolgs der Holzschlundfeste von Euren Taten erfahren.$B$BVergesst nicht, mir alle Geisterperlen der Winterfellfurbolgs zu bringen, die Ihr findet. Jedes Mal wenn Ihr mir neue Perlen bringt, werde ich mich in unserem Stamm für Euch einsetzen.",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8508": {
+   "name": "Felddienstpapiere",
+   "progress": "Ihr wollt diese Papiere also unterzeichnet bekommen, Junge?$BVorbereitete Felddienstpapiere (1)",
+   "completion": "Nun ja, ich vermute dieses Gerangel geht heutzutage als Felddienst durch. Bringt dies zurück nach Burg Cenarius, ich bin mir sicher, dass sie bereits einen angenehmen Auftrag für Euch haben.$B$BFort mit Euch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8546": {
+   "name": "Die Horde braucht mehr Mithrilbarren!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8550": {
+   "name": "Die Horde braucht mehr Friedensblumen!",
+   "progress": "Hallo $N. Ich bin froh, dass Ihr noch einmal wegen unserer niemals enden wollenden Sammelaktion für Friedensblumen nachfragt. Die Kriegsvorbereitungen gehen weiter und damit auch die Herstellung von Tränken und Elixiren, die in den kommenden Kämpfen helfen sollen.$B$BWerdet Ihr uns wieder unterstützen, $C? Ich benötige noch einmal genauso viele Friedensblumen wie zuvor. Wenn Ihr also ein weiteres Mal diese Pflanzen sammeln und anschließend zu mir zurückbringen könntet, wäre ich Euch äußerst dankbar. Solltet Ihr bereits welche bei Euch haben, umso besser.$BFriedensblume (20)",
+   "completion": "Danke für Eure wiederholte Hilfe, $N. Mit diesen selbstlosen Taten ehrt Ihr Euch und Eure Ahnen sehr und alle werden davon erfahren! Ich werde diese Pflanzen einlagern, so dass sie bis zu ihrem Gebrauch frisch bleiben. Ihr habt erneut gezeigt, dass Ihr den Idealen der Horde folgt, nämlich mit aller Kraft Hürden zu überwinden und das Versprechen zu halten dafür zusammenzuarbeiten.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8555": {
+   "name": "Der Bund der Drachenschwärme",
+   "completion": "Eranikus, Vaelastrasz und Azuregos... zweifellos kennt Ihr diese Drachen, Sterblicher. Es ist daher auch kein Zufall, dass sie eine so wichtige Rolle als Behüter unserer Welt gespielt haben.$B$BUnglücklicherweise (und zum Teil ist auch meine eigene Naivität daran schuld) fiel jeder Wächter, sei es durch Beauftragte der alten Götter oder Verrat derer, die sie ihre Freunde nannten, der Tragödie zum Opfer. Das Ausmaß dessen, schürte mein Misstrauen zu Euereins noch mehr an.$B$BSucht nach ihnen... und $R, bereitet Euch auf das Schlimmste vor.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8565": {
+   "name": "Vergangene Siege im Arathibecken",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8566": {
+   "name": "Vergangene Siege im Arathibecken",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8567": {
+   "name": "Vergangene Siege in der Warsongschlucht",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8568": {
+   "name": "Vergangene Siege in der Warsongschlucht",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8569": {
+   "name": "Vergangene Bemühungen in der Warsongschlucht",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8570": {
+   "name": "Vergangene Bemühungen in der Warsongschlucht",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8576": {
+   "name": "Übersetzung des Buchs",
+   "completion": "Eins nach dem anderen, $N! Wir müssen herausfinden was Azuregos in dieses Buch geschrieben hat.$B$BEr hat Euch also gesagt, dass Ihr eine Arkanitboje herstellen sollt und dass dies hier der Bauplan dafür ist? Komisch, dass er das in Drachisch schreiben würde. Der alte Fuchs weiß doch, dass ich diesen Quatsch nicht lesen kann.$B$BWenn das klappen soll, dann werde ich meine Wahrsagebrille, ein 500 Pfund-Hühnchen und Band 2 von \"Drachisch für Dummies\" benötigen. Nicht unbedingt in dieser Reihenfolge.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8579": {
+   "name": "Sterbliche Helden",
+   "progress": "Wir spüren die Anwesenheit unserer versklavten Brüder tief im Innern von Ahn'Qiraj; dennoch wäre selbst eine Armee von Drachen nicht genug, um sie zu befreien, $R.$B$BDer gleiche Zauber, der sie gefangen hält, würde uns der Gewalt C'Thuns unterwerfen, sobald wir ihm näher kämen.$B$BDer alte Gott hat unser Kommen vorhergesehen. All unsere Hoffnung ist dahin. Was könnte ein bloßer Sterblicher wie Ihr daran wohl ändern?$BInsignien des Qirajilords (1)",
+   "completion": "Ihr werdet den Qiraji innerhalb der Behausung des alten Gottes entgegentreten? Ist das eine Art von Galgenhumor, dessen ich mir nicht bewusst bin?$B$BIch kann sehen, dass Ihr es ernst meint, $N. Also bitte. Eure Chancen, auch wenn sie noch so gering sein mögen, sind momentan dennoch größer als unsere.$B$BGenau wie Nozdormu und Staghelm die Qiraji vor tausend Jahren dank des Bündnisses zwischen den Sterblichen und der Drachen besiegt haben, so sollen auch wir uns zusammenschließen. Gewinnt das Vertrauen des bronzenen Drachenschwarms und somit das unsere. Nur so können wir einen wahren Helden aus Euch machen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8581": {
+   "name": "Die Horde braucht mehr Feuerblüten!",
+   "progress": "Pele'keiki weiß, dass Ihr gekommen seid, um zu helfen. Bringt viele Feuerblüten und macht ihn damit sehr glücklich. Pele'keiki kann aus Feuerblüten große Bomben machen. Er wird sie auf Insekten von seiner Fledermaus aus abwerfen, wenn der Krieg in Ahn'Qiraj anbricht. Pele'keiki braucht aber noch mehr dieser Pflanzen, $C!$B$BBringt Pele'keiki die Feuerblüten jetzt ganz schnell. Kommt mit mindestens so vielen wie letztes Mal zurück und Pele'keiki wird zufrieden sein.$BFeuerblüte (20)",
+   "completion": "Kein Scherz, $C? Ihr bringt Pele'keiki so schnell Feuerblüten? Pele'keiki wird sie direkt zählen! Ihr macht Pele'keiki sehr glücklich und er wird jedem erzählen, was für ein fantastischer Feuerblütensammler $N ist. Pele'keiki kann es kaum erwarten, dass der Krieg beginnt. Wir werden den Himmel über Silithus erhellen, richtig, $N?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8583": {
+   "name": "Die Horde braucht mehr lila Lotus!",
+   "progress": "Wie es aussieht, brauchen wir noch mehr lila Lotus, $C. Während meine eigenen Studien erst einen neuen nützlichen Verwendungszweck für diese Pflanze nachweisen müssen, gibt es bereits bekannte und bewährte Methoden, die angewendet werden können.$B$BIhr müsst noch einmal für mich losziehen und mindestens zwanzig lila Lotus sammeln. Bringt sie dann hierher zu mir.$BLila Lotus (20)",
+   "completion": "Eine hervorragende und präzise Arbeit, $N. Euer Fleiß und Eure Schnelligkeit sind beispiellos. Ich werde dafür sorgen, dass nicht eine der lila Lotuspflanzen verloren geht.$B$BIch danke Euch. Solltet Ihr noch mehr lila Lotus auftreiben können, zögert nicht lange und bringt ihn mir vorbei.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8589": {
+   "name": "Die Horde braucht mehr schweres Leder!",
+   "progress": "Es ist wahr, $C, ich benötige noch mehr schweres Leder. Die Nachfrage von den Generalen und ihren Rüstmeistern scheint endlos zu sein - und das ist noch gar nichts im Vergleich zu dem, was die Zeppelinmeister verlangen!$B$BDie Sammelaktion muss jetzt doppelt so schnell vorangehen. $N, bringt mir, so bald Ihr könnt, noch mehr Stapel schweren Leders!$BSchweres Leder (10)",
+   "completion": "Fantastisch! Vielen Dank für das ganze schwere Leder. Jede Spende bringt uns einen Schritt nach vorn. Ich werde Eure Ladung eben einlagern, damit unsere Lederer alles weiterverarbeiten können.$B$BNochmals danke, $N! Wenn Ihr noch mehr schweres Leder auftreibt, wisst Ihr ja, wo Ihr mich finden könnt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8591": {
+   "name": "Die Horde braucht mehr dickes Leder!",
+   "progress": "$C, wie Ihr sehen könnt, brauche ich noch mehr dickes Leder. Noch einmal möchte ich Euch um Eure Hilfe bitten. Ich verspreche Euch, dass Ihr bei Erfüllung Eurer Aufgabe große Anerkennung finden werdet.$B$BDie Zeit ist ausschlaggebend! Kehrt mit dem dicken Leder zu mir zurück, damit wir unsere Vorbereitungen abschließen und in den Krieg ziehen können, Held!$BDickes Leder (10)",
+   "completion": "Ihr habt es wieder einmal geschafft, $N! Wieder einmal muß ich Euch im Namen der ganzen Horde danken. Eure Anstrengungen wurden wohlwollend zur Kenntnis genommen. Wenn Ihr auf Euren Reisen noch weitere Ladungen an dickem Leder auftreiben könnt, zögert nicht lange und bringt es zu mir!$B$BLok'tar Ogar, $C!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8595": {
+   "name": "Sterbliche Helden",
+   "progress": "Einen Qirajilord zu töten ist eine bemerkenswerte Tat für einen Sterblichen, $N. Allerdings sind sie zahlreich und mächtig. Bezwingt sie auch weiterhin und erweist Euch als unser Held.$BInsignien des Qirajilords (1)",
+   "completion": "Ihr dient uns auch weiterhin tapfer, $N. Unser Bündnis bleibt bestehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8601": {
+   "name": "Die Horde braucht mehr unverwüstliches Leder!",
+   "progress": "Die Vorbereitungen für den bevorstehenden Krieg in Ahn'Qiraj machen Fortschritte, $C. Um sicher zu gehen, dass wir nicht hinterherhängen oder dass es dann zumindest nicht an mir liegt, möchte ich Euch um eine weitere Ladung unverwüstliches Leder bitten. Ein schnelles Handeln Eurerseits wird hoch geschätzt werden, $N.$BUnverwüstliches Leder (10)",
+   "completion": "Übung, Übung, Übung. Ein fein geschliffenes Messer und die richtige Anwendung dessen wird Euch in dieser Welt weit bringen, $N. Es sieht aus, als ob die Ränder dieser Häute diesmal feiner wären als das letzte Mal. Habt Ihr Euch ein neues Messer geleistet?$B$BWie dem auch sei, wir danken Euch für Eure Mühen. Eure Spende wurde registriert und wir werden dafür sorgen, dass sie eine gute Verwendung findet. Solltet Ihr im Besitz von weiterem unverwüstlichen Leder sein, dann kommt bitte hierher zurück und sprecht mit mir. Ich werde es höchstwahrscheinlich brauchen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8605": {
+   "name": "Die Horde braucht mehr Wollverbände!",
+   "progress": "Schön Euch wiederzusehen, $C. Wir arbeiten hier noch immer an den Kriegsvorbereitungen und ich kann auch weiterhin all die Hilfe gebrauchen, die Ihr mir hinsichtlich der Sammlung von Wollverbänden geben könnt. Jegliche Unterstützung wird hoch geschätzt werden. Ich hoffe nur, dass unsere Bemühungen ausreichen. Ich habe schon zu viele ehrenhafte Seelen auf den Schlachtfeldern verloren und werde sehen, was ich tun kann, um so etwas noch einmal zu verhindern.$BWollverband (20)",
+   "completion": "Ihr seid ein ehrenhafter $C, $N! Ich werde dafür sorgen, dass Eure Spende an die richtige Stelle weitergeleitet wird. Ihr habt meinen Dank und den der Horde.$B$BGeht in Frieden und kehrt zu mir zurück, falls Ihr wieder einige Wollverbände für uns übrig habt. Wir können hier jede Hilfe gebrauchen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8608": {
+   "name": "Die Horde braucht mehr Magiestoffverbände!",
+   "progress": "Ihr seid wieder da? Interessant. Wie Ihr sehen könnt, sammle ich noch immer für die Kriegsvorbereitungen von Ahn'Qiraj. Das bedeutet, dass ich Euch noch einmal brauchen werde, um einen weiteren Haufen Magiestoffverbände für mich zu beschaffen. Ich bin schon auf Eure Rückkehr gespannt, $C.$BMagiestoffverband (20)",
+   "completion": "Erstaunlich, $C, Ihr habt es mal wieder geschafft! Nun ja, man sagt, ich hätte ein gutes Händchen, immer die tüchtigsten Männer und Frauen für eine Aufgabe auszuwählen. Wie auch immer, Eure Spende wurde zur Kenntnis genommen und Eure Mühen werden sich noch bezahlt machen. Ich würde vorschlagen, dass Ihr noch einmal loszieht und weitere Magiestoffverbände besorgt, sofern Ihr Euren Wert tatsächlich beweisen wollt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8610": {
+   "name": "Die Horde braucht mehr Runenstoffverbände!",
+   "progress": "Der Moment, in dem wir uns in die Wogen des Krieges von Ahn'Qiraj stürzen werden, rückt immer näher, $C. Jedoch sollten wir unsere Kräfte vorerst dazu nutzen, um uns vorzubereiten, damit wir den Angriff auf die Insekten und ihre Meister überleben können.$B$BDa Ihr wieder hier seid, bedeutet das bestimmt, dass Ihr uns mit einer weiteren Ladung an Runenstoffverbänden aushelfen wollt. Bitte macht das so bald wie möglich und kehrt dann noch einmal zu mir zurück.$BRunenstoffverband (20)",
+   "completion": "Wie bereitwillig Ihr uns unterstützt, das ist wahrlich selbstlos von Euch, $N! Diese Großzügigkeit wird sicherlich das Leben vieler Kombattanten in Ahn'Qiraj retten. Vielen Dank, und seid Euch sicher, dass die gesamte Horde Eure Spende zu schätzen weiß. Solltet Ihr noch mehr Runenstoffverbände herstellen oder ausfindig machen, so kommt doch bitte nochmal vorbei.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8612": {
+   "name": "Die Horde braucht mehr magere Wolfsteaks!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8614": {
+   "name": "Die Horde braucht mehr Tüpfelgelbschwänze!",
+   "progress": "Ja, in der Tat, wir brauchen hier noch mehr Fisch. Unsere Kämpfer werden in Ahn'Qiraj eine Menge an Essen brauchen. Ich benötige daher alle Tüpfelgelbschwänze, die ich bekommen kann. Fangt sie, kocht sie und bringt sie dann zu mir. Ich werde Euch dafür in meinem und im Namen der Horde danken.$BTüpfelgelbschwanz (20)",
+   "completion": "Das ist der bisher beste Fang, $N! Da habt Ihr gute Arbeit geleistet. Ihr habt sogar alle Gräten entfernt! Vielen Dank für diese Tüpfelgelbschwänze, verehrter Freund. Kommt wieder, wenn Ihr mal wieder einige Fische gekocht habt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8616": {
+   "name": "Die Horde braucht mehr gebackenen Lachs!",
+   "progress": "Die letzte Ladung gebackener Lachs, die Ihr mir gebracht habt, sah sehr lecker aus, $C. Ich muss zugeben, dass ich sehr versucht war, einige für mich selbst beiseite zu legen. Bis jetzt haben wir unser Soll allerdings noch nicht erreicht. Ich hoffe Ihr seid wieder da, weil Ihr mehr gebackenen Lachs dabei habt.$BGebackener Lachs (20)",
+   "completion": "Ihr habt soviel Zeit und Energie in die Kriegsvorbereitungen gesteckt, wie kein Zweiter, $N! Ich kann Euch versichern, dass Eure Mühen an den richtigen Stellen zur Kenntnis genommen wurden. Ihr habt meinen Dank und den der Horde. Ich hoffe Ihr kehrt zu mir zurück, wenn Ihr mehr gebackenen Lachs dabei habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8619": {
+   "name": "Urahne Morndeep",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8635": {
+   "name": "Urahne Splitrock",
+   "completion": "Die Kämpfe vergangener Zeiten sind die Saat aus der Legenden entstehen. Eure Zeit ist die der Helden, mein Kind. Möge Eure Legende Wurzeln fassen und gedeihen.$B$BIch wünsche Euch viel Glück, $N, und bitte, nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8636": {
+   "name": "Urahne Rumblerock",
+   "completion": "Die Dinge des Lebens sind zum Sterben verdammt und kehren zur Erde zurück. Das Geistliche lebt jedoch für immer weiter. Ich wünsche Euch viel Glück, $N, und bitte, nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8642": {
+   "name": "Urahne Silvervein",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8643": {
+   "name": "Urahne Highpeak",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8644": {
+   "name": "Urahne Stonefort",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8645": {
+   "name": "Urahne Obsidian",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8646": {
+   "name": "Urahne Hammershout",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8647": {
+   "name": "Urahne Bellowrage",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8648": {
+   "name": "Urahne Darkcore",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8649": {
+   "name": "Urahne Stormbrow",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8650": {
+   "name": "Urahne Snowcrown",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8651": {
+   "name": "Urahne Ironband",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8652": {
+   "name": "Urahne Graveborn",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8653": {
+   "name": "Urahne Goldwell",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8654": {
+   "name": "Urahne Primestone",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8670": {
+   "name": "Urahnin Runetotem",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8671": {
+   "name": "Urahnin Ragetotem",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8672": {
+   "name": "Urahne Stonespire",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8673": {
+   "name": "Urahne Bloodhoof",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8674": {
+   "name": "Urahne Winterhoof",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8675": {
+   "name": "Urahnin Skychaser",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8676": {
+   "name": "Urahnin Wildmane",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8677": {
+   "name": "Urahnin Darkhorn",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8678": {
+   "name": "Urahne Proudhorn",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8679": {
+   "name": "Urahne Grimmtotem",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8680": {
+   "name": "Urahnin Windtotem",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8681": {
+   "name": "Urahne Thunderhorn",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8682": {
+   "name": "Urahne Skyseer",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8683": {
+   "name": "Urahnin Dawnstrider",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8684": {
+   "name": "Urahne Dreamseer",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8685": {
+   "name": "Urahnin Mistwalker",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8686": {
+   "name": "Urahne High Mountain",
+   "completion": "Ich spüre das Feuer des Lebens in Euch, $C. Ich akzeptiere Eure Ehrerbietung! Nehmt dies als Zeichen meiner Dankbarkeit...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8688": {
+   "name": "Urahne Windrun",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8713": {
+   "name": "Urahnin Starsong",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8714": {
+   "name": "Urahnin Moonstrike",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8715": {
+   "name": "Urahne Bladeleaf",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8716": {
+   "name": "Urahne Starglade",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8717": {
+   "name": "Urahne Moonwarden",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8718": {
+   "name": "Urahne Bladeswift",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8719": {
+   "name": "Urahnin Bladesing",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8720": {
+   "name": "Urahne Skygleam",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8721": {
+   "name": "Urahnin Starweave",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8722": {
+   "name": "Urahnin Meadowrun",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8723": {
+   "name": "Urahne Nightwind",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8724": {
+   "name": "Urahnin Morningdew",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8725": {
+   "name": "Urahnin Riversong",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8726": {
+   "name": "Urahnin Brightspear",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8727": {
+   "name": "Urahne Farwhisper",
+   "completion": "Der Himmel, mit seinen unzähligen Sternen, bietet die Antworten auf alle irdenen Fragen, $N. Mag es sein, dass wenn der Weise und Glückliche zu ihnen aufblickt, er die tiefere Wahrheit findet?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8732": {
+   "name": "Felddienstpapiere",
+   "progress": "Felddienstpapiere? Was für ein Schwachsinn ist das, $N?$BVorbereitete Felddienstpapiere (1)",
+   "completion": "Früher hätte ich Eure Stirn mit dem Blut unserer gefallenen Feinde gezeichnet, um Eure Taten kenntlich zu machen. Thrall besteht darauf, dass wir den Anliegen der Druiden nachkommen.$B$BHier, nehmt diese Papiere und geht zurück nach Burg Cenarius. Ich bin mir sicher, dass sie dort passende Aufgaben für Euch haben werden.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8742": {
+   "name": "Die Macht von Kalimdor",
+   "completion": "Eintausend Jahre sind vergangen und wie es vorausgesagt wurde, steht die Eine nun vor mir. die Auserwählte, welche Ihr Volk in ein neues Zeitalter führen wird. Spürt Ihr es? Der alte Gott erzittert, $N! Oh ja, er fürchtet Eure Bestimmung. Zerschlagt die Prophezeiung von C'thun!$B$BEr weiß, dass Ihr zu ihm kommen werdet - und mit Euch kommt die Macht von Kalimdor. Lasst es mich wissen, wenn Ihr bereit seid und ich werde Euch das Szepter der Sandstürme anvertrauen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8743": {
+   "name": "Schlagt den Gong!",
+   "progress": "Die Oberfläche des Skarabäusgongs spiegelt bedrohlich das Licht der sengenden Sonne Silithus' wieder. Stählt Euch für das Kommende, denn wurde der Gong erst einmal geschlagen, werden sich die Tore nach Ahn'Qiraj öffnen. Dann wird es kein Zurück mehr geben$B$BIm züngelnden Antlitz der Bestie lauert nur Chaos und Zerstörung. Verteidigt Euer Volk!$BDas Szepter der Sandstürme (1)",
+   "completion": "Aus dem Erdreich vor dem Gong gräbt sich ein besonderer Kristall an die Oberfläche empor. Möglicherweise ein Geschenk der Brut.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8744": {
+   "name": "Ein sorgfältig verpacktes Geschenk",
+   "completion": "Auf dem Kärtchen and diesem Geschenk steht:$B$BAn $N,$B$Bmöge Euer Winterfest fröhlich und heiter verlaufen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8745": {
+   "name": "Der Schatz des Zeitlosen",
+   "completion": "Seig gegrüßt, großer Held! Ich bin Jonathan, der Bewahrer des heiligen Gongs und ewige Wächter des bronzenen Drachenschwarms.$B$BDer Zeitlose hat mich dazu ermächtigt, Euch aus seinem Schatz einen Gegenstand Eurer Wahl zu gewähren. Möge er Euren Kampf gegen C'Thun erleichtern.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8747": {
+   "name": "Der Pfad des Beschützers",
+   "completion": "Beeindruckend, kleine Kreatur. Ihr habt eine Menge durchgemacht, um das Vertrauen des bronzenen Drachenschwarms zu erwerben. Eure Hingabe und Selbstaufopferung wurde zur Kenntnis genommen.$B$BDer Siegelring des Beschützers birgt enorme Kräfte in sich, die Euch gegen die Mächte des Bösen helfen werden. Seine Macht wird Eure Verteidigungskraft um ein Vielfaches verstärken.$B$BAber seid gewarnt! Habt Ihr erst einmal Euren Pfad gewählt, gibt es kein Zurück mehr.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8748": {
+   "name": "Der Pfad des Beschützers",
+   "progress": "Eure selbstlosen Bemühungen, die Kinder Kalimdors zu verteidigen, wurden zur Kenntnis genommen. Übergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Beschützers abkommen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8749": {
+   "name": "Der Pfad des Beschützers",
+   "progress": "Ihr ehrt meinesgleichen, $N! Vernichtet die Feinde Kalimdors! Zeigt ihnen, was es heißt, das Land des ewigen Sternenlichts anzugreifen.$B$BIhr habt Euch eine weitere Verstärkung des Rings verdient. Übergebt mir Euren Siegelring, damit ich seine Kräfte erweitern kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Beschützers abkommen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8750": {
+   "name": "Der Pfad des Beschützers",
+   "progress": "Eine derartige Hingabe für eine gerechte Sache ist selten. Ihr habt die Unbeugsamkeit Eures Willens bewiesen, $N! Dafür, dass Euer wacher Geist und Euer scharfer Verstand über diese Welt wacht, sollt Ihr reichhaltig belohnt werden.$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Beschützers abkommen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8751": {
+   "name": "Der Beschützer von Kalimdor",
+   "progress": "Selten habe ich solch eine Hingabe, solch ein Durchhaltevermögen gesehen! Der bronzene Drachenschwarm gewährt Euch die mächtigste Verzauberung. Der Zeitlose selbst, hat es befohlen!$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Erhebt Euch, Beschützer von Kalimdor! Zeigt Euch und lasst Euch huldigen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8752": {
+   "name": "Der Pfad des Eroberers",
+   "completion": "Beeindruckend, kleine Kreatur. Ihr habt eine Menge durchgemacht, um das Vertrauen des bronzenen Drachenschwarms zu erwerben. Eure Hingabe und Selbstaufopferung wurde zur Kenntnis genommen.$B$BDer Siegelring des Eroberers birgt enorme Kräfte in sich, die Euch gegen die Mächte des Bösen helfen werden. Seine Macht wird Eure physischen Angriffe um ein Vielfaches verstärken.$B$BAber seid gewarnt! Habt Ihr erst einmal Euren Pfad gewählt, gibt es kein Zurück mehr.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8753": {
+   "name": "Der Pfad des Eroberers",
+   "progress": "Eure selbstlosen Bemühungen, die Kinder Kalimdors zu verteidigen, wurden zur Kenntnis genommen. Übergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Eroberers abkommen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8754": {
+   "name": "Der Pfad des Eroberers",
+   "progress": "Ihr ehrt meinesgleichen, $N! Vernichtet die Feinde Kalimdors! Zeigt ihnen, was es heißt, das Land des ewigen Sternenlichts anzugreifen.$B$BIhr habt Euch eine weitere Verstärkung des Rings verdient. Übergebt mir Euren Siegelring, damit ich seine Kräfte erweitern kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Eroberers abkommen!",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }

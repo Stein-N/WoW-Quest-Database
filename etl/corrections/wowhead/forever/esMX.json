@@ -2721,6 +2721,11 @@
    "fetched": "2026-10-05",
    "v": 2
   },
+  "8432": {
+   "name": "La batalla por Garganta Grito de Guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
   "8433": {
    "name": "La batalla por Garganta Grito de Guerra",
    "fetched": "2026-10-05",
@@ -2780,6 +2785,383 @@
    "name": "Cuentas para Salfa",
    "progress": "Has sabido ganarte mi confianza, $N, pero aún tendrás que ganarte la confianza de mi tribu. Hay algo que puedes hacer para conseguirlo.$B$BSe sabe que los Nevada llevan consigo cuentas de Espíritu para protegerse contra los espíritus infectos. Esas cuentas no han cumplido sus propósitos ya que los propios Nevada se han convertido en agentes de corrupción. Tráeme las cuentas de Espíritu de los fúrbolgs Nevada caídos, por cada cinco que me traigas aumentará tu reconocimiento entre los Fauces de Madera.$BCuentas de Espíritu Nevada (5)",
    "completion": "¡Nos has probado una vez más tu honor! Me aseguraré de que los míos conozcan todas tus hazañas.$B$BRecuerda traerme todas las cuentas de los Nevada que encuentres. Por cada juego que me traigas hablaré de ti a la tribu.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8508": {
+   "name": "Documentación de instrucción de campo",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8546": {
+   "name": "¡La Horda necesita más barras de mitril!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8550": {
+   "name": "¡La Horda necesita más flores de paz!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8555": {
+   "name": "Encomienda a los Vuelos",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8565": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8566": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8567": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8568": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8569": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8570": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8576": {
+   "name": "La traducción del libro de contabilidad",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8579": {
+   "name": "Campeones mortales",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8581": {
+   "name": "¡La Horda necesita más flores de fuego!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8583": {
+   "name": "¡La Horda necesita más lotos cárdenos!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8589": {
+   "name": "¡La Horda necesita más cuero pesado!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8591": {
+   "name": "¡La Horda necesita más cuero grueso!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8595": {
+   "name": "Campeones mortales",
+   "progress": "Matar a un Señor qiraji es un logro notable para una mortal, $N. Sin embargo, son muchos y poderosos. Sigue derrotándolos y demuestra lo que vales como nuestra Campeona.$BInsignia de Señor qiraji (1)",
+   "completion": "Sigues sirviéndonos bien, $N. Nuestro pacto sigue en pie.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8601": {
+   "name": "¡La Horda necesita más pieles de cuero basto!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8605": {
+   "name": "¡La Horda necesita más vendas de lana!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8608": {
+   "name": "¡La Horda necesita más vendas de tejido mágico!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8610": {
+   "name": "¡La Horda necesita más vendas de paño rúnico!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8612": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8614": {
+   "name": "¡La Horda necesita más serviolas moteadas!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8616": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8619": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8635": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8636": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8642": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8643": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8644": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8645": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8646": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8647": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8648": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8649": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8650": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8651": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8652": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8653": {
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8654": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8670": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8671": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8672": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8673": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8674": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8675": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8676": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8677": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8678": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8679": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8680": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8681": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8682": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8683": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8684": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8685": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8686": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8688": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8713": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8714": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8715": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8716": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8717": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8718": {
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8719": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8720": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8721": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8722": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8723": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8724": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8725": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8726": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8727": {
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8732": {
+   "name": "Documentación de instrucción de campo",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8742": {
+   "name": "El poder de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8743": {
+   "name": "Golpear el gong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8744": {
+   "completion": "La etiqueta de este regalo dice:$B$BPara $N,$B$B¡Que pases unas dulces y felices fiestas del Gran Invierno!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8745": {
+   "name": "El tesoro del Atemporal",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8747": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8748": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8749": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8750": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8751": {
+   "name": "El protector de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8752": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8753": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8754": {
+   "name": "El camino del conquistador",
    "fetched": "2026-10-05",
    "v": 2
   }

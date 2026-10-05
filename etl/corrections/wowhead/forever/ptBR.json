@@ -30804,6 +30804,15 @@
    "fetched": "2026-10-05",
    "v": 2
   },
+  "7938": {
+   "name": "Sua sorte o aguarda...",
+   "objectivesText": [
+    "Siga para as Minas Mortas, em Cerro Oeste, e procure sua sorte."
+   ],
+   "details": "\"Sua sorte <o/a> aguarda dentro das Minas Mortas.\"$B$BA previsão entregue por Malaby é morna ao toque. Segurando-a com firmeza, você vê uma imagem das Minas Mortas, dentro do Arroio da Lua, a vila destruída que fica em Cerro Oeste. Observando a cena de mais perto, você cruza passagens tortuosas até atingir um portal de luz trêmula... O portal conduz ao âmago das minas. Ao atravessá-lo, um estranho baú surge do nada.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
   "7939": {
    "name": "Mais pedras densas de amolar",
    "fetched": "2026-10-05",
@@ -33091,6 +33100,15 @@
    "fetched": "2026-10-05",
    "v": 2
   },
+  "8430": {
+   "name": "Batalha da Ravina Brado Guerreiro",
+   "objectivesText": [
+    "Leve 3 Marcas de Honra da Ravina Brado Guerreiro a um Armipotente da Horda do lado de fora do campo de batalha."
+   ],
+   "details": "A batalha na Ravina Brado Guerreiro contra as Sentinelas da Asa de Prata é de grande importância. Usando como desculpa a defesa de uma floresta que não os pertence, a Aliança tenta impedir a Horda de utilizar uma das nossas maiores fontes de madeira.$B$BNão permita que isso aconteça, $N! Volte e me traga provas de que você foi útil à Horda de alguma forma!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
   "8431": {
    "name": "Batalha da Ravina Brado Guerreiro",
    "progress": "A batalha na Ravina Brado Guerreiro continua, $N. Faça a sua parte e ajude-nos a expulsar as Sentinelas da Asa de Prata de nossas terras!$BMarca de Honra da Ravina Brado Guerreiro (3)",
@@ -33333,6 +33351,1996 @@
     "Leve 20 Barras de Cobre ao Sargento Pedracenho na base aérea de Dun Morogh."
    ],
    "details": "Já de volta, $C? Magnífico! Ainda precisamos de mais pilhas de barras de cobre, se você puder, para o esforço de guerra em Ahn'Qiraj. Podemos contar com você?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8494": {
+   "name": "A Aliança precisa de barras de ferro!",
+   "objectivesText": [
+    "Leve 20 Barras de Ferro ao Cabo Carens na Ala Militar de Altaforja."
+   ],
+   "details": "Bons dias, <Sr./Sra.> Calça Ridícula, você é mesmo um colírio para os olhos. Caso não tenha ficado sabendo em uma de suas \"aventuras\", a Aliança acelerou os preparativos de guerra em Ahn'Qiraj e carece de barras de ferro... um monte delas. Em pilhas de vinte. Podemos contar com você, certo, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8495": {
+   "name": "A Aliança precisa de mais barras de ferro!",
+   "objectivesText": [
+    "Leve 20 Barras de Ferro ao Cabo Carens na base aérea de Dun Morogh."
+   ],
+   "details": "Já de volta? Pare de me fazer rever minha opinião negativa a seu respeito $C. Você está me fazendo ficar sentimental. Bem, como você já deve ter notado, ainda não temos barras de ferro suficientes para todas as armas, armaduras, tanques a vapor e tudo mais que precisa ser construído para a caça às bruxas. Você se acha capaz de me trazer outra pilha de vinte barras de ferro entre uma viagem e outra a Zul'Gurub, ou seja lá qual for o lugar que vocês jovens frequentam hoje em dia?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8496": {
+   "name": "Bandagens para o campo",
+   "objectivesText": [
+    "Leve 30 Bandagens Grossas de Runatrama, 30 Bandagens Grossas de Seda e 30 Bandagens Grossas de Magitrama para o Arauto do Vento Chifre Altivo, no Forte Cenariano, em Silithus. Você também precisa entregar as Instruções de Logística X para concluir esta missão."
+   ],
+   "details": "Nosso suprimento de bandagens para o campo de batalha está arriscadamente escasso depois das últimas baixas que sofremos. Consiga um lote de suprimentos de primeiros socorros e entregue-os ao Arauto do Vento Chifre Altivo no Forte Cenariano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8497": {
+   "name": "Kits de sobrevivência no deserto",
+   "objectivesText": [
+    "Leve 4 Globos d'Água, 4 Antipeçonhas Poderosos e 4 Bolinhos Defumados do Deserto para Calandrath na estalagem do Forte Cenariano, em Silithus. Você também precisa entregar as Instruções de Logística I para completar esta tarefa."
+   ],
+   "details": "Com a chegada dos novos recrutas ao Forte Cenariano, vem o problema de como mantê-los vivos no deserto. A desidratação e as diversas criaturas venenosas representam uma séria ameaça a voluntários inexperientes. Reúna os suprimentos necessários para um kit de sobrevivência no deserto e leve-os para Calandrath no Forte Cenariano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8498": {
+   "name": "Ordens de Batalha do Martelo do Crepúsculo",
+   "objectivesText": [
+    "Obtenha as Ordens de Batalha do Martelo do Crepúsculo e leve-as ao Comandante Mar'alith no Forte Cenariano, que fica em Silithus. Você também precisa entregar as Instruções Táticas X para concluir a missão."
+   ],
+   "details": "Nossos batedores relataram que novas ordens de batalha foram emitidas pelos líderes do Martelo do Crepúsculo. As ordens estão sendo distribuídas pelos Profetas do Crepúsculo sob forte escolta. Intercepte as ordens e leve-as ao Comandante Mar'alith.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8499": {
+   "name": "A Aliança precisa de barras de tório!",
+   "objectivesText": [
+    "Leve 20 Barras de Tório à Dama Duas-tranças na Ala Militar de Altaforja."
+   ],
+   "details": "É muita gentileza sua se preocupar com as necessidades da Aliança. Além de todos os outros esforços de coleta em andamento, precisamos de um grande volume de barras de tório. Foi essa a tarefa que me atribuíram. O tório será usado para a criação de diversos aparatos de guerra, O principal é a construção de um batalhão de tanques a vapor que será transportado para Silithus por via aérea quando estiver concluído. Você nos ajuda nessa empreitada, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8500": {
+   "name": "A Aliança precisa de mais barras de tório!",
+   "objectivesText": [
+    "Leve 20 Barras de Tório à Dama Duas-tranças na base aérea de Dun Morogh."
+   ],
+   "details": "É tão bom <vê-lo/vê-la> de novo $N. Espero que você esteja bem. É verdade que ainda precisamos de barras de tório. Se tiver barras para nos ceder, estou juntando para o esforço de guerra em Ahn'Qiraj.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8501": {
+   "name": "Alvo: aguilhantes da Colme'Ashi",
+   "objectivesText": [
+    "Mate 30 Aguilhantes da Colme'Ashi e fale novamente com o Comandante Mar'alith no Forte Cenariano, que fica em Silithus. Você também precisa entregar as Instruções de Combate XII para concluir a missão."
+   ],
+   "details": "Com o aumento do esforço de guerra, a presença dos silitídeos na área oferece uma ameaça crescente às nossas operações. Você foi <selecionado/selecionada> para participar de um ataque à Colme'Ashi e os seus alvos principais serão os aguilhantes aéreos da Colme'Ashi.$B$BFale novamente com o comandante Mar'alith quando tiver concluído a sua tarefa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8502": {
+   "name": "Alvo: trabalhadores da Colme'Ashi",
+   "objectivesText": [
+    "Mate 30 Trabalhadores da Colme'Ashi e fale novamente com o Comandante Mar'alith no Forte Cenariano, que fica em Silithus. Você também precisa entregar as Instruções de Combate III para concluir a missão."
+   ],
+   "details": "Com o aumento do esforço de guerra, a presença dos silitídeos na área oferece uma ameaça crescente às nossas operações. Você foi <selecionado/selecionada> para participar de um ataque à Colme'Ashi e os seus alvos principais serão os trabalhadores da Colme'Ashi.$B$BFale novamente com o comandante Mar'alith quando tiver concluído a sua tarefa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8503": {
+   "name": "A Aliança precisa de estrangulalgas!",
+   "objectivesText": [
+    "Leve 20 Estrangulalgas à Recruta Medeixo na Ala Militar de Altaforja."
+   ],
+   "details": "Bom, $C, já lhe falei de todas as fabulosas utilidades da estrangulalga? Falei? Ah bem... seja como for, precisamos de um monte delas, e quando digo um monte, digo UM MONTÃO! Você acha que pode nos ajudar? Sei que isso significa abrir mão de todas as coisas extraordinárias que você pode fazer com ela, mas é por uma boa causa!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8504": {
+   "name": "A Aliança precisa de mais estrangulalga!",
+   "objectivesText": [
+    "Leve 20 Estrangulalgas à Recruta Medeixo na base aérea de Dun Morogh."
+   ],
+   "details": "Olá de novo, amiguinh<o/a>... qual foi? Ah sim, $N! Veio ver se ainda preciso de mais estrangulalga, né? Bem, é seu dia de sorte, pois a resposta a essa pergunta tão importante é um sonoro SIM! Você acha que consegue juntar vinte?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8505": {
+   "name": "A Aliança precisa de lótus roxo!",
+   "objectivesText": [
+    "Leve 20 Lótus Roxos ao Mestre Noturcanto na Ala Militar de Altaforja."
+   ],
+   "details": "$C, o lótus roxo é uma flor com uma plenitude de usos. Estou aqui a pedido da Aliança como autoridade em tais usos para preservar as ervas colhidas e garantir que o esforço de guerra receba lótus roxos suficientes para suprir qualquer propósito.$B$BFaça-me o obséquio de sair pelo mundo e me trazer algumas dessas flores. Você acredita ser capaz de tal feito?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8506": {
+   "name": "A Aliança precisa de mais lótus roxo!",
+   "objectivesText": [
+    "Leve 20 Lótus Roxos ao Mestre Noturcanto na base aérea de Dun Morogh."
+   ],
+   "details": "Folgo em <revê-lo/revê-la>, $C. Nossa coleção aumentou, mas, por incrível que pareça, carecemos de mais lótus roxo. Se ainda estiver ao seu alcance colher mais dessa erva, rogo que o faça e volte a ter comigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8507": {
+   "name": "Serviço em campanha",
+   "objectivesText": [
+    "Apresente-se para o trabalho no posto da Brigada de Altaforja perto de Colme'Zora. Prepare seus Papéis em Branco de Serviço em Campanha e obtenha Papéis Assinados de Serviço em Campanha com o Capitão Bigornero. Então fale novamente com o Arauto do Vento Kaldon no Forte Cenariano em Silithus.$B$BNota: Curar ou lançar feitiços benéficos em um membro da Brigada de Altaforja marcará você para o JxJ."
+   ],
+   "details": "Saudações, $N Antes de lhe atribuir tarefas mais intrincadas na guerra, é preciso que você faça sua parte no serviço em campanha.$B$BA Brigada de Altaforja do Capitão Bigornero está estacionada perto de Colme'Zora.$B$BApresente-se a ele ou a Jenila Fortemalho, tenente dele, e fale novamente comigo. Deverei ter uma tarefa mais complexa para você então.$B$BAh, por favor, faça-nos um favor e fique longe da Legião de Orgrimmar. Fomos obrigados a manter as duas forças separadas uma da outra devido à animosidade mútua.",
+   "progress": "Você encontrará a força do Capitão Bigornero posicionada perto de Colme'Zora. Fale com a tenente dele, Jenila Fortemalho, se não conseguir encontrá-lo.",
+   "completion": "Muito bem, $N. Preparei uma série de tarefas que devem aproveitar bem suas habilidades.$B$BCom seus esforços contínuos e os de pessoas como você, nosso inimigo logo será derrotado de uma vez por todas!$B$BSe você quiser instruções para uma nova missão, fale novamente com o Capitão Bigornero.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8508": {
+   "name": "Papéis de serviço em campanha",
+   "progress": "Presumo que você queira que os papéis sejam assinados, piá?$BPapéis Preparados de Serviço em Campanha (1)",
+   "completion": "Sim, suponho que aquela pequena escaramuça passará como serviço em campanha hoje em dia. Leve isso de volta ao Forte Cenariano. Tenho certeza de que eles terão um bom trabalho para você.$B$BVá!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8509": {
+   "name": "A Aliança precisa de lágrimas-de-arthas!",
+   "objectivesText": [
+    "Leve 20 Lágrimas-de-arthas à Sargento-mor Germana na Ala Militar de Altaforja."
+   ],
+   "details": "Vou direto ao ponto e sem complicar, $C. A Aliança precisa de uma grande quantidade de Lágrimas-de-arthas para suprir o esforço de guerra em Ahn'Qiraj. Não pergunte o motivo. Apenas sigo ordens, mas quero que você reúna a maior quantidade que conseguir da erva e me traga. Está <disposto/disposta>?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8510": {
+   "name": "A Aliança precisa de mais Lágrimas-de-arthas!",
+   "objectivesText": [
+    "Leve 20 Lágrimas-de-arthas à Sargento-mor Germana na base aérea de Dun Morogh."
+   ],
+   "details": "Ok, de fato eu ainda preciso de mais Lágrimas-de-arthas. Creio que seja possível encontrá-las na mesma área em que você as recolheu da última vez. Quanto antes as conseguirmos, mais rápido podemos dar início à ofensiva contra as forças em Ahn'Qiraj.$B$BVocê vai nos ajudar novamente $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8511": {
+   "name": "A Aliança precisa de couro leve!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Leve para Corina Esfolapedra na Ala Militar de Altaforja."
+   ],
+   "details": "Nós Esfolapedra temos uma longa tradição como esfoladores, $C. Por isso a Aliança pediu à minha família que ajudasse a coletar couro leve para o esforço de guerra em Ahn'Qiraj. Eu estou aqui para garantir que o couro seja curtido corretamente para qualquer uso que eles venham a fazer dele. Mas precisamos da sua ajuda.$B$BComo eu tenho de estar aqui ocupada com isso, preciso que você saia, reúna o couro e o traga a mim. Que tal, criança, quer tentar?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8512": {
+   "name": "A Aliança precisa de mais couro leve!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Leve para Corina Esfolapedra na base aérea de Dun Morogh."
+   ],
+   "details": "Bom <vê-lo/vê-la> novamente $N. Pelo visto, precisamos de mais couro leve para a criação de diversos equipamentos de guerra. Se você pudesse me trazer uma pilha de dez, seria perfeito.",
+   "progress": "Bom vê-la novamente $N. Pelo visto, precisamos de mais couro leve para a criação de diversos equipamentos de guerra. Se você pudesse me trazer uma pilha de dez, seria perfeito.",
+   "completion": "Obrigada pela generosa doação, $N. Vou colocar na pilha agora mesmo, e logo tudo isso será transformado em uma bela armadura, em alguns remendos de couro, ou terá algum outro uso em nossos preparativos. Ou seja, estaremos sempre precisando de mais couro. Volte aqui o quanto antes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8513": {
+   "name": "A Aliança precisa de couro médio!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Médio ao Cabo Porter na Ala Militar de Altaforja."
+   ],
+   "details": "Sim <senhor/senhora>, eu fui encarregado de reunir e supervisionar todo o couro médio obtido em prol do esforço de guerra. Se dispuser de meios de obter couro médio, seja de que origem for, traga-o a mim. Sua ajuda será bem-vinda se você puder doar um pouco do seu tempo à causa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8514": {
+   "name": "A Aliança precisa de mais couro médio!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Médio ao Cabo Porter na base aérea de Dun Morogh."
+   ],
+   "details": "Sim <senhor/senhora>, vejo que juntamos $2063w peças de couro médio até o momento. Sei que é pedir muito, mas se ainda estiver <disposto/disposta>, sua ajuda seria bem-vinda no intuito de amortizar o que falta da minha quota.",
+   "progress": "Sim senhora, vejo que conseguimos juntar muitas peças de couro médio, mas precisamos de mais. Garanto que faremos bom uso dele. Sei que é pedir muito, mas se ainda estiver disposta, sua ajuda seria bem-vinda na tentativa de amortizar o que falta da minha quota.",
+   "completion": "Céus, quanto couro médio você me trouxe, madame! Não tenha dúvida de que darei um destino adequado a tudo isso. Com sua ajuda, logo atingiremos a meta prevista de couro médio!$B$BObrigado, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8515": {
+   "name": "A Aliança precisa de couro grosso!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Grosso à Marta Fusofino na Ala Militar de Altaforja."
+   ],
+   "details": "Puxa vida, vai ser demais! $C, o esforço de guerra em Ahn'Qiraj está a todo vapor e me encarregaram de acompanhar a chegada de todo o couro grosso. Faremos mil coisas com ele, mas primeiro precisamos conseguir uma tonelada. Literalmente! É aí que você entra.$B$BE aí? Você acha que consegue sair e me trazer uma bela e gorda pilha de couro grosso? Hein, hein?!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8516": {
+   "name": "A Aliança precisa de mais couro grosso!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Grosso à Marta Fusofino na base aérea de Dun Morogh."
+   ],
+   "details": "É, a pilha ainda não está do tamanho que queremos. $N, ainda não atingimos a meta de $2071w peças de couro grosso. Pensa só em tudo que a gente pode fazer com esse couro! Todo tipo de armaduras e armas. Estofamento para o interior dos tanques a vapor e miras telescópicas pros rifles! Óculos de engenheiro e aposto que, se a gente acabar juntando mais do que precisa, podemos dar o resto à Horda pros zepelins dela!$B$BVai me trazer mais couro grosso?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8517": {
+   "name": "A Aliança precisa de bandagens de linho!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Linho à Sentinela Argencélio na Ala Militar de Altaforja."
+   ],
+   "details": "A guerra em Ahn'Qiraj será longa e sangrenta. É muito sábia a atitude da Aliança em convocar sua ajuda, e a do seu povo, para construir o equipamento necessário antes de mergulhar de cabeça no conflito.$B$BMe pediram para liderar a coleta de bandagens de linho para a guerra, e conto com sua ajuda para reunir a quantidade necessária. Sei que a tarefa é difícil, mas pelo menos as bandagens de linho são as mais fáceis de confeccionar. Podemos contar com você, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8518": {
+   "name": "A Aliança precisa de mais bandagens de linho!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Linho à Sentinela Argencélio na base aérea de Dun Morogh."
+   ],
+   "details": "Não canso de me surpreender com o altruísmo demonstrado em situações que levariam tantos ao egoísmo. $C, ainda preciso de algumas bandagens de linho para cumprir minha tarefa aqui. Posso contar com sua ajuda mais uma vez?",
+   "progress": "Não canso de me surpreender com o altruísmo demonstrado em situações que levariam tantos ao egoísmo. $C, ainda preciso de algumas bandagens de linho para cumprir minha tarefa aqui. Posso contar com sua ajuda mais uma vez?",
+   "completion": "Você receberá uma menção, $N. Enquanto há quem busque tirar proveito da nossa economia em pé de guerra para encher os bolsos no afã da ganância, você provou mais de uma vez que sua devoção à Aliança e, de fato, a toda a Azeroth está acima de tudo.$B$BQue a Bênção de Eluna esteja sempre consigo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8519": {
+   "name": "Um peão no tabuleiro eterno",
+   "objectivesText": [
+    "Aprenda tudo que puder sobre o passado, depois fale com Anacronos nas Cavernas do Tempo, em Tanaris."
+   ],
+   "details": "Quando você recupera a compostura e foca o olhar, percebe que algo se agita dentro do cristal. Após observar com mais atenção, você percebe que está vendo o passado... uma lembrança... há muito esquecida.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8520": {
+   "name": "A Aliança precisa de bandagens de seda!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Seda à Enfermeira Campedra na Ala Militar de Altaforja."
+   ],
+   "details": "Com a guerra despontando em Ahn'Qiraj, não podemos medir esforços para garantir que nossos soldados tenham tudo que precisam. É exatamente isso que estamos fazendo aqui. De minha parte, estou encarregada de garantir que juntemos bandagens de seda suficientes.$B$BVocê acha que pode ajudar, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8521": {
+   "name": "A Aliança precisa de mais bandagens de seda!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Seda à Enfermeira Campedra na base aérea de Dun Morogh."
+   ],
+   "details": "É muita bondade sua oferecer ajuda mais uma vez $C. Vejo que acumulamos $2082w bandagens de seda, por isso, vamos precisar de mais.",
+   "progress": "É muita bondade sua oferecer ajuda mais uma vez $C. Vejo que acumulamos um número considerável das bandagens de seda de que nos encarregaram, mas ainda não foi suficiente. $N, há como você se dispor a reunir mais um fardo e trazê-lo aqui para mim? Eu e a Aliança seremos imensamente gratos.",
+   "completion": "Que pessoa abnegada você é. Muito obrigada pela sua contribuição com o esforço de guerra. São pessoas como você que farão a diferença entre o sucesso e o fracasso em Ahn'Qiraj. Só espero que isso tudo seja suficiente.$B$BObrigada mais uma vez, $N.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8522": {
+   "name": "A Aliança precisa de bandagens de runatrama!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Runatrama ao Guardião Sombraluna na Ala Militar de Altaforja."
+   ],
+   "details": "Você pode até querer discutir o mérito da guerra, $C, mas ela já é fato. Olhe em volta para sua família e amigos, e pergunte a si <mesmo/mesma> o que você pode fazer para garantir que tenham o máximo de chance de sobreviver à conflagração, caso venham a se envolver.$B$BNesse intuito, estou acumulando bandagens de runatrama de todas as fontes disponíveis. Você gostaria de fazer uma doação?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8523": {
+   "name": "A Aliança precisa de mais bandagens de runatrama!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Runatrama ao Guardião Sombraluna na base aérea de Dun Morogh."
+   ],
+   "details": "O acaso quis que voltássemos a discutir questões prementes $C. Mais uma vez obrigado pelos esforços já dispensados; poucos estariam dispostos a doar de forma tão abnega. Contudo, ainda há muito por fazer.$B$B$N, haveria interesse de sua parte em me trazer mais bandagens?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8524": {
+   "name": "A Aliança precisa de albacora arco-íris!",
+   "objectivesText": [
+    "Leve 20 Albacoras Arco-íris ao Fúlvio Nelidônio na Ala Militar de Altaforja."
+   ],
+   "details": "Olá olá, amiguinho! Se eu dissesse, ‘Você não acha que os soldados deviam ter o que comer como todo o mundo?', é claro que você responderia que sim. Eu concordo 110% com você! Que bom que estamos de acordo. Tudo que preciso é que você saia e pesque um montão de albacora arco-íris crua. Cozinhe tudo e traga de volta para mim. Humm, hummm, já estou com água na boca.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8525": {
+   "name": "A Aliança precisa de mais albacora arco-íris!",
+   "objectivesText": [
+    "Leve 20 Albacoras Arco-íris para Fúlvio Nelidônio na base aérea de Dun Morogh."
+   ],
+   "details": "O quê!? Você de novo!? Macacos me mordam... apesar de eu ser um gnomo e não uma banana. Fúlvio Nelidônio é meu nome! Voltou para me ajudar de novo, não é? Ora, eu não <o/a> culpo. Você não adora o aroma de toda esta comida? <baba>$B$BChega de enrolação! Vai lá e me traz mais albacora arco-íris!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8526": {
+   "name": "A Aliança precisa de raptor assado!",
+   "objectivesText": [
+    "Leve 20 Raptores Assados para Sara Apitaço na Ala Militar de Altaforja."
+   ],
+   "details": "Opa, tudo em cima, $C? Sinto que você está <interessado/interessada> em, quem sabe, conseguir comida para a guerra iminente em Ahn'Qiraj? De algum modo, meu pai achou que seria uma boa experiência de aprendizagem se eu me oferecesse como voluntária aqui. Ledo engano. Eu nem gosto de carne.$B$BSeja como for, se quiser, me traga todo raptor assado que puder. Esse é obviamente o prato preferido dos soldados.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8527": {
+   "name": "A Aliança precisa de mais raptor assado!",
+   "objectivesText": [
+    "Leve 20 Raptores Assados para Sara Apitaço na base aérea de Dun Morogh."
+   ],
+   "details": "Olá de novo $C. Sua empolgação com tudo isso é evidente. Só posso deduzir que você quer me trazer mais vinte peças de raptor assado. Maravilha. Bem, faça isso. Nos vemos na volta.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8528": {
+   "name": "A Aliança precisa de rabo-amarelo mosqueado!",
+   "objectivesText": [
+    "Leve 20 Rabos-amarelos Mosqueados à Caçadora Veloflumen na Ala Militar de Altaforja."
+   ],
+   "details": "Pode não parecer heroico juntar peixe cozido, mas não subestime o valor do preparo, jovem $C. Soldados precisam comer como todo o mundo, e estamos aqui para fazer a nossa parte e garantir que tenham o que precisam quando a guerra em Ahn'Qiraj começar.$B$BAssim sendo, estou estocando rabo-amarelo mosqueado, uma versátil fonte de sustança fácil de armazenar e que pode ser usada em diversos pratos. Além de não ter o odor de alguns outros peixes marinhos. Haveria interesse de sua parte em ajudar?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8529": {
+   "name": "A Aliança precisa de mais rabo-amarelo mosqueado!",
+   "objectivesText": [
+    "Leve 20 Rabos-amarelos Mosqueados à Caçadora Veloflumen na base aérea de Dun Morogh."
+   ],
+   "details": "Se ainda for de seu interesse, eu gostaria que você me trouxesse mais um lanço de rabo-amarelo mosqueado, $N. Suponho que a experiência adquirida na primeira empreitada proporcione uma pescaria mais fácil e rápida dessa vez. <Pronto/Pronta> para a empreitada?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8532": {
+   "name": "A Horda precisa de barras de cobre!",
+   "objectivesText": [
+    "Leve 20 Barras de Cobre ao Minerador Caturro no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Que bom você ter decidido me ajudar aqui. Nem todos fariam o mesmo, por isso preciso ter certeza de que você compreende minha necessidade. Barras, não minério de cobre. Não dispomos de tempo nem pessoal para cuidar da fundição. Portanto, se você puder se encarregar disso, seu esforço será devidamente considerado. Você acredita ser capaz, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8533": {
+   "name": "A Horda precisa de mais barras de cobre!",
+   "objectivesText": [
+    "Leve 20 Barras de Cobre ao Minerador Caturro em Durotar."
+   ],
+   "details": "Já de volta? Logo você será <um minerador/uma mineradora> de verdade, $C. Portanto, já sabe o que fazer; Preciso que você saia, garimpe um bocado de minério de cobre, transforme-o em barras e me traga. Sei que você é capaz, a pergunta é, haveria interesse de sua parte?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8534": {
+   "name": "O relatório do batedor de Colme'Zora",
+   "objectivesText": [
+    "Contate a Batedora Cenariana Azenel no interior da Colme'Zora e entregue o Relatório do Batedor de Colme'Zora à Arauto do Vento Chifre Altivo no Forte Cenariano. Você também precisa entregar as Instruções Táticas VI para concluir a missão."
+   ],
+   "details": "Mandamos nossos melhores batedores às colmeias dos silitídeos para espionar. A batedora Azenel está observando a movimentação na Colme'Zora há dias. Encontre-a e obtenha o relatório dela. Precisamos agir o mais rápido possível com base nessas informações, $N.",
+   "progress": "A batedora Azenel já está dentro da Colme'Zora. Rápido, $N! O tempo urge.",
+   "completion": "Seus esforços são muito bem-vindos, $N. Vou ler os relatórios dos batedores imediatamente. Esteja à vontade para ir cumprir sua próxima missão.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8535": {
+   "name": "Templário Gris",
+   "objectivesText": [
+    "Evoque e mate um Templário Gris e fale novamente com Bor Juba Agreste no Forte Cenariano. Você também precisa entregar as Instruções Táticas IV para concluir a missão."
+   ],
+   "details": "O Martelo do Crepúsculo e os nobres elementais que eles veneram são uma ameaça formidável às nossas operações aqui em Silithus. Com os novos inimigos que estamos enfrentando em Ahn'Qiraj, não podemos nos dar o luxo de baixar a guarda contra nossos inimigos aqui fora.$B$BAche um modo de evocar e destruir um Templário Gris e apresente-se a Bor Juba Agreste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8536": {
+   "name": "Templário Terrano",
+   "objectivesText": [
+    "Evoque e mate um Templário Terrano e fale novamente com Bor Juba Agreste no Forte Cenariano. Você também precisa entregar as Instruções Táticas III para concluir a missão."
+   ],
+   "details": "O Martelo do Crepúsculo e os nobres elementais que eles veneram são uma formidável ameaça às nossas operações aqui em Silithus. Com os novos inimigos que estamos enfrentando em Ahn'Qiraj, não podemos nos dar o luxo de baixar a guarda contra nossos inimigos aqui fora.$B$BAche um modo de evocar e destruir um Templário Terrano e apresente-se a Bor Juba Agreste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8537": {
+   "name": "Templário Carmesim",
+   "objectivesText": [
+    "Evoque e mate um Templário Carmesim e fale novamente com Bor Juba Agreste no Forte Cenariano. Você também precisa entregar as Instruções Táticas II para concluir a missão."
+   ],
+   "details": "O Martelo do Crepúsculo e os nobres elementais que eles veneram são uma formidável ameaça às nossas operações aqui em Silithus. Com os novos inimigos que estamos enfrentando em Ahn'Qiraj, não podemos nos dar o luxo de baixar a guarda contra nossos inimigos aqui fora.$B$BAche um modo de evocar e destruir um Templário Carmesim e apresente-se a Bor Juba Agreste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8538": {
+   "name": "Os quatro duques",
+   "objectivesText": [
+    "Encontre uma forma de evocar e matar o Duque das Cinzas, o Duque das Profundezas, o Duque dos Zéfiros e o Duque dos Estilhaços e apresente-se ao Comandante Mar'alith no Forte Cenariano. Você também precisa entregar as Instruções Táticas V para concluir a missão."
+   ],
+   "details": "O vínculo entre o Martelo do Crepúsculo e o Conselho Abissal está se provando mais importante do que imaginávamos.$B$BAcreditamos que os duques abissais sejam uma das forças mais importantes a organizar os sectários do Martelo do Crepúsculo. Ache uma forma de atrair os quatro duques abissais para nosso plano de existência e destrua-os!$B$BSua dedicação e perícia em missões anteriores nos levou a escolhê-l<o/a> para isso. Temos certeza de que você terá sucesso.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8539": {
+   "name": "Alvo: irmãs da Colme'Zora",
+   "objectivesText": [
+    "Mate 30 Irmãs da Colme'Zora e fale novamente com o Comandante Mar'alith no Forte Cenariano, que fica em Silithus. Você também precisa entregar as Instruções de Combate V para concluir a missão."
+   ],
+   "details": "Foram solicitados reforços para se juntarem ao ataque à Colme'Zora e você foi <selecionado/selecionada> para atacar as irmãs da Colme'Zora. Fale novamente com o comandante Mar'alith quando tiver concluído a sua tarefa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8540": {
+   "name": "Botas para a guarda",
+   "objectivesText": [
+    "Leve 3 Botas Ornadas de Mithril para Vish Kozus, Capitão da Guarda, no Forte Cenariano, em Silithus. Você também precisa entregar as Instruções de Logística II para concluir a missão."
+   ],
+   "details": "Botas ornadas de mithril andam escassas para a divisão montada da guarda do Forte Cenariano. Providencie um lote e entregue imediatamente ao capitão Vish Kozus no Forte Cenariano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8541": {
+   "name": "Pedras de amolar para a guarda",
+   "objectivesText": [
+    "Leve 10 Pedras de Amolar Densas, 10 Pedras de Amolar Maciças e 10 Pedras de Amolar Pesadas para Vish Kozus, Capitão da Guarda, no Forte Cenariano, em Silithus. Você também precisa entregar as Instruções de Logística III para concluir a missão."
+   ],
+   "details": "Pedras de amolar andam escassas para a guarda do Forte Cenariano. Providencie um lote e entregue imediatamente ao capitão Vish Kozus no Forte Cenariano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8542": {
+   "name": "A Horda precisa de barras de estanho!",
+   "objectivesText": [
+    "Leve 20 Barras de Estanho ao Bruto Maug no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Lok'tar, $R, você já deve saber que vamos à guerra em Ahn'Qiraj contra os insetos, mas, primeiro, o Chefe Guerreiro decidiu que vamos fazer algo chamado \"preparativos\". Eu preferia estar afiando armas e moldando armaduras a marteladas, mas me orgulho de ter sido escolhido para juntar barras de estanho. Só que sem sua ajuda não vai dar.$B$BPor isso preciso que você saia, fabrique barras de estanho e me traga. Acho que vou precisar de um número maior do que eu sei contar.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8543": {
+   "name": "A Horda precisa de mais barras de estanho!",
+   "objectivesText": [
+    "Leve 20 Barras de Estanho ao Bruto Maug em Durotar."
+   ],
+   "details": "Muito bem, estou vendo que você leva a guerra a sério. Já eu mal posso esperar por ela. Ou seja, vou começar a ficar nervoso se você não trouxer a mercadoria logo. Quem sabe eu não começo a treinar em você.$B$BHar! Acho que não, porque aí quem ia me trazer as barras de estanho?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8544": {
+   "name": "Espaldares do Conquistador",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos da Noite, 5 Escaravelhos de Pedra e 5 Escaravelhos de Barro para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8545": {
+   "name": "A Horda precisa de barras de mithril!",
+   "objectivesText": [
+    "Leve 20 Barras de Mithril à Primeiro-Sargento T'kelah no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "$C, a guerra tá na boca de sair e a única coisa que a gente pode fazer é se preparar pra ela. É aí que a gente pode se ajudar, cara. Saca só, me botaram pra juntar todas as barras de mithril que a gente vai precisar pra fazer tudo que a gente precisa. E ainda tô precisando de mais!$B$BPor isso, eu tô querendo que tu mande ver no garimpo pra botar mais umas barras na minha mão. Tu acha que dá conta do recado?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8546": {
+   "name": "A Horda precisa de mais barras de mithril!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8548": {
+   "name": "Equipamento de batalha do voluntário",
+   "objectivesText": [
+    "Leve 5 Insígnias de Combate Cenarianas, 3 Insígnias Logísticas Cenarianas e 7 Insígnias Táticas Cenarianas para Vargus no Forte Cenariano, em Silithus. Também é necessário ser <Respeitado/Respeitada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "As insígnias que você acumula em tarefas táticas, de combate e de logística para o Forte Cenariano não são só enfeite, $N.$B$BÉ bom guardá-las. Conforme você for provando sua lealdade a nossa organização, em troca das insígnias eu posso lhe oferecer alguns dos equipamentos que reservamos para os nossos maiores aliados.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8549": {
+   "name": "A Horda precisa de botão-da-paz!",
+   "objectivesText": [
+    "Leve 20 Botões-da-paz à Herborista Pena Altiva no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Dizem que toda geração tem de enfrentar um teste definitivo. Temo que a guerra em Ahn'Qiraj seja a prova final do nosso valor. Por isso, vamos nos preparar e, com isso, descobrir de que somos feitos.$B$BEu me ofereci para ajudar a Horda juntando todo botão-da-paz que puder, pra transformar em poções para a guerra. Espero que você esteja aqui para me ajudar. Se estiver, preciso que você me traga uma boa quantidade da erva. Posso contar com você, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8550": {
+   "name": "A Horda precisa de mais botões-da-paz!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8551": {
+   "name": "O baú do capitão",
+   "objectivesText": [
+    "Leve o Baú do Smotts para Hacklebury Smotts na Angra do Butim."
+   ],
+   "details": "Eu costumava ir de barco daqui até Vila Catraca, em Kalimdor. Eu era um capitão bem-sucedido, de reputação impecável.$B$BAté que...$B$BAqueles malditos gigantes do mar me arruinaram! Eles destruíram o meu navio, mataram a minha tripulação e me abandonaram num bote salva-vidas a caminho da Angra do Butim. Um dos gigantes, Gorlash, roubou o meu baú. Disse que queria como porta-rapé. Que audácia!$B$BEu ouvi falar que ele vaga pela costa, a leste daqui. Encontre-o e recupere meu baú! Faça isso e você terá conquistado a gratidão de um capitão.",
+   "progress": "E então, $N! Você achou o Gorlash? Aquele era o meu baú favorito e tinha um compartimento escondido com os meus maiores tesouros!",
+   "completion": "Você encontrou! Que dia glorioso! Obrigado, $N. Recuperar meu baú abrandou um pouco o fogo dentro de mim.$B$BMas a minha vingança não terminou...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8552": {
+   "name": "A faixa com monograma",
+   "objectivesText": [
+    "Devolva a Faixa com Monograma ao proprietário."
+   ],
+   "details": "A faixa refinada traz as letras \"HS\" bordadas na bainha.",
+   "progress": "Olá. Tem negócios a tratar comigo?",
+   "completion": "Você recuperou a minha faixa? Isso quer dizer... que você matou Mok'rash, gigante marinho! Uau!$B$BAinda bem o vilão sarnento está morto, Mok'rash era um dos três gigantes marinhos que esmagou meus navios e matou minha tripulação.$B$BTrês vezes.$B$BVocê é um $C de valor, $N.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8553": {
+   "name": "O alfanje do capitão",
+   "objectivesText": [
+    "Fale com Zero."
+   ],
+   "details": "Depois de perder meu primeiro navio para aqueles gigantes, eu comprei outro. Batizei como Vingança do Smotts. Enchi de suprimentos, contratei tripulação e zarpei atrás dos desgraçados. Encontrei os malditos, mas... eles venceram. Destroçaram o Vingança do Smotts, mataram minha segunda tripulação e me mandaram e volta noutro bote.$B$BDessa vez outro dos gigantes, Negolash, roubou meu cutelo.$B$BEnfrente Negolash e me traga meu cutelo!$B$BFale com o Zero. Ele foi meu cozinheiro no Vingança do Smotts, e sobreviveu ao último ataque. Ele pode ajudar você a achar o gigante.",
+   "completion": "Olá olá, $N. O capitão me disse que você vai atrás do Negolash, né?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8554": {
+   "name": "Confrontando Negolash",
+   "objectivesText": [
+    "Leve 10 Asas de Urubu Grelhadas e 5 garrafas de Vinho Selvavinha até o bote salva-vidas do Capitão Smotts.$B$BMate Negolash e leve o Alfanje de Smotts para o Capitão Smotts na Selva do Espinhaço."
+   ],
+   "details": "O Negolash é um gigante esfomeado.$B$BQuando os gigantes destruíram o nosso navio, o Negolash foi direto na minha cozinha. Ele não queria comer a tripulação, como os outros gigantes. Ele queria vinho... e a minha asa de urubu grelhada. É a minha especialidade, e eu tive que ir pegar a receita lá nos Ermos!$B$BColoca isso no nosso bote velho, a sudeste daqui, seguindo a costa. Quando o Negolash sentir o cheiro dessa comida toda, ele vem com certeza!",
+   "progress": "Trouxe o meu alfanje, $N?",
+   "completion": "Você tirou meu alfanje do Negolash! Eu nem acredito no meu destino, $N! Encontrar você mudou totalmente a minha sorte! E para melhor, não se engane!$B$BObrigado! Se eu conseguir um novo barco e voltar a navegar pelos mares, você será minha convidada de honra.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8555": {
+   "name": "O ataque das revoadas",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8556": {
+   "name": "Sinete da Força Obstinada",
+   "objectivesText": [
+    "Leve 1 Anel Magistral Qiraji, 2 Ídolos Bruxuleantes, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8557": {
+   "name": "Clâmide da Força Obstinada",
+   "objectivesText": [
+    "Leve 1 Clâmide Marcial Qiraji, 2 Ídolos Ônix, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8558": {
+   "name": "Foice da Força Obstinada",
+   "objectivesText": [
+    "Leve 1 Punho de Pontas Qiraji, 2 Ídolos de Alabastro, 5 Escaravelhos de Cristal e 5 Escaravelhos de Pedra para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8559": {
+   "name": "Grevas do Conquistador",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos de Guerra, 5 Escaravelhos de Marfim e 5 Escaravelhos de Ouro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me as braçadeiras do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8560": {
+   "name": "Guarda-pernas do Conquistador",
+   "objectivesText": [
+    "Leve o Pelego Intacto de Ouroboros, 2 Ídolos da Morte, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8561": {
+   "name": "Coroa do Conquistador",
+   "objectivesText": [
+    "Leve o Diadema de Vek'Nilash, 2 Ídolos do Sol, 5 Escaravelhos de Pedra e 5 Escaravelho de Cristal para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8562": {
+   "name": "Peitoral do Conquistador",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos de Guerra, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8565": {
+   "name": "Vitórias anteriores em Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8566": {
+   "name": "Vitórias anteriores em Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8567": {
+   "name": "Vitórias anteriores na Ravina Brado Guerreiro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8568": {
+   "name": "Vitórias anteriores na Ravina Brado Guerreiro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8569": {
+   "name": "Esforços anteriores na Ravina Brado Guerreiro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8570": {
+   "name": "Esforços anteriores na Ravina Brado Guerreiro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8572": {
+   "name": "Equipamento de batalha do veterano",
+   "objectivesText": [
+    "Leve 7 Insígnias de Combate Cenarianas, 4 Insígnias Logísticas Cenarianas e 4 Insígnias Táticas Cenarianas para Vargus no Forte Cenariano, em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "As insígnias que você acumula em tarefas táticas, de combate e de logística para o Forte Cenariano não são só enfeite, $N.$B$BÉ bom guardá-las. Conforme você for provando sua lealdade a nossa organização, em troca das insígnias eu posso lhe oferecer alguns dos equipamentos que reservamos para os nossos maiores aliados.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8573": {
+   "name": "Equipamento de batalha do campeão",
+   "objectivesText": [
+    "Leve 15 Insígnias de Combate Cenarianas, 20 Insígnias Logísticas Cenarianas, 20 Insígnias Táticas Cenarianas e 1 Marca de Cenarius para Vargus no Forte Cenariano, em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "As insígnias que você acumula em tarefas táticas, de combate e de logística para o Forte Cenariano não são só enfeite, $N.$B$BÉ bom guardá-las. Conforme você for provando sua lealdade a nossa organização, em troca das insígnias eu posso lhe oferecer alguns dos equipamentos que reservamos para os nossos maiores aliados.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8574": {
+   "name": "Equipamento de batalha do impávido",
+   "objectivesText": [
+    "Leve 15 Insígnias de Combate Cenarianas, 20 Insígnias Logísticas Cenarianas, 17 Insígnias Táticas Cenarianas e 1 Marca de Remulos para Vargus no Forte Cenariano, em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "As insígnias que você acumula em tarefas táticas, de combate e de logística para a Arauto do Vento Chifre Altivo não são só enfeite, $N.$B$BÉ bom guardá-las. Conforme você for provando sua lealdade a nossa organização, em troca das insígnias eu posso lhe oferecer alguns dos equipamentos que reservamos para os nossos maiores aliados.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8575": {
+   "name": "O livro-caixa mágico de Azuregos",
+   "objectivesText": [
+    "Entregue o Livro-caixa Mágico de Azuregos a Narain Suavestilo em Tanaris."
+   ],
+   "details": "Você não consegue entender uma única palavra desse livro. Você não sabe nem em que idioma ele está!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8576": {
+   "name": "Traduzindo o livro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8577": {
+   "name": "Stewvul, o ex-melhor amigo no mundo todo",
+   "objectivesText": [
+    "Narain Suavestilo quer que você localize o ex-melhor amigo dele no mundo inteiro, Stewvul, e recupere os óculos de vidência que Stewvul lhe roubou."
+   ],
+   "details": "Se for para eu traduzir qualquer coisa, eu preciso dos meus óculos de vidência. Infelizmente já faz um tempo que eles foram roubados pelo meu ex-melhor amigo no mundo todo, Stewvul. Ele arrombou meu coração e depois me deixou aqui pra apodrecer.$B$BCom a ajuda de minha fiel bola de cristal, eu consegui triangular o paradeiro dele. Ou ele está na Muralha Greymane, em Pinhaprata, ou está em um portal em Terralém que está sendo tomado pela Legião Ardente. Você precisa encontrá-lo e recuperar os meus óculos, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8578": {
+   "name": "Óculos de vidência? Sem problema!",
+   "objectivesText": [
+    "Encontre os Óculos da Vidência de Narain e devolva-os para Narain Suavestilo em Tanaris."
+   ],
+   "details": "<Você ouve um suspiro de alívio vindo da caixa.>$B$BVocê só quer os óculos de vidência dele? Ótimo! Não em problema... É só um minutinho... Ei! Mas onde diab... Parafusos!$B$BBom... Tem a notícia ruim e a pior. A ruim é que eu perdi os óculos. A pior é que eu deixei cair quando estava bisbilhotando no Núcleo Derretido. É isso aí. O Núcleo Derretido. E eu acho que é isso. Tchauzinho!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8579": {
+   "name": "Campeões mortais",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8580": {
+   "name": "A Horda precisa de ignídeas!",
+   "objectivesText": [
+    "Leve 20 Ignídeas ao Cavalga-morcegos Pele'keiki no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Fala, $C. Tudo em cima! Tem um monte de botão-de-chamas que a Horda acha que vai precisar no tal do esforço de guerra em Ahn'Qiraj. Vai ver que vão colocar nas belezinhas que explodem, ou dar pra Aliança como combustível pros tanques a vapor? Vai saber? Pele'keiki não!$B$BPele'keiki tá ligado... ele sabe que tu vai dar uma força e trazer um monte de ignídeas, né não, cara?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8581": {
+   "name": "A Horda precisa de mais ignídeas!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8582": {
+   "name": "A Horda precisa de lótus roxo!",
+   "objectivesText": [
+    "Leve 20 Lótus Roxos à Boticária Jezebel no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "O lótus roxo, $C, é o reagente de um grande número de poções, elixires e unguentos, alguns dos quais nos serão úteis em Ahn'Qiraj. Vamos precisar criar um número infinito dessas poções para o esforço de guerra. Além disso, vou pesquisar mais usos para o lótus. Mas para essa empreitada vou precisar de uma grande quantidade da flor.$B$BÉ aí que você entra. Vá a campo e colha todo o lótus roxo que puder. Você estaria <disposto/disposta> a levar essa tarefa a cabo para nós?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8583": {
+   "name": "A Horda precisa de mais lótus roxo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8584": {
+   "name": "Nunca questione o meu trabalho",
+   "objectivesText": [
+    "Narain Suavestilo, em Tanaris, quer que você fale com Funesto Marrão em Geringontzan."
+   ],
+   "details": "Se tem uma coisa que você tem que saber sobre mim é o seguinte: NUNCA questione o meu trabalho! Eu lido com coisas que você simplesmente não conseguiria entender. Tipo... sabe o que é um focinhódorfo psicotrônico? Claro que não! E é por isso que deixamos o planejamento comigo e a logística com você.$B$BComo eu já te falei, se é pra isso aqui funcionar, vamos precisar de uma galinha de 250 quilos.$B$BVá a Geringontzan e fale com Funesto Marrão. Ele deve orientar você quanto à aquisição de um espécime desse.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8585": {
+   "name": "A Ilha do Medo!",
+   "objectivesText": [
+    "Obtenha a Carcaça de Lakmaeran e 20 Lombos de Quiméroco para Funesto Marrão em Tanaris."
+   ],
+   "details": "Segundo a lenda, os quimérocos da Ilha do Medo, em Feralas, dão os melhores e mais suculentos pratos que qualquer um ouviu falar! Os quimérocos também têm um papai que, se preparado do jeito certo, pode ou não parecer um frango de mais de duzentos quilos.$B$BVai lá na Ilha do Medo, mata o Lorde Lakmaeran e traz a carcaça fresca dele. Isso deve dar pro gnomo. Pra mim, você vai ter que trazer uns lombinhos de quiméroco.$B$BFaz isso que você vai ter seu frango de trocentos quilos e um extrazinho.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8586": {
+   "name": "As costeletas sinistronas de quiméroco do Funesto",
+   "objectivesText": [
+    "Funesto Marrão, em Geringontzan, quer que você providencie 20 unidades de Combustível de Foguete Goblínico e 20 de Sal Rochafunda."
+   ],
+   "details": "A minha receita está completa! O que eu preciso agora é de combustível de foguete e sal rochafunda. Eu cuido do tempero, e a carne que você me trouxe vai dar conta do resto.$B$BDepois que você me trouxer o que eu pedi, é só embalar o frango do Narain pra viagem.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8587": {
+   "name": "De volta a Narain",
+   "objectivesText": [
+    "Entregue o Frango de 250 Quilos a Narain Suavestilo em Tanaris."
+   ],
+   "details": "Eu sou goblin de palavra, garot<o/a>. Taqui o frangão de 250 quilos.$B$BO que um gnomo vai querer com um desses eu nunca vou saber...$B$B<Funesto resmunga algo ininteligível.>$B$BProvavelmente é pra dormir nele, sei lá. Gnominhos sujos...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8588": {
+   "name": "A Horda precisa de couro pesado!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Pesado à Esfoladora Jamani no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Já que a gente tá se preparando pra guerra, seria uma boa juntar tudo que precisa antes, tu não acha, cara? Uma das bases do equipamento de guerra que a gente tá produzindo é couro pesado. A gente usa pra quase tudo, de reforço a armaduras, além das boas e velhas lonas.$B$BMas primeiro a gente precisa botar as mãos em mais couro. É aí que tu entra, $C. Afia a faca e bota um fardo na minha mão. Aí a gente continua a conversa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8589": {
+   "name": "A Horda precisa de mais couro pesado!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8590": {
+   "name": "A Horda precisa de couro grosso!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Grosso à Sargento Umala no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Fico feliz por você ter decidido falar comigo sobre isso, $C. Parece que os preparativos da Horda para a batalha iminente em Ahn'Qiraj estão a todo vapor, mas você e eu ainda precisamos fazer nossa parte.$B$BMe pediram para juntar uma grande quantidade de couro grosso para usar em todo tipo de equipamento de guerra. E eu preciso que você me ajude saindo e juntando couro. Você será honrado e terá a gratidão da Horda se optar por nos ajudar. Pode ser?",
+   "progress": "$C, já voltou com as dez peças de couro grosso de que falamos?",
+   "completion": "Bom trabalho, $C. Tenho certeza de que essas peças de couro grosso serão aproveitadas para reforçar zepelins e fabricar todo tipo de armadura e armamento. Você tem minha gratidão e a da Horda. Volte aqui se encontrar mais couro grosso em suas viagens e que a sorte a acompanhe.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8591": {
+   "name": "A Horda precisa de mais couro grosso!",
+   "progress": "$C, como você pode ver, eu ainda preciso juntar mais couro grosso. Mais uma vez venho pedir sua ajuda nesta tarefa e, prometo, se concluí-la, seus esforços serão reconhecidos.$B$BO tempo urge! Volte aqui com o couro espesso para que possamos concluir nossos preparativos e ir à guerra, heroína!$BCouro Grosso (10)",
+   "completion": "Você conseguiu, $N. Eu sabia que você conseguiria! Mais uma vez, obrigado em nome de toda a Horda. Seus esforços são notáveis e imensamente estimados. Se tiver mais couro grosso para doar, traga-o aqui para mim.$B$BLok'tar Ogar, $C!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8592": {
+   "name": "Tiara do Oráculo",
+   "objectivesText": [
+    "Leve o Diadema de Vek'Nilash, 2 Ídolos do Sábio, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8593": {
+   "name": "Calças do Oráculo",
+   "objectivesText": [
+    "Leve o Pelego Intacto de Ouroboros, 2 Ídolos da Vida, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8594": {
+   "name": "Dragonas do Oráculo",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos do Renascimento, 5 Escaravelhos de Prata e 5 Escaravelhos de Marfim para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8595": {
+   "name": "Campeões mortais",
+   "progress": "Matar um soberano qiraji é um feito notável para um mortal, $N. No entanto, eles são muitos e poderosos. Continue a derrotá-los para provar seu valor como campeão.$BInsígnia do Lorde Qiraji (1)",
+   "completion": "Você segue nos sendo útil, $N. Nosso pacto ainda vigora.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8596": {
+   "name": "Palmilhas do Oráculo",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos da Morte, 5 Escaravelhos de Bronze e 5 Escaravelhos de Ouro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8597": {
+   "name": "Dracônico para Leigos",
+   "objectivesText": [
+    "Encontre o livro de Narain Suavestilo, enterrado em uma ilha nos Mares do Sul."
+   ],
+   "details": "Eu sabia que aquele livro ia servir para alguma coisa um dia! Felizmente eu tive a sagacidade de guardar em lugar seguro.$B$BNão se preocupe, ele está onde ninguém jamais pensaria em procurar. Precisei de um girocóptero só pra chegar lá da primeira vez. Infelizmente eu caí na praia na volta. Foi como se no acidente eu tivesse ganho poderes psíquicos supergnômicos!$B$BProcure o meu girocóptero lá na Praia do Fim do Mundo. De lá, nade pro sul. Você vai saber quando vir!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8598": {
+   "name": "r3sGAte",
+   "objectivesText": [
+    "Leve o Pedido de Resgate a Narain Suavestilo em Tanaris."
+   ],
+   "details": "<O texto do bilhete foi composto com letras soltas coladas no pergaminho.>$B$BEstamos com o seu precioso livro, gnomo. Se quiser vê-lo de novo, faça exatamente o que dissermos.$B$B<Segue-se uma série de instruções detalhadas, que caberia em umas três páginas.>$B$BTraga o dinheiro e venha sozinho!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8599": {
+   "name": "Canção de amor para Narain",
+   "objectivesText": [
+    "Entregue a Carta de Amor de Meridith a Narain Suavestilo em Tanaris."
+   ],
+   "details": "Não recebo muita visita, não. Na verdade, a última vez em que eu tive visita foi quando eu resgatei aquele gnominho doce e fofo das ferragens da máquina voadora.$B$B<O olhar de Meridith se perde nas lembranças.>$B$BVocê o conhece? Narain? Narain Suavestilo? Ah, pra mim seria tão bom se alguém levasse uma mensagem minha para ele... Eu preciso dizer a ele o que eu sinto. Eu sei que é amor! Eu sei! Eu sei!$B$BVocê poderia entregar uma mensagem ao Narain? Minha dívida para com você será eterna!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8600": {
+   "name": "A Horda precisa de couro rústico!",
+   "objectivesText": [
+    "Leve 10 peças de Couro Rústico ao Doutor Serratus no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Sou de opinião que o encaixe da faca na palma da mão é mais importante que o fio da navalha. Até mesmo a lâmina mais cega pode cortar desde que a pressão correta seja aplicada, você não concorda, $C? Mas nós não temos tais problemas, pois nossas lâminas estão sempre afiadas, sim?$B$BBem, sem mais delongas, tenho uma tarefa para você. A serviço da Horda, e para fazer sua parte no esforço de guerra de Ahn'Qiraj, quero que você volte aqui com uma boa quantidade de couro rústico. Você estaria <disposto/disposta>, não?",
+   "progress": "Não é possível que você tenha demorado tanto para esfolar dez peças de couro rústico! Talvez você devesse afiar sua faca? Ou, quem sabe eu não esteja enganado e você já os tenha na mochila?",
+   "completion": "Muito bem, tudo indica que você realizou um trabalho bastante razoável, embora algumas dessas peles pareçam um pouco rotas nas pontas. Pouco importa, a tarefa está concluída e a recompensa é sua. Caso venha a acumular outro fardo de couro rústico, traga-o a mim sem demora.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8601": {
+   "name": "A Horda precisa de mais couro rústico!",
+   "progress": "Seguem os preparativos para a guerra iminente em Ahn'Qiraj, $C. No entanto, para garantir que não sejamos os retardatários ou, pelo menos, que eu não seja responsável pelo nosso atraso, quero que você me traga outro fardo de couro rústico. Sua pronta atenção a esta questão será imensamente estimada, $N.$BCouro Rústico (10)",
+   "completion": "Prática, prática, prática. Uma faca afiada e a capacidade de usá-la vão levá-la longe neste mundo, $N. Vejo que as bordas dessas peles estão melhores que as anteriores. Você comprou outra faca?$B$BSeja como for, somos gratos pelo seu esforço. Sua doação foi notável e, garanto, será aproveitada a contento. Caso esteja de posse de mais couro rústico, não hesite em voltar a ter comigo, pois que eu devo vou precisar.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8602": {
+   "name": "Brafoneiras do Tempestário",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos da Vida, 5 Escaravelhos de Ouro e 5 Escaravelhos de Cristal para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8603": {
+   "name": "Vestimenta do Oráculo",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos da Morte, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8604": {
+   "name": "A Horda precisa de bandagens de lã!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Lã ao Curador Pisa Léguas no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Salve, $C. Estou aqui nos preparativos para a guerra em Ahn'Qiraj coordenando os esforços da Horda para juntar bandagens de lã. Infelizmente, lá no campo de batalha, nossos solados não podem contar com a presença de um curador para mantê-los vivos. Confie em mim. Eu sei isso de antemão. Por isso, estamos juntando esses kits de primeiros socorros para eles.$B$BSe você tiver tempo, preciso de muitas bandagens de lã. Traz pra mim que eu garanto a recompensa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8605": {
+   "name": "A Horda precisa de mais bandagens de lã!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8606": {
+   "name": "Isca!",
+   "objectivesText": [
+    "Narain Suavestilo, em Tanaris, quer que você vá a Hibérnia e coloque o saco de ouro no ponto determinado pelos sequestradores do livro."
+   ],
+   "details": "Entendi! Nós vamos fazer o seguinte: eu encho um saco de pedras e você faz a entrega. Eu sei que diz que é para eu fazer, e eu vou — bom, pelo menos mais ou menos.$B$B<Narain examina você de cima a baixo.>$B$BÉ, você serve sim. Pega esse turbante, essa veste e esse saco de pedras e vai pro local da entrega, em Hibérnia.$B$BPus tudo que você vai precisar num kit especial. Quando eles aparecerem pra fazer a coleta, pega eles no pulo! Isso vai ensinar a essa gente o que acontece com quem se mete com Narain!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8607": {
+   "name": "A Horda precisa de bandagem de magitrama!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Magitrama à Senhora Celara no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Suponho que você esteja falando comigo porque vai me ajudar na coleta de que me incumbiram? Ótimo! Não sei como, e não quero saber, mas quero que você junte uma boa quantidade de bandagem de magitrama. De preferência nova, mas se for usada tudo bem. Traga de volta aqui, $C, e cuidarei pessoalmente para que você receba uma recompensa de acordo.",
+   "progress": "Não vá falhar e me fazer passar por incompetente, $C! Volte aqui o quanto antes com as bandagens de magitrama de que falamos.",
+   "completion": "Inesperado, mas satisfatório. Talvez eu tenha subestimado sua \"capacidade\", $C. Talvez. Você concluiu uma tarefa muito simples, e a recompensa está acima do esperado, mas não deixe que isso lhe suba à cabeça. Se realmente desejar provar seu valor, saia e me traga outro fardo de bandagens de magitrama.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8608": {
+   "name": "A Horda precisa de mais bandagens de magitrama!",
+   "progress": "Você de novo? Interessante. Como você pode ver, ainda estou na coleta para o \"esforço de guerra\" em Ahn'Qiraj. Ou seja, preciso que você saia mais uma vez e me traga outro fardo de bandagens de magitrama. Aguardo ansiosa o seu retorno, $C.$BBandagem de Magitrama (20)",
+   "completion": "Espantoso, $C, de fato você conseguiu de novo! Ora, não é à toa que dizem que tenho bom gosto para escolher quem trabalha comigo. Muito bem, sua contribuição é notável e você colherá os frutos sociais provenientes do seu esforço. Contudo, sugiro que você saia novamente e me traga outro fardo de bandagens de magitrama, se realmente desejar provar seu valor.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8609": {
+   "name": "A Horda precisa de bandagem de runatrama!",
+   "objectivesText": [
+    "Leve 20 Bandagens de Runatrama à Guarda Pétrea Casco Barrento no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Tudo indica que a Horda e a Aliança estejam em uma rota de colisão inevitável na guerra de Ahn'Qiraj. Para nossa surpresa, não é uma guerra entre elas, mas contra os silitídeos e o poder que os controla. Outra surpresa, os dois lados estão fazendo sua parte reunindo os recursos necessários para promover uma guerra bem-sucedida.$B$BEstou juntando bandagens de runatrama para distribuir aos soldados, mas não terei sucesso sem ajuda, sua espero. Você acha que pode me ajudar com isso, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8610": {
+   "name": "A Horda precisa de mais bandagens de runatrama!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8611": {
+   "name": "A Horda precisa de filé de lobo magro!",
+   "objectivesText": [
+    "Leve 20 Filés de Lobo Magro à Guarda-de-Sangue Rawtar no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Eu não estou aqui só para pegar uma cor, $C. Há preparativos de que cuidar. Se a gente quiser esmagar aqueles insetos em Ahn'Qiraj, precisamos estar preparados, e isso inclui comida!$B$BEu estou aqui para juntar e salgar filés de lobo magro pra guerra iminente. Mas, como eu tenho ficar aqui para cuidar de tudo isso, preciso que você saia, mate alguns lobos, prepare os filés de lobo magro cozido e traga para mim. Entendeu direitinho?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8612": {
+   "name": "A Horda precisa de mais filé de lobo magro!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8613": {
+   "name": "A Horda precisa de rabo-amarelo mosqueado!",
+   "objectivesText": [
+    "Leve 20 Rabos-amarelos Mosqueados ao Pescador Lin'do no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "Tá um dia maneiro pra pescar, tu não acha? Isso é bom, porque tô vendo que vou precisar de peixe. A Horda me botou pra juntar uma tonelada de rabo-amarelo mosqueado. Eles falaram que tão precisando dele pra guerra que tá pra rolar em Ahn'Qiraj. Eu mandei pra eles que tô dando o meu jeito. Por isso tô precisando de ajuda. Tu vai me dá uma força, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8614": {
+   "name": "A Horda precisa de mais rabo-amarelo mosqueado!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8615": {
+   "name": "A Horda precisa de salmão assado!",
+   "objectivesText": [
+    "Leve 20 Salmões Assados ao Chefe Garra Afiada no Vale dos Espíritos em Orgrimmar."
+   ],
+   "details": "O esforço de guerra em Ahn'Qiraj é uma tarefa hercúlea, $C. Todo o material reunido aqui, seja metal ou armas, ou mesmo comida, tem a mesma importância. Pois, se ficar dias sem comer, você não terá força para levantar o machado quando for preciso.$B$BPortanto, estamos reunindo toda a comida necessária. Estou juntando salmão assado, um prato escolhido tanto pela sustança quanto pelo bem estar que proporciona. Você pode me ajudar, $C?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8616": {
+   "name": "A Horda precisa de mais salmão assado!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8619": {
+   "name": "Alvafunda, o Ancião",
+   "completion": "É bom ver que os habitantes desta terra ainda prestam homenagem às raças mais antigas. Eu a saúdo, $N! Por favor, aceite esta moeda como agradecimento...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8620": {
+   "name": "A única prescrição",
+   "objectivesText": [
+    "Recupere os 8 Capítulos Perdidos de Dracônico para Leigos, combine-os com a Capa Mágica de Livros e entregue o exemplar restaurado de Dracônico para Leigos: Volume II para Narain Suavestilo, em Tanaris."
+   ],
+   "details": "Eu devia ter imaginado. Meu arqui-inimigo, o Doutor Ívio, aprontando de novo! E agora, graças ao seu fracasso em Hibérnia, o Doutor Ívio destruiu meu livro! Como é que você vai salvar o mundo agora, hein, her<ói/oína>?$B$BO bilhete que eu recebi dizia que o único exemplar conhecido de \"Dracônico para Leigos: Volume II\" foi rasgado em 8 partes e espalhado ao vento! Se você conseguir encontrar esses capítulos perdidos, use essa capa mágica para remontá-los e me devolva.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8621": {
+   "name": "Guarda-pés do Tempestário",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos do Sábio, 5 Escaravelhos de Bronze e 5 Escaravelhos de Barro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8622": {
+   "name": "Cota do Tempestário",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos do Sábio, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8623": {
+   "name": "Diadema do Tempestário",
+   "objectivesText": [
+    "Leve o Diadema de Vek'lor, 2 Ídolos do Renascimento, 5 Escaravelhos de Pedra e 5 Escaravelho de Cristal para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8624": {
+   "name": "Perneiras do Tempestário",
+   "objectivesText": [
+    "Leve a Pele do Grande Verme da Areia, 2 Ídolos da Disputa, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8625": {
+   "name": "Ombreiras Enigmáticas",
+   "objectivesText": [
+    "Leve os Braceletes Qiraji de Dominância, 2 Ídolos do Renascimento, 5 Escaravelhos de Prata e 5 Escaravelhos de Marfim para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8626": {
+   "name": "Guarda-pés do Atirador",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos da Vida, 5 Escaravelhos de Pedra e 5 Escaravelhos de Osso para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8627": {
+   "name": "Peitoral do Vingador",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos do Sábio, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8628": {
+   "name": "Coroa do Vingador",
+   "objectivesText": [
+    "Leve o Diadema de Vek'lor, 2 Ídolos do Renascimento, 5 Escaravelhos de Pedra e 5 Escaravelho de Cristal para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8629": {
+   "name": "Guarda-pernas do Vingador",
+   "objectivesText": [
+    "Leve a Pele do Grande Verme da Areia, 2 Ídolos da Disputa, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8630": {
+   "name": "Brafoneiras do Vingador",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos da Vida, 5 Escaravelhos de Cristal e 5 Escaravelhos de Ouro para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8631": {
+   "name": "Perneiras Enigmáticas",
+   "objectivesText": [
+    "Leve o Pelego Intacto de Ouroboros, 2 Ídolos do Sábio, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8632": {
+   "name": "Diadema Enigmático",
+   "objectivesText": [
+    "Leve o Diadema de Vek'Nilash, 2 Ídolos da Noite, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8633": {
+   "name": "Vestes enigmáticas",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos do Sol, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8634": {
+   "name": "Botas Enigmáticas",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos do Sol, 5 Escaravelhos de Prata e 5 Escaravelhos de Cristal para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8635": {
+   "name": "Fenderrocha, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8636": {
+   "name": "Troapedra, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8637": {
+   "name": "Botas do Causamortis",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos da Disputa, 5 Escaravelhos de Cristal e 5 Escaravelhos de Osso para Kandrostrasz em Ahn'Qiraj. Esta missão também exige a facção Neutra com a Prole de Nozdormu."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8638": {
+   "name": "Colete do Causamortis",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos da Disputa, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8639": {
+   "name": "Elmo do Causamortis",
+   "objectivesText": [
+    "Leve o Diadema de Vek'lor, 2 Ídolos de Guerra, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Andorgos em Ahn'Qiraj. Também é necessário ser Respeitad<o/a> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8640": {
+   "name": "Perneiras do Causamortis",
+   "objectivesText": [
+    "Leve o Pelego Intacto de Ouroboros, 2 Ídolos da Noite, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8641": {
+   "name": "Espaldares do Causamortis",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos do Sol, 5 Escaravelhos de Prata e 5 Escaravelhos de Barro para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8642": {
+   "name": "Venaprata, o Ancião",
+   "completion": "É bom ver que os habitantes desta terra ainda prestam homenagem às raças mais antigas. Eu o saúdo, $N! Por favor, aceite esta moeda como agradecimento...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8643": {
+   "name": "Topoalto, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8644": {
+   "name": "Pedraforte, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8645": {
+   "name": "Obsidiano, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8646": {
+   "name": "Malhogrito, o Ancião",
+   "completion": "É bom ver que os habitantes desta terra ainda prestam homenagem às raças mais antigas. Eu o saúdo, $N! Por favor, aceite esta moeda como agradecimento...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8647": {
+   "name": "Vocifúria, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8648": {
+   "name": "Negrocerne, o Ancião",
+   "completion": "É bom ver que os habitantes desta terra ainda prestam homenagem às raças mais antigas. Eu o saúdo, $N! Por favor, aceite esta moeda como agradecimento...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8649": {
+   "name": "Tempescenho, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8650": {
+   "name": "Laureaneve, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8651": {
+   "name": "Bandaferro, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8652": {
+   "name": "Nascitumba, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8653": {
+   "name": "Poçodouro, o Ancião",
+   "completion": "É bom ver que os habitantes desta terra ainda prestam homenagem às raças mais antigas. Eu o saúdo, $N! Por favor, aceite esta moeda como agradecimento...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8654": {
+   "name": "Primapedra, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8655": {
+   "name": "Grevas do Vingador",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos do Sábio, 5 Escaravelhos de Bronze e 5 Escaravelhos de Barro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8656": {
+   "name": "Cota do Atirador",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos da Vida, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8657": {
+   "name": "Diadema do Atirador",
+   "objectivesText": [
+    "Leve o Diadema de Vek'lor, 2 Ídolos da Disputa, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8658": {
+   "name": "Perneiras do Atirador",
+   "objectivesText": [
+    "Leve a Pele do Grande Verme da Areia, 2 Ídolos do Sol, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8659": {
+   "name": "Brafoneiras do Atirador",
+   "objectivesText": [
+    "Leve os Braceletes do Comando Qiraji, 2 Ídolos de Guerra, 5 Escaravelhos de Cristal e 5 Escaravelhos de Marfim para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8660": {
+   "name": "Palmilhas do Arauto da Ruína",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos da Noite, 5 Escaravelhos de Barro e 5 Escaravelhos de Marfim para Kandrostrasz em Ahn'Qiraj. Esta missão também exige a facção Neutra com a Prole de Nozdormu."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8661": {
+   "name": "Vestes do Arauto da Ruína",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos da Noite, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8662": {
+   "name": "Diadema do Arauto da Ruína",
+   "objectivesText": [
+    "Leve o Diadema de Vek'Nilash, 2 Ídolos da Morte, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8663": {
+   "name": "Calças do Arauto da Ruína",
+   "objectivesText": [
+    "Leve a Pele do Grande Verme da Areia, 2 Ídolos do Renascimento, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8664": {
+   "name": "Dragonas do Arauto da Ruína",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos do Sábio, 5 Escaravelhos de Bronze e 5 Escaravelhos de Osso para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8665": {
+   "name": "Botas da Gênese",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos do Renascimento, 5 Escaravelhos de Pedra e 5 Escaravelhos de Prata para Kandrostrasz em Ahn'Qiraj. Esta missão também exige facção Neutra com a Prole de Nozdormu."
+   ],
+   "details": "A magia qiraji é antiga e poderosa. Os qirajis mais poderosos empunham itens de um poder tal que seriam capazes de paralisar até mesmo um dragão.$B$BTraga-me os braceletes do domínio qiraji e outros componentes secundários e criarei proteções poderosas para seus pés.$B$BIsso vai ser muito útil na luta contra o inimigo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8666": {
+   "name": "Colete da Gênese",
+   "objectivesText": [
+    "Leve a Carapaça do Deus Antigo, 2 Ídolos do Renascimento, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Vethsera em Ahn'Qiraj. Também é necessário ser <Honrado/Honrada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "O Deus Antigo, cujo nome não ouso proferir, desperta lentamente de seu sono nos subterrâneos de Ahn'Qiraj. O terrível destino de Azeroth pode se concretizar em questão de dias ou anos; o tempo nada significa para criatura tão poderosa.$B$BQuando as estrelas se mostrarem favoráveis, ele se lançará contra todos os seres vivos com terrível ira. Você precisa encontrá-lo antes disso e descobrir um modo de dar fim à sua existência.$B$BFaça isso e me traga um pedaço da carapaça dele. Eu lhe agraciarei com uma armadura que nenhum mortal jamais vestiu... digna de quem derrotou um deus!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8667": {
+   "name": "Elmo da Gênese",
+   "objectivesText": [
+    "Leve o Diadema de Vek'lor, 2 Ídolos da Vida, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Andorgos em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Os Imperadores Gêmeos... seus murmúrios incessantes estão, lentamente, embotando minha razão. Zombam de mim, sabendo que não posso penetrar em seus domínios para salvar meu irmão, Arygos.$B$BEm minhas visões, enxergo seus rostos monstruosos adornados por poderosas coroas. Mas eu terei minha vingança... Submeterei estes símbolos do poder Qiraji à nossa vontade.$B$BTraga-me os componentes de que preciso, $N, e forjarei uma peça de poder inigualável para proteger sua cabeça.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8668": {
+   "name": "Calças da Gênese",
+   "objectivesText": [
+    "Leve a Pele do Grande Verme da Areia, 2 Ídolos de Guerra, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Kandrostrasz em Ahn'Qiraj. Também é necessário ser <Respeitado/Respeitada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Deseja provar seu valor ao meu povo, mortal? Muito bem, talvez possamos nos ajudar mutuamente.$B$BO verme da areia ancestral, Ouroboros, é um ser de lendário poder. Há rumores de que ele foi criado pelo próprio Deus Antigo como um arremedo de vida.$B$BSua pele é extraordinária... espessa, quase impenetrável, porém flexível, permitindo que se mova com a velocidade e graça de uma criatura de porte bem menor.$B$BTraga-me uma amostra da sua pele juntamente com outros componentes secundários, e eu confeccionarei proteções de imenso poder para suas pernas.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8669": {
+   "name": "Ombreiras da Gênese",
+   "objectivesText": [
+    "Leve os Braceletes do Domínio Qiraji, 2 Ídolos da Disputa, 5 Escaravelhos de Ouro e 5 Escaravelhos de Osso para Andorgos em Ahn'Qiraj. Também é necessário ser <Tolerado/Tolerada> pela Prole de Nozdormu para concluir a missão."
+   ],
+   "details": "Dizem que as exuberantes ombreiras usadas pelas raças mortais foram uma tentativa de imitar asas de dragão.$B$BTraga-me os braceletes utilizados pelos líderes supremos dos qirajis, e eu os transformarei em proteções de ombros mais terríveis que as asas do próprio Nefarian!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8670": {
+   "name": "Runa Totem, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8671": {
+   "name": "Totem da Fúria, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8672": {
+   "name": "Agulha de Pedra, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8673": {
+   "name": "Casco Sangrento, o Ancião",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8674": {
+   "name": "Casco Invernal, o Ancião",
+   "completion": "Seu espírito é forte para alguém tão jovem, $N. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8675": {
+   "name": "Persegue-céus, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8676": {
+   "name": "Juba Agreste, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8677": {
+   "name": "Chifre Preto, a Anciã",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8678": {
+   "name": "Chifre Orgulhoso, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8679": {
+   "name": "Temível Totem, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8680": {
+   "name": "Totem do Vento, a Anciã",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8681": {
+   "name": "Chifre Troante, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8682": {
+   "name": "Vidente do Céu, o Ancião",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8683": {
+   "name": "Andarilha da Aurora, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8684": {
+   "name": "Vidente Onírico, o Ancião",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8685": {
+   "name": "Andanévoa, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8686": {
+   "name": "Monte Alto, o Ancião",
+   "completion": "Seu espírito é forte para alguém tão jovem, $C. Eu aceito a homenagem e lhe ofereço esta moeda em troca...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8687": {
+   "name": "Alvo: escavadores da Colme'Zora",
+   "objectivesText": [
+    "Mate 30 Escavadores da Colme'Zora e fale novamente com o Comandante Mar'alith no Forte Cenariano, que fica em Silithus. Você também precisa entregar as Instruções de Combate VII para concluir a missão."
+   ],
+   "details": "Foram solicitados reforços para se juntarem ao ataque à Colme'Zora e você foi <selecionado/selecionada> para atacar os escavadores da Colme'Zora. Fale novamente com o comandante Mar'alith quando tiver concluído a sua tarefa.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8688": {
+   "name": "Andavento, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8689": {
+   "name": "Mortalha da Sabedoria Infinita",
+   "objectivesText": [
+    "Leve 1 Clâmide Marcial Qiraji, 2 Ídolos de Jaspe, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8690": {
+   "name": "Manto da Tempestade Iminente",
+   "objectivesText": [
+    "Leve 1 Clâmide Régia Qiraji, 2 Ídolos Obsidianos, 5 Escaravelhos de Barro e 5 Escaravelhos de Ouro para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8691": {
+   "name": "Clâmide dos Segredos Obscuros",
+   "objectivesText": [
+    "Leve 1 Clâmide Marcial Qiraji, 2 Ídolos de Alabastro, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8692": {
+   "name": "Manto da Vida Interminável",
+   "objectivesText": [
+    "Leve 1 Clâmide Régia Qiraji, 2 Ídolos Vermelhos, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8693": {
+   "name": "Manto das Sombras Veladas",
+   "objectivesText": [
+    "Leve 1 Clâmide Marcial Qiraji, 2 Ídolos Lazúli, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8694": {
+   "name": "Mortalha dos Nomes Proibidos",
+   "objectivesText": [
+    "Leve 1 Clâmide Régia Qiraji, 2 Ídolos Âmbar, 5 Escaravelhos de Marfim e 5 Escaravelhos de Bronze para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8695": {
+   "name": "Capa da Justiça Eterna",
+   "objectivesText": [
+    "Leve 1 Clâmide Régia Qiraji, 2 Ídolos Obsidianos, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8696": {
+   "name": "Manto do Caminho Oculto",
+   "objectivesText": [
+    "Leve 1 Clâmide Régia Qiraji, 2 Ídolos Bruxuleantes, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para Keyl Garralesta em Silithus. Também é necessário ser <Reverenciado/Reverenciada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Agrada-me saber que você nos ajudará no ataque a Ahn'Qiraj, $N. Posso criar um item de proteção que lhe será útil na luta contra o inimigo, $C.$B$BVou precisar de uma clâmide qiraji, que ajustarei a você, claro. Também vou precisar de ídolos e escaravelhos que usarei para criar um broche que lhe sirva.$B$BPrometo que você não se decepcionará.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8697": {
+   "name": "Anel da Sabedoria Infinita",
+   "objectivesText": [
+    "Leve 1 Anel Cerimonial Qiraji, 2 Ídolos Obsidianos, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8698": {
+   "name": "Anel da Tempestade Iminente",
+   "objectivesText": [
+    "Leve 1 Anel Magistral Qiraji, 2 Ídolos Vermelhos, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8699": {
+   "name": "Anel dos Segredos Obscuros",
+   "objectivesText": [
+    "Leve 1 Anel Magistral Qiraji, 2 Ídolos Lazúli, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8700": {
+   "name": "Anel da Vida Interminável",
+   "objectivesText": [
+    "Leve 1 Anel Magistral Qiraji, 2 Ídolos de Alabastro, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um poderoso anel para você, <companheiro druida/companheira druidesa>.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8701": {
+   "name": "Anel das Sombras Veladas",
+   "objectivesText": [
+    "Leve 1 Anel Cerimonial Qiraji, 2 Ídolos Ônix, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8702": {
+   "name": "Anel dos Nomes Proibidos",
+   "objectivesText": [
+    "Leve 1 Anel Cerimonial Qiraji, 2 Ídolos de Jaspe, 5 Escaravelhos de Pedra e 5 Escaravelhos de Cristal para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8703": {
+   "name": "Anel da Justiça Eterna",
+   "objectivesText": [
+    "Leve 1 Anel Magistral Qiraji, 2 Ídolos Vermelhos, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8704": {
+   "name": "Sinete do Caminho Oculto",
+   "objectivesText": [
+    "Leve 1 Anel Cerimonial Qiraji, 2 Ídolos Âmbar, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para a Arauto do Vento Yessendra em Silithus. Também é necessário ser <Honrado/Honrada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Há rumores de que os anéis usados por tenentes qirajis concedem habilidades formidáveis. As gemas conspurcadas que os adornam podem ser substituídas por material mais puro para a criação de versões não conspurcadas dos anéis.$B$BAs gemas que adornam os ídolos qirajis serviriam bem, por sua alta qualidade.$B$BTraga-me o anel e os ídolos e criarei um anel poderoso para você, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8705": {
+   "name": "Martelete da Sabedoria Infinita",
+   "objectivesText": [
+    "Leve 1 Punho Ornamentado Qiraji, 2 Ídolos Bruxuleantes, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8706": {
+   "name": "Martelo da Tempestade Iminente",
+   "objectivesText": [
+    "Leve 1 Punho de Pontas Qiraji, 2 Ídolos Âmbar, 5 Escaravelhos de Marfim e 5 Escaravelhos de Bronze para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8707": {
+   "name": "Lâmina dos Segredos Obscuros",
+   "objectivesText": [
+    "Leve 1 Punho Ornamentado Qiraji, 2 Ídolos Obsidianos, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8708": {
+   "name": "Maça da Vida Interminável",
+   "objectivesText": [
+    "Leve 1 Punho Ornamentado Qiraji, 2 Ídolos de Jaspe, 5 Escaravelhos de Cristal e 5 Escaravelhos de Pedra para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8709": {
+   "name": "Adaga das Sombras Veladas",
+   "objectivesText": [
+    "Leve 1 Punho de Pontas Qiraji, 2 Ídolos Rubros, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8710": {
+   "name": "Cris dos Nomes Proibidos",
+   "objectivesText": [
+    "Leve 1 Punho Ornamentado Qiraji, 2 Ídolos Ônix, 5 Escaravelhos de Ouro e 5 Escaravelhos de Barro para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8711": {
+   "name": "Lâmina da Justiça Eterna",
+   "objectivesText": [
+    "Leve 1 Punho de Pontas Qiraji, 2 Ídolos Âmbar, 5 Escaravelhos de Bronze e 5 Escaravelhos de Marfim para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8712": {
+   "name": "Foice do Caminho Oculto",
+   "objectivesText": [
+    "Leve 1 Punho de Pontas Qiraji, 2 Ídolos Lazúli, 5 Escaravelhos de Prata e 5 Escaravelhos de Osso para o Guardião Haro em Silithus. Também é necessário ser <Exaltado/Exaltada> pelo Círculo Cenariano para concluir a missão."
+   ],
+   "details": "Os qirajis e seus servos empunham itens feitos do mais puro e raro material: ossos de criaturas ancestrais gigantescas, gemas das profundezas da terra, metais puros e resistentes.$B$BA simples visão de artefatos qirajis me leva a querer praticar meu ofício com suas peças estilhaçadas e fundidas. Prove sua lealdade ao Círculo, $N, e criarei uma poderosa arma dos melhores materiais qirajis para você.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8713": {
+   "name": "Stelacanto, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8714": {
+   "name": "Raioluna, a Anciã",
+   "completion": "Os céus, onde infinitas estrelas brilham, guardam as respostas para os mistérios terrenos, $N. Será então que um sábio, ou um tolo, pode olhar para cima e descobrir a verdade?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8715": {
+   "name": "Folhâmina, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8716": {
+   "name": "Clarestela, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8717": {
+   "name": "Velaluna, o Ancião",
+   "completion": "Os céus, onde infinitas estrelas brilham, guardam as respostas para os mistérios terrenos, $N. Será então que um sábio, ou um tolo, pode olhar para cima e descobrir a verdade?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8718": {
+   "name": "Açolesto, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8719": {
+   "name": "Chialâmina, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8720": {
+   "name": "Brilhacéu, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8721": {
+   "name": "Tecestrela, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8722": {
+   "name": "Correcampo, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8723": {
+   "name": "Venterral, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8724": {
+   "name": "Serenalva, a Anciã",
+   "completion": "Os céus, onde infinitas estrelas brilham, guardam as respostas para os mistérios terrenos, $N. Será então que um sábio, ou um tolo, pode olhar para cima e descobrir a verdade?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8725": {
+   "name": "Cantoflúvio, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8726": {
+   "name": "Setalume, a Anciã",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8727": {
+   "name": "Murmulonge, o Ancião",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8728": {
+   "name": "As boas e más notícias",
+   "objectivesText": [
+    "Narain Suavestilo, em Tanaris, quer que você leve para ele 20 Barras de Arcanita, 10 Minérios de Elemêntio, 10 Diamantes Azerotianos e 10 Safiras Azuis."
+   ],
+   "details": "É, demorou um pouco mais do que o previsto. Deixe-me ver o que diz o livro-caixa.$B$B<Narain lê o livro, resmungando algumas palavras por entres os dentes.>$B$BA boa notícia é que tenho 99% de certeza de que consigo fazer uma boia de arcanita que atenda às suas necessidades. Aí que vem a má notícia...$B$BA má notícia é que vou precisar de bastante arcanita, minério de elemêntio e pedras preciosas raras.$B$BTraga-me tudo e eu farei a boia.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8729": {
+   "name": "A ira de Neptulon",
+   "objectivesText": [
+    "Use a Boia de Arcanita na Voragem Serpenteante da Baía das Tempestades, que fica em Azshara."
+   ],
+   "details": "Mencionei as más notícias? É o Barão Tutu: trinta metros de morte e destruição. Acho que devia ter mencionado isso antes.$B$BDe acordo com minha exímia clarividência psicopsiônica, você verá que o melhor lugar para lançar essa isca é na costa de Azshara, na Baía das Tempestades.$B$BProcure por um redemoinho serpenteante, provavelmente cheia de restos de naufrágios.$B$BÀ propósito, é melhor levar companhia.$B$BAgora, caso, por milagre, tenha êxito, leve o estilhaço de cetro para Anacronos.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8730": {
+   "name": "A corrupção de Nefarius",
+   "objectivesText": [
+    "Mate Nefarian e recupere o Estilhaço de Cetro Vermelho. Devolva o Estilhaço de Cetro Vermelho a Anacronos nas Cavernas do Tempo, em Tanaris. Você tem 5 horas para concluir a tarefa."
+   ],
+   "details": "É você, <campeão/campeã>? Faz mil anos que me confiaram o estilhaço, e é na hora mais difícil que alguém se ergue para livrar-me dele... mas o que seria da tragédia sem a crueldade?$B$B<Vaelastrasz solta uma tosse fraca.>$B$BO... estilhaço do cetro está com Nefarius agora.$B$BO tempo urge. Nefarius quer destruir o estilhaço. Você tem que andar logo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8731": {
+   "name": "Serviço em campanha",
+   "objectivesText": [
+    "Apresente-se para Krug Rachacrânio no posto da Legião de Orgrimmar em frente a Colme'Régia. Prepare seus Papéis em Branco de Serviço em Campanha, obtenha Papéis Assinados de Serviço em Campanha e leve-os ao Arauto do Vento Kaldon no Forte Cenariano.$B$BNota: curar ou lançar feitiços benéficos em um membro da Legião de Orgrimmar marcará você para o JxJ."
+   ],
+   "details": "Saudações, $N. Antes de lhe atribuir tarefas mais intrincadas na guerra, é preciso que você faça sua parte no serviço em campanha.$B$BA Legião de Orgrimmar do Capitão Rachacrânio está estacionada perto de Colme'Régia.$B$BApresente-se a ele e fale novamente comigo quando tiver concluído ser serviço em campanha. Deverei ter uma tarefa mais complexa para você então.$B$BAh, por favor, faça o possível para ficar longe da Brigada de Altaforja. O clima está tenso entre nossos voluntários da Aliança e da Horda.",
+   "progress": "Já concluiu o serviço em campanha, $N? Você encontra o Capitão Rachacrânio perto de Colme'Régia.",
+   "completion": "Posso ver que Krug não liga muito para burocracia. Ele assinou isso com sangue de silitídeo!$B$BMuito bem, $N. Preparei uma série de tarefas que devem aproveitar bem suas habilidades de $C.$B$BCom seus esforços contínuos e os de pessoas como você, nosso inimigo logo será esmagado!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8732": {
+   "name": "Papéis de serviço em campanha",
+   "progress": "Papéis de serviço em campanha? Que absurdo é esse, $N?$BPapéis Preparados de Serviço em Campanha (1)",
+   "completion": "Nos velhos tempos, eu marcaria sua testa com o sangue da criatura para registrar seus feitos aqui. Thrall insiste que a gente atenda às solicitações dos druidas.$B$BAqui, pegue esses papéis e leve de volta ao Forte Cenariano. Aposto que eles darão a você uma tarefa adequada.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8733": {
+   "name": "Erânicos, Tirano dos Sonhos",
+   "objectivesText": [
+    "Vá para o continente de Teldrassil e encontre o agente de Malfurion perto das muralhas de Darnassus."
+   ],
+   "details": "É uma jornada de redenção, <herói/heroína>. Se eu morresse hoje, teria morrido por uma causa nobre e justa. Você tem que recuperar o estilhaço de cetro verde. Você tem que remover a mácula com que os Deuses Antigos mancharam Erânicos.$B$BVá para Darnassus. Em frente às muralhas da cidade, um de meus agentes espera. O agente vai ajeitar tudo e informar Tyrande de nosso plano sem que Guenelmo perceba.$B$B<Malfurion suspira.>$B$BHá mil anos que essa derrocada vem se ensaiando...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8734": {
+   "name": "Tyrande e Remulos",
+   "objectivesText": [
+    "Vá à Clareira da Lua e fale com o Guardião Remulos."
+   ],
+   "details": "Tyrande será avisada, mortal. O Shan'do Tempesfúria me preparou para esta eventualidade.$B$BAgora você deve rumar para a Clareira da Lua a fim de ter com Remulos. Ele terá mais instruções para lhe dar acerca da evocação de Erânicos.$B$BTodos lhe desejamos a melhor das sortes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8735": {
+   "name": "A Corrupção do Pesadelo",
+   "objectivesText": [
+    "Vá até os quatro portais do Sonho Esmeralda em Azeroth e obtenha um Fragmento da Corrupção do Pesadelo de cada um. Quando tiver cumprido essa tarefa, fale novamente com o Guardião Remulos na Clareira da Lua."
+   ],
+   "details": "Você terá que ir aos quatro portais oníricos de Azeroth. Em cada um deles, vai que ter pegar um fragmento da corrupção do Pesadelo. Os fragmentos estarão com os draconianos que vivem na região dos portais. Volte depois que tiver juntado os fragmentos.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8736": {
+   "name": "Os pesadelos manifestos",
+   "objectivesText": [
+    "Defenda o Refúgio Noturno de Erânicos. Impeça que o Guardião Remulos pereça. Não mate Erânicos. Defenda-se. Espere Tyrande."
+   ],
+   "details": "Temos que nos conter contra Erânicos. Nosso intuito é redimi-lo, não destruí-lo.$B$BTyrande já está a caminho para nos ajudar com essa tarefa. Temos que resistir aos ataques do dragão e salvar o Refúgio Noturno da destruição certa.$B$BFique de guarda! Você e seus aliados são nossa única esperança.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8737": {
+   "name": "Templário Lazúli",
+   "objectivesText": [
+    "Evoque e mate um Templário Lazúli e fale novamente com Bor Juba Agreste no Forte Cenariano. Você também precisa entregar as Instruções Táticas I para concluir a missão."
+   ],
+   "details": "O Martelo do Crepúsculo e os nobres elementais que eles veneram são uma formidável ameaça às nossas operações aqui em Silithus. Com os novos inimigos que estamos enfrentando em Ahn'Qiraj, não podemos nos dar o luxo de baixar a guarda contra nossos inimigos aqui fora.$B$BAche um modo de evocar e destruir um Templário Lazúli e apresente-se a Bor Juba Agreste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8738": {
+   "name": "Relatório do Batedor de Colme'Régia",
+   "objectivesText": [
+    "Contate o Batedor Cenariano Landion no interior da Colme'Régia e entregue o Relatório do Batedor de Colme'Régia ao Arauto do Vento Chifre Altivo no Forte Cenariano. Você também precisa entregar as Instruções Táticas VII para concluir a missão."
+   ],
+   "details": "Mandamos nossos melhores batedores às colmeias dos silitídeos para espionar. O batedor Landion está observando a movimentação em Colme'Régia há dias. Encontre-o e obtenha o relatório dele. Precisamos agir o mais rápido possível com base nessas informações, $N.",
+   "progress": "O Batedor Landion já está dentro de Colme'Régia. Rápido, $N! O tempo urge.",
+   "completion": "Seus esforços são muito bem-vindos, $N. Vou ler os relatórios dos batedores imediatamente. Esteja à vontade para ir cumprir sua próxima missão.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8739": {
+   "name": "Relatório do Batedor de Colme'Ashi",
+   "objectivesText": [
+    "Contate a Batedora Cenariana Jalia no interior da Colme'Ashi e entregue o Relatório do Batedor de Colme'Ashi ao Arauto do Vento Chifre Altivo no Forte Cenariano. Você também precisa entregar as Instruções Táticas VIII para concluir a missão."
+   ],
+   "details": "Mandamos nossos melhores batedores às colmeias dos silitídeos para espionar. A batedora Jalia está observando a movimentação na Colme'Ashi há dias. Encontre-a e obtenha o relatório dela. Precisamos agir o mais rápido possível com base nessas informações, $N.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8740": {
+   "name": "Os espoliadores do Crepúsculo",
+   "objectivesText": [
+    "Mate a Espoliadora do Crepúsculo Mirna e 5 Espoliadores do Crepúsculo. Apresente-se ao Arauto do Vento Chifre Altivo depois que tiver concluído a tarefa. Você também precisa entregar as Instruções Táticas IX para concluir a missão."
+   ],
+   "details": "Bandos de sectários do Martelo do Crepúsculo foram vistos cavalgando fora do alcance de nossas tropas no Forte Cenariano, onde atacam caravanas e patrulhas menores.$B$BLocalize e derrote os espoliadores do crepúsculo e sua líder, uma guerreira terrível que atende por Mirna. Apresente-se ao Arauto do Vento Chifre Altivo depois que tiver cumprido a missão.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8741": {
+   "name": "O campeão está de volta",
+   "objectivesText": [
+    "Leve o Estilhaço de Cetro Verde a Anacronos, que está nas Cavernas do Tempo, em Tanaris."
+   ],
+   "details": "O guardião aguarda seu retorno, $N. Leve o estilhaço de cetro verde a Anacronos nas Cavernas do Tempo.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8742": {
+   "name": "O poder de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8743": {
+   "name": "Soe um Gongo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8744": {
+   "name": "Um presente cuidadosamente embrulhado",
+   "completion": "Uma pequena etiqueta no presente diz:$B$BPara $N,$B$BUm feliz Véu de Inverno e um próspero ano novo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8745": {
+   "name": "O tesouro do Atemporal",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8746": {
+   "name": "Metzen, a Rena",
+   "objectivesText": [
+    "Encontre Metzen, a Rena. Procure por pistas nos pedidos de resgate para descobrir onde ele está sendo mantido.$B$BQuando encontrar Metzen, use a Bolsa de Pó de Rena para jogar um pozinho nele. Isso irá livrar Metzen do cativeiro.$B$BApós libertar Metzen, devolva a Bolsa de Pó de Rena para Polyxopo Pechisbeque em Orgrimmar."
+   ],
+   "details": "Deu ZICA GERAL! Metzen, a Rena, foi raptada!$B$BMetzen é uma das oito renas do Papai Inverno e propriedade da Fazenda Bosque Defumado. Mandaram não só um, mas DOIS pedidos de resgate de galeras dizendo que estão com o Metzen. O feriadão já tá batendo aí e do cofre porquinho só sobrou o toucinho! Por favor, ache o Metzen e traz ele de volta!$B$BDá uma olhada nos pedidos de resgate e vê se acha alguma pista. Taca esse pó de rena no Metzen que ele vai se soltar na hora!$B$BPor favor, vai logo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8747": {
+   "name": "Caminho do protetor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8748": {
+   "name": "Caminho do protetor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8749": {
+   "name": "Caminho do protetor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8750": {
+   "name": "Caminho do protetor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8751": {
+   "name": "O protetor de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8752": {
+   "name": "Caminho do conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8753": {
+   "name": "Caminho do conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8754": {
+   "name": "Caminho do conquistador",
    "fetched": "2026-10-05",
    "v": 2
   }

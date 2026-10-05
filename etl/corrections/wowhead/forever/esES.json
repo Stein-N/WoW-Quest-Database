@@ -2833,6 +2833,406 @@
    "completion": "¡Nos has probado una vez más tu honor! Me aseguraré de que los míos conozcan todas tus hazañas.$B$BRecuerda traerme todas las cuentas de los Nevada que encuentres. Por cada juego que me traigas hablaré de ti a la tribu.",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8508": {
+   "name": "Papeles de servicio de campo",
+   "progress": "Supongo que quieres que te firme esos papeles, muchacha.$BPapeles de servicio de campo listos (1)",
+   "completion": "Sí, supongo que hoy en día, esa pequeña escaramuza pasa por servicio de campo... Lleva esto de vuelta al Fuerte Cenarion, seguro que tienen algo facilito que darte.$B$B¡En marcha!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8555": {
+   "name": "Encomienda a los Vuelos",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8565": {
+   "name": "Victorias del pasado en Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8566": {
+   "name": "Victorias del pasado en Arathi",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8567": {
+   "name": "Victorias del pasado en Garganta Grito de Guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8568": {
+   "name": "Victorias del pasado en Garganta Grito de Guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8569": {
+   "name": "Esfuerzos del pasado en Garganta Grito de Guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8570": {
+   "name": "Esfuerzos del pasado en Garganta Grito de Guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8576": {
+   "name": "La traducción del libro de contabilidad",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8579": {
+   "name": "Campeones mortales",
+   "progress": "Presentimos la presencia de nuestra estirpe esclavizada en el interior de Ahn'Qiraj; y ni un ejército de dragones bastarían para rescatarlos, $R.$B$BSi nos acercamos un poco más, el mismo hechizo que los retiene nos colocaría firmemente bajo el control de C'Thun.$B$BEl dios antiguo ha anticipado nuestra llegada. Toda esperanza es vana. ¿Qué diferencia podría suponer un simple mortal como tú?$BInsignia Qiraji de Lord (1)",
+   "completion": "Veo que no eres un mortal cualquiera, $N. Tus posibilidades contra el dios antiguo, aunque ínfimas, son mayores que las nuestras en este momento. A fin de cuentas, puede que espera a dragones en la puerta pero no está preparado para alguien como tú.$B$BIgual que Anacronos y Corzocelada derrotaron a los Qiraji hace mil años gracias a la alianza entre mortales y dragones, también deberíamos llegar a un pacto. Gánate la confianza del Vuelo de Bronce y te ganarás la nuestra. Solo entonces haremos de ti un Campeón de verdad.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8595": {
+   "name": "Campeones mortales",
+   "progress": "Matar a un señor qiraji es un logro notable para un mortal, $N. Sin embargo, son muchos y poderosos. Sigue derrotándolos y demuestra lo que vales como nuestro Campeón.$BInsignia Qiraji de Lord (1)",
+   "completion": "Sigues sirviéndonos bien, $N. Nuestro pacto sigue en pie.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8619": {
+   "name": "Alborhondo el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8635": {
+   "name": "Parterroca el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8636": {
+   "name": "Rocaestruendo el Ancestro",
+   "completion": "La materia de la vida está condenada a morir y volver a la tierra, pero la materia del espíritu vive toda la eternidad. Te deseo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8642": {
+   "name": "Venaplata el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8643": {
+   "name": "Altacumbre el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8644": {
+   "name": "Petraforte el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8645": {
+   "name": "Obsidiano el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8646": {
+   "name": "Rugidomazo el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8647": {
+   "name": "Bramira el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8648": {
+   "name": "Cuoreoscuro el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8649": {
+   "name": "Tormenceño el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8650": {
+   "name": "Corona Nevada el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8651": {
+   "name": "Vetaferro el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8652": {
+   "name": "Sapulnato el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8653": {
+   "name": "Pozo de Oro el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8654": {
+   "name": "Primapiedra el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8670": {
+   "name": "Tótem de Runa el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8671": {
+   "name": "Tótem de Ira el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8672": {
+   "name": "Picopiedra el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8673": {
+   "name": "Pezuña de Sangre el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8674": {
+   "name": "Pezuña Invernal el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8675": {
+   "name": "Cazacielo el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8676": {
+   "name": "Ferocrín el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8677": {
+   "name": "Astaoscura el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8678": {
+   "name": "Astaorgullo, el ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8679": {
+   "name": "Tótem Siniestro el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8680": {
+   "name": "Tótem de Viento el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8681": {
+   "name": "Tronacuerno el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8682": {
+   "name": "Ancestro Vidente del Cielo",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8683": {
+   "name": "Caminalba el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8684": {
+   "name": "Visionírico el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8685": {
+   "name": "Caminaniebla el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8686": {
+   "name": "Altomonte el Ancestro",
+   "completion": "Tu espíritu arde lleno de vida, joven $C. Acepto el homenaje que me prestas, y te ofrezco a cambio esta muestra...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8688": {
+   "name": "Fuerteviento el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8713": {
+   "name": "Cantoestelar el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8714": {
+   "name": "Lunaplena el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8715": {
+   "name": "Filohoja el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8716": {
+   "name": "Claroestelar el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8717": {
+   "name": "Guardaluna el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8718": {
+   "name": "Filoveloz el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8719": {
+   "name": "Cantofilo el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8720": {
+   "name": "Relucielo el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8721": {
+   "name": "Tejestrellas el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8722": {
+   "name": "Correpradera el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8723": {
+   "name": "Nochebrisa el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8724": {
+   "name": "Albarrocío el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8725": {
+   "name": "Riosona el Ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8726": {
+   "name": "Lanza Reluciente el ancestro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8727": {
+   "name": "Levesusurro el Ancestro",
+   "completion": "Los cielos, con sus incontables estrellas, guardan las respuestas a los misterios terrenales, $N. ¿Pueden entonces el sabio o el afortunado, mirar hacia arriba y descubrir la verdad?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8732": {
+   "name": "Papeles de servicio de campo",
+   "progress": "¿Papeles de servicio de campo? ¿Pero de qué tontería me hablas, $N?$BPapeles de servicio de campo listos (1)",
+   "completion": "En el pasado, habría marcado tu frente con la sangre de la criatura para marcar tu hazaña. Thrall insiste en que hagamos lo que los druidas nos piden.$B$BToma, coge estos papeles y vuelve al Fuerte Cenarion. Seguro que tienen algo para ti.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8742": {
+   "name": "El poder de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8743": {
+   "name": "Golpear el gong",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8744": {
+   "name": "Un regalo bien envuelto",
+   "completion": "La etiqueta de este regalo dice:$B$BPara $N,$B$B¡Que pases unas dulces y felices fiestas del Gran Invierno!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8745": {
+   "name": "El tesoro del Atemporal",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8747": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8748": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8749": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8750": {
+   "name": "El camino del protector",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8751": {
+   "name": "El protector de Kalimdor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8752": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8753": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8754": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }
