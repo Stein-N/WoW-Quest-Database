@@ -25,7 +25,7 @@ export LC_NUMERIC=C  # "0.5" for sleep, also under a German locale
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HELPER=(python3 "$ROOT/etl/wowhead_texts.py" --flavor "${FLAVOR:-forever}")
-DELAY="${DELAY:-10}"
+DELAY="${DELAY:-15}"
 UA="WoW-Quest-Database-text-import/1.0 (private use; +https://github.com/Stein-N/WoW-Quest-Database)"
 BASE="${WOWHEAD_BASE:-https://www.wowhead.com/forever}"
 ROBOTS="${WOWHEAD_ROBOTS:-https://www.wowhead.com/robots.txt}"

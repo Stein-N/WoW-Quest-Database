@@ -2127,6 +2127,1271 @@
    "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
    "fetched": "2026-10-04",
    "v": 2
+  },
+  "7823": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7824": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7825": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Thunder Bluff erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für Thunder Bluff einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7826": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung von Orgrimmar einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7827": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7831": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit in Orgrimmar nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7832": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber Orgrimmar erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für Orgrimmar einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7833": {
+   "name": "Spendet Wolle",
+   "progress": "Wir nehmen zur Zeit Spenden für Wolle entgegen. Spendet Ihr 60 Stücke, so wird Euch diese großzügige Tat die volle Anerkennung der Darkspeartrolle einbringen. Unsere Vorräte würden lediglich 60 Stücke Wollstoff von Euch benötigen; mit der Unterstützung anderer sollten wir unsere Sammelaktion dann erfolgreich vervollständigen können.$B$BWenn Ihr die 60 Stücke Wollstoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BWollstoff (60)",
+   "completion": "Fabelhaft! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7834": {
+   "name": "Spendet Seide",
+   "progress": "Unsere Vorräte an Seide sind, wie fast alle anderen Stoffe auch, so knapp wie nie zuvor. Unterstützen uns noch andere, so bräuchten wir derzeit eine Spende von nicht mehr als 60 Stücken Seide von Euch, um unser Ziel umsetzen zu können.$B$BEine wohlwollende Gabe, sagen wir Seide, könnte Euren hiesigen Ruf in der Gemeinschaft mit Sicherheit verbessern! Wenn Ihr die 60 Stücke Seide bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BSeidenstoff (60)",
+   "completion": "Wunderbar! Lasst Euch für Eure großzügige Spende gedankt sein, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7835": {
+   "name": "Spendet Magiestoff",
+   "progress": "Unsere Vorräte an Magiestoff gehen zur Neige und wir könnten Eure Hilfe gebrauchen, um unsere Bestände wieder aufzufüllen! Wenn wir uns auf die Gemeinschaft im Ganzen verlassen, bräuchten wir lediglich eine Spende von 60 Stücken Magiestoff von Euch, um unser Ziel umsetzen zu können. Ich versichere Euch, dass eine derartige Großzügigkeit bei den Trollen der Darkspear nicht unbeachtet bleiben würde!$B$BWenn Ihr die 60 Stücke Magiestoff bei Euch habt und zu deren Spende bereit seid, dann kann ich sie jetzt entgegennehmen.$BMagiestoff (60)",
+   "completion": "Wunderbar! Wir danken Euch für Eure großzügige Spende, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7836": {
+   "name": "Spendet Runenstoff",
+   "progress": "$N, Ihr wart eine enorme Unterstützung bei unserer Stoffsammelaktion. Da wir sehr hart am Aufstocken unserer Vorräte arbeiten, muss ich Euch wohl auch von unserem neusten und schwerwiegendsten Mangel berichten: Runenstoff. Wir brauchen ihn ganz dringend und hoffen, dass Ihr uns hierbei, wie schon zuvor, wieder unterstützen könnt.$B$BSolltet Ihr gewillt sein, so bringt mir bitte all den Runenstoff, den Ihr entbehren könnt. Für den Anfang wären wir mit 60 Stücken einverstanden, dann sehen wir weiter.$BRunenstoff (60)",
+   "completion": "Fantastisch - Ich kann Euch versichern, dass wir sofort Gebrauch davon machen werden. Lasst Euch erneut für Eure Mithilfe gedankt sein! Ohne Euch wären wir mit Sicherheit verloren.$B$BDa ihr schon so viel gespendet habt, wäre ich natürlich bereit, mich auch um jede weitere Spende Runenstoff zu kümmern, die Ihr in Zukunft tätigen wollt. Kommt einfach zu mir, ich werde dann persönlich dafür sorgen, dass Eure guten Taten nicht unbeachtet bleiben!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7837": {
+   "name": "Noch mehr Runenstoff",
+   "progress": "Seid gegrüßt, $N! Wir benötigen auch weiterhin noch Runenstoff. Zusätzliche Mittel sind daher jederzeit willkommen, solltet Ihr welche entbehren können. Liefert Ihr uns eine weitere Spende von 20 Stück Runenstoff, so werde ich dafür sorgen, dass Ihr die gebührende Anerkennung für Eure anhaltenden Bemühungen gegenüber der Darkspeartrolle erhaltet.$B$BWann auch immer Ihr die erforderte Menge abgeben könnt, ich werde sie jederzeit entgegennehmen.$BRunenstoff (20)",
+   "completion": "$N - ohne Helden, die sich wie Ihr für die Trolle der Darkspear einsetzen, müssten wir so einiges in Kauf nehmen. Danke für Eure redlichen Bemühungen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7838": {
+   "name": "Großmeister der Arena",
+   "progress": "Aye, Landratte! Bringt mir 12 Schmuckstücke des hiesigen Meisters der Arena und Ihr seid der neue Großmeister der Arena der Gurabashi! Arrrr!$BMeister der Arena (12)",
+   "completion": "Ihr habt viel Blut in der Arena vergossen! Ich bin stolz darauf, Euch hiermit zum Großmeister der Arena zu ernennen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7863": {
+   "name": "Basisüberlebenspaket der Schildwache",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb der Warsongschlucht verwendet werden können.$B$BBewährt Ihr Euch noch weiter in der Schlucht, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7864": {
+   "name": "Standardüberlebenspaket der Schildwache",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7865": {
+   "name": "Verbessertes Überlebenspaket der Schildwache",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb der Warsongschlucht verwendet werden können.$B$BBewährt Ihr Euch noch weiter in der Schlucht, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7866": {
+   "name": "Basisüberlebenspaket der Vorhut",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb der Warsongschlucht verwendet werden können.$B$BBewährt Ihr Euch noch weiter in der Schlucht, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7867": {
+   "name": "Standardüberlebenspaket der Vorhut",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb der Warsongschlucht verwendet werden können.$B$BBewährt Ihr Euch noch weiter in der Schlucht, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7868": {
+   "name": "Verbessertes Überlebenspaket der Vorhut",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb der Warsongschlucht verwendet werden können.$B$BBewährt Ihr Euch noch weiter in der Schlucht, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7881": {
+   "name": "Jahrmarktsstiefel",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7882": {
+   "name": "Jahrmarktswämser",
+   "progress": "Unsere Arbeiter vom Jahrmarkt machen weitaus mehr als Dreck wegzufegen und Bolzen einzuschlagen! Sie helfen auch den Jahrmarkt auf Reisen zu bewachen und benötigen dafür stets robuste und rüstungsstarke Wämser.$B$BWenn Ihr etwas strapazierfähige Rüstung herstellt und zu mir bringt, dann werde ich dies sicherlich an die richtigen Leute weiterleiten. Ich werde Euch im Austausch dafür auch ein paar Lose des Dunkelmond-Jahrmarkts geben.$BGekräftigte Lederrüstung (3)",
+   "completion": "Ah, Ihr habt die Wämser. Wunderbar. Darf ich fragen welches Tierleder Ihr für die Herstellung verwendet habt? Die Nähte sind erstklassig verarbeitet worden und die Struktur des Leders scheint ebenfalls sehr robust. Ihr seid ein begabter Handwerker!$B$BDankeschön, $N, hier sind Eure Lose.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7883": {
+   "name": "Der größte Gnom der Welt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7884": {
+   "name": "Der Krokilisken-Junge und der bärtige Murloc",
+   "progress": "Yebb arbeitet an einer weiteren Attraktion für sein Kuriositätenkabinett. Es handelt sich dabei um eine nasse und sumpfige Behausung für einen Jungen, der von Krokilisken aufgezogen wurde und vielleicht auch für einen Murloc. Wir werden schöne, wasserdichte Beinkleider brauchen, damit wir während dem Auf- und Abbauen nicht pitschnass werden. Schildkrötenschuppengamaschen würden sich dafür bestens eignen.$B$B$N, könnt Ihr solche für uns anfertigen? Wenn ja, dann wird Euch ein dicker Stapel Lose des Dunkelmond-Jahrmarkts erwarten.$BSchildkrötenschuppengamaschen (1)",
+   "completion": "Klasse, Ihr habt sie hergestellt! Die werden ihren Zweck erfüllen... Ich hoffe nur, dass nicht ich es bin, der den Krokiliskenkäfig reinigen darf, wenn es soweit ist. Diese Viecher können ganz schön fies sein, findet Ihr nicht?$B$BHier Eure Lose, $N. Viel Spaß damit und auf dem Jahrmarkt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7885": {
+   "name": "Rüstungssets",
+   "progress": "Es mag Euch vielleicht nicht bewusst sein, aber die Unterhaltung eines fahrenden Jahrmarkts ist kostspielig! Alles nutzt sich so schnell ab, es ist erstaunlich, dass wir überhaupt Gewinne machen.$B$BWegen all dieser versteckten Kosten, suchen wir immer nach Möglichkeiten, wie wir unsere Ausrüstung so günstig wie möglich instandhalten lassen können. Unsere Zelte reißen zum Beispiel regelmäßig, aber ich habe gemerkt, dass Lederrüstungssets gute Flicken abgeben. Könnt Ihr mir ein paar Rüstungssets besorgen? Das würde uns den Kauf von einigen neuen Zelten ersparen! Wenn Ihr uns damit aushelfen könntet, dann würde Euch eine Hand voller Lose des Dunkelmond-Jahrmarkts erwarten...$BUnverwüstliches Rüstungsset (8)",
+   "completion": "Sehr schön! Das wird uns weiterhelfen! Ich habe gerade einen Riss im Zelt dort drüben entdeckt und eines dieser Rüstungssets ist genau das, was ich zum Flicken brauchen kann!$B$BVielen Dank, $N. Diese Rüstungssets werden uns eine Menge an Reparaturkosten einsparen. Hier sind die Lose - Ihr habt sie Euch verdient!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7886": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7887": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7888": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7889": {
+   "name": "Grober Gewichtsstein",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7890": {
+   "name": "Schwerer Schleifstein",
+   "progress": "Ich würde gerne einen Stab zwischen schweren Schleifsteinen befestigen und ihn dann über meinen Kopf stemmen, um mein Training zu verbessern. Es ist nicht einfach, aber man wird schließlich nicht durch bloßes Herumsitzen zur stärksten Frau der Welt - so wie ich es bin!$B$BKönnt Ihr mir helfen? Ich brauche mehr Schleifsteine - bringt mir ein paar und ich tausche sie gegen Lose des Dunkelmond-Jahrmarkts ein.$BSchwerer Schleifstein (7)",
+   "completion": "Ihr habt die Steine bekommen! Sie sind auch noch richtig schwer! Ich kann schon fühlen wie meine Muskeln anschwellen. Danke $N!$B$BHier, nehmt diese Lose - und achtet darauf nicht zu viele Süßigkeiten während des Jahrmarkts zu essen. Ein großer starker $C wie ihr muss sich schließlich kämpferisch in Form halten!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7891": {
+   "name": "Grüne Eisenarmschienen",
+   "progress": "Ich arbeite an einem neuen Kostüm für später, wenn ich einmal meinen eigenen Stand als stärkste Frau der Welt habe! Ich suche gerade nach ein paar Armschienen, die ich tragen könnte. Sie dürfen nicht zu viel bedecken, da die Leute meine Muskeln sehen möchten, aber ich möchte trotzdem etwas Farbe ins Spiel bringen, versteht Ihr?$B$BWie wäre es mit grünen Eisenarmschienen, $N? Könnt Ihr mir solche herstellen? Wenn ja, dann hätte ich einen ganzen Haufen Lose des Dunkelmond-Jahrmarkts für Euch.$BGrüne Eisenarmschienen (3)",
+   "completion": "Ja! Das sind genau die Richtigen! Sie haben so eine wunderschöne Farbe und lassen meine Arme ausreichend frei, damit man sehen kann wie stark ich bin! Perfekt!$B$BHier, $N. Hier sind Eure Lose - amüsiert Euch schön!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7892": {
+   "name": "Großer schwarzer Streitkolben",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7893": {
+   "name": "Rituale der Stärke",
+   "progress": "$N, in meinem Bestreben die stärkste Frau der Welt zu werden, bin ich auf meinen Reisen bereits weit umher gekommen und habe geheime Trainingstechniken von Gewichthebern, Kraftgurus und uralten Handbüchern erlernt. Ich kenne verbotene Übungen, die Schwache töten und Unerfahrene verkrüppeln könnten!$B$BDiese Leistung von Stärke und Konditionierung erfordert ein Training mit den schwersten aller Schleifsteine überhaupt. $N, könnt Ihr mir diese Steine besorgen oder für mich herstellen? Ich würde Euch dafür auch Lose geben...$BVerdichteter Schleifstein (8)",
+   "completion": "Ich danke Euch, $N. Ich werde diese Steine bei einem kräftebringenden Ritual verwenden, das ich von einer uralten Schrifttafel im tiefsten Dschungel des Schlingendorntals erlernt habe.$B$BMan sagt, dass derjenige, die das heilige Ritual korrekt ausführt, die Stärke und Ausdauer von zehn Tauren besitzen wird!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7894": {
+   "name": "Kupfermodulator",
+   "progress": "Yebb arbeitet an einer neuen Attraktion für das Kuriositätenkabinett, eine, die die Leute vor Verwunderung und Erstaunen begeistern wird! Es wird allerdings eine Menge an Arbeit und bedeuten und viel Material benötigen...$B$BUnter anderem Kupfermodulatoren. Wir brauchen zahlreiche Modulatoren für die mechanischen Teile der Attraktion. Bringt mir Kupfermodulatoren und ich werde sie gegen ein Los des Dunkelmond-Jahrmarkts einlösen.$BKupfermodulator (5)",
+   "completion": "Aha! Die Modulatoren! Herrlich!$B$BIch kann Euch zwar nicht genau sagen an was wir arbeiten, aber dies wird für dessen Konstruktion von unschätzbarem Wert sein. Ich stehe in Eurer Schuld, $N, bitte, nehmt dieses Los des Dunkelmond-Jahrmarkts als Zeichen meiner Wertschätzung.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7895": {
+   "name": "Surrendes bronzenes Dingsda",
+   "progress": "Mein neuer Stand wird etwas, das man sehen muss, ja! Etwas, das man sehen muss und... für ein paar Glückliche ist es auch etwas zum Anfassen!$B$BIch kann schon das mechanische Entzücken der surrenden kleinen Dingsdas hören und sehe schon die Kunden vor mir, wie sie näher an meinen Stand treten, um ihre Fähigkeiten zu testen!$B$BAh... jetzt brauche ich die Dingsdas selbst, um meinem Traum ein Stückchen näher zu kommen. Bitte, $N, bringt mir surrende bronzene Dingsdas... und ein paar Lose des Dunkelmond-Jahrmarkts werden Euer sein!$BSurrendes bronzenes Dingsda (7)",
+   "completion": "Ihr habt die Dingsdas! Wunderbar! Ich kann schon jetzt das melodische Summen und Surren in meinem Kopf hören! Oh, wenn dieser Stand erst einmal fertig ist, dann wird er ein Weltwunder sein, das mich zeichnen wird!$B$BHier sind Eure Lose, $N. Bitte amüsiert Euch auf dem Jahrmarkt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7896": {
+   "name": "Grünes Feuerwerk",
+   "progress": "Wenn ich meinen Stand endlich fertig habe, möchte ich auch dafür werben! Was würde sich dafür schon besser eignen als Feuerwerk?$B$BNun, manch einer würde sagen, dass sich der Geruch eines Kessels, in dem die Köpfe unserer Feinde köcheln, besser zum Anziehen von Massen eignet, aber... wir sind eine gemischte Gesellschaft. Es muss also Feuerwerk sein!$B$BBringt mir grünes Feuerwerk, $N, und ich werde Euch eine Hand voller Lose des Dunkelmond-Jahrmarkts geben.$BGrünes Feuerwerk (36)",
+   "completion": "Ihr habt das Feuerwerk. Wunderbare Arbeit, $N! Ich kann nicht erwarten es zu zünden und damit allen zu sagen, dass mein Stand eröffnet ist! Ich muss noch warten, sogar noch ziemlich lange fürchte ich, aber... ich werde bereit sein, wenn ich bereit bin, richtig?$B$BHier sind die Lose, $N. Viel Spaß!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7897": {
+   "name": "Mechanische Repariersets",
+   "progress": "Der hauptsächliche Grund, weshalb ich meinen Stand nicht eröffnen kann, ist... weil alles kaputt ist! Ich brauche mechanische Repariersets, um alles wieder herrichten zu können!$B$BKönnt Ihr mir diese Sets besorgen, $N? Ich tausche sie gegen... Sets von Losen des Dunkelmond-Jahrmarkts. Was denkt Ihr?$BMechanisches Reparierset (6)",
+   "completion": "Danke! Jetzt kann ich wieder für Ordnung sorgen.$B$BIch werde eine Menge Repariersets brauchen und oft bis spät in die Nacht arbeiten, um alles wieder zum Laufen bringen zu können. Manchmal glaube ich, dass es besser wäre, wenn ich wieder zu meinen Wurzeln zurückkehren und meine Laufbahn als Kopfgeldjäger weiterverfolgen würde, aber... der Jahrmarkt tut mir gut.$B$BNehmt diese Lose, $N, viel Spaß damit!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7898": {
+   "name": "Thoriumapparat",
+   "progress": "Yebb Nebblegear arbeitet wie ich an einer zukünftigen Attraktion. Nebb sagt, dass die Attraktion so aufregend ist, dass es Besucher aus der ganzen Welt anziehen wird...und uns alle sehr, sehr reich!$B$BEr meint, dass er Thoriumapparate für dieses Projekt benötigt und ich soll sie für ihn sammeln. Na, was sagt Ihr; $N? Wisst Ihr, wo man Thoriumapparate bekommt? Solltet ihr Ingenieur sein, könntet Ihr dann welche herstellen? Wollt Ihr sie gegen Lose des Dunkelmond-Jahrmarkts einlösen?$BThoriumapparat (6)",
+   "completion": "Ah, vielen Dank $N! Yebb wird sich über diese Apparate freuen. Ich weiß nicht, was er damit vorhat, aber Yebb ist ein cleverer kleiner Gnom. Er ist clever und vielleicht auch ein bisschen verschlagen...$B$BWenn er doch nur den Geschmack menschlichen Fleisches mögen würde, dann würde er einen großartigen Troll abgeben!$B$BHier $N, Geschäft ist Geschäft! Diese Lose gehören Euch.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7899": {
+   "name": "Kleine pelzige Tatzen",
+   "progress": "Will man eine große Masse herbeilocken, sollte man vor allem eines wissen: wie man mit kleinen Anreizen und Krimskrams ihr Interesse weckt! Könnt Ihr mir dabei helfen?$B$BIch brauche kleine pelzige Tatzen, die ich als Preise verwenden kann. Ihr könnt dergleichen von den Katzen des Brachlands oder der Dunkelküste erhalten...$B$BBringt mir ein paar Tatzen und ich tausche sie gegen ein Los des Dunkelmond-Jahrmarkts ein.$BKleine pelzige Tatze (5)",
+   "completion": "Großartig, Ihr habt sie! Wir können daraus Spielsachen und anderen Schnickschack herstellen und damit bei mehr und mehr Leuten Interesse für den Jahrmarkt wecken!$B$BHier ist Euer Los, $N. Ihr habt es Euch verdient!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7900": {
+   "name": "Zerrissene Bärenpelze",
+   "progress": "Kinder lieben Spielsachen! Egal was für Kinder, ich habe herausgefunden, dass alle Kinder pelzige und kuschelige Spielsachen lieben, die aus zerrissenem Bärenpelz angefertigt wurden!$B$BIhr könnt diese Pelze von Bären aus Ashenvale oder Hillsbrad bekommen. Bringt mir einen Haufen davon und verdient Euch damit eine Menge Lose des Dunkelmond-Jahrmarkts!$BZerrissener Bärenpelz (5)",
+   "completion": "Schöne Pelze, $N! Ich werde daraus eine Menge Kuscheltiere nähen lassen. Mit Hilfe von etwas Füllmaterial und Farbe, könnte daraus eines der begehrtesten Spielsachen in ganz Azeroth werden!$B$BLose? Ach ja, Euer Entgelt! Hier sind sie!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7901": {
+   "name": "Weiche buschige Schwänze",
+   "progress": "Es ist unglaublich was Leute so alles schätzen! Wie wäre es zum Beispiel mit einem Stock, an dem man einen weichen buschigen Schwanz hängt. Ihr und ich mögen nun denken, dass derartiges keinerlei Wert hat... aber verpasst man so einem Quatsch einen netten Namen wie \"Wilder Wuschelschwanz\" und packt das Ganze in eine hübsche Schachtel, dann erscheint es den Leuten plötzlich wertvoll. Aus Tand werden heiß begehrte Objekte!$B$BBesorgt mir ein paar weiche buschige Schwänze von Wölfen aus Desolace und dem Ödland, dann werde ich Euch dafür Lose des Dunkelmond-Jahrmarkts geben.$BWeicher buschiger Schweif (5)",
+   "completion": "Gut gemacht, $N! Diese buschigen Schwänze werden unseren Besuchern gefallen - und das bedeutet sogleich glückliche Besucher... Besucher, die ihren Freunden vom Jahrmarkt erzählen und somit für noch mehr Publikum sorgen!$B$BHier sind Eure Lose! Viel Spaß auf dem Dunkelmond-Jahrmarkt... und vergesst nicht Euren Freunden von uns zu erzählen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7902": {
+   "name": "Farbenprächtige Federbüsche",
+   "progress": "Das Vorstellungsvermögen einer Person ist etwas Unglaubliches. Es kann aus einem kleinen Hügel einen riesigen Berg machen und aus einem harmlosen Schatten einen furchtbaren Alptraum!$B$BWir vom Dunkelmond-Jahrmarkt erwecken die Fantasien unserer Besucher zum Leben! Allerdings müssen wir uns manchmal schlaue Tricks einfallen lassen, um ihren Vorstellungen etwas auf die Sprünge zu helfen...$B$BIch brauche farbenprächtige Federbüsche für eine meiner Attraktionen. Ihr könnt sie von den Vögeln der etwas gefährlicheren Gegenden Azeroths bekommen. Bringt mir diese Federn und zahlreiche Lose werden Euer Eigen sein!$BFarbenprächtiger Federbusch (5)",
+   "completion": "Ah, die Federn! Sie sind atemberaubend, findet Ihr nicht! Mit diesen Schönheiten dürfte das Entfachen der Fantasie ein einfaches sein!$B$BIhr leistet so wohltätige Arbeit, $N. Das Leuchten in den Augen der Besucher, wenn sie unsere Attraktionen bestaunen, ist bereits ein hoher Lohn, aber bitte, nehmt auch diese Lose.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7903": {
+   "name": "Böse Fledermausaugen",
+   "progress": "Kommt es vor, dass Ihr spät in der Nacht in einer Höhle umherwandert und nach Abenteuern sucht? Ja? Wirklich? Nun, dann habt Ihr die gruseligen Fledermausaugen gesehen, die Euch von hoch oben anstarren und nur darauf warten, dass Ihr unachtsam werdet, damit sie Euch Euer Blut aussaugen können!$B$BEin schauriger Gedanke, nicht wahr? Natürlich - Fledermausaugen sind ohne Frage gruselig!$B$BKönnt Ihr mir ein paar böse Fledermausaugen besorgen, $N? Ich brauche sie für... für etwas, das ich entwerfe. Etwas Gruseliges.$B$BIhr könnt sie von den Fledermäusen der östlichen Pestländer bekommen.$BBöses Fledermausauge (10)",
+   "completion": "Großartig! Ihr habt die Augen! Ich hoffe die Jagd nach den Fledermäusen war furchterregend für Euch, denn wenn sie einen mutigen $C wie Ihr es seid ängstigen konnten, dann werden diese Augen ganz sicher auch unseren Jahrmarktsbesuchern einen Schrecken einjagen können.$B$BNehmt diese Lose, $N, danke für Eure Dienste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7921": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7922": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7923": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7924": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7925": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7930": {
+   "name": "5 Lose - Dunkelmond-Blume",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (5)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7931": {
+   "name": "5 Lose - Kleiner Dunkelmond-Preis",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (5)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7932": {
+   "name": "12 Lose - Geringer Dunkelmond-Preis",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (12)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7933": {
+   "name": "40 Lose - Großer Dunkelmond-Preis",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (40)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7934": {
+   "name": "50 Lose - Dunkelmond-Lagerbehälter",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (50)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7935": {
+   "name": "10 Lose - Hammel des letzten Monats",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7936": {
+   "name": "50 Lose - Hammel des letzten Jahres",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7939": {
+   "name": "Mehr verdichtete Schleifsteine",
+   "progress": "$N, ich danke Euch für all Eure Hilfe. Ich kann Euch wirklich nicht genug danken!$B$BIch brauche jetzt zwar nichts mehr wirklich... aber solltet Ihr mir mehr verdichtete Schleifsteine bringen, so habe ich auch noch einige Lose des Dunkelmond-Jahrmarkts für Euch.$BVerdichteter Schleifstein (8)",
+   "completion": "Nochmals danke, $N. Viel Spaß mit diesen Losen, und erzählt Euren Freunden vom Dunkelmond-Jahrmarkt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7940": {
+   "name": "1200 Lose - Kugel des Dunkelmonds",
+   "progress": "Kommt näher, kommt näher! Wenn ihr Lose vom Dunkelmond-Jahrmarkt habt, die ihr einlösen möchtet, dann sagt nur Bescheid! Ihr könnt Lose gegen zahlreiche, wundersame und fantastische Preise einlösen. Scheut euch nicht, probiert es aus!$BGegenstand #19182 (1200)",
+   "completion": "Bitteschön, bitteschön! Ein passender Preis für einen König! Meinen Glückwunsch!$B$BSolltet Ihr noch mehr Lose haben, die Ihr einlösen möchtet, dann lasst es mich bitte wissen! Solange der Dunkelmond-Jahrmarkt hier ist, werde ich Eure Lose entgegennehmen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7941": {
+   "name": "Mehr Rüstungssets",
+   "progress": "$N, ich muss mich für all Eure Hilfe bedanken. Ich verfüge jetzt über eine Menge an Vorräten, dank Eurer Bemühungen, aber wenn Ihr mir noch mehr Rüstungssets bringen möchtet, dann werde ich sie gerne gegen ein paar Lose des Dunkelmond-Jahrmarkts eintauschen.$BUnverwüstliches Rüstungsset (8)",
+   "completion": "Hier, $N. Ein fairer Tausch. Viel Vergnügen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7942": {
+   "name": "Mehr Thoriumapparate",
+   "progress": "$N, Ihr wart so gut zu uns, indem Ihr uns ohne Unterlass Waren beschafft habt. Ich bin Euch dafür unendlich dankbar!$B$BAuch wenn wir einen nicht mehr so großen Bedarf an Thoriumapparaten wie zuvor haben, so könnt Ihr mir doch jederzeit weitere bringen. Ich tausche sie dann gegen Lose des Dunkelmond-Jahrmarkts ein.$BThoriumapparat (6)",
+   "completion": "Hier, $N. Nehmt diese Lose des Dunkelmond-Jahrmarkts und vergnügt Euch damit. Gebt sie nicht alle auf einmal aus, wie man so schön sagt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7943": {
+   "name": "Mehr Fledermausaugen",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7946": {
+   "name": "Jubjubs Nachwuchs",
+   "progress": "Ich bin so froh, dass Jubjub wieder da ist. Die Kleine liebt Dunkeleisenbier so sehr, dass sie, als mein Vorrat zuneige ging, weggerannt ist, um mehr davon zu suchen.$B$BJetzt, da Jubjub zurück ist, versuche ich, soviel Bier wie möglich zu kriegen! Ich möchte nicht, dass sie wieder wegläuft, wisst Ihr?$B$BHabt Ihr vielleicht etwas Dunkeleisenbier dabei? Wenn ja, gebe ich Euch eines von Jubjubs Froscheiern für einen Krug Dunkeleisenbier...$BDunkeleisenbierbecher (1)",
+   "completion": "Vielen Dank, $N. Hier ist Euer Ei! Es wird noch etwas dauern bevor es ausgebrütet werden kann, doch wenn es soweit ist habt Ihr ein großartiges Haustier!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7981": {
+   "name": "1200 Lose - Amulett des Dunkelmonds",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8041": {
+   "name": "Stärke des Bergs Mugamba",
+   "completion": "Seid gegrüßt, $C. Ich bin Jin'rokh der Zerstörer, Troll von Mugamba. Wir vom Stamm der Zandalar erkennen Eure Leistungen an. Wir begrüßen Eure Hartnäckigkeit und Willenskraft.$B$BTragt diesen Talisman um Euren Hals, $C. Lasst die Stärke des Bergs Mugamba durch Euch hindurch fließen. Fühlt die Macht, wenn Ihr unsere Feinde niederstreckt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8042": {
+   "name": "Stärke des Bergs Mugamba",
+   "progress": "Gut zu sehen, dass Ihr wohlauf seid, $N. Die glorreichen Schlachten, in denen Ihr Euch geschlagen habt, wirken sich auf das Leben des gesamten Planeten aus. Hakkar darf die Grenzen von Zul'Gurub niemals überschreiten, da die Welt seinem immensen Hunger mit Sicherheit nicht standhalten könnte.$B$BGebt mir Euren Talisman und ich werde seine Stärke noch mächtiger machen. Setzt die Stärke von Mugamba zum Bestrafen unserer Feinde ein!$BStärke von Mugamba (1)",
+   "completion": "Unsere Wege werden sich erneut kreuzen, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8043": {
+   "name": "Stärke des Bergs Mugamba",
+   "progress": "Meister $N, Ihr kehrt zurück! Molthor hat bereits Kunde von Euren Taten zum König geschickt. Euer Name ist sogar in den südlichen Meeren bekannt. Vielleicht werdet Ihr eines Tages ein legendärer $C sein... eine Legende für die Ewigkeit.$B$BGebt mir Euren Talisman, damit ich seine Macht noch einmal verstärken kann.$BStärke von Mugamba (1)",
+   "completion": "Nutzt Eure wiedererlangte Stärke, um die Gurubashi zu vernichten!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8044": {
+   "name": "Die Wut Mugambas",
+   "progress": "König Rastakhan sendet Euch seine Grüße, Meister $N. Eine solche Ehre wurde noch nie jemanden zuteil, der nicht zum Stamm der Zandalar gehört.$B$BGebt mir Euren Talisman, damit ich ihn noch einmal verstärken kann. Ihr sollt wissen, dass die Wut Mugambas jetzt untrennbar mit Eurer Seele verbunden ist.$BStärke von Mugamba (1)",
+   "completion": "Zul'jin würde Euch beneiden, $C. Zieht hinfort und siegt!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8045": {
+   "name": "Das Emblem des Ungläubigen",
+   "completion": "Wisset, Ungläubiger: eine Katastrophe hat uns vereint. Eure heidnischen Wege werden von den Zandalarianern weder verstanden, noch geschätzt, aber wir sind ein faires Volk. Tragt dieses Emblem um Euren Hals. Es soll unseren Feinden als Warnung und den Zandalarianern als Zeichen der Freundschaft dienen.$B$BDient auch weiterhin unserem Stamm und ich werde die Macht des Emblems verstärken.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8046": {
+   "name": "Das Emblem des Ungläubigen",
+   "progress": "Ich war vielleicht etwas zu vorschnell mit meinem Urteil, $C. Es scheint, als wäre Euer blindes Vertrauen in das Licht nach all dem doch noch von Wert.$B$BGebt mir Euer Emblem, damit ich seine Macht verstärken kann.$BEmblem des Ungläubigen (1)",
+   "completion": "Tut, was Ihr tun müsst, um unsere Feinde zu vernichten, $C. Selbst wenn Ihr dafür das Licht kanalisieren müsst.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8047": {
+   "name": "Das Emblem des Ungläubigen",
+   "progress": "Ich muss gestehen, dass ich nicht daran geglaubt habe, dass Ihr die Entschlossenheit besitzt, um dieser Sache Herr zu werden, $C. Für Zandalar seid Ihr jetzt ein Verbündeter von unschätzbarem Wert. Gut gemacht, in der Tat.$B$BGebt mir Euer Emblem und und ich werde seine Macht noch einmal verstärken.$BEmblem des Ungläubigen (1)",
+   "completion": "Unsere Überzeugungen unterscheiden sich zwar, aber unsere Gründe sind gerechtfertigt. Bezwingt unsere Feinde, edler $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8048": {
+   "name": "Das Emblem des Helden",
+   "progress": "Der König nimmt Eure Existenz zur Kenntnis, $C. Ihr seid der erste Eurer Art, der von Rastakhan als wahrer Verbündeter der Zandalarianer akzeptiert wird.$B$BIhr werdet für Eure Bemühungen reichlich belohnt werden. Zeigt Euer Emblem vor und ich werde auch noch dessen letzte Verstärkung vornehmen.$BEmblem des Ungläubigen (1)",
+   "completion": "Wachsamkeit, Ehre, Treue, Mut... Ihr verkörpert alle diese Eigenschaften und so soll es auch Euer Emblem tun.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8049": {
+   "name": "Das Auge von Zuldazar",
+   "completion": "Nehmt diesen Talisman als Zeichen unserer Wertschätzung an, $C.$B$BDas Auge von Zuldazar wird umso mächtiger, je stärker Euer Bund mit den Trollen von Zandalar wird. Kommt von Zeit zu Zeit zu mir zurück und ich werde das Juwel mit Macht erfüllen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8050": {
+   "name": "Das Auge von Zuldazar",
+   "progress": "Willkommen $C. Das Auge von Zuldazar pulsiert voller Energie. Ihr seid für die nächste Stufe bereit. Überreicht mir den Talisman, damit ich ihn mit Macht erfüllen kann.$BDas Auge von Zuldazar (1)",
+   "completion": "Führt Euren Kampf gegen den Seelenschinder und seine Diener fort, $N. Er darf die Grenzen Zul'Gurubs niemals überschreiten.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8051": {
+   "name": "Das Auge von Zuldazar",
+   "progress": "Überall verbreiten sich Geschichten von Euren Schlachtzügen gegen die Gurubashi, $C. Sogar im Königshaus wird jetzt von Euren Heldentaten gesprochen. Man sagt, dass König Rastakhan sogar Euren Namen erwähnt hat.$B$BNun ist es an der Zeit das Auge zu erfüllen. Reicht mir den Talisman und ich werde Euch diesen Dienst erweisen.$BDas Auge von Zuldazar (1)",
+   "completion": "Geht entschlossen bei Euren Bestrebungen vor, $N. Der Seelenschinder wird versuchen Euch Euren Lebenswillen zu entziehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8052": {
+   "name": "Das allsehende Auge von Zuldazar",
+   "progress": "Wenn wir nur zehntausend mehr wie Euch hätten, $N. Die Armeen Hakkars würden in kürzester Zeit niedergeschmettert werden.$B$BAch, das Auge ist nun für die Erfüllung seines wahren Potentials bereit. Gebt es mir.$BDas Auge von Zuldazar (1)",
+   "completion": "Tötet sie alle und überlasst Hakkar das Aufräumen...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8081": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8101": {
+   "name": "Der Stein des Kajaro",
+   "completion": "$R, der Stein, der von diesem Talisman umrahmt wird, kommt vom Berg Kajaro in den südlichen Meeren. Das Gebiet rund um den Berg Kajaro wird von Unbeständigkeit geplagt; insbesondere durch heftige und oft auch magische Vulkanausbrüche.$B$BJe stärker Euer Bund mit den Trollen Zandalars wird, umso mächtiger wird dieser Stein. Nutzt die Macht des Steins, um unsere Feinde zu vernichten. Seid wie der Berg: schnell, explosiv, tödlich...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8102": {
+   "name": "Der Stein des Kajaro",
+   "progress": "Willkommen zurück, $C. Ich kann sehen, dass der Stein häufig Anwendung fand. Viele unserer Feinde wurden Opfer Eurer jenseitigen Fähigkeiten. Ihr Leiden war groß. Es ist an der Zeit, dass ich die Macht des Steins verstärke. Gebt ihn mir.$BStein des Kajaro (1)",
+   "completion": "Seid unaufhaltsam, wie die geschmolzenen Wogen des Kajaro.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8103": {
+   "name": "Der Stein des Kajaro",
+   "progress": "Die Hakkari fürchten Euch, $N. Sie sprechen von Grausamkeiten, die sie bis jetzt nur ihrem gesichtslosen Gott zutrauten. Ihr habt sie mit der Macht des Kajaro gezeichnet. Sie kennen jetzt die beiden Seiten der Furcht.$B$BEs ist an der Zeit, den Stein noch weiter zu stärken. Gebt mir den Talisman.$BStein des Kajaro (1)",
+   "completion": "Führt Eure Vernichtung der Trolle von Zul'Gurub noch weiter fort. Hakkar muss erkennen, dass die Welt sich nicht seinem unbezwingbaren Willen beugt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8104": {
+   "name": "Das Juwel von Kajaro",
+   "progress": "Gebt mir den Talisman, $N. Ich muss Euch etwas zeigen.$BStein des Kajaro (1)",
+   "completion": "<Al'tabim erschüttert den Juwel mit einer mächtigen, bisher ungesehenen Kraft.>$B$BSeht Ihr? Der Stein ist das, was wir eine kristallgefüllte Hohlkugel nennen. In ihm befinden sich mächtige Kristalle, die mit den latenten Energien dieser Welt getränkt sind. Indem ich das Juwel entzwei schnitt, ließ ich ihn endlich sein wahres Potential entfalten. Nutzt ihn, um Vernichtung über unsere Feinde zu bringen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8106": {
+   "name": "Kezans Schmach",
+   "completion": "Bitte nehmt diesen Talisman, $C. Nutzt seine Macht, um unsere gemeinsamen Feinde niederzuschmettern.$B$BSeid Euch bewusst, dass Ihr ein Stück Geschichte um Euren Hals tragt. Kezan war einst ein großes Territorium des Imperiums von Zandalar. Doch im Laufe der Zeit zwang der schändliche Einfluss der Goblin-Handelsfürsten meine stolzen Brüder und Schwestern, Kezan den Rücken zu kehren.$B$BKezan beherbergt jetzt Undermine, die Hauptstadt der Goblins; doch wisset, dass sie einst wahre Größe ausstrahlte. Noch heute gilt Kezan meinem Volk als heiliges Land.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8107": {
+   "name": "Kezans Schmach",
+   "progress": "Ihr habt Euch bei den Trollen Zandalars Ehre verdient, $N. Mit Ehre kommt auch Entlohnung, Freundschaft, Verbundenheit...$B$BGebt mir den Talisman, damit ich seine Macht verstärken kann.$BKezans Schmach (1)",
+   "completion": "Der Dunkelheit entsprungen, $C. Begrüßt den Schatten. Lasst Kezans Schmach Eure dunkle Einmischung ergänzen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8108": {
+   "name": "Kezans Schmach",
+   "progress": "Ich bin für euch bereit, $C. Noch einmal werde ich Euren Talisman verstärken. Ich bitte Euch nur mit Eurer Zerstörung von Hakkar und seinen Dienern fortzufahren.$B$BGebt mir den Talisman.$BKezans Schmach (1)",
+   "completion": "Wir werden den Seelenschinder nur mit vereinten Kräften aufhalten können.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8109": {
+   "name": "Kezans unaufhaltsame Schmach",
+   "progress": "Ruft Eure Dämonen hervor, $C. Lasst sie in der Energie von Kezans Schmach schwelgen. Führt sie auf's Schlachtfeld! Vernichtet den Feind!$B$BJa... die Zeit ist gekommen, um Kezans Schmach endgültig zu verstärken. Gebt mir den Talisman.$BKezans Schmach (1)",
+   "completion": "Reißt das Fleisch von ihren Körpern. Beobachtet, wie die Schatten die Hakkari verzehren. Zieht Macht aus ihrer Furcht, $C. Lasst Kezans Schmach mächtiger werden...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8110": {
+   "name": "Verzauberter Südmeertang",
+   "completion": "Unglaublich! Ihr habt sie gefunden! Ihr seid ein wahrer Held, $N!$B$BDas ist eine gute Sache, denn ich habe die Schrifttafeln gelesen, die Ihr mir zuvor gebracht habt, und nach dem, was ich herausgefunden habe... tja, da werden wir wohl einen Helden brauchen, der aufhält, was kommt...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8111": {
+   "name": "Verzauberter Südmeertang",
+   "progress": "Hey Ihr! Gut Euch wieder zu sehen. Der Stamm spricht von Eurer Vernichtung der Hakkari und all dem. Molthor hat mir zugesichert, dass ich Eurem Talisman mehr Mojo hinzufügen kann. Gebt ihn einfach her und Maywiki wird ihn besser machen.$BVerzauberter Südmeertang (1)",
+   "completion": "Hey, der Halsschmuck ist nicht zum Rauchen gedacht! Ihr müsst ihn im Kampf gegen das Böse einsetzen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8112": {
+   "name": "Verzauberter Südmeertang",
+   "progress": "Wie ist der Talisman? Es sieht aus, als wäre es an der Zeit dem Tang etwas mehr Magie und Mojo zuzufügen. Er benötigt eine kleine Auffrischung. Gebt in her und Maywiki wird's schon machen.$BVerzauberter Südmeertang (1)",
+   "completion": "Jetzt nehmt Ihr Euch die bösen Trolle in Zul'Gurub vor und zeigt ihnen, was Eure Naturkräfte so alles können!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8113": {
+   "name": "Reiner verzauberter Südmeertang",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8116": {
+   "name": "Vision von Voodress",
+   "completion": "Ihr und Maywiki haben etwas gemeinsam. Wir sind beide Schamanen! Auch wenn Maywiki eher geheimnisvoll ist und Ihr vielmehr grob daher kommt. Trotzdem, wir wissen beide von der Macht der Geister.$B$BIch gebe Euch diese Kugel als Geschenk, tragt sie um den Hals. Schaut tief in sie hinein und seht die Stadt von Voodress in den südlichen Meeren! Lasst sie Eure Geister beflügeln!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8117": {
+   "name": "Vision von Voodress",
+   "progress": "Sha-mann! Maywiki macht Witze!$B$B<Maywiki lacht.>$B$BSo, Ihr habt also die Geister und Elemente gegen unsere Feinde in Zul'Gurub eingesetzt, hä? Die Geister seien gelobt!$B$BMaywiki wird Eure Kugel aufpolieren. Gebt sie mir, $N.$BVision von Voodress (1)",
+   "completion": "Seht sie Euch jetzt an, $N. Noch mehr sichtbare Voodress, oder? Lasst die urzeitliche Macht durch Euch fließen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8118": {
+   "name": "Vision von Voodress",
+   "progress": "Gute Neuigkeiten, $N. Molthor hat Lob über Euch verkündet. Er erzählte, wie Ihr Euch in einen wahren Helden der Zandalar verwandelt habt.$B$BEr wies mich auch an, Eure Kugel noch etwas aufzupolieren! Gebt sie her, damit Maywiki die Vision noch weiter aufhellen kann.$BVision von Voodress (1)",
+   "completion": "Hütet Euch vor den bösen Geistern der Hakkari. Sie sind wirklich unheimlich.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8119": {
+   "name": "Die unversehrte Vision von Voodress",
+   "progress": "<Maywiki zeigt auf Euren Talisman.>$B$BSchaut, $N! Er ist zum Leben erwacht. Die Geister tanzen um die Kugel.$B$BGebt ihn Maywiki, damit sie die letzte Anpassung vornehmen kann.$BVision von Voodress (1)",
+   "completion": "Eines Tages, $N, werdet Ihr diese Kugel nutzen können, um direkt mit mir zu kommunizieren. Wann auch immer der Kampf gegen Hakkar vorüber sein wird und Maywiki nach Hause zurückkehrt. Lasst uns die Geister anrufen und darum bitten, dass dieser Tag bald sein wird.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8124": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8141": {
+   "name": "Zandalarianischer Schattentalisman",
+   "completion": "Ihr macht rasch Fortschritte, $C. Vielleicht ist es an der Zeit Euch in Shera Ali'kh einzuweihen - zandalarianisch für die Hand des Todes. Tausende von Jahren übernahmen wir die Rolle der Meuchelmörder für das Imperium der Zandalar. Zu lange saßen wir untätig herum und erlaubten es den Hakkari an Macht zu gewinnen. Noch einmal stehen wir Hakkar gegenüber, aber diesmal ohne die Unterstützung einer vereinten Trollfront. Ihr und Eure Verbündeten müssen uns dabei helfen den Blutgott und seine Diener zu vernichten!$B$BTragt diesen Talisman und lasst ihn Euch bei Euren Taten unterstützen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8142": {
+   "name": "Zandalarianischer Schattentalisman",
+   "progress": "Ich spüre, dass Ihr zahlreiche Todesopfer unter den Hakkari gefordert habt, $N. Ihr tragt den Geruch ihres Mojos.$B$BIch vermute, dass Euch der Schattentalisman beim Ausmerzen behilflich war? Gebt ihn mir, ich werde seine Macht noch einmal verstärken.$BZandalarianischer Schattentalisman (1)",
+   "completion": "Einem Meuchelmörder von Eurem Kaliber sollte man besser aus dem Weg gehen. Eure Feinde müssen Euch zu respektieren lernen! Ihr werdet genau das bekommen, sobald der Feind die Hand des Todes wahrnimmt... zu spät...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8143": {
+   "name": "Zandalarianischer Schattentalisman",
+   "progress": "Beeindruckend, $N. Ihr habt ein Händchen für's Töten, so etwas ist mir schon seit Jahren nicht mehr untergekommen. Sogar Molthor hat von Euren Taten für Zandalar Notiz genommen. Lasst mich Euren Talisman weiter verstärken, es ist an der Zeit... gebt ihn mir.$BZandalarianischer Schattentalisman (1)",
+   "completion": "Es gibt nur noch eine weitere Verstärkung für den Talisman, $C. Wenn die Zeit dafür gekommen ist, werde ich auch diese anwenden.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8144": {
+   "name": "Zandalarianischer Schattentalisman der Beherrschung",
+   "progress": "Er sehnt sich nach Wachstum, $N. Der Talisman hat all das in sich aufgenommen, was Ihr vollbracht habt. Die unzähligen Trollkadaver, die Zul'Gurub beschmutzen, haben seine Macht angeheizt. Gebt ihn mir und ich werde ihn endgültig verstärken.$BZandalarianischer Schattentalisman (1)",
+   "completion": "Dies ist das letzte Mal, dass wir unter der Schirmherrschaft von Shera Ali'kh miteinander sprechen. Ihr wisst alles, was Ihr wissen müsst. Nehmt den Talisman und setzt Eurer Schlachten fort. Hakkar darf Zul'Gurub niemals verlassen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8145": {
+   "name": "Die Maelstromranke",
+   "completion": "Unter den Zandalarianern wird der Stand des Jägers hoch verehrt. Die mächtigsten unserer $C reisen bis an den Rand des Maelstroms, um ihre Entschlossenheit unter Beweis zu stellen.$B$BAus dem tiefsten Herzen der See, ernten sie eine seltene Seetangart, die Maelstromranke. Die Seetangstränge werden in einen Talisman gewoben, welcher anschließend verzaubert wird, um die Treffsicherheit und Macht des Trägers zu verstärken.$B$BIch werde Euch jetzt die erste Maelstromranke in einen Talisman einweben. Wenn Euer Bund mit den Zandalar stärker wird, werde ich Euch mehr Ranken in den Talisman weben und so dessen Macht verstärken.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8146": {
+   "name": "Die Maelstromranke",
+   "progress": "Ah, $N, es ist schön Euch mal wieder zu riechen.$B$BIhr müsst meinen Humor entschuldigen, zuweilen nimmt er abstruse Formen an.$B$BIch fühle, dass Ihr unter unseren Feinden Angst und Schrecken verbreitet habt. Hakkars Gefolgsleute sprechen Euren Namen nur noch im Zorn aus. Hervorragend.$B$BIhr habt es verdient, dass ich Euch eine weitere Ranke in Euren Talisman einwebe. Gebt ihn mir.$BMaelstroms Ranke (1)",
+   "completion": "Mögen Sie am spitzen Ende Eurer Klinge Sühne finden.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8147": {
+   "name": "Die Maelstromranke",
+   "progress": "Selbst jetzt höre ich noch, wie Eure Geschosssalven unter Euren Feinden ein Blutbad anrichten. Ich vernehme das Echo der Todesqualen in ihren Schreien.$B$BIch habt Euch wahrlich einen Namen unter den Trollen der Zandalar gemacht, $N. Wir sind Euch für Eure Taten sehr dankbar.$B$BGebt mir Euren Talisman, damit ich eine weitere Ranke hineinweben kann.$BMaelstroms Ranke (1)",
+   "completion": "Es kann nur noch eine weitere Ranke in Euren Talisman gewoben werden, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8148": {
+   "name": "Maelstroms Zorn",
+   "progress": "$N, Molthor brachte uns eine Botschaft von König Rastakhan. Der königliche Hof ist beeindruckt davon, wie sehr Ihr die Hakkaristreitkräfte dezimiert habt. Ich bin ermächtigt worden, die letzte Verstärkung in Euren Talisman einzuweben. Gebt ihn mir.$BMaelstroms Ranke (1)",
+   "completion": "Eure Reise hat gerade erst begonnen, junger $C. Vielleicht werdet Ihr eines Tages selbst den Maelstrom besuchen und in das Herz der Welt blicken.$B$BIch wünsche Euch innere Stärke und Tapferkeit, mein Freund!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8157": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8158": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8159": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8163": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8164": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8165": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8184": {
+   "name": "Präsenz der Macht",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8185": {
+   "name": "Siegelzeichen des Synkretisten",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8186": {
+   "name": "Umarmung des Todes",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8187": {
+   "name": "Ruf des Falken",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8188": {
+   "name": "Vodouisants wachsame Umarmung",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8189": {
+   "name": "Allgegenwärtige Sicht",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8190": {
+   "name": "Verhexung des Hoodoo",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8191": {
+   "name": "Prophetische Aura",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8192": {
+   "name": "Liebkosung des Animisten",
+   "progress": "Zanza kann die antiken Trollverzauberungen mit den richtigen Komponenten herstellen.$B$BDie erste Zutat ist ein urzeitlicher Hakkarigötze, der von den mächtigsten Hakkari erlangt werden muss, von Jin'do und dem Blutfürsten.$B$BDie zweite Zutat ist eine durchstochene Voodoopuppe. Beide Komponenten findet Ihr in den Abfallhaufen, die diesen verdorbenen Ort bedecken. Schaut in den verwunschenen Hoodoohaufen nach.$B$BBringt mir diese Dinge und ich erschaffe eine mächtige Verzauberung für Euch!$BUrzeitlicher Hakkarigötze (1)$BDurchstochene Voodoopuppe (1)",
+   "completion": "Nutzt es weise, $C. Zeigt keine Gnade mit den Hakkari!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8193": {
+   "name": "Anglermeister",
+   "progress": "Heute zwischen 14 Uhr und 16 Uhr findet der Wettbewerb statt, der den besten Angler unter uns ermitteln wird! Seid die ERSTE PERSON, die mir 40 Leckerfische aus den Fischschwärmen der Gewässer des Schlingendorntals bringt und Ihr werdet der neue Meisterangler sein!$B$BFalls Ihr nicht als Erster hier sein solltet, wird Euch mein Lehrling hier mit Geld für jeden Stapel von 5 Leckerfischen belohnen.$B$BOh und beeilt Euch, Leckerfische werden schnell schlecht!$BGesprenkelter Leckerfisch (40)",
+   "completion": "Beeilt Euch und reicht die Fische ein, wenn Ihr den Titel des Meisteranglers erwerben wollt! Ich stehe hier schon seit STUNDEN ohne etwas zu essen! Gebt mir die Viecher schon her!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8194": {
+   "name": "Anglerlehrling",
+   "progress": "Wir haben zwar schon einen Gewinner ermittelt, aber ich kaufe Euch dennoch Eure restlichen Leckerfische ab. Ich zahl' Euch einen angemessenen Preis, na, was sagt Ihr!$BGesprenkelter Leckerfisch (5)",
+   "completion": "Also für mich steht der Handel, wenn Ihr damit einverstanden seid!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8195": {
+   "name": "Münzen der Razzashi, Hakkari und zulianische Münzen",
+   "progress": "Ich suche nach den Symbolen der Macht, bekannt als Münzen der Stämme. Sie sind die Währung unterschiedlichster Bewohner Zul'Gurubs und eine jede ist mit subtilem, aber mächtigem Mojo erfüllt.$B$BEs gibt neun bestimmte Arten, die es zu finden gilt. Manche werden von meinen Landsmänner für unterschiedliche Rüstungen begehrt, die sie zandalarianischen Helden anbieten. Solltet Ihr welche über haben, werde ich Euch eine unserer Ehrenmünzen im tausch gegen drei davon geben. Ihr könnt die Münzen bei Rin'wosho dem Händler verwenden; er bietet unseren Helden spezielle Gegenstände dafür an.$BZulianische Münze (1)$BMünze der Razzashi (1)$BMünze der Hakkari (1)",
+   "completion": "Ausgezeichnet - dieses Set Münzen ist eine feine Zugabe für unsere wachsende Sammlung... eine, die wir bei der Verteidigung unseres Stammes gegen die Auferstehung des Blutgottes einsetzen werden. Ihr habt Euch diese Ehrenmünze verdient, $N, genauso wie den Dank unseres Stammes!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8196": {
+   "name": "Essenzmangos",
+   "progress": "Die extrem wirksamen Essenzmangos wachsen auf vielen Inseln der südlichen Meere. Eine einzelne Mango erfrischt denjenigen, der davon isst, körperlich wie auch geistig. Solltet Ihr noch nie eine gekostet haben, dann erweist Ihr Euch damit keinen Dienst!$B$BHier auf der Insel verfügen wir über einen ausreichend großen Vorrat, um Euch ein paar davon im Austausch gegen eine zandalarianische Ehrenmünze geben zu können. Sprecht mit Vinchaxa, wenn Ihr wissen wollt, wie Ihr an Ehrenmünzen gelangt; ansonsten, lasst uns gleich Geschäfte machen!$BZandalarianische Ehrenmünze (1)$BStamm der Zandalar (Wohlwollend)",
+   "completion": "Ein fairer Tausch, mein Freund. Bitte genießt die köstlichen Früchte der südlichen Meere, Ihr habt den Segen des Stammes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8221": {
+   "name": "Besonderer Fisch - Keefers Engelfisch",
+   "progress": "*Surrr* *PLIIING*$B$BIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen Keefers Engelfisch und ich werde Euch eine feine Belohnung zuteil werden lassen.$B$B*KLING**Bzzzz*$BKeefers Engelfisch (1)",
+   "completion": "*Surrr* Identifizierung und Katalogisierung von Keefers Engelfisch abgeschlossen.$B$BEure Belohnung ist nun erhältlich.$B$B*PLIIING-PLIIING**Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8222": {
+   "name": "Leuchtendes Skorpidblut",
+   "progress": "In all der Zeit, in der ich nun mit dem Jahrmarkt reise, habe ich viel über unsere Kunden gelernt. Eine Kostprobe meiner Weisheit gefällig? Kunden lieben alles, was leuchtet. Es ist völlig egal was! Ihr könntet ein abgebrochenes Stuhlbein nehmen und es zum Leuchten bringen und schon würde jedes Kind von egal wieweit her kommen, nur um darauf einen Blick werfen zu können!$B$BTja $N, ich brauche also leuchtendes Skorpidblut. Bei den Skorpiden in Silithus, in den verwüsteten Landen oder der brennenden Steppe solltet Ihr fündig werden.$BLeuchtendes Skorpidblut (10)",
+   "completion": "Großartig! Habt vielen Dank! Aus dem Blut werde ich eine eine exzellente Farbe mischen und damit den billigsten Tand in pures Gold verwandeln!$B$BNehmt diese Lose, $N, danke für Eure Dienste.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8223": {
+   "name": "Mehr leuchtendes Skorpidblut",
+   "progress": "Die Idee mit dem Skorpidblut hat funktioniert, $N! Es ist unglaublich wieviel man mit einem bisschen Leuchten hier und etwas Glitzern da erreichen kann. In Null Komma Nichts wird so aus einem haufen Schrott, eine preisgekrönte Attraktion. Meine Kunden lieben das Zeug und wenn etwas wichtig ist im Leben, dann ist es Liebe... findet Ihr nicht auch!$B$BIhr wart mir eine große Hilfe, $N! Mein Bedarf ist zwar vorerst gedeckt, doch wenn Ihr mehr leuchtendes Skorpidblut findet, bringt es mir und ich tausche es gegen einige Lose ein.$BLeuchtendes Skorpidblut (10)",
+   "completion": "Danke nochmals, $N. Hier sind Eure Lose!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8224": {
+   "name": "Besonderer Fisch - Dezianischer Königinnenfisch",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8225": {
+   "name": "Besonderer Fisch - Brownells blaugestreifter Flitzerfisch",
+   "progress": "*Surrr* *PLIIING*$B$BIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen von diesen Brownells blaugestreiften Flitzerfischen und ich werde Euch eine feine Belohnung zuteil werden lassen.$B$B*KLING**Bzzzz*$BBrownells blaugestreifter Flitzerfisch (1)",
+   "completion": "*Surrr* Identifizierung und Katalogisierung von Brownells blaugestreiften Flitzerfisch abgeschlossen.$B$BEure Belohnung ist nun erhältlich.$B$B*PLIIING-PLIIING**Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8228": {
+   "name": "Könnte ich einen Flugzettel für den Angelwettbewerb bekommen?",
+   "completion": "Es wird diesen Sonntag einen Angelwettbewerb in Booty Bay geben! Hier sind die Regeln für den Wettbewerb, falls Ihr daran teilnehmen möchtet!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8229": {
+   "name": "Könnte ich einen Flugzettel für den Angelwettbewerb bekommen?",
+   "completion": "Es wird einen Angelwettbewerb in Booty Bay geben, diesen Sonntag! Hier sind die Regeln für Euch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8238": {
+   "name": "Münzen der Gurubashi, Vilebranch und Witherbark",
+   "progress": "Ich suche nach den Symbolen der Macht, bekannt als Münzen der Stämme. Sie sind die Währung unterschiedlichster Bewohner Zul'Gurubs und eine jede ist mit subtilem, aber mächtigem Mojo erfüllt.$B$BEs gibt neun bestimmte Arten, die es zu finden gilt. Manche werden von meinen Landsmänner für unterschiedliche Rüstungen begehrt, die sie zandalarianischen Helden anbieten. Solltet Ihr welche über haben, werde ich Euch eine unserer Ehrenmünzen im tausch gegen drei davon geben. Ihr könnt die Münzen bei Rin'wosho dem Händler verwenden; er bietet unseren Helden spezielle Gegenstände dafür an.$BMünze der Gurubashi (1)$BMünze der Vilebranch (1)$BMünze der Witherbark (1)",
+   "completion": "Ausgezeichnet - dieses Set Münzen ist eine feine Zugabe für unsere wachsende Sammlung... eine, die wir bei der Verteidigung unseres Stammes gegen die Auferstehung des Blutgottes einsetzen werden. Ihr habt Euch diese Ehrenmünze verdient, $N, genauso wie den Dank unseres Stammes!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8239": {
+   "name": "Münzen der Sandfury, Skullsplitter und Bloodscalp",
+   "progress": "Ich suche nach den Symbolen der Macht, bekannt als Münzen der Stämme. Sie sind die Währung unterschiedlichster Bewohner Zul'Gurubs und eine jede ist mit subtilem, aber mächtigem Mojo erfüllt.$B$BEs gibt neun bestimmte Arten, die es zu finden gilt. Manche werden von meinen Landsmänner für unterschiedliche Rüstungen begehrt, die sie zandalarianischen Helden anbieten. Solltet Ihr welche über haben, werde ich Euch eine unserer Ehrenmünzen im Tausch gegen drei davon geben. Ihr könnt die Münzen bei Rin'wosho dem Händler verwenden; er bietet unseren Helden spezielle Gegenstände dafür an.$BMünze der Sandfury (1)$BMünze der Skullsplitter (1)$BMünze der Bloodscalp (1)",
+   "completion": "Ausgezeichnet - dieses Set Münzen ist eine feine Zugabe für unsere wachsende Sammlung... eine, die wir bei der Verteidigung unseres Stammes gegen die Auferstehung des Blutgottes einsetzen werden. Ihr habt Euch diese Ehrenmünze verdient, $N, genauso wie den Dank unseres Stammes!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8241": {
+   "name": "Nachschub an feurigem Fluxus: Eisen",
+   "progress": "Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$B$BIch brauche Euch, um mir folgendes zu beschaffen:$B$B*Incendosaurierschuppen.$B$B*Eisenbarren.$B$B*Kohle.$B$BIch nehme alles was Ihr kriegen könnt!$B$BUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?$BIncendosaurierschuppe (2)$BEisenbarren (4)$BKohle (1)",
+   "completion": "Es ist immer genug Platz für einen weiteren feurigen Fluxus, Junge. Immer her damit... bis ich Euch sage, dass es genug ist.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8242": {
+   "name": "Nachschub an feurigem Fluxus: Schweres Leder",
+   "progress": "Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$B$BIch brauche Euch, um mir folgendes zu beschaffen:$B$B*Incendosaurierschuppen.$B$B*Schweres Leder.$B$B*Kohle.$B$BIch nehme alles was Ihr kriegen könnt!$B$BUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?$BIncendosaurierschuppe (2)$BSchweres Leder (10)$BKohle (1)",
+   "completion": "Es ist immer genug Platz für einen weiteren feurigen Fluxus, Junge. Immer her damit... bis ich Euch sage, dass es genug ist.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8243": {
+   "name": "Zanzas wirksame Tränke",
+   "progress": "Mit Eurem verbesserten Ruf innerhalb unseres Stammes, bekommt Ihr auch Zugang zu einigen unserer wirksamsten Tränke. Nehmt Euch in Acht... diese Gebräue sind stark im Mojo - gesegnet von Zanza und für Abenteurer jeglicher Herkunft gemacht!$B$BIch lasse Euch einen aus den drei Tränken, die ich anbiete, auswählen; im Gegenzug verlange ich eine zandalarianische Ehrenmünze. Seid Euch im Klaren, dass nur jeweils die Effekte eines Tranks zu einer beliebigen Zeit durch Euren Geist jagen können.$B$BLasst mich wissen, wenn Ihr zum Tauschhandel bereit seid!$BZandalarianische Ehrenmünze (1)$BStamm der Zandalar (Respektvoll)",
+   "completion": "Ein fairer Handel, mein Freund... erfreut Euch am Segen Zanzas mit unseren besten Wünschen!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8246": {
+   "name": "Das Siegel der Zandalar",
+   "progress": "Für jemanden, der bei den Zandalar so angesehen ist wie Ihr $N, habe ich etwas sehr Besonderes. Direkt aus unserer Heimat in den südlichen Meeren... die Siegel der Zandalar! Diese Siegel werden zum Aufwerten eines beliebigen Schultergegenstands, den Ihr besitzt, verwendet. Solltet Ihr nach Macht, Mojo oder Gelassenheit suchen - dann habe ich genau das, was Ihr braucht!$B$BIch gebe Euch ein Siegel Eurer Wahl im Austausch gegen fünfzehn zandalarianische Ehrenmünzen. Sobald Ihr die Münzen habt, können wir Geschäfte machen!$BZandalarianische Ehrenmünze (15)$BStamm der Zandalar (Ehrfürchtig)",
+   "completion": "Ein fairer Handel, mein Freund... bitte nehmt unser Siegel mit dem Segen unseres Stammes!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8249": {
+   "name": "Plunderkisten benötigt",
+   "progress": "Meine Schurken müssen ihre Fertigkeiten im Schlossknacken noch verbessern und ich brauche dafür noch Schlösser mit entsprechendem Schwierigkeitsgrad -- das Zeug, das Zan für uns herstellt, taugt lediglich für totale Anfänger.$B$BIch sag' Euch was, wenn Ihr mir 5 schwere Plunderkisten besorgt, dann gebe ich Euch dafür die feinsten Wurfmesser, die in Schurkenkreisen bekannt sind.$B$BIhr könnt die Kisten öffnen und durchstöbern, aber lasst wenigstens ein paar Münzen übrig... auch ein $C, der sich in Ausbildung befindet, braucht etwas Motivation.$BSchwere Plunderkiste (5)",
+   "completion": "Mögen diese Messer einen Platz in jemandens Herz einnehmen.$B$BIm wahrsten Sinne des Wortes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8260": {
+   "name": "Basisüberlebenspaket von Arathor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8261": {
+   "name": "Standardüberlebenspaket von Arathor",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb des Arathibecken verwendet werden können.$B$BBewährt Ihr Euch noch weiter im Arathibecken, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.$BDer Bund von Arathor (Freundlich)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8262": {
+   "name": "Verbessertes Überlebenspaket von Arathor",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb des Arathibecken verwendet werden können.$B$BBewährt Ihr Euch noch weiter im Arathibecken, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn unsere Einstellung Euch gegenüber freundlich ist, sowie Verbände, wenn Ihr unser Wohlwollen erlangt habt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8263": {
+   "name": "Basisüberlebenspaket der Entweihten",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8264": {
+   "name": "Standardüberlebenspaket der Entweihten",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb des Arathibecken verwendet werden können.$B$BBewährt Ihr Euch noch weiter im Arathibecken, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn Ihr unser Wohlwollen erlangt habt, sowie Verbände, wenn Ihr Euch unseren Respekt verdient habt.$BDie Entweihten (Freundlich)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8265": {
+   "name": "Verbessertes Überlebenspaket der Entweihten",
+   "completion": "Ihr habt zweifellos begonnen, Euch bei uns als würdig zu erweisen, $N. Bitte, nehmt dieses Überlebenspaket als Gegenleistung an! Ihr findet darin Rationen und Verbände, die nur innerhalb des Arathibecken verwendet werden können.$B$BBewährt Ihr Euch noch weiter im Arathibecken, werdet Ihr auch mehr dieser Gegenstände erwerben können. Ihr erhaltet die Rationen, wenn Ihr unser Wohlwollen erlangt habt, sowie Verbände, wenn Ihr Euch unseren Respekt verdient habt.$BDie Entweihten (Freundlich)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8266": {
+   "name": "Aufopferungsabzeichen",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8267": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8268": {
+   "name": "Aufopferungsabzeichen",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8269": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8271": {
+   "name": "Held der Stormpike",
+   "completion": "Als ein Held der Stormpike, dürft Ihr Euch eines dieser erst kürzlich geplün… äh, wiederentdeckten Schätze, aussuchen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8272": {
+   "name": "Held der Frostwolf",
+   "completion": "Was ist das für ein Gefühl, $N? Wie fühlt es sich an, die Linien des Feindes zu zerschmettern und jeglichen Widerstand auszulöschen? Es ist ein gutes Gefühl, nicht wahr?$B$BFür Eure Heldentat habt Ihr eine große Belohnung verdient.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8273": {
+   "name": "Orans Dankbarkeit",
+   "completion": "Ach das ist ja interessant! Ihr sagt, Ihr habt diese Schrifttafel auf einer kleinen, unbewohnten Insel nahe der Aussichtsklippen im Hinterland gefunden, $C? Wirklich äußerst interessant.$B$BIch danke Euch für Eure Bemühungen in dieser Angelegenheit. Unsere dunkle Fürstin wird mit dieser Entdeckung sehr zufrieden sein. Erlaubt mir, Euch angemessen zu belohnen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8289": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8290": {
+   "name": "Besiegt die Eindringlinge!",
+   "objectivesText": [
+    "Betretet die Warsongschlucht und besiegt die Streitkräfte der Horde. Verdient Euch ein Ehrenabzeichen der Warsongschlucht und kehrt zur Schildwache Farsong am Hain der Silverwing zurück."
+   ],
+   "details": "Jenseits dieses Tunnels werdet Ihr ein Feld des Kampfes und der Aufruhr finden, <junger/junge:c> $C. Die Horde hört nicht auf, unseren heiligen Wald zu roden und benutzt unser immergrünes Blattwerk, um ihre Maschinen anzutreiben.$B$BBetretet die Kriegshymnenschlucht und verteidigt die Feste der Silberschwingen. Schlagt die eingefallenen Kräfte der Horde zurück.$B$BEin Erfolg würde Euch ein Verdienstabzeichen einbringen. Bringt mir eines dieser Abzeichen, $N und ich werde Euch belohnen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8292": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8293": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8295": {
+   "name": "Bezwingt die Eindringlinge der Silverwing",
+   "objectivesText": [
+    "Betretet die Warsongschlucht und besiegt die Streitkräfte der Allianz. Erwerbt ein Ehrenabzeichen der Warsongschlucht und kehrt anschließend zu Captain Shatterskull im Mor'shan-Stützpunkt zurück."
+   ],
+   "details": "Die Wildnis von Ashenvale wird sich der Macht der Horde ergeben, $R. Nichts, was die Silverwing tun oder sagen, wird uns daran hindern, unseren territorialen Herrschaftsanspruch durchzusetzen. Kalimdor gehört der Horde. Wie können sie es wagen, uns davon abzuhalten, das zu ernten, was rechtens unser ist!$B$BLasst Eure Brust vor Stolz erbeben, während Ihr ihre schwachen Versuche, unseren Fortschritt zu behindern, zunichtemacht. Zerstört die Schildwachen der Silverwing und erlangt ein Ehrenabzeichen der Warsong. Kehrt zu mir zurück, $N, wenn Ihr im Besitz eines Ehrenabzeichens seid, und ich werde Euch belohnen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8296": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8298": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8300": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8316": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8319": {
+   "name": "Verschlüsselte Texte der Twilight",
+   "progress": "Bringt mir weitere Texte. Es dauert nicht mehr lange, und wir haben die Twilight-Hammer aus Silithus vertrieben.$BVerschlüsselter Text der Twilight (10)",
+   "completion": "Hervorragende Arbeit! Ich werde ein gutes Wort für Euch einlegen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8324": {
+   "name": "Fester Glauben",
+   "progress": "Konntet Ihr noch mehr verschlüsselte Texte finden? Die Entschlüsselung wird noch eininge Zeit brauchen, also bringt mir ruhig einen großen Stapel Texte.$BVerschlüsselter Text der Twilight (10)",
+   "completion": "Hervorragend! Ich kann es kaum erwarten, sie zu lesen. Hört nicht auf und bringt mir auch weiterhin alle verschlüsselten Texte, die Ihr findet.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8333": {
+   "name": "Das Standesmedallion",
+   "progress": "Falls Ihr ein weiteres Standesmedaillon eines Twilightkultisten braucht, helfe ich Euch gerne weiter. In jedem Fall benötige ich jedoch einen weiteren glänzenden Splitter und einige abyssische Wappen…$BGroßer glänzender Splitter (1)$BAbyssisches Wappen (3)",
+   "completion": "Hier, nehmt es, $N. Ein weiteres Standesmedaillon der Twilight. Nutzt es weise, und alles Gute für Euren Kampf gegen den abyssischen Rat!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8342": {
+   "name": "Herrschaftsring der Twilight",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8362": {
+   "name": "Abyssische Wappen",
+   "progress": "Ihr habt Eure Fähigkeiten im Kampf mehrfach bewiesen, $N. Wir müssen den Druck auf die Twilight-Hammer weiter aufrecht erhalten. Zieht los und bekämpft weitere abyssische Templer. Eure Mühen sollen nicht umsonst sein, und ich werde Euch mit einigen der Sachen entlohnen, die Huum und ich in der Schlacht erbeutet haben.$BAbyssisches Wappen (3)",
+   "completion": "Ihr habt Euch hervorragend geschlagen! Und wieder einige Templer weniger, um die ich mir Sorgen machen muss.$B$BDas ist für Euch, $N. Ich hoffe, dass Ihr einiges davon gebrauchen könnt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8363": {
+   "name": "Abyssische Siegel",
+   "progress": "Ihr habt bewiesen, dass Ihr mehr als fähig seid, es mit einem abyssischen Fürsten aufzunehmen, $N. Ich fördere gerne jemanden, der sich als so tapfer erweist. Bringt mir mehr Siegelringe und ich werde Euch reichlich belohnen.$BAbyssisches Siegel (3)",
+   "completion": "Sehr gut, $N! Der Sieg über diese Fürsten, wird die Twilight-Hammer eine ganze Weile beschäftigen. Hier ist, wie versprochen, Eure Belohnung. Das sind einige der wertvolleren Gegenstände, die Huum und ich gefunden haben.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8364": {
+   "name": "Abyssische Szepter",
+   "progress": "Ihr habt all meine Erwartungen bei weitem übertroffen, $N. Ihr habt Euch Gegnern gestellt, bei denen Huum und ich lange und gründlichst über einen Angriff nachdenken würden. Das Beste, was ich in dieser Sache wohl tun kann, ist, Eure Bemühungen im Kampf gegen die Twilight-Hammer und ihre Oberanführer auch weiterhin zu belohnen. Bringt mir noch mehr abyssische Szepter und ich werde mein Bestes tun, um Euch gebührend zu entlohnen.$BAbyssisches Szepter (3)",
+   "completion": "Ich habe gewusst, dass Ihr es schaffen würdet, $N! Hier ist Eure Belohnung.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8376": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8377": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8378": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8379": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8380": {
+   "name": "Kriegsausrüstung",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8381": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8382": {
+   "name": "Kriegsausrüstung",
+   "completion": "Ein Krieg wird kommen, $N, und mit ihm unbeschreibliches Leiden. Ihr habt alles getan, um was man Euch hätte bitten können, dafür sollt Ihr belohnt werden.$B$BSollte diese… diese Prophezeiung jemals wahr werden…$B$BDas könnte das Ende für unser aller Zukunft bedeuten.$B$BDiese Ausrüstung wird von unschätzbarem Wert für Euren Feldzug in der Wüste sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8383": {
+   "name": "Vergesst das Alteractal nicht!",
+   "progress": "Die Schlacht im Alteractal tobt noch immer, $N! Habt Ihr schon Euren Teil zum Sieg beigetragen, $N?$BEhrenabzeichen des Alteractals (3)",
+   "completion": "Wieder einmal ehrt Ihr die Allianz, $N! Wenn wir so weiter machen, wird es nicht mehr lange dauern, bis die Horde vernichtet ist.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8384": {
+   "name": "Inbesitznahme des Arathibeckens",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8385": {
+   "name": "Gemeinsames Bestreben",
+   "progress": "Ah, $N. Ich hoffe Ihr gebt Eure Erfahrung auch noch auf weiteren Schlachtfeldern weiter. Viele unserer Jungens und Mädels sehen mit Ehrfurcht zu erfahrenen Veteranen wie Euch auf.$BEhrenabzeichen des Alteractals (3)$BEhrenabzeichen des Arathibeckens (3)$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Ihr werdet Eurem Ruf gerecht, $N. Ohne Kämpfer wie Euch, würde die Allianz keine Chance gegen die barbarischen Streitkräfte der Horde haben.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8386": {
+   "name": "Kampf um die Warsongschlucht",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8387": {
+   "name": "Die Invasoren des Alteractals",
+   "progress": "Die Schlacht im Alteractal tobt noch immer, $N! Ihr müsst schnellstmöglich in das Alteractal zurückkehren und die Invasoren aus dem Gebiet der Frostwolf vertreiben.$BEhrenabzeichen des Alteractals (3)",
+   "completion": "Gute Arbeit, $N! Ihr könnt stolz auf Euch sein. Die Invasoren der Allianz müssen aus dem Alteractal getrieben werden, koste es, was es wolle!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8388": {
+   "name": "Große Ehre",
+   "progress": "Viele mutige Kämpfer sehen zu Euch auf, $N. Ihr seid auch weiterhin ein Vorbild für alle, die sich in den Schlachten gegen die Allianz schlagen. Welche Neuigkeiten bringt Ihr mir von Euren Reisen?$BEhrenabzeichen des Alteractals (3)$BEhrenabzeichen des Arathibeckens (3)$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Ihr ehrt die Horde auch weiterhin, $N. Ich freue mich zu sehen, dass Ihr nicht nachgebt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8389": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8390": {
+   "name": "Eroberung des Arathibeckens",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8391": {
+   "name": "Inbesitznahme des Arathibeckens",
+   "progress": "Der Krieg gegen die Horde verbraucht zusehends unsere Vorräte, $N. Es ist lebenswichtig, dass wir die Kontrolle über das Arathibecken halten können, um den Ressourcennachschub für unsere Kriegsproduktion aufrechtzuerhalten! Unsere Truppen im Arathibecken können jederzeit Eure Hilfe brauchen.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $C. Eure Anstrengungen werden dazu beitragen, dass der Allianz auch weiterhin dringend benötigte Ressourcen zur Verfügung stehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8392": {
+   "name": "Inbesitznahme des Arathibeckens",
+   "progress": "Der Krieg gegen die Horde verbraucht zusehends unsere Vorräte, $N. Es ist lebenswichtig, dass wir die Kontrolle über das Arathibecken halten können, um den Ressourcennachschub für unsere Kriegsproduktion aufrechtzuerhalten! Unsere Truppen im Arathibecken können jederzeit Eure Hilfe brauchen.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $C. Eure Anstrengungen werden dazu beitragen, dass der Allianz auch weiterhin dringend benötigte Ressourcen zur Verfügung stehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8397": {
+   "name": "Inbesitznahme des Arathibeckens",
+   "progress": "Der Krieg gegen die Horde verbraucht zusehends unsere Vorräte, $N. Es ist lebenswichtig, dass wir die Kontrolle über das Arathibecken halten können, um den Ressourcennachschub für unsere Kriegsproduktion aufrechtzuerhalten! Unsere Truppen im Arathibecken können jederzeit Eure Hilfe brauchen.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $C. Eure Anstrengungen werden dazu beitragen, dass der Allianz auch weiterhin dringend benötigte Ressourcen zur Verfügung stehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8398": {
+   "name": "Inbesitznahme des Arathibeckens",
+   "progress": "Der Krieg gegen die Horde verbraucht zusehends unsere Vorräte, $N. Es ist lebenswichtig, dass wir die Kontrolle über das Arathibecken halten können, um den Ressourcennachschub für unsere Kriegsproduktion aufrechtzuerhalten! Unsere Truppen im Arathibecken können jederzeit Eure Hilfe brauchen.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $C. Eure Anstrengungen werden dazu beitragen, dass der Allianz auch weiterhin dringend benötigte Ressourcen zur Verfügung stehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8404": {
+   "name": "Kampf um die Warsongschlucht",
+   "progress": "Vergesst nicht, dass es bei dem Kampf um die Warsongschlucht um mehr als das Beschützen von Bäumen geht. Es gilt eine natürliche Barriere zwischen Ashenvale und dem Brachland zu erhalten. Habt Ihr Neuigkeiten vom Schlachtfeld, $N?$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gute Arbeit, $N. Dank Euch wird unsere natürliche Verteidigung in Ashenvale einen weiteren Tag überstehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8405": {
+   "name": "Kampf um die Warsongschlucht",
+   "progress": "Vergesst nicht, dass es bei dem Kampf um die Warsongschlucht um mehr als das Beschützen von Bäumen geht. Es gilt eine natürliche Barriere zwischen Ashenvale und dem Brachland zu erhalten. Habt Ihr Neuigkeiten vom Schlachtfeld, $N?$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gute Arbeit, $N. Dank Euch wird unsere natürliche Verteidigung in Ashenvale einen weiteren Tag überstehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8406": {
+   "name": "Kampf um die Warsongschlucht",
+   "progress": "Vergesst nicht, dass es bei dem Kampf um die Warsongschlucht um mehr als das Beschützen von Bäumen geht. Es gilt eine natürliche Barriere zwischen Ashenvale und dem Brachland zu erhalten. Habt Ihr Neuigkeiten vom Schlachtfeld, $N?$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gute Arbeit, $N. Dank Euch wird unsere natürliche Verteidigung in Ashenvale einen weiteren Tag überstehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8407": {
+   "name": "Kampf um die Warsongschlucht",
+   "progress": "Vergesst nicht, dass es bei dem Kampf um die Warsongschlucht um mehr als das Beschützen von Bäumen geht. Es gilt eine natürliche Barriere zwischen Ashenvale und dem Brachland zu erhalten. Habt Ihr Neuigkeiten vom Schlachtfeld, $N?$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gute Arbeit, $N. Dank Euch wird unsere natürliche Verteidigung in Ashenvale einen weiteren Tag überstehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8408": {
+   "name": "Kampf um die Warsongschlucht",
+   "progress": "Vergesst nicht, dass es bei dem Kampf um die Warsongschlucht um mehr als das Beschützen von Bäumen geht. Es gilt eine natürliche Barriere zwischen Ashenvale und dem Brachland zu erhalten. Habt Ihr Neuigkeiten vom Schlachtfeld, $N?$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gute Arbeit, $N. Dank Euch wird unsere natürliche Verteidigung in Ashenvale einen weiteren Tag überstehen.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8431": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8432": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8433": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8434": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8435": {
+   "name": "Schlacht der Warsongschlucht",
+   "progress": "Der Kampf um die Warsongschlucht geht weiter, $N. Tut alles, was in Eurer Macht steht, um die Schildwachen der Silverwing aus unserem Land zu vertreiben!$BEhrenabzeichen der Warsongschlucht (3)",
+   "completion": "Gut gemacht, $C! Ihr habt der Horde geholfen ihr Eigentumsrecht an der Warsongschlucht zu sichern!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8440": {
+   "name": "Eroberung des Arathibeckens",
+   "progress": "Der Krieg gegen den Allianzabschaum frisst Unmengen an Ressourcen, $N! Wir können es uns nicht erlauben, dass uns unsere Vorräte auf dem Höhepunkt der Schlacht ausgehen. Stellt weiterhin sicher, dass das Arathibecken unter unserer Kontrolle bleibt.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $N. Solange wir das Arathibecken halten können, werden unsere Nachschublager gut gefüllt sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8441": {
+   "name": "Eroberung des Arathibeckens",
+   "progress": "Der Krieg gegen den Allianzabschaum frisst Unmengen an Ressourcen, $N! Wir können es uns nicht erlauben, dass uns unsere Vorräte auf dem Höhepunkt der Schlacht ausgehen. Stellt weiterhin sicher, dass das Arathibecken unter unserer Kontrolle bleibt.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $N. Solange wir das Arathibecken halten können, werden unsere Nachschublager gut gefüllt sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8442": {
+   "name": "Eroberung des Arathibeckens",
+   "progress": "Der Krieg gegen den Allianzabschaum frisst Unmengen an Ressourcen, $N! Wir können es uns nicht erlauben, dass uns unsere Vorräte auf dem Höhepunkt der Schlacht ausgehen. Stellt weiterhin sicher, dass das Arathibecken unter unserer Kontrolle bleibt.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $N. Solange wir das Arathibecken halten können, werden unsere Nachschublager gut gefüllt sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8443": {
+   "name": "Eroberung des Arathibeckens",
+   "progress": "Der Krieg gegen den Allianzabschaum frisst Unmengen an Ressourcen, $N! Wir können es uns nicht erlauben, dass uns unsere Vorräte auf dem Höhepunkt der Schlacht ausgehen. Stellt weiterhin sicher, dass das Arathibecken unter unserer Kontrolle bleibt.$BEhrenabzeichen des Arathibeckens (3)",
+   "completion": "Hervorragende Arbeit, $N. Solange wir das Arathibecken halten können, werden unsere Nachschublager gut gefüllt sein.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8466": {
+   "name": "Federn für Grazle",
+   "progress": "Ihr habt Euch mir gegenüber mehr als bewiesen, doch um das Vertrauen meiner misstrauischen Brüder und Schwestern zu gewinnen, ist es noch ein weiter Weg. Keine Sorge, ich werde Euch dabei behilflich sein, auch diese letzte Hürde zu überwinden.$B$BEinige Furbolgs der Totenwaldfelle tragen einen auffälligen Kopfschmuck. Dieser wäre ein ausreichender Beweis, für Euren Kampf gegen unsere verderbten Geschwister. Bringt mir die Federn der von Euch erbeuteten Kopfschmucke. Für jeweils fünf Federn die Ihr bei mir abgebt, wird sich Euer Ruf unter den Einwohnern der Holzschlundfeste verbessern.$BKopfputzfeder der Totenwaldfelle (5)",
+   "completion": "Gut gemacht, $N! Ich werde dafür Sorgen, dass alle Furbolgs der Holzschlundfeste von Euren Taten erfahren.$B$BVergesst nicht, mir alle Federn zu bringen, die Ihr findet.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8467": {
+   "name": "Federn für Nafien",
+   "progress": "Ihr habt Euch mir gegenüber mehr als bewiesen, doch um das Vertrauen meiner misstrauischen Brüder und Schwestern zu gewinnen, ist es noch ein weiter Weg. Keine Sorge, ich werde Euch dabei behilflich sein, auch diese letzte Hürde zu überwinden.$B$BEinige Furbolgs der Totenwaldfelle tragen einen auffälligen Kopfschmuck. Dieser wäre ein ausreichender Beweis, für Euren Kampf gegen unsere verderbten Geschwister. Bringt mir die Federn der von Euch erbeuteten Kopfschmucke. Für jeweils fünf Federn die Ihr bei mir abgebt, wird sich Euer Ruf unter den Einwohnern der Holzschlundfeste verbessern.$BKopfputzfeder der Totenwaldfelle (5)",
+   "completion": "Gut gemacht, $N! Ich werde dafür Sorgen, dass alle Furbolgs der Holzschlundfeste von Euren Taten erfahren.$B$BVergesst nicht, mir alle Federn zu bringen, die Ihr findet.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8469": {
+   "name": "Perlen für Salfa",
+   "progress": "Ihr habt Euch mein Vertrauen hart erarbeitet, $N. Doch bis meine Brüder und Schwestern Euch genauso akzeptieren, wie ich es tue, ist es noch ein weiter Weg. Ihr könntet jedoch etwas für mich tun, um diesen Prozess zu beschleunigen.$B$BDie Furbolgs der Winterfelle sind dafür bekannt, dass sie zum Schutz vor dunklen Mächten Geisterperlen bei sich tragen. Aber auch diese mächtigen Artefakte vermochten es nicht, die Verderbnis aufzuhalten und so sind die Winterfelle dieser Macht erlegen. Bringt mir die Geisterperlen gefallener Furbolgs der Winterfelle. Für jeweils fünf Geisterperlen die Ihr bei mir abgebt, wird sich Euer Ruf unter den Einwohnern der Holzschlundfeste verbessern.$BGeisterperlen der Winterfelle (5)",
+   "completion": "Wieder einmal habt Ihr Eure Ehre bewiesen! Ich werde dafür Sorgen, dass alle Furbolgs der Holzschlundfeste von Euren Taten erfahren.$B$BVergesst nicht, mir alle Geisterperlen der Winterfellfurbolgs zu bringen, die Ihr findet. Jedes Mal wenn Ihr mir neue Perlen bringt, werde ich mich in unserem Stamm für Euch einsetzen.",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }

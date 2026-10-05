@@ -2109,6 +2109,1028 @@
    "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
    "fetched": "2026-10-04",
    "v": 2
+  },
+  "7822": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Thunder Bluff !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prête à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7823": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7824": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7825": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur de Thunder Bluff soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Thunder Bluff. Merci de tous vos efforts !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7826": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tout Orgrimmar pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7827": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7831": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue à Orgrimmar !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7832": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur d’Orgrimmar soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour Orgrimmar. Merci de tous vos efforts !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7833": {
+   "name": "Un don de laine",
+   "progress": "Nous acceptons les dons de laine. En fait, un don de soixante morceaux de laine vous vaudrait la reconnaissance de tous les trolls Darkspear pour votre générosité. Nos réserves en sont au point où il nous manque seulement ces soixante morceaux de laine, le reste nous sera fourni par d’autres.$B$BSi vous avez soixante morceaux de laine et que vous êtes prêt à les donner, je peux les prendre dès maintenant.$BEtoffe de laine (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7834": {
+   "name": "Un don de soie",
+   "progress": "Nos réserves de soie sont très basses – comme celles de toutes nos étoffes, en fait. Heureusement, vous n’êtes pas le seul à nous en fournir. En mettant bout à bout toutes les contributions, nous devrions atteindre nos objectifs, à condition que vous nous remettiez soixante morceaux de soie.$B$BJe dois ajouter qu’un don de cette ampleur augmenterait certainement votre statut dans notre communauté ! Si vous avez soixante morceaux de soie et si vous êtes prêt à les donner, je peux les prendre immédiatement.$BEtoffe de soie (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7835": {
+   "name": "Un don de tisse-mage",
+   "progress": "Nous arrivons à court de tisse-mage, et votre aide serait la bienvenue pour reconstituer nos réserves ! En comptant sur toute la communauté pour le reste, il vous suffirait de donner 60 morceaux de tisse-mage pour que nos objectifs soient atteints. Bien sûr, je vous promets qu’une telle générosité ne passerait pas inaperçue auprès des trolls Darkspear !$B$BSi vous avez les soixante morceaux de tisse-mage sur vous, et si vous êtes prêt à les donner, je suis en mesure de les récupérer dès maintenant.$BEtoffe de tisse-mage (60)",
+   "completion": "Merveilleux ! Nous vous remercions pour ce don très généreux, $N !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7836": {
+   "name": "Un don d'étoffe runique",
+   "progress": "$N, vous avez déjà beaucoup contribué à notre recherche d’étoffe. Nous travaillons d’arrache-pied à reconstituer nos réserves, cependant nous manquons encore cruellement d'un type de tissu : l'étoffe runique. Nous en avons désespérément besoin. Pourriez-vous nous aider, comme vous nous avez aidés dans le passé ?$B$BSi vous acceptez, apportez-moi toute l'étoffe runique dont vous pouvez vous séparer. Nous accepterons un don initial de soixante unités, et ensuite, nous aviserons.$BEtoffe runique (60)",
+   "completion": "Fantastique – je vous assure que tout ce tissu sera bientôt utilisé. Merci encore pour votre aide ! Sans vous, nous n’y serions sûrement pas arrivés.$B$BComme vous avez déjà contribué, je traiterai en priorité tous les dons d'étoffe runique que vous pourriez faire à l’avenir. N’hésitez pas à revenir me voir, et je veillerai personnellement à ce que vos bonnes actions soient reconnues !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7837": {
+   "name": "Encore de l'étoffe runique",
+   "progress": "Je vous salue une nouvelle fois, $N ! Nous avons sans cesse besoin d'étoffe runique, et si vous voulez vous séparer de quelques morceaux supplémentaires, nous en aurons l’usage. Si vous nous donnez 20 nouvelles étoffes runiques, je veillerai à ce que vos efforts en faveur des trolls Darkspear soient reconnus à leur juste valeur.$B$BLorsque vous serez prêt à me les remettre, je les accepterai volontiers.$BEtoffe runique (20)",
+   "completion": "$N, l’avenir serait compromis sans des héros comme vous qui œuvrent pour les trolls Darkspear. Merci pour tous vos efforts !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7838": {
+   "name": "Grand maître de l'arène",
+   "progress": "Salut, l’terrien ! Ramenez-moi 12 bijoux du Maître de l’arène et vous serez le Roi de l’arène des Gurubashi ! Arrrr !$BMaître de l'arène (12)",
+   "completion": "Le sol de l'arène est rouge du sang que vous avez versé. Je suis fier de vous nommer Roi de l'arène !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7863": {
+   "name": "Paquetage de base de Sentinelle",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le goulet des Warsong.$B$BSi vous restez dans le goulet, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7864": {
+   "name": "Paquetage ordinaire de Sentinelle",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le goulet des Warsong.$B$BSi vous restez dans le goulet, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7865": {
+   "name": "Paquetage amélioré de Sentinelle",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le goulet des Warsong.$B$BSi vous restez dans le goulet, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7866": {
+   "name": "Paquetage de base de Voltigeur",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le goulet des Warsong.$B$BSi vous restez dans le goulet, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7867": {
+   "name": "Paquetage ordinaire de Voltigeur",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le goulet des Warsong.$B$BSi vous restez dans le goulet, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7868": {
+   "name": "Paquetage amélioré de Voltigeur",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7881": {
+   "name": "Des bottes pour les forains",
+   "progress": "Nous autres forains de la foire de Sombrelune marchons beaucoup. Nous marchons d'un site à l'autre... en fait, vous ne nous verrez jamais assis ! Pas étonnant que nous usions autant de bottes ! Nous avons besoin de bottes qui soient à la fois robustes et élégantes, et les bottes en cuir estampé correspondent bien à cette description.$B$BVous ! Vous êtes un artisan du cuir : faites-moi des bottes en cuir estampé et je vous donnerai un bon de la foire de Sombrelune pour votre peine.$BBottes en cuir estampé (3)",
+   "completion": "Merci, $N. Elles sont de très belle facture. Vous êtes un artisan de grand talent ! Voici un bon de la foire de Sombrelune... Pour vous, ma dame.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7882": {
+   "name": "Des tuniques pour les forains",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7883": {
+   "name": "Le gnome le plus grand du monde !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7884": {
+   "name": "L'enfant crocilisque et le murloc barbu",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7885": {
+   "name": "Renforts d'armure",
+   "progress": "Vous ne le savez peut-être pas, mais faire fonctionner une foire ambulante est très coûteux ! Tout s'use si vite que c'est un miracle si nous faisons des bénéfices.$B$BEn raison de tous ces coûts cachés, nous sommes toujours à la recherche de moyens d'entretenir notre matériel à moindres frais. Nos tentes, par exemple, se déchirent souvent, mais les renforts d'armure en cuir sont parfaits pour les raccommoder. Pouvez-vous m'apporter des renforts d'armure ? Cela nous ferait faire de sacrées économies ! Si vous pouvez faire ça pour moi, je vous donnerai une poignée de bons de la foire de Sombrelune...$BRenfort d'armure robuste (8)",
+   "completion": "Formidable ! Voilà qui ira très bien ! Je viens juste de remarquer une déchirure dans une tente là-bas, et c'est exactement ce qu'il me faut pour la raccommoder !$B$BMerci beaucoup, $N. Ces renforts d'armure vont nous épargner de grosses dépenses. Voici vos bons, vous les avez bien mérités !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7886": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7887": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7888": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7889": {
+   "name": "Le caillou grossier",
+   "progress": "Être la femme la plus forte du monde demande beaucoup de travail ! Mon ensemble de poids commence à être trop léger et pour rester en forme il m'en faut plus !$B$BCroyez-vous que vous pourriez me procurer des cailloux ? Si oui, je vous donnerai un bon de la foire de Sombrelune.$BCaillou grossier (10)",
+   "completion": "Super ! Ils conviendront à merveille ! Ils ne sont ni trop lourds, ni trop légers. Parfaits pour développer de la masse musculaire !$B$BMerci beaucoup, $N. Voici votre bon de la foire de Sombrelune !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7890": {
+   "name": "Silex à aiguiser lourd",
+   "progress": "Pour mon entraînement, j'aime fixer un bâton entre des silex à aiguiser lourds puis soulever le bâton au-dessus de ma tête. Ce n'est pas facile, mais on ne devient pas la femme la plus forte du monde en restant assise !$B$BPouvez-vous m'aider ? Il me faut plus de silex à aiguiser, apportez-m'en et je vous donnerai des bons de la foire de Sombrelune.$BSilex à aiguiser lourd (7)",
+   "completion": "Vous avez apporté les pierres ! Elles sont lourdes ! Je sens déjà mes muscles grossir. Merci, $N !$B$BTenez, prenez ces bons, et prenez garde à ne pas manger trop de bonbons à la foire. Un grand et fort $C comme vous doit rester en forme !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7891": {
+   "name": "Bracelets en fer émeraude",
+   "progress": "Je travaille à un nouveau costume pour quand j'aurai mon propre stand de femme la plus forte du monde ! En ce moment, je cherche des bracelets. Ils ne doivent pas être trop grands parce que les gens veulent voir mes muscles, mais je veux quand même qu'il y ait de la couleur, vous comprenez ?$B$BPourquoi pas des bracelets en fer émeraude, $N ? Pouvez-vous me faire des bracelets en fer émeraude ? Si oui, j'aurai un beau paquet de bons de la foire de Sombrelune pour vous.$BBrassards en fer émeraude (3)",
+   "completion": "Oui ! C'est exactement ce qu'il me faut ! Ils sont d'une si belle couleur, et ils découvrent assez mes bras pourqu'on voie comme ils sont forts ! Parfait !$B$BTenez, $N. Voici vos bons, amusez-vous bien !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7892": {
+   "name": "Grande masse noire",
+   "progress": "Pour mon numéro de femme la plus forte du monde, j'ai prévu de demander des objets au public et de les écraser avec une grande masse noire !$B$BPouvez-vous me faire une grande masse noire, $N ?$BGrande masse noire (1)",
+   "completion": "Ah, parfait ! Cette masse a une tête bien grosse et lourde. Je parie que je pourrais écraser n'importe quoi avec. J'espère seulement qu'elle ne cassera pas aussi !$B$BVoici vos bons, $N. Amusez-vous bien à la foire !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7893": {
+   "name": "Rituels de force",
+   "progress": "$N, dans ma quête pour devenir la femme la plus forte du monde, j'ai parcouru le monde et appris les secrets de musculation de lointains maîtres des poids, de gourous de la force et de manuels anciens. Je connais maintenant des exercices interdits qui tueraient les faibles et estropieraient les non-initiés !$B$BCes prouesses de force et de conditionnement requièrent un entraînement à l'aide des pierres à aiguiser les plus denses. $N, pouvez-vous trouver ou fabriquer ces pierres et me les apporter ? Je vous donnerai des bons en échange…$BSilex à aiguiser dense (8)",
+   "completion": "Merci, $N. J'utiliserai ces pierres pour un rituel de gain de force que j'ai appris d'une tablette ancienne au plus profond des jungles de Strangleronce.$B$BOn dit que celle qui accomplira correctement ce rite sacré aura la force et l'endurance de dix taurens !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7894": {
+   "name": "Modulateurs de cuivre",
+   "progress": "Yebb travaille à une nouvelle attraction pour l'Etonnante Ménagerie qui stupéfiera et ravira les visiteurs ! Mais cela demandera beaucoup de travail et beaucoup de matériel...$B$BY compris des Modulateurs de cuivre. Il nous faut beaucoup de modulateurs pour les parties mécaniques de l'attraction. Apportez-moi des Modulateurs de cuivre et je vous donnerai un bon de la foire de Sombrelune en échange.$BModulateur en cuivre (5)",
+   "completion": "Aha ! Les modulateurs ! Splendide !$B$BJe ne peux vous dire exactement ce que nous construisons, mais voilà qui nous sera très utile. Je suis votre obligé, $N, mais veuillez prendre ce bon de la foire de Sombrelune en signe de ma gratitude.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7895": {
+   "name": "Bidules bourdonnants en bronze",
+   "progress": "Mon nouveau stand sera quelque chose à ne pas manquer, oui monsieur ! Et pour quelques chanceux, quelque chose à toucher aussi !$B$BJ'entends déjà les Bidules bourdonnants en bronze entonnant un chant d'extase mécanique quand les clients entreront dans mon stand pour tester leur habileté !$B$BAh... maintenant il me faut les bidules pour que mon rêve devienne réalité. S'il vous plaît, $N, apportez-moi des Bidules bourdonnants en bronze... et des bons de la foire de Sombrelune vous attendront !$BBidule bourdonnant en bronze (7)",
+   "completion": "Vous avez apporté les bidules ! Merveilleux ! Je les entends déjà bourdonner en chœur ! Oh, quand ce stand sera prêt, ce sera l'une des merveilles du monde, croyez-moi !$B$BVoici vos bons, $N. Et profitez bien de votre visite à la foire !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7896": {
+   "name": "Feux d'artifice vert",
+   "progress": "Quand j'aurai enfin mon stand, je voudrai m'offrir de la publicité ! Quel meilleur moyen y aurait-il pour cela que des feux d'artifice ?$B$BOui, certains pensent sûrement que l'odeur d'un chaudron bouillonnant rempli des têtse de vos ennemis serait une meilleure idée pour attirer les foules, mais... nous ne sommes pas seuls ici. Il faudra donc que ce soit des feux d'artifice !$B$BApportez-moi des feux d'artifice verts, $N, et j'aurai plein de bons de la foire de Sombrelune pour vous.$BFusée verte (36)",
+   "completion": "Vous avez apporté les feux d'artifice. Excellent travail, $N ! Comme je me réjouis pour les allumer et informer le monde que mon stand est prêt ! Il faudra hélas encore attendre un bon bout de temps, mais... ce sera prêt quand ce sera prêt, n'est-ce pas ?$B$BVoici vos bons, $N. Amusez-vous bien !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7897": {
+   "name": "Trousses de réparation mécanique",
+   "progress": "La principale raison pour laquelle je ne peux pas ouvrir mon stand, c'est que... rien n'est en état de marche ! Il me faut des trousses de réparation mécanique pour réparer tout ça !$B$BPouvez-vous m'apporter ces trousses, $N ? En échange, je vous donnerai... des trousses de bons de la foire de Sombrelune. Qu'en dites-vous ?$BTrousse de réparation mécanique (6)",
+   "completion": "Merci ! Maintenant je peux commencer à tout réparer.$B$BIl va falloir beaucoup de trousses de réparation et de nuits blanches pour que tout soit en état de marche. Parfois, je me dis que je ferais mieux de revenir à mes racines et reprendre ma carrière de chasseur de tête, mais... la foire a été très bonne pour moi.$B$BPrenez ces bons, $N, et amusez-vous !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7898": {
+   "name": "Rouages en thorium",
+   "progress": "Yebb Nebblegear, comme moi, travaille à une nouvelle attraction. D'après Nebb, elle est tellement stupéfiante qu'elle attirera des gens du monde entier... et elle nous rendra tous très, très riches !$B$BIl dit qu'il lui faut des rouages en thorium pour sa construction et il veut que je me les procure pour lui. Qu'en pensez-vous, $N ? Savez-vous où je pourrais en trouver ? Si vous êtes ingénieur, pourriez-vous en fabriquer ? Voulez-vous en échanger contre des bons de la foire de Sombrelune ?$BRouage en thorium (6)",
+   "completion": "Ah, merci, $N ! Yebb sera enchanté par ces rouages. Je ne sais pas ce qu'il va faire avec, mais Yebb est un petit $R très malin. Il est malin, et peut-être un peu sournois....$B$BSi seulement il aimait le goût de la chair humanoïde... il serait un très bon troll !$B$BTenez, $N. Une promesse est une promesse, et ces bons vous appartiennent.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7899": {
+   "name": "Petites pattes en fourrure",
+   "progress": "Pour attirer beaucoup de monde, il faut avant tout appâter les gens avec des gadgets et des bibelots ! Pouvez-vous m'aider ?$B$BJ'ai besoin de petites pattes en fourrure pour en faire des lots. Vous pouvez les trouver sur les félins des Tarides ou de Sombrivage....$B$BApportez-moi des pattes et je vous les échangerai contre un bon de la foire de Sombrelune.$BPetite patte en fourrure (5)",
+   "completion": "Formidable, vous les avez ! Nous allons en faire des jouets et des babioles, et cela va attirer encore plus de monde à la foire !$B$BVoici votre bon, $N. Vous l'avez bien mérité !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7900": {
+   "name": "Peaux d'ours déchirées",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7901": {
+   "name": "Queues fournies soyeuses",
+   "progress": "C'est vraiment incroyable, ce à quoi les gens peuvent trouver de la valeur ! Prenez par exemple un bâton en bois avec une Queue fournie soyeuse attachée après. Vous et moi savons qu'une choses pareille n'a pas grande valeur... mais si vous donnez à cette camelote un chouette nom du genre de \"Queue sauvage\" et la mettez dans une belle boîte, les gens croiront que ça a de la valeur. La pacotille devient un trésor !$B$BCherchez pour moi des Queues fournies soyeuses sur les loups de Désolace et des Terres ingrates, et je vous donnerai des bons de la foire de Sombrelune.$BQueue fournie soyeuse (5)",
+   "completion": "Bien joué, $N ! Ces queues feront de magnifiques lots pour nos visiteurs, ce qui veut dire qu'ils seront contents... et qu'ils parleront de la foire à leurs amis, et nous aurons donc plus de visiteurs !$B$BVoici vos bons ! Amusez-vous bien à la foire de Sombrelune... et n'oubliez pas de parler de nous à vos amis !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7902": {
+   "name": "Plumes vibrantes",
+   "progress": "L'imagination est une chose incroyable. Grâce à elle, la moindre colline peut sembler être la plus haute montagne. L'ombre la plus inoffensive peut paraître sortie d'une terrible cauchemar !$B$BIci, à la foire de Sombrelune, nous laissons libre court à l'imagination de nos visiteurs ! Mais pour les aider à laisser s'épanouir leur imagination... nous devons parfois faire preuve de ruse.$B$BIl me faut des plumes vibrantes pour une de mes attractions. Vous pouvez les prendre sur les oiseaux des régions les plus dangereuses d'Azeroth. Apportez-moi les plumes et vous recevrez beaucoup de bons !$BPlume vibrante (5)",
+   "completion": "Ah, les plumes ! Elles sont magnifiques, vous ne trouvez pas ! Ce serait facile d'enflammer les imaginations avec de telles merveilles !$B$BVous êtes si généreux, $N. Le sourire sur le visage de nos visiteurs quand ils verront le spectacle est en soi une grande récompense, mais veuillez également prendre ces bons.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7903": {
+   "name": "Yeux de chauve-souris maléfique",
+   "progress": "Vous arrive-t-il parfois d'errer dans une grotte, tard la nuit, à la recherche d'aventures ? Oui ? Vraiment ? Alors vous avez sûrement vu les yeux menaçants des chauves-souris qui vous fixent d'en haut, attendant que vous baissiez votre garde pour sucer votre sang !$B$BC'est effrayant, vous ne trouvez pas ? Bien sûr ! Évidemment les yeux des chauves-souris sont effrayants !$B$BVoulez-vous me rapporter des yeux de chauve-souris maléfique, $N? Il me les faut pour... quelque chose que je suis en train de mettre au point. Quelque chose d'effrayant.$B$BVous pouvez les trouver sur les chauves-souris des Maleterres de l'est.$BOeil de chauve-souris maléfique (10)",
+   "completion": "Formidable ! Vous avez les yeux ! J'espère que vous avez trouvé effrayant de chasser ces chauves-souris, parce que si ça a fait peur à un $C courageux comme vous, ces yeux vont certainement terrifier les visiteurs de la foire.$B$BPrenez ces bons, $N, et merci de m'avoir rendu ce service.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7921": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7922": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7923": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7924": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7925": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7930": {
+   "name": "5 bons - Fleur de Sombrelune",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (5)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7931": {
+   "name": "5 bons - Lot de Sombrelune (mineur)",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (5)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7932": {
+   "name": "12 bons - Lot de Sombrelune (inférieur)",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (12)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7933": {
+   "name": "40 bons - Lot de Sombrelune (supérieur)",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (40)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7934": {
+   "name": "50 bons - Boîte de rangement de Sombrelune",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (50)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7935": {
+   "name": "10 bons - Mouton du mois dernier",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (10)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7936": {
+   "name": "50 bons - Mouton de l'an dernier",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7939": {
+   "name": "Plus de silex à aiguiser denses",
+   "progress": "$N, je vous remercie de toute l’aide que vous m’avez apporté. Sincèrement, je ne vous remercierai jamais assez.$B$BEt même si j’en ai moins besoin maintenant, si vous me fournissez d’autres pierres à aiguiser denses, il se pourrait que je vous donne d’autres bons de la foire de Sombrelune.$BSilex à aiguiser dense (8)",
+   "completion": "Encore merci, $N. Profitez bien de vos bons, et parlez à vos amis de la foire de Sombrelune !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7940": {
+   "name": "1200 bons - Orbe de la Sombrelune",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance ! !$BObjet #19182 (1200)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7941": {
+   "name": "Plus de renforts d’armure",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7942": {
+   "name": "Plus de rouages en thorium",
+   "progress": "$N, vous m’avez bien rendu service en m’amenant tout cela sans jamais vous lasser. Vous avez toute ma gratitude.$B$BNous avons moins besoin de rouages en thorium qu’à une certaine époque, mais si vous m’en amenez d’autres, je vous les échangerai contre des bons de la foire de Sombrelune.$BRouage en thorium (6)",
+   "completion": "Et voilà, $N. Des bons de la foire de Sombrelune rien que pour vous. Comme on dit, ne faites pas d’excès !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7943": {
+   "name": "Plus d’yeux de chauve-souris",
+   "progress": "$N, l’attraction que je suis en train de créer sera la chose la plus effrayante qu’on ait vue depuis la chute de Gnomeregan ! Et c’est largement grâce à tout ce que vous m’avez apporté. Merci, merci mille fois !$B$BJe n’ai plus besoin de grand-chose mais… si vous m’apportez encore des yeux de chauve-souris maléfiques pris sur les chauve-souris des Maleterres de l’est… je pourrais avoir d’autres bons de la foire de Sombrelune pour vous.$BOeil de chauve-souris maléfique (10)",
+   "completion": "Merci encore, $N. Voilà vos bons.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7946": {
+   "name": "Le rejeton de Jubjub",
+   "progress": "Je suis si content que Jubjub ait été retrouvée. Elle aime tellement la bière Sombrefer que lorsque je n’en ai plus… elle s’enfuit pour en chercher !$B$BMaintenant que Jubjub est revenue, je veux stocker toute la bière que je peux trouver ! Je ne veux pas que Jubjub s’enfuie à nouveau !$B$BVous avez de la bière Sombrefer ? Si c’est le cas, je vous l’échange l’un des œufs de ma grenouille Jubjub contre une chope.$BChope de bière sombrefer (1)",
+   "completion": "Merci, $N. Voici votre œuf ! Il n’est pas encore tout à fait prêt à éclore, mais quand il le fera, vous aurez un familier fantastique !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7981": {
+   "name": "1200 bons - Amulette de la Sombrelune",
+   "progress": "Avancez, avancez ! Si vous avez des bons de la foire de Sombrelune à échanger, il suffit de le dire ! Vous pouvez échanger vos bons contre différents lots plus merveilleux et fantastiques les uns que les autres. Ne soyez pas timide, venez tenter votre chance !$BObjet #19182 (1200)",
+   "completion": "Et voilà l’heureux gagnant ! Un lot digne d’un roi ! Mes félicitations, mon ami !$B$BSi vous avez d’autres bons à échanger, n’hésitez pas à revenir me voir ! Tant que la foire de Sombrelune sera ici, j’échangerai vos bons contre des lots.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8041": {
+   "name": "La force du mont Mugamba",
+   "completion": "Salut, $C. je suis Jin’rokh le Briseur, un troll de Mugamba. La tribu de Zandalar reconnaît la valuer de vos exploits. Nous saluons votre ténacité la et la force de votre volonté.$B$BPortez ce talisman autour de votre cou, $C. Laissez la force du Mont Mugamba s’écouler dans votre être. Que sa force vous aider à frapper nos ennemis !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8042": {
+   "name": "La force du mont Mugamba",
+   "progress": "C’est bon de vous voir en bonne santé, $N. Les combats glorieux que vous avez menés affectent tous les êtres vivants de cette planète. Hakkar doit rester à jamais dans les confins de Zul’Gurub, sinon le monde succomberait sous les assauts de son insatiable faim.$B$BDonnez-moi votre talisman, et j’amplifierai sa force. Utilisez la Force de Mugamba pour punir nos ennemis !$BForce de Mugamba (1)",
+   "completion": "Nos routes se croisent à nouveau, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8043": {
+   "name": "La force du mont Mugamba",
+   "progress": "Maître $N, vous êtes revenu ! Molthor a transmis au roi le récit de vos exploits. Votre nom est désormais connu jusqu’aux Mers du sud. Peut-être qu’un jour vous deviendrez un héros légendaire - et que votre histoire qui traversera les siècles.$B$BDonnez-moi votre talisman pour que je puisse une fois encore augmenter son pouvoir.$BForce de Mugamba (1)",
+   "completion": "Utilisez votre force nouvelle pour détruire les Gurubashi !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8044": {
+   "name": "La rage de Mugamba",
+   "progress": "Le roi Rastakhan vous transmet ses meilleures salutations, maître $N. Un tel honneur n’a encore jamais été accordé à une personne n’appartenant pas à la tribu Zandalar.$B$BDonnez-moi votre talisman pour que je puisse l’améliorer une nouvelle fois. Sachez que la Rage de Mugamba est maintenant intrinsèquement liée à votre âme.$BForce de Mugamba (1)",
+   "completion": "Zul’jin envierait vos exploits, $C. Partez au combat, conquérant !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8045": {
+   "name": "La marque du païen",
+   "completion": "Sachez ceci, incroyant. Si une catastrophe nous a réunis, vos manières impies ne sont ni comprises ni appréciées de Zandalar. Mais nous sommes un peuple juste. Portez cette marque autour du cou. Elle servira à la fois d’avertissement à nos ennemis et de symbole de l’amitié de Zandalar.$B$BSi vous continuez à servir notre peuple, j’augmenterai la puissance de la marque.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8046": {
+   "name": "La marque du païen",
+   "progress": "J’ai peut-être été trop hâtif dans mon jugement, $C. Il semblerait que votre foi aveugle dans cette Lumière ait un peu de mérite, après tout.$B$BDonnez-moi votre marque et j’amplifierai son pouvoir.$BMarque du païen (1)",
+   "completion": "Faites ce que vous avez à faire pour vaincre nos ennemis, $C. Même si vous devez pour cela utiliser la Lumière.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8047": {
+   "name": "La marque du païen",
+   "progress": "Je dois avouer que je ne croyais pas que vous auriez la détermination pour mener cette cause à bien, $C. Zandalar vous considère maintenant comme un allié de valeur. Bien joué,$B$BDonnez-moi votre marque et j’amplifierai une nouvelle fois son pouvoir.$BMarque du païen (1)",
+   "completion": "Nos croyances diffèrent, mais notre cause est juste. Abattez nos ennemis, noble $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8048": {
+   "name": "La marque du héros",
+   "progress": "Le roi a reconnu votre existence, $C. Vous êtes le premier étranger à être accepté par Rastakhan comme un véritable allié de Zandalar.$B$BVous serez grandement récompensé de vos efforts. Présentez votre marque et je lui apporterai l’amplification finale.$BMarque du païen (1)",
+   "completion": "Vigilance, honneur, loyauté, bravoure… Vous incarnez toutes ces qualités, tout comme le fera votre marque.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8049": {
+   "name": "L'œil de Zuldazar",
+   "completion": "Acceptez ce talisman en témoignage de notre gratitude, $C.$B$BL’Œil de Zuldazar grandira en pouvoir en même temps que grandira votre lien avec les trolls de Zandalar. Revenez me voir de temps en temps, pour que j’imprègne le joyau.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8050": {
+   "name": "L'œil de Zuldazar",
+   "progress": "Bienvenue, $C. L’énergie pulse dans l’Œil de Zuldazar. Vous êtes prêt pour la prochaine étape. Confiez-moi le talisman et je réaliserai l’imprégnation.$BL'Oeil de Zuldazar (1)",
+   "completion": "Continuez votre combat contre l’Écorcheur et ses séides, $N. Il ne doit jamais quitter les confins de Zul’Gurub.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8051": {
+   "name": "L'œil de Zuldazar",
+   "progress": "Les vents murmurent le récit de vos combats contre les Gurubashi, prêtresse . Même la cour royale commence à entendre parler de vos exploits. D’après la rumeur, le roi Rastakhan lui-même a mentionné votre nom.$B$BLe temps est venu d’imprégner l’Œil. Confiez-moi le talisman et je m’en occuperai.$BL'Oeil de Zuldazar (1)",
+   "completion": "Ne perdez jamais votre résolution, $N. Sinon l’Écorcheur d’âmes tentera d’aspirer votre volonté de vivre.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8052": {
+   "name": "L'Oeil omnivoyant de Zuldazar",
+   "progress": "Si seulement nous avions dix mille personnes comme vous, $N. Les armées d’Hakkar seraient dispersées aux quatre vents en un clin d’œil.$B$BHélas, l’Œil est prêt à atteindre son plein potentiel.$BL'Oeil de Zuldazar (1)",
+   "completion": "Tuez-les tous et Hakkar reconnaîtra les siens…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8081": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8101": {
+   "name": "Le caillou de Kajaro",
+   "completion": "$N, le caillou enchâssé dans la monture de ce talisman provient du mont Kajaro, dans les Mers du sud. Le mont Kajaro souffre d’une grande instabilité, car il est secoué par des éruptions volcaniques fréquentes, et souvent magiques.$B$BQuand votre lien avec les trolls de Zandalar grandira, la puissance de ce caillou fera de même. Utilisez son pouvoir pour frapper nos ennemis. Soyez comme la montagne : vif, explosif, mortel…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8102": {
+   "name": "Le caillou de Kajaro",
+   "progress": "Bienvenue de nouveau, $C. Je vois que le caillou a beaucoup servi. Un grand nombre de nos ennemis a succombé devant vos capacités surnaturelles. Leurs souffrances ont été grandes. Il est temps que j’augmente la puissance du caillou. Donnez-le-moi.$BCaillou de Kajaro (1)",
+   "completion": "Soyez inéluctable, comme les fleuves de lave du Kajaro.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8103": {
+   "name": "Le caillou de Kajaro",
+   "progress": "Les Hakkari vous craignent, $N. Ils parlent d’horreurs qu’ils croyaient n’être l’apanage que de leur dieu sans visage. Vous les avez brûlés grâce à la force de Kajaro. Ils connaissent maintenant la peur en deux endroits.$B$BIl est temps maintenant de renforcer le caillou. Donnez-moi le talisman.$BCaillou de Kajaro (1)",
+   "completion": "Continuez le massacre des trolls de Zul’Gurub. Hakkar doit comprendre que le monde ne se soumettra pas à sa volonté indomptable.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8104": {
+   "name": "Le joyau de Kajaro",
+   "progress": "Donnez-moi le talisman, $N. Je dois vous montrer quelque chose.$BCaillou de Kajaro (1)",
+   "completion": "<Al’tabim brise le caillou grâce à une force puissante et invisible.>$B$BVous voyez ? Ce caillou est en fait une géode. Des cristaux puissants se cachent à l’intérieur, des cristaux qui absorbent peu à peu les énergies latentes de notre monde. En le brisant en deux, j’ai enfin permis à son plein potentiel de se réaliser. Utilisez-le pour détruire nos ennemis.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8106": {
+   "name": "La souillure de Kezan",
+   "completion": "Acceptez ce talisman, $C. Acceptez-le et utilisez son pouvoir pour abattre nos ennemis communs.$B$BSachez que vous portez autour du cou un morceau d’histoire. Kezan était autrefois un immense territoire de l’empire Zandalar. Hélas, la souillure des princes marchands gobelins a fini par chasser mes fiers frères et sœurs de cette région.$B$BKezan est maintenant le site de la capitale gobeline d’Undermine ; mais sachez qu’avant d’être souillée, elle abritait la grandeur. Même aujourd’hui, Kezan est considérée comme une terre sacrée par mon peuple.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8107": {
+   "name": "La souillure de Kezan",
+   "progress": "L’honneur se mérite chez les trolls de Zandalar, $N. Avec l’honneur viennent les récompenses : l’amitié, les alliances…$B$BDonnez-moi le talisman pour que je puisse renforcer son pouvoir.$BSouillure de Kezan (1)",
+   "completion": "Utilisez les ténèbres, $C. Étreignez les ombres. Laissez la souillure de Kezan améliorer vos sombres agissements.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8108": {
+   "name": "La souillure de Kezan",
+   "progress": "Je suis prêt, $C. Je vais une nouvelle fois améliorer votre talisman. Je vous demande seulement de continuer votre destruction d’Hakkar et de ses séides.$B$BDonnez-moi le talisman.$BSouillure de Kezan (1)",
+   "completion": "Ce n’est qu’en combinant nos efforts que nous parviendrons à arrêter l’Écorcheur d’âmes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8109": {
+   "name": "La souillure irrésistible de Kezan",
+   "progress": "Appelez vos démons, $C. Qu’ils se baignent dans l’énergie de la Souillure de Kezan. Commandez-les sur le champ de bataille ! Décimez nos ennemis !$B$BOui… Le temps est venu d’apporter l’amélioration finale à la Souillure de Kezan. Donnez-moi le talisman.$BSouillure de Kezan (1)",
+   "completion": "Écorchez leurs cadavres… Regardez comme les ombres consument les Hakkari. Tirez du pouvoir de leurs peurs, $C. Que la Souillure de Kezan augmente cette puissance…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8110": {
+   "name": "Le varech enchanté des Mers du sud",
+   "completion": "Vous voyez cette algue ? Elle vient des Mers du sud. Nous lui ajoutons juste un peu de mojo et de magie, et elle gagne les propriétés qui sont les plus utiles à son porteur.$B$BVous êtes un $C, alors ce sera facile. Enroulez-la simplement autour de votre cou, et pensez à la nature, aux écureuils, ou à n’importe quelle chose qu’aiment les gens de votre peuple.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8111": {
+   "name": "Le varech enchanté des Mers du sud",
+   "progress": "Salut ! C’est bien sympathique de revenir nous voir. Toute la tribu raconte comment vous avez tué les Hakkari et tout ça. Molthor m’a fait passer le mot, et m'a demandé de rajouter plus de mojo dans votre talisman. Donnez-le-moi, et Maywiki l’améliorera.$BVarech enchanté des Mers du sud (1)",
+   "completion": "Le collier ne se fume pas, gamin ! On s’en sert pour combattre le mal.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8112": {
+   "name": "Le varech enchanté des Mers du sud",
+   "progress": "Comment va votre talisman ? On dirait que c’est l’heure d’ajouter un petit peu plus de magie et de mojo à ses feuilles. Il a besoin d’une petite fleur dans son desséchement. Donnez-le-moi et Maywiki le réparera.$BVarech enchanté des Mers du sud (1)",
+   "completion": "Maintenant, allez attaquer les trolls maléfiques de Zul’Gurub, et montrez-leur de quoi sont capables les pouvoirs de la nature !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8113": {
+   "name": "Le varech enchanté des Mers du sud en parfait état",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8116": {
+   "name": "Vision de Voodress",
+   "completion": "Vous et Maywiki avez quelque chose en commun, gamin. Nous sommes des chamans ! Mais bon, Maywiki est plutôt une mystique, et vous un second couteau. Enfin, nous savons tous deux ce qu’apportent les grands esprits.$B$BJe vous offre cet orbe, pour que vous le portiez en collier. Regardez à l’intérieur, et vous verrez le village de Voodress dans les Mers du sud ! Qu’il élève vos esprits !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8117": {
+   "name": "Vision de Voodress",
+   "progress": "Cha-lut ! Maywiki a fait une blague !$B$B<Maywiki rit.>$B$BEh bien, vous avez utilisé les esprits et les éléments contre nos ennemis à Zul’Gurub, hein ? Loués soient les esprits !$B$BMaywiki va faire briller votre orbe. Donnez-le-moi, $N.$BVision de Voodress (1)",
+   "completion": "Regardez-le maintenant, $N. Voodress est encore plus visible, non ? Laissez le pouvoir primordial s’écouler en vous…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8118": {
+   "name": "Vision de Voodress",
+   "progress": "Bonnes nouvelles, $N. Molthor a chanté vos louanges, récemment. Il raconte comment vous êtes en train de devenir un grand héros de Zandalar.$B$BIl a aussi demandé à Maywiki d’améliorer une nouvelle fois votre orbe ! Donnez-le-moi pour que Maywiki puisse éclairer la vision.$BVision de Voodress (1)",
+   "completion": "Prenez gardes aux mauvais esprits hakkari. Je vous jure qu’ils font froid dans le dos.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8119": {
+   "name": "La vision limpide de Voodress",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8124": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8141": {
+   "name": "Le talisman d'ombre zandalarien",
+   "completion": "Vous progressez rapidement, jeune $C. Il est sans doute temps de vous initier pour vous faire entrer dans le Shera Ali’kh - la Main de la Mort, en zandalari. Pendant des milliers d’années, nous avons été les assassins de l’empire Zandalar. Mais nous sommes restés oisifs pendant trop longtemps, permettant aux Hakkari d’accroître leurs forces. Aujourd’hui, nous devons à nouveau affronter Hakkar, mais cette fois sans le soutien d’une nation troll unifiée. Ce sont vous et vos alliés qui devez nous aider à vaincre le Dieu du Sang et ses séides !$B$BPortez ce talisman, qui vous aidera dans vos pérégrinations.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8142": {
+   "name": "Talisman d'ombre zandalarien",
+   "progress": "J’ai le sentiment que vous avez infligé d’innombrables pertes aux Hakkari, $N. Vous portez sur vous la puanteur de leur mojo.$B$BJe suppose que le talisman d’ombre a bien participé au massacre… Donnez-le-moi et permettez-moi d’augmenter son pouvoir.$BTalisman de l'ombre zandalarien (1)",
+   "completion": "Il vaut mieux rester à l’écart d’un assassin de votre calibre. Vos ennemis doivent apprendre le respect ! Et vous l’obtiendriez quand vos adversaires verront la lueur de la Main de la Mort… trop tard…",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8143": {
+   "name": "Le Talisman d'ombre zandalarien",
+   "progress": "Impressionnant, $N. Vous avez un don pour le meurtre que je n’ai pas ressenti chez quelqu’un depuis de longues années. Même Molthor est conscient du travail que vous avez effectué pour Zandalar. Il est temps d’améliorer une nouvelle fois votre talisman. Donnez-le-moi.$BTalisman de l'ombre zandalarien (1)",
+   "completion": "Il ne reste plus qu’une seule amélioration à placer sur le talisman, $C. Quand le temps sera venu, je l’appliquerai.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8144": {
+   "name": "Le talisman de maîtrise de l'ombre zandalarien",
+   "progress": "Le talisman brûle d’envie de grandir, $N. Il a absorbé tout ce que vous avez accompli. Les milliers de cadavres de trolls qui jonchent Zul’Gurub ont alimenté son pouvoir. Donnez-le-moi, et j’accomplirai l’amélioration finale.$BTalisman de l'ombre zandalarien (1)",
+   "completion": "C’est la dernière fois que nous parlons sous les auspices du Shera Ali’kh. Vous avez appris tout ce que vous devez savoir. Prenez le talisman et continuez les assassinats. Hakkar ne doit jamais quitter Zul’Gurub.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8145": {
+   "name": "Les Vrilles du maelström",
+   "completion": "Chez les Zandalariens, la profession de $C est tenue en très haute estime. Nos plus grands chasseurs voyagent jusqu’au bord du Maelström pour prouver leur résolution.$B$BIls tirent des entrailles de la mer des rubans de varech, que l’on nomme les Vrilles du Maelström. Le varech est tressé pour confectionner un talisman qui, une fois enchanté, augmente la précision et la puissance de leurs attaques.$B$BJe vous offre aujourd’hui cette simple tresse de Vrilles du Maelström. Quand votre lien avec Zandalar aura grandi, je tisserai plus de puissance dans le talisman.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8146": {
+   "name": "Les Vrilles du maelström",
+   "progress": "Ah, $N, c’est bon de sentir votre odeur à nouveau.$B$BVous devez me pardonner mon sens de l’humour. Il peut être assez noir, par moment.$B$BJ’ai cru comprendre que vous avez infligé de terribles angoisses à nos ennemis. Les troupes d’Hakkar, folles de colère, maudissent votre nom. C’est excellent.$B$BVous avez gagné un nouvel enchantement de votre talisman. Donnez-le-moi.$BVrille du maelström (1)",
+   "completion": "Qu’ils trouvent donc l’expiation à la pointe de vos armes.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8147": {
+   "name": "Les Vrilles du maelström",
+   "progress": "J’entends d’ici le bruit de nos volées de flèches qui dévastent les rangs de nos ennemis. Leurs cris d’agonie y font écho.$B$BVous vous êtes fait un nom chez les trolls de Zandalar, $N. Nous vous sommes reconnaissant de tout ce que vous avez fait.$B$BDonnez-moi votre talisman pour que je puisse y ajouter un nouvel enchantement.$BVrille du maelström (1)",
+   "completion": "Je ne peux plus ajouter qu’un seul tissage à votre talisman, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8148": {
+   "name": "Le courroux du maelström",
+   "progress": "Molthor nous a transmis la parole du roi Rastakhan, $N. La cour royale est très impressionnée par votre décimation des forces hakkari. Je dois vous récompenser par l’enchantement final de votre talisman. Donnez-le-moi.$BVrille du maelström (1)",
+   "completion": "Votre voyage ne fait que commencer, jeune $C. Peut-être qu’un jour vous visiterez le Maelström et que vous regarderez le cœur du monde.$B$BJe vous souhaite force et courage !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8157": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8158": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8159": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8163": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8164": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8165": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8193": {
+   "name": "Maître pêcheur",
+   "progress": "Aujourd'hui entre 14 h et 16 h aura lieu un concours pour désigner le plus grand pêcheur ! Il suffit que vous soyez la PREMIERE PERSONNE, avant tous les autres participants, à m'apporter 40 courbines pêchées dans les bancs de courbines le long de la côte de Strangleronce, et vous serez déclaré Maître pêcheur !$B$BSi vous n'êtes pas le premier à m'apporter 40 poissons, mon apprentie vous donnera tout de même de l'argent pour chaque lot de 5 courbines que vous lui apporterez.$B$BOh, et ne tardez pas, les courbines ne restent pas fraîches longtemps !$BCourbine (40)",
+   "completion": "Dépêchez-vous de me les donner si vous voulez devenir maître pêcheur ! J’attends ici depuis des HEURES sans rien à manger ! Allez, donnez-les !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8194": {
+   "name": "Apprenti pêcheur",
+   "progress": "Bon, nous avons déjà un gagnant, mais je continue à acheter vos courbines à un prix raisonnable. Ça vous va ?$BCourbine (5)",
+   "completion": "Si ça vous va, ça me va !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8196": {
+   "name": "Mangues d'essence",
+   "progress": "La mangue d'essence, extrêmement puissante, pousse sur nombre des îles des Mers du sud. Une seule mangue rafraîchit celui qui la mange à la fois physiquement et mentalement. Si vous n'en avez jamais mangé, vous ne savez pas ce que vous manquez !$B$BNous en avons suffisamment sur l'île pour vous en proposer quelques-unes en échange d'une marque d'honneur zandalar. Parlez à Vinchaxa si vous ne savez pas comment obtenir les marques d'honneur ; sinon, faisons affaire immédiatement !$BMarque d'honneur zandalar (1)$BTribu Zandalar (Honoré)",
+   "completion": "Un juste échange, mon ami. Dégustez les succulents fruits des Mers du sud, avec la bénédiction de la tribu.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8221": {
+   "name": "Poisson rare : le scalaire de Keefer",
+   "progress": "*Bzzz* *Clic*$B$BJe cherche des poissons rares pour le catalogue du Maître de pêche Bassbait. Si vous m’amenez un Scalaire de Keefer, je vous donnerai cette magnifique récompense.$B$B*Zzzap* *Bzzz*$BScalaire de Keefer (1)",
+   "completion": "*Bzzz*$B$BIdentification du Scalaire de Keefer terminée.$B$BVotre récompense est disponible.$B$B*Clic-clic* *Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8222": {
+   "name": "Sang de scorpide luminescent",
+   "progress": "Tout ce temps passé à la foire m’a beaucoup appris sur nos clients. Voici l’un de mes axiomes : si ça brille, ça plaît ! Et peu importe ce que c’est en réalité. Vous pouvez prendre des pieds de chaises cassés, s’ils brillent, tous les gamins à des lieues à la ronde feront la queue pour en acheter un !$B$BBref, tout cela pour dire qu’il me faut du sang de scorpide luminescent, $N. Vous pourrez en trouver sur les scorpides de Silithus, des Terres foudroyées ou des Steppes ardentes.$BSang de scorpide luminescent (10)",
+   "completion": "Beau boulot, $N ! Merci beaucoup ! Je vais en faire de la peinture et transformer tous les machins qui traînent en trésors lumineux !$B$BVoici vos bons, et merci encore !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8223": {
+   "name": "Encore du sang de scorpide luminescent",
+   "progress": "Ce sang de scorpide fait des merveilles, $N ! C’est fou ce qu’un peu de brillant peut faire – cela suffit à transformer un détritus en objet de valeur. Les clients aiment ça, et vous savez, au fond, tout cela est une question d’amour…$B$BVous m’avez rendu un grand service, $N, et même si je n’ai pas un besoin urgent de plus de sang de scorpide luminescent, si vous m’en ramenez davantage, je vous l’échangerai contre des bons.$BSang de scorpide luminescent (10)",
+   "completion": "Merci encore, $N. Voilà vos bons.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8224": {
+   "name": "Poisson rare : le talang dezien",
+   "progress": "*Bzzz* *Clic*$B$BJe cherche des poissons rares pour le catalogue du Maître de pêche Bassbait. Si vous m’amenez un Talang dezien, je vous donnerai cette magnifique récompense.$B$B*Zzzap* *Bzzz*$BTalang dezien (1)",
+   "completion": "*Bzzz*$B$BIdentification du Talang dezien terminée.$B$BVotre récompense est disponible.$B$B*Clic-clic* *Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8225": {
+   "name": "Poisson rare : le tassergal à dos rayé",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8228": {
+   "name": "Puis-je avoir un prospectus sur la pêche ?",
+   "completion": "Il y aura un concours de pêche à Baie-du-Butin ce dimanche ! Voici ses règles si vous souhaitez y participer !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8229": {
+   "name": "Puis-je avoir un prospectus sur la pêche ?",
+   "completion": "Concours de pêche à Baie-du-Butin ce dimanche ! Voilà les règles !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8241": {
+   "name": "Réapprovisionnement en flux embrasé (Fer)",
+   "progress": "Assez perdu de temps à bavarder, $R. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.$B$BVoici ce que je veux que vous me rapportiez :$B$B*Ecailles d'incendosaure.$B$B*Barres de fer.$B$B*Charbon.$B$BJe prendrai tout ce que vous me donnerez !$B$BEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.$BEcaille d'Incendosaure (2)$BBarre de fer (4)$BCharbon (1)",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça... Jusqu'à ce que je vous dise d'arrêter.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8242": {
+   "name": "Réapprovisionnement en flux embrasé (Cuir lourd)",
+   "progress": "Assez perdu de temps à bavarder, $R. Il est temps de nous concentrer sur le réapprovisionnement de nos réserves de flux embrasé qui s'amenuisent.$B$BVoici ce que je veux que vous me rapportiez :$B$B*Ecailles d'incendosaure.$B$B*Cuir lourd.$B$B*Charbon.$B$BJe prendrai tout ce que vous me donnerez !$B$BEt vous le ferez vite si vous voulez bien vous entendre avec la Confrérie.$BEcaille d'Incendosaure (2)$BCuir lourd (10)$BCharbon (1)",
+   "completion": "Il y a toujours de la place pour plus de flux embrasé, junior. Continuez comme ça... Jusqu'à ce que je vous dise d'arrêter.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8243": {
+   "name": "Puissants breuvages de Zanza",
+   "progress": "Votre nouveau statut au sein de la tribu vous donne accès à certains de nos breuvages plus puissants. Regardez... ces mixtures sont fortes en mojo, bénies par Zanza et conviennent aux aventuriers de tous horizons !$B$BJe vais vous permettre de choisir l'une des trois que je propose. En échange, je demande une marque d'honneur zandalar. Veuillez noter que les effets d'un seul breuvage à la fois peuvent habiter votre esprit.$B$BDites-moi quand vous serez prêt à faire l'échange !$BMarque d'honneur zandalar (1)$BTribu Zandalar (Révéré)",
+   "completion": "Un juste échange, mon ami. Recevez les bénédictions de Zanza avec nos compliments !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8246": {
+   "name": "Cachets des Zandalar",
+   "progress": "Pour quelqu'un d'aussi honoré parmi les Zandalar que vous, $N, j'ai quelque chose de très spécial. Venus tout droit de notre patrie dans les Mers du sud... les cachets des Zandalar ! Ils permettent d'améliorer tout objet porté sur les épaules. Que vous cherchiez la puissance, le mojo ou la sérénité, j'ai ce qu'il vous faut !$B$BJe demande quinze marques d'honneur zandalar en échange d'un cachet de votre choix. Si vous avez les marques, faisons affaire immédiatement !$BMarque d'honneur zandalar (15)$BTribu Zandalar (Exalté)",
+   "completion": "Un juste échange, mon ami. Veuillez accepter ce cachet avec la bénédiction de la tribu !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8249": {
+   "name": "Demande de coffrets",
+   "progress": "Mes voleurs ont besoin de s'exercer en crochetage et il me faut des serrures d'un niveau de difficulté adéquat. Ce que Zan nous fabrique ne convient qu'aux plus modestes néophytes.$B$BVous savez quoi, si vous m'apportez 5 Coffrets lourds, je vous procurerai des couteaux de lancer parmi les meilleurs qu'un $C ait jamais eu.$B$BVous pouvez ouvrir les coffrets et les piller, mais laissez au moins quelques pièces dedans... même un apprenti $C a besoin de motivation.$BCoffret lourd (5)",
+   "completion": "Que ces couteaux trouvent une place dans le cœur de quelqu'un.$B$BEt ce n'est pas une image.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8260": {
+   "name": "Paquetage de base d'Arathor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8261": {
+   "name": "Paquetage ordinaire d'Arathor",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.$B$BSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honorée.$BLa Ligue d'Arathor (Amical)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8262": {
+   "name": "Paquetage amélioré d'Arathor",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.$B$BSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8263": {
+   "name": "Le paquetage de base de profanateur",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8264": {
+   "name": "Le paquetage ordinaire de profanateur",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.$B$BSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honorée.$BLes Profanateurs (Amical)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8265": {
+   "name": "Le paquetage amélioré de profanateur",
+   "completion": "Vous avez commencé à faire vos preuves à nos yeux, $N. En récompense, prenez ce paquetage ! Vous y trouverez des rations et des bandages, dont vous ne pourrez vous servir que dans le bassin d'Arathi.$B$BSi vous restez dans le bassin, vous finirez par avoir la possibilité d’acheter ces objets. Les rations vous seront proposées lorsque nous serons Amicaux à votre égard, et les bandages lorsque vous serez Honoré.$BLes Profanateurs (Amical)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8266": {
+   "name": "Les rubans de sacrifice",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8267": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8268": {
+   "name": "Les rubans de sacrifice",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8269": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8271": {
+   "name": "Héros des Stormpike",
+   "completion": "En tant que héros des Stormpike, vous pouvez choisir un objet parmi ces trésors récemment pill… euh, récupérés.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8272": {
+   "name": "Héros des Frostwolf",
+   "completion": "Quel effet cela fait-il, $N, d'écraser ses ennemis et de voir leurs lignes s'effondrer ? C'est agréable, n'est-ce pas ?$B$BVous méritez une récompense pour cette héroïque action, soldat.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8273": {
+   "name": "La gratitude d'Oran",
+   "completion": "Voilà qui est intéressant ! Vous dites avoir trouvé cette tablette sur une petite île abandonnée, près des Hauts-Surplombs des Hinterlands, $C ? C’est vraiment très intéressant…$B$BJe vous remercie pour vos efforts. La Dame noire sera très satisfaite de cette trouvaille. Laissez-moi vous remettre une récompense à la mesure de cet intérêt.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8289": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8290": {
+   "name": "Triomphez des envahisseurs !",
+   "objectivesText": [
+    "Entrez dans le goulet des Warsong, triomphez de la Horde et gagnez une Marque d'honneur du goulet des Warsong. Puis revenez voir la sentinelle Farsong au bosquet d'Aile-argent."
+   ],
+   "details": "Au-delà de ce tunnel, vous trouvez un lieu d'affrontement et de chaos, jeune $C. La Horde continue à massacrer notre forêt sacrée, abattant les conifères pour alimenter leurs engins de guerre.$B$BEntrez dans le goulet des Warsong, et défendez le Fort Aile-argent. Repoussez les envahisseurs de la Horde !$B$BSi vous y parvenez, vous gagnerez un talisman de vaillance. Apportez-moi l'un de ces talismans, $N, et je vous récompenserai.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8292": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8293": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8295": {
+   "name": "Écrasez les usurpateurs d'Aile-argent",
+   "objectivesText": [
+    "Entrez dans le goulet des Warsong, triomphez de l'Alliance et obtenez une Marque d'honneur du goulet des Warsong. Puis revenez voir le capitaine Shatterskull au campement de Mor'shan."
+   ],
+   "details": "La sauvagerie de la forêt d'Ashenvale succombera devant la puissance de la Horde, $R. Aile-argent ne pourra rien dire ou faire pour arrêter nos obligations souveraines. Kalimdor appartient à la Horde. Comment osent-ils tenter de nous empêcher de récolter ce qui nous appartient de droit !$B$BQue la fierté gonfle votre poitrine lorsque vous repousserez leurs futiles efforts pour ralentir notre progression. Détruisez les Sentinelles d'Aile-argent, et vous gagnerez une marque d'honneur Warsong. Revenez me voir avec l'une de ces marques, $N, et je vous récompenserai.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8296": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8298": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8300": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8316": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armements vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8319": {
+   "name": "Les textes du crépuscule cryptés",
+   "progress": "Continuez à me fournir des textes. Nous ne tarderons pas à chasser le Marteau du crépuscule de Silithus.$BTexte du crépuscule crypté (10)",
+   "completion": "Très bon travail ! Je glisserai un mot en votre faveur.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8324": {
+   "name": "Je crois encore…",
+   "progress": "Vous avez trouvé d'autres textes cryptés ? Apportez m'en une bonne pile, car le travail de décodage prend du temps.$BTexte du crépuscule crypté (10)",
+   "completion": "Excellent ! Je suis très impatient de les lire. Je vous en prie, continuez à m'apporter ici tous les textes cryptés que vous trouverez.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8333": {
+   "name": "Le médaillon de statut",
+   "progress": "Si vous avez besoin d'un nouveau médaillon de statut de sectateur du crépuscule, je serai heureux de vous le fournir. Cependant, j’aurai besoin d’un autre éclat brillant et de quelques blasons abyssaux…$BGrand éclat brillant (1)$BBlason abyssal (3)",
+   "completion": "Voilà, $N. Un nouveau médaillon de statut du crépuscule. Utilisez-le sagement… Bonne chance contre le Conseil abyssal !",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8342": {
+   "name": "L'anneau d'autorité du crépuscule",
+   "progress": "$N, si vous avez l'intention de vous attaquer au Haut conseil abyssal une nouvelle fois, il vous faudra un autre anneau d'autorité du crépuscule. Apportez-moi plus d'éclats et de chevalières et je vous en fabriquerai un.$BChevalière abyssale (3)$BGrand éclat brillant (5)",
+   "completion": "Ah, je vois que vos convictions sont fortes. Peu nombreux sont ceux qui défient ce conseil de démons !$B$BVoici votre anneau, $N. Que votre volonté ne faiblisse pas, et que la chance soit avec vous.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8362": {
+   "name": "Les blasons abyssaux",
+   "progress": "Vous avez prouvé que vous savez tenir votre place dans un combat, $N. Continuons à harceler le Marteau du crépuscule. Allez combattre d’autres Templiers abyssaux. Je vous récompenserai avec quelques objets que Huum et moi avons trouvés sur nos adversaires vaincus.$BBlason abyssal (3)",
+   "completion": "Vous vous êtes bien débrouillé ! Cela fera toujours quelques templiers en moins dont je devrais me soucier.$B$BVoilà, $N. Espérons que nous trouverons là-dedans quelque chose qui vous sera utile.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8363": {
+   "name": "Les chevalières abyssales",
+   "progress": "Vous avez démontré que vous êtes largement capable de vous attaquer à un duc abyssal, $N. Je suis toujours prêt à encourager de bonnes habitudes comme celle-ci. Apportez-moi d’autres chevalières, et je vous récompenserai.$BChevalière abyssale (3)",
+   "completion": "Excellent, $N ! Avoir vaincu ces ducs va désarçonner le Marteau du crépuscule pour un temps. Comme promis, voici votre récompense. C’est la crème de ce que Huum et moi avons trouvé.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8364": {
+   "name": "Les sceptres abyssaux",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8376": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensée.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8377": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8378": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8379": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8380": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8381": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8382": {
+   "name": "Armes de guerre",
+   "completion": "La guerre arrive, $N, et avec elle des horreurs encore inconnues. Vous avez fait tout ce que nous vous demandions, et pour cela, vous serez récompensé.$B$BSi jamais cette… cette prophétie devait se réaliser…$B$BAlors, notre avenir à tous s’arrêtera là.$B$BCes armes vous seront extrêmement utiles pour votre campagne dans ce désert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8441": {
+   "name": "La conquête du bassin d'Arathi",
+   "progress": "La guerre contre la racaille de l'Alliance exige des ressources, $N ! Nous ne pouvons pas nous permettre de laisser tarir nos réserves au beau milieu de la lutte. Continuez à faire en sorte que le bassin d'Arathi reste entre nos mains !$BMarque d'honneur du bassin d'Arathi (3)",
+   "completion": "Excellent travail, $N ! Tant que le bassin d’Arathi reste sous notre contrôle, nos réserves seront bien approvisionnées.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8466": {
+   "name": "Des plumes pour Grifleur",
+   "progress": "Même si vous m’avez déjà montré votre valeur, vous devez continuer à faire vos preuves vis-à-vis des autres membres de ma tribu, qui sont plus méfiants que moi. Je pourrai peut-être vous aider dans cette tâche.$B$BCertains furbolgs Mort-bois portent une coiffe distinctive qui pourraient vous servir à démontrer que vous avez bien diminué leurs rangs. Apportez-moi une plume de toutes les coiffes que vous vous procurerez. Pour chaque série de cinq plumes que vous m’apporterez, vous gagnerez la reconnaissance des Grumegueules.$BCoiffure de plumes mort-bois (5)",
+   "completion": "Bien joué, $N ! Je ferai en sorte que vos actions soient connues par mon peuple.$B$BN'oubliez pas de m'apporter toutes les plumes que vous trouverez. Je continuerai à en accepter aussi longtemps que nécessaire.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8467": {
+   "name": "Des plumes pour Nafien",
+   "progress": "Même si vous m’avez déjà montré votre valeur, vous devez continuer à faire vos preuves vis-à-vis des autres membres de ma tribu, qui sont plus méfiants que moi. Je pourrai peut-être vous aider dans cette tâche.$B$BCertains furbolgs Mort-bois portent une coiffe distinctive qui pourraient vous servir à démontrer que vous avez bien diminué leurs rangs. Apportez-moi une plume de toutes les coiffes que vous vous procurerez. Pour chaque série de cinq plumes que vous m’apporterez, vous gagnerez la reconnaissance des Grumegueules.$BCoiffure de plumes mort-bois (5)",
+   "completion": "Bien joué, $N ! Je ferai en sorte que vos actions soient connues par mon peuple.$B$BN'oubliez pas de m'apporter toutes les plumes que vous trouverez. Je continuerai à en accepter aussi longtemps que nécessaire.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8469": {
+   "name": "Des perles pour Salfa",
+   "progress": "Vous avez certainement gagné ma confiance, $N, mais vous devez continuer à faire vos preuves devant ma tribu, fort soupçonneuse. Voici ce que vous pouvez faire pour qu’ils vous considèrent plus favorablement.$B$BLes Tombe-hiver sont célèbres pour les perles qu’ils portent pour se protéger des mauvais esprits. De toute évidence, elles n’ont pas joué leur rôle, car les Tombe-hiver sont eux-mêmes devenus des agents de la corruption. Apportez-moi les perles d’esprit que vous aurez prises sur les furbolgs Tombe-hiver que vous aurez vaincus. Pour chaque série de cinq perles que vous m’apporterez, vous gagnerez la reconnaissance des Grumegueules$BPerles d'esprit tombe-hiver (5)",
+   "completion": "Vous faites une fois encore la preuve de votre honneur! Je veillerai à ce que vos exploits soient connus parmi les miens.$B$BSi vous trouvez d’autres perles Tombe-hiver, n’oubliez pas de me les ramener. À chaque fois que vous m’en procurerez une série, je parlerai de vous à la tribu.",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }

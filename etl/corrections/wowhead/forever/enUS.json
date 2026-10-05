@@ -2079,6 +2079,1284 @@
    "completion": "Wonderful! We thank you for your generous donation, $N!",
    "fetched": "2026-10-04",
    "v": 2
+  },
+  "7823": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7824": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7825": {
+   "name": "Additional Runecloth",
+   "progress": "Greetings once again, $N! Our need for runecloth is constant, and we can always use additional resources if you are willing to part with them. For an additional stack of twenty runecloth, I will make sure that you are recognized for your continuing efforts on behalf of Thunder Bluff.$B$BWhenever you are ready to hand in the stack of runecloth, I'll accept it.$BRunecloth (20)",
+   "completion": "$N - without heroes like you working on behalf of Thunder Bluff, we'd surely suffer. Thank you for your continued efforts!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7826": {
+   "name": "A Donation of Wool",
+   "progress": "We are currently accepting donations for wool cloth. A donation of sixty pieces of wool cloth will net you full recognition by Orgrimmar for your generous actions. Our stores are such on wool that we would only need sixty pieces from you total; we should be able to acquire enough from others in the realm to support our drive.$B$BIf you have the sixty pieces of wool cloth on you and are ready to donate them, I'm able to take them from you now.$BWool Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7827": {
+   "name": "A Donation of Silk",
+   "progress": "As with most other fabrics, our stocks of silk are at an all-time low. Our stores are such that we'd only need sixty pieces of silk from you total; we should be able to reach our goal with the support of others.$B$BA benevolent gift such as silk, might I add, would certainly increase your local standing in the community! If you have the sixty pieces of silk cloth on you and are ready to donate them, I'm able to take them from you now.$BSilk Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7831": {
+   "name": "A Donation of Mageweave",
+   "progress": "Mageweave is running low, and we could use your help to replenish our stocks! By counting on the community as a whole, we would only need a donation of 60 pieces of mageweave cloth from you to enable us to reach our goal. Such generosity would not go unnoticed by Orgrimmar, I assure you!$B$BIf you have the sixty pieces of mageweave cloth on you and are ready to donate them, I'm able to take them from you now.$BMageweave Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7832": {
+   "name": "Additional Runecloth",
+   "progress": "Greetings once again, $N! Our need for runecloth is constant, and we can always use additional resources if you are willing to part with them. For an additional stack of twenty runecloth, I will make sure that you are recognized for your continuing efforts on behalf of Orgrimmar.$B$BWhenever you are ready to hand in the stack of runecloth, I'll accept it.$BRunecloth (20)",
+   "completion": "$N - without heroes like you working on behalf of Orgrimmar, we'd surely suffer. Thank you for your continued efforts!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7833": {
+   "name": "A Donation of Wool",
+   "progress": "We are currently accepting donations for wool cloth. A donation of sixty pieces of wool cloth will net you full recognition by the Darkspear Trolls for your generous actions. Our stores are such on wool that we would only need sixty pieces from you total; we should be able to acquire enough from others in the realm to support our drive.$B$BIf you have the sixty pieces of wool cloth on you and are ready to donate them, I'm able to take them from you now.$BWool Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7834": {
+   "name": "A Donation of Silk",
+   "progress": "As with most other fabrics, our stocks of silk are at an all-time low. Our stores are such that we'd only need sixty pieces of silk from you total; we should be able to reach our goal with the support of others.$B$BA benevolent gift such as silk, might I add, would certainly increase your local standing in the community! If you have the sixty pieces of silk cloth on you and are ready to donate them, I'm able to take them from you now.$BSilk Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7835": {
+   "name": "A Donation of Mageweave",
+   "progress": "Mageweave is running low, and we could use your help to replenish our stocks! By counting on the community as a whole, we would only need a donation of 60 pieces of mageweave cloth from you to enable us to reach our goal. Such generosity would not go unnoticed by the Darkspear Trolls, I assure you!$B$BIf you have the sixty pieces of mageweave cloth on you and are ready to donate them, I'm able to take them from you now.$BMageweave Cloth (60)",
+   "completion": "Wonderful! We thank you for your generous donation, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7836": {
+   "name": "A Donation of Runecloth",
+   "progress": "$N, you've been a tremendous contributor to our cloth drive. As we work hard to replenish our reserves, one form of cloth remains critically low - runecloth. We are in absolutely dire need of it, and we hope that you will be able to help us as you have in the past!$B$BIf you are willing, please bring me what runecloth you can spare. We'll initially accept a single donation of sixty, and then we'll go from there.$BRunecloth (60)",
+   "completion": "Fantastic - these will go right to use, I assure you. Thank you again for your assistance! We'd certainly be lost without you.$B$BWith all the donations you've made, I would certainly process any additional runecloth donations you care to make in the future. Just be sure to check in with me, and I'll personally make sure that your good deeds won't go unrecognized!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7837": {
+   "name": "Additional Runecloth",
+   "progress": "Greetings once again, $N! Our need for runecloth is constant, and we can always use additional resources if you are willing to part with them. For an additional stack of twenty runecloth, I will make sure that you are recognized for your continuing efforts on behalf of the Darkspear Trolls.$B$BWhenever you are ready to hand in the stack of runecloth, I'll accept it.$BRunecloth (20)",
+   "completion": "$N - without heroes like you working on behalf of the Darkspear Trolls, we'd surely suffer. Thank you for your continued efforts!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7838": {
+   "name": "Arena Grandmaster",
+   "progress": "Avast Lubber! Bring me 12 trinkets of the Arena Master and then ye shall be a Grandmaster of the Gurubashi Arena! Arrrr!$BArena Master (12)",
+   "completion": "Much blood have you spilt on the Arena floor and I be glad to name you Grandmaster of the Arena!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7863": {
+   "name": "Sentinel Basic Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7864": {
+   "name": "Sentinel Standard Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7865": {
+   "name": "Sentinel Advanced Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7866": {
+   "name": "Outrider Basic Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7867": {
+   "name": "Outrider Standard Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7868": {
+   "name": "Outrider Advanced Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Warsong Gulch.$B$BAs you continue to prove yourself inside the Gulch, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7881": {
+   "name": "Carnival Boots",
+   "progress": "We at the Darkmoon Faire do much walking. We walk from one faire site to another... in fact, you'll never see us sitting down on the job! So it is no surprise that we wear out quite a lot of boots! We need boots that are both durable and stylish, and embossed leather boots fit that bill rather well.$B$BYou! You're a leatherworker; make me embossed leather boots and I'll give you a Darkmoon Faire ticket for the work.$BEmbossed Leather Boots (3)",
+   "completion": "Thank you, $N. These are quite well made. The craftsmanship is top notch! Here is a Darkmoon Faire ticket... enjoy, sir.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7882": {
+   "name": "Carnival Jerkins",
+   "progress": "Our Faire workers do more than sweep trash and hammer spikes! They also help guard the carnival as it travels, and to that end they are always needing good sturdy armor jerkins.$B$BIf you make some tough leather armor and bring it to me, then I'll make sure it gets to the right people. I'll also get you some Darkmoon Faire tickets as trade.$BToughened Leather Armor (3)",
+   "completion": "Ah, you brought the jerkins. Splendid. What animal's skin did you use to make these, may I ask? The stitch-work is very well done, and the texture of the leather has a rugged style to it. I can tell you are a craftsman of skill!$B$BThank you, $N, and here are your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7883": {
+   "name": "The World's Largest Gnome!",
+   "progress": "Yebb Nebblegear is looking to add more talent to his show, and he's searching far and wide for the world's largest gnome. Do you know any gnomes of considerable size?$B$BWell before he finds the gnome, he wants to have its costume ready. I think a barbaric harness would be a good foundation for the costume; can you make some harnesses and bring them to me? Do that, and I'll have a stack of Darkmoon Faire tickets for you...$BBarbaric Harness (3)",
+   "completion": "Oh dear, these are quite large!! I can't imagine finding a gnome that would fit snuggly into them, but not to worry - if the gnome we find is not big enough, I can make adjustments to his costume.$B$BMany thanks, $N. Here are the tickets I promised you.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7884": {
+   "name": "Crocolisk Boy and the Bearded Murloc",
+   "progress": "Yebb is working on other attractions for his zoo, including wet, swampy abodes for a boy raised by crocolisks, and perhaps for a murloc. We will need nice, water-tight leggings so we won't get waterlogged during prop-ups and tear-downs. For that job, I think turtlescale leggings will do the trick.$B$B$N, can you make those leggings? If you do, then a fat stack of Darkmoon Faire tickets will be your reward...$BTurtle Scale Leggings (1)",
+   "completion": "Great, you made them! These will do nicely... I just hope I won't be the one to clean the crocolisk cage when the time comes. Those beasts can be rather beastly, don't you think?$B$BHere are your tickets, $N. Enjoy them, and enjoy your stay at the Darkmoon Faire!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7885": {
+   "name": "Armor Kits",
+   "progress": "You might not realize this, but running a traveling carnival is costly! Everything wears down so fast it's a wonder we can turn a profit.$B$BBecause of all those hidden costs, we're always looking for ways to maintain our equipment as cheaply as possible. Our tents, for instance, tear regularly but I've found that leather armor kits make great patches. Can you find and bring me some armor kits? That'll save us a bundle! Do that, and I have a fistful of Darkmoon Faire tickets for you...$BRugged Armor Kit (8)",
+   "completion": "Great! This will work great! I just noticed a rip in a tent over yonder, and one of these armor kits is just what I need to patch it up!$B$BThank you very much, $N. These armor kits will save us a ton in repair costs. Here are your tickets - you deserve them!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7886": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7887": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7888": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7889": {
+   "name": "Coarse Weightstone",
+   "progress": "It takes a lot of work to be the strongest woman alive! My weight set is getting too light and if I'm too stay fit then I'll need more weights!$B$BDo you think you could bring me some weight stones? If you do, then I'll give you a Darkmoon Faire ticket.$BCoarse Weightstone (10)",
+   "completion": "Great! These will work great! They're not too heavy, but not too light either. They're perfect for building muscle mass!$B$BThanks much, $N. Here's your Darkmoon Faire ticket!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7890": {
+   "name": "Heavy Grinding Stone",
+   "progress": "To help with my workout, I like to fit a staff between heavy grinding stones, then lift the staff over my head. It isn't easy, but being the strongest woman in the world, like I am, can't be earned sitting down!$B$BCan you help me? I need more grinding stones - bring me some and I'll trade Darkmoon Faire tickets for them.$BHeavy Grinding Stone (7)",
+   "completion": "You brought the stones! And they're heavy! I can already feel my muscles getting bigger. Thanks $N!$B$BHere, take these tickets, and be sure not to eat too many sweets while you're at the faire. A big strong $C like you needs to keep himself in fighting shape!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7891": {
+   "name": "Green Iron Bracers",
+   "progress": "I'm working on a new costume, for when I have my own booth as the strongest woman alive! Right now I'm looking for some bracers I can wear. They can't cover much because people want to see my muscles, but I still want to flash a little color, you know?$B$BHow about green iron bracers, $N? Can you make me green iron bracers? If you can, then I have a whole bunch of Darkmoon Faire tickets for you.$BGreen Iron Bracers (3)",
+   "completion": "Yes! These are exactly what I need! Such a lovely color, and they still leave my arms bare so you can see how strong they are! Perfect!$B$BHere you are, $N. Here are your tickets - enjoy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7892": {
+   "name": "Big Black Mace",
+   "progress": "For my act as the strongest woman alive, I plan to accept items from the audience and smash them with a big, black mace!$B$BCan you make me a big black mace, $N?$BBig Black Mace (1)",
+   "completion": "Ah, perfect! This mace has a big, heavy head on it. I bet I could smash just about anything with it. I just hope I don't break it along with whatever I swing it against!$B$BHere are your tickets, $N. Enjoy your stay at the faire!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7893": {
+   "name": "Rituals of Strength",
+   "progress": "$N, in my quest to become the strongest woman alive, I have traveled the world and learned muscle building secrets from distant weight masters, strength gurus, and ancient manuals. I now know forbidden exercises that would kill the weak and cripple the uninitiated!$B$BThese feats of strength and conditioning require training with the densest of grinding stones. $N, can you find or make some grinding stones and bring them to me? I'll give you tickets if you do...$BDense Grinding Stone (8)",
+   "completion": "Thank you, $N. I will use these stones in a strength-gaining ritual I learned from an ancient tablet in the deepest jungles of Stranglethorn.$B$BIt is said that she who performs this sacred rite correctly will have the strength and endurance of ten Tauren!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7894": {
+   "name": "Copper Modulator",
+   "progress": "Yebb is developing a new attraction for the Zoo Bizarre, one that will drive people crazy with wonder, and delight! But it will take a lot of work, and a lot of materials...$B$BThat includes copper modulators. We need lots of modulators for the mechanical parts of the attraction. Bring me copper modulators and I'll trade for them with a Darkmoon Faire ticket.$BCopper Modulator (5)",
+   "completion": "Aha! The modulators! Superb!$B$BI can't tell you exactly what we're building, but these will be invaluable for its construction. I am in your debt, $N, but please, take this Darkmoon Faire ticket as a token of my appreciation.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7895": {
+   "name": "Whirring Bronze Gizmo",
+   "progress": "My new booth will be a sight to see, yes sir! A sight to see, and... for a lucky few, to touch!$B$BI can already hear the whirring bronze gizmos singing their song of mechanical rapture as patrons step to my booth and test their skill!$B$BAh... now I need the gizmos themselves to bring my dream closer to fruition. Please, $N, bring me whirring bronze gizmos... and Darkmoon Faire tickets will be yours!$BWhirring Bronze Gizmo (7)",
+   "completion": "You brought the gizmos! Wonderful! Even now I can hear their buzzing, whirring chorus in my mind! Oh, when this booth is ready it will be the wonder of the world, mark me!$B$BHere are you tickets, $N. And please enjoy your stay at the Faire!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7896": {
+   "name": "Green Fireworks",
+   "progress": "When I finally get this booth up and running, I'll want to advertise! And what better way is there to advertise then with fireworks?$B$BWell, some might think that the smell of a cauldron, churning with the boiling heads of your foes is better for drawing crowds, but... we're in mixed company. So fireworks it will have to be!$B$BBring me green fireworks, $N, and I have a big fistful of Darkmoon Faire tickets for you.$BGreen Firework (36)",
+   "completion": "You brought the fireworks. Wonderful work, $N! I can't wait to light these and tell the world that my booth is ready to go! I must still wait, quite a long time I'm afraid, but... I'll be ready when I'm ready, yes?$B$BHere are the tickets, $N. Enjoy yourself!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7897": {
+   "name": "Mechanical Repair Kits",
+   "progress": "The biggest reason I can't open up my booth is that... everything's broken! I need mechanical repair kits to fix all this stuff!$B$BCan you bring me those kits, $N? I'll trade you... kits for Darkmoon Faire tickets. What do you say?$BMechanical Repair Kit (6)",
+   "completion": "Thank you! Now I can get to fixing things.$B$BIt's going to take a lot of repair kits and a lot of late nights to get everything in working order. Sometimes I think it'd be better to get back to my roots and restart my career as a headhunter, but... the Faire has been good to me.$B$BTake these tickets, $N, and have fun!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7898": {
+   "name": "Thorium Widget",
+   "progress": "Yebb Nebblegear, like me, is working on a future attraction. So amazing is this attraction, says Nebb, that it will draw folks from across the world... and it will make us all very, very rich!$B$BHe says he needs thorium widgets for its construction, and wants me to collect them for him. So what do you say, $N? Do you know where to get thorium widgets? If you're an engineer, can you make them? Do you want to trade them for Darkmoon Faire tickets?$BThorium Widget (6)",
+   "completion": "Ah, thank you, $N! Yebb will enjoy these widgets. I don't know what he has planned for them, but Yebb's a clever little gnome. He's clever, and maybe a little devious....$B$BIf only he liked the taste of humanoid flesh... he'd make a great troll!$B$BHere, $N. A deal's a deal, and these tickets are yours.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7899": {
+   "name": "Small Furry Paws",
+   "progress": "The first lesson in drawing a crowd is: lure them with gadgets and trinkets! Can you help me?$B$BI need small furry paws to use for prizes. You can find those on the cats of the Barrens or Darkshore....$B$BBring me some paws and I'll trade you a Darkmoon Faire ticket for them.$BSmall Furry Paw (5)",
+   "completion": "Great, you got them! We can use these to make toys and baubles, and those will attract more people to the Faire!$B$BHere's your ticket, $N. You earned it!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7900": {
+   "name": "Torn Bear Pelts",
+   "progress": "Children love toys! And no matter what race, I've found that all children love furry, plushy toys made from torn bear pelts!$B$BYou can get those pelts from the bears of Ashenvale or Hillsbrad. Bring me a heap of them and earn yourself a heap of Darkmoon Faire tickets!$BTorn Bear Pelt (5)",
+   "completion": "Nice pelts, $N! I'll get someone to sew these into a bunch of plush toys. With a little stuffing and some paint, I think they'll be the envy of children across Azeroth!$B$BTickets? Ah yes, your payment! Here they are!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7901": {
+   "name": "Soft Bushy Tails",
+   "progress": "It's amazing what people value! Take, for instance, a wooden stick with a soft bushy tail attached to it. Now, you and I might think something like that isn't all that valuable... but if you give that piece of junk a neat name like \"Savage Fuzz Tail\" and put it in a pretty box, then people will think it's valuable. Trash becomes treasure!$B$BGet me soft bushy tails from the wolves of Desolace and the Badlands, and I'll give you Darkmoon Faire tickets.$BSoft Bushy Tail (5)",
+   "completion": "Well done, $N! These tails will make great prizes for our visitors, and that means happy visitors... who talk to their friends and bring more visitors!$B$BHere are your tickets! Have a good time at the Darkmoon Faire... and don't forget to tell your friends about us!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7902": {
+   "name": "Vibrant Plumes",
+   "progress": "A person's imagination is an incredible thing. It can make the smallest hill seem like the largest mountain. It can make the most innocuous shadow appear cast by a horrible nightmare!$B$BWe at the Darkmoon Faire let our visitor's imaginations blossom! But to help stretch their imaginations... sometimes we have to get tricky.$B$BI need vibrant plumes for one of my attractions. You can get them from the birds of the more dangerous areas of Azeroth. Bring me the plumes and many tickets will be yours!$BVibrant Plume (5)",
+   "completion": "Ah, the plumes! They are amazing, don't you think! It would be easy to spark one's imaginations with such beauties!$B$BYou do such charitable work, $N. The smiles on our visitors' faces when they see the show is a grand payment indeed, but please take these tickets as well.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7903": {
+   "name": "Evil Bat Eyes",
+   "progress": "Do you ever find yourself wandering in a cave, late at night, looking for adventure? You do? Really? Well, then you've seen the creepy eyes of bats staring at you from high up, waiting for you to let down your guard so they can suck your blood!$B$BScary thought, don't you think? Of course! It's no doubt that bat eyes are scary!$B$BWill you bring me some evil bat eyes, $N? I want them for... something I'm designing. Something scary.$B$BYou can get them from the bats of the Eastern Plaguelands.$BEvil Bat Eye (10)",
+   "completion": "Great! You got the eyes! I hope hunting those bats was frightening for you, because if it scared a brave $C like yourself, then those eyes will certainly scare our Faire visitors.$B$BTake these tickets, $N, and thank you for your service.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7921": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7922": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7923": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7924": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7925": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7930": {
+   "name": "5 Tickets - Darkmoon Flower",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (5)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7931": {
+   "name": "5 Tickets - Minor Darkmoon Prize",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (5)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7932": {
+   "name": "12 Tickets - Lesser Darkmoon Prize",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (12)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7933": {
+   "name": "40 Tickets - Greater Darkmoon Prize",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (40)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7934": {
+   "name": "50 Tickets - Darkmoon Storage Box",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (50)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7935": {
+   "name": "10 Tickets - Last Month's Mutton",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (10)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7936": {
+   "name": "50 Tickets - Last Year's Mutton",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (50)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7939": {
+   "name": "More Dense Grinding Stones",
+   "progress": "$N, thank you for all the help you've given me. I really can't thank you enough!$B$BAlthough my need is no longer great... if you bring me more dense grinding stones, I still have more Darkmoon Faire tickets for you.$BDense Grinding Stone (8)",
+   "completion": "Again, thank you $N. Please enjoy these tickets, and tell your friends about the Darkmoon Faire!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7940": {
+   "name": "1200 Tickets - Orb of the Darkmoon",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (1200)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7941": {
+   "name": "More Armor Kits",
+   "progress": "$N, I must thank you for all your help. I have plenty of supplies, through no small efforts on your part, but if you wish to bring me more armor kits, then I will gladly trade them for Darkmoon Faire tickets.$BRugged Armor Kit (8)",
+   "completion": "There you are, $N. A fair trade. Enjoy.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7942": {
+   "name": "More Thorium Widgets",
+   "progress": "$N, you have been so good to us, bringing me goods without tiring. You have my eternal thanks!$B$BAlthough our need for Thorium widgets is not as great as it was, you may still bring them to me and I will gladly trade them for Darkmoon Faire tickets.$BThorium Widget (6)",
+   "completion": "Here you are, $N. Here are Darkmoon Faire tickets for your enjoyment. Do not, as they say, spend them all in one place!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7943": {
+   "name": "More Bat Eyes",
+   "progress": "$N, the attraction I'm designing will be the scariest event since Gnomeregan was overrun! And it's largely thanks to you and all the baubles you've brought me. Many, many thanks!$B$BI don't need much else, but... if you bring me more evil bat eyes from the bats of the Eastern Plaguelands... I might have more Darkmoon Faire tickets for you.$BEvil Bat Eye (10)",
+   "completion": "Thanks again, $N. Here are your tickets!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7946": {
+   "name": "Spawn of Jubjub",
+   "progress": "I'm so happy Jubjub is no longer lost. She loves Dark Iron ale so much that when I ran out... she ran away to find more!$B$BNow that Jubjub's back, I want as much ale as I can get! I won't want her to run away again!$B$BDo you have any Dark Iron Ale? If you do, then I'll trade you one of Jubjub's frog eggs for a mug...$BDark Iron Ale Mug (1)",
+   "completion": "Thank you, $N. Here is your egg! It won't be ready to hatch for a little while, but when it does you'll have a great pet!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7981": {
+   "name": "1200 Tickets - Amulet of the Darkmoon",
+   "progress": "Step right up, step right up! If you have tickets from the Darkmoon Faire you'd like redeemed, then just say so! You can redeem tickets in various denominations for wondrous and fantastic prizes. Don't be shy, give it a try!$BItem #19182 (1200)",
+   "completion": "Here you go, here you go! A prize fit for a king! Congratulations to you, my friend!$B$BIf you have more tickets you'd like to turn in, then please let me know! For as long as the Darkmoon Faire is here, I'll redeem your tickets.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8041": {
+   "name": "Strength of Mount Mugamba",
+   "completion": "Hail, $C. I am Jin'rokh the Breaker, troll of Mugamba. We of the Zandalar tribe recognize your accomplishments. We salute your tenacity and strength of will.$B$BWear this talisman around your neck, $C. Let the strength of Mount Mugamba flow through your being. Be empowered as you strike down our enemies!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8042": {
+   "name": "Strength of Mount Mugamba",
+   "progress": "It is good to see you in good health, $N. The glorious battles you have undertaken affect all life on this planet. Hakkar must never leave the confines of Zul'Gurub as the world will surely collapse beneath his immense hunger.$B$BGive me your talisman and I shall amplify its strength. Use the Strength of Mugamba to punish our enemies!$BStrength of Mugamba (1)",
+   "completion": "Our paths will cross again, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8043": {
+   "name": "Strength of Mount Mugamba",
+   "progress": "Master $N, you return! Molthor has sent word of your deeds to the King. Your name is known even in the South Seas. Perhaps one day you will be a legendary $C - a story for the ages.$B$BGive me your talisman so that I may once more amplify its power.$BStrength of Mugamba (1)",
+   "completion": "Use your newfound strength to destroy the Gurubashi!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8044": {
+   "name": "The Rage of Mugamba",
+   "progress": "King Rastakhan sends his regards, Master $N. Such an honor has never been given to one outside the Zandalar tribe.$B$BGive me your talisman so that I may enhance it once more. Know that the Rage of Mugamba is now intrinsically connected to your very soul.$BStrength of Mugamba (1)",
+   "completion": "Zul'jin would be envious, $C. Go forth and conquer!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8045": {
+   "name": "The Heathen's Brand",
+   "completion": "Know this, heathen: A catastrophe has brought us together. Your pagan ways are neither understood nor appreciated by Zandalar but we are a fair people. Wear this brand around your neck. It shall serve as both a warning to our enemies and a symbol of your friendship to Zandalar.$B$BContinue to serve our people and I will amplify the power of the brand.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8046": {
+   "name": "The Heathen's Brand",
+   "progress": "I may have been too hasty in my judgement, $C. It seems as if your blind faith in this Light has some value after all.$B$BGive me your brand and I shall amplify its power.$BHeathen's Brand (1)",
+   "completion": "Do what you must to defeat our enemies, $C. Even if it means channeling the Light.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8047": {
+   "name": "The Heathen's Brand",
+   "progress": "I must confess, I did not think you had the resolution to see this cause through, $C. Zandalar now considers you an invaluable ally. Well done, indeed.$B$BGive me your brand and I shall once more amplify its power.$BHeathen's Brand (1)",
+   "completion": "Our beliefs differ but our cause is righteous. Strike down our foes, noble $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8048": {
+   "name": "The Hero's Brand",
+   "progress": "The King has acknowledged your existence, $C. You are the first of your kind to be accepted by Rastakhan as a true ally of Zandalar.$B$BYou will be rewarded greatly for your efforts. Present your brand and I shall apply the final amplification.$BHeathen's Brand (1)",
+   "completion": "Vigilance, honor, loyalty, bravery... You embody all of these traits and so shall your brand.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8049": {
+   "name": "The Eye of Zuldazar",
+   "completion": "Accept this talisman as a token of our appreciation, $C.$B$BThe Eye of Zuldazar will grow in power as your bond with the trolls of Zandalar strengthens. Return to me periodically and I shall imbue the jewel.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8050": {
+   "name": "The Eye of Zuldazar",
+   "progress": "Welcome $C. The Eye of Zuldazar pulses with energy. You are ready to take the next step. Hand me the talisman and I shall perform the imbue.$BThe Eye of Zuldazar (1)",
+   "completion": "Continue in your battle against the Soulflayer and his minions, $N. He must never be permitted to leave the confines of Zul'Gurub.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8051": {
+   "name": "The Eye of Zuldazar",
+   "progress": "Tales of your battles against the Gurubashi are whispered in the winds, $C. Even royalty is beginning to talk of your deeds. It is rumored that King Rastakhan even mentioned you by name.$B$BThe time has come to imbue the Eye. Hand me the talisman and I shall perform the service.$BThe Eye of Zuldazar (1)",
+   "completion": "Be resolute in your endeavors, $N. The Soulflayer will attempt to siphon your will to live.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8052": {
+   "name": "The All-Seeing Eye of Zuldazar",
+   "progress": "If only we had ten-thousand more like you, $N. The armies of Hakkar would be scattered to the wind in the blink of an eye.$B$BAlas, the Eye is ready to realize its full potential. Give it to me.$BThe Eye of Zuldazar (1)",
+   "completion": "Smite them all and let Hakkar sort them out...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8081": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8101": {
+   "name": "The Pebble of Kajaro",
+   "completion": "$R, the pebble held within the frame of this talisman comes from Mount Kajaro in the South Seas. Mount Kajaro is an area plagued by volatility - marked by violent and oftentimes magical volcanic eruptions.$B$BAs your bond with the trolls of Zandalar grows, so too shall the power of this pebble. Harness the power of the pebble to strike down our enemies. Be like the mountain: Quick, explosive, deadly...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8102": {
+   "name": "The Pebble of Kajaro",
+   "progress": "Welcome back, $C. I can see that the pebble has seen much use. Many of our foes have fallen to your otherworldly abilities. Their suffering has been great. It is time that I enhance the power of the pebble. Give it to me.$BPebble of Kajaro (1)",
+   "completion": "Be unstoppable, like the molten fronts of Kajaro.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8103": {
+   "name": "The Pebble of Kajaro",
+   "progress": "Hakkari fear you, $N. They speak of horrors they believed that only their faceless God could perpetrate. You have burned them with the force of Kajaro. They now know fear in two places.$B$BIt is time to further strengthen the pebble. Hand me the talisman.$BPebble of Kajaro (1)",
+   "completion": "Continue in your decimation of the trolls of Zul'Gurub. Hakkar must see that the world will not buckle beneath his indomitable will.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8104": {
+   "name": "The Jewel of Kajaro",
+   "progress": "Give me the talisman, $N. I must show you something.$BPebble of Kajaro (1)",
+   "completion": "<Al'tabim shatters the pebble with a powerful unseen force.>$B$BDo you see? The pebble is what we call a geode. Inside the pebble are powerful crystals that have been soaking in the latent energies from our world. By cutting the pebble in half, I have finally allowed its full potential to be realized. Use it to lay waste to our enemies.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8106": {
+   "name": "Kezan's Taint",
+   "completion": "Accept this talisman, $C. Accept it and use its power to strike down our mutual enemies.$B$BKnow that around your neck you carry a piece of history. Kezan was once a grand territory of the Zandalar Empire. Alas, the taint of goblin trade princes would force out my proud brothers and sisters.$B$BKezan is now home to the goblin capital of the Undermine; but know that before the taint, it held greatness. Still to this day Kezan is considered sacred land to my people.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8107": {
+   "name": "Kezan's Taint",
+   "progress": "Honor is earned amongst the Zandalar trolls, $N. With honor comes reward - friendship, alliance...$B$BHand me the talisman so that I may enhance its power.$BKezan's Taint (1)",
+   "completion": "Draw from the darkness, $C. Embrace the shadows. Let Kezan's Taint supplement your dark meddling.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8108": {
+   "name": "Kezan's Taint",
+   "progress": "I am ready for you, $C. Once more I will enhance your talisman. I only ask that you continue in your destruction of Hakkar and his minions.$B$BGive me the talisman.$BKezan's Taint (1)",
+   "completion": "It is only through our combined efforts that we will stop the Soulflayer.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8109": {
+   "name": "Kezan's Unstoppable Taint",
+   "progress": "Call forth your demons, $C. Let them bask in the energy of Kezan's Taint. Command them on the field of battle! Decimate the enemy!$B$BYes... The time has come to apply the final enhancement to Kezan's Taint. Give me the talisman.$BKezan's Taint (1)",
+   "completion": "Flay the flesh from their corpses. Watch as the shadows consume the Hakkari. Draw power from their fear, $C. Let Kezan's Taint augment this power...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8110": {
+   "name": "Enchanted South Seas Kelp",
+   "completion": "See this here seaweed, mon? It be from the South Seas. We just add a little mojo and a little magic and it takes on the properties most suited to its owner.$B$BYou a $C so it be easy, mon. Just wrap it around your neck and think of nature or squirrels or whatever it be that you people like.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8111": {
+   "name": "Enchanted South Seas Kelp",
+   "progress": "Hey mon! It be good to see you again. The tribe be talking about your killin' of the Hakkari and all that. Molthor gave me the word to be adding more mojo to your talisman. Just give it here and Maywiki make it better.$BEnchanted South Seas Kelp (1)",
+   "completion": "The neck piece not be for smokin', mon! You got to use it to fight evil.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8112": {
+   "name": "Enchanted South Seas Kelp",
+   "progress": "How be that talisman, mon? It look like it be time to add a little more magic and mojo to its leaves. It need a little bloom in its wilt. Give it here and Maywiki fix it right up.$BEnchanted South Seas Kelp (1)",
+   "completion": "Now you take the evil trolls in Zul'Gurub and show them what your nature powers can do, mon!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8113": {
+   "name": "Pristine Enchanted South Seas Kelp",
+   "progress": "$N! It been a long time since I seen you. Did you know that King Rastakhan himself be givin' me the order to add the final bit of mojo and magic to your talisman? It be true, mon! I wouldn't have believed it had I not seen it with me own eyes. Give it here.$BEnchanted South Seas Kelp (1)",
+   "completion": "$N mon, it been a good journey. Keep on with the killing and suppressing of Hakkar and he minions.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8116": {
+   "name": "Vision of Voodress",
+   "completion": "You and Maywiki have something in common, mon. We both be $C! Although, Maywiki is more of a mystic and you be more of a scrub. Still, we both know what the great spirits bring.$B$BAs a gift I give to you this orb to wear around your neck. Look deep inside and see the village of Voodress in the South Seas! Let it lift your spirits!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8117": {
+   "name": "Vision of Voodress",
+   "progress": "Sha-mon! Maywiki make a joke!$B$B<Maywiki laughs.>$B$BSo, you been using the spirits and elements against our enemies in Zul'Gurub, eh? Spirits be praised!$B$BMaywiki gonna brighten your orb. Give it here, $N.$BVision of Voodress (1)",
+   "completion": "Take a look at it now, $N. Voodress come in even clearer now, yea? Let the primal power flow through you, mon.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8118": {
+   "name": "Vision of Voodress",
+   "progress": "Good news, $N. Molthor be singin' your praises lately. He say how you be turnin' into a real hero of Zandalar.$B$BHe also say for Maywiki to polish your orb some more! Give it here so Maywiki can brighten the vision.$BVision of Voodress (1)",
+   "completion": "Beware the evil Hakkari spirits, mon. Honestly, they be spooky.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8119": {
+   "name": "The Unmarred Vision of Voodress",
+   "progress": "<Maywiki points to your talisman.>$B$BLook at it, $N! It's come alive. The spirits dance around the orb.$B$BGive it to Maywiki so she can make one last adjustment.$BVision of Voodress (1)",
+   "completion": "One day, $N, you will be able to use this orb to communicate directly with me. Whenever this battle with Hakkar be over and Maywiki go home. Let us call to the spirits and ask them for that day to come soon.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8124": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8141": {
+   "name": "Zandalarian Shadow Talisman",
+   "completion": "You progress swiftly, young $C. Perhaps it is time to initiate you into the Shera Ali'kh - Zandalari for Death's Hand. For thousands of years we have played the role of assassin for the Zandalar Empire. For too long we have sat idly, allowing the Hakkari to grow in strength. Once more we face Hakkar, but this time without the support of a united troll front. It is you and your allies who must assist in vanquishing the Blood God and his minions!$B$BWear this talisman and let it assist you in your journeys.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8142": {
+   "name": "Zandalarian Shadow Talisman",
+   "progress": "I sense that you have dealt countless fatalities to the Hakkari, $N. You carry the stink of their mojo.$B$BI assume the Shadow talisman has assisted in the culling? Give it to me and allow me to enhance its power.$BZandalarian Shadow Talisman (1)",
+   "completion": "An assassin of your caliber should be given a wide berth. Your foes must learn respect! You will get just that when the enemy sees the glint of Death's Hand - all too late...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8143": {
+   "name": "Zandalarian Shadow Talisman",
+   "progress": "Impressive, $N. You have a gift for killing that I have not sensed in another in many years. Even Molthor is aware of the work that you have done for Zandalar. It is time to enhance your talisman further. Give it to me.$BZandalarian Shadow Talisman (1)",
+   "completion": "There is only one enhancement left that can be placed on the talisman, $C. When the time is right, I shall apply that enhancement.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8144": {
+   "name": "Zandalarian Shadow Mastery Talisman",
+   "progress": "It yearns to grow, $N. The talisman has soaked in all that you have done. The thousands of troll corpses littering Zul'Gurub have fueled its power. Hand it to me and I shall make the final enhancement.$BZandalarian Shadow Talisman (1)",
+   "completion": "This is the last time we will speak under the auspices of Shera Ali'kh. You know all that you must. Take the talisman and continue in your slaying. Hakkar must never be allowed to leave Zul'Gurub.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8145": {
+   "name": "The Maelstrom's Tendril",
+   "completion": "Amongst the Zandalarians, the profession of $C is revered. Our greatest hunters travel to the edge of the Maelstrom to prove their resolution.$B$BFrom the heart of the sea they pull strands of kelp known as Maelstrom Tendrils. The kelp is then woven into a talisman that is enchanted to improve their accuracy and power.$B$BI now grant you a single weaving of the Maelstrom's Tendril. As your bond with Zandalar grows, I shall weave more power into the talisman.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8146": {
+   "name": "The Maelstrom's Tendril",
+   "progress": "Ah, $N, it is good to smell you again.$B$BYou'll have to excuse my sense of humor. It can be most foul at times.$B$BI sense that you have caused great anguish to our enemies. The forces of Hakkar cry out your name in anger. This is most excellent.$B$BYou have earned another weave on your talisman. Hand it to me.$BMaelstrom's Tendril (1)",
+   "completion": "Let them seek atonement at the end of your munitions.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8147": {
+   "name": "The Maelstrom's Tendril",
+   "progress": "Even from here I can hear the sound of your volleys laying waste to our enemies. Their cries echo in agony.$B$BYou have made quite a name for yourself among the trolls of Zandalar, $N. We are grateful for all that you have done.$B$BHand me your talisman so that I may add another weave.$BMaelstrom's Tendril (1)",
+   "completion": "There is only one more weave that I will be able to add to your talisman, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8148": {
+   "name": "Maelstrom's Wrath",
+   "progress": "Molthor delivers word from King Rastakhan, $N. The royal court is most impressed with your decimation of the Hakkari forces. I am to award you with the final weave in your talisman. Hand it to me.$BMaelstrom's Tendril (1)",
+   "completion": "Your journey has only just begun, young $C. Perhaps one day you will visit the Maelstrom and glance into the heart of the world.$B$BI wish you power and fortitude!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8157": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8158": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8159": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8163": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8164": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8165": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8184": {
+   "name": "Presence of Might",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8185": {
+   "name": "Syncretist's Sigil",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8186": {
+   "name": "Death's Embrace",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8187": {
+   "name": "Falcon's Call",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8188": {
+   "name": "Vodouisant's Vigilant Embrace",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8189": {
+   "name": "Presence of Sight",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8190": {
+   "name": "Hoodoo Hex",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8191": {
+   "name": "Prophetic Aura",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8192": {
+   "name": "Animist's Caress",
+   "progress": "Zanza can create the ancient troll enchantments with the right components.$B$BThe first is a primal Hakkari idol that must be taken from the most powerful of the Hakkari lieutenants: Jin'do and the Bloodlord.$B$BThe second is a punctured voodoo doll. These can be found in the piles of refuse that litter this foul place. Look inside the jinxed hoodoo piles.$B$BBring me these things and I will create a powerful enchantment for you!$BPrimal Hakkari Idol (1)$BPunctured Voodoo Doll (1)",
+   "completion": "Use it well, $C. Show the Hakkari no mercy!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8193": {
+   "name": "Master Angler",
+   "progress": "Today between 2pm and 4pm we have a contest to determine who the greatest angler of them all is! Just be the FIRST PERSON to bring me 40 Tastyfish fished from the Tastyfish schools found along the coast of Stranglethorn before anyone else does and you will be declared the Master Angler!$B$BIf you are not the first person to bring me 40 fish, my apprentice here will still reward you with money for each 5 Tastyfish you bring her.$B$BOh, and don't delay, Tastyfish go bad quickly!$BSpeckled Tastyfish (40)",
+   "completion": "Hurry up and turn those in if you want to be declared the Master Angler! I have been standing around here for HOURS with nothing to eat! Hand those suckers over!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8194": {
+   "name": "Apprentice Angler",
+   "progress": "Even though we already have a contest winner, I will still buy your Tastyfish from you at a reasonable price. Whadda ya say!$BSpeckled Tastyfish (5)",
+   "completion": "This deal works for me if it works for you!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8195": {
+   "name": "Zulian, Razzashi, and Hakkari Coins",
+   "progress": "I seek the Paragons of Power known as the Coins of the Tribes. They are the currency used by the various denizens of Zul'Gurub, and each is imbued with subtle but powerful mojo.$B$BThere are nine distinct kinds to be found. Some are sought after by my compatriots for various armors they offer Zandalar heroes. Should you have any extra, I will trade you one of our Honor Tokens for a set of three. You may use the Tokens with Rin'wosho the Trader; he offers our heroes special items for them.$BZulian Coin (1)$BRazzashi Coin (1)$BHakkari Coin (1)",
+   "completion": "Excellent - this set of coins will make a fine addition to our growing collection... one that we will use in the tribe's defense against the rise of the Blood God. You've earned this Honor Token, $N, as well as the thanks of the tribe!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8196": {
+   "name": "Essence Mangoes",
+   "progress": "The extremely potent essence mango grows across many of the islands in the South Seas. A single mango will refresh those who eat it, both physically and mentally. If you've never had one, you do yourself a disservice!$B$BWe have enough of a supply here on the isle to offer you a handful in exchange for a Zandalar Honor Token. Speak with Vinchaxa if you need to learn how to get tokens; otherwise, let's get to the business at hand!$BZandalar Honor Token (1)$BZandalar Tribe (Honored)",
+   "completion": "A fair trade, my friend - please enjoy the luscious fruits of the South Seas, with the tribe's blessing.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8221": {
+   "name": "Rare Fish - Keefer's Angelfish",
+   "progress": "*Whir* *Click*$B$BI seek rare fish for Fishmaster Bluegill to catalogue. If you bring me a Keefer's Angelfish, I will provide you with this fine reward.$B$B*Zzzap* *Whir*$BKeefer's Angelfish (1)",
+   "completion": "*Whir*$B$BIdentification of Keefer's Angelfish complete.$B$BYour Reward is now available.$B$B*click-click* *Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8222": {
+   "name": "Glowing Scorpid Blood",
+   "progress": "In all my time working the Faire, I've learned a lot of things about customers. Here's one of those nuggets of wisdom: customers love stuff that glows! It doesn't matter what it is - you could take a broken chair leg and make it glow, and every child will come from miles around to get one!$B$BSo, $N, I need glowing scorpid blood. You can find it from the scorpids of Sillithus, or the Blasted Lands, or the Burning Steppes.$BGlowing Scorpid Blood (10)",
+   "completion": "Great job, $N! Thanks a lot! I'm going to make paint from this blood and turn all kinds of cheap junk into glowing treasure!$B$BHere are your tickets, and thanks again!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8223": {
+   "name": "More Glowing Scorpid Blood",
+   "progress": "That scorpid blood is working out great, $N! It's amazing how a little sparkle and shine can create a prized bauble out of an otherwise piece of junk. The patrons love the stuff, and love is what it's all about, don't you think...$B$BYou've been a big help to me, $N, and although I don't have a great need for more glowing scorpid blood, if you bring me more then I'll still trade you some tickets.$BGlowing Scorpid Blood (10)",
+   "completion": "Thanks again, $N. Here are your tickets!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8224": {
+   "name": "Rare Fish - Dezian Queenfish",
+   "progress": "*Whir* *Click*$B$BI seek rare fish for Fishmaster Bluegill to catalogue. If you bring me a Dezian Queenfish, I will provide you with this fine reward.$B$B*Zzzap* *Whir*$BDezian Queenfish (1)",
+   "completion": "*Whir*$B$BIdentification of Dezian Queenfish complete.$B$BYour Reward is now available.$B$B*click-click* *Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8225": {
+   "name": "Rare Fish - Brownell's Blue Striped Racer",
+   "progress": "*Whir* *Click*$B$BI seek rare fish for Fishmaster Bluegill to catalogue. If you bring me a Brownell's Blue Striped Racer, I will provide you with this fine reward.$B$B*Zzzap* *Whir*$BBrownell's Blue Striped Racer (1)",
+   "completion": "*Whir*$B$BIdentification of Brownell's Racer complete.$B$BYour Reward is now available.$B$B*click-click* *Bzzzz*",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8228": {
+   "name": "Could I get a Fishing Flier?",
+   "completion": "There is a Fishing Contest in Booty Bay this Sunday! Here are the rules of the tournament if you want to participate!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8229": {
+   "name": "Could I get a Fishing Flier?",
+   "completion": "There be a Fishin Contest in Booty Bay this Sunday! Here are the rules for ya!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8238": {
+   "name": "Gurubashi, Vilebranch, and Witherbark Coins",
+   "progress": "I seek the Paragons of Power known as the Coins of the Tribes. They are the currency used by the various denizens of Zul'Gurub, and each is imbued with subtle but powerful mojo.$B$BThere are nine distinct kinds to be found. Some are sought after by my compatriots for various armors they offer Zandalar heroes. Should you have any extra, I will trade you one of our Honor Tokens for a set of three. You may use the Tokens with Rin'wosho the Trader; he offers our heroes special items for them.$BGurubashi Coin (1)$BVilebranch Coin (1)$BWitherbark Coin (1)",
+   "completion": "Excellent - this set of coins will make a fine addition to our growing collection... one that we will use in the tribe's defense against the rise of the Blood God. You've earned this Honor Token, $N, as well as the thanks of the tribe!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8239": {
+   "name": "Sandfury, Skullsplitter, and Bloodscalp Coins",
+   "progress": "I seek the Paragons of Power known as the Coins of the Tribes. They are the currency used by the various denizens of Zul'Gurub, and each is imbued with subtle but powerful mojo.$B$BThere are nine distinct kinds to be found. Some are sought after by my compatriots for various armors they offer Zandalar heroes. Should you have any extra, I will trade you one of our Honor Tokens for a set of three. You may use the Tokens with Rin'wosho the Trader; he offers our heroes special items for them.$BSandfury Coin (1)$BSkullsplitter Coin (1)$BBloodscalp Coin (1)",
+   "completion": "Excellent - this set of coins will make a fine addition to our growing collection... one that we will use in the tribe's defense against the rise of the Blood God. You've earned this Honor Token, $N, as well as the thanks of the tribe!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8241": {
+   "name": "Restoring Fiery Flux Supplies via Iron",
+   "progress": "Let's not waste more of my precious time with jibber jabber, $R. It's time to focus on replenishing our dwindling fiery flux supply.$B$BWhat I'm gonna need from you is the following:$B$B*Incendosaur scales.$B$B*Iron bars.$B$B*Coal.$B$BI'll take all that you can offer!$B$BAnd you'll do it fast if you wanna get in good with the Brotherhood.$BIncendosaur Scale (2)$BIron Bar (4)$BCoal (1)",
+   "completion": "There's always room for more fiery flux, junior. Keep it comin'... unless I tell you to stop.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8242": {
+   "name": "Restoring Fiery Flux Supplies via Heavy Leather",
+   "progress": "Let's not waste more of my precious time with jibber jabber, $R. It's time to focus on replenishing our dwindling fiery flux supply.$B$BWhat I'm gonna need from you is the following:$B$B*Incendosaur scales.$B$B*Heavy Leather.$B$B*Coal.$B$BI'll take all that you can offer!$B$BAnd you'll do it fast if you wanna get in good with the Brotherhood.$BIncendosaur Scale (2)$BHeavy Leather (10)$BCoal (1)",
+   "completion": "There's always room for more fiery flux, junior. Keep it comin'... unless I tell you to stop.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8243": {
+   "name": "Zanza's Potent Potables",
+   "progress": "With your increased status amongst the tribe comes access to some of our more potent potables. Behold... these brews are strong in the mojo - blessed by Zanza and fit for adventurers from all walks of life!$B$BI will allow you to choose one from the three I offer; in exchange, I require one Zandalar Honor Token. Note that only the effects of a single one may course through your spirit at any given time.$B$BLet me know when you're ready to barter!$BZandalar Honor Token (1)$BZandalar Tribe (Revered)",
+   "completion": "A fair trade, my friend - please enjoy the blessings of Zanza with our compliments!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8246": {
+   "name": "Signets of the Zandalar",
+   "progress": "$N - for someone as exalted among the Zandalar as you are, I have something very special for you. Direct from our home in the South Seas... the Signets of the Zandalar! These signets are used to enhance any shoulder item you may possess. Should you seek might, mojo, or serenity - I have what you need!$B$BI ask for fifteen Zandalar Honor Tokens in exchange for your choice of one signet. If you have the tokens ready, then I'm ready to make a deal!$BZandalar Honor Token (15)$BZandalar Tribe (Exalted)",
+   "completion": "A fair trade, my friend - please accept your signet with the blessing of the tribe!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8249": {
+   "name": "Junkboxes Needed",
+   "progress": "My rogues need to hone their lockpicking skills, and I need locks of adequate difficulty -- the stuff Zan makes us is unfit for all but the lowliest neophytes.$B$BTell ya what, if you bring me 5 Heavy Junkboxes, I'll provide you with some of the finest throwing knives known to roguekind.$B$BYou can unlock the boxes and rifle through them, but you'll have to leave at least a few coins in them... even a $C in training needs motivation.$BHeavy Junkbox (5)",
+   "completion": "May these knives find a place in someone's heart.$B$BLiterally.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8260": {
+   "name": "Arathor Basic Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Arathi Basin.$B$BAs you continue to prove yourself inside the Basin, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.$BThe League of Arathor (Friendly)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8261": {
+   "name": "Arathor Standard Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Arathi Basin.$B$BAs you continue to prove yourself inside the Basin, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.$BThe League of Arathor (Friendly)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8262": {
+   "name": "Arathor Advanced Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Arathi Basin.$B$BAs you continue to prove yourself inside the Basin, you'll find that these items will become available to you for purchase. Rations become available when you are Friendly with us, and bandages when you are Honored.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8263": {
+   "name": "Defiler's Basic Care Package",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8264": {
+   "name": "Defiler's Standard Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Arathi Basin.$B$BAs you continue to prove yourself inside the Basin, you'll find that these items will become available to you for purchase. Rations become available when you are Honored with us, and bandages when you are Revered.$BThe Defilers (Friendly)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8265": {
+   "name": "Defiler's Advanced Care Package",
+   "completion": "You've certainly begun to prove yourself to us, $N. As a reward, please take this care package! Inside it you'll find rations and bandages that are usable only inside Arathi Basin.$B$BAs you continue to prove yourself inside the Basin, you'll find that these items will become available to you for purchase. Rations become available when you are Honored with us, and bandages when you are Revered.$BThe Defilers (Friendly)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8266": {
+   "name": "Ribbons of Sacrifice",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8267": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8268": {
+   "name": "Ribbons of Sacrifice",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8269": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8271": {
+   "name": "Hero of the Stormpike",
+   "completion": "As a hero of the Stormpike, you may choose one item from these recently plun... er, recovered treasures.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8272": {
+   "name": "Hero of the Frostwolf",
+   "completion": "How does it feel, $N? How does it feel to crush your enemies and watch their lines break apart? It feels good, doesn't it?$B$BYou should be rewarded for this heroic deed, soldier.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8273": {
+   "name": "Oran's Gratitude",
+   "completion": "Now isn't this interesting? You say you found this tablet on a small, deserted island at The Overlook Cliffs in The Hinterlands, $C? Very interesting indeed.$B$BI thank you for your efforts in this matter. Our Dark Lady shall be very pleased with this discovery. Here, allow me to reward you proportionately.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8289": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8292": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8293": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8296": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8298": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8300": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8316": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8319": {
+   "name": "Encrypted Twilight Texts",
+   "progress": "Keep bringing me texts. We'll soon force the Twilight's Hammer out of Silithus.$BEncrypted Twilight Text (10)",
+   "completion": "Excellent work! I'll put a good word in for you.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8324": {
+   "name": "Still Believing",
+   "progress": "Find any more encrypted texts? Bring me a good batch of them, this decoding work takes some time.$BEncrypted Twilight Text (10)",
+   "completion": "Excellent! I can't wait to read these. Please do keep bringing the encrypted texts here if you find them.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8333": {
+   "name": "Medallion of Station",
+   "progress": "If you need another Twilight cultist's medallion of station, then I am happy to oblige. I will, however, need another brilliant shard and some abyssal crests...$BLarge Brilliant Shard (1)$BAbyssal Crest (3)",
+   "completion": "Here you are, $N. One more Twilight medallion of station. Use it well, and I wish you luck against the Abyssal Council!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8342": {
+   "name": "Twilight Ring of Lordship",
+   "progress": "$N, if you plan to go after the Abysall High Council again, then you'll need another Twilight ring of lordship. Bring me more shards and signets and I'll make one for you.$BAbyssal Signet (3)$BLarge Brilliant Shard (5)",
+   "completion": "Ah, I see your convictions are strong. Not many will face that council of fiends!$B$BHere's your ring, $N. May your will, and your fortune, stand firm.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8362": {
+   "name": "Abyssal Crests",
+   "progress": "You've proved you can handle yourself in a fight, $N. Let's keep the pressure up on the Twilight's Hammer. Go fight some more Abyssal Templars, I'll reward you with some of the stuff Huum and I have found in battle.$BAbyssal Crest (3)",
+   "completion": "You've done well! That's less Templars for me to worry about.$B$BHere you go, $N. Hope there's something useful in there for you.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8363": {
+   "name": "Abyssal Signets",
+   "progress": "You've shown you're more than capable of taking on an Abyssal Duke, $N. I'm always one to promote good habits. Bring me more signets and I'll give you a reward.$BAbyssal Signet (3)",
+   "completion": "Excellent, $N! Defeating those Dukes will leave the Twilight's Hammer reeling for a while. As promised, here's your reward. It's some of the better stuff Huum and I have found.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8364": {
+   "name": "Abyssal Scepters",
+   "progress": "You've truly exceeded all my expectations, $N. You've been taking on opponents that Huum and I would think long and hard before engaging.$B$BAt this point the best I can do is to continue rewarding your efforts in the fight against the Twilight's Hammer and their overlords.$B$BBring me more abyssal scepters and I'll do my best to give you a suitable reward.$BAbyssal Scepter (3)",
+   "completion": "I knew you'd come through, $N! Here's your reward.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8376": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8377": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8378": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8379": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8380": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8381": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8382": {
+   "name": "Armaments of War",
+   "completion": "War comes, $N, and with it comes untold horrors. You have done all that could be asked of you and for that you should be rewarded.$B$BShould this... this prophecy ever come to pass...$B$BThe future of us all could be at an end.$B$BThese armaments will prove invaluable to your campaign in this desert.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8383": {
+   "name": "Remember Alterac Valley!",
+   "progress": "The Battle in Alterac Valley rages on, $N! Have you done your part as of late, $N?$BAlterac Valley Mark of Honor (3)",
+   "completion": "You continue to honor the Alliance, $N. The Horde will be crushed before long if we keep our efforts up.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8384": {
+   "name": "Claiming Arathi Basin",
+   "progress": "The war against the Horde is quickly depleting our supplies, $N. It is vital to maintain control of Arathi Basin to keep the stream of resources flowing! Have you lent a hand in Arathi yet?$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $C! Your efforts will help to provide the Alliance with the resources it needs.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8385": {
+   "name": "Concerted Efforts",
+   "progress": "Ah, $N. I hope you continue to lend your experience to the different battlefronts. A lot of our lads and lasses in the field look up to seasoned veterans like you.$BAlterac Valley Mark of Honor (3)$BArathi Basin Mark of Honor (3)$BWarsong Gulch Mark of Honor (3)",
+   "completion": "You live up to yer reputation, $N. Without people like you, the Alliance wouldn't stand a chance against the savage forces of the Horde.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8386": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8387": {
+   "name": "Invaders of Alterac Valley",
+   "progress": "The battle for Alterac rages on! You must return to Alterac Valley and once more drive the invaders out of Frostwolf territory, $N!$BAlterac Valley Mark of Honor (3)",
+   "completion": "Good work, $N! You should be proud of yourself. The Alliance invaders must be expelled from Alterac!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8388": {
+   "name": "For Great Honor",
+   "progress": "Many brave fighters look up to you, $N. You continue to be an example for all in the fight against the Alliance. What news do you bring from your journeys?$BAlterac Valley Mark of Honor (3)$BArathi Basin Mark of Honor (3)$BWarsong Gulch Mark of Honor (3)",
+   "completion": "You continue to honor the Horde, $N. I'm glad to see you haven't turned soft.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8389": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8390": {
+   "name": "Conquering Arathi Basin",
+   "progress": "The war against the Alliance scum demands resources, $N! We cannot allow our stockpiles to run dry in the middle of a battle. Continue to ensure Arathi Basin remains in our hands!$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $N! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8391": {
+   "name": "Claiming Arathi Basin",
+   "progress": "The war against the Horde is quickly depleting our supplies, $N. It is vital to maintain control of Arathi Basin to keep the stream of resources flowing! Have you lent a hand in Arathi yet?$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $C! Your efforts will help provide the Alliance with the resources it needs.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8392": {
+   "name": "Claiming Arathi Basin",
+   "progress": "The war against the Horde is quickly depleting our supplies, $N. It is vital to maintain control of Arathi Basin to keep the stream of resources flowing! Have you lent a hand in Arathi yet?$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $C! Your efforts will help provide the Alliance with the resources it needs.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8397": {
+   "name": "Claiming Arathi Basin",
+   "progress": "The war against the Horde is quickly depleting our supplies, $N. It is vital to maintain control of Arathi Basin to keep the stream of resources flowing! Have you lent a hand in Arathi yet?$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $C! Your efforts will help provide the Alliance with the resources it needs.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8398": {
+   "name": "Claiming Arathi Basin",
+   "progress": "The war against the Horde is quickly depleting our supplies, $N. It is vital to maintain control of Arathi Basin to keep the stream of resources flowing! Have you lent a hand in Arathi yet?$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $C! Your efforts will help provide the Alliance with the resources it needs.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8404": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8405": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8406": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8407": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8408": {
+   "name": "Fight for Warsong Gulch",
+   "progress": "Don't forget the fight for Warsong Gulch is about more than just protecting trees. It's about keeping a natural barrier between Ashenvale and the Barrens. Do you bring any news from the battlefield, $N?$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Good work, $N. Thanks to you, our natural defenses in Ashenvale will remain intact for another day.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8431": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8432": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8433": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8434": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8435": {
+   "name": "Battle of Warsong Gulch",
+   "progress": "The battle in Warsong Gulch rages on, $N. Do your part to drive the Silverwing Sentinels out of our lands!$BWarsong Gulch Mark of Honor (3)",
+   "completion": "Well done, $C! You've helped ensure the Horde's ownership over Warsong Gulch!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8440": {
+   "name": "Conquering Arathi Basin",
+   "progress": "The war against the Alliance scum demands resources, $N! We cannot allow our stockpiles to run dry in the middle of a battle. Continue to ensure Arathi Basin remains in our hands!$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $N! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8441": {
+   "name": "Conquering Arathi Basin",
+   "progress": "The war against the Alliance scum demands resources, $N! We cannot allow our stockpiles to run dry in the middle of a battle. Continue to ensure Arathi Basin remains in our hands!$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $N! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8442": {
+   "name": "Conquering Arathi Basin",
+   "progress": "The war against the Alliance scum demands resources, $N! We cannot allow our stockpiles to run dry in the middle of a battle. Continue to ensure Arathi Basin remains in our hands!$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $N! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8443": {
+   "name": "Conquering Arathi Basin",
+   "progress": "The war against the Alliance scum demands resources, $N! We cannot allow our stockpiles to run dry in the middle of a battle. Continue to ensure Arathi Basin remains in our hands!$BArathi Basin Mark of Honor (3)",
+   "completion": "Excellent work, $N! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8466": {
+   "name": "Feathers for Grazle",
+   "progress": "While you have proven yourself to me, you may need to continue to work toward proving yourself to the suspicious brethren of my tribe. To that end, I may be able to continue assisting you.$B$BSome of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.$BDeadwood Headdress Feather (5)",
+   "completion": "Well done, $N! I will make sure that your deeds are known amongst my kind.$B$BRemember to bring any of the feathers you find to me. I will continue to accept them as long as necessary.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8467": {
+   "name": "Feathers for Nafien",
+   "progress": "While you have proven yourself to me, you may need to continue to work toward proving yourself to the suspicious brethren of my tribe. To that end, I may be able to continue assisting you.$B$BSome of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.$BDeadwood Headdress Feather (5)",
+   "completion": "Well done, $N! I will make sure that your deeds are known amongst my kind.$B$BRemember to bring any of the feathers you find to me. I will continue to accept them as long as necessary.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8469": {
+   "name": "Beads for Salfa",
+   "progress": "You've certainly earned my trust, $N, but you may need to continue to earn the trust of my untrusting tribe. There is something you can do to earn that trust.$B$BThe Winterfall are known to carry spirit beads to ward against foul spirits. These beads have clearly failed in their purpose, as the Winterfall themselves are the agents of corruption. Bring to me these spirit beads from fallen Winterfall furbolgs; for every set of five you bring me, you will earn recognition amongst the Timbermaw.$BWinterfall Spirit Beads (5)",
+   "completion": "Once again, you prove your honor to us! I will make sure that your deeds are known amongst my kind.$B$BRemember to bring any of the Winterfall's beads you find to me. For each set you continue to bring to me, I will speak on your behalf to the tribe.",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }

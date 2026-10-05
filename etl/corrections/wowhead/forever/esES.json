@@ -1980,6 +1980,859 @@
    "name": "Un donativo de paño mágico",
    "fetched": "2026-10-04",
    "v": 2
+  },
+  "7823": {
+   "name": "Un donativo de paño rúnico",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7824": {
+   "name": "Un donativo de paño rúnico",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7825": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7826": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos haciendo una colecta de paño de lana. Si nos das 60 piezas de paño de lana, ganarás el reconocimiento de Orgrimmar por tu generosidad. Con 60 piezas por tu parte es suficiente; conseguiremos más por otros medios.$B$BSi tienes las 60 piezas de paño de lana y las quieres donar, puedo cogerlas ahora.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7827": {
+   "name": "Un donativo de seda",
+   "progress": "Estamos muy escasos de seda. Nos ayudaría mucho que donaras 60 piezas de seda; conseguiremos más por otros medios.$B$BAdemás, una donación tan generosa mejorará tu reputación entre nosotros. Si tienes las 60 piezas de seda y quieres donarlas, puedo cogerlas ahora.$BPaño de seda (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7831": {
+   "name": "Un donativo de paño mágico",
+   "progress": "¡Nos estamos quedando sin paño mágico! Si nos donaras 60 piezas de paño mágico, alcanzaríamos el objetivo fijado. Tu generosidad te valdría la admiración de Orgrimmar.$B$BSi tienes las 60 piezas de paño mágico y las quieres donar, puedo cogerlas ahora.$BTela de paño mágico (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7832": {
+   "name": "Un donativo extra de paño rúnico",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7833": {
+   "name": "Un donativo de lana",
+   "progress": "Estamos haciendo una colecta de paño de lana. Si nos das 60 piezas de paño de lana, ganarás el reconocimiento de los trol Lanza Negra por tu generosidad. Con 60 piezas por tu parte es suficiente; conseguiremos más por otros medios.$B$BSi tienes las 60 piezas de paño de lana y las quieres donar, puedo cogerlas ahora.$BPaño de lana (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7834": {
+   "name": "Un donativo de seda",
+   "progress": "Estamos muy escasos de seda. Nos ayudaría mucho que donaras 60 piezas de seda; conseguiremos más por otros medios.$B$BAdemás, una donación tan generosa mejorará tu reputación entre nosotros. Si tienes las 60 piezas de seda y quieres donarlas, puedo cogerlas ahora.$BPaño de seda (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7835": {
+   "name": "Un donativo de paño mágico",
+   "progress": "¡Nos estamos quedando sin paño mágico! Si nos donaras 60 piezas de paño mágico, alcanzaríamos el objetivo fijado. Tu generosidad te valdría la admiración de los trol Lanza Negra.$B$BSi tienes las 60 piezas de paño mágico y las quieres donar, puedo cogerlas ahora.$BTela de paño mágico (60)",
+   "completion": "¡Magnífico! ¡Gracias por tu generosa donación, $N!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7836": {
+   "name": "Un donativo de paño rúnico",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7837": {
+   "name": "Un donativo extra de paño rúnico",
+   "progress": "¡Saludos, $N! Seguimos necesitando paño rúnico; si quieres seguir ayudándonos, te lo agradeceremos. Una donación de 20 piezas te valdrá la admiración y el respeto de los trol Lanza Negra.$B$BPuedes darme el paño rúnico cuando quieras.$BPaño rúnico (20)",
+   "completion": "$N, los trols Lanza Negra estarían perdidos sin valientes como tú. ¡Gracias!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7838": {
+   "name": "El maestro mayor de la arena",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7863": {
+   "name": "Paquete de curación elemental de sentinela",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7864": {
+   "name": "Paquete de curación normal de sentinela",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7865": {
+   "name": "Paquete de curación avanzado de sentinela",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7866": {
+   "name": "Paquete de curación elemental de escolta",
+   "completion": "Sin duda nos has demostrado lo que vales, $N. Como recompensa, acepta este paquete de curación. En el interior encontrarás raciones y vendas que te serán útiles solo en la Garganta Grito de Guerra.$B$BConforme sigues demostrando tu valor en la Garganta, podrás adquirir estos artículos. Las raciones estarán disponible cuando seas amistoso para con nosotros y las vendas cuando seas honrado.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7867": {
+   "name": "Paquete de curación normal de escolta",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7868": {
+   "name": "Paquete de curación avanzado de escolta",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7881": {
+   "name": "Las botas de los feriantes",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7882": {
+   "name": "Los chalecos de los feriantes",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7883": {
+   "name": "¡El gnomo más grande del mundo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7884": {
+   "name": "El chico crocolisco y el múrloc barbudo",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7885": {
+   "name": "Complemento para armadura",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7886": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7887": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7888": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7889": {
+   "name": "Piedrafuerte",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7890": {
+   "name": "Muela pesada",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7891": {
+   "name": "Brazales de hierro verde",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7892": {
+   "name": "Gran maza negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7893": {
+   "name": "Ritual de fuerza",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7894": {
+   "name": "Modulatores de cobre",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7895": {
+   "name": "Cacharro zumbón de bronce",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7896": {
+   "name": "Fuegos artificiales verdes",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7897": {
+   "name": "Juegos de herramientas mecánicas de reparación",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7898": {
+   "name": "Trastos wow de torio",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7899": {
+   "name": "Patitas peludas",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7900": {
+   "name": "Pieles de oso",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7901": {
+   "name": "Colas peludas blandas",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7902": {
+   "name": "Plumas vibrantes",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7903": {
+   "name": "Ojos de murciélago vil",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7921": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7922": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7923": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7924": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7925": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7930": {
+   "name": "5 vales: flor de la Luna Negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7931": {
+   "name": "5 vales: Lote de la Luna Negra inferior",
+   "progress": "¡Acércate, acércate! Si tienes vales de la Feria de la Luna Negra que quieres canjear, ¡solo tienes que decirlo! Puedes canjear vales de diferente valor por premios fantásticos y maravillosos. ¡Venga, no seas tímido, anímate!$BObjeto #19182 (5)",
+   "completion": "¡Aquí tienes, aquí tienes! ¡Un premio digno de un rey! ¡Enhorabuena, amigo!$B$BSi tienes más vales que quieras canjear, ¡házmelo saber! Mientras la Feria de la Luna Negra esté aquí, canjearé todos tus vales.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7932": {
+   "name": "12 vales: lote inferior de la Luna Negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7933": {
+   "name": "40 vales: lote superior de Luna Negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7934": {
+   "name": "50 vales: caja de almacenamiento de la Luna Negra",
+   "progress": "¡Acércate, acércate! Si tienes vales de la Feria de la Luna Negra que quieres canjear, ¡solo tienes que decirlo! Puedes canjear vales de diferente valor por premios fantásticos y maravillosos. ¡Venga, no seas tímida, anímate!$BObjeto #19182 (50)",
+   "completion": "¡Aquí tienes, aquí tienes! ¡Un premio digno de una reina! ¡Enhorabuena, amiga!$B$BSi tienes más vales que quieras canjear, ¡házmelo saber! Mientras la Feria de la Luna Negra esté aquí, canjearé todos tus vales.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7935": {
+   "name": "10 vales: oveja del mes pasado",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7936": {
+   "name": "50 vales: oveja del año pasado",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7939": {
+   "name": "Más muelas densas",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7940": {
+   "name": "1200 vales: orbe de la Luna Negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7941": {
+   "name": "Más complemento para armadura",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7942": {
+   "name": "Más trastos wow de torio",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7943": {
+   "name": "Más ojos de murciélago vil",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7946": {
+   "name": "Huevo de Jubjub",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "7981": {
+   "name": "1200 vales: amuleto de la Luna Negra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8041": {
+   "name": "La fuerza del Monte Mugamba",
+   "completion": "Saludos, $C. Soy Jin'rokh el Cercenador, trol de Mugamba. Nosotros, la tribu Zandalar, agradecemos todos tus esfuerzos. Saludamos tu tenacidad y fuerza de voluntad.$B$BLleva al cuello este talismán, $C. Deja que la fuerza del Monte Mugamba fluya por todo tu ser. ¡Que tu poder crezca cuando ataques a tus enemigos!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8042": {
+   "name": "La fuerza del Monte Mugamba",
+   "progress": "Me alegra ver que tu salud es buena, $N. Las gloriosas batallas que has emprendido afectan a toda forma de vida de este planeta. Hakkar nunca debe abandonar los confines de Zul'Gurub o el mundo correría el peligro de hundirse ante su inmensa hambre.$B$BDame tu talismán y amplificaré su fuerza. ¡Utiliza la Fuerza de Mugamba para castigar a tus enemigos!$BFuerza de Mugamba (1)",
+   "completion": "Nuestros caminos se encuentran de nuevo, $C.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8043": {
+   "name": "La fuerza del Monte Mugamba",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8044": {
+   "name": "La Ira de Mugamba",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8045": {
+   "name": "La Enseña del pagano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8046": {
+   "name": "La Enseña del pagano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8047": {
+   "name": "La Enseña del pagano.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8048": {
+   "name": "La Enseña del héroe",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8049": {
+   "name": "El ojo de Zuldazar",
+   "completion": "Acepta este talismán como muestra de nuestro aprecio, $C.$B$BEl ojo de Zuldazar aumentará su poder cuando se fortalezca tu vínculo con los trols de Zandalar. Vuelve a verme periódicamente e imbuiré la joya.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8050": {
+   "name": "El ojo de Zuldazar",
+   "progress": "Bienvenido $C. El ojo de Zuldazar palpita enérgicamente. Estás preparado para dar el siguiente paso. Entrégame el talismán y lo imbuiré.$BEl Ojo de Zuldazar (1)",
+   "completion": "Sigue adelante con tu batalla contra el Cazador de Almas y sus esbirros, $N. Nunca hay que permitir que abandone los confines de Zul'Gurub.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8051": {
+   "name": "El ojo de Zuldazar",
+   "progress": "El viento arrastra los rumores de tus combates contra los Gurubashi, $C. Incluso la realeza comienza a hablar de tus hazañas. Se rumorea que el propio rey Rastakhan mencionó tu nombre en una ocasión.$B$BHa llegado el momento de imbuir el Ojo. Entrégame el talismán y lo haré por ti.$BEl Ojo de Zuldazar (1)",
+   "completion": "Muestra resolución en tus empresas, $N. El Cazador de Almas intentará devorar tu deseo de vivir.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8052": {
+   "name": "El ojo de Zuldazar que todo lo ve",
+   "progress": "Si tan solo tuviéramos diez mil más como tú, $N, los ejércitos de Hakkar se esparcirían por el viento ante la mirada de un ojo.$B$BAy... el Ojo está listo para alcanzar su máximo potencial. Dámelo.$BEl Ojo de Zuldazar (1)",
+   "completion": "Golpéales y que Hakkar intente ayudarles...",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8081": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8101": {
+   "name": "El guijarro de Kajaro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8102": {
+   "name": "El guijarro de Kajaro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8103": {
+   "name": "El guijarro de Kajaro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8104": {
+   "name": "La Joya de Kajaro",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8106": {
+   "name": "Ocaso de Kezan",
+   "completion": "Acepta este talismán, $C. Acéptalo y utiliza su poder para derrotar a nuestros enemigos mutuos.$B$BNo olvides que colgado al cuello llevas un pedazo de historia. Kezan fue un día un gran territorio del Imperio Zandalar. Pero los comerciantes goblins plagaron el país, sumiéndolo en el ocaso y expulsando a mis hermanos y hermanas.$B$BKezan alberga hoy en día a la capital goblin de Villabajo, pero antes de su ocaso no tenía sino grandeza. Aún hoy en día mi pueblo considera a Kezan como tierra sagrada.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8107": {
+   "name": "Ocaso de Kezan",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8108": {
+   "name": "Ocaso de Kezan",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8109": {
+   "name": "Ocaso imparable de Kezan",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8110": {
+   "name": "Kelp de los Mares del Sur encantado",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8111": {
+   "name": "Kelp de los Mares del Sur encantado",
+   "progress": "¡Eh, colega! Me alegro de volver a verte. La tribu no para de hablar de tu matanza de los Hakkari y de todo eso. Molthor me dijo que añadiera más mojo a tu talismán. Dámelo y Maywiki lo hará mejor.$BKelp de los Mares del Sur encantado (1)",
+   "completion": "¡El colgante no ser para fumar, colega! Tienes que usarlo para combatir el mal.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8112": {
+   "name": "Kelp de los Mares del Sur encantado",
+   "progress": "¿Cómo ser el talismán, colega? Parece que haber que añadir más magia y mojo a sus hojas y necesita florecer un poco... se está marchitando. Dámelo y Maywiki lo arreglará.$BKelp de los Mares del Sur encantado (1)",
+   "completion": "¡Ahora coge a los trols malvados de Zul'Gurub y enséñales lo que pueden hacer tus poderes naturales, colega!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8113": {
+   "name": "Alga encantada de los Mares del Sur prístina",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8116": {
+   "name": "Visión de Voodress",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8117": {
+   "name": "Visión de Voodress",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8118": {
+   "name": "Visión de Voodress",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8119": {
+   "name": "Visión inmaculada de Voodress",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8124": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8141": {
+   "name": "Talismán de las Sombras Zandalar",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8142": {
+   "name": "Talismán de las Sombras Zandalar",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8143": {
+   "name": "Talismán de la Sombras Zandalar",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8144": {
+   "name": "Talismán de dominio de las sombras de Zandalarian",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8145": {
+   "name": "Zarcillo de Maelstrom",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8146": {
+   "name": "Zarcillo de Maelstrom",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8147": {
+   "name": "Zarcillo de Maelstrom",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8148": {
+   "name": "Ira de Maelstrom",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8157": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8158": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8159": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8163": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8164": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8165": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8193": {
+   "name": "Maestro pescador",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8194": {
+   "name": "Aprendiz pescador",
+   "progress": "Aunque ya tenemos un ganador del concurso, aún quiero comprarte el pezrico a un precio razonable. ¿Qué dices?$BPezrico moteado (5)",
+   "completion": "¡A mí me viene bien, si a ti te viene bien!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8196": {
+   "name": "Mangos de esencia",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8221": {
+   "name": "Pez raro: pez ángel de Keefer",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8222": {
+   "name": "Sangre brillante de escórpido",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8223": {
+   "name": "Más sangre brillante de escórpido",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8224": {
+   "name": "Pez raro: pez reina de Dezian",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8225": {
+   "name": "Pez raro: azulín a rayas de Brownell",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8228": {
+   "name": "¿Puedo tener un folleto de pesca?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8229": {
+   "name": "¿Puedo tener un folleto de pesca?",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8241": {
+   "name": "Fabricar fluido ardiente con hierro",
+   "progress": "Mi tiempo es demasiado valioso para perderlo con charlas, $R. Quiero fabricar más flujo ígneo.$B$BPara eso, necesito que me traigas lo siguiente:$B$B*Escamas de incendosaurio.$B$B*Barras de hierro.$B$B*Carbón.$B$B¡Tráeme tanto como puedas!$B$BY tan rápido como puedas, si es que quieres ganarte el favor de la Hermandad.$BEscama de incendosaurio (2)$BLingote de hierro (4)$BCarbón (1)",
+   "completion": "Siempre hay sitio para el flujo ígneo. Tú sigue trayendo hasta que yo te diga.|n",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8242": {
+   "name": "Fabricar fluido ardiente con cuero pesado",
+   "progress": "Mi tiempo es demasiado valioso para perderlo con charlas, $R. Quiero fabricar más flujo ígneo.$B$BPara eso, necesito que me traigas lo siguiente:$B$B*Escamas de incendosaurio.$B$B*Cuero pesado.$B$B*Carbón.$B$B¡Tráeme tanto como puedas!$B$BY tan rápido como puedas, si es que quieres ganarte el favor de la Hermandad.|n$BEscama de incendosaurio (2)$BCuero pesado (10)$BCarbón (1)",
+   "completion": "Siempre hay sitio para el flujo ígneo. Tú sigue trayendo hasta que yo te diga.|n",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8243": {
+   "name": "Los mejunjes potentes de Zanza",
+   "progress": "Gracias a tu estatus entre los de la tribu puedes acceder a algunos de nuestros mejunjes potentes. Mira... estos brebajes reciben su fuerza del mojo, están bendecidos por Zanza y se preparan para los aventureros de todo tipo y procedencia.$B$BTe permitiré elegir uno de los tres tipos de bebida que preparo pero a cambio necesito tres muestras de honor Zandalar. Ten en cuenta que solo pueden fluir por tu espíritu los efectos de un solo brebaje al mismo tiempo.$B$B¡Avísame cuando estés listo para el trueque!$BMuestra de honor Zandalar (1)$BTribu Zandalar (Reverenciado)",
+   "completion": "Un buen trato, amigo mío, por favor, ¡disfruta de la bendición de Zanza y de un cordial saludo!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8246": {
+   "name": "Las sortijas de Zandalar",
+   "progress": "$N, tengo algo muy especial para un exaltado como tú entre los Zandalar. Venido directamente desde nuestro hogar en los Mares del Sur... ¡las sortijas de Zandalar! Estas sortijas se utilizan para mejorar cualquier hombrera. Si deseas fuerza, mojo o serenidad, ¡tengo lo que necesitas!$B$BA cambio de una sortija a tu elección solo te pido 15 muestras de honor Zandalar. Si ya tienes las muestras, ¡podemos pasar al trato!$BMuestra de honor Zandalar (15)$BTribu Zandalar (Exaltado)",
+   "completion": "Un buen trato, amigo mío, por favor, acepta sortija y la bendición de la tribu.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8249": {
+   "name": "Se necesitan cajas de trastos",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8260": {
+   "name": "Paquete de curación elemental de Arathor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8261": {
+   "name": "Paquete de curación normal de Arathor",
+   "completion": "Sin duda nos has demostrado lo que vales, $N. Como recompensa, acepta este paquete de curación. En el interior encontrarás raciones y vendas que te serán útiles solo en la Cuenca de Arathi.$B$BConforme sigues demostrando tu valor en la Cuenca, podrás adquirir estos artículos. Las raciones estarán disponible cuando seas amistoso para con nosotros y las vendas cuando seas honrado.$BLiga de Arathor (Amistoso)",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8262": {
+   "name": "Paquete de curación avanzado de Arathor",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8263": {
+   "name": "Paquete de curación elemental de los Rapiñadores",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8264": {
+   "name": "Paquete de curación normal de los Rapiñadores",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8265": {
+   "name": "Paquete de curación avanzado de los Rapiñadores",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8267": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8269": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8271": {
+   "name": "Héroe de Pico Tormenta",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8272": {
+   "name": "Héroe de Lobo Gélido",
+   "completion": "¿Qué se siente, $N? ¿Qué se siente al aplastar a los enemigos y ver cómo sus líneas se diseminan? Sienta bien, ¿eh?$B$BSe te recompensará por este acto heroico, soldado.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8273": {
+   "name": "La gratitud Oran",
+   "completion": "¿No te parece interesante? ¿Y dices que encontraste esta tablilla en una pequeña isla desierta en Los Acantilados Dominantes de las Tierras del Interior, $C? En verdad resulta interesante.$B$BTe agradezco tus esfuerzos. Nuestra Dama Oscura se alegrará mucho con este hallazgo. Aquí tienes una recompensa a la altura.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8289": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8290": {
+   "name": "Expulsa al invasor",
+   "objectivesText": [
+    "Entra en la Garganta Grito de Guerra y derrota a la Horda, obtén una marca de honor de Grito de Guerra y vuelve con la centinela Cantolongo en el Claro Ala de la Plata."
+   ],
+   "details": "Pasado este túnel encontrarás un campo de contiendas y desorden, joven $C. La Horda sigue diezmando nuestro sagrado bosque, talando el perenne follaje para alimentar a sus máquinas de guerra.$B$BEntra en la Garganta Grito de Guerra y defiende el Bastión Ala de Plata. ¡Haz retroceder a las fuerzas invasoras de la Horda!$B$BHazlo y obtendrás un talismán de mérito. Tráeme uno de esos talismanes, $N, y serás <recompensado/recompensada>.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8292": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8293": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8295": {
+   "name": "Acaba con los usurpadores Ala de Plata",
+   "objectivesText": [
+    "Entra en la Garganta Grito de Guerra y derrota a la Alianza, obtén una marca de honor de Grito de Guerra y llévasela al capitán Trizacráneo en el Campamento de Mor'shan."
+   ],
+   "details": "Las tierras del Bosque de Vallefresno sucumbirán al poder de la Horda, $R. Nada de lo que haga o diga el Ala de Plata podrá detener nuestro mando soberano. Kalimdor pertenece a la Horda. ¡Con qué osadía intentan evitar que cosechemos lo que nos pertenece por derecho!$B$BDeja que el orgullo hinche tu pecho cuando reduzcas sus débiles intentos por frenar nuestro avance. Destruye a las centinelas Ala de Plata y obtén una marca de honor de Grito de Guerra. Vuelve a verme cuando tengas una de esas marcas, $N, y serás <recompensado/recompensada>.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8296": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8298": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8300": {
+   "notFound": true,
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8316": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8319": {
+   "name": "Textos Crepusculares encriptados",
+   "progress": "Sigue trayéndome textos. Pronto podremos expulsar al Martillo Crepuscular de Silithus.$BTexto crepuscular codificado (10)",
+   "completion": "¡Excelente trabajo! Hablaré bien de ti.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8324": {
+   "name": "Seguir creyendo",
+   "progress": "¿Has encontrado más textos encriptados? Tráeme todos los que puedas, este trabajo de descodificación lleva su tiempo.$BTexto crepuscular codificado (10)",
+   "completion": "¡Excelente! Me muero por leerlos. Por favor, sigue trayéndome textos encriptados si los encuentras.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8333": {
+   "name": "Medallón de estatus",
+   "progress": "Si necesitas otro medallón de estatus de fiel Crepuscular, te lo haré sin problemas. Pero necesitaré otro fragmento brillante y algunos emblemas Abisales...$BFragmento luminoso grande (1)$BEmblema abisal (3)",
+   "completion": "Aquí estás, $N. Un medallón de estatus Crepuscular. Utilízalo bien. ¡Te deseo mucha suerte con el Consejo Abisal!",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8342": {
+   "name": "Anillo de nobleza Crepuscular",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8362": {
+   "name": "Emblemas Abisales",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8363": {
+   "name": "Sellos Abisales",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8364": {
+   "name": "Cetros Abisales",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8376": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8377": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8378": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8379": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8380": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8381": {
+   "name": "Armamentos de guerra",
+   "completion": "La guerra trae consigo horrores inimaginables, $N. Has hecho cuanto has podido y recibirás una recompensa.$B$BSi la profecía se cumple...$B$BPodría ser el fin.$B$BEste armamento te será indispensable en tu campaña del desierto.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8382": {
+   "name": "Armamentos de guerra",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8466": {
+   "name": "Plumas para Grazle",
+   "progress": "Aunque a mí ya me has probado tu valía, tendrás que seguir trabajando si quieres ganarte a los recelosos miembros de mi tribu. Quizás yo pueda ayudarte a conseguirlo.$B$BReduce el número de los furbolgs Muertobosque y recoge el penacho que llevan algunos. Te servirá como prueba de tu hazaña. Tráeme una pluma de cualquiera de los penachos que consigas; por cada grupo de 5 que me traigas, ganarás reconocimiento entre los Fauces de Madera.$BPluma de penacho Muertobosque (5)",
+   "completion": "¡Bien hecho, $N! Me aseguraré de que tus hazañas lleguen a oídos de toda mi tribu.$B$BAcuérdate de traerme cualquiera de las plumas que encuentres. Yo seguiré aceptándolas mientras sea necesario.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8467": {
+   "name": "Plumas para Nafien",
+   "progress": "Aunque a mí ya me has probado tu valía, tendrás que seguir trabajando si quieres ganarte a los recelosos miembros de mi tribu. Quizás yo pueda ayudarte a conseguirlo.$B$BReduce el número de los furbolgs Muertobosque y recoge el penacho que llevan algunos. Te servirá como prueba de tu hazaña. Tráeme una pluma de cualquiera de los penachos que consigas; por cada grupo de 5 que me traigas, ganarás reconocimiento entre los Fauces de Madera.$BPluma de penacho Muertobosque (5)",
+   "completion": "¡Bien hecho, $N! Me aseguraré de que tus hazañas lleguen a oídos de toda mi tribu.$B$BAcuérdate de traerme cualquiera de las plumas que encuentres. Yo seguiré aceptándolas mientras sea necesario.",
+   "fetched": "2026-10-05",
+   "v": 2
+  },
+  "8469": {
+   "name": "Cuentas para Salfa",
+   "progress": "Has sabido ganarte mi confianza, $N, pero aún tendrás que ganarte la confianza de mi tribu. Hay algo que puedes hacer para conseguirlo.$B$BSe sabe que los Nevada llevan consigo cuentas de espíritus para protegerse contra los espíritus infectos. Esas cuentas no han cumplido sus propósitos ya que los propios Nevada se han convertido en agentes de corrupción. Tráeme las cuentas de espíritu de los furbolgs Nevada caídos, por cada cinco que me traigas aumentará tu reconocimiento entre los Fauces de Madera.$BCuentas de Espíritu Nevada (5)",
+   "completion": "¡Nos has probado una vez más tu honor! Me aseguraré de que los míos conozcan todas tus hazañas.$B$BRecuerda traerme todas las cuentas de los Nevada que encuentres. Por cada juego que me traigas hablaré de ti a la tribu.",
+   "fetched": "2026-10-05",
+   "v": 2
   }
  }
 }
