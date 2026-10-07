@@ -3922,6 +3922,666 @@
    "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Eroberers abkommen!",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8755": {
+   "name": "Der Pfad des Eroberers",
+   "progress": "Eine derartige Hingabe für eine gerechte Sache ist selten. Ihr habt die Umbeugsamkeit Eures Willens bewiesen, $N! Dafür, dass Euer wacher Geist und Euer scharfer Verstand über diese Welt wacht, sollt Ihr reichhaltig belohnt werden.$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Eroberers abkommen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8756": {
+   "name": "Der Eroberer der Qiraji",
+   "progress": "Selten habe ich solch eine Hingabe, solch ein Durchhaltevermögen gesehen! Der bronzene Drachenschwarm gewährt Euch die mächtigste Verzauberung. Der Zeitlose selbst, hat es befohlen!$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Erhebt Euch, Eroberer der Qiraji! Zeigt Euch und lasst Euch huldigen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8757": {
+   "name": "Der Pfad des Herbeirufers",
+   "completion": "Beeindruckend, kleine Kreatur. Ihr habt eine Menge durchgemacht, um das Vertrauen des bronzenen Drachenschwarms zu erwerben. Eure Hingabe und Selbstaufopferung wurde zur Kenntnis genommen.$B$BDer Siegelring des Herbeirufers birgt enorme Kräfte in sich, die Euch gegen die Mächte des Bösen helfen werden. Seine Macht wird Eure magischen und natürlichen Fähigkeiten um ein Vielfaches verstärken.$B$BAber seid gewarnt! Habt Ihr erst einmal Euren Pfad gewählt, gibt es kein Zurück mehr.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8758": {
+   "name": "Der Pfad des Herbeirufers",
+   "progress": "Eure selbstlosen Bemühungen, die Kinder Kalimdors zu verteidigen, wurden zur Kenntnis genommen. Übergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Herbeirufers abkommen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8759": {
+   "name": "Der Pfad des Herbeirufers",
+   "progress": "Ihr ehrt meinesgleichen, $N! Vernichtet die Feinde Kalimdors! Zeigt ihnen, was es heißt, das Land des ewigen Sternenlichts anzugreifen.$B$BIhr habt Euch eine weitere Verstärkung des Rings verdient. Übergebt mir Euren Siegelring, damit ich seine Kräfte erweitern kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Herbeirufers abkommen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8760": {
+   "name": "Der Pfad des Herbeirufers",
+   "progress": "Eine derartige Hingabe für eine gerechte Sache ist selten. Ihr habt die Umbeugsamkeit Eures Willens bewiesen, $N! Dafür, dass Euer wacher Geist und Euer scharfer Verstand über diese Welt wacht, sollt Ihr reichhaltig belohnt werden.$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Euer Aufstieg innerhalb der Brut ist mehr als beachtlich, $N. Möget Ihr niemals vom Pfad des Herbeirufers abkommen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8761": {
+   "name": "Der große Herbeirufer",
+   "progress": "Selten habe ich solch eine Hingabe, solch ein Durchhaltevermögen gesehen! Der bronzene Drachenschwarm gewährt Euch die mächtigste Verzauberung. Der Zeitlose selbst, hat es befohlen!$B$BÜbergebt mir Euren Siegelring, damit ich seine Kräfte verstärken kann.$BSiegelring des bronzenen Drachenschwarms (1)",
+   "completion": "Erhebt Euch, großer Herbeirufer! Zeigt Euch und lasst Euch huldigen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8764": {
+   "name": "Den Pfad wechseln - Kein Beschützer mehr",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8765": {
+   "name": "Den Pfad wechseln - Kein Herbeirufer mehr",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8766": {
+   "name": "Den Pfad wechseln - Kein Eroberer mehr",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8767": {
+   "name": "Ein leicht geschütteltes Geschenk",
+   "completion": "Dieses Geschenk sieht aus, als wäre es schon ein paar Mal geschüttelt worden. Auf dem Kärtchen steht:B$BFür $N, einen ganz besonderen Helden.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8768": {
+   "name": "Ein fröhlich verpacktes Geschenk",
+   "completion": "Auf diesem festlich verpackten Geschenk steht Euer Name!$B$BHat sich das etwa gerade bewegt?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8769": {
+   "name": "Ein tickendes Geschenk",
+   "completion": "Ein wundervolles Winterhauchfest wünschen Euch Eure Freunde bei Kokelwälder.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8788": {
+   "name": "Ein leicht geschütteltes Geschenk",
+   "completion": "Dieses Geschenk sieht aus, als wäre es schon ein paar Mal geschüttelt worden. Auf dem Kärtchen steht:$B$BFür $N, einen ganz besonderen Helden.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8798": {
+   "name": "Euer eigener Yeti",
+   "completion": "Hey! Wisst Ihr was?! Ihr seid auch Ingenieur! So, da Ihr mir dabei geholfen habt meinen Freunden eine Lektion zu erteilen, werde ich Euch jetzt lehren, wie Ihr Euren eigenen mechanischen Yeti herstellt! Jetzt kann der Spaß für immer weitergehen und Ihr könnt wem immer Ihr wollt einen Schrecken einjagen! Vorausgesetzt Ihr treibt die benötigten Teile dafür auf.$B$BNa, was sagt Ihr, $N? Wollt Ihr, dass ich Euch in das Geheimnis der Herstellung eines mechanischen Yetis einweihe?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8803": {
+   "name": "Ein Festtagsgeschenk",
+   "completion": "Auf dem Schildchen des Geschenks steht:$B$BFür $N,$B$BIch hoffe, dieses Geschenk wird Euch dabei helfen, einen Hauch von Gemütlichkeit und Festtagsfreude in ganz Azeroth zu verbreiten.$B$BAltvater Winter",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8811": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Darnassus ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Darnassus würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8812": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf bei den Gnomereganverbannten ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf bei den Gnomereganverbannten würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8813": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Ironforge ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Ironforge würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8814": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Stormwind ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Stormwind würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8815": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Orgrimmar ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Orgrimmar würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Horde (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8816": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf beim Darkspearstamm ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf beim Darkspearstamm würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Horde (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8817": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Undercity ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Undercity würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Horde (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8818": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Thunder Bluff ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Thunder Bluff würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Horde (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8819": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Darnassus sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Darnassus nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8820": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf bei den Gnomereganverbannten sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf bei den Gnomereganverbannten nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8821": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Ironforge sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Ironforge nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8822": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Stormwind sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Stormwind nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8823": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Orgrimmar sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Orgrimmar nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8824": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf beim Darkspearstamm sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf beim Darkspearstamm nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8825": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Thunder Bluff sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Thunder Bluff nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8826": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Undercity sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Undercity nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8830": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Darnassus ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Darnassus würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8831": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Darnassus sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Darnassus nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8832": {
+   "name": "Ein Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8833": {
+   "name": "Zehn Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8834": {
+   "name": "Ein Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8835": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Ironforge sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Ironforge nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8836": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Stormwind ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Stormwind würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8837": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Stormwind sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Stormwind nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8838": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf bei den Gnomereganverbannten ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf bei den Gnomereganverbannten würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Allianz (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8839": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf bei den Gnomereganverbannten sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf bei den Gnomereganverbannten nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Allianz (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8840": {
+   "name": "Ein Belobigungsabzeichen",
+   "progress": "Alle Abenteurer, die Belobigungsabzeichen besitzen, können diese bei mir abgeben, um Ihren Ruf in Orgrimmar ein wenig zu verbessern.$B$BDoch überlegt es Euch gut! Wenn Ihr mir stattdessen zehn Abzeichen auf einmal übergebt, würdet Ihr dadurch wesentlich mehr Anerkennung erhalten und Euer Ruf in Orgrimmar würde sich stark verbessern.$B$BGenug geredet! Wollt Ihr nun Abzeichen eintauschen oder nicht?$BBelobigungsabzeichen der Horde (1)",
+   "completion": "Sehr gut! Eure glorreichen Taten wurden verzeichnet und Ihr habt Eure verdiente Anerkennung erhalten. Macht so weiter, $C!$B$BIch stehe Euch auch in Zukunft zur Verfügung, falls Ihr weitere Abzeichen abgeben möchtet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8841": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf in Orgrimmar sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf in Orgrimmar nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8842": {
+   "name": "Ein Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8843": {
+   "name": "Zehn Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8844": {
+   "name": "Ein Belobigungsabzeichen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8845": {
+   "name": "Zehn Belobigungsabzeichen",
+   "progress": "Ich nehme Belobigungsabzeichen entgegen, die sich tapfere Abenteurer im Laufe Ihrer Pflichterfüllung verdient haben. Für je zehn Abzeichen sorge ich dafür, dass ein jeder von Euren Taten erfährt und sich Euer Ruf beim Darkspearstamm sehr stark verbessert. Zwar nehme ich auch einzelne Belobigungsabzeichen entgegen, doch würde das Euren Ruf beim Darkspearstamm nur geringfügig verbessern.$B$BGenug geredet! Es wäre mir nun eine Freude, Eure Abzeichen entgegenzunehmen.$BBelobigungsabzeichen der Horde (10)",
+   "completion": "Hervorragend! Ihr musstet so einiges auf Euch nehmen, um diese Abzeichen zu erhalten. Von jetzt an wird man Euch eine Menge Respekt entgegen bringen! Wie es sich für Eure großartige Pflichterfüllung und Hingabe gehört! Es sind Abenteurer von Eurem Kaliber, $N, die etwas in der Welt bewirken!$B$BLasst es mich wissen, wenn Ihr noch weitere Abzeichen zur Hand habt. Ich werde sie gerne entgegennehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8846": {
+   "name": "Fünf Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Allianz (5)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8847": {
+   "name": "Zehn Abzeichen gegen Kriegsmaterial tauschen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8848": {
+   "name": "Fünfzehn Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Allianz (15)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8849": {
+   "name": "Zwanzig Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Allianz (20)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8850": {
+   "name": "Dreißig Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Allianz (30)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8851": {
+   "name": "Fünf Abzeichen gegen Kriegsmaterial tauschen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8852": {
+   "name": "Zehn Abzeichen gegen Kriegsmaterial tauschen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8853": {
+   "name": "Fünfzehn Abzeichen gegen Kriegsmaterial tauschen",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8854": {
+   "name": "Zwanzig Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Horde (20)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8855": {
+   "name": "Dreißig Abzeichen gegen Kriegsmaterial tauschen",
+   "progress": "Ah, sicherlich seid Ihr gekommen, um zusätzliches Kriegsmaterial für Euch anzufordern. Nun, ich kann das sehr gut nachvollziehen, im Krieg mangelt es ständig an allem… Ihr braucht Euch bloß hier umzusehen, dann wißt Ihr was ich meine!$B$BIch bin bevollmächtigt zusätzliches Kriegsmaterial an Euch auszugeben, allerdings müsst Ihr mir dafür eine entsprechende Anzahl Belobigungsabzeichen überlassen. Durch diesen Tausch wird zwar Euer Ruf nicht weiter verbessert werden, doch möglicherweise findet Ihr etwas brauchbares für die Schlacht und rettet so vielleicht Euer Leben.$BBelobigungsabzeichen der Horde (30)",
+   "completion": "Nun, dann sind wir uns ja einig. Hier sind die von Euch angeforderten Kriegsmaterialien, $C. Wenn Ihr wieder einmal etwas brauchen solltet, kommt direkt zu mir. Ich werde Eure Anforderung dann schnellstmöglich bearbeiten.$B$BLeistet weiter so gute Arbeit, $N! Wir können jeden Mann und jede Frau gebrauchen, um diesen Krieg zu gewinnen. Wenn alle ihre Pflicht so gewissenhaft erfüllen, sollten wir aus dieser Schlacht als Sieger hervorgehen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8856": {
+   "name": "Wüstenüberlebenspaket",
+   "objectivesText": [
+    "Bringt 4 Kugeln des Wassers, 4 mächtige Gegengifte und 4 gebackene Lachse zu Calandrath in der Taverne von Burg Cenarius in Silithus."
+   ],
+   "details": "Seitdem ständig neue Rekruten auf Burg Cenarius eintreffen, stehen wir vor dem Problem, sie in der Wüste am Leben zu erhalten. Der ständige Wasserentzug und die zahlreichen giftigen Kreaturen in dieser Gegend sind eine ernstzunehmende Gefahr für die unerfahren Soldaten. Sammelt alles, was notwendig ist, um ein Wüstenüberlebenspaket zusammenzustellen und bringt die erforderlichen Vorräte zu Calandrath auf Burg Cenarius.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8862": {
+   "name": "Elunes Kerze",
+   "progress": "Elunes Kerze ist für die Anhänger des Mondfests ein Artefakt der großen Verehrung. Die Kerze beinhaltet wahres Mondlicht, bereit zur Freigabe!$B$BDieses Licht ist für die meisten Kreaturen harmlos, aber Ihr werdet sehen, dass Omen und seine Diener davon Verbrennungen erleiden und geblendet werden.$BMünze der Urahnen (5)",
+   "completion": "Nun gut - ich akzeptiere diese Münzen der Urahnen. Bitte nehmt Elunes Kerze mit meinen besten Wünschen. Erfreut Euch auch an diesem zusätzlichen Feuerwerk.$B$BMöge Euer Mondfest freudig und voller Heiterkeit sein, $N.$B$BMöchtet Ihr Euch Omen und seinen Dienern wirklich stellen, so werdet Ihr Elunes Kerze recht nützlich finden...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8863": {
+   "name": "Festtagsklöße",
+   "progress": "Wenn Ihr hungrig seid, dann solltet ihr zu der richtigen Adresse kommen!$B$BKlöße sind das traditionelle Gericht des Mondfests; man serviert es bereits seit den Zeiten des ersten Mondfests und ich bin stolz, dass ich diese Köstlichkeit während der diesjährigen Feierlichkeiten anbieten kann. Im Austausch gegen eine einzige Münze der Urahnen werde ich Euch von einer Probe dieses unvergleichlich genüsslichen Gerichts kosten lassen!$BMünze der Urahnen (1)",
+   "completion": "Ausgezeichnet - bitte genießt diese Klöße mit meinen besten Wünschen. Auch wenn sie nur ein kleines Zeichen der Anerkennung für Eure Ehre sind, die Ihr Euch mittels Eurer Taten verdient habt, so denke ich doch, dass Ihr sie alle gleichermaßen genießen werdet.$B$BSolltet Ihr noch mehr Münzen der Urahnen besitzen, so bin ich gewillt Euch ein reiches Angebot an Gegenständen im Austausch dafür anzubieten.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8864": {
+   "name": "Festtagskleider des Mondfests",
+   "progress": "Ich habe eine Auswahl an Kleidern, die Euch interessieren könnte. Derartige Gewänder wurden in vergangenen Zeiten während des Mondfests getragen. Die Auswahl, die ich heute zu bieten habe, ist vielleicht die beste, die ich jemals gesehen habe. Jedes Stück ist aus den feinsten und geschmeidigsten Materialien handgefertigt worden.$B$BIch lasse Euch im Tausch gegen ein paar Münzen der Urahnen unter den drei Kleidungsstilen einen für Euch selbst auswählen. Ist das annehmbar für Euch?$BMünze der Urahnen (5)",
+   "completion": "Nun gut - ich akzeptiere diese Münzen der Urahnen. Bitte nehmt dieses Kleid mit meinen besten Wünschen. Erfreut Euch auch an diesem zusätzlichen Feuerwerk.$B$BDa Ihr unsere Urahnen geehrt habt, ehrt Ihr mich mit Eurer bloßen Anwesenheit. Ich danke Euch, möge Euer Mondfest freudig sein.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8865": {
+   "name": "Festliche Hosenanzüge des Mondfests",
+   "progress": "Ich freue mich Euch mitteilen zu können, dass ich über eine feine Auswahl an festlichen Hosenanzügen verfüge, die ich Euch anbieten kann... aber nur im Tausch gegen Münzen der Urahnen. Wenn Ihr Wert auf Eure Erscheinung legt, dann ist dies genau das Richtige für Euch! Ich kann Euch versichern, dass Ihr keine vergleichbaren Hosenanzüge finden werdet.$B$BIch lasse Euch im Tausch gegen ein paar Münzen der Urahnen unter den drei Kleidungsstilen einen für Euch selbst auswählen. Ist das annehmbar für Euch?$BMünze der Urahnen (5)",
+   "completion": "Nun gut - ich akzeptiere diese Münzen der Urahnen. Bitte nehmt diesen Hosenanzug mit meinen besten Wünschen. Erfreut Euch auch an diesem zusätzlichen Feuerwerk.$B$BSolltet Ihr noch mehr Münzen der Urahnen zum Tauschen haben, dann sprecht noch einmal mit mir. Ich habe während des gesamten Mondfests zahlreiche Gegenstände in meinem Angebot.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8866": {
+   "name": "Urahne Bronzebeard",
+   "completion": "Es ist gut zu wissen, dass die Bewohner dieser Welt noch immer die alten Völker verehren und sie nicht vergessen haben. Ich erbiete Euch meinen Respekt, $N. Nehmt dies als Zeichen meiner Dankbarkeit.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8869": {
+   "name": "Süße Beschaulichkeit",
+   "objectivesText": [
+    "Begebt Euch nach Stratholme und tötet den purpurroten Hammerschmied. Nehmt die Schürze des purpurroten Hammerschmiedes und kehrt zu Lilith zurück."
+   ],
+   "details": "In den Grenzen der scharlachroten Bastion liegt die süße Beschaulichkeit. Der purpurrote Hammerschmied bewacht das Rezept mit seinem Leben. Besiegt ihn und bringt mir seine Schürze. Dafür werde ich Euch zu einem Hammerschmied ausbilden.$B$BIhr müsst eines wissen: Wenn Ihr Euch für den Weg des Hammerschmieds entschieden habt, sind die Wege des Schwertschmieds und des Axtschmieds nicht mehr verfügbar.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8876": {
+   "name": "Kleine Raketen",
+   "progress": "Ich hüte das Geheimnis zur Herstellung der Mondfestraketen und freue mich, mein Wissen mit den Würdigen zu teilen.$B$BIch kann Euch im Tausch gegen Münzen der Urahnen das Rezept zur Herstellung einer kleinen Rakete anbieten...$BMünze der Urahnen (5)",
+   "completion": "Ah, sehr schön. Hier ist Euer Rezept, $N, möge Elune Euch segnen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8877": {
+   "name": "Zünder für Feuerwerk",
+   "progress": "Auch wenn Raketen wunderbar zum Feiern sind, so müssen sie doch von einem richtigen Zünder abgefeuert werden, damit man ihre wahre Herrlichkeit sehen kann...$B$BBringt mir Münzen der Urahnen und ich lehre Euch die Herstellung von Feuerwerkszündern, wie man sie in Moonglade sieht.$BMünze der Urahnen (5)",
+   "completion": "Da seid Ihr ja, $N. Hier ist der Bauplan zur Herstellung von Feuerwerkszündern. Platziert die Zünder dort, wo Ihr feiern möchtet, und ladet Eure Freunde dazu ein!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8878": {
+   "name": "Festtagsrezepte",
+   "progress": "Die Kleider und Hosenanzüge, die Ihr hier sehen könnt, sind traditionelle Gewänder vergangener Zeiten. Sie werden zu Ehren alter Gebräuche und geliebter Vorfahren getragen.$B$BBringt Ihr mir Münzen der Urahnen, $N, werde ich Euch das Muster zur Herstellung traditioneller roter Kleider oder Hosenanzüge geben.$BMünze der Urahnen (5)",
+   "completion": "Hier sind die Muster, $N. Ich bin mir sicher, dass Ihr die Ergebnisse dieses Herstellungsgeheimnisses wunderschön finden werdet.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8879": {
+   "name": "Große Raketen",
+   "progress": "Große Festtagsraketen erhellen den Himmel sternengleich - nur die Raketenbündel können mit ihrer Schönheit rivalisieren!$B$BBringt mir Münzen der Urahnen und ich lehre Euch ihre Herstellung.$BMünze der Urahnen (5)",
+   "completion": "Nun gut - ich akzeptiere diese Münzen der Urahnen. Hier ist Euer Rezept, $N. Verwendet sie, um Elunes Herrlichkeit zu verbreiten!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8880": {
+   "name": "Raketenbündel",
+   "progress": "Raketenbündel bestehen aus einer Anzahl unterschiedlicher Raketen. Ihre Schönheit ist überwältigend! Bringt mir Münzen der Urahnen und ich werde das Wissen ihrer Herstellung mit Euch teilen…$BMünze der Urahnen (5)",
+   "completion": "Bitte sehr, $N. Nehmt diesen Bauplan und erlernt seine Geheimnisse. Ich wünsche Euch alles Gute und freue mich schon auf Eure Kreationen!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8881": {
+   "name": "Große Raketenbündel",
+   "progress": "Die Herstellung großer Raketenbündel erfordert viel Erfahrung und noch mehr Ressourcen, doch ihre Schönheit ist die Mühen wert! Bringt mir Münzen der Urahnen und ich werde das Wissen ihrer Herstellung mit Euch teilen.$BMünze der Urahnen (5)",
+   "completion": "Vielen Dank, $N. Hier ist der Bauplan zur Herstellung von großen Raketenbündeln. Möge Euer Feuerwerk allen Zuschauern viel Freude und Glück bereiten.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8882": {
+   "name": "Zünder für Raketenbündel",
+   "progress": "Die schönsten Feuerwerke erfordern ganze Bündel an Feuerwerksraketen! Um diese abzufeuern, benötigt man Zünder für Raketenbündel! Wäre es dann nicht logisch für Euch, wenn Ihr das Geheimnis der Herstellung solcher Zünder von mir erlernen würdet? Bringt mir Münzen der Urahnen und ich werde mein Wissen mit Euch teilen…$BMünze der Urahnen (5)",
+   "completion": "Hier ist Euer Bauplan. Studiert ihn ausführlich und lernt…$B$BViel Glück, $N. Mögen Eure Feuerwerke den Nachthimmel noch heller erleuchten, als die Feierlichkeiten des Mondfests selbst!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8893": {
+   "name": "Der Super-Ei-O-Mat",
+   "progress": "Der Super-Ei-O-Mat ist die neueste Erfindung von Curgle Cranklehop. Es ist eine ziemlich beeindruckende Maschine.$B$BDer Super-Ei-O-Mat fängt wild an zu spucken und zu zischen, als Ihr Euch der Steuerkonsole nähert.$BHippogryphen-Ei (1)",
+   "completion": "Ihr legt das Hippogryphen-Ei in die Maschine. Es folgen eine Reihe von Pieptönen sowie ein seltsames Rasseln, Rattern und Klicken.$B$BEs scheint, als hätte das Ei-O-Meter Euer Ei gewogen, vermessen und verpackt. Das ist echt ein zügiger Service!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8981": {
+   "name": "Geschenkübergabe",
+   "progress": "Seid Ihr gekommen, um Eurem liebsten Anführer ein Geschenk der Liebe und Verehrung darzubringen?$BGeschenkesammlung der Horde (1)",
+   "completion": "Wunderbar! Wunderbar! Ich werde es zu den anderen Geschenken auf den Haufen legen.$B$BIch habe niemals so viele erwartet!$B$BNun, lasst mich mal ein weiteres hinzuzählen...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8993": {
+   "name": "Geschenkübergabe",
+   "progress": "Seid Ihr gekommen, um Eurem liebsten Anführer ein Geschenk der Liebe und Verehrung darzubringen?$BGeschenkesammlung der Allianz (1)",
+   "completion": "Wunderbar! Wunderbar! Ich werde es zu den anderen Geschenken auf den Haufen legen.$B$BIch habe niemals so viele erwartet!$B$BNun, lasst mich mal ein weiteres hinzuzählen...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9029": {
+   "name": "Ein blubbernder Kessel",
+   "completion": "Ein angenehmer Duft geht von dem Kessel auf.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9094": {
+   "name": "Handschuhe der Argentumdämmerung",
+   "progress": "Bringt Ihr mir dreißig nekrotische Runen, gebe ich Euch im Gegenzug einen Handschutz Eurer Wahl dafür. Dieser sollte sich in Eurem Kampf gegen die untote Geißel als sehr nützlich erweisen.$BNekrotische Rune (30)",
+   "completion": "Ihr habt gute Arbeit geleistet, $N. Nehmt den von Euch gewählten Handschutz als Dank für Eure Mühen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9125": {
+   "name": "Teile einer Gruftsatanskreatur",
+   "progress": "Ihr habt mit dem ersten Schwung vorbildliche Arbeit geleistet, $N. Solltet Ihr noch mehr Teile haben, nehme ich sie Euch jetzt ab. Für jede abgelieferte Ladung werde ich Euch mit einer Insignie belohnen.$BTeile einer Gruftsatanskreatur (30)",
+   "completion": "Ausgezeichnet, $N! Hierfür wird man mit Sicherheit gute Verwendung finden.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9127": {
+   "name": "Knochenfragmente",
+   "progress": "Ein Mann meines Berufsstandes kann niemals zu viele Knochenfragmente besitzen, $N. Kommt zu mir, wann immer Ihr einen Überschuss an Fragmenten habt, ich tausche sie dann gegen eine weitere Insignie ein.$BKnochenfragmente (30)",
+   "completion": "Mein Traum von einer Karriere als professioneller Tänzer in der Disko von Gadgetzan wird sich schon bald verwirklichen! Gute Arbeit, weiter so, $N.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9129": {
+   "name": "Kern der Elemente",
+   "progress": "Glaubt mir, ich verwende diese Kerne zum Anfertigen von Frostfeuerrüstungen. Es ist die Rüstung, die von Magiern getragen wird, die in Naxxramas kämpfen. Ohne Euch und Euresgleichen, würden wir diesen Krieg höchstwahrscheinlich verlieren.$B$BBringt Ihr mir auch weiterhin mehr Kerne, so werde ich Euch dafür wieder mit Insignien entlohnen.$BKern der Elemente (30)",
+   "completion": "Ihr erweist uns einen großen Dienst, $N. Gut gemacht!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9132": {
+   "name": "Dunkeleisenfragmente",
+   "progress": "Ich gebe Euch für jede Ladung Dunkeleisenfragmente eine Insignie - je mehr, umso besser. Geht mir jetzt aus den Augen, bevor ich Euch noch zweiteile!$BDunkeleisenfragmente (30)",
+   "completion": "Das ist alles, was Ihr mir gebracht habt? Vielleicht habt Ihr mich das erste Mal ja nicht richtig verstanden. Ich brauche MEHR!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9137": {
+   "name": "Wildwedel",
+   "progress": "Für jeden Bündel Wildwedel, den Ihr bei mir abliefert, werde ich Euch mit einer von Euch gewählten Insignie, die der Dämmerung oder die des Kreuzzugs, bezahlen.$B$BDie Insignien können beim Rüstmeister für vielerlei Belohnungen eingetauscht werden.$BWildwedel (30)",
+   "completion": "Danke, $N. Eure Arbeit ist für den Erfolg unseres Feldzugs gegen die Geißel unerlässlich.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9142": {
+   "name": "Handwerksverfügung",
+   "progress": "Ihr wisst wie's geht, Kind. Für eine Ehrenmarke bekommt Ihr eine Handwerksverfügung.$BEhrenmarke der Argentumdämmerung (1)",
+   "completion": "Ihr habt's verdient, Anfänger. Beschwert Euch also nicht. Erfüllt Euren Auftrag oder lasst es bleiben.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9259": {
+   "name": "Verrat am Blutsegel",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9266": {
+   "name": "Wiedergutmachung",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9267": {
+   "name": "Heilen alter Wunden",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9268": {
+   "name": "Krieg zur See",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9272": {
+   "name": "Kleider machen Seebären",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9317": {
+   "name": "Geweihte Wetzsteine",
+   "progress": "Wenn Ihr mir acht nekrotische Runen von den Geißelinvasoren besorgt, kann ich Euch einen geweihten Wetzstein dafür geben. Er sollte Euch im Kampf gegen die Diener des Lichkönigs eine große Hilfe sein.$BNekrotische Rune (8)",
+   "completion": "Danke, $N. Hier ist Euer geweihter Wetzstein. Verwendet ihn weise.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9318": {
+   "name": "Gesegnetes Zauberöl",
+   "progress": "Die Argentumdämmerung wird Euch im Tausch gegen die nekrotischen Runen der Geißelinvasoren eine Phiole gesegnetes Zauberöl geben.$BNekrotische Rune (8)",
+   "completion": "Ich hoffe, dass Ihr in Euren zukünftigen Schlachten davon Gebrauch machen könnt.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9320": {
+   "name": "Erheblicher Manatrank",
+   "progress": "Neben unseren anderen Vorräten verfügen wir auch über eine gewisse Zahl an erheblichen Manatränken, die für Euch von Nutzen sein könnten. Ich werde Euch einen im Tausch gegen fünfzehn nekrotische Runen geben.$BNekrotische Rune (15)",
+   "completion": "Bitte sehr, $N. Seid vorsichtig da draußen. Wir sind zu wenige, als dass wir uns viele Verluste auf dem Schlachtfeld leisten könnten.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9321": {
+   "name": "Erheblicher Heiltrank",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9333": {
+   "name": "Handschuhe der Argentumdämmerung",
+   "progress": "Bringt Ihr mir dreißig nekrotische Runen, gebe ich Euch im Gegenzug einen Handschutz Eurer Wahl dafür. Dieser sollte sich in Eurem Kampf gegen die untote Geißel als sehr nützlich erweisen.$BNekrotische Rune (30)",
+   "completion": "Ihr habt gute Arbeit geleistet, $N. Nehmt den von Euch gewählten Handschutz als Dank für Eure Mühen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9334": {
+   "name": "Gesegnetes Zauberöl",
+   "progress": "Die Argentumdämmerung wird Euch im Tausch gegen die nekrotischen Runen der Geißelinvasoren eine Phiole gesegnetes Zauberöl geben.$BNekrotische Rune (8)",
+   "completion": "Ich hoffe, dass Ihr in Euren zukünftigen Schlachten davon Gebrauch machen könnt.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9335": {
+   "name": "Geweihte Wetzsteine",
+   "progress": "Wenn Ihr mir acht nekrotische Runen von den Geißelinvasoren besorgt, kann ich Euch einen geweihten Wetzstein dafür geben. Er sollte Euch im Kampf gegen die Diener des Lichkönigs eine große Hilfe sein.$BNekrotische Rune (8)",
+   "completion": "Danke, $N. Hier ist Euer geweihter Wetzstein. Verwendet ihn weise.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9336": {
+   "name": "Erheblicher Heiltrank",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9337": {
+   "name": "Erheblicher Manatrank",
+   "progress": "Neben unseren anderen Vorräten verfügen wir auch über eine gewisse Zahl an erheblichen Manatränken, die für Euch von Nutzen sein könnten. Ich werde Euch einen im Tausch gegen fünfzehn nekrotische Runen geben.$BNekrotische Rune (15)",
+   "completion": "Bitte sehr, $N. Seid vorsichtig da draußen. Wir sind zu wenige, als dass wir uns viele Verluste auf dem Schlachtfeld leisten könnten.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9338": {
+   "name": "Treue zum Zirkel des Cenarius",
+   "progress": "Selbst wenn Ihr keinen Bedarf an unseren materiellen Belohungen habt, sind diese Abzeichen ein Symbol für gegenseitiges Vertrauen und Freundschaft.$B$BBringt sie mir. Außerordentliche Dienste von Euch werde ich sorgsam vermerken.$BCenarisches Gefechtsabzeichen (1)$BCenarisches Versorgungsabzeichen (1)$BCenarisches Strategieabzeichen (1)",
+   "completion": "Ihr ehrt uns, $N. Eure fortgesetzten Anstrengungen helfen uns, alle Hindernisse zu überwinden.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9341": {
+   "name": "Wappenrock der Argentumdämmerung",
+   "progress": "Ihr habt unserer Sache sehr gedient, $N. Wenn ihr wollt, kann ich Euch einen Wappenrock der Argentumdämmerung zur Verfügung stellen. Wir sind stolz, Euch zu unseren Verbündeten zu zählen.$BNekrotische Rune (10)",
+   "completion": "Nehmt diesen Wappenrock und tragt ihn mit Stolz. Vielleicht regen Eure Taten auch andere dazu an, zu den Waffen zu greifen und an unserem Kampf gegen die Geißel teilzunehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9343": {
+   "name": "Wappenrock der Argentumdämmerung",
+   "progress": "Ihr habt unserer Sache sehr gedient, $N. Wenn ihr wollt, kann ich Euch einen Wappenrock der Argentumdämmerung zur Verfügung stellen. Wir sind stolz, Euch zu unseren Verbündeten zu zählen.$BNekrotische Rune (10)",
+   "completion": "Nehmt diesen Wappenrock und tragt ihn mit Stolz. Vielleicht regen Eure Taten auch andere dazu an, zu den Waffen zu greifen und an unserem Kampf gegen die Geißel teilzunehmen.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9378": {
+   "notFound": true,
+   "fetched": "2026-10-07",
+   "v": 2
   }
  }
 }

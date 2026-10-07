@@ -3599,6 +3599,677 @@
    "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du conquérant !",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8755": {
+   "name": "La voie du Conquérant",
+   "progress": "Une telle dévotion à une cause est une rareté. Vous fait preuve d’une volonté de fer, $N. Vous veillez sur notre monde sans trêve ni répit. Il est temps de vous récompenser.$B$BDonnez-moi votre chevalière, afin que je renforce l’enchantement qu’elle contient.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie du conquérant !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8756": {
+   "name": "Le conquérant qiraji",
+   "progress": "Je n’ai jamais vu une telle ténacité ! À la demande expresse de l’Intemporel, le Vol de bronze vous accorde un nouvel enchantement !$B$BDonnez-moi votre chevalière, que je procède aux ajustements nécessaires.$BChevalière du Vol de bronze (1)",
+   "completion": "Levez-vous, Conquérant des Qiraji ! Levez-vous et que tous reconnaissent votre valeur !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8757": {
+   "name": "La voie de l'Invocateur",
+   "completion": "Impressionnant, petit. Vous n’avez épargné aucun effort pour gagner les faveurs du Vol de bronze. Votre dévouement a été noté.$B$BLa chevalière de l'invocateur améliorera considérablement vos capacités naturelles et magiques.$B$BMais attention, une fois que vous aurez choisi votre voie, vous ne pourrez plus revenir en arrière, même si vous changez d’avis.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8758": {
+   "name": "La voie de l'Invocateur",
+   "progress": "Votre persévérance dans la défense des enfants de Kalimdor a été reconnue. Donnez-moi votre chevalière, que j’augmente ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie de l’invocateur !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8759": {
+   "name": "La voie de l'Invocateur",
+   "progress": "Vous nous faites honneur, $N. Terrassez les ennemis de Kalimdor ! Montrez-leur que l’on ne profane pas impunément la terre des étoiles éternelles !$B$BVous méritez une nouvelle amélioration. Donnez-moi votre chevalière, que j’accroisse ses pouvoirs.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie de l’invocateur !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8760": {
+   "name": "La voie de l'Invocateur",
+   "progress": "Une telle dévotion à une cause est une rareté. Vous avez fait preuve d’une volonté de fer, $N. Vous veillez sur notre monde sans trêve ni répit. Il est temps de vous récompenser.$B$BDonnez-moi votre chevalière, afin que je renforce l’enchantement qu’elle contient.$BChevalière du Vol de bronze (1)",
+   "completion": "Vos progrès au sein de la Progéniture sont très impressionnants, $N. Puissez-vous ne jamais quitter la voie de l’invocateur !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8761": {
+   "name": "Le Grand Invocateur",
+   "progress": "Je n’ai jamais vu une telle ténacité ! À la demande expresse de l’Intemporel, le Vol de bronze vous accorde un nouvel enchantement !$B$BDonnez-moi votre chevalière, que je procède aux ajustements nécessaires.$BChevalière du Vol de bronze (1)",
+   "completion": "Levez-vous, Grand Invocateur ! Levez-vous et que tous reconnaissent votre valeur !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8764": {
+   "name": "Changer de voie - adieu au Protecteur",
+   "progress": "Si vous décidez de suivre une autre voie, champion, vous devrez me remettre votre chevalière et une montagne de scarabées morts, que vous aurez tués à Ahn’Qiraj.$BChevalière du Vol de bronze (1)$BScarabée de pierre (15)$BScarabée d'or (15)$BScarabée d'argent (15)",
+   "completion": "Portez-vous bien, $N. Si vous changez d’avis, je serai là pour vous aider.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8765": {
+   "name": "Changer de voie - adieu à l'Invocateur",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8766": {
+   "name": "Changer de voie - adieu au Conquérant",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8767": {
+   "name": "Un cadeau secoué doucement",
+   "completion": "Ce cadeau donne l'impression d'avoir été secoué plusieurs fois. Il porte une petite carte qui dit$B$BA un $C $R hors du commun.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8768": {
+   "name": "Un cadeau à l'emballage multicolore",
+   "completion": "Ce cadeau à l'emballage multicolore porte votre nom !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8769": {
+   "name": "Un cadeau tic-taquant",
+   "completion": "Encore un pour vous !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8788": {
+   "name": "Un cadeau secoué doucement",
+   "completion": "Ce cadeau donne l'impression d'avoir été secoué plusieurs fois. Il porte une petite carte qui dit$B$BA un $C $R hors du commun.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8798": {
+   "name": "Un yéti rien que pour vous",
+   "completion": "Je sais ! Vous êtes ingénieur, vous aussi ! Comme vous m’avez aidée à donner une leçon à mes amis, je vais vous apprendre à construire votre propre yéti mécanique ! Comme ça, vous n’aurez jamais fini de vous amuser, et vous pourrez faire peur à qui vous voulez ! Enfin, si vous arrivez à récupérer les éléments pour le fabriquer, bien sûr.$B$BQu’en dites-vous, $N ? Voulez-vous apprendre le secret de la fabrication des yétis mécaniques ?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8803": {
+   "name": "Un cadeau de fête",
+   "completion": "La petite note placée sur le cadeau dit :$B$BPour $N,$B$BEn espérant que cela vous aidera à propager l’ambiance de fête et de bonnes nouvelles sur tout Azeroth.$B$BDe la part de Grandpère Hiver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8811": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8812": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part des exilés de Gnomeregan.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8813": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Ironforge.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8814": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8815": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Orgrimmar.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de la Horde (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8816": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de la tribu Darkspear.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de la Horde (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8817": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Undercity.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de la Horde (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8818": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Thunder Bluff.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de la Horde (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8819": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Darnassus. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un $N.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8820": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus des exilés de Gnomeregan. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prête à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventurières comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8821": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8822": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8823": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Orgrimmar. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8824": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de la tribu Darkspear. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8825": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Thunder Bluff. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8826": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Undercity. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8830": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Darnassus.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8831": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Darnassus. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8832": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part d’Undercity.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de la Horde (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8833": {
+   "name": "Dix chevalières de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8834": {
+   "name": "Une chevalière de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8835": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Ironforge. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8836": {
+   "name": "Une chevalière de mérite",
+   "progress": "Les aventuriers qui n’ont qu’une seule chevalière de mérite ne recevront qu’une reconnaissance minime de la part de Stormwind.$B$BN’oubliez pas qu’il est préférable de remettre une série de dix chevalières à la fois. Si vous procédez ainsi, vos efforts seront mieux reconnus. Nous proposons cet échange comme un service pour ceux qui n’ont pas une pile de dix.$B$BCeci posé, je suis en mesure de vous aider si vous souhaitez me remettre une seule chevalière.$BChevalière de mérite de l'Alliance (1)",
+   "completion": "Très bien, vos actes ont été entrés dans nos archives, et vos efforts seront dûment reconnus. Continuez ainsi, $C.$B$BSi vous avez d’autres chevalières à remettre, je pourrai vous aider. Vous savez où me trouver.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8837": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Stormwind. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de l'Alliance (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8838": {
+   "name": "Une chevalière de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8839": {
+   "name": "Dix chevalières de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8840": {
+   "name": "Une chevalière de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8841": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus d’Orgrimmar. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prêt à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventuriers comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8842": {
+   "name": "Une chevalière de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8843": {
+   "name": "Dix chevalières de mérite",
+   "progress": "Je ramasse les chevalières de mérite que les aventuriers reçoivent lorsqu’ils font leur devoir. Pour chaque série de dix chevalières que vous me remettez, je veille à ce que vos exploits soient connus de Thunder Bluff. J’accepte aussi les chevalières à l’unité, mais c’est beaucoup moins rentable. Nous n’ignorons aucun exploit, mais les plus impressionnants sont mieux écoutés.$B$BCeci dit, je prendrai volontiers vos chevalières, si vous êtes prête à m’en remettre une série.$BChevalière de mérite de la Horde (10)",
+   "completion": "Excellent ! Vous avez fait de gros sacrifices pour obtenir ces chevalières. Il est juste que vos services soient reconnus. Ce sont des aventurières comme vous, $N, qui font une différence.$B$BDites-moi si vous avez d’autres chevalières à remettre. Vous aider à nouveau sera un honneur.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8844": {
+   "name": "Une chevalière de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8845": {
+   "name": "Dix chevalières de mérite",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8846": {
+   "name": "Cinq chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas la seule.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de l'Alliance (5)",
+   "completion": "Bien, voilà qui est réglé, $C, voilà vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8847": {
+   "name": "Dix chevalières pour des fournitures militaires",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8848": {
+   "name": "Quinze chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas la seule.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de l'Alliance (15)",
+   "completion": "Bien, voilà qui est réglé, $C, voici vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8849": {
+   "name": "Vingt chevalières pour des fournitures militaires",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8850": {
+   "name": "Trente chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de l'Alliance (30)",
+   "completion": "Bien, voilà qui est réglé, $C, voilà vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8851": {
+   "name": "Cinq chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de la Horde (5)",
+   "completion": "Bien, voilà qui est réglé, $C, voilà vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8852": {
+   "name": "Dix chevalières pour des fournitures militaires",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8853": {
+   "name": "Quinze chevalières pour des fournitures militaires",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8854": {
+   "name": "Vingt chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de la Horde (20)",
+   "completion": "Bien, voilà qui est réglé, $C, voici vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8855": {
+   "name": "Trente chevalières pour des fournitures militaires",
+   "progress": "Ah ah, vous venez vous chercher quelques fournitures militaires, pas vrai ? Ma foi, je peux comprendre que vous ayez besoin de matériel… Après tout, vous n’avez qu’à regarder autour de vous pour vous rendre compte que vous n’êtes pas le seul.$B$BJe peux vous en donner, mais uniquement en échange d’un certain nombre de chevalières de mérite. Bien sûr, dans ce cas, vous ne deviendrez pas plus célèbre, mais vous recevrez peut-être quelque chose qui vous gardera en vie lorsque la bataille commencera.$BChevalière de mérite de la Horde (30)",
+   "completion": "Bien, voilà qui est réglé, $C, voici vos fournitures. Si vous voulez procéder à un autre échange, je suis en mesure de l’autoriser. Vous n’aurez qu’à venir me le dire et je veillerai à ce que tout se passe rapidement.$B$BVous faites du bon travail, $N. Continuez. Si nous voulons gagner, nous aurons besoin de tout le matériel que nous pourrons ramasser. Si chacun fait son devoir, nous vaincrons !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8856": {
+   "name": "Survivre dans le désert",
+   "objectivesText": [
+    "Ramener 4 Globes d’eau, 4 Anti-venins puissants et 4 Pains de saumon à Calandrath, à l’auberge du Fort cénarien en Silithus."
+   ],
+   "details": "L’afflux de nouvelles recrues au Fort cénarien nous pose un problème. Comment les garder en vie dans le désert ? Les volontaires inexpérimentés risquent la déshydratation et l’empoisonnement – le sable grouille de créatures venimeuses. Rassemblez les matériaux nécessaires à la constitution de paquetages de survie dans le désert, et remettez-les à Calandrath au Fort cénarien.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8862": {
+   "name": "La chandelle d'Elune",
+   "progress": "La chandelle d’Elune est un artefact grandement révéré par les disciples de la Fête lunaire. Elle contient de la véritable lumière lunaire, prête à être libérée !$B$BCette lumière est inoffensive pour la plupart des créatures, mais vous constaterez qu’elle brûle et éblouit Présage et ses serviteurs.$BPièce des ancêtres (5)",
+   "completion": "Parfait… J’accepte ces pièces des ancêtres. Prenez cette chandelle d’Elune avec ma bénédiction. Et tenez, voici quelques feux d’artifice en prime.$B$BQue la Fête lunaire vous soit joyeuse et pleine de divertissements, $N.$B$BEt si vous décidez d’affronter Présage et ses serviteurs, vous verrez qu’une chandelle d’Elune peut se révéler très utile…",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8863": {
+   "name": "Des raviolis de fête",
+   "progress": "Si vous avez faim, alors vous ne vous êtes pas trompé d’adresse, mon ami !$B$BLes raviolis à la vapeur sont le plat traditionnel de la fête lunaire. On en a servi lors de la toute première célébration de cette fête, et je suis très heureux de pouvoir en proposer moi aussi cette année. En échange d’une seule pièce des ancêtres, je vous offrirai un échantillon de l’un des meilleurs plats que vous ayez jamais dégusté !$BPièce des ancêtres (1)",
+   "completion": "Excellent ! Tenez, prenez ces raviolis avec tous mes compliments. Ce n’est qu’un faible témoignage de reconnaissance pour l’honneur que vous avez gagné par vos actions, mais je pense que vous m’en direz des nouvelles.$B$BSi vous avez d’autres pièces des ancêtres, je pourrai vous offrir toute une gamme d’objets en échange.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8864": {
+   "name": "Les robes de la fête lunaire",
+   "progress": "J’ai tout un choix de robes qui vous intéresseront sûrement. Des robes comme celles-ci ont été portées lors des fêtes lunaires des temps anciens, et la collection présente est peut-être la plus belle que j’aie jamais vue. Chaque robe a été cousue à la main dans les matériaux les plus fins et les plus doux.$B$BEn échange de quelques pièces des ancêtres, je vous laisserai choisir l’un des trois styles que j’ai en stock. Cela vous convient-il ?$BPièce des ancêtres (5)",
+   "completion": "Parfait… J’accepte ces pièces des ancêtres. Prenez votre robe avec ma bénédiction. Et tenez, voici quelques feux d’artifice en prime.$B$BVous avez honoré les anciens, et vous m’honorez de même par votre présence. Je vous remercie. Passez une joyeuse fête lunaire.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8865": {
+   "name": "Les habits de la fête lunaire",
+   "progress": "Je suis ravi de vous informer que je possède un excellent choix d'habits de fête. Vous pouvez les acheter… mais uniquement contre des pièces des ancêtres. Si la mode est importante à vos yeux, c’est exactement ce qu’il vous faut ! Je vous promets que vous ne trouverez pas leurs pareils dans tout Azeroth.$B$BEn échange de quelques pièces des ancêtres, je vous laisserai choisir l’un des trois styles que j’ai en stock. Cela vous convient-il ?$BPièce des ancêtres (5)",
+   "completion": "Parfait… J’accepte ces pièces des ancêtres. Prenez votre habit avec ma bénédiction. Et tenez, voici quelques feux d’artifice en prime.$B$BSi vous avez d’autres pièces des ancêtres à échanger, revenez me voir. Je pourrai vous les échanger contre différents objets pendant toute la fête lunaire.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8866": {
+   "name": "L'Ancien Bronzebeard",
+   "completion": "Il est doux de savoir que les peuples de cette terre rendent encore hommage aux races anciennes. Je vous souhaite bonne chance, $N, et vous offre ce gage de mon estime…",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8869": {
+   "name": "Douce sérénité",
+   "objectivesText": [
+    "Aller jusqu’à Stratholme et tuer le Forgeur de marteaux cramoisi. Récupérer son Tablier et le ramener à Lilith."
+   ],
+   "details": "Dans les confins du Bastion écarlate se trouve la douce Sérénité. Le Forgeur de marteaux cramoisi garde ce secret de sa vie. Battez-le et apportez-moi son tablier. En échange, je vous enseignerai comment forger des marteaux.$B$BMais sachez bien ceci : une fois que vous aurez choisi de suivre cette voie, les arts de la forge d'épées ou de haches vous seront à jamais fermées.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8876": {
+   "name": "Les petites comètes",
+   "progress": "Je connais le secret de la fabrication des comètes de la Fête lunaire, et je serais très heureuse de partager mes connaissances avec une personne aussi honorable que vous.$B$BEn échange de quelques pièces des ancêtres, je peux vous offrir les recettes de fabrication d’une petite comète…$BPièce des ancêtres (5)",
+   "completion": "Ah, parfait… Voici vos recettes, $N, et qu’Elune vous bénisse.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8877": {
+   "name": "Le lanceur de fusées",
+   "progress": "Même si les comètes permettent d’animer la fête de merveilleuse façon, il faut les tirer avec un lanceur pour pouvoir les contempler dans toute leur splendeur.$B$BApportez-moi des pièces des ancêtres, et je vous apprendrai gracieusement comment fabriquer des lanceurs de fusée comme ceux qui se trouvent à Reflet-de-Lune.$BPièce des ancêtres (5)",
+   "completion": "Ah, vous voici, $N. Voici le schéma permettant de fabriquer un lanceur de comètes. Placez le lanceur à l’endroit où vous voulez faire la fête, et vous pourrez ensuite accueillir les amis qui viendront vous rejoindre !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8878": {
+   "name": "Des recettes de fête",
+   "progress": "Les robes et les habits que vous voyez sont des costumes traditionnels des temps anciens. On les porte en l’honneur de nos vieilles coutumes et de nos chers disparus.$B$BSi vous m’apportez des pièces des ancêtres, $N, je vous donnerai le patron pour confectionner une robe rouge ou un habit rouge traditionnels.$BPièce des ancêtres (5)",
+   "completion": "Voici les patrons, $N. Je suis certaine que vous constaterez que ces vêtements sont d’une grande beauté.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8879": {
+   "name": "Les grandes comètes",
+   "progress": "Les grandes comètes de la Fête lunaire illuminent brillamment le ciel et leur magnificence n’est rivalisée que par celle des chapelets !$B$BApportez-moi des Pièces des ancêtres, $N, et je vous révélerai le secret de leur fabrication.$BPièce des ancêtres (5)",
+   "completion": "Parfait… J’accepte ces pièces des ancêtres. Voici vos recettes, $N. Puissiez-vous vous en servir pour célébrer la gloire d’Elune !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8880": {
+   "name": "Les chapelets de comètes",
+   "progress": "Les chapelets de comètes sont un assemblage de comètes individuelles, et ils sont d’une beauté impressionnante ! Apportez-moi des pièces des ancêtres et je vous apprendrai le secret de leur fabrication…$BPièce des ancêtres (5)",
+   "completion": "Ah, vous voici, $N. Prenez ces recettes et apprenez leurs secrets. Je vous souhaite tout le bonheur du monde, et j’attends avec impatience de voir vos magnifiques créations.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8881": {
+   "name": "Les chapelets de grandes comètes",
+   "progress": "La fabrication des chapelets de comètes exige beaucoup de ressources et d’habileté, mais leur brillance et leur beauté valent largement les efforts ainsi déployés ! Apportez-moi des pièces des ancêtres et je vous révélerai le secret de leur création.$BPièce des ancêtres (5)",
+   "completion": "Merci, $N. Voici la recette du chapelet de grandes comètes. Que vos créations apportent la joie et la chance à tous ceux qui les contempleront.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8882": {
+   "name": "Le lanceur de chapelets",
+   "progress": "Les plus beaux feux d’artifice se doivent de présenter des chapelets de comètes, et ces chapelets ne peuvent être tirés qu’avec un lanceur spécial ! Il me semble donc logique que vous appreniez le secret de la fabrication des lanceurs de chapelets. Apportez-moi des pièces des ancêtres et je partagerai ce secret avec vous.$BPièce des ancêtres (5)",
+   "completion": "Et voici votre schéma… Étudiez-le attentivement, et apprenez-le…$B$BBonne chance, $N. Que votre célébration rivalise avec celle de la Fête lunaire elle-même !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8893": {
+   "name": "Le Super-Oeuf-O-Matic",
+   "progress": "Le Super-Oeuf-O-Matic est la dernière des inventions de Curgle Cranklehop. C'est une machinerie très impressionnante.$B$BLe Super-Oeuf-O-Matic bafouille quelque chose lorsque vous vous approchez du panneau de commande.$BOeuf d'hippogryphe (1)",
+   "completion": "Vous placez l'œuf d'hippogryphe dans la machine. Des signaux sonores s'enchaînent, sur un fond de bruits mécaniques.$B$BEt le Calibre-œuf a pesé, mesuré et empaqueté votre œuf. Ça c'est du service rapide !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8981": {
+   "name": "Faire des cadeaux",
+   "progress": "Êtes-vous venu offrir un présent d’amour et d’adoration à votre chef préféré ?$BAssortiment de cadeaux de la Horde (1)",
+   "completion": "Merveilleux ! Merveilleux ! Je vais le mettre avec tous les autres cadeaux !$B$BJe n’en espérais pas autant ! Vous devez vraiment beaucoup aimer vos chefs.$B$BMaintenant, j’ajoute un au décompte…",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8993": {
+   "name": "Faire des cadeaux",
+   "progress": "Êtes-vous venu offrir un présent d’amour et d’adoration à votre chef préféré ?$BAssortiment de cadeaux de l'Alliance (1)",
+   "completion": "Merveilleux ! Merveilleux ! Je vais le mettre avec tous les autres cadeaux !$B$BJe n’en espérais pas autant ! Vous devez vraiment beaucoup aimer vos chefs.$B$BMaintenant, j’ajoute un au décompte…",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9029": {
+   "name": "Un chaudron bouillonnant",
+   "completion": "Une odeur agréable s'échappe du chaudron.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9094": {
+   "name": "Les gants de l'Aube d'argent",
+   "progress": "Si vous m'apportez trente runes nécrotiques, je vous donnerai en échange une pièce d'armure de main au choix. Vous devriez les trouver très pratiques pour vous battre contre les morts-vivants du Fléau.$BRune nécrotique (30)",
+   "completion": "Beau travail, $N. Prenez la pièce d'armure que vous préférez, et merci pour tout.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9125": {
+   "name": "Des morceaux de démon des cryptes",
+   "progress": "Votre travail pour le premier lot a été exemplaire, $N. Si vous en avez plus, je peux les prendre maintenant. Pour chaque lot que vous rapporterez, je vous récompenserai avec un insigne.$BMorceaux de démon des cryptes (30)",
+   "completion": "Excellent, $N ! Soyez assuré que nous en ferons bon usage.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9127": {
+   "name": "Des fragments d'os",
+   "progress": "Dans mon métier, un homme ne peut jamais avoir trop de fragments d'os, $N.Chaque fois que vous aurez un surplus de fragments, apportez-les-moi, je vous récompenserai avec un autre insigne.$BFragments d'os (30)",
+   "completion": "Mon rêve de devenir danseur à plein temps à la discothèque de Gadgetzan va bientôt devenir réalité ! Continuez à faire du bon travail, $N.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9129": {
+   "name": "Le noyau des éléments",
+   "progress": "À vrai dire, j’utilise les noyaux pour créer des armures de givrefeu. C’est l’armure que portent les mages qui se battent dans Naxxramas. Sans vous et quelques autres, nous serions incontestablement en train de perdre cette guerre.$B$BCeci dit, vous pouvez m’apporter encore des noyaux et je vous octroierai d’autres insignes.$BNoyau des éléments (30)",
+   "completion": "Vous nous rendez un grand service, $N. Bien joué !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9132": {
+   "name": "Des morceaux de sombre fer",
+   "progress": "Pour chaque brassée de ces morceaux que vous m'apporterez, je vous donnerai un insigne - le plus sera le mieux. Hors de ma vue maintenant, avant que je vous tranche en deux !$BMorceaux de sombrefer (30)",
+   "completion": "C'est tout ce que vous m'apportez ? On dirait que vous ne m'avez pas entendu la première fois. Il m'en faut PLUS !",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9137": {
+   "name": "Des palmes sauvages",
+   "progress": "Pour chaque fagot de palmes que vous me livrerez, je vous payerai avec un insigne de votre choix, de l’Aube ou de la Croisade.$B$BLes insignes peuvent être échangés auprès des intendants contre toutes sortes de récompenses.$BPalme sauvage (30)",
+   "completion": "Merci, $N. Votre travail est d'une importance vitale pour le succès de notre campagne contre le Fléau.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9259": {
+   "name": "Un traître envers la Voile sanglante",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9266": {
+   "name": "Faire amende honorable",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9267": {
+   "name": "Soigner de vielles blessures",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9268": {
+   "name": "Combat naval",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9272": {
+   "name": "L'habit fait le boucanier",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9317": {
+   "name": "Pierre à aiguiser consacrée",
+   "progress": "Si vous m’apportez huit runes nécrotiques des envahisseurs du Fléau, je vous fournirais une pierre à aiguiser consacrée. Elle devrait vous être d’une grande utilité pour vos combats contre les serviteurs du roi-liche.$BRune nécrotique (8)",
+   "completion": "Merci bien, $N. Voici les pierres à aiguiser consacrées. Utilisez-les avec circonspection.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9318": {
+   "name": "Huile de sorcier bénite",
+   "progress": "En échange des runes nécrotiques des envahisseurs du Fléau, l’Aube d’argent vous donnera une fiole d’huile de sorcier bénite.$BRune nécrotique (8)",
+   "completion": "J’espère que ces objets vous seront utiles lors de vos batailles à venir.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9320": {
+   "name": "Potion de mana majeure",
+   "progress": "En plus de nos autres fournitures, nous disposons de quelques potions de mana majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.$BRune nécrotique (15)",
+   "completion": "Et voilà, $N. Faites attention à vous là-bas. Nous n'avons pas tant de troupes que nous puissions nous permettre d'avoir beaucoup de pertes.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9321": {
+   "name": "Potion de soins majeure",
+   "progress": "En plus de nos autres fournitures, nous disposons de quelques potions de soins majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.$BRune nécrotique (15)",
+   "completion": "Et voilà, $N. Faites attention à vous là-bas. Nous n'avons pas tant de troupes que nous puissions nous permettre d'avoir beaucoup de pertes.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9333": {
+   "name": "Les gants de l'Aube d'argent",
+   "progress": "Si vous m'apportez trente runes nécrotiques, je vous donnerai en échange une pièce d'armure de main au choix. Vous devriez les trouver très pratiques pour vous battre contre les morts-vivants du Fléau.$BRune nécrotique (30)",
+   "completion": "Beau travail, $N. Prenez la pièce d'armure que vous préférez, et merci pour tout.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9334": {
+   "name": "Huile de sorcier bénite",
+   "progress": "En échange des runes nécrotiques des envahisseurs du Fléau, l’Aube d’argent vous donnera une fiole d’huile de sorcier bénite.$BRune nécrotique (8)",
+   "completion": "J’espère que ces objets vous seront utiles lors de vos batailles à venir.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9335": {
+   "name": "Pierre à aiguiser consacrée",
+   "progress": "Si vous m’apportez huit runes nécrotiques des envahisseurs du Fléau, je vous fournirai une pierre à aiguiser consacrée. Elle devrait vous être d’une grande utilité pour vos combats contre les serviteurs du roi-liche.$BRune nécrotique (8)",
+   "completion": "Merci bien, $N. Voici vos pierres à aiguiser consacrées. Utilisez-les avec circonspection.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9336": {
+   "name": "Potion de soins majeure",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9337": {
+   "name": "Potion de mana majeure",
+   "progress": "En plus de nos autres fournitures, nous disposons de quelques potions de mana majeures qui pourraient vous être utiles. Je vous en donnerai une en échange de quinze runes nécrotiques.$BRune nécrotique (15)",
+   "completion": "Et voilà, $N. Faites attention à vous là-bas. Nous n'avons pas tant de troupes que nous puissions nous permettre d'avoir beaucoup de pertes.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9338": {
+   "name": "Allégeance au Cercle cénarien",
+   "progress": "Même si vous n'avez pas besoin des récompenses matérielles que nous proposons, ces badges sont la marque de notre amitié et de notre confiance mutuelle.$B$BApportez-les-moi. Je ne manquerai pas de prendre note des services que vous nous rendrez s'ils allaient au-delà de l'appel du devoir.$BBadge cénarien de combat (1)$BBadge cénarien de logistique (1)$BBadge cénarien de tactique (1)",
+   "completion": "Vous nous faites honneur, $N. Grâce à vos efforts, nous viendrons à bout de tous les obstacles.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9339": {
+   "name": "La récompense d'un voleur",
+   "objectivesText": [
+    "Rapportez la Flamme de Stormwind à (NOM)."
+   ],
+   "details": "Cette flamme, dérobée au cœur même de Stormwind, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais (NOM) saura sûrement vous en dire plus...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9341": {
+   "name": "Tabard de l'Aube d'argent",
+   "progress": "Vous avez grandement aidé notre cause, $N. Si vous le souhaitez, je peux vous procurer le tabard de l'Aube d'argent. Nous sommes fiers de vous compter parmi nos alliés.$BRune nécrotique (10)",
+   "completion": "Prenez ce tabard et portez-le avec fierté. Peut-être que vos actions inciteront d'autres à prendre les armes pour nous soutenir dans notre combat contre le Fléau.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9343": {
+   "name": "Tabard de l'Aube d'argent",
+   "progress": "Vous avez grandement aidé notre cause, $N. Si vous le souhaitez, je peux vous procurer le tabard de l'Aube d'argent. Nous sommes fiers de vous compter parmi nos alliés.$BRune nécrotique (10)",
+   "completion": "Prenez ce tabard et portez-le avec fierté. Peut-être que vos actions inciteront d'autres à prendre les armes pour nous soutenir dans notre combat contre le Fléau.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9365": {
+   "name": "La récompense d'un voleur",
+   "objectivesText": [
+    "Rapportez la Flamme de Stormwind à (NOM)."
+   ],
+   "details": "Cette flamme, dérobée au cœur même de Stormwind, vous inonde de chaleur. Ce pouvoir brut vous est étranger, mais (NOM) saura sûrement vous en dire plus...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9378": {
+   "notFound": true,
+   "fetched": "2026-10-07",
+   "v": 2
   }
  }
 }

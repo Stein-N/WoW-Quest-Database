@@ -3233,6 +3233,572 @@
    "name": "El camino del conquistador",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8755": {
+   "name": "El camino del conquistador",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8756": {
+   "name": "El conquistador Qiraji",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8757": {
+   "name": "El camino del conjurador",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8758": {
+   "name": "El camino del conjurador",
+   "progress": "Tu continua defensa de los niños de Kalimdor ha obtenido su merecido reconocimiento. Dame tu anillo con sello para que pueda aumentar sus poderes.$BSello del Vuelo de Bronce (1)",
+   "completion": "Tu ascensión entre las filas del Linaje es admirable, $N. ¡Nunca te alejes del camino del conjurador!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8759": {
+   "name": "El camino del conjurador",
+   "progress": "Eres una honra para los míos, $N. ¡Acaba con los enemigos de Kalimdor! Enséñales el precio de mancillar la tierra de la eterna luz de las estrellas.$B$BTe has ganado otro encantamiento. Dame tu anillo con sello para que pueda reforzar su poder.$BSello del Vuelo de Bronce (1)",
+   "completion": "Tu ascensión entre las filas del Linaje es admirable, $N. ¡Nunca te alejes del camino del conjurador!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8760": {
+   "name": "El camino del conjurador",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8761": {
+   "name": "El gran conjurador",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8764": {
+   "name": "Cambio de ruta: protector, nunca más",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8765": {
+   "name": "Cambio de ruta: conjurador, nunca más",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8766": {
+   "name": "Cambio de ruta: conquistador, nunca más",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8767": {
+   "name": "Un regalo un poco agitado",
+   "completion": "Parece que han agitado este regalo un par de veces. Su etiqueta dice:$B$BPara un $R $C muy especial.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8768": {
+   "name": "Un regalo alegremente envuelto",
+   "completion": "El regalo está envuelto con motivos propios de estas fiestas y tiene tu nombre.$B$BEspera, ¿no acaba de moverse?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8769": {
+   "name": "Un regalo que hace tic tac",
+   "completion": "Tus amigos de los Pastos de Bosquehumeante te desean unas felices fiestas del Gran Invierno.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8788": {
+   "name": "Un regalo un poco agitado",
+   "completion": "Parece que han agitado este regalo un par de veces. Su etiqueta dice:$B$BPara un $R $C muy especial.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8798": {
+   "name": "Un yeti propio",
+   "completion": "¡Vaya! ¡¿Sabes qué?! ¡Tú también eres ingeniero! Como me ayudaste a darles una lección a mis amigos, ¡voy a enseñarte a hacer tu propio yeti mecánico! ¡Ahora la diversión no va a parar nunca y podrás asustar a quien quieras! Siempre que puedas conseguir los componentes, claro.$B$B¿Qué dices, $N? ¿Quieres aprender los secretos para hacer un yeti mecánico?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8803": {
+   "name": "Un regalo de festividad",
+   "completion": "La nota de este regalo dice:$B$BPara $N,$B$Bcon la esperanza de que te ayude a repartir calor y felicidad por todo Azeroth.$B$BDe parte de Papá Invierno.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8811": {
+   "name": "Un sello de honor",
+   "progress": "Si los aventureros solo tienen un sello de honor, se les entrega a cambio una pequeña cantidad de reputación con Darnassus.$B$BPor favor, no olvides que es mejor entregarme diez sellos al mismo tiempo, tus esfuerzos se verán mejor recompensados. Permitimos el intercambio de un solo sello como servicio para aquellos que no pueden completar un juego de diez.$B$BDicho esto, ya puedo ayudarte si sigues queriendo entregar un solo sello.$BSello de mención de honor de la Alianza (1)",
+   "completion": "Muy bien, tus hazañas han sido registradas y tus esfuerzos han sido debidamente reconocidos. Sigue haciéndolo así, $C.$B$BSi tienes más sellos que entregar puedo seguir ayudándote.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8812": {
+   "name": "Un sello de honor",
+   "progress": "Si los aventureros solo tienen un sello de honor, se les entrega a cambio una pequeña cantidad de reputación con los Exiliados de Gnomeregan.$B$BPor favor, no olvides que es mejor entregarme una pila de diez sellos al mismo tiempo, tus esfuerzos se verán mejor recompensados. Permitimos el intercambio de un solo sello como servicio para aquellos que no pueden completar una pila de diez.$B$BDicho esto, ya puedo ayudarte si sigues queriendo entregar un solo sello.$BSello de mención de honor de la Alianza (1)",
+   "completion": "Muy bien, tus hazañas han sido registradas y tus esfuerzos han sido debidamente reconocidos. Sigue haciéndolo así, $C.$B$BSi tienes más sellos que entregar puedo seguir ayudándote.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8813": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8814": {
+   "name": "Un sello de honor",
+   "progress": "Si los aventureros solo tienen un sello de honor, se les entrega a cambio una pequeña cantidad de reputación con Ventormenta.$B$BPor favor, no olvides que es mejor entregarme una pila de diez sellos al mismo tiempo, tus esfuerzos se verán mejor recompensados. Permitimos el intercambio de un solo sello como servicio para aquellos que no pueden completar una pila de diez.$B$BDicho esto, ya puedo ayudarte si sigues queriendo entregar un solo sello.$BSello de mención de honor de la Alianza (1)",
+   "completion": "Muy bien, tus hazañas han sido registradas y tus esfuerzos han sido debidamente reconocidos. Sigue haciéndolo así, $C.$B$BSi tienes más sellos que entregar puedo seguir ayudándote.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8815": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8816": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8817": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8818": {
+   "name": "Un sello de honor",
+   "progress": "Si los aventureros solo tienen un sello de honor, se les entrega a cambio una pequeña cantidad de reputación con Cima del Trueno.$B$BPor favor, no olvides que es mejor entregarme una pila de diez sellos al mismo tiempo, tus esfuerzos se verán mejor recompensados. Permitimos el intercambio de un solo sello como servicio para aquellos que no pueden completar una pila de diez.$B$BDicho esto, ya puedo ayudarte si sigues queriendo entregar un solo sello.$BSello de honor de la Alianza (1)",
+   "completion": "Muy bien, tus hazañas han sido registradas y tus esfuerzos han sido debidamente reconocidos. Sigue haciéndolo así, $C.$B$BSi tienes más sellos que entregar puedo seguir ayudándote.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8819": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas en Darnassus. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto queda ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás listo para entregar un paquete.$BSello de mención de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8820": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas por los Exiliados de Gnomeregan. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto será ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás listo para entregar un paquete.$BSello de mención de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8821": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8822": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas en Ventormenta. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto será ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás lista para entregar un paquete.$BSello de mención de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8823": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8824": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8825": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas en Cima del Trueno. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto será ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás lista para entregar un paquete.$BSello de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8826": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8830": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8831": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8832": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8833": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8834": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8835": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8836": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8837": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8838": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8839": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8840": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8841": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas en Orgrimmar. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto será ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás lista para entregar un paquete.$BSello de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8842": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8843": {
+   "name": "Diez sellos de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8844": {
+   "name": "Un sello de honor",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8845": {
+   "name": "Diez sellos de honor",
+   "progress": "Acepto sellos de honor de los aventureros que los han conseguido cumpliendo con su deber. Por cada diez que me entregues me aseguraré de que tus hazañas sean reconocidas y admiradas por la tribu Lanza Negra. También acepto sellos de uno en uno, pero a cambio de un nivel mucho menor de reputación. Estamos mucho más interesados en las hazañas ligadas a un compromiso duradero... pero ningún acto será ignorado.$B$BDicho esto, me encantaría tener tus sellos si estás lista para entregar un paquete.$BSello de honor de la Alianza (10)",
+   "completion": "¡Excelente! El esfuerzo que has hecho para ganar estos sellos no es pequeño, y tus servicios serán debidamente reconocidos. Son los aventureros como tú, $N, los que marcan la diferencia.$B$BHazme saber si tienes más sellos que entregar. Será un placer ayudarte siempre que necesites hacer un intercambio.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8846": {
+   "name": "Cinco sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8847": {
+   "name": "Diez sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8848": {
+   "name": "Quince sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8849": {
+   "name": "Veinte sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8850": {
+   "name": "Treinta sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8851": {
+   "name": "Cinco sellos para los suministros bélicos",
+   "progress": "Ah, supongo que has venido a buscar más suministros, ¿verdad? Bueno, la verdad es que comprendo muy bien la necesidad de material adicional... echa un vistazo alrededor si quieres una prueba.$B$BTe proporcionaré más suministros pero a cambio tendrás que darme una cantidad oportuna de sellos de honor. No ganarás ningún reconocimiento si utilizas los sellos de esta forma pero el intercambio te ayudará a mantenerte con vida cuando entremos en batalla... algo que, sin duda, también encontrarás muy útil.$BSello de honor de la Alianza (5)",
+   "completion": "Muy bien, ya está hecho, aquí tienes tus suministros, $C. Si quisieras hacer algún otro intercambio, puedo autorizarlo. Sólo tienes que avisarme y se hará.$B$BSigue trabajando como hasta ahora, $N. Necesitaremos todo el material que podamos reunir si queremos ganar esto. Si todos hacemos nuestra parte ¡la victoria será nuestra!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8852": {
+   "name": "Diez sellos para los suministros bélicos",
+   "progress": "Ah, supongo que has venido a buscar más suministros, ¿verdad? Bueno, la verdad es que comprendo muy bien la necesidad de material adicional... echa un vistazo alrededor si quieres una prueba.$B$BTe proporcionaré más suministros pero a cambio tendrás que darme una cantidad oportuna de sellos de honor. No ganarás ningún reconocimiento si utilizas los sellos de esta forma pero el intercambio te ayudará a mantenerte con vida cuando entremos en batalla... algo que, sin duda, también encontrarás muy útil.$BSello de honor de la Alianza (10)",
+   "completion": "Muy bien, ya está hecho, aquí tienes tus suministros, $C. Si quisieras hacer algún otro intercambio, puedo autorizarlo. Sólo tienes que avisarme y se hará.$B$BSigue trabajando como hasta ahora, $N. Necesitaremos todo el material que podamos reunir si queremos ganar esto. Si todos hacemos nuestra parte ¡la victoria será nuestra!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8853": {
+   "name": "Quince sellos para los suministros bélicos",
+   "progress": "Ah, supongo que has venido a buscar más suministros, ¿verdad? Bueno, la verdad es que comprendo muy bien la necesidad de material adicional... echa un vistazo alrededor si quieres una prueba.$B$BTe proporcionaré más suministros pero a cambio tendrás que darme una cantidad oportuna de sellos de honor. No ganarás ningún reconocimiento si utilizas los sellos de esta forma pero el intercambio te ayudará a mantenerte con vida cuando entremos en batalla... algo que, sin duda, también encontrarás muy útil.$BSello de honor de la Alianza (15)",
+   "completion": "Muy bien, ya está hecho, aquí tienes tus suministros, $C. Si quisieras hacer algún otro intercambio, puedo autorizarlo. Sólo tienes que avisarme y se hará.$B$BSigue trabajando como hasta ahora, $N. Necesitaremos todo el material que podamos reunir si queremos ganar esto. Si todos hacemos nuestra parte ¡la victoria será nuestra!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8854": {
+   "name": "Veinte sellos para los suministros bélicos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8855": {
+   "name": "Treinta sellos para los suministros bélicos",
+   "progress": "Ah, supongo que has venido a buscar más suministros, ¿verdad? Bueno, la verdad es que comprendo muy bien la necesidad de material adicional... echa un vistazo alrededor si quieres una prueba.$B$BTe proporcionaré más suministros pero a cambio tendrás que darme una cantidad oportuna de sellos de honor. No ganarás ningún reconocimiento si utilizas los sellos de esta forma pero el intercambio te ayudará a mantenerte con vida cuando entremos en batalla... algo que, sin duda, también encontrarás muy útil.$BSello de honor de la Alianza (30)",
+   "completion": "Muy bien, ya está hecho, aquí tienes tus suministros, $C. Si quisieras hacer algún otro intercambio, puedo autorizarlo. Sólo tienes que avisarme y se hará.$B$BSigue trabajando como hasta ahora, $N. Necesitaremos todo el material que podamos reunir si queremos ganar esto. Si todos hacemos nuestra parte ¡la victoria será nuestra!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8856": {
+   "name": "Un kit de supervivencia en el desierto",
+   "objectivesText": [
+    "Lleva 4 globos de agua, 4 antídotos potentes y 4 salmones al horno a Calandrath, que está en la posada del Fuerte Cenarion, en Silithus."
+   ],
+   "details": "Con la llegada de reclutas frescos al Fuerte Cenarion llega también el problema de mantenerlos vivos en el desierto. Las innumerables criaturas venenosas que viven en él y la deshidratación son serias amenazas para los voluntarios poco experimentados. Reúne los suministros necesarios para un kit de supervivencia en el desierto y llévaselos a Calandrath al Fuerte Cenarion.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8862": {
+   "name": "Vela de Elune",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8863": {
+   "name": "Albóndigas festivas",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8864": {
+   "name": "Vestidos para el Festival Lunar",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8865": {
+   "name": "Trajes pantalón para el Festival Lunar",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8866": {
+   "name": "Barbabronce el Ancestro",
+   "completion": "Me alegra saber que la gente de estas tierras sigue prestando homenaje a las antiguas razas. Te deseo todo lo mejor, $N, y te ofrezco esta muestra...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8869": {
+   "name": "La dulce Serenidad",
+   "objectivesText": [
+    "Viaja a Stratholme y mata al Forjamartillos carmesí. Recupera el mandil del Forjamartillos carmesí y vuelve a Lilith."
+   ],
+   "details": "En los confines de El Bastión Escarlata se encuentra la dulce Serenidad. El Forjamartillos Escarlata protegerá su secreto con su vida. Derrótalo y tráeme su mandil. Si lo haces, te ayudaré a convertirte en <un forjador/una forjadora> de martillos.$B$BPero ten clara una cosa: una vez elegido el camino del forjador de martillos, los caminos de forjador de espadas y de forjador de hachas te quedarán vedados.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8876": {
+   "name": "Cohetes pequeños",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8877": {
+   "name": "Lanzador de fuegos artificiales",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8878": {
+   "name": "Patrones para las fiestas",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8879": {
+   "name": "Cohetes grandes",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8880": {
+   "name": "Tracas de cohetes",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8881": {
+   "name": "Tracas de cohetes grandes",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8882": {
+   "name": "Lanzatracas",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8893": {
+   "name": "El Superhuevomático",
+   "progress": "El Superhuevomático es uno de los últimos inventos de Curgle Saltamanivela. Se trata de una máquina impresionante.$B$BEl Superhuevomático chisporrotea cuando te acercas al panel de control.$BHuevo de hipogrifo (1)",
+   "completion": "Colocas el huevo de hipogrifo en la máquina. Se oyen una serie de pitidos y de ruidos mecánicos extraños.$B$BParece que el Superhuevomático ha pesado, medido y empaquetado el huevo. ¡Eso sí que es un servicio rápido!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8981": {
+   "name": "Ofrecer regalos",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8993": {
+   "name": "Ofrecer regalos",
+   "progress": "¿Has venido a presentar tus respetos con un presente para tu líder?$BColección de obsequios de la Alianza (1)",
+   "completion": "¡Magnífico! Lo pondré con los demás regalos.$B$B¡No esperaba tantos! Desde luego, sabéis cómo honrar a los jefes.$B$BBueno, uno más para la lista...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9029": {
+   "name": "Un caldero burbujeante",
+   "completion": "Del caldero emana un aroma agradable.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9094": {
+   "name": "Guantes del Alba Argenta",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9125": {
+   "name": "Piezas de mefisto de la cripta",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9127": {
+   "name": "Fragmentos de hueso",
+   "progress": "Con este oficio, nunca tengo demasiados fragmentos de hueso, $N. Siempre que tengas fragmentos de más, tráemelos y te recompensaré con otra insignia.$BFragmentos de huesos (30)",
+   "completion": "¡Dentro de poco haré realidad mi sueño de convertirme en miembro del cuerpo de baile de la discoteca de Gadgetzan! Sigue trabajando así, $N.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9129": {
+   "name": "Núcleo de elementos",
+   "progress": "A decir verdad, uso los núcleos para crear armaduras Escarchafuego. Es el tipo de armadura que llevan los magos que combaten en Naxxramas. Sin tu ayuda y la de otros como tú, estaríamos perdiendo esta guerra, con toda seguridad.$B$BUna vez dicho eso... Tráeme más núcleos y te daré más insignias.$BNúcleo de elementos (30)",
+   "completion": "Nos brindas un gran servicio, $N. ¡Bien hecho!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9132": {
+   "name": "Fragmentos de hierro negro",
+   "progress": "Por cada brazada de restos que me traigas, te daré una insignia. Cuantos más restos traigas, mejor. Y ahora, fuera de mi vista, ¡antes de que te parta en dos!$BSobras Hierro Negro (30)",
+   "completion": "¿Eso es todo lo que me has traído? Creo que no me escuchaste con atención. ¡Necesito MÁS!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9137": {
+   "name": "Hoja salvajes",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9259": {
+   "name": "Un traidor de Velasangre",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9266": {
+   "name": "Enmendar los errores",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9267": {
+   "name": "Curar viejas heridas",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9268": {
+   "name": "Guerra en el mar",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9272": {
+   "name": "Vístete como tal",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9317": {
+   "name": "Piedras de afilar consagradas",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9318": {
+   "name": "Aceite bendito de zahorí",
+   "progress": "A cambio de las runas necróticas de la Plaga, Alba Argenta te ofrece 2 viales de aceite bendito de zahorí.$BRuna necrótica (8)",
+   "completion": "Espero que te ayuden en batallas futuras.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9320": {
+   "name": "Poción sublime de maná",
+   "progress": "Además del resto de suministros, disponemos de pociones de maná superiores. Te daré una si me traes 8 runas necróticas.$BRuna necrótica (15)",
+   "completion": "Aquí tienes, $N. Ten cuidado; no somos tantos que podamos permitirnos más bajas.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9321": {
+   "name": "Poción sublime de curación",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9333": {
+   "name": "Guantes del Alba Argenta",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9334": {
+   "name": "Aceite bendito de zahorí",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9335": {
+   "name": "Piedras de afilar consagradas",
+   "progress": "Si me traes 8 runas necróticas de la Plaga, te daré un par de piedras de afilar consagradas. Te ayudarán en tu lucha contra los esbirros del rey Exánime.$BRuna necrótica (8)",
+   "completion": "Gracias, $N. Aquí tienes las piedras de afilar consagradas; úsalas con prudencia.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9336": {
+   "name": "Poción sublime de curación",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9337": {
+   "name": "Poción sublime de maná",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9338": {
+   "name": "Lealtad al Círculo Cenarion",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9341": {
+   "name": "Tabardo del Alba Argenta",
+   "progress": "Has contribuido mucho a nuestra causa, $N. Si lo deseas, te daré el tabardo de Alba Argenta. Nos enorgullece contar contigo.$BRuna necrótica (10)",
+   "completion": "Lleva este tabardo con orgullo. Puede al verte haya quien decida tomar las armas y ayudarnos a luchar contra la Peste.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9343": {
+   "name": "Tabardo del Alba Argenta",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9378": {
+   "notFound": true,
+   "fetched": "2026-10-07",
+   "v": 2
   }
  }
 }

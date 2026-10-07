@@ -3891,6 +3891,707 @@
    "completion": "Your rise amongst the rank of the Brood is most impressive, $N. May you never stray from the path of the conqueror!",
    "fetched": "2026-10-05",
    "v": 2
+  },
+  "8755": {
+   "name": "The Path of the Conqueror",
+   "progress": "Dedication of this magnitude is a rarity. You have shown that your will is unfaltering, $N. You shall be greatly rewarded for your stalwart watch over our world.$B$BHand me your signet ring so that I may strengthen its enchantment.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Your rise amongst the rank of the Brood is most impressive, $N. May you never stray from the path of the conqueror!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8756": {
+   "name": "The Qiraji Conqueror",
+   "progress": "Never have I seen such tenacity! The Bronze Flight grants you one final enchantment. The Timeless One himself has requested it so!$B$BHand me your signet ring so that I may make the necessary adjustments.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Rise, Qiraji Conqueror! Rise and be recognized!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8757": {
+   "name": "The Path of the Invoker",
+   "completion": "Impressive, little one. You have gone through much trouble to gain the favor of the Bronze Flight. Your dedication is noted.$B$BThe signet ring of the invoker will greatly enhance your magical and natural abilities.$B$BBe warned, once you have chosen your path, you will have no recourse should you change your mind.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8758": {
+   "name": "The Path of the Invoker",
+   "progress": "Your continued defense of the children of Kalimdor has been acknowledged. Hand me your signet ring so that I may enhance its powers.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Your rise amongst the rank of the Brood is most impressive, $N. May you never stray from the path of the invoker!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8759": {
+   "name": "The Path of the Invoker",
+   "progress": "You honor my kind, $N. Strike down the enemies of Kalimdor! Show them what it means to deface the land of eternal starlight.$B$BYou have earned another enhancement. Hand me your signet ring so that I may bolster its power.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Your rise amongst the rank of the Brood is most impressive, $N. May you never stray from the path of the invoker!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8760": {
+   "name": "The Path of the Invoker",
+   "progress": "Dedication of this magnitude is a rarity. You have shown that your will is unfaltering, $N. You shall be greatly rewarded for your stalwart watch over our world.$B$BHand me your signet ring so that I may strengthen its enchantment.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Your rise amongst the rank of the Brood is most impressive, $N. May you never stray from the path of the invoker!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8761": {
+   "name": "The Grand Invoker",
+   "progress": "Never have I seen such tenacity! The Bronze Flight grants you one final enchantment. The Timeless One himself has requested it so!$B$BHand me your signet ring so that I may make the necessary adjustments.$BSignet Ring of the Bronze Dragonflight (1)",
+   "completion": "Rise, Grand Invoker! Rise and be recognized!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8764": {
+   "name": "The Changing of Paths - Protector No More",
+   "progress": "Champion, should you decide to walk another path, present me with your signet ring and a mountain of scarabs from our enemies in Ahn'Qiraj.$BSignet Ring of the Bronze Dragonflight (1)$BStone Scarab (15)$BGold Scarab (15)$BSilver Scarab (15)",
+   "completion": "Be well, $N. If you change your mind, I shall be here to assist you.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8765": {
+   "name": "The Changing of Paths - Invoker No More",
+   "progress": "Champion, should you decide to walk another path, present me with your signet ring and a mountain of scarabs from our enemies in Ahn'Qiraj.$BSignet Ring of the Bronze Dragonflight (1)$BBronze Scarab (15)$BCrystal Scarab (15)$BClay Scarab (15)",
+   "completion": "Be well, $N. If you change your mind, I shall be here to assist you.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8766": {
+   "name": "The Changing of Paths - Conqueror No More",
+   "progress": "Champion, should you decide to walk another path, present me with your signet ring and a mountain of scarabs from our enemies in Ahn'Qiraj.$BSignet Ring of the Bronze Dragonflight (1)$BBone Scarab (15)$BIvory Scarab (15)$BStone Scarab (15)",
+   "completion": "Be well, $N. If you change your mind, I shall be here to assist you.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8767": {
+   "name": "A Gently Shaken Gift",
+   "completion": "This present looks like it has been shaken a few times. The tag on it reads:$B$BTo a very special $R $C.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8768": {
+   "name": "A Gaily Wrapped Present",
+   "completion": "This festively-wrapped present has your name on it.$B$BWait, did it just move?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8769": {
+   "name": "A Ticking Present",
+   "completion": "Have a joyous Feast of Great-Winter from your friends at Smokeywood Pastures.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8788": {
+   "name": "A Gently Shaken Gift",
+   "completion": "This present looks like it has been shaken a few times. The tag on it reads:$B$BTo a very special $R $C.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8798": {
+   "name": "A Yeti of Your Own",
+   "completion": "Say! You know what?! You're an engineer too! So, since you helped me teach my friends a lesson, I'm going to teach you how to make your very own mechanical yeti! Now the fun can go on forever and ever, and you can scare whoever you want! Provided that you can scare up the components to make it that is.$B$BWhat do you say, $N? Do you want to learn the secret to making a mechanical yeti?",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8803": {
+   "name": "A Festive Gift",
+   "completion": "The note on this present reads:$B$BTo $N,$B$BIn hoping this will help you spread warm tidings and holiday cheer to all of Azeroth.$B$BFrom Greatfather Winter",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8811": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Darnassus.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8812": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Gnomeregan Exiles.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8813": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Ironforge.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8814": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Stormwind.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8815": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Orgrimmar.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8816": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Darkspear tribe.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8817": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Undercity.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8818": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Thunder Bluff.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8819": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Darnassus. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8820": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with the Gnomeregan Exiles. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8821": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Ironforge. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8822": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Stormwind. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8823": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Orgrimmar. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8824": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with the Darkspear tribe. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8825": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Thunder Bluff. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8826": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Undercity. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8830": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Darnassus.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8831": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Darnassus. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8832": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Undercity.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8833": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Undercity. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8834": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Ironforge.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8835": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Ironforge. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8836": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Stormwind.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8837": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Stormwind. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8838": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Gnomeregan Exiles.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BAlliance Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8839": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with the Gnomeregan Exiles. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BAlliance Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8840": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Orgrimmar.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8841": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Orgrimmar. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8842": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with Thunder Bluff.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8843": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with Thunder Bluff. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8844": {
+   "name": "One Commendation Signet",
+   "progress": "For those adventurers who have but a single commendation signet, I'll exchange it for a small amount of recognition with the Darkspear tribe.$B$BPlease bear in mind that it is better to hand over a stack of ten signets at once; your efforts will receive greater recognition in doing so. We offer a single signet exchange as a service for those who don't have enough for a full stack of ten.$B$BWith that being said, I stand ready to assist you if you still wish to hand in a single signet.$BHorde Commendation Signet (1)",
+   "completion": "Very well - your deeds have been entered into the records, and you are duly recognized for your efforts. Keep up the good work, $C.$B$BIf you have any more signets to hand in, then I am able to assist you further in that regard.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8845": {
+   "name": "Ten Commendation Signets",
+   "progress": "I accept commendation signets from adventurers who have received them in the line of duty. For each set of ten that you hand to me, I'll make sure that you receive a significant acknowledgement of your deeds with the Darkspear tribe. I also accept single tokens, but at a much reduced rate of recognition. We are much more interested in greater feats of duty, though no feat will be ignored.$B$BWith that said, I'll gladly take your signets if you are ready to hand in a set.$BHorde Commendation Signet (10)",
+   "completion": "Excellent! It is no small sacrifice that you've made to earn these signets, and you will be acknowledged for your service appropriately. It's adventurers like you, $N, that truly make a difference.$B$BLet me know if you have additional signets to hand in; I'll gladly help you out with whatever ones you need exchanged.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8846": {
+   "name": "Five Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BAlliance Commendation Signet (5)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8847": {
+   "name": "Ten Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BAlliance Commendation Signet (10)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8848": {
+   "name": "Fifteen Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BAlliance Commendation Signet (15)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8849": {
+   "name": "Twenty Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BAlliance Commendation Signet (20)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8850": {
+   "name": "Thirty Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BAlliance Commendation Signet (30)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8851": {
+   "name": "Five Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BHorde Commendation Signet (5)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8852": {
+   "name": "Ten Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BHorde Commendation Signet (10)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8853": {
+   "name": "Fifteen Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BHorde Commendation Signet (15)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8854": {
+   "name": "Twenty Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BHorde Commendation Signet (20)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8855": {
+   "name": "Thirty Signets for War Supplies",
+   "progress": "Ah, here for additional supplies for yourself, are you? Well, I can certainly understand the need for additional materiel... just take a look around if you need any proof.$B$BI'll issue you some additional supplies, but you'll need to give me an appropriate number of commendation signets in exchange. You won't receive any recognition for surrendering the signets in this manner, but you might find something useful that will help keep you alive when battle is finally upon us.$BHorde Commendation Signet (30)",
+   "completion": "Well then, it's settled; here are your supplies, $C. If you wish to do an additional exchange, then I am prepared to authorize it. Just give me the word and I'll make it happen.$B$BKeep up the good work, $N. We need all the materiel we can muster if we're going to win this thing. If we all do our part, then victory shall be ours for the taking!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8862": {
+   "name": "Elune's Candle",
+   "progress": "Elune's candle is an artifact of great reverence to the disciples of the Lunar Festival. Stored within the candle is true moonlight, ready to be unleashed!$B$BThis light is harmless to most creatures, but you will find that Omen and his minions are burned and dazzled by it.$BCoin of Ancestry (5)",
+   "completion": "Very well then - I accept these coins of ancestry. Please take Elune's candle with my blessing. Also, please enjoy these complimentary fireworks.$B$BMay your Lunar Festival be joyous and filled with merriment, $N.$B$BAnd if you choose to face Omen and his minions, you will find Elune's candle quite useful...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8863": {
+   "name": "Festival Dumplings",
+   "progress": "If you are hungry, then you have come to the right place my friend!$B$BDumplings are the traditional food of the Lunar Festival; it has been served since the time of the first Lunar Festival, and I am pleased to be able to offer it at this one. In exchange for just a single coin of ancestry, I will share with you a sampling of one of the tastiest dishes you will ever enjoy!$BCoin of Ancestry (1)",
+   "completion": "Excellent - please enjoy these dumplings with my compliments. While they are but a small token of appreciation for the honor you have brought upon yourself through your actions, I think you will enjoy them all the same.$B$BShould you have any more coins of ancestry, I stand ready to offer you a wide array of items in exchange.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8864": {
+   "name": "Festive Lunar Dresses",
+   "progress": "I have a selection of dresses that may be of interest to you. Such dresses have been worn in times past during the Lunar Festival, and the selection I have today is perhaps the finest I have ever seen. Each is hand-crafted with only the finest and softest of components.$B$BIn exchange for some coins of ancestry, I will let you choose one of the three styles I have to keep as your own. Is this acceptable to you?$BCoin of Ancestry (5)",
+   "completion": "Very well then - I accept these coins of ancestry. Please take your dress with my blessing. Also, please enjoy these complimentary fireworks.$B$BAs you have honored your elders, you honor me with your mere presence. Thank you, and may your Lunar Festival be joyous.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8865": {
+   "name": "Festive Lunar Pant Suits",
+   "progress": "I am please to inform you that I have a fine selection of festive pant suits available for you to own... but only in trade for coins of ancestry. If fashion is important to you, then these are what you're looking for! I assure you that you will not find pant suits like these anywhere else.$B$BIn exchange for some coins of ancestry, I will let you choose one of the three styles I have to keep as your own. Is this acceptable to you?$BCoin of Ancestry (5)",
+   "completion": "Very well then - I accept these coins of ancestry. Please take your pant suit with my blessing. Also, please enjoy these complimentary fireworks.$B$BShould you have more coins of ancestry to trade, then speak with me again. I will be offering various items throughout the entirety of the Lunar Festival.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8866": {
+   "name": "Bronzebeard the Elder",
+   "completion": "It is good to know the people of this land still pay homage to the olden races. I bid you well, $N, and offer you this token...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8876": {
+   "name": "Small Rockets",
+   "progress": "I hold the secrets to creating Lunar Festival rockets, and I am happy to share my knowledge with the honored.$B$BIn exchange for coins of ancestry, I can offer you the recipe to make a small rocket...$BCoin of Ancestry (5)",
+   "completion": "Ah, very well. Here are your recipes, $N, and my Elune bless you.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8877": {
+   "name": "Firework Launcher",
+   "progress": "Although rockets are a wonderful way to celebrate, in order to see their glory... they must be fired from a launcher.$B$BBring me coins of ancestry and I can offer you the knowledge to create rocket launchers like the ones you see in Moonglade.$BCoin of Ancestry (5)",
+   "completion": "Here you are, $N. Here is the schematic to create a firework launcher. Place launchers where you wish to celebrate, and then welcome your friends to join you!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8878": {
+   "name": "Festive Recipes",
+   "progress": "The dresses and pant suits you see are traditional clothes from many years past. They are worn in honor of old ways and loved ones gone.$B$BIf you bring me coins of ancestry, $N, then I will give you the pattern to create traditional red dresses or suits.$BCoin of Ancestry (5)",
+   "completion": "Here are the patterns, $N. I am sure you will find the product of this knowledge quite beautiful.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8879": {
+   "name": "Large Rockets",
+   "progress": "Large Festival rockets light up the sky brilliantly - only the cluster rockets rival their magnificence!$B$BBring me coins of ancestry, $N, and I shall share the knowledge of their creation.$BCoin of Ancestry (5)",
+   "completion": "Very well - I accept these coins of ancestry. Here are your recipes, $N. May you use them to spread Elune's glory!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8880": {
+   "name": "Cluster Rockets",
+   "progress": "Cluster rockets are a collection of individual rockets, and their beauty is awesome! Bring me coins of ancestry and I will share the knowledge of their creation to you...$BCoin of Ancestry (5)",
+   "completion": "Here you are, $N. Take these recipes and learn their secrets. I bid you fortune, and I look forward to seeing your magnificent creations.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8881": {
+   "name": "Large Cluster Rockets",
+   "progress": "Large cluster rockets require vast resources and skill to create, but their brilliance and beauty is worth that effort! Bring me coins of ancestry and I will grant you the knowledge of their crafting.$BCoin of Ancestry (5)",
+   "completion": "Thank you, $N. Here is the recipe for large cluster rockets. May your products bring joy and luck to all those who gaze up them.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8882": {
+   "name": "Cluster Launcher",
+   "progress": "The most splendid fireworks shows must include cluster rockets, and those cluster rockets must be fired from cluster launchers! Is it not then logical for you to learn the secrets of making cluster launchers? Bring me coins of ancestry and I will give this knowledge to you.$BCoin of Ancestry (5)",
+   "completion": "Here is your schematic. Study it closely, and learn...$B$BGood luck, $N. May your celebrations rival that of the Lunar Festival itself!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8893": {
+   "name": "The Super Egg-O-Matic",
+   "progress": "The Super Egg-O-Matic is the latest of Curgle Cranklehop's inventions. It is quite an impressive piece of machinery.$B$BThe Super Egg-O-Matic sputters wildly as you approach the control panel.$BHippogryph Egg (1)",
+   "completion": "You place the hippogryph egg into the machine. A series of beeps follows along with some strange mechanical sounds.$B$BIt appears that the Eggometer has weighed, measured, and packaged your egg. Now that's speedy service!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8981": {
+   "name": "Gift Giving",
+   "progress": "Have you come to deliver a present of love and adoration to your favorite leader?$BHorde Gift Collection (1)",
+   "completion": "Wonderful! Wonderful! I will add this to the pile of other gifts.$B$BI didn't expect so many! You must truly love your leaders.$B$BNow, let me just add one more to the count...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "8993": {
+   "name": "Gift Giving",
+   "progress": "Have you come to deliver a present of love and adoration to your favorite leader?$BAlliance Gift Collection (1)",
+   "completion": "Wonderful! Wonderful! I will add this to the pile of other gifts.$B$BI didn't expect so many! You must truly love your leaders.$B$BNow, let me just add one more to the count...",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9029": {
+   "name": "A Bubbling Cauldron",
+   "completion": "A pleasant smell wafts up from the cauldron.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9094": {
+   "name": "Argent Dawn Gloves",
+   "progress": "If you bring me thirty necrotic runes, I will give you your choice of hand protection in return. These should prove valuable in our fight against the undead Scourge.$BNecrotic Rune (30)",
+   "completion": "You've done well, $N. Take your pick of hand protection in thanks for your efforts.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9125": {
+   "name": "Crypt Fiend Parts",
+   "progress": "You did an exemplary job on the first bundle, $N. If you have more, I will take them now. For every bundle that you turn in, I will reward you with another insignia.$BCrypt Fiend Parts (30)",
+   "completion": "Most excellent, $N! These will definitely come to good use.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9127": {
+   "name": "Bone Fragments",
+   "progress": "A man in my line of work can never have too many bone fragments, $N. Whenever you have a surplus of fragments, bring them to me and I'll reward you with another insignia.$BBone Fragments (30)",
+   "completion": "My dream of becoming a full-time dancer at the Gadgetzan disco is soon to become a reality! Keep up the good work, $N.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9129": {
+   "name": "Core of Elements",
+   "progress": "Truth be told, I use the cores to create Frostfire armor. It is the armor used by the mages battling in Naxxramas. Without you and others like you, we would most definitely be losing this war.$B$BWith that said, bring me more cores and I shall grant you more insignias.$BCore of Elements (30)",
+   "completion": "You perform a great service for us, $N. Well done!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9132": {
+   "name": "Dark Iron Scraps",
+   "progress": "For every armful of the scraps, I'll give you an insignia - the more the better. Now get out of my sight before I split you in two!$BDark Iron Scraps (30)",
+   "completion": "That's all you brought me? Maybe you didn't hear me the first time. I need MORE!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9137": {
+   "name": "Savage Fronds",
+   "progress": "For every bundle of fronds that you deliver to me, I will pay you with your choice of an insignia of the Dawn or the Crusade.$B$BInsignias may be turned in to the Quartermaster for various rewards.$BSavage Frond (30)",
+   "completion": "Thank you, $N. Your work is vital to the success of our campaign against the Scourge.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9142": {
+   "name": "Craftsman's Writ",
+   "progress": "You know the drill, kid. One valor token gets you a craftsman's writ.$BArgent Dawn Valor Token (1)",
+   "completion": "You earned this, scrub. Now, don't cry about your orders. Fill 'em or destroy 'em.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9259": {
+   "name": "Traitor to the Bloodsail",
+   "progress": "That mangy dog, Revilgaz, has offered to pardon any former Bloodsails willing to turn on their cap'n! That bilge sucker asked me to go an' off me ole' mates and to bring back their bandannas as proof.$B$BI don't have it in me heart to do that, nor will I ask ye to. Bring me some silk cloth and red dye and I'll make suitable replicas. I'll tell the Baron you went turncoat, but be warned... the Bloodsails are not gonna like it!$BSilk Cloth (40)$BRed Dye (4)",
+   "completion": "Let us observe a minute of silence for our fallen mates, $N.$B$BBeing a traitor is one thing, murdering yer own buckos... that'd be just downright despicable, aye!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9266": {
+   "name": "Making Amends",
+   "progress": "You must've done something really bad to us or our friends, $N. At any rate, I'm here to offer you a way to get our good graces back.$B$BAs you know, Winterspring is quite cold. With so many of us goblins coming from other cities, we could use a hand keeping warm. Bring me some runecloth and coal and I'll put in the good word for ya. Be warned though, our enemies are not going to take kindly to your helping us.$BRunecloth (40)$BCoal (4)",
+   "completion": "Thank you, $N. You're on a quick path to redeeming yourself with our fair town.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9267": {
+   "name": "Mending Old Wounds",
+   "progress": "You'd better think twice before setting foot in Ratchet, $N! Word's been getting around of your dirty deeds.$B$BYou're in luck though, a ship just arrived with many wounded from an encounter with the Bloodsail Buccaneers. This is your chance to prove you're not a complete scoundrel. Lend us a hand by bringing linen cloth for bandages and empty vials for potions.$BLinen Cloth (40)$BEmpty Vial (4)",
+   "completion": "I'm happy you're seeing the error of your ways, $N. Keep the supplies coming; we're not going to forget about you so easily, mister!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9268": {
+   "name": "War at Sea",
+   "progress": "You seek to befriend the goblins of Tanaris once again, $N? We're in need of materials for sails and guns to fight off our old enemies, the Bloodsail Buccaneers. Bring me mageweave and strong flux and we'll be on our way to pardoning your trespasses.$BMageweave Cloth (40)$BStrong Flux (4)",
+   "completion": "Keep it coming, $N. Us goblins don't forget that easily!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9272": {
+   "name": "Dressing the Part",
+   "completion": "Yarrr... if ye be keen on enjoying the company of us experienced sea dogs, you'd best belay dressing like a blaggard! Here, put on something proper 'fore I keelhaul yer hide.$B$BThese'll fit ye better than they ever fit that old dog, Red-Eyed Ben. Lost him in a devil of a storm at sea.$B$BWear 'em with pride, mate!",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9317": {
+   "name": "Consecrated Sharpening Stones",
+   "progress": "If you bring me eight necrotic runes from the Scourge invaders, I can give you a consecrated sharpening stone. It should be of great help in your battle against the minions of the Lich King.$BNecrotic Rune (8)",
+   "completion": "Thank you, $N. Here are your consecrated sharpening stones. Use them prudently.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9318": {
+   "name": "Blessed Wizard Oil",
+   "progress": "In exchange for the necrotic runes of the Scourge invaders, the Argent Dawn will give you one vial of blessed wizard oil.$BNecrotic Rune (8)",
+   "completion": "I hope that you will find these items useful in future battles.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9320": {
+   "name": "Major Mana Potion",
+   "progress": "In addition to our other supplies, we also have a number of major mana potions you may find useful. I will give you one in exchange for fifteen necrotic runes.$BNecrotic Rune (15)",
+   "completion": "Here you are, $N. Be careful out there. Our numbers are not so large we can afford many battlefield casualties.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9321": {
+   "name": "Major Healing Potion",
+   "progress": "In addition to our other supplies, we also have a number of major healing potions you may find useful. I will give you one in exchange for fifteen necrotic runes.$BNecrotic Rune (15)",
+   "completion": "Here you are, $N. Be careful out there. Our numbers are not so large we can afford many battlefield casualties.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9333": {
+   "name": "Argent Dawn Gloves",
+   "progress": "If you bring me thirty necrotic runes, I will give you your choice of hand protection in return. These should prove valuable in our fight against the undead Scourge.$BNecrotic Rune (30)",
+   "completion": "You've done well, $N. Take your pick of hand protection in thanks for your efforts.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9334": {
+   "name": "Blessed Wizard Oil",
+   "progress": "In exchange for the necrotic runes of the Scourge invaders, the Argent Dawn will give you one vial of blessed wizard oil.$BNecrotic Rune (8)",
+   "completion": "I hope that you will find these items useful in future battles.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9335": {
+   "name": "Consecrated Sharpening Stones",
+   "progress": "If you bring me eight necrotic runes from the Scourge invaders, I can give you a consecrated sharpening stone. It should be of great help in your battle against the minions of the Lich King.$BNecrotic Rune (8)",
+   "completion": "Thank you, $N. Here are your consecrated sharpening stones. Use them prudently.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9336": {
+   "name": "Major Healing Potion",
+   "progress": "In addition to our other supplies, we also have a number of major healing potions you may find useful. I will give you one in exchange for fifteen necrotic runes.$BNecrotic Rune (15)",
+   "completion": "Here you are, $N. Be careful out there. Our numbers are not so large we can afford many battlefield casualties.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9337": {
+   "name": "Major Mana Potion",
+   "progress": "In addition to our other supplies, we also have a number of major mana potions you may find useful. I will give you one in exchange for fifteen necrotic runes.$BNecrotic Rune (15)",
+   "completion": "Here you are, $N. Be careful out there. Our numbers are not so large we can afford many battlefield casualties.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9338": {
+   "name": "Allegiance to Cenarion Circle",
+   "progress": "Even if you have no need for the material rewards we offer, these badges still mark our mutual trust and friendship.$B$BBring them to me. I'll make due note of your service should your performance go above and beyond the call of duty.$BCenarion Combat Badge (1)$BCenarion Logistics Badge (1)$BCenarion Tactical Badge (1)",
+   "completion": "You honor us, $N. With your continued efforts we will overcome all obstacles.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9339": {
+   "name": "A Thief's Reward",
+   "objectivesText": [
+    "Return the Flame of Stormwind to (NAME)."
+   ],
+   "details": "This flame, stolen from the heart of Stormwind itself, floods you with warmth. This raw power is foreign to you, but the (NAME) might know more...",
+   "completion": "You've proven yourself today, $N.$B$BWhile I have little else to give you, I do have this crown; a fitting gift for a conqueror. May it light your way.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9341": {
+   "name": "Tabard of the Argent Dawn",
+   "progress": "You have aided our cause greatly, $N. If you wish, I can make available the tabard of the Argent Dawn. We are proud to have you among our allies.$BNecrotic Rune (10)",
+   "completion": "Take this tabard and wear it proudly. Perhaps your deeds might inspire others to take up arms in support of our fight against the Scourge.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9343": {
+   "name": "Tabard of the Argent Dawn",
+   "progress": "You have aided our cause greatly, $N. If you wish, I can make available the tabard of the Argent Dawn. We are proud to have you among our allies.$BNecrotic Rune (10)",
+   "completion": "Take this tabard and wear it proudly. Perhaps your deeds might inspire others to take up arms in support of our fight against the Scourge.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9365": {
+   "name": "A Thief's Reward",
+   "objectivesText": [
+    "Return the Flame of Stormwind to (NAME)."
+   ],
+   "details": "This flame, stolen from the heart of Stormwind itself, floods you with warmth. This raw power is foreign to you, but the (NAME) might know more...",
+   "completion": "You've proven yourself today, $N.$B$BWhile I have little else to give you, I do have this crown; a fitting gift for a conqueror. May it light your way.",
+   "fetched": "2026-10-07",
+   "v": 2
+  },
+  "9378": {
+   "notFound": true,
+   "fetched": "2026-10-07",
+   "v": 2
   }
  }
 }
