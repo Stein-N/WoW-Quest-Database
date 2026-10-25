@@ -1,8 +1,8 @@
 {
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
-    "date": "2026-10-01",
-    "subject": "Merge pull request #54 from Questie/forever-trace-corrections"
+    "commit": "5c094f6e9a264f0dc54e2fde9731a37a97ed197c",
+    "date": "2026-10-25",
+    "subject": "Quest fixes"
   },
   "vmangos": {
     "snapshot": "db-sqlite-4641790",
